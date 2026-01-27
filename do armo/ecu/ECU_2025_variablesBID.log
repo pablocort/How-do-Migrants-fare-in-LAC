@@ -1,0 +1,159 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  \\sapidbshares.file.core.windows.net\idbshares\SURVEYS\harmonized\ECU\ENEMDU\log\ECU_2025_variablesBID.log
+  log type:  text
+ opened on:  26 Jan 2026, 14:56:46
+
+. 
+. /****************************************************************************
+>    II. Unir módulos en una sola base
+> *****************************************************************************/
+. 
+. * Base de hogares
+. use "`base_in'\enemdu_vivienda_hogar_2025_12.dta", clear
+
+. duplicates report id_vivienda id_hogar 
+
+Duplicates in terms of id_vivienda id_hogar
+
+--------------------------------------
+   Copies | Observations       Surplus
+----------+---------------------------
+        1 |         8748             0
+--------------------------------------
+
+. /*--------------------------------------
+>    Copies | Observations       Surplus
+> ----------+---------------------------
+>         1 |        8748             0
+> --------------------------------------*/
+. 
+. * Sort de base
+. 
+. use "`base_in'\enemdu_persona_2025_12.dta", clear
+
+. duplicates report id_vivienda id_hogar id_persona
+
+Duplicates in terms of id_vivienda id_hogar id_persona
+
+--------------------------------------
+   Copies | Observations       Surplus
+----------+---------------------------
+        1 |        27808             0
+--------------------------------------
+
+. /*
+> --------------------------------------
+>    Copies | Observations       Surplus
+> ----------+---------------------------
+>         1 |        27880             0
+> --------------------------------------*/
+. tostring ciudad, replace
+ciudad was long now str6
+
+. 
+. merge m:1 id_vivienda id_hogar  using "`base_in'\enemdu_vivienda_hogar_2025_12.dta"
+(label labels0 already defined)
+(label labels5 already defined)
+(label labels6 already defined)
+(label labels7 already defined)
+(label labels8 already defined)
+(label labels9 already defined)
+(label labels10 already defined)
+(label labels11 already defined)
+(label labels12 already defined)
+(label labels13 already defined)
+(label labels14 already defined)
+(label labels15 already defined)
+(label labels16 already defined)
+(label labels17 already defined)
+(label labels18 already defined)
+(label labels19 already defined)
+(label labels20 already defined)
+(label labels21 already defined)
+(label labels22 already defined)
+(label labels23 already defined)
+(label labels24 already defined)
+(label labels25 already defined)
+(label labels26 already defined)
+(label labels27 already defined)
+(label labels28 already defined)
+(label labels29 already defined)
+(label labels30 already defined)
+(label labels31 already defined)
+(label labels32 already defined)
+(label labels33 already defined)
+(label labels34 already defined)
+(label labels35 already defined)
+(label labels36 already defined)
+(label labels37 already defined)
+(label labels38 already defined)
+(label labels39 already defined)
+(label labels40 already defined)
+(label labels41 already defined)
+(label labels42 already defined)
+(label labels43 already defined)
+(label labels44 already defined)
+(label labels45 already defined)
+(label labels46 already defined)
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                             0
+    Matched                            27,808  (_merge==3)
+    -----------------------------------------
+
+. 
+. /****************************************************************************
+>   III. Verificar que merge se haya hecho correctamente y no hayan duplicados
+> *****************************************************************************/
+. tab _merge
+
+   Matching result from |
+                  merge |      Freq.     Percent        Cum.
+------------------------+-----------------------------------
+            Matched (3) |     27,808      100.00      100.00
+------------------------+-----------------------------------
+                  Total |     27,808      100.00
+
+. drop if _merge <3
+(0 observations deleted)
+
+. drop _merge
+
+. 
+. duplicates report id_vivienda id_hogar id_persona
+
+Duplicates in terms of id_vivienda id_hogar id_persona
+
+--------------------------------------
+   Copies | Observations       Surplus
+----------+---------------------------
+        1 |        27808             0
+--------------------------------------
+
+. /*
+> --------------------------------------
+>    Copies | Observations       Surplus
+> ----------+---------------------------
+>         1 |        27880             0
+> --------------------------------------*/
+. 
+. /***************************************************************************
+>   IV. Guardar la base
+> ****************************************************************************/
+. compress
+  (0 bytes saved)
+
+. 
+. save "`base_out'", replace
+(file \\sapidbshares.file.core.windows.net\idbshares\SURVEYS\survey\ECU\ENEMDU\2025\m12\\data_merge\ECU_2025m12.dta not found)
+file \\sapidbshares.file.core.windows.net\idbshares\SURVEYS\survey\ECU\ENEMDU\2025\m12\\data_merge\ECU_2025m12.dta saved
+
+. 
+. log close
+      name:  <unnamed>
+       log:  \\sapidbshares.file.core.windows.net\idbshares\SURVEYS\harmonized\ECU\ENEMDU\log\ECU_2025_variablesBID.log
+  log type:  text
+ closed on:  26 Jan 2026, 14:56:52
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
