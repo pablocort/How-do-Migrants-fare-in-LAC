@@ -55,7 +55,8 @@ How-do-Migrants-fare-in-LAC/
 1. Choose scope          → country + period(s)
 2. Check inputs          → raw data, merge .do, variables .do, lookup files
 3. Select reference codes → migration, education, labor, ID coding decisions (document them)
-4. Prepare metadata      → fill inputs/survey_metadata_template.md
+4. Prepare metadata      → fill inputs/survey_metadata_template.md → saves as inputs/[ISO3]_[PERIOD]_metadata.md
+4.5. Dictionary check   → run Stata verification on new wave's raw .dta; document variable changes → saves as inputs/[ISO3]_dictionary_check_[PERIODS].md (required for cloned scripts; skip for new surveys)
 5. Map variables         → use agent: survey_mapper (calls skill modules)
 6. Generate Stata script → use agent: stata_generator (new survey) OR clone+edit existing (same survey, new wave)
 7. Run & validate        → use agent: validator
