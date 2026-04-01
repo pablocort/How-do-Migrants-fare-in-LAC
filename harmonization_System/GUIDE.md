@@ -96,6 +96,26 @@ harmonization_System/
    - Country, survey name, reference period
    - Available raw variables and their codes
    - Survey documentation / questionnaire
+   Output: inputs/[ISO3]_[PERIOD]_metadata.md
+
+4.5 DICTIONARY CHECK (required for cloned scripts — same survey, new wave)
+   Before mapping or running any code, produce a dictionary check document
+   that compares all key source variables between the new wave and the reference wave.
+   Output: inputs/[ISO3]_dictionary_check_[PERIODS].md
+
+   For each key variable, run in Stata on the new wave's raw .dta:
+     codebook [varname]   → confirm variable exists
+     tab [varname]        → confirm category codes match reference
+     sum [varname]        → confirm range is plausible
+
+   If a variable is missing or codes differ:
+     → Update the cloned script block for that variable
+     → Add an inline comment: * CHANGED from 2025t3: [description]
+     → Mark in the dictionary check document with ⚠️ Different
+
+   Template: inputs/COL_dictionary_check_2023_2024.md (COL GEIH example)
+
+   Skip this step for Path A (new country/survey) — use Step 5 instead.
 
 5. MAP VARIABLES
    Use agent: survey_mapper
