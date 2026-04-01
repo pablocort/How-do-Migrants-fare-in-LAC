@@ -8,26 +8,27 @@ Autor: Olga Dulce
 *** MERGE COLOMBIA GEIH 2024 (t3) ****
 *------------------------------*	
 
-clear
-set more off
-local anio =2025
-local ronda1 a
-local ronda2 t3
-local ruta "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\bases armo\raw\col\"
-local m7 ="`ruta'\julio\" 
-local m8 ="`ruta'\agosto\" 
-local m9 ="`ruta'\septiembre\" 
+	set more off
+	local anio =2025
+	local ronda1 a
+	local ronda2 t3
+	global surveysFolder "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Documents\scl_data\bucket"
+	local ruta "${surveysFolder}\survey\COL\GEIH\\`anio'\"
+local m7 ="`ruta'\`ronda1'\data_orig\m7\" 
+local m8 ="`ruta'\`ronda1'\data_orig\m8\" 
+local m9 ="`ruta'\`ronda1'\data_orig\m9\" 
 local t3 ="`ruta'\`ronda2'\data_orig\"
-local out ="`ruta'\data_merge\"
+local out ="`ruta'\`ronda2'\data_merge\"
 
+di "`ruta'"
+	clear
 
+	*
+	*1. Bases anuales con homologacion de ingresos:
+	*----------------------------------------------
 
-*
-*1. Bases anuales con homologacion de ingresos:
-*----------------------------------------------
-
-clear
-use "`ruta'\`ronda1'\data_orig\anual_homologado_DANE\HOGARES.dta", clear
+	clear
+	use "`ruta'\`ronda1'\data_orig\anual_homologado_DANE\HOGARES.dta", clear
 
 merge 1:m directorio secuencia_p using "`ruta'\`ronda1'\data_orig\anual_homologado_DANE\PERSONAS.dta", force
 drop _merge
@@ -35,9 +36,9 @@ egen id =concat (directorio secuencia_p orden)
 sort id
 save "`ruta'\`ronda1'\data_merge\pov_anual.dta", replace
 destring mes, replace
-keep if mes>=7 & mes<=9
+keep if mes>= 7 & mes<=9
 
-keep  impaes- id impa-iof6 nper-fex_c dominio
+keep  impaes- id impa-iof6 nper-fex_c dominio directorio secuencia_p
 save "`ruta'\`ronda1'\data_merge\pov_t3.dta", replace
 
 
@@ -51,7 +52,7 @@ append using "`m8'\Características generales, seguridad social en salud y educa
 append using "`m9'\Características generales, seguridad social en salud y educación.dta"
 egen id = concat(DIRECTORIO SECUENCIA_P ORDEN)
 sort id
-compress
+*compress
 save "`t3'col_personas.dta", replace
 
 *Desocupados
@@ -60,7 +61,7 @@ append using "`m8'\No ocupados.dta"
 append using "`m9'\No ocupados.dta"
 egen id = concat(DIRECTORIO SECUENCIA_P ORDEN)
 sort id
-compress
+*compress
 save "`t3'col_desocupados.dta", replace
 				
 *Fuerza Trabajo
@@ -69,7 +70,7 @@ append using "`m8'\Fuerza de trabajo.dta"
 append using "`m9'\Fuerza de trabajo.dta"
 egen id = concat(DIRECTORIO SECUENCIA_P ORDEN)
 sort id
-compress
+*compress
 save "`t3'col_ft.dta", replace
 
 *ocupados
@@ -78,7 +79,7 @@ append using "`m8'\Ocupados.dta"
 append using "`m9'\Ocupados.dta"
 egen id = concat(DIRECTORIO SECUENCIA_P ORDEN)
 sort id
-compress
+*compress
 save "`t3'col_ocupados.dta", replace
 
 *otrasactv
@@ -88,7 +89,7 @@ append using "`m9'\Otras formas de trabajo.dta"
 egen id = concat(DIRECTORIO SECUENCIA_P ORDEN)
 *rename clase CLASE
 sort id
-compress
+*compress
 save "`t3'col_otrasactv.dta", replace
 
 *otros ingresos
@@ -98,7 +99,7 @@ append using "`m9'\Otros ingresos e impuestos.dta"
 egen id = concat(DIRECTORIO SECUENCIA_P ORDEN)
 *rename clase CLASE
 sort id
-compress
+*compress
 save "`t3'col_otrosing.dta", replace
  
 *Vivienda y Hogares
@@ -108,7 +109,7 @@ append using "`m9'\Datos del hogar y la vivienda.dta"
 egen idh = concat(DIRECTORIO SECUENCIA_P)
 *rename clase CLASE
 sort idh
-compress
+*compress
 save "`t3'col_viv.dta", replace
 
 /*
@@ -132,7 +133,7 @@ append using "`m9'\Migración.dta"
 egen id = concat(DIRECTORIO SECUENCIA_P ORDEN)
 sort id
 rename *, lower
-compress
+*ompress
 save "`out'\COL_`anio't3migracion.dta", replace
 
 
@@ -140,6 +141,17 @@ save "`out'\COL_`anio't3migracion.dta", replace
 
 *3. Merge de los 8 modulos trimestrales
 *-----------------------------------------------
+	set more off
+	local anio =2025
+	local ronda1 a
+	local ronda2 t3
+	global surveysFolder "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Documents\scl_data\bucket"
+	local ruta "${surveysFolder}\survey\COL\GEIH\\`anio'\"
+local m7 ="`ruta'\`ronda1'\data_orig\m7\" 
+local m8 ="`ruta'\`ronda1'\data_orig\m8\" 
+local m9 ="`ruta'\`ronda1'\data_orig\m9\" 
+local t3 ="`ruta'\`ronda2'\data_orig\"
+local out ="`ruta'\`ronda2'\data_merge\"
 
 use "`t3'\col_personas.dta", clear
 
@@ -166,23 +178,34 @@ merge m:1 idh using "`t3'\col_viv.dta"
 drop _merge 
 sort id
 rename *, lower
-compress
+*compress
 save "`out\'COL_`anio't3.dta", replace
 
 
 
 *4. Append zonas
 *---------------
+	set more off
+	local anio =2025
+	local ronda1 a
+	local ronda2 t3
+	global surveysFolder "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Documents\scl_data\bucket"
+	local ruta "${surveysFolder}\survey\COL\GEIH\\`anio'\"
+local m7 ="`ruta'\`ronda1'\data_orig\m7\" 
+local m8 ="`ruta'\`ronda1'\data_orig\m8\" 
+local m9 ="`ruta'\`ronda1'\data_orig\m9\" 
+local t3 ="`ruta'\`ronda2'\data_orig\"
+local out ="`ruta'\`ronda2'\data_merge\"
 
 clear
-use "`out'\COL_2024t3.dta", clear
+use "`out'\COL_`anio't3.dta", clear
 replace fex_c18=fex_c18/3
-merge 1:1 id using "`out'\COL_2024t3migracion.dta"
+merge 1:1 id using "`out'\COL_`anio't3migracion.dta"
 sort id
 drop _merge
-merge 1:1 id using "`ruta'\`ronda1'\data_merge\pov_t3.dta"
+*merge 1:1 id using "`ruta'\`ronda1'\data_merge\pov_t3.dta"
 compress
-save "`ruta'\`ronda2'\data_merge\COL_2024t3.dta", replace
+save "`ruta'\`ronda2'\data_merge\COL_`anio't3.dta", replace
 
 
 

@@ -13,6 +13,8 @@ set more off
  * El servidor contiene las bases de datos MECOVI.
  *________________________________________________________________________________________________________________*
  
+global surveysFolder "\\sapidbshares.file.core.windows.net\idbshares\SURVEYS"
+display "$surveysFolder"
 
 global ruta = "${surveysFolder}"
 
@@ -385,7 +387,9 @@ gen byte condocup_ci = .
 replace condocup_ci=1 if oci==1
 replace condocup_ci=2 if dsi==1
 replace condocup_ci=3 if fft==1
-replace condocup_ci=4 if edad_ci<10
+replace condocup_ci=. if !inrange(edad_ci, 15,64)
+label define condocup_ci 1 "Ocupado" 2 "Desocupado" 3 "Inactivo" 
+label value condocup_ci condocup_ci
 
 *******************
 ***categoinac_ci***
@@ -563,7 +567,7 @@ gen  byte instcot_ci = p6930
 **************
 gen byte formal_ci = .
 replace formal_ci  =  1 if (cotizando_ci == 1 | afiliado_ci == 1) & condocup_ci == 1
-replace formal_ci = 0 if cotizando_ci == 0 & (condocup_ci == 1 | condocup_ci == 2)
+replace formal_ci = 0 if (cotizando_ci == 0 & afiliado_ci == 0) & (condocup_ci == 1 )
 	
 *********************
 ***tipocontrato_ci***
@@ -789,7 +793,7 @@ replace aedu_ci = 0 if p3042 == 1 | p3042 == 2
 replace aedu_ci = p3042s1 if p3042==3 
 // Secundaria 
 replace aedu_ci = 5 + p3042s1 if p3042 == 4 // básica secundaria
-replace aedu_ci = 11 + p3042s1 if inlist(p3042, 5, 6) 
+replace aedu_ci = 9 + p3042s1 if inlist(p3042, 5, 6) 
 
 // topes educación superior (en semestres)
 g sup_top = trunc(p3042s1/2)
@@ -1145,6 +1149,7 @@ replace migrantiguo5_ci = . if migrante_ci==0
 **********************
 *** miglac_ci ***
 **********************
+destring p3373s3, replace
 
 gen miglac_ci=(migrante_ci==1 & inlist(p3373s3, ///
 32,   /* Argentina */ ///
@@ -1183,8 +1188,7 @@ gen miglac_ci=(migrante_ci==1 & inlist(p3373s3, ///
 740,  /* Suriname */ ///
 533,  /* Aruba */ ///
 531   /* Curazao */ ///
-)
-) if migrante_ci!=. 
+)) if migrante_ci!=. 
 
 
 	
@@ -1202,9 +1206,9 @@ replace mig_pais_code = p3373s3 if migrante_ci==1 & migrante_ci!=.
 drop _merge
 destring p3373s3, replace
  
-merge m:1 p3373s3 using "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\bases armo\raw\col\mig_pais_code.dta"
+merge m:1 p3373s3 using "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\col\mig_pais_code.dta"
  
-gen mig_pais_ci = .
+gen mig_pais_ci = ""
 replace mig_pais_ci = pais if migrante_ci==1 & migrante_ci!=.
 
 		****************************
@@ -1246,8 +1250,9 @@ replace ln_ci = lp
 * Asignación de etiquetas e inserción de variables externas: tipo de cambio, Indice de Precios al 
 * Consumidor (2011=100), Paridad de Poder Adquisitivo (PPA 2011),  líneas de pobreza
 /*_____________________________________________________________________________________________________*/
+*global gitFolder "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Documents\GitHub"
 
-do "$gitFolder\armonizacion_microdatos_encuestas_hogares_scl\_DOCS\\Labels&ExternalVars_Harmonized_DataBank.do"
+*do "$gitFolder\armonizacion_microdatos_encuestas_hogares_scl\_DOCS\\Labels&ExternalVars_Harmonized_DataBank.do"
 
 /*_____________________________________________________________________________________________________*/
 * Verificación de que se encuentren todas las variables armonizadas 
@@ -1278,8 +1283,23 @@ do "$gitFolder\armonizacion_microdatos_encuestas_hogares_scl\_DOCS\\Labels&Exter
 
 compress
 
+
+
+local PAIS COL
+local ENCUESTA GEIH
+local ANO "2024"
+local ronda t3 
+
+
+
+if c(username)=="PABLOCOR" {
+
+
+local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
+}
+
+
 saveold "`base_out'", version(12) replace
 
-log close
 
 

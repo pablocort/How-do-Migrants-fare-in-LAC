@@ -552,7 +552,7 @@ local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank
 	replace condocup_ci = 2 if p501==2 & p502==2 & p503==2    //Desocupados
 	replace condocup_ci = 3 if condocup_ci == 2 & ( p5041==2 & p5042==2 & p5043==2 & p5044==2 & p5045==2 & p5046==2 & p5047==2 & p5048==2 & p5049==2 & p50410==2 & p50411==2 ) //Inactivos
 	replace condocup_ci=. if !inrange(edad_ci, 15,64)
-
+	
 	
 	*******************
 	***categoinac_ci: Identifica la condición de inactividad de los individuos.***
@@ -1784,7 +1784,7 @@ local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank
 	
 	*pais de migrante (código)
 	gen mig_pais_code = .
-	replace mig_pais_code = p401g2 if migrante_ci==1
+	replace mig_pais_code = p401g2 if migrante_ci==1 & migrante_ci!=.
 
 	gen str40 mig_pais_ci = ""
 
@@ -1916,13 +1916,11 @@ if c(username)=="PABLOCOR" {
 local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
 }
 
+
 saveold "`base_out'", version(12) replace
 
-if c(username)=="STEFFANNYR" {
 
-local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
 
-}
 
 *log close
 
