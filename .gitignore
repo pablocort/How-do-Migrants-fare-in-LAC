@@ -3,6 +3,8 @@
 *.dta
 *.sav
 *.RData
+# IPUMS raw data extracts
+*.dat
 
 # Compressed raw data
 *.zip
@@ -15,6 +17,9 @@
 out/indicator_descriptive/*.xlsx
 out/hdmf_indicators*.xlsx
 out/cinef_tab*.xlsx
+
+# ── Intermediate output files ──────────────────────────────────────────────────
+bases\ armo/armo/out_indicators/
 
 # ── Stata artefacts ────────────────────────────────────────────────────────────
 *.stswp

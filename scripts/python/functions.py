@@ -57,20 +57,21 @@ def make_weighted_stats_multi(
             if n == 0 or sw == 0:
                 out[(v, "mean")] = np.nan
                 out[(v, "std")] = np.nan
-
+                # Key order must match the n>0 path so pandas 3.0 groupby.apply
+                # can stack consistent-index Series into a DataFrame (not a flat Series).
+                if include_neff:
+                    out[(v, "n_eff")] = 0.0
                 if include_se:
                     out[(v, "se")] = np.nan
                 if include_ci:
                     out[(v, "ci_lo")] = np.nan
                     out[(v, "ci_hi")] = np.nan
-                if include_neff:
-                    out[(v, "n_eff")] = 0.0
-
+                    out[(v, "err_lo")] = np.nan
+                    out[(v, "err_hi")] = np.nan
                 if include_n_unweighted:
                     out[(v, "n_unweighted")] = 0
                 if include_sum_weights:
                     out[(v, "sum_weights")] = 0.0
-
                 if add_dummy_counts:
                     out[(v, "ones_unweighted")] = 0
                     out[(v, "ones_weights")] = 0.0
@@ -138,7 +139,7 @@ def make_weighted_stats_multi(
     out = (
         df
         .groupby(group_cols, dropna=False)
-        .apply(_wstats)
+        .apply(_wstats, include_groups=False)
     )
 
     out.columns = pd.MultiIndex.from_tuples(out.columns, names=["variable", "stat"])
@@ -172,17 +173,21 @@ def plot_scatter_stats(
     ylabel: str | None = None,
     xlabel: str | None = None,
     y_lim: tuple | None = None,
+    color_map: dict | None = None,
+    marker_map: dict | None = None,
 ) -> plt.Figure:
 
     hue_levels = df[hue_var].unique()
     n_hue = len(hue_levels)
 
-    markers = ["o", "^", "s", "D", "*", "P", "X", "v", "<", ">"]
-
-    # use a richer colour range — skip the very light end of Blues
-    palette_colors = sns.color_palette(palette, n_colors=n_hue + 3)[3:]
-    color_map  = dict(zip(hue_levels, palette_colors))
-    marker_map = {lv: markers[i % len(markers)] for i, lv in enumerate(hue_levels)}
+    if color_map is None:
+        markers = ["o", "^", "s", "D", "*", "P", "X", "v", "<", ">"]
+        # use a richer colour range — skip the very light end of Blues
+        palette_colors = sns.color_palette(palette, n_colors=n_hue + 3)[3:]
+        color_map = dict(zip(hue_levels, palette_colors))
+    if marker_map is None:
+        markers = ["o", "^", "s", "D", "*", "P", "X", "v", "<", ">"]
+        marker_map = {lv: markers[i % len(markers)] for i, lv in enumerate(hue_levels)}
 
     x_levels = list(df[x_var].unique())
     x_idx    = {lv: i for i, lv in enumerate(x_levels)}
@@ -522,7 +527,7 @@ def make_weighted_stats_multi_old(
     out = (
         df
         .groupby(group_cols, dropna=False)
-        .apply(_wstats)
+        .apply(_wstats, include_groups=False)
     )
 
     out.columns = pd.MultiIndex.from_tuples(
@@ -625,7 +630,7 @@ def make_weighted_stats_multi2(
     out = (
         df
         .groupby(group_cols, dropna=False)
-        .apply(_wstats)
+        .apply(_wstats, include_groups=False)
     )
 
     out.columns = pd.MultiIndex.from_tuples(out.columns, names=["variable", "stat"])
