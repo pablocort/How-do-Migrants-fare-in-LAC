@@ -1,0 +1,84 @@
+# ── Survey microdata (restricted / licensed) ──────────────────────────────────
+# National household surveys — not for redistribution
+*.dta
+*.sav
+*.RData
+
+# Compressed raw data
+*.zip
+*.gz
+*.tar
+*.7z
+
+# ── Output data (derived from restricted microdata) ────────────────────────────
+# Regenerate with hdmf_2.py after obtaining licensed data
+out/indicator_descriptive/*.xlsx
+out/hdmf_indicators*.xlsx
+out/cinef_tab*.xlsx
+
+# ── Stata artefacts ────────────────────────────────────────────────────────────
+*.stswp
+*.stsw
+*.smcl
+*.ster
+# Log files (auto-generated per run)
+do armo/*/logs/
+*.log
+
+# Run artifact captures (stderr/stdout redirected to files)
+*.err
+*.out
+*_coverage_*.txt
+hdmf_build_*.txt
+bases\ armo/armo/*.txt
+bases\ armo/armo/*.log
+bases\ armo/armo/*.err
+
+# Python cache (regenerate with hdmf_build.py)
+*.pkl
+
+# Keep example synthetic data
+!data/synthetic/*.dta
+
+# ── Python artefacts ───────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+*.egg-info/
+
+# ── Office / binary outputs ────────────────────────────────────────────────────
+*.xlsx
+*.pptx
+*.docx
+
+# Draft/recovery scripts (keep locally, hide from public)
+do\ armo/col/not_clean/
+
+# Keep lookup tables that are not microdata
+!bases\ armo/raw/col/ciuo_cod.xlsx
+!bases\ armo/raw/col/code_pais.csv
+!bases\ armo/raw/*/dr_EPA_2021.xlsx
+!bases\ armo/raw/codigos_formacion.xlsx
+
+# ── IDE / OS ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+*.swp
+*~
+
+# ── PDF reports (internal) ─────────────────────────────────────────────────────
+# Dictionary PDFs — large and tied to licensed data
+bases\ armo/raw/col/*.pdf
+bases\ armo/raw/ecu/*.pdf
+
+# Personal documents (not project files)
+analisis_claudecode_cv.pdf
+
+# ── Image outputs (regenerate with analysis scripts) ──────────────────────────
+out/*.png
+out/*.jpg
+out/indicator_descriptive/*.png
+out/indicator_descriptive/*.jpg
