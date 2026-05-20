@@ -5,6 +5,8 @@
 *.RData
 # IPUMS raw data extracts
 *.dat
+# EPA Spain raw fixed-width microdata files
+bases\ armo/raw/esp/**/*.txt
 
 # Compressed raw data
 *.zip

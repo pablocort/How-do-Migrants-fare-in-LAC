@@ -42,7 +42,7 @@
 | **Reference week** | Last week (labor) |
 | **Reference month (income)** | Last month |
 
-**Weight note:** `factor_ci = fex_c18 * 3` — the monthly weight is multiplied by 3 because three monthly files (July, August, September) are pooled in a single .dta. This is the DANE convention for quarterly expansion.
+**Weight note:** `factor_ci = fex_c18` — the monthly weight is used directly. `fex_c18` already represents the correct quarterly expansion factor for the pooled July–September file. Do NOT multiply by 3.
 
 **Sampling design**
 - [x] Multi-stage cluster
@@ -153,7 +153,7 @@
 - DANE occasionally revises GEIH variable names and category codes between years. ⚠️ Verify all key variables before running (see dictionary check document).
 
 **Country-specific notes**
-- `fex_c18` must be multiplied by 3 (three months pooled). Do not use raw weight without multiplier.
+- `fex_c18` is used directly as `factor_ci` — no multiplier. The file already represents the pooled Q3 population.
 - `mig_pais_code.dta` merge uses an absolute path hardcoded to PABLOCOR. Update path if running on a different machine.
 
 ---

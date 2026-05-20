@@ -170,6 +170,37 @@ Apply only to employed individuals (`emp_ci == 1`). Set to missing otherwise.
 - **Description:** Affiliated to the health/social security system
 - **Values:** 1 = Yes, 0 = No
 
+### ocupa_ci
+- **Type:** Categorical (1–9)
+- **Description:** Occupation major group per ISCO-08 (or equivalent national classification)
+- **Values:**
+  - 1 = Managers
+  - 2 = Professionals
+  - 3 = Technicians and associate professionals
+  - 4 = Clerical support workers
+  - 5 = Service and sales workers
+  - 6 = Skilled agricultural, forestry and fishery workers
+  - 7 = Craft and related trades workers
+  - 8 = Plant and machine operators, and assemblers
+  - 9 = Elementary occupations
+- **Applies to:** Employed individuals only (`emp_ci == 1`); missing otherwise
+- **Source by country:**
+  - COL: `oficio_c8` (2-digit CIUO-08), major group = `int(oficio_c8/10)`
+  - CHL: `oficio` (2–4-digit CIUO-08), major group = first digit
+  - ECU: `p41` (CIUO-08), major group = first digit
+  - PER: `p508` (CIUO-88, 3-digit), major group = first digit — **groups 6–8 not fully comparable to ISCO-08**
+  - USA: IPUMS `occ` (SOC 2010), mapped via ILO SOC→ISCO-08 crosswalk (1-digit approximation)
+  - ESP: `cno11` (CNO-2011), maps 1-to-1 with ISCO-08 at 1-digit level
+
+### overqualified_ci
+- **Type:** Binary
+- **Description:** Overqualified worker — tertiary education in a low-skill occupation (normative approach)
+- **Values:** 1 = Overqualified, 0 = Not overqualified, `.` = not employed or education/occupation missing
+- **Definition:** `emp_ci == 1` AND `edu_hdmf >= 6` (tertiary) AND `ocupa_ci >= 4` (ISCO-08 groups 4–9)
+  - ESP uses `edu_hdmf >= 7` (10-level scale; equivalent to ISCED 5+)
+- **Applies to:** Employed individuals only; missing for non-employed
+- **Comparability:** COL, CHL, ECU, ESP — directly comparable (all CIUO-08/ISCO-08). USA comparable at 1-digit. PER partially comparable (CIUO-88 caveat for groups 6–8).
+
 ---
 
 ## 6. Education
@@ -234,6 +265,18 @@ All income variables in **monthly nominal local currency units (LCU)**.
 - **Type:** Continuous (≥ 0)
 - **Description:** Total monthly remittances received by the household
 - **Construction:** Sum of `remesas_ci` across household members, or household-level question
+
+---
+
+## 8. Household Head Variables
+
+### jefe_ci
+- **Type:** Binary (individual-level)
+- **Description:** Is the household head
+- **Values:** 1 = household head (`relacion_ci == 1`), 0 = other household member
+- **Construction:** `gen jefe_ci = (relacion_ci == 1)`
+- **Source convention:** Standard SEDLAC/MECOVI definition — see `alternative_do_files/` for all countries
+- **Note:** USA fallback — head identified via `pernum == 1` when `relate` is absent from the IPUMS extract
 
 ---
 
