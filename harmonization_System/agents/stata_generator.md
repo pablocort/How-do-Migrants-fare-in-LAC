@@ -31,17 +31,21 @@ Date:    [leave blank]
 Description:
   Harmonizes [SURVEY] into HDMF standard.
   Input:  [raw file path(s)]
-  Output: bases armo/armo/[ISO3]_[PERIOD]_BID.dta
+  Output: bases armo/armo/[ISO3]/[ISO3]_[PERIOD]_BID.dta
 ==============================================================*/
 
 clear all
 set more off
 
 *------------------------------------------------------------*
-* 0. PATHS
+* 0. PATHS & LOG
 *------------------------------------------------------------*
 global raw  "bases armo/raw/[country_folder]"
 global armo "bases armo/armo"
+
+local log_dir "do armo/[iso3 lowercase]/logs"
+capture mkdir "`log_dir'"
+log using "`log_dir'/[ISO3]_[period]_variablesBID.log", replace
 
 *------------------------------------------------------------*
 * 1. LOAD RAW DATA
@@ -88,7 +92,9 @@ use "$raw/[raw_filename]", clear
 *------------------------------------------------------------*
 * 11. SAVE
 *------------------------------------------------------------*
-save "$armo/[ISO3]_[PERIOD]_BID.dta", replace
+capture mkdir "$armo/[ISO3]"
+save "$armo/[ISO3]/[ISO3]_[PERIOD]_BID.dta", replace
+log close
 ```
 
 ---

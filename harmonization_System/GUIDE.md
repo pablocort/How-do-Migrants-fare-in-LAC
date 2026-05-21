@@ -17,6 +17,7 @@ harmonization_System/
 ├── agents/                         ← AI agent system prompts
 │   ├── orchestrator.md             ← Master coordinator
 │   ├── survey_mapper.md            ← Maps raw variables to HDMF standard
+│   ├── mapping_checker.md          ← Adversarial review of mapping (Step 5.5)
 │   ├── stata_generator.md          ← Generates Stata .do harmonization scripts
 │   ├── validator.md                ← Validates harmonized datasets
 │   └── indicator_analyst.md        ← Interprets output indicators
@@ -98,30 +99,62 @@ harmonization_System/
    - Survey documentation / questionnaire
    Output: inputs/[ISO3]_[PERIOD]_metadata.md
 
-4.5 DICTIONARY CHECK (required for cloned scripts — same survey, new wave)
-   Before mapping or running any code, produce a dictionary check document
-   that compares all key source variables between the new wave and the reference wave.
-   Output: inputs/[ISO3]_dictionary_check_[PERIODS].md
+4.5 DICTIONARY CHECK (Python — required for all multi-wave work)
+   Before mapping or running any code for a new wave or cross-wave batch,
+   run the Python dictionary check script. This replaces the Stata-based check.
 
-   For each key variable, run in Stata on the new wave's raw .dta:
-     codebook [varname]   → confirm variable exists
-     tab [varname]        → confirm category codes match reference
-     sum [varname]        → confirm range is plausible
+   Tool split:
+     Python  → all pre-harmonization file inspection (variable existence,
+               codebook comparison, reference package search, structural breaks)
+     Stata   → harmonization only (the _variablesBID.do scripts that produce _BID.dta)
 
-   If a variable is missing or codes differ:
-     → Update the cloned script block for that variable
-     → Add an inline comment: * CHANGED from 2025t3: [description]
-     → Mark in the dictionary check document with ⚠️ Different
+   Run:
+     python harmonization_System/inputs/dictionary_check.py \
+       --country [ISO3] --waves [wave1] [wave2] ...
 
-   Template: inputs/COL_dictionary_check_2023_2024.md (COL GEIH example)
+   The script automatically:
+     - Reads each wave's raw .dta (no Stata license needed)
+     - Builds a cross-wave variable existence matrix
+     - Detects structural breaks (variable present in some waves, absent in others)
+     - Greps bases armo/raw/[ISO3]/alternative_do_files/ for alternative constructions
+     - Summarizes expansion factor scale per wave
+     - Tabulates key categorical variables across waves
 
-   Skip this step for Path A (new country/survey) — use Step 5 instead.
+   Output: save to bases armo/armo/[ISO3]/intermediate_harmo_output/
+           filename: [ISO3]_dictionary_check_[FIRST]_[LAST].md
+           Register in the INDEX.md in that same folder.
+
+   If a variable is missing → apply skill: skills/variable_alternatives.md
+     1. Check what the dictionary_check.py grep found in alternative_do_files/
+     2. Confirm the alternative variable exists in the wave
+     3. Add ALTERNATIVE construction block with inline comment in the .do script
+     4. Flag for mapping_checker as MEDIUM RISK minimum
+
+   Reference: bases armo/armo/col/intermediate_harmo_output/COL_dictionary_check_2018_2025.md
 
 5. MAP VARIABLES
    Use agent: survey_mapper
-   Skills called: map_demographics, map_labor, map_education,
-                  map_migration, map_income
+   Skills called (always run pre-mapping first):
+     skills/dictionary_check.md     → confirm check is done
+     skills/variable_alternatives.md → resolve any missing vars before mapping
+   Domain skills:
+     map_demographics, map_labor, map_education, map_migration, map_income
    Output: variable_mapping.md (raw var → HDMF var crosswalk)
+   Each entry annotated: STABLE / ALTERNATIVE:[var] / DERIVED / NOT AVAILABLE
+
+5.5 MAPPING REVIEW (adversarial check — required before code generation)
+   Use agent: mapping_checker
+   Input: variable_mapping.md from Step 5 (+ raw codebook if available)
+   The agent challenges every mapping decision domain by domain and produces
+   a structured challenge report classified as HIGH / MEDIUM / LOW risk.
+   Output: harmonization_System/codebooks/mapping_challenge_[ISO3]_[PERIOD].md
+
+   The user must review the report and:
+     [ ] Resolve all HIGH RISK items (record decisions in the report)
+     [ ] Accept or correct MEDIUM RISK items
+     [ ] Check the approval gate at the end of the report
+
+   Only proceed to Step 6 after the approval gate is cleared.
 
 6. GENERATE STATA CODE
    Two paths depending on whether a prior wave of the same survey exists:
@@ -158,10 +191,12 @@ harmonization_System/
 7. RUN & VALIDATE
    Use agent: validator
    Input: harmonized .dta file
-   Output: validation report (ranges, missing rates, label checks)
+   Output: bases armo/armo/[ISO3]/[ISO3]_[PERIOD]_BID.dta
+           + validation report (ranges, missing rates, label checks)
+   Note: .do files run `capture mkdir` to create the country subfolder automatically.
 
 8. ANALYZE INDICATORS
-   Use hdmf_2.py (Python pipeline)
+   Use hdmf_2.py (Python pipeline) — loads all *_BID.dta files by walking armo/[ISO3]/ subfolders
    Use agent: indicator_analyst for interpretation
 ```
 
@@ -199,7 +234,8 @@ All harmonized datasets must contain these variables. See `inputs/variable_codeb
 
 ## Naming conventions
 
-- Files: `[ISO3]_[PERIOD]_variablesBID.do` and `[ISO3]_[PERIOD]_BID.dta`
+- Scripts: `do armo/[iso3]/[ISO3]_[PERIOD]_variablesBID.do`
+- Output data: `bases armo/armo/[ISO3]/[ISO3]_[PERIOD]_BID.dta` (one subfolder per country)
 - Period format: `2024t3` (quarterly), `2024m12` (monthly), `2024a` (annual)
 - All variable names use suffix `_ci` (individual) or `_ch` (household)
 - Binary variables: `1 = yes`, `0 = no`, `.` = missing (never use -1 or 99)
@@ -227,7 +263,8 @@ Agents can call **skills** — paste the relevant skill content into the convers
 3. Select reference codes — document migration, education, labor, and ID coding decisions (pipeline Step 3)
 4. Obtain raw survey data + questionnaire; fill in `inputs/survey_metadata_template.md` (pipeline Step 4)
 5. Start a conversation with `agents/survey_mapper.md` (pipeline Step 5)
-6. Pass the output to `agents/stata_generator.md` (pipeline Step 6A)
+5.5. Run the mapping through `agents/mapping_checker.md` — review the report and clear the approval gate (pipeline Step 5.5)
+6. Pass the approved mapping to `agents/stata_generator.md` (pipeline Step 6A)
 7. Run the generated .do file in Stata
 8. Validate with `agents/validator.md` (pipeline Step 7)
 9. Add the harmonized `.dta` path to `hdmf_2.py` (pipeline Step 8)

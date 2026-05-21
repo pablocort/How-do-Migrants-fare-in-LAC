@@ -1,6 +1,8 @@
 clear
 set more off
 
+di "File created with the Claude HDMF system — 2026-05-01"
+
 *________________________________________________________________________________________________________________*
 
 global surveysFolder "\\sapidbshares.file.core.windows.net\idbshares\SURVEYS"
@@ -25,7 +27,16 @@ local base_in  = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank
 if c(username)=="STEFFANNYR" {
 
 use "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\per\PER_2024a.dta", clear
-local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
+local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
+
+}
+
+if c(username)=="PABLOCOR" {
+
+use "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\per\PER_2024a.dta", clear
+local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
 
 }
 
@@ -67,7 +78,8 @@ local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank
 	sort conglome vivienda hogar 
 	cap egen idh_ch= group(conglome vivienda hogar)
 	tostring idh_ch, replace
-	
+	bysort idh_ch: egen int nmiembros_ch = total(miembros_ci)
+
 	***************
 	****idp_ci (idindividuio) : Identificador único del individuo *****
 	***************
@@ -160,7 +172,16 @@ local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank
 	* p518: ¿CUÁNTAS HORAS TRABAJÓ LA SEMANA PASADA EN SU(S) OCUPACIÓN(ES) SECUNDARIA(S)?
 	egen  horastot_ci   = rsum(horaspri_ci p518) if emp_ci==1
 	replace  horastot_ci   = . if emp_ci~=1 //Reemplazando los missings  y los que no trabajan
-	
+
+	*****************
+	***parcial_ci***
+	*****************
+	gen byte parcial_ci = .
+	replace parcial_ci = (horaspri_ci < 35) if emp_ci == 1 & horaspri_ci != .
+	label define parcial_lb 1 "Parcial (<35h)" 0 "Completo (>=35h)"
+	label values parcial_ci parcial_lb
+	label var parcial_ci "1 = trabajador a tiempo parcial (horaspri_ci < 35h)"
+
 	***********
 	***pea_ci: Variable dicotómica que indica la población económicamente activa (PEA).***
 	***********
@@ -245,6 +266,15 @@ label var formal_ci "1=afiliado o cotizante"
 		label define categopri_ci 0 "Otra clasificación" 1 "Patrón o Empleador" 2 "Cuenta Propia" 3 "Empleado" 4 "Trabajador no remunerado"
 		label value categopri_ci categopri_ci
 
+	*****************
+	***selfempl_ci***
+	*****************
+	gen byte selfempl_ci = .
+	replace selfempl_ci = (categopri_ci == 2) if emp_ci == 1 & categopri_ci != .
+	label define selfempl_lb 1 "Cuenta propia" 0 "Otros"
+	label values selfempl_ci selfempl_lb
+	label var selfempl_ci "1 = trabajador por cuenta propia (categopri_ci == 2)"
+
 	*******************
 	***tipocontrato_ci: Variable categórica que indica el tipo de contrato laboral de los empleados/asalariados en la actividad principal según su duración (los trabajadores no asalariados deberían identificarse con valor perdido).***
 	*******************
@@ -278,8 +308,6 @@ label var formal_ci "1=afiliado o cotizante"
 
 *****************   VARIABLES DE INGRESO   *************************************
 ********************************************************************************
-
-	/*
 
 	*************
 	* ylmpri_ci: Ingreso laboral monetario de actividad principal: Variable continua que indica el monto mensual de ingresos monetarios provenientes de la actividad principal. Incluye: sueldos, salarios, jornales, trabajos a destajo, comisiones, propinas, horas extras, aguinaldos (empleados) y ganancia neta (patrones y cuenta propia). *
@@ -465,8 +493,6 @@ label var formal_ci "1=afiliado o cotizante"
 	by idh_ch, sort: egen byte nrylmpri_ch = sum(nrylmpri_ci) if miembros_ci==1
 	replace nrylmpri_ch = 1 if nrylmpri_ch > 0 & nrylmpri_ch < .
 	
-	*/
-	
 ********************************************************************************
 ***************   VARIABLES DE EDUCACION   *************************************
 ********************************************************************************
@@ -538,11 +564,41 @@ label define edu_hdmf ///
 
 label values edu_hdmf edu_hdmf
 label var edu_hdmf "nivel educativo agregado hdmf"
-ta edu_hdmf	
-	
-	
-	
-	
+ta edu_hdmf
+
+***********
+* ocupa_ci
+/* p508: expected to be CIUO-88 3-digit occupation code in ENAHO 2024.
+   VERIFY: tab p508 if emp_ci==1 — expected range 100-999 (3-digit) or 1000-9999 (4-digit).
+   If 4-digit, the first digit still gives the correct CIUO-88 major group.
+   NOTE: PER uses CIUO-88 (not ISCO-08); groups 1-5 and 9 are comparable;
+   groups 6-8 differ slightly. Caveat documented in overqualified_ci label. */
+***********
+gen byte ocupa_ci = .
+replace ocupa_ci = real(substr(string(int(p508)), 1, 1)) if emp_ci == 1 & !missing(p508) & p508 > 0
+label define ocupa_lbl 1 "Directors/Managers" 2 "Professionals" 3 "Technicians" ///
+    4 "Clerical" 5 "Service/Sales" 6 "Agriculture" ///
+    7 "Craft" 8 "Plant/Machine" 9 "Elementary"
+label values ocupa_ci ocupa_lbl
+label var ocupa_ci "CIUO-88 major group (1-9) — VERIFY variable p508 in ENAHO 2024"
+
+***********
+* overqualified_ci
+* edu_hdmf >= 6: técnica, university complete, or postgrad (8-level PER scale)
+* ocupa_ci >= 4: clerical, service, agriculture, craft, machine, elementary
+* NOTE: CIUO-88 vs ISCO-08 caveat — groups 6-8 not directly comparable
+***********
+gen byte overqualified_ci = .
+replace overqualified_ci = 0 if emp_ci == 1 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = 1 if emp_ci == 1 & edu_hdmf >= 6 & ocupa_ci >= 4 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = . if emp_ci != 1
+label define overq_lbl 1 "Overqualified" 0 "Not overqualified"
+label values overqualified_ci overq_lbl
+label var overqualified_ci "Overqualified (tertiary educ + low-skill occ, CIUO-88 4-9; verify p508)"
+
+
+
+
 	*************
 	* remesas_ci: Variable continua que indica el monto mensual por remesas reportadas por el individuo en moneda local corriente. *
 	*************
@@ -626,11 +682,27 @@ local ronda a
 
 if c(username)=="STEFFANNYR" {
 
-local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
+local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
 
 }
 
-save "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\PER_2024a_BID.dta", replace
+if c(username)=="PABLOCOR" {
+
+local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
+
+}
+
+***************
+***jefe_ci***
+***************
+gen jefe_ci = (relacion_ci == 1)
+label var jefe_ci "Jefe de hogar"
+label def jefe_ci 1 "Si" 0 "No"
+label val jefe_ci jefe_ci
+
+save "`base_out'", replace
 
 	
 	

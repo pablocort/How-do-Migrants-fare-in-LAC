@@ -58,6 +58,12 @@ replace miembros_ci=. if relacion_ci==.
 ************
 g str3 pais_c = "COL"
 			
+***********
+***sexo_ci***
+***********
+g sexo_ci = p3271
+* p3271: 1=Hombre, 2=Mujer
+
 **********
 ***edad***
 **********
@@ -78,12 +84,12 @@ tostring idp_ci, replace
 ***************
 ***factor_ci***
 ***************
-g factor_ci=fex_c18*3
+g factor_ci=fex_c18
 
 ***************
 ***factor_ch***
 ***************
-g factor_ch=fex_c18*3
+g factor_ch=fex_c18
 
 
 *************
@@ -117,7 +123,7 @@ replace emp_ci = (condocup_ci == 1) if condocup_ci != .
 ***desemp_ci***
 ***************	
 gen byte desemp_ci = .
-replace desemp_ci = (condocup_ci == 2) if condocup_ci! = .
+replace desemp_ci = (condocup_ci == 2) if condocup_ci != .
 
 ***************
 ***horaspri_ci***
@@ -129,9 +135,17 @@ replace horaspri_ci = . if emp_ci == 0
 ***horastot_ci ***
 ***************	
 egen horastot_ci  = rowtotal(p6800 p7045)
-replace horastot_ci = . if p6800 == . & p7045 == . 
+replace horastot_ci = . if p6800 == . & p7045 == .
 replace horastot_ci  = . if emp_ci == 0
 
+*****************
+***parcial_ci***
+*****************
+gen byte parcial_ci = .
+replace parcial_ci = (horaspri_ci < 35) if emp_ci == 1 & horaspri_ci != .
+label define parcial_lb 1 "Parcial (<35h)" 0 "Completo (>=35h)"
+label values parcial_ci parcial_lb
+label var parcial_ci "1 = trabajador a tiempo parcial (horaspri_ci < 35h)"
 
 ***********
 ***pea_ci***
@@ -150,7 +164,9 @@ replace cotizando_ci=0 if p6920==2 | (condocup_ci==2 & p6920!=1)
 *****************
 ***afiliado_ci***
 *****************
-gen  byte afiliado_ci = (p6090==1)
+* FIX-COL-01 (QA 2026-04-21): restrict to contributive/special health regime only
+* p6090==1 includes Regimen Subsidiado (informal), inflating formality; use p6100 instead
+gen  byte afiliado_ci = inlist(p6100, 1, 2)
 replace afiliado_ci=. if p6090==9
 	
 
@@ -175,12 +191,13 @@ replace tipocontrato_ci=3 if p6440==2 & condocup_ci==1
 	****************************
 **#***VARIABLES DE INGRESO***
 	****************************
-/*
+* Income section uncommented 2026-05-04
+* ylmotros_ci: rsum without if emp_ci==1 restriction (restriction caused all missing)
 *************
 * ylmpri_ci *
 *************
 egen ylmpri_ci = rsum(impa impaes) if emp_ci==1, m
-replace ylmpri_ci = . if impa==. & impaes==. 
+replace ylmpri_ci = . if impa==. & impaes==.
 
 ************
 * ylmsec_ci *
@@ -192,8 +209,7 @@ replace ylmsec_ci=. if isa==. & isaes==.
 * ylmotros_ci *
 **************
 egen ylmotros_ci= rsum(imdi imdies), m
-* REVISAR PORQUE SI LO LIMITO A emp_ci==1 SE GENERA TODO COMO MISSING
- 
+
 *********
 * ylm_ci *
 *********
@@ -243,8 +259,6 @@ g ynlnm_ci = .
 * ytot_ci *
 **********
 egen double ytot_ci = rowtotal(ylm_ci ylnm_ci ynlm_ci ynlnm_ci), mi
-
-*/
 
 
 		****************************
@@ -409,6 +423,31 @@ label values edu_hdmf edu_hdmf
 label var edu_hdmf "nivel educativo agregado hdmf"
 ta edu_hdmf
 
+***********
+* ocupa_ci
+* oficio_c8: CIUO-08 2-digit occupation code; 1-digit major group = int(oficio_c8/10)
+***********
+gen byte ocupa_ci = .
+replace ocupa_ci = int(oficio_c8 / 10) if emp_ci == 1 & !missing(oficio_c8)
+label define ocupa_lbl 1 "Managers" 2 "Professionals" 3 "Technicians" ///
+    4 "Clerical" 5 "Service/Sales" 6 "Agriculture" ///
+    7 "Craft" 8 "Plant/Machine" 9 "Elementary", replace
+label values ocupa_ci ocupa_lbl
+label var ocupa_ci "ISCO-08 major group (1-9), occupied only"
+
+***********
+* overqualified_ci
+* edu_hdmf >= 6: técnica, university complete, or postgrad (8-level COL scale)
+* ocupa_ci >= 4: clerical, service, agriculture, craft, machine, elementary
+***********
+gen byte overqualified_ci = .
+replace overqualified_ci = 0 if emp_ci == 1 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = 1 if emp_ci == 1 & edu_hdmf >= 6 & ocupa_ci >= 4 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = . if emp_ci != 1
+label define overq_lbl 1 "Overqualified" 0 "Not overqualified", replace
+label values overqualified_ci overq_lbl
+label var overqualified_ci "Overqualified (tertiary educ + low-skill occ, ISCO-08 4-9)"
+
 
 
 *************
@@ -496,7 +535,8 @@ replace mig_pais_code = p3373s3 if migrante_ci==1 & migrante_ci!=.
 *** mig_pais_ci ***
 **********************
 destring p3373s3, replace
- 
+
+capture drop _merge
 merge m:1 p3373s3 using "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\col\mig_pais_code.dta"
  
 gen mig_pais_ci = ""
@@ -799,7 +839,8 @@ local ANO "2023"
 local ronda t3
 
 
-local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
+local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
 }
 
 compress

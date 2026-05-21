@@ -1,6 +1,8 @@
 clear
 set more off
 
+di "File created with the Claude HDMF system — 2026-05-01"
+
 *________________________________________________________________________________________________________________*
 
 global surveysFolder "\\sapidbshares.file.core.windows.net\idbshares\SURVEYS"
@@ -24,14 +26,16 @@ local base_in  = "$ruta\survey\\`PAIS'\\`ENCUESTA'\\`ANO'\\`ronda'\data_merge\\`
 if c(username)=="STEFFANNYR" {
 
 use "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\chl\casen_2024.dta", clear
-local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
+local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
 	}
 
 
 if c(username)=="PABLOCOR" {
 
 use "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\chl\casen_2024.dta", clear
-local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
+local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
 	}
 
 
@@ -140,6 +144,15 @@ label var horaspri_ci "Horas totales trabajadas en la actividad principal"
 gen horastot_ci=horaspri_ci /*No existen horas totales solo act princ */
 label var horastot_ci "Horas totales trabajadas en todas las actividades"
 
+*****************
+***parcial_ci***
+*****************
+gen byte parcial_ci = .
+replace parcial_ci = (horaspri_ci < 35) if emp_ci == 1 & horaspri_ci != .
+label define parcial_lb 1 "Parcial (<35h)" 0 "Completo (>=35h)"
+label values parcial_ci parcial_lb
+label var parcial_ci "1 = trabajador a tiempo parcial (horaspri_ci < 35h)"
+
 *************
 ***pea_ci***
 *************
@@ -165,9 +178,11 @@ label var afiliado_ci "Afiliado a la Seguridad Social"
 ***formal_ci***
 ***************
 gen byte formal_ci = .
-replace formal_ci  =  1 if (cotizando_ci == 1 | afiliado_ci == 1) & condocup_ci == 1
-replace formal_ci = 0 if (cotizando_ci == 0 & afiliado_ci == 0) & (condocup_ci == 1 )
-label var formal_ci "1=afiliado o cotizante"
+* FIX-CHL-01 (QA 2026-04-21): o31 captures ALL health affiliates incl. FONASA A/B (subsidized);
+* formal_ci based on pension contribution only (cotizando_ci), which is unambiguous.
+replace formal_ci  =  1 if cotizando_ci == 1 & condocup_ci == 1
+replace formal_ci = 0 if cotizando_ci == 0 & condocup_ci == 1
+label var formal_ci "1=cotizante pension (FIX-CHL-01)"
 
 g formal_1=cotizando_ci
 
@@ -186,6 +201,15 @@ label value categopri_ci categopri_ci
 label variable categopri_ci "Categoria ocupacional en la actividad principal"
 
 *****************
+***selfempl_ci***
+*****************
+gen byte selfempl_ci = .
+replace selfempl_ci = (categopri_ci == 2) if emp_ci == 1 & categopri_ci != .
+label define selfempl_lb 1 "Cuenta propia" 0 "Otros"
+label values selfempl_ci selfempl_lb
+label var selfempl_ci "1 = trabajador por cuenta propia (categopri_ci == 2)"
+
+*****************
 *tipocontrato_ci*
 *****************
 gen tipocontrato_ci=. 
@@ -200,7 +224,6 @@ label value tipocontrato_ci tipocontrato_ci
 	****************************
 **#***VARIABLES DE INGRESO***
 	****************************
-/*
 ****************
 * ylmpri_ci    * 
 ****************
@@ -265,8 +288,13 @@ label var ylnm_ci "Ingreso laboral NO monetario total"
 gen inglab =  ytrabajocor *-1
 egen ynlm_ci = rsum (yautcor  inglab  ysub), missing
 replace ynlm_ci=. if yautcor==. & inglab==. & ysub==. 
-label var ynlm_ci "Ingreso no laboral monetario"  
-*/
+label var ynlm_ci "Ingreso no laboral monetario"
+
+****************
+* ytot_ci      *
+****************
+egen double ytot_ci = rowtotal(ylm_ci ylnm_ci ynlm_ci), mi
+label var ytot_ci "Ingreso total monetario"
 
 
 ************************
@@ -421,6 +449,32 @@ label define edu_hdmf ///
 label values edu_hdmf edu_hdmf
 label var edu_hdmf "nivel educativo agregado hdmf"
 ta edu_hdmf
+
+***********
+* ocupa_ci
+* CASEN 2024: oficio1_08 = 1-digit CIUO-08 major group; oficio4_08 = 4-digit
+* Use oficio1_08 directly (already the ISCO-08 major group 1-9)
+***********
+gen byte ocupa_ci = .
+replace ocupa_ci = oficio1_08 if emp_ci == 1 & !missing(oficio1_08) & oficio1_08 > 0 & oficio1_08 < 10
+label define ocupa_lbl 1 "Managers" 2 "Professionals" 3 "Technicians" ///
+    4 "Clerical" 5 "Service/Sales" 6 "Agriculture" ///
+    7 "Craft" 8 "Plant/Machine" 9 "Elementary"
+label values ocupa_ci ocupa_lbl
+label var ocupa_ci "ISCO-08 major group (1-9), occupied only"
+
+***********
+* overqualified_ci
+* edu_hdmf >= 6: técnica, university complete, or postgrad (8-level CHL scale)
+* ocupa_ci >= 4: clerical, service, agriculture, craft, machine, elementary
+***********
+gen byte overqualified_ci = .
+replace overqualified_ci = 0 if emp_ci == 1 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = 1 if emp_ci == 1 & edu_hdmf >= 6 & ocupa_ci >= 4 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = . if emp_ci != 1
+label define overq_lbl 1 "Overqualified" 0 "Not overqualified"
+label values overqualified_ci overq_lbl
+label var overqualified_ci "Overqualified (tertiary educ + low-skill occ, ISCO-08 4-9)"
 
 *********** profesion
 gen profesion_ci=e7
@@ -592,6 +646,14 @@ label var remesas_ch "Remesas mensuales del hogar"
 	local shortlabel = substr(`"`longlabel'"',1,79)
 	label var `i' `"`shortlabel'"'
 	}
+
+	***************
+	***jefe_ci***
+	***************
+	gen jefe_ci = (relacion_ci == 1)
+	label var jefe_ci "Jefe de hogar"
+	label def jefe_ci 1 "Si" 0 "No"
+	label val jefe_ci jefe_ci
 
 	saveold "`base_out'", replace
 

@@ -16,7 +16,8 @@ local ENCUESTA ENOE
 local ANO "2025"
 local ronda t4
 local base_in  = "C:\Users\STEFFANNYR\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\mex\\`PAIS'_`ANO'`ronda'.dta"
-local base_out = "C:\Users\STEFFANNYR\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
+local base_out = "C:\Users\STEFFANNYR\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\STEFFANNYR\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
                         
 
 
@@ -254,7 +255,11 @@ vivi1_ch vivi2_ch viviprop_ch vivitit_ch vivialq_ch	vivialqimp_ch , first
 
 
 * Activar solo si es necesario
-*keep *_ci  *_c  idh_ch 
+*keep *_ci  *_c  idh_ch
+gen byte ocupa_ci = .
+label var ocupa_ci "ISCO-08 major group — PENDING (SINCO crosswalk not implemented)"
+gen byte overqualified_ci = .
+label var overqualified_ci "Overqualified — PENDING (requires ocupa_ci and edu_hdmf)"
 compress
 
 

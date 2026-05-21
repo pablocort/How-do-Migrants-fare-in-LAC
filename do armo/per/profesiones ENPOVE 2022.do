@@ -428,6 +428,311 @@ label define lbl_p502_carrera ///
 label values p502 lbl_p502_carrera
 
 
+******************************************************************************************************************
+********************************************************************************
+* Crear variable profesion3_ci: campo de educación ISCED-F 2013 (3 dígitos)
+* Fuente: p502 de la ENPOVE
+* Nota: Los códigos de p502 siguen el clasificador de carreras del INEI Perú.
+*       Cada bloque comenta las carreras asignadas y su justificación ISCED-F.
+********************************************************************************
+
+gen profesion3_ci = .
+
+*--- 28: Servicios de seguridad (ISCED 103) ---
+* Ciencias militares, policiales, fuerzas especiales, guardacostas
+replace profesion3_ci = 28 if inlist(p502, 11026, 11035, 11055, 11105, 11115, 21015, 21016)
+
+*--- 4: Educación (ISCED 011–014) ---
+* Todos los programas de formación docente: inicial, primaria, secundaria,
+* educación física, especial, artística, técnica y educación básica alternativa
+replace profesion3_ci = 4 if inrange(p502, 111015, 199996)
+
+*--- 6: Humanidades excepto idiomas (ISCED 022) ---
+* Historia, Literatura, Lingüística, Archivos, Filosofía, Teología,
+* Estudios Latinoamericanos, Gestión Documental
+replace profesion3_ci = 6 if inlist(p502, 212016, 213036, 213046, 215015, 215016, ///
+                                         216016, 216025, 216026, 217016)
+
+*--- 7: Idiomas (ISCED 023) ---
+* Interpretación, Traducción e Idiomas
+replace profesion3_ci = 7 if inlist(p502, 214015, 214016, 214025)
+
+*--- 9: Periodismo e Información (ISCED 032) ---
+* Bibliotecología, Ciencias de la Comunicación, Periodismo, Publicidad,
+* Producción audiovisual, Comunicación social
+replace profesion3_ci = 9 if inlist(p502, 215026, 222055, 222205)
+replace profesion3_ci = 9 if inlist(p502, 321015, 321026, 321036, 321046, 321056, ///
+                                         321065, 321066, 321116, 321126, 321136)
+replace profesion3_ci = 9 if inlist(p502, 322026, 322035, 322055, 322066, 322076)
+
+*--- 5: Artes (ISCED 021) ---
+* Bellas Artes, Artes Escénicas, Diseño Gráfico, Diseño Industrial,
+* Diseño de Interiores, Diseño de Producto, Diseño de Moda,
+* Música, Teatro, Restauración de Obras de Arte
+replace profesion3_ci = 5 if inlist(p502, 221016, 221035, 221036, 221996, 222016, ///
+                                         222026, 222046, 222056, 222066, 222075)
+replace profesion3_ci = 5 if inlist(p502, 222076, 222095, 222105, 222106, 222116, ///
+                                         222125, 222155, 222175, 222996, 224015)
+replace profesion3_ci = 5 if inlist(p502, 224016, 224036, 224106, 225016, 528015)
+
+*--- 8: Ciencias Sociales y del Comportamiento (ISCED 031) ---
+* Sociología, Relaciones Institucionales, Relaciones Públicas,
+* Psicología, Terapia Psicoanalítica, Ciencia Política,
+* Relaciones Internacionales y Negociaciones
+replace profesion3_ci = 8 if inlist(p502, 311016, 311025, 311035, 313015, 313016, ///
+                                         335146, 352016, 352026)
+
+*--- 25: Bienestar (ISCED 092) ---
+* Trabajo Social, Servicio Social, Ciencias del Deporte
+replace profesion3_ci = 25 if inlist(p502, 312026, 312036, 719016)
+
+*--- 10: Educación Comercial y Administración (ISCED 041) ---
+* Administración (todas las ramas), Economía, Contabilidad, Finanzas,
+* Marketing, Comercio Exterior, Negocios Internacionales,
+* Administración Pública, Secretariado, Recursos Humanos,
+* Relaciones Industriales, Logística, Agronegocios
+replace profesion3_ci = 10 if inlist(p502, 331016, 331025, 331026, 331035, 331036, ///
+                                          331046, 331055, 331056, 331065, 331066)
+replace profesion3_ci = 10 if inlist(p502, 331076, 331085, 331086, 331095, 331096, ///
+                                          331106, 331115, 331116, 331125, 331126)
+replace profesion3_ci = 10 if inlist(p502, 331135, 331136, 331146, 331155, 331156, ///
+                                          331165, 331175, 331195, 331205, 331206)
+replace profesion3_ci = 10 if inlist(p502, 331216, 331235, 331245, 331255, 331275)
+replace profesion3_ci = 10 if inlist(p502, 333015, 333016, 333036, 333046, 333055, ///
+                                          333075, 333106)
+replace profesion3_ci = 10 if inlist(p502, 334016, 334036)
+replace profesion3_ci = 10 if inlist(p502, 335025, 335026, 335036, 335056, 335065, ///
+                                          335066, 335076)
+replace profesion3_ci = 10 if inlist(p502, 336016, 336026, 336046)
+replace profesion3_ci = 10 if inlist(p502, 337015, 337025)
+replace profesion3_ci = 10 if inlist(p502, 339015, 339016, 339035, 339056, 339076, ///
+                                          339085, 339095, 339996)
+replace profesion3_ci = 10 if inlist(p502, 341025, 341026, 341036, 341066, 341086)
+replace profesion3_ci = 10 if inlist(p502, 342015, 342025, 342026, 342035, 342036, ///
+                                          342045, 342056, 342066, 342076, 342086)
+replace profesion3_ci = 10 if inlist(p502, 342106, 342116, 342136)
+
+*--- 26: Servicios personales (ISCED 101) ---
+* Turismo, Hotelería, Gastronomía, Cocina, Pastelería, Ecoturismo,
+* Cosmética Dermatológica
+replace profesion3_ci = 26 if inlist(p502, 332025, 332035, 332046, 332066, 332075, ///
+                                          332076, 332096, 332105, 332115, 332125)
+replace profesion3_ci = 26 if inlist(p502, 332135, 332155, 332165, 332175, 332186, ///
+                                          332256, 332276, 332336, 811105, 812015)
+
+*--- 11: Derecho (ISCED 042) ---
+replace profesion3_ci = 11 if inlist(p502, 351016, 351026, 351046, 351056)
+
+*--- 12: Ciencias Biológicas y afines (ISCED 051) ---
+replace profesion3_ci = 12 if inlist(p502, 411016, 411046, 411076)
+
+*--- 20: Agropecuario (ISCED 081) ---
+* Zootecnia (producción animal), Agronomía, Ingeniería Agrícola,
+* Ingeniería Agronómica, Agropecuaria, Producción Agraria
+replace profesion3_ci = 20 if inlist(p502, 412015, 412016, 412026)
+
+*--- 14: Ciencias Físicas (ISCED 053) ---
+* Física, Química (pura), Geología
+replace profesion3_ci = 14 if inlist(p502, 421026, 422036, 423016)
+
+*--- 18: Industria y Procesamiento (ISCED 072) ---
+* Química Industrial, Tecnología de Análisis Químico
+replace profesion3_ci = 18 if inlist(p502, 422025, 422035)
+
+*--- 17: Ingeniería y Profesiones afines (ISCED 071) ---
+* Ingeniería Química, Ingeniería de Procesos Químicos y Metalúrgicos,
+* Ingeniería Geológica, Ingeniería Geofísica, Ingeniería Geotécnica
+replace profesion3_ci = 17 if inlist(p502, 422016, 422026, 423036, 423046, 423056)
+
+*--- 15: Matemáticas y Estadística (ISCED 054) ---
+replace profesion3_ci = 15 if inlist(p502, 431016, 431036, 432046)
+
+*--- 16: Tecnologías de la Información y la Comunicación - TIC (ISCED 061) ---
+* Computación e Informática, Ciencias de la Computación, Sistemas de Información,
+* Redes y Seguridad Informática, Ingeniería de Sistemas, Ingeniería Informática,
+* Ingeniería de Telecomunicaciones, Ingeniería de Redes y Comunicaciones
+replace profesion3_ci = 16 if inlist(p502, 441016, 441025, 441036, 441045, 441046, ///
+                                          441056, 441065, 441085, 441095, 441115)
+replace profesion3_ci = 16 if inlist(p502, 441125, 441185, 441225, 441245)
+replace profesion3_ci = 16 if inlist(p502, 511016, 511026, 511036, 511056, 511076, ///
+                                          511136, 511146, 511156, 511166)
+replace profesion3_ci = 16 if inlist(p502, 512016, 512045, 512046)
+
+*--- 27: Servicios de Higiene y Salud Ocupacional (ISCED 102) ---
+* Salud y Seguridad Ocupacional, Ingeniería de Higiene y Seguridad Industrial
+replace profesion3_ci = 27 if inlist(p502, 521025, 521026)
+
+*--- 13: Medio Ambiente (ISCED 052) ---
+* Ingeniería Ambiental y de Prevención de Riesgos, Medio Ambiente,
+* Gestión Ambiental, Ingeniería Ambiental, Ecoturismo, Recursos Naturales
+replace profesion3_ci = 13 if inlist(p502, 521016, 594015, 594016, 594025, 594026, ///
+                                          594035, 594046, 594066, 594086, 594106)
+
+*--- 17: Ingeniería Industrial y de Producción ---
+* Control de Tránsito Aéreo, Técnica en Ingeniería de Sonidos,
+* Ingeniería de la Producción y Administración, Ingeniería Industrial
+replace profesion3_ci = 17 if inlist(p502, 512015, 512035, 521036, 521046, 521056)
+
+*--- 18: Industria y Procesamiento (cont.) ---
+* Procesos Industriales, Tecnología de la Producción, Industrias Alimentarias,
+* Ingeniería Alimentaria, Agroindustrias, Metalurgia,
+* Ingeniería Textil y Confecciones, Gestión de Modas y Confecciones
+replace profesion3_ci = 18 if inlist(p502, 521015, 521035)
+replace profesion3_ci = 18 if inlist(p502, 522015, 522016, 522025, 522026, 522036)
+replace profesion3_ci = 18 if inlist(p502, 523015, 523016, 523026)
+replace profesion3_ci = 18 if inlist(p502, 527055, 527056, 527066, 527075, 528026, 528055)
+
+*--- 17: Ingeniería (Eléctrica, Electrónica, Mecánica, Minas, Naval, Aeronáutica) ---
+replace profesion3_ci = 17 if inlist(p502, 524015, 524016, 524025, 524026, 524035, ///
+                                          524045, 524046)
+replace profesion3_ci = 17 if inlist(p502, 525015, 525016, 525045, 525055, 525065, 525105)
+replace profesion3_ci = 17 if inlist(p502, 526015, 526016, 526036, 526045, 526056, ///
+                                          526065, 526075, 526076, 526085, 526095)
+replace profesion3_ci = 17 if inlist(p502, 526105, 526145, 526165, 526175, 526185, ///
+                                          526215, 526225, 526235, 526245)
+replace profesion3_ci = 17 if inlist(p502, 527035, 527036, 527046, 527076)
+replace profesion3_ci = 17 if inlist(p502, 592016, 592046, 592066, 592086, 599016)
+
+*--- 29: Servicios de transporte (ISCED 104) ---
+* Ingeniería del Transporte Marítimo y Gestión Logística Portuaria
+replace profesion3_ci = 29 if inlist(p502, 592056)
+
+*--- 19: Arquitectura y Construcción (ISCED 073) ---
+* Ingeniería Civil, Construcción Civil, Topografía, Ingeniería Sanitaria,
+* Arquitectura, Conservación y Restauración
+replace profesion3_ci = 19 if inlist(p502, 531016, 531025, 531026, 531095, 531105, ///
+                                          532016, 533015, 533026, 534025)
+
+*--- 20: Agropecuario (cont.) ---
+replace profesion3_ci = 20 if inlist(p502, 611016, 611035, 611036, 611056, 611065, ///
+                                          611066, 611076, 611095, 611105, 611106)
+replace profesion3_ci = 20 if inlist(p502, 611115, 611116, 611125, 611136)
+
+*--- 23: Veterinaria (ISCED 084) ---
+replace profesion3_ci = 23 if inlist(p502, 621016, 621026, 621036)
+
+*--- 24: Salud (ISCED 091) ---
+* Medicina, Odontología, Enfermería, Nutrición, Farmacia,
+* Laboratorio Clínico, Radiología, Terapia Física, Tecnología Médica,
+* Fisioterapia, Terapia Ocupacional, Prótesis Dental, Paramédico
+replace profesion3_ci = 24 if inlist(p502, 711016, 711025, 711026)
+replace profesion3_ci = 24 if inlist(p502, 712015, 712025, 712046, 712066, 712076)
+replace profesion3_ci = 24 if inlist(p502, 713015, 713026, 714015, 714016, 714035)
+replace profesion3_ci = 24 if inlist(p502, 715015, 715016, 715025, 715035, 715046, ///
+                                          715056, 715075, 715076, 715086, 715096)
+replace profesion3_ci = 24 if inlist(p502, 716015, 716016, 716026)
+
+********************************************************************************
+* Etiquetas de valor y variable
+********************************************************************************
+
+capture label drop lbl_profesion3_ci
+label define lbl_profesion3_ci ///
+     1 "Programas y certificaciones básicas" ///
+     2 "Alfabetización y Aritmética Elemental" ///
+     3 "Competencias personales y desarrollo" ///
+     4 "Educación" ///
+     5 "Artes" ///
+     6 "Humanidades (excepto idiomas)" ///
+     7 "Idiomas" ///
+     8 "Ciencias Sociales y del Comportamiento" ///
+     9 "Periodismo e Información" ///
+    10 "Educación Comercial y Administración" ///
+    11 "Derecho" ///
+    12 "Ciencias Biológicas y afines" ///
+    13 "Medio Ambiente" ///
+    14 "Ciencias Físicas" ///
+    15 "Matemáticas y Estadística" ///
+    16 "Tecnologías de la Información y la Comunicación (TIC)" ///
+    17 "Ingeniería y Profesiones afines" ///
+    18 "Industria y Procesamiento" ///
+    19 "Arquitectura y Construcción" ///
+    20 "Agropecuario" ///
+    21 "Silvicultura" ///
+    22 "Pesca y acuicultura" ///
+    23 "Veterinaria" ///
+    24 "Salud" ///
+    25 "Bienestar" ///
+    26 "Servicios personales" ///
+    27 "Servicios de Higiene y Salud Ocupacional" ///
+    28 "Servicios de seguridad" ///
+    29 "Servicios de transporte", replace
+
+label values profesion3_ci lbl_profesion3_ci
+label var profesion3_ci "Área/campo de educación (ISCED-F 2013, agregado 3 dígitos, consecutivo)"
+
+
+tab2xl profesion3_ci [iw=factorfinal] using "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\out\cinef13_tab.xlsx", row(1) col(1) sheet(PERU2, replace)
+
+
+*****************************************************************************
+********************************************************************************
+* Crear variable cinef13_ci: campo amplio de educación según ISCED-F 2013
+* Fuente: profesion3_ci (derivada de p502, ENPOVE)
+********************************************************************************
+
+gen cinef13_ci = .
+
+* 0: Programas y certificaciones genéricos (profesion3_ci: 1–3)
+replace cinef13_ci = 0  if inlist(profesion3_ci, 1, 2, 3)
+
+* 1: Educación (profesion3_ci: 4)
+replace cinef13_ci = 1  if profesion3_ci == 4
+
+* 2: Artes y Humanidades (profesion3_ci: 5–7)
+replace cinef13_ci = 2  if inlist(profesion3_ci, 5, 6, 7)
+
+* 3: Ciencias Sociales, Periodismo e Información (profesion3_ci: 8–9)
+replace cinef13_ci = 3  if inlist(profesion3_ci, 8, 9)
+
+* 4: Administración de Empresas y Derecho (profesion3_ci: 10–11)
+replace cinef13_ci = 4  if inlist(profesion3_ci, 10, 11)
+
+* 5: Ciencias Naturales, Matemáticas y Estadística (profesion3_ci: 12–15)
+replace cinef13_ci = 5  if inlist(profesion3_ci, 12, 13, 14, 15)
+
+* 6: Tecnología de la Información y la Comunicación - TIC (profesion3_ci: 16)
+replace cinef13_ci = 6  if profesion3_ci == 16
+
+* 7: Ingeniería, Industria y Construcción (profesion3_ci: 17–19)
+replace cinef13_ci = 7  if inlist(profesion3_ci, 17, 18, 19)
+
+* 8: Agropecuario, Silvicultura, Pesca y Veterinaria (profesion3_ci: 20–23)
+replace cinef13_ci = 8  if inlist(profesion3_ci, 20, 21, 22, 23)
+
+* 9: Salud y Bienestar (profesion3_ci: 24–25)
+replace cinef13_ci = 9  if inlist(profesion3_ci, 24, 25)
+
+* 10: Servicios (profesion3_ci: 26–29)
+replace cinef13_ci = 10 if inlist(profesion3_ci, 26, 27, 28, 29)
+
+********************************************************************************
+* Etiquetas de valor y variable
+********************************************************************************
+
+capture label drop lbl_cinef13_ci
+label define lbl_cinef13_ci ///
+     0 "Programas y certificaciones genéricos" ///
+     1 "Educación" ///
+     2 "Artes y Humanidades" ///
+     3 "Ciencias Sociales, Periodismo e Información" ///
+     4 "Administración de Empresas y Derecho" ///
+     5 "Ciencias Naturales, Matemáticas y Estadística" ///
+     6 "Tecnología de la Información y la Comunicación (TIC)" ///
+     7 "Ingeniería, Industria y Construcción" ///
+     8 "Agropecuario, Silvicultura, Pesca y Veterinaria" ///
+     9 "Salud y bienestar" ///
+    10 "Servicios", replace
+
+label values cinef13_ci lbl_cinef13_ci
+label var cinef13_ci "Campo amplio de educación (ISCED-F 2013, 1 dígito, consecutivo)"
+
+
+tab2xl cinef13_ci [iw=factorfinal] using "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\out\cinef13_tab.xlsx", row(1) col(1) sheet(PERU, replace)
+
+***************************************************************************************************************
+&
+*OLD
 *====================================================*
 * cinef13_ci (0-10) derivado de p502 (código carrera)
 *====================================================*
@@ -513,6 +818,8 @@ label define lbl_cinef13_ci ///
 label values cinef13_ci lbl_cinef13_ci
 
 
+******************************************************************************************************
+******************************************************************************************************
 ******************************************************************************************************
 gen cinef13=cinef13_ci
 

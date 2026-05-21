@@ -58,6 +58,12 @@ replace miembros_ci=. if relacion_ci==.
 ************
 g str3 pais_c = "COL"
 			
+***********
+***sexo_ci***
+***********
+g sexo_ci = p3271
+* p3271: 1=Hombre, 2=Mujer
+
 **********
 ***edad***
 **********
@@ -78,12 +84,12 @@ tostring idp_ci, replace
 ***************
 ***factor_ci***
 ***************
-g factor_ci=fex_c18*3
+g factor_ci=fex_c18
 
 ***************
 ***factor_ch***
 ***************
-g factor_ch=fex_c18*3
+g factor_ch=fex_c18
 
 
 *************
@@ -117,7 +123,7 @@ replace emp_ci = (condocup_ci == 1) if condocup_ci != .
 ***desemp_ci***
 ***************	
 gen byte desemp_ci = .
-replace desemp_ci = (condocup_ci == 2) if condocup_ci! = .
+replace desemp_ci = (condocup_ci == 2) if condocup_ci != .
 
 ***************
 ***horaspri_ci***
@@ -131,6 +137,15 @@ replace horaspri_ci = . if emp_ci == 0
 egen horastot_ci  = rowtotal(p6800 p7045)
 replace horastot_ci = . if p6800 == . & p7045 == . 
 replace horastot_ci  = . if emp_ci == 0
+
+*****************
+***parcial_ci***
+*****************
+gen byte parcial_ci = .
+replace parcial_ci = (horaspri_ci < 35) if emp_ci == 1 & horaspri_ci != .
+label define parcial_lb 1 "Parcial (<35h)" 0 "Completo (>=35h)"
+label values parcial_ci parcial_lb
+label var parcial_ci "1 = trabajador a tiempo parcial (horaspri_ci < 35h)"
 
 
 ***********
@@ -150,7 +165,9 @@ replace cotizando_ci=0 if p6920==2 | (condocup_ci==2 & p6920!=1)
 *****************
 ***afiliado_ci***
 *****************
-gen  byte afiliado_ci = (p6090==1)
+* FIX-COL-01 (QA 2026-04-21): restrict to contributive/special health regime only
+* p6090==1 includes Regimen Subsidiado (informal), inflating formality; use p6100 instead
+gen  byte afiliado_ci = inlist(p6100, 1, 2)
 replace afiliado_ci=. if p6090==9
 	
 
@@ -169,13 +186,35 @@ replace tipocontrato_ci=1 if p6460==1 & condocup_ci==1
 replace tipocontrato_ci=2 if p6460==2 & condocup_ci==1
 replace tipocontrato_ci=3 if p6450==1 & condocup_ci==1
 replace tipocontrato_ci=3 if p6440==2 & condocup_ci==1
+
+******************
+***categopri_ci***
+******************
+gen categopri_ci = .
+replace categopri_ci = 1 if p6430 == 5 & condocup_ci == 1
+replace categopri_ci = 2 if p6430 == 4 & condocup_ci == 1
+replace categopri_ci = 3 if inlist(p6430, 1, 2, 3, 7, 8) & condocup_ci == 1
+replace categopri_ci = 4 if p6430 == 6 & condocup_ci == 1
+replace categopri_ci = . if emp_ci == 0
+label define categopri_ci 1 "Patron" 2 "Cuenta propia" 0 "Otro"
+label define categopri_ci 3 "Empleado" 4 "No remunerado", add
+label value categopri_ci categopri_ci
+label variable categopri_ci "Categoria ocupacional en la actividad principal"
+
+*****************
+***selfempl_ci***
+*****************
+gen byte selfempl_ci = .
+replace selfempl_ci = (categopri_ci == 2) if emp_ci == 1 & categopri_ci != .
+label define selfempl_lb 1 "Cuenta propia" 0 "Otros"
+label values selfempl_ci selfempl_lb
+label var selfempl_ci "1 = trabajador por cuenta propia (categopri_ci == 2)"
 				
 		
 		
 	****************************
 **#***VARIABLES DE INGRESO***
 	****************************
-/*
 *************
 * ylmpri_ci *
 *************
@@ -243,8 +282,6 @@ g ynlnm_ci = .
 * ytot_ci *
 **********
 egen double ytot_ci = rowtotal(ylm_ci ylnm_ci ynlm_ci ynlnm_ci), mi
-
-*/
 
 
 		****************************
@@ -409,6 +446,31 @@ label values edu_hdmf edu_hdmf
 label var edu_hdmf "nivel educativo agregado hdmf"
 ta edu_hdmf
 
+***********
+* ocupa_ci
+* oficio_c8: CIUO-08 string code (may be 2- or 4-digit); 1-digit major group = first char
+***********
+gen byte ocupa_ci = .
+replace ocupa_ci = real(substr(oficio_c8, 1, 1)) if emp_ci == 1 & oficio_c8 != "" & !missing(real(oficio_c8))
+label define ocupa_lbl 1 "Managers" 2 "Professionals" 3 "Technicians" ///
+    4 "Clerical" 5 "Service/Sales" 6 "Agriculture" ///
+    7 "Craft" 8 "Plant/Machine" 9 "Elementary"
+label values ocupa_ci ocupa_lbl
+label var ocupa_ci "ISCO-08 major group (1-9), occupied only"
+
+***********
+* overqualified_ci
+* edu_hdmf >= 6: técnica, university complete, or postgrad (8-level COL scale)
+* ocupa_ci >= 4: clerical, service, agriculture, craft, machine, elementary
+***********
+gen byte overqualified_ci = .
+replace overqualified_ci = 0 if emp_ci == 1 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = 1 if emp_ci == 1 & edu_hdmf >= 6 & ocupa_ci >= 4 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = . if emp_ci != 1
+label define overq_lbl 1 "Overqualified" 0 "Not overqualified"
+label values overqualified_ci overq_lbl
+label var overqualified_ci "Overqualified (tertiary educ + low-skill occ, ISCO-08 4-9)"
+
 
 
 *************
@@ -496,7 +558,8 @@ replace mig_pais_code = p3373s3 if migrante_ci==1 & migrante_ci!=.
 *** mig_pais_ci ***
 **********************
 destring p3373s3, replace
- 
+
+capture drop _merge
 merge m:1 p3373s3 using "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\col\mig_pais_code.dta"
  
 gen mig_pais_ci = ""
@@ -799,8 +862,15 @@ local ANO "2024"
 local ronda t3
 
 
-local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
+local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
 }
+
+***************
+***jefe_ci***
+***************
+g jefe_ci = (relacion_ci == 1)
+la var jefe_ci "Jefe de hogar"
 
 compress
 saveold "`base_out'", replace

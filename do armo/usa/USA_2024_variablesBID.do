@@ -1,4 +1,11 @@
-use "C:\Users\STEFFANNYR\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\usa\usa_00004.dta", clear
+if c(username) == "STEFFANNYR" {
+	use "C:\Users\STEFFANNYR\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\usa\usa_00004.dta", clear
+	local base_out "C:\Users\STEFFANNYR\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\USA\USA_2024_BID.dta"
+}
+if c(username) == "PABLOCOR" {
+	use "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\usa\usa_00004.dta", clear
+	local base_out "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\usa\USA_2024_BID.dta"
+}
 
 	************************************************************
 	* pais_c: acrónimo ISO del nombre del país de residencia   *
@@ -102,8 +109,54 @@ label define edu_hdmf ///
 
 label values edu_hdmf edu_hdmf
 label var edu_hdmf "nivel educativo agregado hdmf"
-ta edu_hdmf	
-***********************************************************************	
+ta edu_hdmf
+
+***********
+* ocupa_ci
+/* IPUMS ACS occ (SOC 2010 harmonized) → ISCO-08 major group (1-digit approximation)
+   Based on ILO SOC→ISCO-08 crosswalk and IPUMS occupation groupings.
+   Ranges verified against IPUMS ACS 2010 occupational classification:
+     10-440   Management → ISCO 1
+     500-2960 Professional/Scientific/Technical → ISCO 2
+     3000-3540 Healthcare practitioners + protective → ISCO 3
+     3600-4965 Healthcare support/food/personal care/sales → ISCO 5
+     5000-5940 Office/Administrative support → ISCO 4
+     6005-6130 Farming/fishing/forestry → ISCO 6
+     6200-7630 Construction/extraction/installation → ISCO 7
+     7700-8965 Production → ISCO 8
+     9000-9750 Transportation/material moving → ISCO 9 */
+***********
+gen byte ocupa_ci = .
+replace ocupa_ci = 1 if emp_ci == 1 & inrange(occ, 10, 440)
+replace ocupa_ci = 2 if emp_ci == 1 & inrange(occ, 500, 2960)
+replace ocupa_ci = 3 if emp_ci == 1 & inrange(occ, 3000, 3540)
+replace ocupa_ci = 5 if emp_ci == 1 & inrange(occ, 3600, 4965)
+replace ocupa_ci = 4 if emp_ci == 1 & inrange(occ, 5000, 5940)
+replace ocupa_ci = 6 if emp_ci == 1 & inrange(occ, 6005, 6130)
+replace ocupa_ci = 7 if emp_ci == 1 & inrange(occ, 6200, 7630)
+replace ocupa_ci = 8 if emp_ci == 1 & inrange(occ, 7700, 8965)
+replace ocupa_ci = 9 if emp_ci == 1 & inrange(occ, 9000, 9750)
+label define ocupa_lbl 1 "Managers" 2 "Professionals" 3 "Technicians" ///
+    4 "Clerical" 5 "Service/Sales" 6 "Agriculture" ///
+    7 "Craft" 8 "Plant/Machine" 9 "Elementary"
+label values ocupa_ci ocupa_lbl
+label var ocupa_ci "ISCO-08 major group (SOC 2010 → ISCO-08 crosswalk, 1-digit approx)"
+
+***********
+* overqualified_ci
+* edu_hdmf >= 6: técnica (associates/some college+), university complete, postgrad
+* NOTE: USA edu_hdmf=6 includes "some college no degree" — approx. includes non-completers
+* ocupa_ci >= 4: clerical, service, agriculture, craft, machine, elementary
+***********
+gen byte overqualified_ci = .
+replace overqualified_ci = 0 if emp_ci == 1 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = 1 if emp_ci == 1 & edu_hdmf >= 6 & ocupa_ci >= 4 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = . if emp_ci != 1
+label define overq_lbl 1 "Overqualified" 0 "Not overqualified"
+label values overqualified_ci overq_lbl
+label var overqualified_ci "Overqualified (tertiary educ + low-skill occ, SOC→ISCO-08)"
+
+***********************************************************************
 	*****************************
 	**** VARIABLES MIGRACIÓN ****
 	*****************************
@@ -138,8 +191,34 @@ decode bpld, gen(mig_pais_ci)
 replace mig_pais_ci="" if migrante_ci!=1
 
 * Rellenar según código (confirmar que se abarcan todos los países)
-	
+
+*********************
+***relacion_ci***
+*********************
+* In IPUMS ACS, pernum==1 is always the household head/householder.
+* Full relate mapping requires 'relate' variable in the extract;
+* if present, use it; otherwise pernum==1 identifies the head.
+gen byte relacion_ci = .
+capture replace relacion_ci = 1 if relate == 101
+capture replace relacion_ci = 2 if relate == 201
+capture replace relacion_ci = 3 if inlist(relate, 301, 302, 303)
+capture replace relacion_ci = 4 if relate == 501
+capture replace relacion_ci = 5 if inlist(relate, 401, 601, 701)
+capture replace relacion_ci = 6 if inlist(relate, 801, 901, 1000)
+* Fallback: if relate not in extract, use pernum==1 for head
+replace relacion_ci = 1 if pernum == 1 & relacion_ci == .
+label var relacion_ci "Relacion con jefe del hogar (1=jefe, ...)"
+
+***************
+***jefe_ci***
+***************
+gen jefe_ci = (relacion_ci == 1)
+label var jefe_ci "Jefe de hogar"
+label def jefe_ci 1 "Si" 0 "No"
+label val jefe_ci jefe_ci
+
 ************************************************************************
-	
-	
-save "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\USA_2024_BID.dta", replace
+
+
+capture mkdir "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\usa"
+save "`base_out'", replace

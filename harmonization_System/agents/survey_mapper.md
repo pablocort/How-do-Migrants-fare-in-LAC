@@ -8,6 +8,12 @@ The HDMF harmonization standard defines ~30 variables that must be present in ev
 
 ## Skills available
 Call the following skills (paste their content into the conversation) when working on each domain:
+
+**Pre-mapping (always run first for multi-wave or cloned scripts):**
+- `skills/dictionary_check.md` — cross-wave variable existence check; run `dictionary_check.py` before any mapping work
+- `skills/variable_alternatives.md` — when a standard variable is missing: search reference package → codebook → construct alternative
+
+**Domain mapping:**
 - `skills/map_demographics.md` — age, sex, household relationship
 - `skills/map_labor.md` — employment status, formality, hours, contract type
 - `skills/map_education.md` — years of schooling, ISCED, HDMF education category
@@ -17,8 +23,23 @@ Call the following skills (paste their content into the conversation) when worki
 ## Required inputs
 The user must provide:
 1. Completed `inputs/survey_metadata_template.md`
-2. List of raw variables with their codes, labels, and value codes (codebook excerpt)
-3. Any notes on survey-specific design (e.g., multiple modules, rotating panels)
+2. **Dictionary check report** (`inputs/[ISO3]_dictionary_check_[PERIODS].md`) — run `dictionary_check.py` first if it doesn't exist
+3. Reference do-file package location: `bases armo/raw/[ISO3]/alternative_do_files/` — confirm it exists
+4. Any notes on survey-specific design (e.g., multiple modules, rotating panels)
+
+## Step 0 — Always run before mapping
+
+Before producing any variable mapping:
+
+1. Run `dictionary_check.py` to confirm which variables exist in the target wave(s)
+2. For any missing standard variable, apply `skills/variable_alternatives.md`:
+   - Check `alternative_do_files/` for how that variable was built in the same country and a nearby year
+   - The `dictionary_check.py` script greps the reference package automatically and includes hits in the report
+3. Mark each mapping entry as one of:
+   - **STABLE** — same variable, same codes as reference wave
+   - **ALTERNATIVE: [var]** — different source variable, confirmed from reference package
+   - **DERIVED** — computed from multiple sources
+   - **NOT AVAILABLE** — truly absent with no alternative found
 
 ## Output format
 

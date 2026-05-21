@@ -1,6 +1,7 @@
 * (Versión Stata 12)
 clear
 set more off
+di "File created with the Claude HDMF system — 2026-05-01"
 *________________________________________________________________________________________________________________*
 
  * Activar si es necesario (dejar desactivado para evitar sobreescribir la base y dejar la posibilidad de 
@@ -22,7 +23,8 @@ local ronda m12
 
 local log_file = "$ruta\harmonized\\`PAIS'\\`ENCUESTA'\log\\`PAIS'_`ANO'`ronda'_variablesBID.log"
 local base_in  = "$ruta\survey\\`PAIS'\\`ENCUESTA'\\`ANO'\\`ronda'\data_merge\\`PAIS'_`ANO'`ronda'.dta"
-local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
+local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
 
 *capture log close
 *log using "`log_file'", replace 
@@ -31,13 +33,15 @@ local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank
 
 if c(username)=="STEFFANNYR" {
 use "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\ecu\ECU_2025m12.dta", clear
-local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
+local base_out = "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\steffannyr\OneDrive - Inter-American Development Bank Group\Paraiso Pinto Furtado Luzes, Marta's files - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
 }
 
 if c(username)=="PABLOCOR" {
 
 use "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\raw\ecu\ECU_2025m12.dta", clear
-local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'_`ANO'`ronda'_BID.dta"
+local base_out = "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'\\`PAIS'_`ANO'`ronda'_BID.dta"
+capture mkdir "C:\Users\PABLOCOR\OneDrive - Inter-American Development Bank Group\Archivos de Paraiso Pinto Furtado Luzes, Marta - Equipo Conocimiento\Datos\hdmf\How-do-Migrants-fare-in-LAC\bases armo\armo\\`PAIS'"
 }
 
 		*************************
@@ -195,7 +199,12 @@ label define relacion_ci_lbl ///
     6 "Empleado/a domestico/a"
 label values relacion_ci relacion_ci_lbl
 
-
+*****************
+***miembros_ci***
+*****************
+gen byte miembros_ci = (relacion_ci >= 1 & relacion_ci <= 5)
+replace miembros_ci = . if relacion_ci == .
+label variable miembros_ci "1 = miembro del hogar (excl. empleado domestico)"
 
 
 		***********************************
@@ -262,7 +271,15 @@ egen horastot_ci = rsum(p51a p51b p51c) if emp_ci == 1
 replace horastot_ci = . if p51a == . & p51b == . & p51c == .
 replace horastot_ci = . if emp_ci == 0
 label var horastot_ci "Horas trabajadas semanalmente en todos los empleos"
-	
+
+*****************
+***parcial_ci***
+*****************
+gen byte parcial_ci = .
+replace parcial_ci = (horaspri_ci < 35) if emp_ci == 1 & horaspri_ci != .
+label define parcial_lb 1 "Parcial (<35h)" 0 "Completo (>=35h)"
+label values parcial_ci parcial_lb
+label var parcial_ci "1 = trabajador a tiempo parcial (horaspri_ci < 35h)"
 
 ******************
 ***categopri_ci***
@@ -277,6 +294,15 @@ label define categopri_ci 1 "Patron" 2 "Cuenta propia" 0 "Otro"
 label define categopri_ci 3 "Empleado" 4 "No remunerado" , add
 label value categopri_ci categopri_ci
 label variable categopri_ci "Categoria ocupacional"
+
+*****************
+***selfempl_ci***
+*****************
+gen byte selfempl_ci = .
+replace selfempl_ci = (categopri_ci == 2) if emp_ci == 1 & categopri_ci != .
+label define selfempl_lb 1 "Cuenta propia" 0 "Otros"
+label values selfempl_ci selfempl_lb
+label var selfempl_ci "1 = trabajador por cuenta propia (categopri_ci == 2)"
 
 ******************
 ***categosec_ci***
@@ -394,9 +420,10 @@ replace edu_hdmf = 5 if p10a == 7 & (p10b == 3)
 replace edu_hdmf = 5 if p10a == 6 & (p10b == 6)
 replace edu_hdmf = 5 if  p10a == 5 & (p10b == 10)
 
-* 6. técnica completa (terciaria no universitaria)
-replace edu_hdmf = 6 if p10a == 8 
-replace edu_hdmf = 5 if p10a == 8 
+* 6. técnica (terciaria no universitaria)
+replace edu_hdmf = 6 if p10a == 8 & p12a == 1   /* técnica completa */
+replace edu_hdmf = 5 if p10a == 8 & p12a == 2          /* técnica incompleta → media completa */
+replace edu_hdmf = 6 if p10a == 8 & missing(p12a)      /* FIX-ECU-01: p12a missing → default técnica completa */
 
 * 7. universitaria completa
 replace edu_hdmf = 7 if p10a == 9 & (p12a == 1)
@@ -425,6 +452,32 @@ label var edu_hdmf "nivel educativo agregado hdmf"
 
 ta p10a, m
 ta edu_hdmf, m
+
+***********
+* ocupa_ci
+* p41: CIUO-08 occupation code in ENEMDU
+* First digit = ISCO-08 major group regardless of code length
+***********
+gen byte ocupa_ci = .
+replace ocupa_ci = real(substr(string(int(p41)), 1, 1)) if emp_ci == 1 & !missing(p41) & p41 > 0
+label define ocupa_lbl 1 "Managers" 2 "Professionals" 3 "Technicians" ///
+    4 "Clerical" 5 "Service/Sales" 6 "Agriculture" ///
+    7 "Craft" 8 "Plant/Machine" 9 "Elementary"
+label values ocupa_ci ocupa_lbl
+label var ocupa_ci "ISCO-08 major group (1-9), occupied only"
+
+***********
+* overqualified_ci
+* edu_hdmf >= 6: técnica, university complete, or postgrad (8-level ECU scale)
+* ocupa_ci >= 4: clerical, service, agriculture, craft, machine, elementary
+***********
+gen byte overqualified_ci = .
+replace overqualified_ci = 0 if emp_ci == 1 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = 1 if emp_ci == 1 & edu_hdmf >= 6 & ocupa_ci >= 4 & !missing(edu_hdmf) & !missing(ocupa_ci)
+replace overqualified_ci = . if emp_ci != 1
+label define overq_lbl 1 "Overqualified" 0 "Not overqualified"
+label values overqualified_ci overq_lbl
+label var overqualified_ci "Overqualified (tertiary educ + low-skill occ, ISCO-08 4-9)"
 
 
 	*****************************
@@ -499,6 +552,14 @@ assert  mig_pais_ci!="" if mig_pais_code!=.
 para análisis de trends (en el marco de estudios sobre el futuro del trabajo)*/
 *rename p41 codocupa
 *rename p40 codindustria
+
+***************
+***jefe_ci***
+***************
+gen jefe_ci = (relacion_ci == 1)
+label var jefe_ci "Jefe de hogar"
+label def jefe_ci 1 "Si" 0 "No"
+label val jefe_ci jefe_ci
 
 compress
 
