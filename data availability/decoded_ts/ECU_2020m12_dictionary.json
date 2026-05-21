@@ -1,0 +1,317 @@
+{
+  "iso3": "ECU",
+  "survey": "ENEMDU",
+  "period": "m12",
+  "year": 2020,
+  "source_files": [
+    "diccionario_enemdu_consumidor_2020_12.xlsx.xlsx"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [
+    "Diccionario de variables",
+    "Definición de campos"
+  ],
+  "variables": [
+    {
+      "name": "area",
+      "label": "Area",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "ciudad",
+      "label": "Ciudad",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "conglomerado",
+      "label": "Conglomerado",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "panelm",
+      "label": "Panel",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "vivienda",
+      "label": "Vivienda",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "hogar",
+      "label": "Hogar",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c01",
+      "label": "Con relación al mes anterior,¿ la situación económica de su hogar es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c02",
+      "label": "¿Cómo cree usted que será la situación económica de su hogar dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c03",
+      "label": "Con relación al mes anterior,¿ el valor monetario (dinero) empleado en el consumo de alimentos de su hogar es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c04a",
+      "label": "¿En los próximos 3 meses, el valor monetario (dinero) empleado en el consumo de alimentos de su hogar será:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c05a",
+      "label": "¿Con relación al mes anterior, ¿el consumo de su hogar en alimentos importados es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c05b",
+      "label": "¿Con relación al mes anterior, ¿el consumo de su hogar en alimentos nacionales es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c06a",
+      "label": "¿En los próximos 3 meses, el consumo de su hogar en alimentos importados será:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c06b",
+      "label": "¿En los próximos 3 meses, el consumo de su hogar en alimentos nacionales será:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c07",
+      "label": "Con relación al mes anterior, ¿el consumo de su hogar en alimentos de menor calidad/ más baratos es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c08a",
+      "label": "¿En los próximos 3 meses, el consumo de su hogar en alimentos de menor calidad/ más baratos será:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c09",
+      "label": "Con relación al mes anterior, ¿el consumo de su hogar en entretenimiento (cine, discotecas, etc.) es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c10",
+      "label": "¿Cómo cree usted que será el consumo de su hogar en entretenimiento dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c11",
+      "label": "Con relación al mes anterior, ¿el consumo de su hogar en vestimenta (ropa en general) es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c12",
+      "label": "¿Cómo cree usted que será el consumo de su hogar en vestimenta dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c13",
+      "label": "Con relación al mes anterior,¿ el consumo de su hogar en electrodomésticos (cocina,refrigeradora, televisor,etc.)es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c14",
+      "label": "¿Cómo cree usted que será el consumo de su hogar en electrodomésticos dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c15a",
+      "label": "¿Planea usted o algún miembro del hogar adquirir un vehículo en los próximos 3 meses?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c16a",
+      "label": "¿Planea usted o algún miembro del hogar adquirir un inmueble (casa, departamento, pieza) en los próximos 3 meses",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c17a",
+      "label": "¿Usted o algún miembro del hogar tiene planes de endeudamiento en los próximos 3 meses (bancos, financieras, etc.)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c18",
+      "label": "Con relación al mes anterior, ¿la situación económica del país es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c19",
+      "label": "¿Usted considera que durante los próximos 3 meses la situación económica del país será:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c20a",
+      "label": "Con relación a los 3 meses anteriores, ¿considera que la situación en Ecuador para encontrar/mejorar un puesto de trabajo es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "c21a",
+      "label": "¿Considera usted que la situación en Ecuador para encontrar/mejorar un puesto de trabajo dentro de 3 meses será:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "fexp",
+      "label": "Factor de expansión",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "estrato",
+      "label": "Estrato",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "upm",
+      "label": "Identificador de sector",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "id_vivienda",
+      "label": "Identificador de vivienda",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "id_hogar",
+      "label": "Identificador de hogar",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "periodo",
+      "label": "Periodo",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "CODIGO DE LA VARIABLE",
+      "label": "Representa al conjunto independiente de letras, números o símbolos que constituyen un concepto, cuyo significado se describe en un lenguaje natural o común dentro de la base de datos o archivo de datos, y es un identificador único que define a una variable.",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "NOMBRE DE LA VARIABLE",
+      "label": "Es el nombre con el cual se identifica a la variable de acuerdo al marco conceptual y metodológico de la operación estadística o registro administrativo. Considerar que en algunos paquetes estadísticos como el SPSS el nombre de la variable es igual a la Etiqueta de la variable.",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "PREGUNTA",
+      "label": "Es el enunciado interrogativo asociado a una variable (pregunta en el formulario de un censo, encuesta o en el registro administrativo) que se realiza con la intención de conocer algo u obtener alguna información relevante referente a la unidad de observación.",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "TIPO DE VARIABLE",
+      "label": "Determina la clasificación que tienen las variables de acuerdo a la función que cumplen en los instrumentos de recolección/captación de la información (cuestionario o registro administrativo).  \n \n*Variable identificadora: Es aquella que contiene datos que permita la identificación directa de la unidad de observación dentro de la operación estadística o que permitir realizar asociaciones entre distintas bases o fuentes de datos provenientes de registros administrativos. Se incluyen tanto claves primarias  como claves externas . Por ejemplo: número cédula, Registro Único de Contribuyente – RUC, clave catastral, número de establecimiento; en esta categoría también caben variables de identificación auxiliares tales como: nombres y apellidos, razón social, nombre comercial, entre otras.\n*Variable de comunicación: Es aquella que permite el contacto directo con la unidad de observación dentro de la operación estadística o registro administrativo. Tales como: correo electrónico, número telefónico, entre otros.\n*Variable cronológica: Es aquella que indica el momento de ocurrencia de un evento o fenómeno. Por ejemplo: fecha de nacimiento, año de creación de la empresa, fecha de cambio de domicilio, entre otros. \n*Variable estadística cualitativa (categórica): Es aquella cuyos valores expresan distintas cualidades, características o modalidades, donde cada modalidad que se presenta se denomina atributo  o categoría de la unidad de observación. Ejemplo: sexo, estado civil, nivel de instrucción, entre otros.\n*Variable estadística cuantitativa (discreta o continua): Es aquella cuyos valores expresa en cantidades numéricas, es decir permiten medir, pesar o contar información de las unidades de observación dentro de una operación estadística o registro administrativo. Por ejemplo Ingreso/ventas mensuales, edad, número de hijos, número de trabajadores, entre otros.\n*Variable técnica: Hace referencia a aquella variable que ha sido creada o sirve  para el procesamiento o análisis de los datos. A menudo contiene comentarios para tener el historial o trazabilidad de los cambios aplicados a otras variables. Por ejemplo código de error, validación de identificadores, identificador de crítico – codificador, entre otras.",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "FORMATO DEL DATO",
+      "label": "Se refiere a la característica o cualidad del dato o valor que va a manejar o almacenar la variable, de acuerdo a la metodología y/o naturaleza de la operación estadística y en función del tipo de dato.\n*Texto o Alfanumérico: Este tipo de formato aplicará cuando la variable contenga datos expresados en letras o la combinación de letras y números; este formato puede contener un máximo de 255 caracteres de longitud. Por ejemplo: Nombre: Javier, Nombre:   JAVIER, Nombre: JAVIER AYALA, Nombre: Javier Ayala.\n*Numérico: pueden contener cualquier número y estarán expresados y/o almacenados en números enteros o de punto flotante (decimales). \n*Fecha: este tipo de formato expresa el tiempo, determinado por el año, mes y día en que se hace u ocurre un evento, dependiendo de cada operación estadística pueden existir formatos tales como: (yyyy-mm-dd; dd-mm-yyyy; mm-dd-yyyy; mm-dd-yy; yyyy/mm/dd; dd/mm/yyyy). Sin embargo por convencionalismo y de acuerdo a la ISO 8601 se debería escribir la fecha (YYYY-MM-DD).\n*Categórico: son datos que expresan categorías ya sea que obedezcan o no a una clasificación ordenada y específica. Por ejemplos: región, código postal o religión, etnia, los niveles de satisfacción con un servicio, que van desde muy insatisfecho hasta muy satisfecho, nivel de instrucción.",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "Fuente:",
+      "label": "Instructivo de llenado del Inventario de Variables Institucional 2018",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "Elaborado por:",
+      "label": "DINCE",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: diccionario_enemdu_consumidor_2020_12.xlsx.xlsx (2 sheet(s))",
+    "Sheet 'Diccionario de variables': UNKNOWN layout — best-effort extraction",
+    "  → 35 variables (best-effort — verify manually)",
+    "Sheet 'Definición de campos': UNKNOWN layout — best-effort extraction",
+    "  → 7 variables (best-effort — verify manually)"
+  ]
+}

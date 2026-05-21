@@ -1,0 +1,17 @@
+{
+  "iso3": "CHL",
+  "survey": "CASEN",
+  "period": "a",
+  "year": 2022,
+  "source_files": [
+    "221130_Documento_Metodologico_Cuestionario_Casen_2022.pdf"
+  ],
+  "doc_type": "QUESTIONNAIRE_PDF",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "PDF type: BULLETIN — no structured variable list extractable.",
+    "  This file is a statistical report or publication.",
+    "  Manual review required to determine variable availability."
+  ]
+}

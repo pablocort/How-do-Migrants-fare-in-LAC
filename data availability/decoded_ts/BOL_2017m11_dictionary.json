@@ -1,0 +1,15 @@
+{
+  "iso3": "BOL",
+  "survey": "ECH",
+  "period": "m11",
+  "year": 2017,
+  "source_files": [
+    "CUESTIONARIO EH2017_Final.xlsx"
+  ],
+  "doc_type": "XLSX",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "ERROR: 'DataFrame' object has no attribute 'str'"
+  ]
+}

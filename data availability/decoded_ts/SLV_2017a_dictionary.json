@@ -1,0 +1,132 @@
+{
+  "iso3": "SLV",
+  "survey": "EHPM",
+  "period": "a",
+  "year": 2017,
+  "source_files": [
+    "PUBLICACION_EHPM_2017 .pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "NÚMERO DE\nTRABAJADORES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Características sociodemográficas",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Características de educación",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Características generales de la vivienda",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Empleo e ingreso",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Actividad del productor agropecuario",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Salud",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Remesas familiares",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Gasto del hogar",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Tecnología de información y comunicación",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TIPO A",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "N°",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ORDEN\nAnote el código de la TRH que\naplique",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OBSERVACIONES:",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PASE A 311",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PASE A 311 SI RESPONDIÓ EN PREGUNTA 309 CÓDIGO 2",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  545 pages total",
+    "  → 16 variables extracted"
+  ]
+}

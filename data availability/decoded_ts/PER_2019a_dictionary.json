@@ -1,0 +1,122 @@
+{
+  "iso3": "PER",
+  "survey": "ENAHO",
+  "period": "a",
+  "year": 2019,
+  "source_files": [
+    "Diccionario_2019.pdf"
+  ],
+  "doc_type": "DICT_PDF",
+  "tables": [
+    "main",
+    "MÓDULO 700",
+    "MÓDULO 500"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "FICHA TÉCNICA....................................................................",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "NOMENCLATURA DE ARCHIVOS SPPS. ….................................................",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "ARCHIVOS DEL CUESTIONARIO ENAHO.01. .............................................",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "ARCHIVOS DEL CUESTIONARIO ENAHO.01A. ............................................",
+      "type": "",
+      "table": "MÓDULO 700",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "ARCHIVOS DEL CUESTIONARIO ENAHO.01B. 241",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "ARCHIVOS DEL CUESTIONARIO ENAHO………………………………………………………………………… 269",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "ARCHIVOS DEL CUESTIONARIO ENAHO.04. .............................................",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {
+        "24": "295"
+      }
+    },
+    {
+      "name": "8",
+      "label": "SUMARIA POR 8 GRUPO DE GASTOS....................................................",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "SUMARIA POR 12 GRUPOS DE GASTOS..................................................",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {
+        "1": "Pobre extremo",
+        "2": "Pobre no extremo",
+        "3": "No pobre",
+        "5": "”E”",
+        "6": "”RURAL”",
+        "7": "Área de Empadronamiento Rural (AER) Compuesto",
+        "8": "Área de Empadronamiento Rural (AER) Simple",
+        "11": "4 veces por semana",
+        "12": "Anual",
+        "13": "Autoconsumo",
+        "14": "Producción de Bienes: Ventas",
+        "15": "Producción de Bienes: Autoconsumo",
+        "4": "”D”",
+        "9": "1. SUMARIA-2019.SAV- Sumaria Por 12 Grupo De Gastos",
+        "99999": "Missing value",
+        "99": "Missing value",
+        "999999": "Missing value",
+        "9999999": "Missing value",
+        "0": "Pase",
+        "10": "3 veces por semana",
+        "999": "Missing value",
+        "16": "Producción de Bienes: Gasto en Materia Prima e Insumos",
+        "17": "Comercio: Ventas",
+        "18": "Comercio: Autosuministro",
+        "19": "Comercio: Compra de Mercaderías",
+        "20": "Servicios: Ingresos Totales",
+        "21": "Servicios: Autosuministro",
+        "22": "Servicios: Gastos",
+        "23": "Tacna",
+        "24": "Tumbes",
+        "25": "Ucayali",
+        "26": "Otro",
+        "9999": "Missing value (CIIU Revisión 4)",
+        "999999999": "Missing value"
+      }
+    }
+  ],
+  "decode_notes": [
+    "PDF type: QUESTIONNAIRE — regex extraction; best-effort",
+    "  317 pages",
+    "  → 9 variables extracted (question codes only)"
+  ]
+}

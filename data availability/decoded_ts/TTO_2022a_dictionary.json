@@ -1,0 +1,209 @@
+{
+  "iso3": "TTO",
+  "survey": "CSSP",
+  "period": "a",
+  "year": 2022,
+  "source_files": [
+    "CSSP Labour Force Questionnaire.pdf"
+  ],
+  "doc_type": "QUESTIONNAIRE_PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "40",
+      "label": "50",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "1 Yes\n2 No\n9 N.S.",
+      "label": "1 Yes\n2 No\n9 N.S.",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TO BE ANSWERED BY ALL PERSONS 15 YEARS OLD AND OVER",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": ".oN\negaP",
+      "label": "27. NEW\nENTRANTS\nSEEKING\nFIRS JOB\nDid (N) look\nfor work for\nthe first time\nwithin the past\nsix months?\nN",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "28",
+      "label": "38",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "1 Yes\n2 No\n9 N.S.",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "40-43",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "35-36",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "35 - 36",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Q",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "41",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "42",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "43",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "44",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "45",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "46",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "47",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "48",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "49",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "01",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "02",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "03",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "04",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "05",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "06",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C.S.O. Printing Unit",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  13 pages total",
+    "  → 27 variables extracted"
+  ]
+}

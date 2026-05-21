@@ -1,0 +1,2526 @@
+{
+  "iso3": "URY",
+  "survey": "ECH",
+  "period": "a",
+  "year": 2024,
+  "source_files": [
+    "Diccionario ECH 2024.pdf"
+  ],
+  "doc_type": "DICT_PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "DESCRIPCIÓN DE LA VARIABLE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HOGAR. IDENTIFICACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ID",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "AÑO DE LA ENCUESTA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MES DE LA ENCUESTA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GRUPO DE ROTACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DEPARTAMENTO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NOMBRE DEL DEPARTAMENTO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LOCALIDAD AGRUPADA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NOMBRE DE LA LOCALIDAD AGRUPADA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CENTRO COMUNAL ZONAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SECCIÓN CENSAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BARRIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "REGION",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "REGIÓN 4",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ESTRATO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PONDERADOR MENSUAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PONDERADOR TRIMESTRAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PONDERADOR SEMESTRAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PONDERADOR ANUAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C. VIVIENDA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HOGAR CONTINÚA RESIDIENDO EN LA MISMA\nVIVIENDA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DEPARTAMENTO DEL NUEVO DOMICILIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TIPO DE VIVIENDA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MATERIAL PREDOMINANTE EN PAREDES EXTERNAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MATERIAL PREDOMINANTE EN TECHO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MATERIAL PREDOMINANTE EN PISOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PROBLEMAS DE LA VIVIENDA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PERSONAS QUE HABITAN VIVIENDA CONFORMAN\nUN HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NÚMERO DE HOGARES EN LA VIVIENDA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D. HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VIVIENDA UBICADA EN ASENTAMIENTO IRREGULAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HABITACIONES RESIDENCIALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HABITACIONES PARA DORMIR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ORIGEN DEL AGUA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LLEGADA DEL AGUA A LA VIVIENDA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SERVICIO SANITARIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CANTIDAD DE BAÑOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "USO DEL BAÑO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "EVACUACIÓN DEL SERVICIO SANITARIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FUENTE DE ENERGÍA PARA ILUMINAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FUENTE DE ENERGÍA PARA CALEFACCIONAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LUGAR PARA COCINAR CON PILETA Y CANILLA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FUENTE DE ENERGÍA PARA COCINAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ELEMENTOS DE CONFORT",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SERVICIO DOMÉSTICO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PERSONAS PAGAS PARA REALIZAR TAREAS\nDOMÉSTICAS O DE CUIDADOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CANTIDAD DE HORAS TRABAJADAS A LA SEMANA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PERNOCTA EN EL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CANTIDAD DE PERSONAS QUE PERNOCTAN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "AYUDA GRATUITA DE OTROS FAMILIARES QUE NO\nINTEGRAN EL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INTEGRANTES DEL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PERSONAS DE 14 o MÁS AÑOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MENORES DE 14 AÑOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TOTAL DE PERSONAS DEL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H. INGRESOS DEL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBE DINERO DE ALGÚN FAMILIAR U OTRO\nHOGAR DEL PAÍS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HOGAR BENEFICIARIO BONO SOCIAL UTE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MIEMBRO QUE RECIBE EL BENEFICIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HOGAR BENEFICIARIO TARIFA SOCIAL DE OSE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DESCUENTO EN RECARGA DE GARRAFAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CANTIDAD DE RECARGAS CON DESCUENTO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HOGAR ALQUILA PARTE DE LA VIVIENDA QUE\nHABITA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ POR ALQUILER",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PROPIETARIOS/AS DE LA VIVIENDA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PROPIETARIO/A DE OTRA VIVIENDA O LOCAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FUERON ALQUILADAS ÚLTIMOS 12 MESES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PROPIETARIO/A DE CHACRA O CAMPO EN EL QUE\nNO TRABAJA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FUERON ARRENDADOS EN LOS ÚLTIMOS 12 MESES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ POR ARRENDAMIENTO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESO POR MEDIANERÍA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESO POR PASTOREO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PROPIETARIO DE GANADO A CAPITALIZACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESO POR GANADO A CAPITALIZACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ INGRESOS POR ALQUILER DE VEHÍCULOS /\nMAQUINARIA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESO POR ALQUILER DE VEHÍCULOS / MAQ.",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DEPÓSITOS BANCARIOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INTERESES POR DEPÓSITOS BANCARIOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LETRAS O BONOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INTERESES POR LETRAS O BONOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PRÉSTAMOS A TERCEROS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INTERESES POR PRESTAMOS A TERCEROS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTROS TÍTULOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INTERESES POR OTROS TÍTULOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PROPIETARIO/A DE NEGOCIO EN EL QUE NO\nTRABAJA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ INGRESOS POR MARCAS, PATENTES,\nDERECHOS DE AUTOR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESOS POR MARCAS, PATENTES, ETC.",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ INDEMNIZACIÓN POR DESPIDO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ ALGÚN INGRESO EXTRAORDINARIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "I. EGRESOS DEL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CONTRIBUCIONES EN DINERO O EN ESPECIE A\nOTROS HOGARES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "J. AHORRO Y POBREZA SUBJETIVA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "EL MES ANTERIOR, LOS INGRESOS DEL HOGAR...",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GASTO MENSUAL EN ALIMENTOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GASTO MENSUAL EN VESTIMENTA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GASTO MENSUAL EN TRANSPORTE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GASTO MENSUAL EN SALUD",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GASTO MENSUAL EN EDUCACIÓN DE LOS HIJOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CONSIDERA QUE SU HOGAR ES POBRE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VARIABLES AGREGADAS EN HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VALOR LOCATIVO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CANTIDAD DE PERSONAS SIN SERVICIO\nDOMÉSTICO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESOS DEL HOGAR NO IMPUTABLES A\nPERSONAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LÍNEA DE POBREZA 2006",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LÍNEA DE INDIGENCIA 2006",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "POBREZA SEGÚN METODOLOGÍA 2006",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INDIGENCIA SEGÚN METODOLOGÍA 2006",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LÍNEA DE POBREZA 2017",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LÍNEA DE INDIGENCIA 2017",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "POBREZA SEGÚN METODOLOGÍA 2017",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INDIGENCIA SEGÚN METODOLOGÍA 2017",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "POBRE MULTIDIMENSIONAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESO DISPONIBLE AJUSTADO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESO DISPONIBLE AJUSTADO (SIN VALOR\nLOCATIVO)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO DECLARADO POR ASIGNACION FAMILIAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO COMPUTADO AL HOGAR POR AFAM",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO DECLARADO POR TUS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO COMPUTADO AL HOGAR POR TUS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "USO DE RR. AA. EN LOS INGRESOS (AFAM_PE y TUS)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO COMPUTADO EN EL YDA_SVL DEL HOGAR\nPOR UTE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO COMPUTADO EN EL YDA_SVL DEL HOGAR\nPOR OSE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO COMPUTADO EN EL YDA_SVL DEL HOGAR\nPOR ANCAP",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESOS CORRESPONDIENTES A FONASA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO UTE SEGÚN RRAA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO OSE SEGÚN RRAA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO ANCAP SEGÚN RRAA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Registro de personas",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DESCRIPCIÓN DE VARIABLE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PERSONA. IDENTIFICACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NÚMERO DE PERSONA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RONDA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E. DATOS DE LA PERSONA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E.1 CARACTERÍSTICAS GENERALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NUEVO MIEMBRO DEL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NUEVO MIEMBRO DEPENDE DEL FONDO DE\nALIMENTACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MIEMBRO CONTINÚA RESIDIENDO EN EL\nHOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "IDENTIFICACIÓN DEL INFORMANTE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SEXO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "EDAD",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ASCENDENCIA ÉTNICO-RACIAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CUÁL CONSIDERA LA PRINCIPAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RELACIÓN DE PARENTESCO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MADRE DEL NIETO/A U OTRO PARIENTE/NO\nPARIENTE (< 18a)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PADRE DEL NIETO/A U OTRO PARIENTE/NO\nPARIENTE (< 18a)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CÓNYUGE O PAREJA EN EL HOGAR (14 o más\naños)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NÚMERO DE PERSONA (Cónyuge o pareja)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TIPO DE UNIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ESTADO CIVIL ACTUAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Solo para mujeres de 14 años o más",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HIJOS NACIDOS VIVOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CANTIDAD DE HIJOS NACIDOS VIVOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Para todas las personas",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LUGAR DE RESIDENCIA INMEDIATO LUEGO\nDEL NACIMIENTO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LUGAR DE RESIDENCIA ANTERIOR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LUGAR DE RESIDENCIA EN EL AÑO 2019",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E.2 SALUD",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DERECHOS VIGENTES PARA ATENCIÓN DE\nSALUD",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ACCESO A LA ATENCIÓN EN MSP / ASSE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ACCESO A LA ATENCIÓN EN SEGURO\nMÉDICO PRIVADO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ACCESO A LA ATENCIÓN EN HOSPITAL\nPOLICIAL / MILITAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTROS DERECHOS VIGENTES PARA\nATENCIÓN DE SALUD",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ATENCIÓN EN ESA OTRA INSTITUCIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "AFILIACIÓN A EMERGENCIA MÓVIL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "QUIÉN PAGA LA CUOTA DE LA EMERGENCIA\nMÓVIL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Para personas de 12 años o más",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ACTUALMENTE FUMA ALGÚN PRODUCTO DE\nTABACO CON HUMO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E.3 EDUCACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SABE LEER Y ESCRIBIR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ASISTENCIA A UN ESTABLECIMIENTO DE\nENSEÑANZA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "EDAD LA ÚLTIMA VEZ QUE ASISTIÓ A UN\nCENTRO EDUCATIVO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NIVEL QUE ESTÁ CURSANDO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GRADO QUE CURSA EN EL NIVEL\nDECLARADO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TIPO DE INSTITUCIÓN DE NIVEL AL QUE\nASISTE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ASISTENCIA A OTRO NIVEL EDUCATIVO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TIPO DE INSTITUCIÓN DE OTRO NIVEL\nEDUCATIVO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CUÁNTOS DÍAS A LA SEMANA ASISTE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CUÁNTAS HORAS AL DÍA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Para quienes asisten a centros públicos de educación",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBE ALIMENTACIÓN EN EL CENTRO\nEDUCATIVO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CANTIDAD DE COMIDAS SEMANALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Para quienes asisten o asistieron a un centro educativo",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PRIMARIA COMÚN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PRIMARIA ESPECIAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "EDUCACIÓN MEDIA BÁSICA - LICEO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "EDUCACIÓN MEDIA BÁSICA -UTU",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "EDUCACIÓN MEDIA SUPERIOR - LICEO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "EDUCACIÓN MEDIA SUPERIOR -UTU",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CURSO O CARRERA QUE ESTUDIA / ESTUDIÓ",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RAZONES POR NO HABER FINALIZADO LA\nEDUCACIÓN MEDIA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Para personas mayores de 14 años",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MAGISTERIO O PROFESORADO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "UNIVERSIDAD O SIMILAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TERCIARIO NO UNIVERSITARIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "POSGRADO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E.4 POLÍTICAS SOCIALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CONCURRENCIA A COMEDOR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBE PRESTACIÓN A TRAVÉS DE TARJETA\nDEL MIDES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO RECIBIDO EL MES ANTERIOR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBE ALGÚN TIPO DE CANASTA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TIPO DE CANASTA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CANTIDAD DE CANASTAS MENSUALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F. ACTIVIDAD LABORAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F.1 SITUACIÓN OCUPACIONAL ACTUAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Para personas de 14 años o más",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "COLABORACION EN NEGOCIO FAMLIAR O\nTRABAJO PUNTUAL Y CONCRETO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ O RECIBIRÁ PAGO POR ESE\nTRABAJO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TRABAJO REALIZADO PARA UN NEGOCIO\nDEL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TRABAJO POR EL QUE RECIBE PAGO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MOTIVO POR EL CUAL NO TRABAJÓ",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DESPEDIDO DEL TRABAJO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TIEMPO EN EL QUE VOLVERÁ A TRABAJAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "REALIZACIÓN DE TAREAS AGRÍCOLAS PARA\nPRODUCCIÓN DE ALIMENTOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VENTA DE PARTE DE LA PRODUCCIÓN PARA\nAUTOCONSUMO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CANTIDAD DE TRABAJOS QUE TIENE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F.2 CARACTERÍSTICAS DEL TRABAJO PRINCIPAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "REALIZA LAS MISMAS TAREAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "EL ESTABLECIMIENTO CONTINUA\nREALIZANDO LAS MISMAS TAREAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ACTIVIDAD DEL ESTABLECIMIENTO DONDE\nREALIZA LAS TAREAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SITUACIÓN EN EL EMPLEO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "APORTE A CAJA DE JUBILACIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "A CUÁL APORTA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "APORTE POR TOTALIDAD DEL SALARIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RESPONSABLE DE LOS APORTES\nJUBILATORIOS Y AL FONASA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Para personas ocupadas que no aportan",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "QUIEN DEBERÍA SER RESPONSABLE DE\nAPORTES JUBILATORIOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FORMA DE PERCEPCIÓN DE LOS INGRESOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "QUIÉN DECIDE SOBRE EL HORARIO,\nPRODUCTO O PRECIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ECONÓMICA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Para trabajadores/as dependientes",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "A QUÉ SE DEDICA LA EMPRESA DONDE\nREALIZA SUS TAREAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DURACION DEL CONTRATO O ACUERDO\nLABORAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "COBRA AGUINALDO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECONOCIMIENTO DE LAS HORAS EXTRAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VACACIONES ANUALES PAGAS O LICENCIA\nNO GOZADA PAGA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LICENCIA PAGA POR ENFERMEDAD O LESIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TAMAÑO DE LA EMPRESA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NATURALEZA JURÍDICA DEL NEGOCIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CONTABILIDAD O CONTRATACION DE\nESTUDIO CONTABLE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LUGAR DE TRABAJO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TRABAJO EN EL DEPARTAMENTO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HORAS EFECTIVAMENTE TRABAJADAS EN LA\nSEMANA DE REFERENCIA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MÁS O MENOS HORAS TRABAJADAS QUE EN\nLA SEMANA DE REFERENCIA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MOTIVO POR EL QUE TRABAJÓ MÁS HORAS\nQUE LO HABITUAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HORAS HABITUALMENTE TRABAJADAS POR\nSEMANA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "AÑO DE COMIENZO EN LA EMPRESA O\nNEGOCIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MES EN QUE EMPEZÓ A TRABAJAR EN LA\nEMPRESA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Lugar y modalidad de trabajo",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LUGAR DE TRABAJO DURANTE 1 DÍA\nCOMPLETO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FRECUENCIA DE TRABAJO EN EL HOGAR EN\nLAS ÚLTIMAS 4 SEMANAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "USO DE PC, TELÉFONO INTELIGENTE O\nTABLETA PARA TRABAJAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TRABAJO REALIZADO FUERA DE SUS\nPROPIAS INSTALACIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F.3 CARACTERÍSTICAS DEL TRABAJO SECUNDARIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TAREAS QUE REALIZA EN EL OTRO TRABAJO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F.4 BÚSQUEDA DE OTRO EMPLEO DE LOS OCUPADOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BÚSQUEDA DE OTRO TRABAJO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SUSTITUIR O COMPLEMENTAR EL ACTUAL\nTRABAJO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RAZONES POR LAS CUALES QUIERE OTRO\nEMPLEO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DESEA TRABAJAR MÁS HORAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ESTÁ DISPONIBLE PARA TRABAJAR MÁS\nHORAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HORAS DE TRABAJO ADICIONAL POR\nSEMANA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TOTAL DE HORAS HABITUALES +\nADICIONALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RAZONES POR LAS CUALES NO TRABAJA\nMÁS HORAS A LA SEMANA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F.5 BÚSQUEDA DE TRABAJO PARA QUIENES NO TRABAJAN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BÚSQUEDA DE TRABAJO EN LA 4 SEMANAS\nANTERIORES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "QUÉ HIZO PARA BUSCAR TRABAJO O\nESTABLECER SU PROPIO NEGOCIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BÚSQUEDA DE TRABAJO CON CONDICIONES\nESPECIALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TIEMPO DE BÚSQUEDA DE TRABAJO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "REALIZÓ GESTIONES CONCRETAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "REALIZÓ ALGÚN TRABAJO OCASIONAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DESEO DE TRABAJAR SI SE PRESENTA LA\nOPORTUNIDAD",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "COMIENZO DE EMPLEO O NEGOCIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DISPONIBILIDAD PARA COMENZAR A\nTRABAJAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F.6 TRABAJOS ANTERIORES DE NO OCUPADOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HA TRABAJADO ANTES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ESTÁ EN SEGURO DE DESEMPLEO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TIEMPO QUE HACE QUE DEJÓ EL ÚLTIMO\nEMPLEO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RAZONES POR LAS CUALES DEJÓ EL\nTRABAJO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TAREAS QUE REALIZABA EN ESA\nOCUPACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "APORTABA A CAJA DE JUBILACIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F.7 PARA TODAS LAS PERSONAS DE 14 AÑOS O MÁS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CONDICIÓN DE ACTIVIDAD",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TIPO DE PENSIÓN QUE RECIBE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G. INGRESOS PERSONALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G.1 INGRESOS DE TRABAJADORES/AS DEPENDIENTES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Para personas inactivas o desocupadas",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SUELDO O JORNALES LÍQUIDOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "COMISIONES, INCENTIVOS, HORAS EXTRAS,\nHABILITACIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VIÁTICOS NO SUJETOS A RENDICIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PROPINAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "AGUINALDO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SALARIO VACACIONAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PAGOS ATRASADOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BOLETOS DE TRANSPORTE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FORMA EN QUE PERCIBIÓ LOS INGRESOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ ALIMENTOS O BEBIDAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ TIQUES DE ALIMENTACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ VIVIENDA O ALOJAMIENTO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ OTRO TIPO DE RETRIBUCIÓN EN\nESPECIE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ ALGÚN OTRO TIPO DE\nCOMPLEMENTO PAGADO POR EL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Para el/la trabajador/ agropecuario/a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DERECHO A PASTOREO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DERECHO A CULTIVO PARA CONSUMO\nPROPIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G.1.2 INGRESOS OTRAS OCUPACIONES EN RELACIÓN DE DEPENDENCIA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESOS DEL MES ANTERIOR POR ALGÚN\nOTRO EMPLEO ASALARIADO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ ALGÚN OTRO COMPLEMENTO\nPAGADO POR EL EMPLEADOR/A",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Para el trabajador/a agropecuario/a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RETIRO PARA GASTOS DEL HOGAR DE\nNEGOCIOS QUE TIENE O TENÍA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "QUE TIENE O TENÍA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Si es negocio agropecuario",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G.3 INGRESOS POR TRANSFERENCIAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "JUBILACIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ INGRESOS POR JUBILACIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BPS - CAJA INDUSTRIA Y COMERCIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BPS - CAJA CIVIL Y ESCOLAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BPS - RURAL Y SERVICIO DOMÉSTICO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "POLICIAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MILITAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PROFESIONALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NOTARIAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BANCARIA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "AFAP (ingresos provenientes únicamente de\nalguna AFAP)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTRA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTRO PAÍS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PENSIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBIÓ INGRESOS POR PENSIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SEGURO DE DESEMPLEO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "COMPENSACIONES POR ACCIDENTE,\nMATERNIDAD O ENFERMEDAD",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BECAS, SUBSIDIOS, DONACIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "COBRA HOGAR CONSTITUIDO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "COBRA ASIGNACIONES FAMILIARES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RECIBE LAS ASIGNACIONES POR EL PLAN DE\nEQUIDAD DEL MIDES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FORMA DE COBRO DE LAS ASIGNACIONES\nFAMILIARES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FRECUENCIA DE COBRO DE ASIGNACIONES\nFAMILIARES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CANTIDAD DE ASIGNACIONES FAMILIARES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO PERCIBIDO POR ASIGNACIONES\nFAMILIARES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G.4 OTROS INGRESOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DEVOLUCIÓN DE FONASA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTRO INGRESO CORRIENTE ADEMÁS DE LOS\nDECLARADOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VARIABLES AGREGADAS EN PERSONAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CONDICIÓN DE ACTIVIDAD ECONÓMICA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TRABAJADOR/A SUBEMPLEADO/A",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NIVEL EDUCATIVO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CUOTA MUTUAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CUOTA EMERGENCIA MÓVIL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HOGAR CONSTITUIDO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO DESAYUNO O MERIENDA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MONTO ALMUERZO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VACA DE PASTOREO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OVEJA DE PASTOREO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CABALLO DE PASTOREO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CELÍACOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CANASTA MIDES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TOTAL DE INGRESOS PERSONALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESOS DE LA OCUPACIÓN PRINCIPAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TOTAL DE INGRESOS POR TRABAJO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VARIABLES INFORMALIDAD Y SUBUTILIZACION",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TRABAJADOR INFORMAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SITUACIÓN EN LA OCUPACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  16 pages total",
+    "  → 358 variables extracted"
+  ]
+}

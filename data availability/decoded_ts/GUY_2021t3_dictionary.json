@@ -1,0 +1,1793 @@
+{
+  "iso3": "GUY",
+  "survey": "LFS",
+  "period": "t3",
+  "year": 2021,
+  "source_files": [
+    "GUY_2021t3.dta (variable metadata — no microdata loaded)"
+  ],
+  "doc_type": "DTA_METADATA",
+  "tables": [],
+  "variables": [
+    {
+      "name": "hhid",
+      "label": "Household ID",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "member",
+      "label": "Member ID",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "weight",
+      "label": "Sampling weight",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "stratum",
+      "label": "Stratum",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "psu",
+      "label": "Primary Sampling Unit",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "domain",
+      "label": "Estimation domain",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Coast/Urban",
+        "2": "Coast/Rural",
+        "3": "Interior"
+      }
+    },
+    {
+      "name": "quarter",
+      "label": "Quarter",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "week",
+      "label": "Fieldwork week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "region",
+      "label": "Region",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "area",
+      "label": "Coast/Interior",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Interior",
+        "1": "Coast"
+      }
+    },
+    {
+      "name": "zone",
+      "label": "Urban/Rural",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Rural",
+        "1": "Urban"
+      }
+    },
+    {
+      "name": "q1_02",
+      "label": "Relation to HH head",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Head",
+        "2": "Spouse/ partner",
+        "3": "Son/daughter",
+        "4": "Step/ adopted child",
+        "5": "Grand/great-grand child",
+        "6": "Son/daughter-in-law",
+        "7": "Parent/parent-in-law",
+        "8": "Brother/sister",
+        "9": "Other relative",
+        "10": "Non relative"
+      }
+    },
+    {
+      "name": "q1_03",
+      "label": "Sex",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q1_04",
+      "label": "Age",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q1_05",
+      "label": "Marital status",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Not Married/ Never lived together",
+        "2": "Living together",
+        "3": "Married",
+        "4": "Separated",
+        "5": "Divorced",
+        "6": "Widowed"
+      }
+    },
+    {
+      "name": "q1_06",
+      "label": "Ethnic group",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "African/ Black",
+        "2": "Mixed",
+        "3": "East Indian",
+        "4": "Ameridian",
+        "5": "Chinese",
+        "6": "Portuguese",
+        "7": "White",
+        "8": "Other"
+      }
+    },
+    {
+      "name": "q1_07",
+      "label": "Country of birth",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Guyana",
+        "2": "Other Caribbean country",
+        "3": "South/Central America/Mexico",
+        "4": "U.S.A.",
+        "5": "Canada",
+        "6": "Great Britain",
+        "7": "Other European country",
+        "8": "Asia",
+        "9": "Africa",
+        "10": "Other"
+      }
+    },
+    {
+      "name": "q1_08",
+      "label": "How many years have you been residing in Guyana on a continuous basis?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q1_09",
+      "label": "In which region was your mother living when you were born?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Region 1",
+        "2": "Region 2",
+        "3": "Region 3",
+        "4": "Region 4",
+        "5": "Region 5",
+        "6": "Region 6",
+        "7": "Region 7",
+        "8": "Region 8",
+        "9": "Region 9",
+        "10": "Region 10",
+        "11": "Do not know"
+      }
+    },
+    {
+      "name": "q1_10",
+      "label": "Where were you living five years ago?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "In this city/village",
+        "2": "In another city/village of this Guyana region",
+        "3": "In another Guyana region",
+        "4": "In another country"
+      }
+    },
+    {
+      "name": "q1_11",
+      "label": "Have you EVER attended school?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q1_12",
+      "label": "Are you now enrolled in a school or in an educational institution?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q1_13",
+      "label": "What is the highest level of education that you have ATTENDED?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Pre-primary",
+        "2": "Primary",
+        "3": "Secondary",
+        "4": "Post-secondary",
+        "5": "University / Tertiary"
+      }
+    },
+    {
+      "name": "q1_14",
+      "label": "What class did you COMPLETE?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "None",
+        "2": "Prep A & B/ Grds 1 & 2",
+        "3": "Std 1/Grd 3",
+        "4": "Std 2/Grd 4",
+        "5": "Std 3/Grd 5",
+        "6": "Std 4/Grd 6",
+        "7": "Frm 1/Grd 7",
+        "8": "Frm 2/Grd 8",
+        "9": "Frm 3/Grd 9",
+        "10": "Frm 4/Grd 10",
+        "11": "Frm 5/Grd 11",
+        "12": "Frm 6/Grd 12"
+      }
+    },
+    {
+      "name": "q1_15",
+      "label": "What is the highest post-secondary level/degree that you have COMPLETED?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "None",
+        "2": "Technical/Vocational Certificate or Diploma",
+        "3": "University Certificate or Diploma",
+        "4": "Bachelor's degree",
+        "5": "Post graduate Certificate or Diploma",
+        "6": "Masters",
+        "7": "Doctoral"
+      }
+    },
+    {
+      "name": "q1_16",
+      "label": "What is the highest examination that you have passed?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "None",
+        "2": "School leaving",
+        "3": "College of Preceptors (CP)",
+        "4": "Junior Cambridge Cert",
+        "5": "CXC Basic",
+        "6": "GCE O' levels/CXC 1-2",
+        "7": "GCE O' levels/CXC 3-4",
+        "8": "GCE O' levels/CXC 5+",
+        "9": "High School/Senior Cambridge Certificate",
+        "10": "GCE A' levels/CAPE A: 1-2",
+        "11": "GCE A' levels/CAPE A: 3+"
+      }
+    },
+    {
+      "name": "q2_01",
+      "label": "In the LAST 12 MONTHS have you received training for any occupation (for example",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q2_02",
+      "label": "In what subject was your last training?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q2_03",
+      "label": "Where did you acquire MOST of this training?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Apprenticeship",
+        "2": "On the job",
+        "3": "Correspondence Course",
+        "4": "Virtual/Internet Learning",
+        "5": "On-site private institution",
+        "6": "On-site government",
+        "7": "Other"
+      }
+    },
+    {
+      "name": "q2_04",
+      "label": "In the LAST 7 DAYS, did you do any work for a wage, salary or tips EVEN IF ONLY",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q2_05",
+      "label": "In the LAST 7 DAYS, did you run or do any kind of business or farming, alone or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q2_06",
+      "label": "In the LAST 7 DAYS did you do any of the following activities EVEN IF ONLY FOR O",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q2_07",
+      "label": "In the LAST 7 DAYS, did you help unpaid in a business or farm owned by a househo",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q2_08",
+      "label": "Was this work in agriculture, livestock rearing or fishing?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q2_09",
+      "label": "IN GENERAL, are the products obtained from this activity for sale/ barter or are",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Only for sale/barter",
+        "2": "Mainly for sale/ barter",
+        "3": "Mainly for family use",
+        "4": "Only for family use"
+      }
+    },
+    {
+      "name": "q2_10",
+      "label": "In the LAST 7 DAYS, were you absent from a paid job or a business, including a h",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q2_11",
+      "label": "Why were you absent from your work in the LAST 7 DAYS?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Shift work, flexi time",
+        "2": "Holiday/Vacation",
+        "3": "Sickness",
+        "4": "Maternity/paternity/annual leave",
+        "5": "Study or training",
+        "6": "Other personal reasons (care for family, civic duties, …)",
+        "7": "Problems with transport, equipment",
+        "8": "Bad weather",
+        "9": "Temporary reduction in clients, work break",
+        "10": "Strike or labour dispute",
+        "11": "Long-term disability",
+        "12": "Off season",
+        "13": "Waiting for new job",
+        "14": "Other reason"
+      }
+    },
+    {
+      "name": "q2_12",
+      "label": "Including the time that you have been absent, will you return to that same work…",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Within 3 months or less",
+        "2": "After 3 months",
+        "3": "Not sure to return"
+      }
+    },
+    {
+      "name": "q2_13",
+      "label": "Do you continue receiving an income from your job during this absence?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q2_14",
+      "label": "During the LAST 30 DAYS, did you look for a job or tried to start a business?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q2_15",
+      "label": "What did you MAINLY do in the LAST 30 DAYS to find a job or to try to start a bu",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Applied/contacted organizations/employers",
+        "2": "Cheched at work sites, markets, etc.",
+        "3": "Placed or answered job advertisements",
+        "4": "Sought assistance of friends or relatives",
+        "5": "Looked for land, building, machinery or equipment or raw materials",
+        "6": "Arranged for financial resources",
+        "7": "Applied for license or permit",
+        "8": "Registered with Labour Exchange Office",
+        "9": "Took a test or interview",
+        "10": "Social media (Facebook, internet, etc.)",
+        "11": "Nothing (this confirms no job search)",
+        "99": "Other"
+      }
+    },
+    {
+      "name": "q2_16",
+      "label": "Even though you did not look for work in the LAST 30 DAYS, do you want to work f",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q2_17",
+      "label": "What was the MAIN reason why you did not seek work or try to start a business du",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Found work but waiting to start",
+        "2": "Awaiting replies to earlier enquiries",
+        "3": "Awaiting for the season to start",
+        "4": "Attended school/training courses",
+        "5": "Family responsibilities or housework",
+        "6": "Illness, injury or disability",
+        "7": "Too young/old to find work",
+        "8": "Does not know where to look for work",
+        "9": "Lacks employers’ requirements (skills, experience, qualifications)",
+        "10": "No jobs available in the area",
+        "99": "Other reasons"
+      }
+    },
+    {
+      "name": "q2_18",
+      "label": "How long have you been without work and trying to find a job or start a business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Less than 3 months",
+        "2": "3 to 5 months",
+        "3": "6 to 12 months",
+        "4": "1 to 2 years",
+        "5": "3 to 4 years",
+        "6": "5 years or more",
+        "7": "Don’t know"
+      }
+    },
+    {
+      "name": "q2_19",
+      "label": "If an opportunity to work for pay or to start a business became available, could",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes, in the last 7 days",
+        "2": "Yes, within the next two weeks",
+        "3": "No"
+      }
+    },
+    {
+      "name": "q2_20",
+      "label": "What is the MAIN reason why you do not want or you are not available to work?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "In school/ training",
+        "2": "Housework/ family responsibilities",
+        "3": "Illness, injury, disability",
+        "4": "Retired, too old for work",
+        "5": "Off-season",
+        "6": "Working conditions  not acceptable",
+        "7": "Engaged in subsistence farming/fishing",
+        "8": "Other"
+      }
+    },
+    {
+      "name": "q3_01",
+      "label": "In the LAST 7 DAYS did you have more than one job or economic activity?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q3_02",
+      "label": "What is the MAIN reason for you holding more than one job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Additional income needed",
+        "2": "Financial independence",
+        "3": "Hobby",
+        "4": "Did not get a full time job",
+        "5": "Other"
+      }
+    },
+    {
+      "name": "q3_03",
+      "label": "How many hours do you USUALLY work PER WEEK in your MAIN JOB (the one that takes",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_04",
+      "label": "How many hours do you USUALLY work per week in your other jobs?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_05",
+      "label": "Total hours USUALLY worked per week in ALL jobs",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_06",
+      "label": "What is the MAIN reason why you USUALLY work less than 40 hours per week?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Cannot find more work",
+        "2": "Lack of raw materials, finances, equipment etc",
+        "3": "Machinery, electrical, other breakdown",
+        "4": "Reduction in economic activity/slack period, off season",
+        "5": "Does not want more work, has sufficient work",
+        "6": "Full time work is less than 40 hrs/wk",
+        "7": "Personal / family responsibilities",
+        "8": "Student, unpaid training",
+        "9": "Own ill health, incapacity to work",
+        "10": "Climate/nature",
+        "11": "Other"
+      }
+    },
+    {
+      "name": "q3_07_1",
+      "label": "Monday: hours ACTUALLY worked in Main job in last 7 days",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_07_2",
+      "label": "Tuesday: hours ACTUALLY worked in Main job in last 7 days",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_07_3",
+      "label": "Wednesday: hours ACTUALLY worked in Main job in last 7 days",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_07_4",
+      "label": "Thursday: hours ACTUALLY worked in Main job in last 7 days",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_07_5",
+      "label": "Friday: hours ACTUALLY worked in Main job in last 7 days",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_07_6",
+      "label": "Saturday: hours ACTUALLY worked in Main job in last 7 days",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_07_7",
+      "label": "Sunday: hours ACTUALLY worked in Main job in last 7 days",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_08",
+      "label": "Hours ACTUALLY worked in OTHER jobs in last 7 days",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_09",
+      "label": "Total hours ACTUALLY worked in MAIN job in last 7 days",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_10",
+      "label": "Total hours ACTUALLY worked in ALL jobs in last 7 days",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_11",
+      "label": "Would you want to work more hours for pay or profit than you USUALLY work?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q3_12",
+      "label": "If an opportunity for additional work became available, could you start working",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q3_13",
+      "label": "Have you ever TRIED to work more hours in this job or in another job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q3_14",
+      "label": "When was the LAST TIME you tried to do this?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "In the past 30 days",
+        "2": "From 1 month to less than 3 months ago",
+        "3": "From 3 months to less than 6 months ago",
+        "4": "From 6 months to less than 12 months ago",
+        "5": "12 months ago and over"
+      }
+    },
+    {
+      "name": "q3_15",
+      "label": "What did you MAINLY do when you tried to work more hours?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Register at public employment exchange",
+        "2": "Register at private employment exchange",
+        "3": "Direct application",
+        "4": "Checking at work sites, farms, factory gates, markets, etc",
+        "5": "Answering advertisements",
+        "6": "Seeking assistance of friends, relatives, colleagues, unions, etc",
+        "7": "Asked my boss to work more hours in my current job",
+        "8": "Looking for land, building, etc to establish, own business",
+        "9": "Arranging for financial resources, applying for permits, lincenses to start your own business",
+        "10": "Tried to get new clients",
+        "11": "Other"
+      }
+    },
+    {
+      "name": "q3_15b",
+      "label": "Oher specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_16",
+      "label": "Status in employment",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Employee (for another person, for a company or for the government)",
+        "2": "Unpaid family worker",
+        "3": "Self-employed (without paid help)",
+        "4": "Self-employed (with paid help)"
+      }
+    },
+    {
+      "name": "q3_17",
+      "label": "Are you a farmer?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q3_18",
+      "label": "Are you working on the basis of a written contract or is it on the basis of a ve",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "A written contract",
+        "2": "A verbal agreement"
+      }
+    },
+    {
+      "name": "q3_19",
+      "label": "Is your contract or agreement of a limited time duration or is it permanent with",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Limited time",
+        "2": "Permanent without time limit"
+      }
+    },
+    {
+      "name": "q3_20",
+      "label": "What is the duration of your contract or agreement?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Daily",
+        "2": "2 days or more but less than 1 month",
+        "3": "1 month or more but less than 3 months",
+        "4": "3 months or more but less than 6 months",
+        "5": "6 months or more but less than 12 months",
+        "6": "12 months or more but less than 24 months",
+        "7": "24 months or more"
+      }
+    },
+    {
+      "name": "q3_21",
+      "label": "How long have you been employed by your current employer based on a fixed term c",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Less than 6 months",
+        "2": "6 months or more but less than 1 year",
+        "3": "1 year or more but less than 2 years",
+        "4": "2 years or more but less than 3 years",
+        "5": "3 years or more"
+      }
+    },
+    {
+      "name": "q3_22",
+      "label": "Do you benefit from paid annual leave?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q3_23",
+      "label": "Do you benefit from compensation for unused leave?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "3": "Don't know"
+      }
+    },
+    {
+      "name": "q3_24",
+      "label": "Do you benefit from paid sick leave in case of illness?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q3_25",
+      "label": "If you had a baby, would you benefit from maternity/paternity leave?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "Possibily",
+        "3": "No"
+      }
+    },
+    {
+      "name": "q3_26",
+      "label": "Does your employer deduct contributions for the NIS (National Insurance Scheme)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q3_27",
+      "label": "Are you a member of any union or professional association or employers associati",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q3_28",
+      "label": "What kind of accounts or records does your enterprise keep?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Complete set of written accounts for tax purposes",
+        "2": "Simplified written accounts not for tax purposes",
+        "3": "Only through informal records of orders, sales, purchases",
+        "4": "No records are kept"
+      }
+    },
+    {
+      "name": "q3_29",
+      "label": "Are you contributing BY YOURSELF to any social security scheme, such as (…)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "isic_code",
+      "label": "ISIC code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "isco_code",
+      "label": "ISCO code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_34",
+      "label": "What is the type of ownership of your business/place where you are employed?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Business owned by individual, family or partners",
+        "2": "Corporate business/company (un-limited)",
+        "3": "Government (Central or Local)",
+        "4": "State enterprise/public body",
+        "5": "Other non-governmental private organization"
+      }
+    },
+    {
+      "name": "q3_35",
+      "label": "Is your business or the enterprise in wich you work registered in any national,",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes, registered",
+        "2": "In Process",
+        "3": "No",
+        "4": "Don't know"
+      }
+    },
+    {
+      "name": "q3_36",
+      "label": "Where is your business or the enterprise in which you work registered, or in the",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q3_37",
+      "label": "Where is your business or the enterprise in which you work located?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "In a fixed factory, office",
+        "2": "In a fixed shop, store",
+        "3": "In a market place licensed stall (where goods are removed each day)",
+        "4": "In your home or the business owner’s home, without separate workspace",
+        "5": "In your home or the business owner’s home, but a separate workspace (whether inside or attached to the home)",
+        "6": "On the side walk of the street or public space (not an official market)",
+        "7": "On an empty, private lot",
+        "8": "As a moving vendor",
+        "9": "In a taxi/bus",
+        "10": "In a farm or agricultural plot",
+        "11": "In a construction site",
+        "12": "Other"
+      }
+    },
+    {
+      "name": "q3_38",
+      "label": "How many persons (including yourself) USUALLY work in the establishment or busin",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "1 person",
+        "2": "2 to 4 persons",
+        "3": "5 to 9 persons",
+        "4": "10 to 19 persons",
+        "5": "20 to 49 persons",
+        "6": "50 or more persons"
+      }
+    },
+    {
+      "name": "q3_39",
+      "label": "How many of these persons are family members of the business owner?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "1 person",
+        "2": "2 to 4 persons",
+        "3": "5 to 9 persons",
+        "4": "10 to 49 persons",
+        "5": "50 or more persons",
+        "6": "None",
+        "7": "Don't know"
+      }
+    },
+    {
+      "name": "q3_40",
+      "label": "How long ago did you start working in this enterprise / business / for this empl",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Less than 6 months",
+        "2": "6 months or more but less than 1 year",
+        "3": "1 year or more but less than 5 years",
+        "4": "5 years or more but less than 10 years",
+        "5": "10 years or more"
+      }
+    },
+    {
+      "name": "q3_41",
+      "label": "What is your MAIN source of financial support?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yourself",
+        "2": "Spouse/Partner",
+        "3": "Parents",
+        "4": "Son/daughter",
+        "5": "Other relatives/friends in Guyana",
+        "6": "Remittances from abroad",
+        "7": "Savings/Investment",
+        "8": "Pension",
+        "9": "Unemployment benefit",
+        "10": "Social assistance",
+        "11": "Others"
+      }
+    },
+    {
+      "name": "q4_01",
+      "label": "How long ago have you been without work and seeking for work?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Less than 1 month",
+        "2": "1 month and less than 3 months",
+        "3": "3 months and less than 6 months",
+        "4": "6 months and less than 12 months",
+        "5": "12 months or more"
+      }
+    },
+    {
+      "name": "q4_02",
+      "label": "Have you ever worked or had a job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q4_03",
+      "label": "What is the MAIN reason why you stopped working?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Individual dismissal",
+        "2": "Job completed",
+        "3": "Insufficient payment",
+        "4": "Resigned to study",
+        "5": "Resigned to take care of children",
+        "6": "Enterprise proceeded to mass dismissals",
+        "7": "Business failed",
+        "8": "Moved to a new area",
+        "9": "Other"
+      }
+    },
+    {
+      "name": "q4_04",
+      "label": "How many hours per week did you USUALLY work in your last job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q4_05",
+      "label": "What was your employment status in your LAST JOB?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Government employee",
+        "2": "Private employee (work for another person or company)",
+        "3": "Unpaid family worker",
+        "4": "Self-employed (without paid help)",
+        "5": "Self-employed (with paid help)"
+      }
+    },
+    {
+      "name": "q4_06",
+      "label": "Were you a farmer in your LAST JOB?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q4_07",
+      "label": "What type of worker were you in your last job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Paid Permanent",
+        "2": "Paid Temporary",
+        "3": "Paid Casual",
+        "4": "Home Worker/Sub Contractor",
+        "5": "Paid apprentice/intern",
+        "6": "Other Unpaid Worker"
+      }
+    },
+    {
+      "name": "q4_08",
+      "label": "In what country was this last job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Guyana",
+        "2": "Other Caribbean country",
+        "3": "South/Central America/Mexico",
+        "4": "U.S.A.",
+        "5": "Canada",
+        "6": "Great Britain",
+        "7": "Other European country",
+        "8": "Asia",
+        "9": "Africa",
+        "10": "Other"
+      }
+    },
+    {
+      "name": "q4_09",
+      "label": "What is your MAIN source of financial support?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yourself",
+        "2": "Spouse/Partner",
+        "3": "Parents",
+        "4": "Son/Daughter",
+        "5": "Pension",
+        "6": "Savings",
+        "7": "Social assistance",
+        "8": "Friends/Other relatives in Guyana",
+        "9": "Friends/Other relatives abroad",
+        "10": "Others"
+      }
+    },
+    {
+      "name": "q5_01",
+      "label": "To which of the following groups do you belong?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Student",
+        "2": "Housewife",
+        "3": "Retired/ Old age",
+        "4": "Unable to work",
+        "6": "Other"
+      }
+    },
+    {
+      "name": "q5_02",
+      "label": "Have you ever worked, either for others or in your own business?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q5_03a",
+      "label": "How long ago did you stop working? (months)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q5_03b",
+      "label": "How long ago did you stop working? (years)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q5_04",
+      "label": "What was your employment status in your last job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Government employee",
+        "2": "Private employee (work for another person or company)",
+        "3": "Unpaid family worker",
+        "4": "Self-employed (without paid help)",
+        "5": "Self-employed (with paid help)"
+      }
+    },
+    {
+      "name": "q5_05",
+      "label": "Were you a farmer in your LAST JOB?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q5_06",
+      "label": "In what country was this last job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Guyana",
+        "2": "Other Caribbean country",
+        "3": "South/Central America/Mexico",
+        "4": "U.S.A.",
+        "5": "Canada",
+        "6": "Great Britain",
+        "7": "Other European country",
+        "8": "Asia",
+        "9": "Africa",
+        "10": "Other"
+      }
+    },
+    {
+      "name": "q5_07",
+      "label": "What was your MAIN source of financial support during the LAST 7 DAYS?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yourself",
+        "2": "Spouse/Partner",
+        "3": "Parents",
+        "4": "Son/Daughter",
+        "5": "Pension",
+        "6": "Savings",
+        "7": "Social assistance",
+        "8": "Friends/Other relatives in Guyana",
+        "9": "Friends/Other relatives abroad",
+        "10": "Others"
+      }
+    },
+    {
+      "name": "q6_01",
+      "label": "Exact income: income from Main job IN THE LAST MONTH IN TERMS OF NET salary",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_01b",
+      "label": "Income bracket: income from Main job IN THE LAST MONTH IN TERMS OF NET salary",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "A) Zero (0)",
+        "1": "B) $1 – $8,000",
+        "2": "C) $8,001 – $13,000",
+        "3": "D) $13,001 – $20,000",
+        "4": "E) $20,001 – $50,000",
+        "5": "F) $50,001 – $100,000",
+        "6": "G) $100,001 – $150,000",
+        "7": "H) $150,001 – $200,000",
+        "8": "I) $200,001 – $300,000",
+        "9": "J) $300,001 – $400,000",
+        "10": "K) $400,001 – $500,000",
+        "11": "L) $500,001 – $1,000,000",
+        "12": "M) $1,000,001 or more",
+        "98": "O) Does not want to answer",
+        "99": "N) Does not know"
+      }
+    },
+    {
+      "name": "q6_02a",
+      "label": "Received comissions, benefits, provisions in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_02b",
+      "label": "Received overtime pay (NET) in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_02c",
+      "label": "Received travel/other allowances in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_02d",
+      "label": "Received bonus in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_02e",
+      "label": "Received special holiday pay in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_02f",
+      "label": "Received job related Government transfers (accident, illness, maternity) in the",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_03a",
+      "label": "Received food and drinks as compensations in kind in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_03b",
+      "label": "Received housing and related services as compensations in kind in the last month",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_03c",
+      "label": "Received health care as compensations in kind in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_03d",
+      "label": "Received transportation (vehicle, gas, tolls) as compensations in kind in the la",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_03e",
+      "label": "Received clothes as compensations in kind in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_03f",
+      "label": "Received nurseries or child care as compensations in kind in the last month in M",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_03g",
+      "label": "Received education for children as compensations in kind in the last month in Ma",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_03h",
+      "label": "Received products or services of the enterprise you work for as compensations in",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_03i",
+      "label": "Received any other type of in-kind pay as compensations in kind in the last mont",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_04a",
+      "label": "Comissions, benefits, provisions: income in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_04b",
+      "label": "Overtime pay (NET): income in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_04c",
+      "label": "Travel/other allowances: income in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_04d",
+      "label": "Bonus: income in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_04e",
+      "label": "Special holiday: income in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_04f",
+      "label": "Job related Government transfers: income in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_05a",
+      "label": "Value of food and drinks received in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_05b",
+      "label": "Value of housing and related services received in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_05c",
+      "label": "Value of health care received in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_05d",
+      "label": "Value of transportation (vehicle, gas, tolls) received in the last month in Main",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_05e",
+      "label": "Value of cothes received in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_05f",
+      "label": "Value of nurseries or child care received in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_05g",
+      "label": "Value of education for children received in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_05h",
+      "label": "Value of products or services of the enterprise you work for received in the las",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_05i",
+      "label": "Value of any other type of in-kind pay received in the last month in Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_06",
+      "label": "Exact income: cash amount withdrawn from business in THE LAST MONTH - Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_06b",
+      "label": "Income bracket: cash amount withdrawn from business in THE LAST MONTH - Main job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "A) Zero (0)",
+        "1": "B) $1 – $8,000",
+        "2": "C) $8,001 – $13,000",
+        "3": "D) $13,001 – $20,000",
+        "4": "E) $20,001 – $50,000",
+        "5": "F) $50,001 – $100,000",
+        "6": "G) $100,001 – $150,000",
+        "7": "H) $150,001 – $200,000",
+        "8": "I) $200,001 – $300,000",
+        "9": "J) $300,001 – $400,000",
+        "10": "K) $400,001 – $500,000",
+        "11": "L) $500,001 – $1,000,000",
+        "12": "M) $1,000,001 or more",
+        "98": "O) Does not want to answer",
+        "99": "N) Does not know"
+      }
+    },
+    {
+      "name": "q6_07",
+      "label": "Products or services from business used to consume at home in THE LAST MONTH",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_08",
+      "label": "Foods from own production consumed at home in THE LAST MONTH",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_09",
+      "label": "Value of foods from own production consumed at home in THE LAST MONTH",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_10",
+      "label": "Income from OTHER jobs IN THE LAST MONTH",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_11",
+      "label": "Exact income: NIS pension in the last month",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_12",
+      "label": "Exact income: Old age pension in the last month",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_13",
+      "label": "Exact income: Service pension in the last month",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_11b",
+      "label": "Income bracket: NIS pension in the last month",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "A) Zero (0)",
+        "1": "B) $1 – $8,000",
+        "2": "C) $8,001 – $13,000",
+        "3": "D) $13,001 – $20,000",
+        "4": "E) $20,001 – $50,000",
+        "5": "F) $50,001 – $100,000",
+        "6": "G) $100,001 – $150,000",
+        "7": "H) $150,001 – $200,000",
+        "8": "I) $200,001 – $300,000",
+        "9": "J) $300,001 – $400,000",
+        "10": "K) $400,001 – $500,000",
+        "11": "L) $500,001 – $1,000,000",
+        "12": "M) $1,000,001 or more",
+        "98": "O) Does not want to answer",
+        "99": "N) Does not know"
+      }
+    },
+    {
+      "name": "q6_12b",
+      "label": "Income bracket: Old age pension in the last month",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "A) Zero (0)",
+        "1": "B) $1 – $8,000",
+        "2": "C) $8,001 – $13,000",
+        "3": "D) $13,001 – $20,000",
+        "4": "E) $20,001 – $50,000",
+        "5": "F) $50,001 – $100,000",
+        "6": "G) $100,001 – $150,000",
+        "7": "H) $150,001 – $200,000",
+        "8": "I) $200,001 – $300,000",
+        "9": "J) $300,001 – $400,000",
+        "10": "K) $400,001 – $500,000",
+        "11": "L) $500,001 – $1,000,000",
+        "12": "M) $1,000,001 or more",
+        "98": "O) Does not want to answer",
+        "99": "N) Does not know"
+      }
+    },
+    {
+      "name": "q6_13b",
+      "label": "Income bracket: Service pension in the last month",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "A) Zero (0)",
+        "1": "B) $1 – $8,000",
+        "2": "C) $8,001 – $13,000",
+        "3": "D) $13,001 – $20,000",
+        "4": "E) $20,001 – $50,000",
+        "5": "F) $50,001 – $100,000",
+        "6": "G) $100,001 – $150,000",
+        "7": "H) $150,001 – $200,000",
+        "8": "I) $200,001 – $300,000",
+        "9": "J) $300,001 – $400,000",
+        "10": "K) $400,001 – $500,000",
+        "11": "L) $500,001 – $1,000,000",
+        "12": "M) $1,000,001 or more",
+        "98": "O) Does not want to answer",
+        "99": "N) Does not know"
+      }
+    },
+    {
+      "name": "q6_14",
+      "label": "Income for survivors benefit in the last month",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_15",
+      "label": "Income from public assistance in the last month (welfare grants, disability gran",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_16",
+      "label": "Income from rent of a house, land or other property in last 3 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_17",
+      "label": "Income from sale of a house, land or other property in last 3 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_18",
+      "label": "Income from alimony, maintenance or child support in the last 6 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_19",
+      "label": "Income from friends or relatives out of this household living in Guyana in the l",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_20a",
+      "label": "Income (GYD) from relatives or friends living abroad in the last 6 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_20b",
+      "label": "Income (US$) from relatives or friends living abroad in the last 6 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_21",
+      "label": "Income from financial investments in the las 12 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_22",
+      "label": "Any other income in the last 12 moths",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_23",
+      "label": "Received products from relatives/friends living abroad in the las 6 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q6_24a",
+      "label": "Value (GYD) of products from relatives/friends living abroad in the las 6 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_24b",
+      "label": "Value (US$) of products from relatives/friends living abroad in the las 6 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q6_25",
+      "label": "Were the questions answered by the individual in question?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    }
+  ],
+  "decode_notes": [
+    "167 variables extracted from .dta metadata using pyreadstat",
+    "Source: Z:\\survey\\GUY\\LFS\\2021\\t3\\data_merge\\GUY_2021t3.dta"
+  ]
+}

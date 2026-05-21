@@ -1,0 +1,223 @@
+{
+  "iso3": "BOL",
+  "survey": "ECH",
+  "period": "m11_m12",
+  "year": 2023,
+  "source_files": [
+    "CUESTIONARIO EH2023.pdf"
+  ],
+  "doc_type": "QUESTIONNAIRE_PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "1°",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Cód.",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "5a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "A",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "1. Si\n2. No",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": ": A/RODATSEUCNE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Y LOS SIGUIENTES EJEMPLOS:",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Días a la semana",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": ",",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "28",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FIN DE LA ENTREVISTA PARA LOS\nOTROS MIEMBROS DEL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "10a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Página 15",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Página 16",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  54 pages total",
+    "  → 29 variables extracted"
+  ]
+}

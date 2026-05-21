@@ -1,0 +1,55 @@
+{
+  "iso3": "SLV",
+  "survey": "EHPM",
+  "period": "a",
+  "year": 2025,
+  "source_files": [
+    "BOLETA_EHPM_2025.pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "TIPO A",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "N°",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ORDEN\nAnote el código de la TRH que\naplique",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OBSERVACIONES:",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PASE A 311",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  44 pages total",
+    "  → 5 variables extracted"
+  ]
+}

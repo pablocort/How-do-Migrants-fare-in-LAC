@@ -1,0 +1,15 @@
+{
+  "iso3": "CRI",
+  "survey": "ENAHO",
+  "period": "m7",
+  "year": 2023,
+  "source_files": [
+    "GPES-ELAB-PRPE-ENAHO-2023_ResultadosGenerales.xlsx"
+  ],
+  "doc_type": "XLSX",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "ERROR: 'DataFrame' object has no attribute 'str'"
+  ]
+}

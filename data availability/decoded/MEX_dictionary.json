@@ -1,0 +1,7529 @@
+{
+  "iso3": "MEX",
+  "survey": "ENOE",
+  "period": "2024",
+  "source_files": [
+    "dicc2024.pdf"
+  ],
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "Llave primaria",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Contenido",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Número de\nvariables",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Llave foránea",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "126",
+      "label": "Número de\nvariables",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "folioviv, foliohog",
+      "label": "Llave foránea",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "Número de\nvariables",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "folioviv, foliohog, numren",
+      "label": "Llave foránea",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "clave",
+      "label": "Llave primaria",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "folioviv",
+      "label": "Identificador de la vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tipo_viv",
+      "label": "Tipo de vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mat_pared",
+      "label": "Material de paredes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mat_techos",
+      "label": "Material de techos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mat_pisos",
+      "label": "Material de pisos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "antiguedad",
+      "label": "Antigüedad de la vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "antigua_ne",
+      "label": "Antigüedad no especificada de la\nvivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cocina",
+      "label": "Tiene cocina",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cocina_dor",
+      "label": "Utiliza cocina de dormitorio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cuart_dorm",
+      "label": "Cuartos dormitorio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_cuarto",
+      "label": "Número de cuartos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "lugar_coc",
+      "label": "Lugar donde cocinan",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "agua_ent",
+      "label": "Agua entubada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ab_agua",
+      "label": "Abastecimiento de agua",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "agua_noe",
+      "label": "Agua no entubada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "dotac_agua",
+      "label": "Dotación de agua",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "excusado",
+      "label": "Tiene excusado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "uso_compar",
+      "label": "Uso compartido del sanitario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "sanit_agua",
+      "label": "Sanitario conexión agua",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "biodigest",
+      "label": "Dispone de biodigestor",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "bano_comp",
+      "label": "Baño con excusado y regadera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "bano_excus",
+      "label": "Baño solo con excusado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "bano_regad",
+      "label": "Baño solo con regadera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "drenaje",
+      "label": "Destino de drenaje",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "disp_elect",
+      "label": "Disponibilidad eléctrica",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "focos",
+      "label": "Total de focos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "focos_ahor",
+      "label": "Número de focos ahorradores",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "combus",
+      "label": "Tipo de combustible",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fogon_chi",
+      "label": "Estufa o fogón con chimenea",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "eli_basura",
+      "label": "Eliminación de basura",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tenencia",
+      "label": "Tipo de tenencia de la vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "estim_pago",
+      "label": "Estimación del pago de renta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pago_viv",
+      "label": "Pago de vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pago_mesp",
+      "label": "Pagó el mes pasado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tipo_adqui",
+      "label": "Tipo de adquisición",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "viv_usada",
+      "label": "Compró la vivienda usada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "finan_1",
+      "label": "Financiamiento INFONAVIT",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "finan_2",
+      "label": "Financiamiento FOVISSSTE",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "finan_3",
+      "label": "Financiamiento PEMEX",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "finan_4",
+      "label": "Financiamiento FONHAPO",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "finan_5",
+      "label": "Financiamiento crédito bancario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "finan_6",
+      "label": "Financiamiento otra institución",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "finan_7",
+      "label": "Financiamiento préstamo familiar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "finan_8",
+      "label": "Financiamiento con sus propios\nrecursos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_dueno1",
+      "label": "Identificador del primer dueño",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hog_dueno1",
+      "label": "Hogar del primer dueño",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_dueno2",
+      "label": "Identificador del segundo dueño",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hog_dueno2",
+      "label": "Hogar del segundo dueño",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "escrituras",
+      "label": "Escrituras de la vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "lavadero",
+      "label": "Dispone de lavadero",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fregadero",
+      "label": "Dispone de fregadero",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "regadera",
+      "label": "Dispone de regadera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tinaco_azo",
+      "label": "Dispone de tinaco",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cisterna",
+      "label": "Dispone de cisterna",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pileta",
+      "label": "Dispone de pileta o tanque",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "calent_sol",
+      "label": "Dispone de calentador solar de agua",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "calent_gas",
+      "label": "Dispone de calentador de gas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "calen_lena",
+      "label": "Dispone de calentador de leña",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "medid_luz",
+      "label": "Dispone de medidor de luz",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "bomba_agua",
+      "label": "Dispone de bomba de agua",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tanque_gas",
+      "label": "Dispone de tanque de gas\nestacionario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "aire_acond",
+      "label": "Dispone de aire acondicionado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p_grietas",
+      "label": "Problema por grietas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p_pandeos",
+      "label": "Problema por pandeos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p_levanta",
+      "label": "Problema por levantamientos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p_humedad",
+      "label": "Problema por humedad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p_fractura",
+      "label": "Problema por fracturas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p_electric",
+      "label": "Problema con el sistema eléctrico",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p_tuberias",
+      "label": "Problema con las tuberías de agua",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tot_resid",
+      "label": "Total de residentes de la vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tot_muj",
+      "label": "Total de residentes mujeres",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tot_hog",
+      "label": "Total de hogares en la vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ubica_geo",
+      "label": "Ubicación geográfica",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tam_loc",
+      "label": "Tamaño de localidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "est_socio",
+      "label": "Estrato socioeconómico",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "est_dis",
+      "label": "Estrato de diseño muestral",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "upm",
+      "label": "Unidad Primaria de Muestreo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "factor",
+      "label": "Factor de expansión",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "procaptar",
+      "label": "Viviendas PROCAPTAR",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "foliohog",
+      "label": "Identificador del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "huespedes",
+      "label": "Huéspedes que pagan por dormir",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "huesp_come",
+      "label": "Huéspedes que pagan por comer",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_trab_d",
+      "label": "Número de trabajadores domésticos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "trab_come",
+      "label": "Trabajadores domésticos que\ncomen",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim1",
+      "label": "Preocupación comida se acabe",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim2",
+      "label": "Sin comida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim3",
+      "label": "Poca variedad de alimentos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim4",
+      "label": "Adulto poca variedad de alimentos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim5",
+      "label": "Dejó algún alimento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim6",
+      "label": "Comió menos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim7",
+      "label": "Sintió hambre y no comió",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim8",
+      "label": "Una o menos comidas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim9",
+      "label": "Mendigar por comida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim10",
+      "label": "Menor con alimentos no sanos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim11",
+      "label": "Menor con poca variedad de\nalimentos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim12",
+      "label": "Menor comió menos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim13",
+      "label": "Disminuyó comida para menor",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim14",
+      "label": "Menor sintió hambre y no comió",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim16",
+      "label": "Menor con una o menos comidas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_1",
+      "label": "Número de días que comieron\ncereales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_2",
+      "label": "Número de días que comieron\ntubérculos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_3",
+      "label": "Número de días que comieron\nverduras",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_4",
+      "label": "Número de días que comieron frutas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_5",
+      "label": "Número de días que comieron carne",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_6",
+      "label": "Número de días que comieron huevo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_7",
+      "label": "Número de días que comieron\npescado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_8",
+      "label": "Número de días que comieron\nleguminosas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_9",
+      "label": "Número de días que comieron\nlácteos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_10",
+      "label": "Número de días que comieron\naceites",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_11",
+      "label": "Número de días que comieron\nazúcar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alim17_12",
+      "label": "Número de días que comieron otros\nalimentos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acc_alim18",
+      "label": "Relación con el consumo regular",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "telefono",
+      "label": "Línea telefónica fija",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "celular",
+      "label": "Teléfono celular",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "conex_inte",
+      "label": "Dispone de conexión a internet",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tv_paga",
+      "label": "Televisión de paga",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "peliculas",
+      "label": "Dispone de servicios de películas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_auto",
+      "label": "Número de automóviles del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_van",
+      "label": "Número de camionetas del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_van",
+      "label": "Año de la última camioneta\nadquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_pick",
+      "label": "Número de pick-up del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_pick",
+      "label": "Año de la última pick-up adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_moto",
+      "label": "Número de motos del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_moto",
+      "label": "Año de la última moto adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_bici",
+      "label": "Número de bicicletas del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_bici",
+      "label": "Año de la última bicicleta adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_trici",
+      "label": "Número de triciclos del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_trici",
+      "label": "Año del último triciclo adquirido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_carre",
+      "label": "Número de carretas del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_carre",
+      "label": "Año de la última carreta adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_canoa",
+      "label": "Número de canoas del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_canoa",
+      "label": "Año de la última canoa adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_otro",
+      "label": "Número de otros vehículos del\nhogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_otro",
+      "label": "Año del último vehículo adquirido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_ester",
+      "label": "Número de estéreos del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_ester",
+      "label": "Año del último estéreo adquirido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_radio",
+      "label": "Número de radios del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_radio",
+      "label": "Año del último radio adquirido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_tva",
+      "label": "Número de televisores analógicos\ndel hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_tva",
+      "label": "Año del último televisor analógico\nadquirido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_tvd",
+      "label": "Número de televisores digitales del\nhogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_tvd",
+      "label": "Año del último televisor digital\nadquirido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_dvd",
+      "label": "Número de DVD del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_dvd",
+      "label": "Año del último DVD adquirido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_licua",
+      "label": "Número de licuadoras del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_licua",
+      "label": "Año de la última licuadora adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_tosta",
+      "label": "Número de tostadores del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_tosta",
+      "label": "Año del último tostador adquirido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_micro",
+      "label": "Número de hornos de microondas\ndel hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_micro",
+      "label": "Año del último horno adquirido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_refri",
+      "label": "Número de refrigeradores del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_estuf",
+      "label": "Número de estufas del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_estuf",
+      "label": "Año de la última estufa adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_lavad",
+      "label": "Número de lavadoras del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_lavad",
+      "label": "Año de la última lavadora adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_planc",
+      "label": "Número de planchas del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_planc",
+      "label": "Año de la última plancha adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_maqui",
+      "label": "Número de máquinas de coser del\nhogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_maqui",
+      "label": "Año de la última máquina de coser\nadquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_venti",
+      "label": "Número de ventiladores del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_venti",
+      "label": "Año del último ventilador adquirido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_aspir",
+      "label": "Número de aspiradoras del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_aspir",
+      "label": "Año de la última aspiradora\nadquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_compu",
+      "label": "Número de computadoras del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_compu",
+      "label": "Año de la última computadora\nadquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_lap",
+      "label": "Número de laptop adquiridas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_lap",
+      "label": "Año de la última laptop adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_table",
+      "label": "Número de tablet adquiridas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_table",
+      "label": "Año de la última tablet adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_impre",
+      "label": "Número de impresoras del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_impre",
+      "label": "Año de la última impresora adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_juego",
+      "label": "Número de consola de videojuegos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "anio_juego",
+      "label": "Año del última consola de\nvideojuegos adquirida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tsalud1_h",
+      "label": "Horas en llegar al hospital",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tsalud1_m",
+      "label": "Minutos en llegar al hospital",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "camb_clim",
+      "label": "Afectación por cambio climático",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "f_sequia",
+      "label": "Afectación por sequía",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "f_inunda",
+      "label": "Afectación por inundación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "f_helada",
+      "label": "Afectación por helada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "f_incendio",
+      "label": "Afectación por incendio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "f_huracan",
+      "label": "Afectación por huracán o ciclón",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "f_desliza",
+      "label": "Afectación por deslizamiento de\ntierras",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "f_otro",
+      "label": "Afectación por otro fenómeno\nclimático",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "af_viv",
+      "label": "Daños a la vivienda por fenómeno\nclimático",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "af_negocio",
+      "label": "Daño en su negocio por fenómeno\nclimático",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "af_cultivo",
+      "label": "Afectación a cultivos por fenómeno\nclimático",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "af_trabajo",
+      "label": "Perdida de animales de trabajo por\nfenómeno climático",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "af_salud",
+      "label": "Afectaciones graves a su salud por\nfenómeno climático",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "af_otro",
+      "label": "Otro tipo de afectación por\nfenómeno climático",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "habito_1",
+      "label": "Cada mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "habito_2",
+      "label": "Cada 15 días",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "habito_3",
+      "label": "Cada 8 días",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "habito_4",
+      "label": "Cada tercer día",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "habito_5",
+      "label": "Diariamente",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "habito_6",
+      "label": "Otros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "consumo",
+      "label": "Consumo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nr_viv",
+      "label": "Número de renglón de vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tarjeta",
+      "label": "Tarjeta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pagotarjet",
+      "label": "Pagos con tarjetas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "regalotar",
+      "label": "Regalos con tarjeta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "regalodado",
+      "label": "Regalos a otras personas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "autocons",
+      "label": "Autoconsumo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "remunera",
+      "label": "Remuneraciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "transferen",
+      "label": "Transferencias",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "parto_g",
+      "label": "Gasto en parto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "negcua",
+      "label": "Negocio del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "est_alim",
+      "label": "Estimación de gastos en alimentos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "est_trans",
+      "label": "Estimación en gastos de transporte",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "bene_licon",
+      "label": "Beneficiario Liconsa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cond_licon",
+      "label": "Otorgamiento condicionado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "lts_licon",
+      "label": "Litros de leche Liconsa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otros_lts",
+      "label": "Otra cantidad de litros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "diconsa",
+      "label": "Tienda Diconsa en la localidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "frec_dicon",
+      "label": "Frecuencia de compra en Diconsa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cond_dicon",
+      "label": "Venta condicionada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pago_dicon",
+      "label": "Gasto semanal en Diconsa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otro_pago",
+      "label": "Otro monto de gasto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "entidad",
+      "label": "Entidad federativa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "numren",
+      "label": "Identificador de la persona",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "parentesco",
+      "label": "Parentesco",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "sexo",
+      "label": "Sexo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "edad",
+      "label": "Edad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "madre_hog",
+      "label": "Identificador de la madre",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "madre_id",
+      "label": "Número de renglón de la madre",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "padre_hog",
+      "label": "Identificador del padre",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "padre_id",
+      "label": "Número de renglón del padre",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pais_nac",
+      "label": "Entidad o país de nacimiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "afrod",
+      "label": "Afrodescendiente",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "disc_oir",
+      "label": "Discapacidad para escuchar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "disc_brazo",
+      "label": "Discapacidad para usar brazos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "disc_camin",
+      "label": "Discapacidad para caminar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "disc_apren",
+      "label": "Discapacidad para aprender",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "disc_vest",
+      "label": "Discapacidad para vestirse",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "disc_habla",
+      "label": "Discapacidad para hablar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "disc_acti",
+      "label": "Discapacidad para realizar\nactividades diarias",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "edu_ini",
+      "label": "Asistencia educación inicial",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "no_asis",
+      "label": "Razón de no asistencia escolar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hablaind",
+      "label": "Hablante indígena",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "lenguaind",
+      "label": "Lengua indígena",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hablaesp",
+      "label": "Español",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "etnia",
+      "label": "Autoadscripción étnica",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alfabetism",
+      "label": "Alfabetismo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "asis_esc",
+      "label": "Asistencia a la escuela",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "no_asisb",
+      "label": "Razón de no asistencia escolar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nivel",
+      "label": "Nivel escolar al que asiste",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "grado",
+      "label": "Grado escolar al que asiste",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tipoesc",
+      "label": "Tipo de escuela",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tiene_b",
+      "label": "Beca escolar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otorg_b",
+      "label": "Otorga beca escolar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "forma_b",
+      "label": "Forma de beca escolar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tiene_c",
+      "label": "Crédito educativo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otorg_c",
+      "label": "Otorga crédito educativo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "forma_c",
+      "label": "Forma de crédito educativo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nivelaprob",
+      "label": "Nivel de instrucción aprobado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gradoaprob",
+      "label": "Grado aprobado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "antec_esc",
+      "label": "Antecedente escolar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "residencia",
+      "label": "Residencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "edo_conyug",
+      "label": "Situación conyugal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pareja_hog",
+      "label": "Identificador del cónyuge",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "conyuge_id",
+      "label": "Número de renglón del cónyuge",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "segsoc",
+      "label": "Contribución a la seguridad social",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ss_aa",
+      "label": "Tiempo de contribución años",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ss_mm",
+      "label": "Tiempo de contribución meses",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "redsoc_1",
+      "label": "Pedir ayuda para conseguir trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "redsoc_2",
+      "label": "Pedir ayuda para que lo (la) cuiden",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "redsoc_3",
+      "label": "Pedir la cantidad de dinero de un\nmes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "redsoc_4",
+      "label": "Pedir que lo (la) acompañen al\ndoctor",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "redsoc_5",
+      "label": "Pedir cooperación para mejoras en\nsu colonia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "redsoc_6",
+      "label": "Pedir que le cuiden a los (as) niños\n(as)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hor_1",
+      "label": "Horas de trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "min_1",
+      "label": "Minutos de trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "usotiempo1",
+      "label": "Trabajar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hor_2",
+      "label": "Horas de estudio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "usotiempo2",
+      "label": "Estudiar y hacer actividades",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hor_3",
+      "label": "Horas de trabajo comunitario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "min_3",
+      "label": "Minutos de trabajo comunitario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "usotiempo3",
+      "label": "Trabajo comunitario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hor_4",
+      "label": "Horas de cuidado de otras personas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "min_4",
+      "label": "Minutos de cuidado de otras\npersonas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "usotiempo4",
+      "label": "Cuidar, atender sin pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hor_5",
+      "label": "Horas de reparación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "min_5",
+      "label": "Minutos de reparación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "usotiempo5",
+      "label": "Reparar su vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hor_6",
+      "label": "Horas dedicadas a quehacer",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "min_6",
+      "label": "Minutos dedicados a quehacer",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "usotiempo6",
+      "label": "Realizar quehacer en su hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hor_7",
+      "label": "Horas de acarreo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "min_7",
+      "label": "Minutos de acarreo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "usotiempo7",
+      "label": "Acarrear agua o leña",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hor_8",
+      "label": "Horas de actividades personales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "min_8",
+      "label": "Minutos de actividades personales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "usotiempo8",
+      "label": "Tiempo para realizar actividades",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inst_1",
+      "label": "Institución médica IMSS",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inst_2",
+      "label": "Institución médica ISSSTE",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inst_3",
+      "label": "Institución médica ISSSTE estatal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inst_4",
+      "label": "Institución médica PEMEX",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inst_5",
+      "label": "Institución médica IMSS-Bienestar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inst_6",
+      "label": "Institución de salud federal o estatal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inst_7",
+      "label": "Seguro de gastos médicos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inst_8",
+      "label": "Otra institución médica",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inst_9",
+      "label": "Sin afiliación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "atemed",
+      "label": "Servicios médicos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inscr_1",
+      "label": "Afiliado por prestación en el trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inscr_2",
+      "label": "Afiliado por jubilación o invalidez",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inscr_3",
+      "label": "Afiliado por algún familiar en el\nhogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inscr_4",
+      "label": "Afiliado por muerte del asegurado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inscr_6",
+      "label": "Afiliado por contratación propia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inscr_7",
+      "label": "Afiliado por algún familiar de otro\nhogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inscr_8",
+      "label": "No sabe si está afiliado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "prob_anio",
+      "label": "Año con problemas de salud",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "prob_mes",
+      "label": "Mes con problemas de salud",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "prob_sal",
+      "label": "Búsqueda de atención médica",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "aten_sal",
+      "label": "Recepción de atención médica",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servmed_1",
+      "label": "Atención en centros de salud",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servmed_2",
+      "label": "Atención en hospital",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servmed_3",
+      "label": "Atención en el IMSS",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servmed_4",
+      "label": "Atención en IMSS-Bienestar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servmed_5",
+      "label": "Atención en ISSSTE",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servmed_6",
+      "label": "Atención en ISSSTE estatal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servmed_7",
+      "label": "Atención médica en otra institución\npública",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servmed_8",
+      "label": "Atención en consultorios privados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servmed_9",
+      "label": "Atención en consultorios de\nfarmacias",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servmed_10",
+      "label": "Atención con curandero",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servmed_11",
+      "label": "Atención en otro lugar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_lug",
+      "label": "Horas de traslado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mm_lug",
+      "label": "Minutos de traslado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_esp",
+      "label": "Hora de espera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mm_esp",
+      "label": "Minutos de espera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pagoaten_1",
+      "label": "Pago por consulta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pagoaten_2",
+      "label": "Pago por medicamentos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pagoaten_3",
+      "label": "Pago por estudios de laboratorio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pagoaten_4",
+      "label": "Pago por hospitalización",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pagoaten_5",
+      "label": "Pago por instrumental médico",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pagoaten_6",
+      "label": "Otro pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pagoaten_7",
+      "label": "No pagó por atención médica",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_1",
+      "label": "No hay donde atenderse",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_2",
+      "label": "Sin atención por falta de dinero",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_3",
+      "label": "Unidad médica lejana",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_4",
+      "label": "No lo atienden",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_6",
+      "label": "Lo tratan mal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_7",
+      "label": "No hablan la misma lengua",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_8",
+      "label": "Hay que esperar mucho",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_9",
+      "label": "No le dan medicamento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_10",
+      "label": "Sin atención por unidad cerrada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_11",
+      "label": "No hubo médicos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_12",
+      "label": "Se lo impidieron",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_13",
+      "label": "Falta de tiempo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_14",
+      "label": "No hubo quién lo llevara",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_15",
+      "label": "No era necesario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "noatenc_16",
+      "label": "Se automedicó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "norecib_1",
+      "label": "Sin atención centro de salud",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "norecib_2",
+      "label": "Sin atención hospital o instituto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "norecib_3",
+      "label": "Sin atención IMSS",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "norecib_4",
+      "label": "Sin atención IMSS-Bienestar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "norecib_5",
+      "label": "Sin atención ISSSTE",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "norecib_6",
+      "label": "Sin atención ISSSTE estatal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "norecib_7",
+      "label": "Sin atención otro servicio médico\npúblico",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "norecib_8",
+      "label": "Sin atención consultorios privados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "norecib_9",
+      "label": "Sin atención consultorio de\nfarmacias",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "norecib_10",
+      "label": "Sin atención curandero",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "norecib_11",
+      "label": "Sin atención otro lugar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "razon_1",
+      "label": "No tenía dinero",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "razon_2",
+      "label": "No entendía su lengua",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "razon_3",
+      "label": "No quisieron",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "razon_4",
+      "label": "Dijeron que no era necesario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "razon_5",
+      "label": "No tenían tiempo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "razon_6",
+      "label": "Razón por unidad médica cerrada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "razon_7",
+      "label": "Cita hasta mucho tiempo después",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "razon_8",
+      "label": "No había médico",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "razon_9",
+      "label": "No le dieron ninguna razón",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "razon_10",
+      "label": "El personal dijo que no era\nnecesario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "razon_11",
+      "label": "Otra razón de no atención",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_alta",
+      "label": "Presión alta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "peso",
+      "label": "Control de peso y talla",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "segvol_1",
+      "label": "Seguro voluntario SAR, AFORE",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "segvol_2",
+      "label": "Seguro voluntario de gastos\nmédicos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "segvol_3",
+      "label": "Seguro voluntario de vida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "segvol_4",
+      "label": "Seguro voluntario de invalidez",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "segvol_5",
+      "label": "Otro tipo de seguro voluntario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "segvol_6",
+      "label": "Ningún tipo de seguro voluntario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "segvol_7",
+      "label": "No sabe si tiene seguros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hijos_viv",
+      "label": "Hijos nacidos vivos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hijos_mue",
+      "label": "Hijos fallecidos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "trabajo_mp",
+      "label": "Trabajó el mes pasado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "motivo_aus",
+      "label": "Motivo de ausencia al trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "act_pnea1",
+      "label": "Primera actividad del integrante\nPNEA",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "act_pnea2",
+      "label": "Segunda actividad del integrante\nPNEA",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_trabaj",
+      "label": "Número de trabajos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "c_futuro",
+      "label": "Jóvenes construyendo el futuro",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ct_futuro",
+      "label": "Jóvenes construyendo el futuro,\ncódigo de trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tipo_gasto",
+      "label": "Tipo de gasto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mes_dia",
+      "label": "Mes y día del gasto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "forma_pag1",
+      "label": "Forma de pago 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "forma_pag2",
+      "label": "Forma de pago 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "forma_pag3",
+      "label": "Forma de pago 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "lugar_comp",
+      "label": "Lugar de compra",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "orga_inst",
+      "label": "Organización o institución\nproveedora",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "frecuencia",
+      "label": "Frecuencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fecha_adqu",
+      "label": "Fecha de adquisición",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fecha_pago",
+      "label": "Fecha de pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cantidad",
+      "label": "Cantidad de artículos o servicios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gasto",
+      "label": "Gasto efectuado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "costo",
+      "label": "Costo del producto, artículo o\nservicio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inmujer",
+      "label": "Gasto mujeres",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_meses",
+      "label": "Meses pagados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "num_pagos",
+      "label": "Número de pagos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ultim_pago",
+      "label": "Fecha del último pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gasto_tri",
+      "label": "Gasto trimestral",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gasto_nm",
+      "label": "Gasto no monetario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gas_nm_tri",
+      "label": "Gasto no monetario trimestral",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "imujer_tri",
+      "label": "Gasto monetario trimestral en\nmujeres",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mes_1",
+      "label": "Mes 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mes_2",
+      "label": "Mes 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mes_3",
+      "label": "Mes 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mes_4",
+      "label": "Mes 4",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mes_6",
+      "label": "Mes 6",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero_1",
+      "label": "Erogación en el mes de referencia 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero_2",
+      "label": "Erogación en el mes de referencia 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero_3",
+      "label": "Erogación en el mes de referencia 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero_4",
+      "label": "Erogación en el mes de referencia 4",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero_5",
+      "label": "Erogación en el mes de referencia 5",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero_6",
+      "label": "Erogación en el mes de referencia 6",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero_tri",
+      "label": "Erogación trimestral",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pago_mp",
+      "label": "Pago mes pasado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mes_5",
+      "label": "Quinto mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing_2",
+      "label": "Ingresos del segundo mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing_3",
+      "label": "Ingresos del tercer mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing_4",
+      "label": "Ingresos del cuarto mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing_5",
+      "label": "Ingresos del quinto mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing_6",
+      "label": "Ingresos del sexto mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing_tri",
+      "label": "Ingreso trimestral",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "frec_rem",
+      "label": "Frecuencia remuneración",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "inst",
+      "label": "Institución para cuidados de la salud",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "colegia",
+      "label": "Gasto en colegiaturas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "id_trabajo",
+      "label": "Identificador del trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "trapais",
+      "label": "Trabajó en el país",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "subor",
+      "label": "Fue subordinado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "indep",
+      "label": "Trabajó por su cuenta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "personal",
+      "label": "Tuvo personal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pago",
+      "label": "Cómo le pagaron",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "contrato",
+      "label": "Tuvo contrato",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tipocontr",
+      "label": "Tipo de contrato",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_1",
+      "label": "Incapacidad médica",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_2",
+      "label": "Aguinaldo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_3",
+      "label": "Vacaciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_4",
+      "label": "Reparto de utilidades",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_5",
+      "label": "Crédito de vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_6",
+      "label": "Guarderías",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_8",
+      "label": "SAR o AFORE",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_9",
+      "label": "Seguro de vida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_10",
+      "label": "Préstamos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_11",
+      "label": "Prima vacacional",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_12",
+      "label": "Apoyos educativos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_13",
+      "label": "Servicio de comedor",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_14",
+      "label": "Crédito FONACOT",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_15",
+      "label": "Ayuda de despensas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_16",
+      "label": "Ayuda en el pago de servicios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_17",
+      "label": "Pensión en caso de invalidez",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_18",
+      "label": "Pensión en caso de fallecimiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_19",
+      "label": "Otras prestaciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres_20",
+      "label": "No tiene prestaciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "htrab",
+      "label": "Horas trabajadas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "sinco",
+      "label": "Catálogo SINCO",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "scian",
+      "label": "Catálogo SCIAN",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "clas_emp",
+      "label": "Clasificación de la empresa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "no_ing",
+      "label": "No ingresos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tiene_suel",
+      "label": "Asignación de sueldo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tipoact",
+      "label": "Actividad de la empresa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "socios",
+      "label": "Socios del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "soc_nr1",
+      "label": "Primer socio del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "soc_nr2",
+      "label": "Segundo socio del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "soc_resp",
+      "label": "Responsable del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otra_act",
+      "label": "Otras actividades del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tipoact2",
+      "label": "Segunda actividad del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tipoact3",
+      "label": "Tercera actividad del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tipoact4",
+      "label": "Cuarta actividad del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "conf_pers",
+      "label": "Confirmación de personal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "medtrab_1",
+      "label": "Servicios médicos del IMSS",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "medtrab_2",
+      "label": "Servicios médicos del ISSSTE",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "medtrab_3",
+      "label": "Servicios médicos ISSSTE Estatal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "medtrab_4",
+      "label": "Servicios médicos de PEMEX",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "medtrab_5",
+      "label": "Servicios médicos de universidades",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "medtrab_6",
+      "label": "Servicios médicos privados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "medtrab_7",
+      "label": "No tiene servicios médicos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cose_cria",
+      "label": "Cosecha o cría",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "prep_deriv",
+      "label": "Preparación o derivados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fpago_1",
+      "label": "Domiciliación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fpago_2",
+      "label": "Transferencia electrónica de fondos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fpago_3",
+      "label": "Tarjeta de crédito",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fpago_4",
+      "label": "Tarjeta de débito",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fpago_5",
+      "label": "Cheque",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fpago_6",
+      "label": "Vale",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fpago_7",
+      "label": "Pago móvil",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fpago_8",
+      "label": "Otra forma de pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nofpago",
+      "label": "No acepta forma de pago alterna",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "t_emp",
+      "label": "Personal total",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "h_emp",
+      "label": "Personal hombres",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "t_cpago",
+      "label": "Personal con pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "h_cpago",
+      "label": "Hombres con pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "m_cpago",
+      "label": "Mujeres con pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "t_ispago",
+      "label": "Integrantes del hogar sin pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "h_ispago",
+      "label": "Hombres integrantes sin pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "m_ispago",
+      "label": "Mujeres integrantes sin pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "t_nispago",
+      "label": "No integrantes del hogar sin pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "h_nispago",
+      "label": "Hombres no integrantes sin pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "m_nispago",
+      "label": "Mujeres no integrantes sin pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "valrema",
+      "label": "Valor de productos en remanente",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "valproc",
+      "label": "Valor de productos en proceso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "apoyo",
+      "label": "Apoyo para los negocios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "apoyo_1",
+      "label": "Apoyo de gobierno federal con pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "apoyo_2",
+      "label": "Apoyo de gobierno estatal con pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "apoyo_3",
+      "label": "Apoyo de gobierno municipal con\npago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "apoyo_4",
+      "label": "Apoyo de gobierno federal sin pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "apoyo_5",
+      "label": "Apoyo de gobierno estatal sin pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "apoyo_6",
+      "label": "Apoyo de gobierno municipal sin\npago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "apoyo_7",
+      "label": "Apoyo no gubernamental con pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "proagro",
+      "label": "Apoyo PROCAMPO / PROAGRO /\nBienestar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesproc",
+      "label": "Mes PROCAMPO / PROAGRO /\nBienestar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "progan",
+      "label": "Apoyo del PROGAN",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesprogan",
+      "label": "Mes PROGAN",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nvo_apoyo",
+      "label": "Recibe apoyo el negocio de nuevos\nprogramas sociales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nvo_prog1",
+      "label": "Nuevo programa social, primer\napoyo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nvo_act1",
+      "label": "Actividad que recibe el nuevo\nprograma social, primer apoyo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nvo_cant1",
+      "label": "Cantidad recibida del nuevo\nprograma social, primer apoyo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nvo_prog2",
+      "label": "Nuevo programa social, segundo\napoyo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nvo_act2",
+      "label": "Actividad que recibe el nuevo\nprograma social, segundo apoyo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nvo_cant2",
+      "label": "Cantidad recibida del nuevo\nprograma social, segundo apoyo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nvo_prog3",
+      "label": "Nuevo programa social, tercer\napoyo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nvo_cant3",
+      "label": "Cantidad recibida del nuevo\nprograma social, tercer apoyo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "reg_not",
+      "label": "Registro ante notario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "reg_cont",
+      "label": "Registro contable",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ventas",
+      "label": "Ingreso por ventas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otrosnom",
+      "label": "Otros montos no monetarios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gasneg",
+      "label": "Gasto del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ventas_tri",
+      "label": "Ingreso trimestral por ventas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "auto_tri",
+      "label": "Autoconsumo trimestral",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otros_tri",
+      "label": "Otros montos trimestral",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "numesta",
+      "label": "Número de establecimientos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "totesta",
+      "label": "Total de establecimientos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "lugact",
+      "label": "Lugar de actividades",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "numsocio",
+      "label": "Total de socios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "phogar1",
+      "label": "Porcentaje mes pasado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mismop",
+      "label": "Mismo porcentaje de ganancias",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "phogar2",
+      "label": "Porcentaje del mes 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "phogar3",
+      "label": "Porcentaje del mes 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "phogar4",
+      "label": "Porcentaje del mes 4",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "phogar5",
+      "label": "Porcentaje del mes 5",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "phogar6",
+      "label": "Porcentaje del mes 6",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "m_emp",
+      "label": "Personal mujeres",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "enproduc",
+      "label": "Valor en producción",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "novend",
+      "label": "Valor de mercancías sin vender",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "consinter",
+      "label": "Valor de insumos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "peract",
+      "label": "Periodo de inicio de actividades",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_1",
+      "label": "Actividades en enero",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_2",
+      "label": "Actividades en febrero",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_3",
+      "label": "Actividades en marzo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_4",
+      "label": "Actividades en abril",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_5",
+      "label": "Actividades en mayo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_6",
+      "label": "Actividades en junio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_7",
+      "label": "Actividades en julio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_8",
+      "label": "Actividades en agosto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_9",
+      "label": "Actividades en septiembre",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_10",
+      "label": "Actividades en octubre",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_11",
+      "label": "Actividades en noviembre",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mesact_12",
+      "label": "Actividades en diciembre",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nvo_act3",
+      "label": "Actividad que recibe el nuevo\nprograma social, tercer apoyo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ventas1",
+      "label": "Ventas del negocio 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ventas2",
+      "label": "Ventas del negocio 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ventas3",
+      "label": "Ventas del negocio 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ventas4",
+      "label": "Ventas del negocio 4",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ventas5",
+      "label": "Ventas del negocio 5",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ventas6",
+      "label": "Ventas del negocio 6",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "autocons1",
+      "label": "Autoconsumo 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "autocons2",
+      "label": "Autoconsumo 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "autocons3",
+      "label": "Autoconsumo 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "autocons4",
+      "label": "Autoconsumo 4",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "autocons5",
+      "label": "Autoconsumo 5",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "autocons6",
+      "label": "Autoconsumo 6",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otrosnom1",
+      "label": "Otros montos no monetarios 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otrosnom2",
+      "label": "Otros montos no monetarios 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otrosnom3",
+      "label": "Otros montos no monetarios 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otrosnom4",
+      "label": "Otros montos no monetarios 4",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otrosnom5",
+      "label": "Otros montos no monetarios 5",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otrosnom6",
+      "label": "Otros montos no monetarios 6",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gasneg1",
+      "label": "Gastos del negocio 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gasneg2",
+      "label": "Gastos del negocio 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gasneg3",
+      "label": "Gastos del negocio 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gasneg4",
+      "label": "Gastos del negocio 4",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gasneg5",
+      "label": "Gastos del negocio 5",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gasneg6",
+      "label": "Gastos del negocio 6",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing1",
+      "label": "Ingresos del negocio 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing2",
+      "label": "Ingresos del negocio 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing3",
+      "label": "Ingresos del negocio 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing4",
+      "label": "Ingresos del negocio 4",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing6",
+      "label": "Ingresos del negocio 6",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero1",
+      "label": "Erogaciones del negocio 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero2",
+      "label": "Erogaciones del negocio 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero3",
+      "label": "Erogaciones del negocio 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero4",
+      "label": "Erogaciones del negocio 4",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero5",
+      "label": "Erogaciones del negocio 5",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "numprod",
+      "label": "Número de producto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "codigo",
+      "label": "Código del producto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cosecha",
+      "label": "Cosecha",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "aparce",
+      "label": "Aparcerías",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nocos",
+      "label": "Causa de no cosecha",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "vendio",
+      "label": "Vendió el producto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "uso_hog",
+      "label": "Consumo hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "deu_hog",
+      "label": "Usó para pagar deudas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "deu_neg",
+      "label": "Pagar deudas del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pag_trab",
+      "label": "Pagar a trabajadores",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "uso_reg",
+      "label": "Regalar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "uso_int",
+      "label": "Intercambio de productos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cicloagr",
+      "label": "Ciclo agrícola",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cant_venta",
+      "label": "Cantidad designada a ventas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "vtapie",
+      "label": "Valor de la siembra",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "valor",
+      "label": "Valor de la cosecha",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "preciokg",
+      "label": "Precio por kilo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "val_venta",
+      "label": "Valor de la venta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "destino",
+      "label": "Destino que se le dio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "valestim",
+      "label": "Valor consumido del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "importe_1",
+      "label": "Gasto de operación mes anterior",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "importe_2",
+      "label": "Gasto de operación mes 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "importe_3",
+      "label": "Gasto de operación mes 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "importe_4",
+      "label": "Gasto de operación mes 4",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "importe_5",
+      "label": "Gasto de operación mes 5",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "importe_6",
+      "label": "Gasto de operación mes 6",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "clase_hog",
+      "label": "Clase de hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "sexo_jefe",
+      "label": "Sexo del jefe del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "edad_jefe",
+      "label": "Edad del jefe del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "educa_jefe",
+      "label": "Educación formal del jefe del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tot_integ",
+      "label": "Número de integrantes del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hombres",
+      "label": "Integrantes del hogar hombres",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mujeres",
+      "label": "Integrantes del hogar mujeres",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mayores",
+      "label": "Integrantes mayores",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "menores",
+      "label": "Integrantes menores",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p12_64",
+      "label": "Integrantes de 12 a 64 años",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p65mas",
+      "label": "Integrantes de 65 años y más",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ocupados",
+      "label": "Número de ocupados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "percep_ing",
+      "label": "Perceptores de ingreso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "perc_ocupa",
+      "label": "Perceptores de ingreso ocupados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing_cor",
+      "label": "Ingreso corriente",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ingtrab",
+      "label": "Ingreso por trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "trabajo",
+      "label": "Ingreso por trabajo subordinado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "sueldos",
+      "label": "Sueldos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "horas_extr",
+      "label": "Horas extras",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "comisiones",
+      "label": "Comisiones y propinas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "aguinaldo",
+      "label": "Aguinaldo y reparto de utilidades",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "indemtrab",
+      "label": "Indemnizaciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otra_rem",
+      "label": "Otras remuneraciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "remu_espec",
+      "label": "Remuneraciones en especie",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "negocio",
+      "label": "Ingresos independiente",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "industria",
+      "label": "Negocios industriales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "comercio",
+      "label": "Negocios comerciales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servicios",
+      "label": "Negocios de servicios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "agrope",
+      "label": "Negocios agropecuarios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "agricolas",
+      "label": "Negocios agrícolas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pecuarios",
+      "label": "Negocios pecuarios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "reproducc",
+      "label": "Negocios de recolección",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pesca",
+      "label": "Negocios de pesca",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otros_trab",
+      "label": "Otros ingresos por trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "rentas",
+      "label": "Renta de la propiedad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "utilidad",
+      "label": "Ingresos de sociedades",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "arrenda",
+      "label": "Arrendamiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "transfer",
+      "label": "Transferencias",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "jubilacion",
+      "label": "Jubilaciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "becas",
+      "label": "Becas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "donativos",
+      "label": "Donativos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "remesas",
+      "label": "Remesas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "bene_gob",
+      "label": "Beneficios gubernamentales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "transf_hog",
+      "label": "Transferencias de hogares",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "trans_inst",
+      "label": "Transferencias de instituciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "estim_alqu",
+      "label": "Estimación del alquiler",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otros_ing",
+      "label": "Otros ingresos corrientes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "gasto_mon",
+      "label": "Gasto corriente monetario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alimentos",
+      "label": "Alimentos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ali_dentro",
+      "label": "Alimentos dentro del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cereales",
+      "label": "Cereales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "carnes",
+      "label": "Carnes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pescado",
+      "label": "Pescados y mariscos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "leche",
+      "label": "Leche y derivados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "huevo",
+      "label": "Huevo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "aceites",
+      "label": "Aceites y grasas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tuberculo",
+      "label": "Tubérculos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "verduras",
+      "label": "Verduras",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "azucar",
+      "label": "Azúcar y mieles",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cafe",
+      "label": "Café, té y chocolate",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "especias",
+      "label": "Especias y aderezos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otros_alim",
+      "label": "Otros alimentos diversos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "bebidas",
+      "label": "Bebidas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ali_fuera",
+      "label": "Alimentos fuera del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tabaco",
+      "label": "Tabaco",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "vesti_calz",
+      "label": "Vestido y calzado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "vestido",
+      "label": "Vestido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "calzado",
+      "label": "Calzado y su reparación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "vivienda",
+      "label": "Vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "alquiler",
+      "label": "Alquileres brutos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pred_cons",
+      "label": "Predial y cuotas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "agua",
+      "label": "Agua",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "energia",
+      "label": "Electricidad y combustibles",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "limpieza",
+      "label": "Limpieza",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cuidados",
+      "label": "Cuidados de la casa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "utensilios",
+      "label": "Utensilios domésticos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "enseres",
+      "label": "Enseres domésticos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "salud",
+      "label": "Cuidados de la salud",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ambul_serv",
+      "label": "Atención ambulatoria y otros\nservicios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "aten_hosp",
+      "label": "Atención hospitalaria",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "medic_prod",
+      "label": "Medicamentos y productos\nsanitarios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "transporte",
+      "label": "Transporte",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "publico",
+      "label": "Transporte público",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "foraneo",
+      "label": "Transporte foráneo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "adqui_vehi",
+      "label": "Adquisición de vehículos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mantenim",
+      "label": "Mantenimiento de vehículos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "comunica",
+      "label": "Comunicaciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "educa_espa",
+      "label": "Educación y esparcimiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "educacion",
+      "label": "Educación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "esparci",
+      "label": "Esparcimiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "paq_turist",
+      "label": "Paquetes turísticos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "personales",
+      "label": "Personales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cuida_pers",
+      "label": "Cuidados personales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "acces_pers",
+      "label": "Accesorios personales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otros_gas",
+      "label": "Otros gastos diversos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "transf_gas",
+      "label": "Transferencias de gasto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "percep_tot",
+      "label": "Percepciones totales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "retiro_inv",
+      "label": "Retiro de inversiones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "prestamos",
+      "label": "Préstamos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otras_perc",
+      "label": "Otras percepciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero_nm_viv",
+      "label": "Erogaciones patrimoniales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ero_nm_hog",
+      "label": "Transferencias no regulares",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "erogac_tot",
+      "label": "Erogaciones totales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cuota_viv",
+      "label": "Cuota por vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "mater_serv",
+      "label": "Servicios y materiales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "material",
+      "label": "Materiales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "servicio",
+      "label": "Servicios de reparación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "deposito",
+      "label": "Depósito de ahorro",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "prest_terc",
+      "label": "Préstamos a terceros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pago_tarje",
+      "label": "Pago por tarjeta de crédito",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "deudas",
+      "label": "Pago de deudas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "balance",
+      "label": "Pérdidas del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "otras_erog",
+      "label": "Otras erogaciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "smg",
+      "label": "Salario mínimo general",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ing_1",
+      "label": "Ingresos del primer mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C (10)",
+      "label": "Cuestionario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C (1)",
+      "label": "Cuestionario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{1,..., 7}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Clase de vivienda particular.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Etiqueta",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{1,..., 8}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Material predominante en las paredes de la\nvivienda.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C (2)",
+      "label": "Cuestionario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{01,..., 10}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Material predominante en el techo de la\nvivienda.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{1,..., 3}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Material predominante en el piso de la vivienda.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Tierra\nCemento o firme\nMadera, mosaico u otro recubrimiento",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "N (2)",
+      "label": "Cuestionario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{0,..., 99}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Tiempo que tiene la vivienda de haber sido\nconstruida.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{1}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "No sabe la antigüedad de la vivienda",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{1, 2}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Sí\nNo",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Cocina utilizada de manera habitual también\npara dormir.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{1,..., 6}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Espacio que se utiliza para cocinar o preparar\nalimentos.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Lugar de donde proviene el agua.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Lugar de donde acarrean agua para abastecer\nel hogar.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{1,..., 5}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Frecuencia con la que llega a la vivienda el\nagua entubada.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Dos veces por semana\nUna vez por semana\nDe vez en cuando",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{1,.., 3}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "N (1)",
+      "label": "Cuestionario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Número de baños solo con excusado.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Número de baños solo con regadera.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Formas de eliminar la basura de la vivienda.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Dominio o posesión legal de la vivienda por sus\nocupantes.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "N (6)",
+      "label": "Cuestionario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Monto de la renta mensual.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "N (9)",
+      "label": "Cuestionario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Monto del pago mensual por la vivienda.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Pagó por la vivienda el mes pasado.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Situación de la vivienda al momento de\nadquirirla.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Estado de la vivienda al momento de adquirirla.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Tipo de financiamiento para comprar o\nconstruir su casa.",
+      "label": "Número de pregunta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Le dio crédito el INFONAVIT",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{2}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Le dio crédito el FOVISSSTE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{3}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Le dio crédito PEMEX",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{4}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Le dio crédito FONHAPO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "{5}",
+      "label": "Sección y/o apartado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Tipo",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Rango",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Definición",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#42 mesproc: Mes PROCAMPO / PROAGRO / Bienestar",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Valor",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "01\n02\n03\n04\n05\n06\n07\n08\n09\n10\n11\n12",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#43 progan: Apoyo del PROGAN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#44 mesprogan: Mes PROGAN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "1\n2",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#46 nvo_prog1: Nuevo programa social, primer apoyo",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Nota: Esta pregunta es igual para los apartados 1.1 a 1.8.",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "1\n2\n3\n4\n5\n6\n7\n8\n9",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#49 nvo_prog2: Nuevo programa social, segundo apoyo",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#52 nvo_prog3: Nuevo programa social, tercer apoyo",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#55 reg_not: Registro ante notario",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#56 reg_cont: Registro contable",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "1\n2\n3\n4",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#57 ventas: Ingreso por ventas",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#58 autocons: Autoconsumo del hogar",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Nota: Variable construida.",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#59 otrosnom: Otros montos no monetarios",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#60 gasneg: Gasto del negocio",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#61 ventas_tri: Ingreso trimestral por ventas",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#62 auto_tri: Autoconsumo trimestral",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#63 otros_tri: Otros montos trimestral",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#64 gasto_tri: Gasto negocio trimestral",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#65 ing_tri: Ingreso trimestral",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#66 ero_tri: Erogación trimestral",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#1 folioviv: Identificador de la vivienda",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#2 foliohog: Identificador del hogar",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#3 numren: Identificador de la persona",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#4 id_trabajo: Identificador del trabajo",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#5 tipoact: Tipo actividad",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#6 numesta: Número de establecimientos",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "1\n2\n3",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#7 totesta: Total de establecimientos",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#8 lugact: Lugar de actividades",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#9 socios: Socios del negocio",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#10 numsocio: Total de socios",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#11 phogar1: Porcentaje mes pasado",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#12 mismop: Mismo porcentaje de ganancias",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#13 mes_2: Mes de referencia 2",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "06\n07\n08\n09",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#14 mes_3: Mes de referencia 3",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "05\n06\n07\n08",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#15 mes_4: Mes de referencia 4",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "06\n07",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#16 mes_5: Mes de referencia 5",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "03\n04\n05\n06",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#17 mes_6: Mes de referencia 6",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "02\n03\n04\n05",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#18 phogar2: Porcentaje del mes 2",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#19 phogar3: Porcentaje del mes 3",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#20 phogar4: Porcentaje del mes 4",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#21 phogar5: Porcentaje del mes 5",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#22 phogar6: Porcentaje del mes 6",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#23 otro_pago: Forma de pago alterna",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#24 fpago_1: Domiciliación",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#25 fpago_2: Transferencia electrónica de fondos",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#26 fpago_3: Tarjeta de crédito",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#27 fpago_4: Tarjeta de débito",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#28 fpago_5: Cheque",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#29 fpago_6: Vale",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#30 fpago_7: Pago móvil",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#31 fpago_8: Otra forma de pago",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "#32 nofpago: No acepta forma de pago alterna",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MAÍZ",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011112\n011121\n011193\n011131\n011192\n011194",
+      "label": "Maíz en grano\nHarina de maíz\nMasa de maíz\nTortillas de maíz\nTostadas\nOtros productos de maíz para ser preparados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TRIGO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ARROZ",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011111\n181156",
+      "label": "Arroz en grano\nOtros productos de arroz",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTROS CEREALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011140\n011191\n011912\n011113\n011196",
+      "label": "Cereales para el desayuno\nBotanas elaboradas con cereales\nSopas instantáneas\nOtros cereales\nOtros productos elaborados con cereales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CARNE DE RES Y TERNERA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "181119\n011241",
+      "label": "Carne de otras partes de la res\nVísceras de res",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CARNES DE CERDO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CARNES PROCESADAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CARNE DE POLLO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "181124\n181125\n01122F\n011245\n011243\n01122G",
+      "label": "Pierna, muslo o pechuga de pollo con hueso\nPierna, muslo o pechuga de pollo sin hueso\nPollo entero o en piezas (excepto pierna, muslo y pechuga)\nOtras piezas de pollo\nVísceras de aves\nCarne de otras aves",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CARNES PROCESADAS DE AVE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "181126",
+      "label": "Chorizo de pollo, jamón de pollo, pavo y otras aves; nuggets de pollo y otras aves, salchicha, mortadela, tocino de\npollo, pavo y otras aves, etcétera.",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTRAS CARNES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "01122D\n181123\n01122H\n011210\n011244",
+      "label": "Carne de cordero y cabra fresca, refrigerada o congelada\nChivo y Cabrito\nOtras carnes comestibles frescas, refrigeradas o congeladas: caballo, conejo, iguana, jabalí, rana, tortuga, venado\nAnimales terrestres vivos\nVísceras de otros animales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PESCADOS FRESCOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011310\n181127",
+      "label": "Pescado fresco, refrigerado o congelado\nFilete de pescado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PESCADOS PROCESADOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011322\n181157",
+      "label": "Atún enlatado\nSalmón y bacalao procesado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTROS PESCADOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011321",
+      "label": "Pescado ahumado, seco o salado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011323\n011324\n011331\n011332\n181128",
+      "label": "Sardina enlatada\nOtros pescados en conserva\nFiletes de pescado rebozados o empanizados\nSurimi y otras preparaciones de pescado\nAnguilas, angulas, hueva de pescado, mantarraya, pejelagarto, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MARISCOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011341\n011342\n011351\n011352\n011360\n011343\n011370",
+      "label": "Camarón fresco\nMariscos frescos\nMariscos ahumados, secos o salados\nMariscos en conserva\nOtras preparaciones de mariscos\nCamarón y otros mariscos congelados\nHígados, huevas y despojos de mariscos en todas sus formas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LECHE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "QUESOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011452\n011455\n181132\n011451\n181131\n011454\n011456",
+      "label": "Queso amarillo\nQueso añejo y Cotija\nQueso Chihuahua\nQueso fresco\nQueso Manchego\nQueso Oaxaca o asadero\nOtros quesos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTROS DERIVADOS DE LA LECHE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011433\n011520\n011460\n011471\n011473\n011490",
+      "label": "Crema\nMantequilla\nYogurt y bebidas fermentadas a base de leche\nBebidas a base de leche\nOtros productos de leche\nOtros productos lácteos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "HUEVOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011481\n011482",
+      "label": "Huevo de gallina\nOtros huevos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ACEITES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011511\n181160\n011512",
+      "label": "Aceite de oliva\nAceite de coco, soya\nOtros aceites vegetales comestibles",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GRASAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011530\n011591\n181133",
+      "label": "Margarina\nManteca de puerco\nManteca vegetal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "181159\n011593",
+      "label": "Aceite de bacalao, de tiburón, de tortuga, enjundia\nOtras grasas animales comestibles",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TUBÉRCULOS CRUDOS O FRESCOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011752\n181163\n011751\n011747\n011755",
+      "label": "Betabel\nCamote\nPapa\nRábano\nOtros tubérculos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TUBÉRCULOS PROCESADOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011791\n011795\n011796",
+      "label": "Harina para puré de papa\nPapas congeladas\nPapas fritas en bolsa o a granel",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VERDURAS Y LEGUMBRES FRESCAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VERDURAS Y LEGUMBRES PROCESADAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011794\n011793\n011770\n181164\n011782\n011781\n011798",
+      "label": "Chiles enlatados, envasados o encurtidos\nChiles secos o en polvo\nHortalizas, papas y tubérculos secos y deshidratados\nPapas en conserva, encurtidas o en escabeche\nLegumbres congeladas\nVerduras congeladas\nOtras verduras enlatadas o envasadas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011799\n011761\n011763",
+      "label": "Otras legumbres y leguminosas secas, enlatadas o envasadas\nFrijol en grano\nGarbanzo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LEGUMINOSAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "181161\n011762\n011733\n011764",
+      "label": "Haba amarilla o verde en grano\nLentejas\nOtras legumbres verdes, frescas o refrigeradas\nOtras leguminosas y legumbres secas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "LEGUMINOSAS PROCESADAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011797\n181166\n011792",
+      "label": "Frijol procesado\nOtras leguminosas procesadas\nHarina de otras hortalizas, tubérculos o legumbres",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SEMILLAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011680\n011946\n181140\n181167\n01179A",
+      "label": "Nueces y otros frutos secos\nSemillas comestibles\nSemillas envasadas\nSemillas procesadas\nOtras preparaciones vegetales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FRUTAS FRESCAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FRUTAS PROCESADAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011660\n011691\n011670",
+      "label": "Fruta congelada\nFrutas en conserva\nFrutos secos o deshidratados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011692\n011843",
+      "label": "Frutas secas, confitadas o cristalizadas\nPúres o pastas de frutos secos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "AZÚCAR Y MIELES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011810\n011831\n011820\n011832",
+      "label": "Azúcar\nMiel de abeja\nSustitutos de azúcar y otros azúcares\nOtras mieles",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CAFÉ",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "012202\n012201\n012203",
+      "label": "Café en grano o molido\nCafé soluble\nPreparaciones de bebidas a base de café",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TÉ",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "012302\n012301",
+      "label": "Flor y hojas para infusiones\nBolsas de té",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CHOCOLATE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011851\n011852\n181155\n011853",
+      "label": "Chocolate en barra o tableta\nCacao y chocolate en polvo para todos los usos\nCacao y chocolate líquido para todos los usos\nOtros chocolates",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ESPECIAS Y ADEREZOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ALIMENTOS PREPARADOS PARA BEBÉ",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011923\n011922\n011924\n011925",
+      "label": "Cereales para bebé\nPapillas para bebé\nJugos de frutas y verduras de cualquier combinación para bebé\nOtros alimentos para bebé",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ALIMENTOS PREPARADOS PARA CONSUMIR EN CASA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "111125\n111122\n111126\n111121\n111123\n011892\n011911\n111124",
+      "label": "Pizzas preparadas\nCarnitas\nPollos rostizados\nBarbacoa o birria\nHamburguesas y hot dogs\nGelatina preparada\nAlimentos preparados, enlatados, congelados o empacados, listos para consumirse\nOtros alimentos cocinados para su consumo inmediato",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ALIMENTOS DIVERSOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "011744",
+      "label": "Champiñones, hongos y setas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "01122I",
+      "label": "Insectos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DULCES Y POSTRES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GASTOS RELACIONADOS CON LA ELABORACIÓN DE ALIMENTOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "181169\n013000\n011996",
+      "label": "Molienda de nixtamal\nServicios de molienda, trituración y prensado de alimentos\nOtros productos relacionados con la preparación de alimentos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GASTO EN ALIMENTOS Y/O BEBIDAS EN PAQUETE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "181111",
+      "label": "Alimentos y/o bebidas en paquete, despensa de alimentos que otorgan otros hogares",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ALIMENTOS PARA ANIMALES DOMÉSTICOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "093221\n181152",
+      "label": "Alimento para animales domésticos y mascotas\nAlimentos para animales para uso del hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BEBIDAS NO ALCOHÓLICAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BEBIDAS ALCOHÓLICAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TABACO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "023010\n023020\n023090",
+      "label": "Cigarrillos\nPuros\nOtros tabacos y productos de tabaco",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ALIMENTOS DE ORGANIZACIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "181112",
+      "label": "Despensa de alimentos que otorgan organizaciones privadas o de gobierno",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SERVICIOS DE ALIMENTACIÓN CONSUMIDOS FUERA DEL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "111111\n111112\n111113\n111114\n111116\n111115",
+      "label": "Desayunos\nComidas\nCenas\nEntrecomidas\nOtros eventos fuera del hogar\nEventos recreativos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TRANSPORTE PÚBLICO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "055221\n055222\n056112\n056113\n056114\n171101\n056115\n056116",
+      "label": "Focos\nPilas\nBlanqueadores\nCera y aceite para muebles\nRecipientes de lámina: cubetas, tinas y palanganas\nRecipientes de plástico: cubetas, tinas y mangueras\nDesodorantes ambientales\nDetergente para ropa y trastes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SERVICIOS PARA EL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CUIDADOS PERSONALES\nARTÍCULOS PARA EL CUIDADO PERSONAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SERVICIOS PARA EL CUIDADO PERSONAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "131311\n131312\n131313\n131321\n131322\n131323",
+      "label": "Corte de cabello\nServicio de permanentes y tintes\nPedicura y manicura\nBaños y masajes\nTatuajes y piercings\nOtros servicios cosméticos: tratamientos de belleza facial, depilación, bronceado, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "104011\n104012",
+      "label": "Inscripción de carrera técnica\nColegiaturas de carrera técnica",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SERVICIOS DE EDUCACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "072431\n073230\n094611\n094623\n101015\n101025\n102005\n103005",
+      "label": "Lecciones de manejo (autoescuela)\nTransporte escolar de cualquier nivel educativo\nCursos de formación recreativa: pintura, música, baile, etcétera\nCursos de formación deportiva: natación, patinaje, etcétera\nEducación especial para personas con discapacidad de jardín de niños y preescolar\nEducación especial para personas con discapacidad de educación primaria\nEducación especial para personas con discapacidad de educación secundaria\nEducación especial para personas con discapacidad de bachillerato",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "105091\n105092\n112030\n171319\n133014",
+      "label": "Inscripción de educación para el trabajo\nColegiaturas de educación para el trabajo\nPago por el servicio de alojamiento en internados, universidades y otros establecimientos educativos\nGastos de internamiento en universidades y otros establecimientos educativos\nOtros servicios de cuidado infantil: cuidado de niños fuera del hogar, estancias infantiles, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ARTÍCULOS E IMPREVISTOS EDUCATIVOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ARTÍCULOS DE CULTURA Y RECREACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "097302\n097401\n097402\n097403\n097404\n097405\n097406\n097407",
+      "label": "Mapas y globos terráqueos\nCuadernos y libretas\nCarpetas\nPlumas, bolígrafos y marcadores\nLapiceros, lápices y corrector\nPerforadoras, tijeras, engrapadoras, grapas y broches\nMaterial de dibujo y pintura\nOtros artículos de papelería: juegos de geometría, colores, plumones, sobres, material para contabilidad, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SERVICIOS DE RECREACIÓN",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "COMUNICACIONES Y SERVICIOS PARA VEHÍCULOS\nCOMUNICACIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "COMBUSTIBLES, MANTENIMIENTO Y SERVICIOS PARA VEHÍCULOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "VIVIENDA Y SERVICIOS DE CONSERVACIÓN\nVIVIENDA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "041103\n041104\n041105\n041211\n041212\n041222",
+      "label": "Alquiler o cuota pagada a otros hogares\nCuota de vivienda recibida como prestación del trabajo\nCuota de vivienda en otra situación\nAlquiler de otras viviendas que no habita el hogar\nCuotas de mantenimiento por tiempo compartido\nOtros alquileres: alquiler de bodegas o unidades de almacenamiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SERVICIOS DE CONSERVACIÓN Y COMBUSTIBLES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "046261\n046262\n046263\n046264\n046265\n046266",
+      "label": "Pago de la vivienda propia y que se está pagando\nEstimación del alquiler de la vivienda que es prestada\nEstimación del alquiler de vivienda propia y se está pagando\nEstimación del alquiler de la vivienda que es propia\nEstimación del alquiler de vivienda intestada o en litigio\nEstimación del alquiler de la vivienda en otra situación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ÚLTIMO RECIBO PAGADO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "044110\n045100",
+      "label": "Agua\nEnergía eléctrica",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PRENDAS DE VESTIR PARA NIÑA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "03121A\n03121B\n03121C\n03121D\n03121E",
+      "label": "Pantalones\nCamisa\nPlayera\nTraje\nAbrigo y chamarra",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "03121F\n03121G\n03121H\n03121I\n03121J",
+      "label": "Suéter y sudadera\nPants\nRopa interior\nCalcetines, calcetas y tines\nOtras prendas de vestir: bata, pijama, traje de baño, ropa para la práctica de algún deporte, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PRENDAS DE VESTIR PARA MUJER",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CALZADO PARA BEBÉS DE 0 A MENOS DE 2 AÑOS\nCALZADO PARA NIÑO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "032139\n03213A\n03213B\n03213C",
+      "label": "Zapatos\nTenis\nHuaraches y sandalias de baño\nOtro calzado: pantuflas, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CALZADO PARA NIÑA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "172121",
+      "label": "Zapatos y zapatillas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "172122\n172123\n172124",
+      "label": "Tenis\nHuaraches y sandalias de baño\nOtro calzado: pantuflas, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "032131\n032132\n032133\n032134",
+      "label": "Zapatos\nTenis\nHuaraches y sandalias de baño\nOtro calzado: pantuflas, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "032135\n032136\n032137\n032138",
+      "label": "Zapatos y zapatillas\nTenis\nHuaraches y sandalias de baño\nOtro calzado: pantuflas, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "032115\n032116\n032117\n032118",
+      "label": "Zapatos\nTenis\nHuaraches y sandalias de baño\nOtro calzado: pantuflas, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "032125\n032126\n032127\n032128",
+      "label": "Zapatos y zapatillas\nTenis\nHuaraches y sandalias de baño\nOtro calzado: pantuflas, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "032111\n032112\n032113\n032114",
+      "label": "Zapatos\nTenis\nHuaraches y sandalias de baño\nOtro calzado: pantuflas, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CALZADO PARA MUJER",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "032121\n032122\n032123\n032124",
+      "label": "Zapatos y zapatillas\nTenis\nHuaraches y sandalias de baño\nOtro calzado: pantuflas, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MANTENIMIENTO, REPARACIÓN Y ACCESORIOS DE CALZADO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "03213D\n032119\n032129\n032201\n032202\n056111",
+      "label": "Accesorios para calzado para bebés (de 0 a menos de 2 años) y niño y niña (de 2 a menos de 13 años)\nAccesorios para calzado para niño (de 13 a menos de 17 años) y hombre (de 17 años en adelante)\nAccesorios para calzado para niña (de 13 a menos de 17 años) y mujer (de 17 años en adelante)\nReparación y alquiler de calzado\nLimpieza de calzado\nArtículos de limpieza para el calzado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ACCESORIOS Y EFECTOS PERSONALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "031311\n031312\n031313\n031314\n031316",
+      "label": "Cinturones\nCachucha, gorra y sombrero\nCorbata\nDelantal, batas, baberos y mandiles\nOtros complementos de vestir: pañuelo de tela, tirantes, guantes, bufanda, rebozo, chal, pashmina, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTROS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "031100\n031245\n031242\n031244\n031241\n031243\n031420",
+      "label": "Telas de fibras naturales, sintéticas, artificiales y sus mezclas\nUniformes escolares para bebés (de 0 a menos de 2 años)\nUniformes escolares para niño (de 2 a menos de 17 años)\nUniformes escolares para niña (de 2 a menos de 17 años)\nUniformes escolares para hombre (de 17 años en adelante)\nUniformes escolares para mujer (de 17 años en adelante)\nReparación, confección y alquiler de ropa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "132113\n055101\n055102\n055211\n055212\n055301\n055302\n055303",
+      "label": "Relojes de pared y de mesa\nHerramientas y equipo con motor para el hogar: taladro eléctrico, etcétera\nHerramientas y equipo con motor para jardín: motosierra, cortadora, sopladora, podadora de césped, etcétera\nHerramientas sin motor: sierras, martillos, destornilladores, llaves inglesas, pinzas, cuchillas, limas, cizallas, escaleras,\netcétera\nHerramientas de jardín: carretillas, regaderas, mangueras, azadones, palas, rastrillos, horquillas, tijeras para podar,\netcétera\nReparación de herramientas sin motor y accesorios diversos\nReparación de herramientas y equipos con motor\nArrendamiento y alquiler de herramientas y equipos con motor",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "BLANCOS, MANTELERÍA Y ARTÍCULOS DE MERCERÍA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "062194\n062192\n064103\n064202\n063103\n063104\n062198\n063106",
+      "label": "Consulta médica general durante el embarazo\nConsulta médica con especialistas durante el embarazo\nServicios de laboratorio de análisis clínicos y ultrasonido durante el embarazo\nServicios paramédicos y de ambulancia durante el embarazo\nHospitalización durante el embarazo\nHospitalización durante el parto\nServicios de partera\nIntervenciones quirúrgicas en hospitales especializados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CONSULTA EXTERNA\nSERVICIOS MÉDICOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "062193\n062191\n062210\n062291\n062292\n064101\n064102\n064201",
+      "label": "Consulta médica general\nConsulta médica con especialistas: pediatría, ginecología, cardiología, ortopedia, oftalmología, etcétera\nConsultas dentales\nServicios de especialistas en ortodoncia\nOtros servicios dentales: colocación de dentaduras postizas, prótesis dentales, etcétera\nServicios de laboratorio de análisis clínicos\nServicios de rayos X y estudios de gabinete: tomografía, resonancia magnética, ecografía, ultrasonido, etcétera\nServicios paramédicos y de ambulancia para pacientes en general",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MEDICAMENTOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CONTROL DE PESO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "06111F",
+      "label": "Medicamentos para el control de peso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ATENCIÓN HOSPITALARIA (NO INCLUYE PARTO)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "063101\n063105\n063200\n063102",
+      "label": "Hospitalización general\nHospitalización general en hospitales especializados\nHospitalización general en hospitales de salud mental\nIntervenciones quirúrgicas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "06111J\n131209\n061211\n061212\n061221\n061222\n061223\n061230",
+      "label": "Antisépticos: agua oxigenada, merthiolate, alcohol, soluciones asépticas, gel antibacterial, líquido para lentes de\ncontacto, etcétera\nJabón medicinal\nPruebas de embarazo\nOtros productos para diagnóstico: termómetro, medidor de glucosa, medidor de presión arterial, báscula para bebé,\netcétera\nPreservativos\nParches, inhaladores y chicles de nicotina\nOtros dispositivos y productos de prevención y protección: cubrebocas, guantes, fajas postparto, calcetines para\ndiabéticos y circulación, etcétera\nProductos y dispositivos de tratamiento para uso personal: inhaladores, jeringas, nebulizadores, compresas de hielo,\nbotiquines de primeros auxilios, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MEDICINA ALTERNATIVA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "061120\n062195\n062196\n062197",
+      "label": "Productos homeopáticos y naturistas\nConsultas homeopáticas\nServicio de practicantes de medicina tradicional: curandero, yerbero, huesero, etcétera\nOtros servicios médicos: acupunturistas, optometristas, fonoaudiólogos independientes, logopedas, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "APARATOS ORTOPÉDICOS Y SERVICIOS TERAPÉUTICOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "061311\n061312",
+      "label": "Anteojos y lentes de contacto\nOtros productos de apoyo para la visión: bastones para débiles visuales, prótesis oculares, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SEGURO MÉDICO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "121202",
+      "label": "Seguro médico voluntario (IMSS)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "MUEBLES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ARTÍCULOS DE ESPARCIMIENTO\nARTÍCULOS Y EQUIPO AUDIOVISUAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "081311\n081312\n081313\n081321\n081323\n081324\n081325",
+      "label": "Computadoras de escritorio\nComputadoras portátiles (laptop)\nTabletas\nAccesorios para computadoras (hardware): monitor, teclado, mouse, etcétera\nTóner y cartuchos de tinta\nImpresoras, escáneres y multifuncionales\nOtros accesorios: proyectores, cascos de realidad virtual (VR), módems, cámaras web, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "EQUIPO FOTOGRÁFICO Y DE VIDEO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "091111\n091112\n091113\n091121\n091114\n091122\n091130\n094100",
+      "label": "Cámaras fotográficas\nCámaras de cine y video\nDron\nAccesorios para cámaras fotográficas y de video: pantallas, visores, lentes, baterías y cargadores para cámaras,\netcétera\nOtros artículos fotográficos y cinematográficos: proyector de cintas y diapositivas, cámaras grabadoras, etcétera\nInsumos para fotografía y cinematográficos: papel e insumos para revelado fotográfico, rollos, cartuchos, etcétera\nAparatos ópticos: binoculares, telescopios, brújulas, microscopios, etcétera\nAlquiler y reparación de equipos e instrumentos ópticos, fotográficos y cinematográficos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTROS ARTÍCULOS DE ESPARCIMIENTO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "091220\n091230\n091241\n091243\n091290\n092111\n092114\n092115",
+      "label": "Bienes duraderos para actividades recreativas de aire: alas delta, globos aerostáticos, planeadores, aeroplanos,\naviones ultraligeros\nBienes duraderos para actividades recreativas de agua: tablas de surf, equipo de buceo, equipo de esquí acuático,\nlanchas, canoas, etcétera\nAdquisición de caballos y ponis para uso recreativo\nEquipo relacionado con los vehículos y los animales para uso recreativo: arneses, riendas, frenos, sillas de montar,\netcétera\nOtros bienes duraderos grandes para la recreación: carros de golf, mesas de billar, de ping-pong, bicicletas de 4\nruedas, etcétera\nAccesorios para consolas de videojuegos\nComputadoras para videojuegos\nConsolas para videojuegos: Nintendo, Play Station, Xbox, etcétera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TRANSPORTE\nTRANSPORTE",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ADQUISICIÓN DE VEHÍCULOS DE USO PARTICULAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "071110\n071120\n071200\n071300\n071401\n071402\n091210",
+      "label": "Automóviles nuevos\nAutomóviles usados\nMotocicletas nuevas o usadas\nBicicletas\nAdquisición de vehículos de tracción animal (carretas)\nCompra de animales para tracción de los vehículos y equipo relacionado: collares, arneses, frenos, riendas, etcétera\nCasas rodantes y remolques",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "REFACCIONES, PARTES, ACCESORIOS Y MANTENIMIENTO DE VEHÍCULOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "072110\n072121",
+      "label": "Llantas o neumáticos\nRefacciones para vehículos particulares",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTROS GASTOS\nGASTOS DIVERSOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TRANSFERENCIAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "EROGACIONES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GASTO EN REGALOS A PERSONAS AJENAS AL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Cantidad",
+      "label": "Equivalencia por unidad en kg o I*",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P001\nP002\nP003\nP004\nP005\nP006\nP007\nP008\nP009",
+      "label": "Sueldos, salarios o jornal\nDestajo\nComisiones y propinas\nHoras extras\nIncentivos, gratificaciones o premios\nBono, percepción adicional o sobresueldo\nPrimas vacacionales y otras prestaciones en dinero\nReparto de utilidades del ejercicio 2023 del trabajo principal\nAguinaldo del ejercicio 2023 del trabajo principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P011\nP012\nP013",
+      "label": "Sueldos o salarios\nGanancias/utilidades\nOtros ingresos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESOS MONETARIOS DEL TRABAJO SECUNDARIO PARA SUBORDINADOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P014\nP015\nP016",
+      "label": "Monto recibido en el trabajo secundario\nReparto de utilidades del ejercicio 2023 del trabajo secundario\nAguinaldo del ejercicio 2023 del trabajo secundario",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P018\nP019\nP020",
+      "label": "Sueldos o salarios\nGanancias/utilidades\nOtros ingresos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P021",
+      "label": "Total de ingresos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P022",
+      "label": "Total de ingresos de trabajos realizados en los cinco meses anteriores al mes pasado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P023\nP024\nP025\nP026\nP027\nP028\nP029\nP030\nP031",
+      "label": "Alquiler de tierras y terrenos, dentro y fuera del país\nAlquiler de casas, edificios, locales y otros inmuebles que están dentro del país\nAlquiler de casas, edificios, locales y otros inmuebles que están fuera del país\nIntereses provenientes de inversiones a plazo fijo\nIntereses provenientes de cuentas de ahorro\nIntereses provenientes de préstamos a terceros\nRendimientos provenientes de bonos o cédulas\nAlquiler de marcas, patentes y derechos de autor\nOtros ingresos por renta de la propiedad no considerados en los anteriores",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESOS POR TRANSFERENCIAS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P032\nP033\nP034\nP035\nP036\nP037",
+      "label": "Jubilaciones y/o pensiones originadas dentro del país\nJubilaciones y/o pensiones provenientes de otro(s) país(es)\nIndemnizaciones recibidas de seguros contra riesgos a terceros\nIndemnizaciones por accidentes de trabajo\nIndemnizaciones por despido y retiro voluntario\nBecas provenientes de instituciones privadas o de organismos no gubernamentales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "OTROS INGRESOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P049",
+      "label": "Total de ingresos no considerados en los anteriores",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESOS ANUALES PARA TODOS LOS INTEGRANTES DEL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P050",
+      "label": "Ingresos anuales por rendimientos de acciones que posea de alguna empresa en la que no trabajó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PERCEPCIONES FINANCIERAS Y DE CAPITAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESOS POR TRABAJO DE PERSONAS MENORES DE 12 AÑOS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P067",
+      "label": "Ingreso por trabajo de personas menores de 12 años",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "INGRESOS POR NEGOCIO PROPIO2\nTRABAJO PRINCIPAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P068\nP069\nP070\nP071\nP072\nP073\nP074",
+      "label": "Por negocios con tipo de actividad industrial\nPor negocios con tipo de actividad comercial\nPor negocios prestadores de servicios\nPor negocios con actividades agrícolas\nPor negocios con actividades de cría y explotación de animales\nPor negocios con actividades de recolección, reforestación y tala de árboles\nPor negocios con actividades de pesca, caza y captura de animales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TRABAJO SECUNDARIO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P075",
+      "label": "Por negocios con tipo de actividad industrial",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P076\nP077\nP078\nP079\nP080\nP081",
+      "label": "Por negocios con tipo de actividad comercial\nPor negocios prestadores de servicios\nPor negocios con actividades agrícolas\nPor negocios con actividades de cría y explotación de animales\nPor negocios con actividades de recolección, reforestación y tala de árboles\nPor negocios con actividades de pesca, caza y captura de animales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FORMATO B: AGRÍCOLAS, INCLUYE ACUICULTURA VEGETAL",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "237\n238\n239\n240\n241\n242\n243",
+      "label": "Abejas\nArdillas\nAvestruz\nBecerros(as)\nBorrego, carnero, oveja\nBurros, asnos\nCaballos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "288\n289\n290\n291\n292\n293\n294\n295",
+      "label": "Otras carnes (iguana, venado, etcétera)\nPieles (zalea)\nPlumas\nPolen\nPropóleo\nOrín\nEstiércol (lama, abono, gallinaza, pollinaza, excremento)\nOtros productos derivados: pelo, veneno, semen",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "461\n462\n463\n464\n465\n466\n467\n468\n469\n470\n471\n472\n473",
+      "label": "Tenaza\nTepehualate, petehucate\nTepehuaje\nTepezcohuite\nTereza, limoncillo, uña de gato\nTrompeta, guarambo, guarurno\nTulipán de la india, tulipán africano, cedro africano, caoba santo domingo\nTzalánm, zalán zalami\nVolador, palo de zopilote, palo hediondo\nXuul, shuui\nYavito, yayito\nZarzafra, zarza, zarzaparrilla\nOtros productos: hoja de plátano, plátano, mangos, zapotes, flores, raíz de zacaton ramon, shuega, calabacita, berro,\nquelite, piñón, xonocostle, gualumbos, aguamiel, hongos, orégano, tuna, tierra para macetas, rizomas, ciruelo,\nnaranjas, pitaya, acacia, almendros, amapolas, tintas, musgo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FORMATO F: PESCA",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "FORMATO E: CAZA Y CAPTURA DE ANIMALES",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Catálogo de gastos de negocios agrícolas",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Catálogo de gastos de negocios de caza y captura de animales",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Catálogo de gastos de negocios de pesca",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F00\nF01\nF02\nF03",
+      "label": "Gasto total (suma de las claves F01 a F17)\nAlquiler de maquinaria y equipo\nAlquiler de transportes, fletes y seguros de transporte y peajes\nRefacciones, partes y mantenimiento de vehículos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F04\nF05\nF06\nF07\nF08\nF09\nF10\nF11\nF12\nF13\nF14\nF15\nF16\nF17\nF18",
+      "label": "Refacciones, partes y mantenimiento de maquinaria\nGasolina y diesel para maquinaria y vehículos de transporte\nCompra de cebos para pesca, hilo, anzuelos, redes, etcétera\nCompra de peces para reposición\nServicios profesionales (veterinario, biólogo, zootecnistas, etcétera)\nCuotas a organizaciones y cámaras\nCompra de uniformes, transporte al personal\nPago a trabajadores (empleados y/o jornaleros)\nPrestaciones pagadas por ley (IMSS, SAR, etcétera)\nOtras prestaciones dadas al personal\nIntereses por créditos y/o préstamos (para la producción)\nSeguros\nImpuestos y derechos\nOtros gastos no considerados\nSueldo autoasignado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Rubros",
+      "label": "Claves",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  300 pages total",
+    "  → 1073 variables extracted"
+  ]
+}

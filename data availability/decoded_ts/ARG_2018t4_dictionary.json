@@ -1,0 +1,17 @@
+{
+  "iso3": "ARG",
+  "survey": "EPHC",
+  "period": "t4",
+  "year": 2018,
+  "source_files": [
+    "anexo_informe_eph_23_08_16.pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "PDF type: BULLETIN — no structured variable list extractable.",
+    "  This file is a statistical report or publication.",
+    "  Manual review required to determine variable availability."
+  ]
+}

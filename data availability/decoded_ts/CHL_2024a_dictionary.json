@@ -1,0 +1,15 @@
+{
+  "iso3": "CHL",
+  "survey": "CASEN",
+  "period": "a",
+  "year": 2024,
+  "source_files": [
+    "Libro_de_codigos_Casen_2024.xlsx"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "ERROR: 'DataFrame' object has no attribute 'str'"
+  ]
+}

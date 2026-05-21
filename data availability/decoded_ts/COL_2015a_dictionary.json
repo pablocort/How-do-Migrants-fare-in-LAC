@@ -1,0 +1,83 @@
+{
+  "iso3": "COL",
+  "survey": "GEIH",
+  "period": "a",
+  "year": 2015,
+  "source_files": [
+    "Formulario GEIH III Trim. 2015.pdf"
+  ],
+  "doc_type": "QUESTIONNAIRE_PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "Visita No.",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Fecha (día - mes)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Día de la semana",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Hora - inicio\n(hora - minutos)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Hora - terminación\n(hora - minutos)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Resultado (**)",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Nombre(s) y apellido(s) de la persona:",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SEXO:",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "¿El contrato es verbal o escrito?",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  40 pages total",
+    "  → 9 variables extracted"
+  ]
+}

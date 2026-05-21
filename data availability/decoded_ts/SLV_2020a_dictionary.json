@@ -1,0 +1,4535 @@
+{
+  "iso3": "SLV",
+  "survey": "EHPM",
+  "period": "a",
+  "year": 2020,
+  "source_files": [
+    "DICCIONARIO BASE ANUAL_ EH2020.xlsx"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [
+    "EH2020"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "Año de levantamiento",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Lote",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Tipo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Folio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Número de orden",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Identificación de la boleta",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Factor de expansión",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Área",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Región geográfica",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Correlativo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Municipios autorrepresentados",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Estratos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Municipio autorrepresentado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Zona norte",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "Código de departamento",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "Código de municipio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "Código de cantón",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "Mes de levantamiento",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "20",
+      "label": "Resultado final de la entrevista",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Otros",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "22",
+      "label": "Número de orden del principal informante",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "23",
+      "label": "Entrevista con boleta anexa",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "24",
+      "label": "Confiabilidad de la información",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "25",
+      "label": "Número de miembros del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "26",
+      "label": "Personas de 4 años y más del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "27",
+      "label": "Personas de 5 años y más del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "28",
+      "label": "Personas que se enfermaron del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "29",
+      "label": "Personas que utilizan internet del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "30",
+      "label": "Personas de 4 años y más del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "31",
+      "label": "Personas de 5 años y más del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "32",
+      "label": "Número de secciones de salud",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "33",
+      "label": "Personas que se enfermaron del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "34",
+      "label": "Boleta con sección de subsidios",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "35",
+      "label": "Estado ocupacional",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "36",
+      "label": "Estado ocupacional agregado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "37",
+      "label": "Estado ocupacional urbano",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "38",
+      "label": "Número de grados aprobados",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "39",
+      "label": "Grupo ocupacional (CIUO 08)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "40",
+      "label": "Rama de actividad económica (CIIU Rev. 4)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "41",
+      "label": "Grupo ocupacional (CIUO 08)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "42",
+      "label": "Rama de actividad económica (CIIU Rev. 4)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "43",
+      "label": "Número de días trabajados la semana anterior",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "44",
+      "label": "Número de días habituales trabajados en la semana",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "45",
+      "label": "Gasto del hogar en educación",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "46",
+      "label": "Gasto del hogar en empleo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "47",
+      "label": "Gasto del hogar en vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "48",
+      "label": "Horas trabajadas la semana anterior",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "49",
+      "label": "Horas habituales trabajadas en la semana",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "50",
+      "label": "Ingreso por empleo dependiente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "51",
+      "label": "Ingreso por empleo independiente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "52",
+      "label": "Ingreso por empleo secundario",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "53",
+      "label": "Ingreso por actividades no laborales",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "54",
+      "label": "Ingreso total del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "55",
+      "label": "Ingreso neto por actividades agropecuarias",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "56",
+      "label": "Ingreso percápita del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "57",
+      "label": "Ingreso total (persona)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "58",
+      "label": "Ingreso del hogar por remesas monetarias",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "59",
+      "label": "Ingreso del hogar por remesas eventuales",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "60",
+      "label": "Ingreso del hogar por remesas en especie",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "61",
+      "label": "Número de miembros del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "62",
+      "label": "Número de miembros del hogar excluyendo servicio doméstico",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "63",
+      "label": "Ingreso por trabajo dependiente o empleo independiente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "64",
+      "label": "Otros ingresos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "65",
+      "label": "Otros ingresos por trabajo dependiente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "66",
+      "label": "Condición de pobreza del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "67",
+      "label": "Segmentación del mercado laboral urbano",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "68",
+      "label": "Ingreso del hogar en remesas monetarias y no monetarias",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "69",
+      "label": "Tiene el hogar algún miembro en el extranjero",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "70",
+      "label": "Total de miembros en el extranjero",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "71",
+      "label": "Hombres en el extranjero",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "72",
+      "label": "Mujeres en el extranjero",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "73",
+      "label": "Tiempo en el extranjero del más reciente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "74",
+      "label": "País de residencia de los miembros en el extranjero",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "75",
+      "label": "País de residencia de los miembros en el extranjero",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "76",
+      "label": "País de residencia de los miembros en el extranjero",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "77",
+      "label": "País de residencia de los miembros en el extranjero",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "78",
+      "label": "Otro país de residencia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "79",
+      "label": "Tiene el hogar pupilos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "80",
+      "label": "Total de pupilos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "81",
+      "label": "Hombres pupilos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "82",
+      "label": "Mujeres pupilas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "83",
+      "label": "Realizó el hogar viajes turísticos o de negocios",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "84",
+      "label": "Viajes con pernoctación",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "85",
+      "label": "Viajes de un día",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "86",
+      "label": "Gasto en viajes con pernoctación",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "87",
+      "label": "Gasto en viajes de un día",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "88",
+      "label": "Hay menores de edad cuyos padres no viven en el hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "89",
+      "label": "Ausencia por muerte",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "90",
+      "label": "Ausencia por migración",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "91",
+      "label": "Ausencia por abandono",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "92",
+      "label": "Ausencia por otra razón",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "93",
+      "label": "Relación de parentesco",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "94",
+      "label": "Otra relación de parentesco",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "95",
+      "label": "Sexo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "96",
+      "label": "Mes de nacimiento",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "97",
+      "label": "Año de nacimiento",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "Edad en años cumplidos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "Estado familiar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "100",
+      "label": "Número de orden del padre (menores de edad)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "101",
+      "label": "Numero de orden de la madre (menores de edad)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "102",
+      "label": "Asiste a un centro de educación inicial (menores de 4 años)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "103",
+      "label": "Sabe leer y escribir",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "104",
+      "label": "Donde aprendió a leer y escribir",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "105",
+      "label": "Otro lugar donde aprendió a leer y escribir",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "106",
+      "label": "Estudia actualmente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "107",
+      "label": "Nivel que cursa actualmente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "108",
+      "label": "Otro nivel que cursa actualmente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "109",
+      "label": "Grado que cursa actualmente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "110",
+      "label": "Está repitiendo el grado que cursa",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "111",
+      "label": "Numero de veces que esta repitiendo el grado que cursa",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "112",
+      "label": "Razón por la que está repitiendo el grado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "113",
+      "label": "Otra razón por la que está repitiendo el grado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "114",
+      "label": "Razón por la que abandonó o reprobó el grado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "115",
+      "label": "Otra razón por la que abandonó o reprobó el grado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "116",
+      "label": "Estudió la parvularia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "117",
+      "label": "Tipo de centro de enseñanza al que asiste",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "118",
+      "label": "Tiene el centro de enseñanza centro de cómputo o aula informática",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "119",
+      "label": "Tiene el centro de enseñanza biblioteca",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "120",
+      "label": "Recibe gratis del centro de enseñanza asistencia médica",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "121",
+      "label": "Recibe gratis del centro de enseñanza alimentos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "122",
+      "label": "Recibe gratis del centro de enseñanza textos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "123",
+      "label": "Recibe gratis del centro de enseñanza beca para matrícula",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "124",
+      "label": "Recibe gratis del centro de enseñanza beca de cuota escolar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "125",
+      "label": "Recibe gratis del centro de enseñanza zapatos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "126",
+      "label": "Recibe gratis del centro de enseñanza útiles escolares",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "127",
+      "label": "Recibe gratis del centro de enseñanza uniformes",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "128",
+      "label": "Ha asistido alguna vez a algún centro de enseñanza",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "129",
+      "label": "Tipo de centro de enseñanza al que asistió",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "130",
+      "label": "Último nivel cursado y aprobado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "131",
+      "label": "Otro último nivel cursado y aprobado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "132",
+      "label": "Último grado que aprobó",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "133",
+      "label": "Repitió el último grado que aprobó",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "134",
+      "label": "Número de veces que repitió el último grado que aprobó",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "135",
+      "label": "Título o diploma que obtuvo en el nivel más alto que aprobó",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "136",
+      "label": "Otro título o diploma que obtuvo en el nivel más alto que aprobó",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "137",
+      "label": "Carrera en la cual se graduó de pregrado o postgrado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "138",
+      "label": "Otra carrera en la cual se graduó de pregrado o postgrado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "139",
+      "label": "Razón por la que no estudia actualmente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "140",
+      "label": "Otra razón por la que no estudia actualmente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "141",
+      "label": "Gastó anualmente en matrícula",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "142",
+      "label": "Monto anual gastado en matrícula",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "143",
+      "label": "Gastó anualmente en útiles",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "144",
+      "label": "Monto anual gastado en útiles",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "145",
+      "label": "Gastó anualmente en uniformes",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "146",
+      "label": "Monto anual gastado en uniformes",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "147",
+      "label": "Gastó anualmente en textos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "148",
+      "label": "Monto anual gastado en textos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "149",
+      "label": "Gastó anualmente en calzado escolar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "150",
+      "label": "Monto anual gastado en calzado escolar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "151",
+      "label": "Gastó anualmente en cuota de padres/madres de familia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "152",
+      "label": "Monto anual en cuota de padres/madres de familia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "153",
+      "label": "Gastó mensualmente en cuota escolar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "154",
+      "label": "Monto mensual en cuota escolar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "155",
+      "label": "Gastó mensualmente en transporte",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "156",
+      "label": "Monto mensual en transporte",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "157",
+      "label": "Gastó mensualmente en refrigerio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "158",
+      "label": "Monto mensual en refrigerio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "159",
+      "label": "Tuvo otros gastos mensuales escolares",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "160",
+      "label": "Monto mensual en otros gastos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "161",
+      "label": "Monto anual gastado en educación el año anterior para este año",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "162",
+      "label": "Tipo de vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "163",
+      "label": "Otro tipo de vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "164",
+      "label": "Número de pisos (Concominio)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "165",
+      "label": "Vivienda en buen estado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "166",
+      "label": "Material predominante en el techo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "167",
+      "label": "Otro material predominante en el techo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "168",
+      "label": "Techo en buen estado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "169",
+      "label": "Material predominante en las paredes",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "170",
+      "label": "Otro material predominante en las paredes",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "171",
+      "label": "Paredes en buen estado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "172",
+      "label": "Material predominante en el piso",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "173",
+      "label": "Otro material predominante en el piso",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "174",
+      "label": "Habitaciones de uso exclusivo del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "175",
+      "label": "Habitaciones utilizadas exclusivamente como dormitorios",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "176",
+      "label": "Habitaciones utilizadas exclusivamente para trabajar o para negocio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "177",
+      "label": "Forma de tenencia de la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "178",
+      "label": "Otra forma de tenencia de la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "179",
+      "label": "Número de orden del propietario",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "180",
+      "label": "Cuota mensual (alquiler o pago a plazos)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "181",
+      "label": "Paga con algún bien o servicio el uso de la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "182",
+      "label": "Valor que tendrían los bienes o servicios pagados",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "183",
+      "label": "Valor que pagaría por mes si tuviera que alquilar la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "184",
+      "label": "Tipo de alumbrado de la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "185",
+      "label": "Otro tipo de alumbrado de la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "186",
+      "label": "Tiene la vivienda servicio de agua por cañería",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "187",
+      "label": "Días de la última semana que le cayó agua",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "188",
+      "label": "Horas al día de la última semana que le cayo agua",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "189",
+      "label": "Forma de abastecimiento de agua de la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "190",
+      "label": "Otra forma de abastecimiento de agua de la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "191",
+      "label": "Tiene servicio sanitario de la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "192",
+      "label": "Cuenta con acceso a servicio sanitario la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "193",
+      "label": "Tipo de servicio sanitario que utiliza",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "194",
+      "label": "Forma en la que se deshacen de las excretas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "195",
+      "label": "Forma en la que se deshacen de las excretas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "196",
+      "label": "Forma en la que se deshacen de las excretas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "197",
+      "label": "Otra forma en la que se deshacen de las excretas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "198",
+      "label": "Forma en la que se deshacen de las aguas grises",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "199",
+      "label": "Otra forma en la que se deshacen de las aguas grises",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "200",
+      "label": "Recibe el hogar subsidio de gas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "201",
+      "label": "Recibe el hogar subsidio de energía eléctrica",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "202",
+      "label": "Recibe el hogar bonos comunidades solidarias rurales",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "203",
+      "label": "Recibe el hogar bonos comunidades solidarias urbanas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "204",
+      "label": "Recibe el hogar pensión básica universal",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "205",
+      "label": "Recibe el hogar subsidio de agua",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "206",
+      "label": "Recibe el hogar otro beneficio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "207",
+      "label": "Otro beneficio que recibe el hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "208",
+      "label": "Recibe el hogar paquete agrícola",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "209",
+      "label": "Combustible utilizado predominantemente para cocinar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "210",
+      "label": "Otro combustible utilizado predominantemente para cocinar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "211",
+      "label": "Tiene el hogar teléfono fijo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "212",
+      "label": "Número de teléfonos fijos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "213",
+      "label": "Tiene el hogar teléfono celular",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "214",
+      "label": "Número de teléfonos celulares",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "215",
+      "label": "Tiene el hogar internet",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "216",
+      "label": "Tiene el hogar internet móvil",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "217",
+      "label": "Tiene el hogar cable",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "218",
+      "label": "Tiene el hogar cable del vecino",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "219",
+      "label": "Forma en la que se deshace de la basura",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "220",
+      "label": "Otra forma en la que se deshace de la basura",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "221",
+      "label": "Tiene el hogar radio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "222",
+      "label": "Número de radios",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "223",
+      "label": "Tiene el hogar equipo de sonido",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "224",
+      "label": "Número de equipos de sonido",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "225",
+      "label": "Tiene el hogar televisor",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "226",
+      "label": "Número de televisores",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "227",
+      "label": "Tiene el hogar video casetera o DVD",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "228",
+      "label": "Número de video caseteras o DVD",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "229",
+      "label": "Tiene el hogar refrigeradora",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "230",
+      "label": "Número de refrigeradoras",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "231",
+      "label": "Tiene el hogar lavadora",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "232",
+      "label": "Número de lavadoras",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "233",
+      "label": "Tiene el hogar licuadora",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "234",
+      "label": "Número de licuadoras",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "235",
+      "label": "Tiene el hogar ventilador",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "236",
+      "label": "Número de ventiladores",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "237",
+      "label": "Tiene el hogar computadora",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "238",
+      "label": "Número de computadoras",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "239",
+      "label": "Tiene el hogar secadora de ropa",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "240",
+      "label": "Número de secadoras de ropa",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "241",
+      "label": "Tiene el hogar máquina de coser",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "242",
+      "label": "Número de máquinas de coser",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "243",
+      "label": "Tiene el hogar vehículo (uso del hogar)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "244",
+      "label": "Número de vehículos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "245",
+      "label": "Tiene el hogar plancha",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "246",
+      "label": "Número de planchas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "247",
+      "label": "Tiene el hogar horno microondas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "248",
+      "label": "Número de hornos microondas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "249",
+      "label": "Tiene el hogar videojuegos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "250",
+      "label": "Número de videojuegos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "251",
+      "label": "Tiene el hogar generador de electricidad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "252",
+      "label": "Número de generadores de electricidad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "253",
+      "label": "Tiene el hogar aire acondicionado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "254",
+      "label": "Número de aires acondicionados",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "255",
+      "label": "Tiene el hogar tanque o cisterna",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "256",
+      "label": "Número de tanques o cisternas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "257",
+      "label": "Tiene el hogar motocicleta",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "258",
+      "label": "Número de motocicletas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "259",
+      "label": "Ha tenido algún problema por corrientes de agua en la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "260",
+      "label": "Tuvo daños en la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "261",
+      "label": "Tuvo pérdida de muebles o enseres",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "262",
+      "label": "Tuvo pérdida de alimentos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "263",
+      "label": "Tuvo pérdida de animales de granja",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "264",
+      "label": "Tuvo lesiones a un miembro del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "265",
+      "label": "Tuvo enfermedad en un miembro del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "266",
+      "label": "Tuvo otros daños",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "267",
+      "label": "Ha sufrido en la vivienda algún derrumbe o alúd",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "268",
+      "label": "Hay alguna cárcava o quebrada que pueda afectar a la vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "269",
+      "label": "Tipo de gasto en agua (servicio de ANDA)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "270",
+      "label": "Gasto mensual en agua (servicio de ANDA)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "271",
+      "label": "Tipo de gasto en agua envasada",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "272",
+      "label": "Gasto mensual en agua envasada",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "273",
+      "label": "Tipo de gasto en agua (otras fuentes)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "274",
+      "label": "Gasto mensual en agua (otras fuentes)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "275",
+      "label": "Tipo de gasto en electricidad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "276",
+      "label": "Gasto mensual en electricidad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "277",
+      "label": "Tipo de gasto en kerosene",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "278",
+      "label": "Gasto mensual en kerosene",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "279",
+      "label": "Tipo de gasto en gas propano",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "280",
+      "label": "Gasto mensual en gas propano",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "281",
+      "label": "Tipo de gasto en candela",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "282",
+      "label": "Gasto mensual en candela",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "283",
+      "label": "Tipo de gasto en leña",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "284",
+      "label": "Gasto mensual en leña",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "285",
+      "label": "Tipo de gasto en carga de batería",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "286",
+      "label": "Gasto mensual en carga de batería",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "287",
+      "label": "Tipo de gasto en internet móvil",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "288",
+      "label": "Gasto mensual en internet móvil",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "289",
+      "label": "Tipo de gasto en teléfono fijo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "290",
+      "label": "Gasto mensual en teléfono fijo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "291",
+      "label": "Tipo de gasto en celular",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "292",
+      "label": "Gasto mensual en celular",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "293",
+      "label": "Tipo de gasto en cable/cable del vecino",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "294",
+      "label": "Gasto mensual en cable/cable del vecino",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "295",
+      "label": "Tipo de gasto en internet (hogar)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "296",
+      "label": "Gasto mensual en internet (hogar)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "297",
+      "label": "Tipo de gasto en cibercafé",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "298",
+      "label": "Gasto mensual en cibercafé",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "299",
+      "label": "Tipo de gasto en impuestos municipales",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "300",
+      "label": "Gasto mensual en impuestos municipales",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "301",
+      "label": "Tipo de gasto en pago de vigilancia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "302",
+      "label": "Gasto mensual en pago de vigilancia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "303",
+      "label": "Tipo de gasto en recolección de basura",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "304",
+      "label": "Gasto mensual en recolección de basura",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "305",
+      "label": "Tipo de gasto en paquete de servicios",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "306",
+      "label": "Gasto mensual en paquete de servicios",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "307",
+      "label": "Tipo de gasto en otro servicio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "308",
+      "label": "Gasto mensual en otro servicio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "309",
+      "label": "Otro servicio que recibe el hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "310",
+      "label": "Tipo de gasto en empleadas(os) domésticas(os)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "311",
+      "label": "Gasto mensual en empleadas(os) domésticas(os)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "312",
+      "label": "Gasto mensual total en servicios",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "313",
+      "label": "Número de orden del informante",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "314",
+      "label": "Realizó algún trabajo la semana anterior para generar ingresos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "315",
+      "label": "Realizó tareas agrícolas o cuidado de animales",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "316",
+      "label": "Realizó pesca o recolección de mariscos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "317",
+      "label": "Trabajó en algun negocio propio o familiar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "318",
+      "label": "Vendió algun producto, lotería, periódicos, etc",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "319",
+      "label": "Cocinó, lavó ropa ajena u otros servicios particulares",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "320",
+      "label": "Elaboró tortillas para vender",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "321",
+      "label": "Hizo comida típica para vender (pupusas, tamales, etc)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "322",
+      "label": "Elaboró algún otro producto en casa para vender",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "323",
+      "label": "Ayudó a algún familiar en su negocio o trabajó sin remuneración",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "324",
+      "label": "Realizó alguna otra actividad para obtener ingresos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "325",
+      "label": "Tiene algún empleo fijo al que próximamente volverá",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "326",
+      "label": "Tiene algún negocio, empresa o actividad propia a la que próximamente volverá",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "327",
+      "label": "Razón por la que no trabajó la semana anterior",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "328",
+      "label": "Recibió sueldo, salario o ganancia de negocio durante el período de ausencia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "329",
+      "label": "Tiempo en el que regresará al mismo trabajo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "330",
+      "label": "Desearía trabajar si se le presentara una oportunidad de empleo o empezar negocio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "331",
+      "label": "Buscó trabajo o trató de establecer su propia empresa o negocio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "332",
+      "label": "Buscó trabajo o trató de establecer su propia empresa o negocio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "333",
+      "label": "Tiempo en meses que ha estado buscando trabajo desde la ultima vez que trabajó/desidió trabajar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "334",
+      "label": "Tiempo en semanas que ha estado buscando trabajo desde la ultima vez que trabajó/desidió trabajar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "335",
+      "label": "Actividad que realizó para buscar trabajo o establecer su propia empresa o negocio en las ultimas 4 semanas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "336",
+      "label": "Otra actividad que realizó para buscar trabajo o establecer su propia empresa o negocio en las ultimas 4 semanas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "337",
+      "label": "Razón por la que no buscó trabajo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "338",
+      "label": "Otra razón por la que no buscó trabajo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "339",
+      "label": "En cuanto tiempo más comenzará a trabajar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "340",
+      "label": "Hubiera estado dispuesto(a) a trabajar en el mismo momento o a más tardar 2 semanas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "341",
+      "label": "Hubiera estado dispuesto(a) a trabajar en el mismo momento o a más tardar 2 semanas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "342",
+      "label": "Ha trabajado antes",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "343",
+      "label": "Horas (de lunes a viernes) que trabajó la semana anterior",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "344",
+      "label": "Días (de lunes a viernes) que trabajó la semana anterior",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "345",
+      "label": "Jornada (de lunes a viernes) que trabajó la semana anterior",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "346",
+      "label": "Horas (sábado y domingo) que trabajó la semana anterior",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "347",
+      "label": "Días (sábado y domingo) que trabajó la semana anterior",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "348",
+      "label": "Jornada (sábado y domingo) que trabajó la semana anterior",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "349",
+      "label": "Horas (de lunes a viernes) que trabaja habitualmente a la semana",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "350",
+      "label": "Días (de lunes a viernes) que trabaja habitualmente a la semana",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "351",
+      "label": "Jornada (de lunes a viernes) que trabaja habitualmente a la semana",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "352",
+      "label": "Horas (sábado y domingo) que trabaja habitualmente a la semana",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "353",
+      "label": "Días (sábado y domingo) que trabaja habitualmente a la semana",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "354",
+      "label": "Jornada (sábado y domingo) que trabaja habitualmente a la semana",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "355",
+      "label": "Razón por la que trabaja menos de 40 horas en la semana",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "356",
+      "label": "Otra razón por la que trabaja menos de 40 horas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "357",
+      "label": "Razón por la que trabaja 40 horas o más en la semana",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "358",
+      "label": "Otra razón por la que trabaja 40 horas o más en la semana",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "359",
+      "label": "Código de la ocupación (CIUO 08)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "360",
+      "label": "Código de la actividad económica (CIIU Rev. 4)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "361",
+      "label": "Indicador de actividad agropecuaria",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "362",
+      "label": "En su empleo trabaja con herramientas peligrosas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "363",
+      "label": "En su empleo trabaja con químicos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "364",
+      "label": "En su empleo trabaja llevando cargas pesadas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "365",
+      "label": "En su empleo trabaja en ambiente con gases, fuego",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "366",
+      "label": "En su empleo trabaja en ambiente con polvo, humo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "367",
+      "label": "En su empleo trabaja con explosivos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "368",
+      "label": "En su empleo trabaja en alturas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "369",
+      "label": "En su empleo trabaja bajo el agua, en altamar o en manglares",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "370",
+      "label": "En su empleo trabaja bajo tierra",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "371",
+      "label": "En su empleo trabaja con temperaturas o humedad extrema",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "372",
+      "label": "En su empleo trabaja en ambiente bullicioso",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "373",
+      "label": "En su empleo trabaja con luz insuficiente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "374",
+      "label": "En su empleo trabaja con mota u otras partículas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "375",
+      "label": "En su empleo trabaja con alguna otra dificultad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "376",
+      "label": "Otra dificultad con la cual trabaja",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "377",
+      "label": "En su empleo trabaja con riesgo de accidentes graves",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "378",
+      "label": "En su empleo trabaja con agresiones verbales o amenazas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "379",
+      "label": "Le proveen de medidas o equipo de seguridad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "380",
+      "label": "Categoría ocupacional",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "381",
+      "label": "Otra categoría ocupacional",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "382",
+      "label": "Razón principal por la que no trabaja como asalariado permanente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "383",
+      "label": "Otra razón por la que no trabaja como asalariado permanente",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "384",
+      "label": "Quién decide su horario de trabajo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "385",
+      "label": "Quién decide los precios a cobrar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "386",
+      "label": "Trabaja solo, con miembros de la familia, contrata empleados o trabaja para un patrón",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "387",
+      "label": "Ha firmado contrato de trabajo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "388",
+      "label": "Número de meses de duración del contrato",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "389",
+      "label": "Sector en el que trabaja",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "390",
+      "label": "Otro sector en el que trabaja",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "391",
+      "label": "Número de personas de la empresa o negocio en el que trabaja",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "392",
+      "label": "Código (número por si no sabe con precisión) de personas de la empresa o negocio en el que trabaja",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "393",
+      "label": "Cobertura del ISSS",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "394",
+      "label": "Cobertura de Bienestar Magisterial",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "395",
+      "label": "Cobertura del IPSFA",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "396",
+      "label": "Cobertura de seguro de salud colectivo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "397",
+      "label": "Cobertura de seguro de salud privado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "398",
+      "label": "Cobertura de la AFP",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "399",
+      "label": "Cobertura del INPEP",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "400",
+      "label": "Periodicidad con la que recibe el sueldo o salario",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "401",
+      "label": "Ingreso mensualizado de los ocupados dependientes",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "402",
+      "label": "Le deducen del salario el impuesto sobre la renta",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "403",
+      "label": "Monto que recibe por pago de horas extras",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "404",
+      "label": "Veces al año que recibe pago de horas extras",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "405",
+      "label": "Monto que recibe por salario vacacional",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "406",
+      "label": "Veces al año que recibe salario vacacional",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "407",
+      "label": "Monto que recibe por aguinaldo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "408",
+      "label": "Veces al año que recibe aguinaldo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "409",
+      "label": "Monto que recibe por bonificaciones, comisiones, viáticos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "410",
+      "label": "Veces al año que recibe bonificaciones, comisiones, viáticos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "411",
+      "label": "Alimentos o refrigerios",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "412",
+      "label": "Veces al año que recibe alimentos o refrigerios",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "413",
+      "label": "Monto que recibe por ropa, uniformes o calzado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "414",
+      "label": "Veces al año que recibe ropa, uniformes o calzado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "415",
+      "label": "Monto que recibe por mercaderías (en especie)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "416",
+      "label": "Veces al año que recibe mercaderías (en especie)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "417",
+      "label": "Monto que recibe por vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "418",
+      "label": "Veces al año que recibe vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "419",
+      "label": "Monto que recibe por transporte o combustible",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "420",
+      "label": "Veces al año que recibe transporte o combustible",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "421",
+      "label": "Monto que recibe por seguro privado de salud",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "422",
+      "label": "Veces al año que recibe seguro privado de salud",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "423",
+      "label": "Monto que recibe por propinas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "424",
+      "label": "Veces al año que recibe propinas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "425",
+      "label": "Monto que recibe por otro beneficio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "426",
+      "label": "Otro beneficio que recibe",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "427",
+      "label": "Veces al año que recibe otro beneficio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "428",
+      "label": "Ha participado en algún curso en la empresa o institución en la que trabaja",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "429",
+      "label": "La empresa o institucion en la que trabaja ha llevado a cabo una negociación colectiva en relación con los salarios u otras condiciones de trabajo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "430",
+      "label": "Lugar en el que realiza la actividad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "431",
+      "label": "La empresa o institución lleva la contabilidad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "432",
+      "label": "La empresa o institución está registrada en las oficinas de impuestos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "433",
+      "label": "La empresa o institución está registrada en las oficinas de seguridad social",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "434",
+      "label": "Periodicidad con la que recibe el ingreso del negocio o establecimiento agropecuario",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "435",
+      "label": "Ganancia mensualizada de los ocupados independientes",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "436",
+      "label": "Utiliza productos para consumo propio de los bienes producidos por el negocio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "437",
+      "label": "Monto de los productos del negocio utilizados para el consumo del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "438",
+      "label": "De lo que produce, destina una parte principalmente a la venta",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "439",
+      "label": "Tipo de propiedad de la empresa o negocio donde trabaja",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "440",
+      "label": "Otro tipo de propiedad de la empresa o negocio donde trabaja",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "441",
+      "label": "Tiene una ocupación secundaria",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "442",
+      "label": "Horas de trabajo semanales que dedica al empleo secundario",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "443",
+      "label": "Ingreso recibido por el empleo secundario",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "444",
+      "label": "Monto que recibe por pago de horas extras",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "445",
+      "label": "Veces al año que recibe pago de horas extras",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "446",
+      "label": "Monto que recibe por salario vacacional",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "447",
+      "label": "Veces al año que recibe salario vacacional",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "448",
+      "label": "Monto que recibe por aguinaldo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "449",
+      "label": "Veces al año que recibe aguinaldo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "450",
+      "label": "Monto que recibe por bonificaciones, comisiones, viáticos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "451",
+      "label": "Veces al año que recibe bonificaciones, comisiones, viáticos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "452",
+      "label": "Alimentos o refrigerios",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "453",
+      "label": "Veces al año que recibe alimentos o refrigerios",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "454",
+      "label": "Monto que recibe por ropa, uniformes o calzado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "455",
+      "label": "Veces al año que recibe ropa, uniformes o calzado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "456",
+      "label": "Monto que recibe por mercaderías (en especie)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "457",
+      "label": "Veces al año que recibe mercaderías (en especie)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "458",
+      "label": "Monto que recibe por vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "459",
+      "label": "Veces al año que recibe vivienda",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "460",
+      "label": "Monto que recibe por transporte o combustible",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "461",
+      "label": "Veces al año que recibe transporte o combustible",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "462",
+      "label": "Monto que recibe por seguro privado de salud",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "463",
+      "label": "Veces al año que recibe seguro privado de salud",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "464",
+      "label": "Monto que recibe por propinas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "465",
+      "label": "Veces al año que recibe propinas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "466",
+      "label": "Monto que recibe por otro beneficio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "467",
+      "label": "Veces al año que recibe otro beneficio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "468",
+      "label": "Otro beneficio que recibe",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "469",
+      "label": "Código de la ocupación secundaria (CIUO 08)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "470",
+      "label": "Código de la actividad económica secundaria (CIIU Rev. 4)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "471",
+      "label": "Número de personas de la empresa o negocio en el que trabaja por empleo secundario",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "472",
+      "label": "Código (número por si no sabe con precisión) de personas de la empresa o negocio en el que trabaja por empleo secundario",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "473",
+      "label": "Desea trabajar mas horas por semana en su trabajo principal o negocio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "474",
+      "label": "Empezaría a trabajar ahora mismo o en las proximas dos semanas si se le presenta la oportunidad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "475",
+      "label": "Cuantas horas adicionales a la semana podría trabajar en su trabajo principal u otros trabajos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "476",
+      "label": "Monto que recibe por ayuda de familiares o amigo(a)s que residen en el país",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "477",
+      "label": "Veces al año que recibe ayuda de familiares o amigo(a)s que residen en el país",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "478",
+      "label": "Monto que recibe por cuota alimenticia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "479",
+      "label": "Veces al año que recibe cuota alimenticia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "480",
+      "label": "Monto que recibe por alquiler de viviendas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "481",
+      "label": "Veces al año que recibe alquiler de viviendas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "482",
+      "label": "Monto que recibe por alquiler de negocios o máquinas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "483",
+      "label": "Veces al año que recibe alquiler de negocios o máquinas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "484",
+      "label": "Monto que recibe por alquiler de terrenos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "485",
+      "label": "Veces al año que recibe alquiler de terrenos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "486",
+      "label": "Ingreso mensualizado de las pensiones (pregunta 440 ítem 6)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "487",
+      "label": "Monto que recibe por depreciación de vehículos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "488",
+      "label": "Veces al año que recibe depreciación de vehículos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "489",
+      "label": "Monto que recibe por pensión por sobrevivencia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "490",
+      "label": "Veces al año que recibe pensión por sobrevivencia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "491",
+      "label": "Monto que recibe por ahorros",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "492",
+      "label": "Veces al año que recibe ahorros",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "493",
+      "label": "Monto que recibe por otros ingresos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "494",
+      "label": "Veces al año que recibe otros ingresos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "495",
+      "label": "Otros ingresos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "496",
+      "label": "Monto que recibe por utilidades empresariales",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "497",
+      "label": "Monto que recibe por dividendos por acciones",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "498",
+      "label": "Monto que recibe por intereses",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "499",
+      "label": "Monto que recibe por herencias, loterías, juegos de azar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "500",
+      "label": "Monto que recibe por indemnización por retiro o despido",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "501",
+      "label": "Monto que recibe por ayuda del gobierno en efectivo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "502",
+      "label": "Monto que recibe por actividades eventuales",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "503",
+      "label": "Monto que recibe por arrendamiento de tierras",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "504",
+      "label": "Monto que recibe por remesas eventuales locales",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "505",
+      "label": "Monto que recibe por aguinaldo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "506",
+      "label": "Monto que recibe por otros ingresos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "507",
+      "label": "Otros ingresos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "508",
+      "label": "Edad a la que empezó a trabajar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "509",
+      "label": "Es miembro activo de una cooperativa",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "510",
+      "label": "Es miembro activo de un sindicato",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "511",
+      "label": "Es miembro activo de una asociación gremial",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "512",
+      "label": "Es miembro activo de una asociación profesional",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "513",
+      "label": "Es miembro activo de una asociación de empresas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "514",
+      "label": "Es miembro activo de alguna otra organización",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "515",
+      "label": "Otra organización a la cual pertenece",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "516",
+      "label": "Hay alguna época del año en que no se consigue trabajo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "517",
+      "label": "Período en el cual no se consigue trabajo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "518",
+      "label": "Período en el cual ha pasado sin poder trabajar contra su voluntad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "519",
+      "label": "Horas dedicadas a cuidar, atender sin pago a niños",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "520",
+      "label": "Minutos dedicados a cuidar, atender sin pago a niños",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "521",
+      "label": "Horas dedicadas a reparar o dar mantenimiento a la vivienda, muebles, aparatos domésticos o vehículos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "522",
+      "label": "Minutos dedicados a reparar o dar mantenimiento a la vivienda, muebles, aparatos domésticos o vehículos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "523",
+      "label": "Horas dedicadas a realizar el quehacer del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "524",
+      "label": "Minutos dedicados a realizar el quehacer del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "525",
+      "label": "Horas dedicadas a acarrear leña",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "526",
+      "label": "Minutos dedicados a acarrear leña",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "527",
+      "label": "Horas dedicadas a acarrear agua",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "528",
+      "label": "Minutos dedicados a acarrear agua",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "529",
+      "label": "Horas dedicadas a cuidar animales domésticos o mascotas del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "530",
+      "label": "Minutos dedicados a cuidar animales domésticos o mascotas del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "531",
+      "label": "Horas dedicadas a planificar las finanzas del hogar, pagar las cuentas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "532",
+      "label": "Minutos dedicados a planificar las finanzas del hogar, pagar las cuentas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "533",
+      "label": "Desayunó fuera del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "534",
+      "label": "Monto gastado en desayunos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "535",
+      "label": "Almorzó fuera del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "536",
+      "label": "Monto gastado en almuerzos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "537",
+      "label": "Cenó fuera del hogar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "538",
+      "label": "Monto gastado en cenas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "539",
+      "label": "Gastó en transporte",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "540",
+      "label": "Monto gastado en transporte público",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "541",
+      "label": "Gastó en combustible",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "542",
+      "label": "Monto gastado en combustible",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "543",
+      "label": "Gastó en reparación de vehículo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "544",
+      "label": "Monto gastado en reparación de vehículo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "545",
+      "label": "Gastó en hospedaje",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "546",
+      "label": "Monto gastado en hospedaje",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "547",
+      "label": "Otros gastos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "548",
+      "label": "Monto gastado en otros gastos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "549",
+      "label": "Ha realizado actividades agropecuarias como patrono o cuenta propia",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "550",
+      "label": "Ganancia mensualizada de la actividad agropecuaria",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "551",
+      "label": "Forma de tenencia de la tierra",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "552",
+      "label": "Forma secundaria de tenencia de la tierra",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "553",
+      "label": "Número de orden del propietario de la tierra",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "554",
+      "label": "Otra forma de tenencia de la tierra",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "555",
+      "label": "Tipo de actividad agropecuaria a la que se dedicó",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "556",
+      "label": "Solicitó crédito para la actividad agropecuaria",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "557",
+      "label": "Obtuvo el crédito solicitado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "558",
+      "label": "Destina en el patio de su vivienda espacio físico para cultivo de: granos, frutas o crianza de animales",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "559",
+      "label": "Monto de la produccion de patio",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "560",
+      "label": "Destina de la producción de patio un monto para autoconsumo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "561",
+      "label": "Monto destinado para autoconsumo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "562",
+      "label": "Destina de la producción de patio un monto para Comercializacíon",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "563",
+      "label": "Monto destinado para comercializacíon",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "564",
+      "label": "Destina de la producción de patio un monto para ambas cosas (consumo y comercializacíon)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "565",
+      "label": "Monto destinada para ambas cosas (consumo y comercializacíon)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "566",
+      "label": "Recibe ayuda económica de parte de familiares y amigos en divisas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "567",
+      "label": "Ingreso mensualizado de las remesas en divisas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "568",
+      "label": "Otro frecuencia con que recibe la ayuda en divisas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "569",
+      "label": "Recibe ayuda económica de parte de familiares y amigos en especie",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "570",
+      "label": "Monto de la ayuda en especie",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "571",
+      "label": "Recibe ayuda económica de parte de familiares y amigos de manera eventual",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "572",
+      "label": "Monto de la ayuda eventual",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "573",
+      "label": "Tipo de seguro médico",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "574",
+      "label": "Otro tipo de seguro médico",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "575",
+      "label": "Síntoma, enfermedad o lesión más reciente que tuvo el mes anterior",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "576",
+      "label": "Otro síntoma, enfermedad o lesión más reciente que tuvo el mes anterior",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "577",
+      "label": "Persona a la que consultó",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "578",
+      "label": "Lugar en el que consultó",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "579",
+      "label": "Otro lugar en el que consultó",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "580",
+      "label": "Estuvo hospitalizado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "581",
+      "label": "Lugar en el que estuvo hospitalizado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "582",
+      "label": "Otro lugar en el que estuvo hospitalizado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "583",
+      "label": "Días que estuvo hospitalizado",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "584",
+      "label": "Razón por la que no consultó al sistema de salud pública",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "585",
+      "label": "Otra razón por la que no consultó al sistema de salud pública",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "586",
+      "label": "Lugar al que acudiría si algún miembro del hogar se enfermara",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "587",
+      "label": "Otro lugar al que acudiría si algún miembro del hogar se enfermara",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "588",
+      "label": "Razón por la que no asistiría a un centro del sistema de salud pública",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "589",
+      "label": "Otra razón por la que no asistiría a un centro del sistema de salud pública",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "590",
+      "label": "ELCSA adultos 1",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "591",
+      "label": "ELCSA adultos 2",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "592",
+      "label": "ELCSA adultos 3",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "593",
+      "label": "ELCSA adultos 4",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "594",
+      "label": "ELCSA adultos 5",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "595",
+      "label": "ELCSA adultos 6",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "596",
+      "label": "ELCSA adultos 7",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "597",
+      "label": "ELCSA adultos 8",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "598",
+      "label": "ELCSA menores 1",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "599",
+      "label": "ELCSA menores 2",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "600",
+      "label": "ELCSA menores 3",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "601",
+      "label": "ELCSA menores 4",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "602",
+      "label": "ELCSA menores 5",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "603",
+      "label": "ELCSA menores 6",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "604",
+      "label": "ELCSA menores 7",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "605",
+      "label": "Control de preguntas 916 a 918",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "606",
+      "label": "Hay en la comunidad cancha deportiva",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "607",
+      "label": "Hay en la comunidad parque o zona verde",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "608",
+      "label": "Hay en la comunidad áreas de juegos para niños",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "609",
+      "label": "Hay en la comunidad casa comunal",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "610",
+      "label": "Hay en la comunidad otro espacio recreativo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "611",
+      "label": "Otro espacio recreativo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "612",
+      "label": "Utiliza el hogar la cancha deportiva",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "613",
+      "label": "Utiliza el hogar el parque o zona verde",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "614",
+      "label": "Utiliza el hogar las áreas de juegos para niños",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "615",
+      "label": "Utiliza el hogar la casa comunal",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "616",
+      "label": "Utiliza el hogar este espacio recreativo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "617",
+      "label": "Razón por la que el hogar no utiliza la cancha deportiva",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "618",
+      "label": "Razón por la que el hogar no utiliza el parque o zona verde",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "619",
+      "label": "Razón por la que el hogar no utiliza las áreas de juegos para niños",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "620",
+      "label": "Razón por la que el hogar no utiliza la casa comunal",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "621",
+      "label": "Razón por la que el hogar no utiliza otros espacios recreativos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "622",
+      "label": "Otra razón por la que el hogar no utiliza la cancha deportiva",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "623",
+      "label": "Otra razón por la que el hogar no utiliza el parque o zona verde",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "624",
+      "label": "Otra razón por la que el hogar no utiliza las áreas de juegos para niños",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "625",
+      "label": "Otra razón por la que el hogar no utiliza la casa comunal",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "626",
+      "label": "Otra razón por la que el hogar no utiliza este espacio recreativo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "627",
+      "label": "Control de pregunta 919",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "628",
+      "label": "Alguien entró a la casa sin permiso y robó o intentó robar algo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "629",
+      "label": "Fue víctima de asalto en la calle, autobús, negocio u otro lugar",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "630",
+      "label": "Fue víctima de robo de vehículo",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "631",
+      "label": "Tuvo daño a la propiedad, incluyendo grafitis o rayones en vehículos",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "632",
+      "label": "Fue víctima de engaño o estafa",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "633",
+      "label": "Fue víctima de extorsión",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "634",
+      "label": "Fue víctima de amenazas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "635",
+      "label": "Fue víctima de lesiones físicas",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "636",
+      "label": "Fue víctima de secuestro",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "637",
+      "label": "Fue víctima de ataque sexual o violación (incluyendo intento)",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "638",
+      "label": "Fue víctima de algún otro ilícito",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "639",
+      "label": "Otro ilícito",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "640",
+      "label": "Control de pregunta 920",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "641",
+      "label": "Pueden salir de noche en la comunidad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "642",
+      "label": "Pueden tener un negocio en la comunidad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "643",
+      "label": "Pueden dejar sola la casa en la comunidad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "644",
+      "label": "Pueden dejar salir a los niños a jugar en la comunidad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    },
+    {
+      "name": "645",
+      "label": "Pueden las mujeres transitar con libertad en la comunidad",
+      "type": "",
+      "table": "EH2020",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: DICCIONARIO BASE ANUAL_ EH2020.xlsx (1 sheet(s))",
+    "Sheet 'EH2020': UNKNOWN layout — best-effort extraction",
+    "  → 645 variables (best-effort — verify manually)"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "iso3": "ECU",
+  "survey": "ENEMDU",
+  "period": "m12",
+  "year": 2015,
+  "source_files": [
+    "Informe pobreza y desigualdad sep_15.pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "PDF type: BULLETIN — no structured variable list extractable.",
+    "  This file is a statistical report or publication.",
+    "  Manual review required to determine variable availability."
+  ]
+}

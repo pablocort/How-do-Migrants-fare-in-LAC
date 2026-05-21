@@ -1,0 +1,2176 @@
+{
+  "iso3": "PER",
+  "survey": "ENAHO",
+  "period": "a",
+  "year": 2024,
+  "source_files": [
+    "ENAHO-CLASIFICADOR DE CARRERAS DE EDUC SUPERIOR Y TECNICO PRODUCTIVAS.xlsx"
+  ],
+  "doc_type": "XLSX",
+  "tables": [
+    "Nivel 6",
+    "NIvel 5",
+    "Nivel 4",
+    "Nivel3"
+  ],
+  "variables": [
+    {
+      "name": "11",
+      "label": "Educación Inicial y Primaria",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "111",
+      "label": "Educación Inicial",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "112",
+      "label": "Educación Primaria",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Educación Secundaria",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "121",
+      "label": "Educación Secundaria",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Educación Física",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "131",
+      "label": "Educación Física",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Educación Especial",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "141",
+      "label": "Educación Especial",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Educación Artística",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "151",
+      "label": "Educación Artística",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "Educación Tecnológica",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "161",
+      "label": "Educación Tecnológica",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "Otras Carreras de Educación",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Humanidades y Arte",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Humanidades",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "211",
+      "label": "Antropología y Arqueología",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "212",
+      "label": "Historia",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "213",
+      "label": "Lingüística y Literatura",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "214",
+      "label": "Idiomas",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "215",
+      "label": "Bibliotecología y Archivo",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "216",
+      "label": "Teología y Filosofía",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "217",
+      "label": "Humanidades",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "22",
+      "label": "Artes",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "221",
+      "label": "Artes",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "222",
+      "label": "Diseño",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "223",
+      "label": "Danza",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "224",
+      "label": "Música",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "225",
+      "label": "Teatro",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Ciencias Sociales, Comerciales y Derecho",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "31",
+      "label": "Ciencias Sociales y del Comportamiento",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "311",
+      "label": "Servicios Sociales y Asistenciales",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "312",
+      "label": "Trabajo Social",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "313",
+      "label": "Psicología",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "32",
+      "label": "Ciencias de la Comunicación",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "321",
+      "label": "Ciencias de la Comunicación",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "322",
+      "label": "Periodismo y Locución",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "33",
+      "label": "Ciencias Administrativas y Comerciales",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "331",
+      "label": "Administración de Empresas",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "332",
+      "label": "Administración de Servicios Turísticos, Hotelería y Gastronomía",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "333",
+      "label": "Marketing",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "334",
+      "label": "Agronegocios",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "335",
+      "label": "Negocios Internacionales",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "336",
+      "label": "Administración Pública",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "339",
+      "label": "Otras Carreras de Administración",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "34",
+      "label": "Ciencias Económicas y Contables",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "341",
+      "label": "Economía",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "342",
+      "label": "Contabilidad y Finanzas",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "35",
+      "label": "Derecho, Ciencias Políticas y Jurídicas",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "351",
+      "label": "Derecho",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "352",
+      "label": "Ciencias Políticas",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Ciencias Naturales, Exactas y de la Computación",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "41",
+      "label": "Ciencias de la Vida",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "411",
+      "label": "Biología",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "412",
+      "label": "Zootecnia",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "42",
+      "label": "Ciencias Físicas y Químicas",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "421",
+      "label": "Física",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "422",
+      "label": "Química",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "423",
+      "label": "Geología",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "43",
+      "label": "Matemáticas y Estadística",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "431",
+      "label": "Matemática",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "432",
+      "label": "Estadística",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "433",
+      "label": "Investigación Operativa",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "44",
+      "label": "Informática",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "441",
+      "label": "Ciencias de la Computación",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Ingeniería, Industria y Construcción",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "51",
+      "label": "Ingeniería de Sistemas y Telecomunicaciones",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "511",
+      "label": "Ingeniería de Sistemas y Cómputo",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "512",
+      "label": "Ingeniería de Telecomunicaciones",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "52",
+      "label": "Ingeniería Industrial y Producción",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "521",
+      "label": "Ingeniería Industrial",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "522",
+      "label": "Ingeniería en Industrias Alimentarias",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "523",
+      "label": "Ingeniería en Agroindustria",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "524",
+      "label": "Ingeniería Eléctrica",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "525",
+      "label": "Ingeniería Electrónica",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "526",
+      "label": "Ingeniería Mecánica",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "527",
+      "label": "Ingeniería Minera, Metalurgia y Petróleo",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "528",
+      "label": "Ingeniería Textil y Confecciones",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "53",
+      "label": "Ingeniería de la Construcción, Sanitaria y Arquitectura",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "531",
+      "label": "Ingeniería Civil",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "532",
+      "label": "Ingeniería Sanitaria",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "533",
+      "label": "Arquitectura y Urbanismo",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "59",
+      "label": "Otras Ingenierías",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "591",
+      "label": "Ingeniería Pesquera",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "592",
+      "label": "Ingeniería Naval y Aeronáutica",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "593",
+      "label": "Geografía",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "594",
+      "label": "Ecología y Medio Ambiente",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "599",
+      "label": "Otras Ingenierías",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Agropecuaria y Veterinaria",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "61",
+      "label": "Agropecuaria, Forestal y Acuicultura",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "611",
+      "label": "Agropecuaria",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "612",
+      "label": "Ciencias Forestales",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "613",
+      "label": "Acuicultura",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "62",
+      "label": "Veterinaria",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "621",
+      "label": "Veterinaria",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Ciencias de la Salud",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "71",
+      "label": "Ciencias de la Salud",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "711",
+      "label": "Medicina",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "712",
+      "label": "Nutrición",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "713",
+      "label": "Odontología",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "714",
+      "label": "Enfermería",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "715",
+      "label": "Tecnología Médica",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "716",
+      "label": "Farmacia y Bioquímica",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "717",
+      "label": "Obstetricia",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "719",
+      "label": "Otras Carreras de Ciencias de la Salud",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "Fuerzas Armadas y Policiales",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Fuerzas Armadas",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Oficiales de las Fuerzas Armadas",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Fuerzas Policiales",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Oficiales de la Policía Nacional",
+      "type": "",
+      "table": "Nivel 6",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Educación inicial y primaria",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "111",
+      "label": "Educación Inicial",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "112",
+      "label": "Educación Primaria",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Educación secundaria",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "121",
+      "label": "Educación Secundaria",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Educación Física",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "131",
+      "label": "Educación Física",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Educación Especial",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "141",
+      "label": "Educación Especial",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Educación Artística",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "151",
+      "label": "Educación Artística",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "Otras Carreras de Educación",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "199",
+      "label": "Otras Carreras de Educación",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Humanidades y Artes",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Humanidades",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "214",
+      "label": "Idiomas",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "215",
+      "label": "Bibliotecología y Archivo",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "216",
+      "label": "Teología y Filosofía",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "22",
+      "label": "Artes",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "221",
+      "label": "Arte",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "222",
+      "label": "Diseño",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "223",
+      "label": "Danza",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "224",
+      "label": "Música",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "225",
+      "label": "Teatro",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Ciencias Sociales, Comerciales y Derecho",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "31",
+      "label": "Servicios Sociales y del Comportamiento",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "311",
+      "label": "Servicios Sociales y Asistenciales",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "313",
+      "label": "Psicología",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "32",
+      "label": "Ciencias de la Comunicación",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "321",
+      "label": "Ciencias de la Comunicación",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "322",
+      "label": "Periodismo y Locución",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "323",
+      "label": "Operadores de Imagen y Sonido",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "33",
+      "label": "Ciencias Administrativas y Comerciales",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "331",
+      "label": "Administración de Empresas",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "332",
+      "label": "Administración de Servicios Turísticos, Hotelería y Gastronomía",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "333",
+      "label": "Marketing",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "335",
+      "label": "Negocios Internacionales",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "337",
+      "label": "Secretariado",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "339",
+      "label": "Otras Carreras de Administración",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "34",
+      "label": "Ciencias Económicas y Contables",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "341",
+      "label": "Economía",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "342",
+      "label": "Contabilidad y Finanzas",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "35",
+      "label": "Derecho, Ciencias Políticas y Jurídicas",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "352",
+      "label": "Ciencias Políticas",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Ciencias Naturales, Exactas y de la Computación",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "41",
+      "label": "Ciencias de la Vida",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "412",
+      "label": "Zootecnia",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "413",
+      "label": "Hidrografía",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "414",
+      "label": "Meteorología",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "42",
+      "label": "Ciencias Físicas y Químicas",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "422",
+      "label": "Química",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "44",
+      "label": "Informática",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "441",
+      "label": "Ciencias de la Computación",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Ingeniería, Industria y Construcción",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "51",
+      "label": "Ingeniería de Sistemas y Telecomunicaciones",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "512",
+      "label": "Ingeniería de Telecomunicaciones",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "52",
+      "label": "Ingeniería Industrial y Producción",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "521",
+      "label": "Ingeniería Industrial",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "522",
+      "label": "Ingeniería en Industrias Alimentarias",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "523",
+      "label": "Ingeniería en Agroindustria",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "524",
+      "label": "Ingeniería Eléctrica",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "525",
+      "label": "Ingeniería Electrónica",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "526",
+      "label": "Ingeniería Mecánica",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "527",
+      "label": "Ingeniería Minera, Metalurgia y Petróleo",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "528",
+      "label": "Ingeniería Textil y Confecciones",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "53",
+      "label": "Ingeniería de la Construcción, Sanitaria y Arquitectura",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "531",
+      "label": "Ingeniería Civil",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "533",
+      "label": "Arquitectura y Urbanismo",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "534",
+      "label": "Mantenimiento y Restauración de Obras Públicas",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "59",
+      "label": "Otras Ingenierías",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "591",
+      "label": "Ingeniería Pesquera",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "594",
+      "label": "Ecología y Medio Ambiente",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Agropecuaria y Veterinaria",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "61",
+      "label": "Agropecuaria, Forestal y Acuicultura",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "611",
+      "label": "Agropecuaria",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "612",
+      "label": "Ciencias Forestales",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "613",
+      "label": "Acuicultura",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Ciencias de la Salud",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "71",
+      "label": "Ciencias de la Salud",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "711",
+      "label": "Medicina",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "712",
+      "label": "Nutrición",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "713",
+      "label": "Odontología",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "714",
+      "label": "Enfermería",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "715",
+      "label": "Tecnología Médica",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "716",
+      "label": "Farmacia y Bioquímica",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "717",
+      "label": "Obstetricia",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Servicios",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "81",
+      "label": "Servicios",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "811",
+      "label": "Turismo",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "812",
+      "label": "Tratamiento de Belleza y Peluquería",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "Fuerzas Armadas y Policiales",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Fuerzas Armadas",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Suboficiales de las Fuerzas Armadas",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Policía Nacional",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Suboficiales de la Policía Nacional",
+      "type": "",
+      "table": "NIvel 5",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Educación Física",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "131",
+      "label": "Educación Física",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Humanidades y Artes",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Humanidades",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "216",
+      "label": "Teología y Filosofía",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "22",
+      "label": "Arte",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "222",
+      "label": "Diseño",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "226",
+      "label": "Artesanía y Manualidades",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Ciencias Sociales, Comerciales y Derecho",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "31",
+      "label": "Ciencias Sociales y del Comportamiento",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "313",
+      "label": "Psicología",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "32",
+      "label": "Ciencias de la Comunicación",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "321",
+      "label": "Ciencias de la Comunicación",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "322",
+      "label": "Periodismo y Locución",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "323",
+      "label": "Operadores de Imagen y Sonido",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "33",
+      "label": "Ciencias Administrativas y Comerciales",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "332",
+      "label": "Administración de Servicios Turísticos, Hotelería y Gastronomía",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "335",
+      "label": "Negocios Internacionales",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "339",
+      "label": "Otras Carreras de Administración",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "34",
+      "label": "Ciencias Económicas y Contables",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "342",
+      "label": "Contabilidad y Finanzas",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Ciencias Naturales, Exactas y de la Computación",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "44",
+      "label": "Informática",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "441",
+      "label": "Ciencias de la Computación",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Ingeniería, Industria y Construcción",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "51",
+      "label": "Ingeniería de Sistemas y Telecomunicaciones",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "511",
+      "label": "Ingeniería Sistemas y Cómputo",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "52",
+      "label": "Ingeniería Industrial y Producción",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "522",
+      "label": "Ingeniería en Industrias Alimentarias",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "524",
+      "label": "Ingeniería Eléctrica",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "525",
+      "label": "Ingeniería Electrónica",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "526",
+      "label": "Ingeniería Mecánica",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "527",
+      "label": "Ingeniería Minera, Metalurgia y Petróleo",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "528",
+      "label": "Ingeniería Textil y Confecciones",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "53",
+      "label": "Ingeniería de la Construcción, Sanitaria y Arquitectura",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "531",
+      "label": "Ingeniería Civil",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "534",
+      "label": "Mantenimiento y Restauración de Obras Públicas",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "535",
+      "label": "Carpintería y Ebanistería",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "59",
+      "label": "Otras Ingenierías",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "591",
+      "label": "Ingeniería Pesquera",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Agropecuaria y Veterinaria",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "61",
+      "label": "Agropecuaria, Forestal y Acuicultura",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "611",
+      "label": "Agropecuaria",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "612",
+      "label": "Ciencias Forestales",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Ciencias de la Salud",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "71",
+      "label": "Ciencias de la Salud",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "711",
+      "label": "Medicina",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "716",
+      "label": "Farmacia y Bioquímica",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Servicios",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "81",
+      "label": "Servicios",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "811",
+      "label": "Turismo",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "812",
+      "label": "Tratamiento de Belleza y Peluquería",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "82",
+      "label": "Servicios de Transporte",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "821",
+      "label": "Servicio de Transporte",
+      "type": "",
+      "table": "Nivel 4",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Humanidades",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "214",
+      "label": "Idiomas",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "22",
+      "label": "Arte",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "222",
+      "label": "Diseño",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "226",
+      "label": "Artesanía y Manualidades",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Ciencias Sociales, Comerciales y Derecho",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "31",
+      "label": "Ciencias Sociales y del Comportamiento",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "311",
+      "label": "Servicios Sociales y Asistenciales",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "32",
+      "label": "Ciencias de la Comunicación",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "322",
+      "label": "Periodismo y Locución",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "33",
+      "label": "Ciencias Administrativas y Comerciales",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "332",
+      "label": "Administración de Servicios Turísticos, Hotelería y Gastronomía",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "333",
+      "label": "Marketing",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "337",
+      "label": "Secretariado",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "339",
+      "label": "Otras Carreras de Administración",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Ciencias Naturales, Exactas y de la Computación",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "42",
+      "label": "Ciencias Físicas y Químicas",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "422",
+      "label": "Química",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "44",
+      "label": "Informática",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "441",
+      "label": "Ciencias de la Computación",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Ingeniería, Industria y Construcción",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "52",
+      "label": "Ingeniería Industrial y Producción",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "522",
+      "label": "Ingeniería en Industrias Alimentarias",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "523",
+      "label": "Ingeniería  en Agroindustria",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "524",
+      "label": "Ingeniería Eléctrica",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "525",
+      "label": "Ingeniería Electrónica",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "526",
+      "label": "Ingeniería Mecánica",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "528",
+      "label": "Ingeniería Textil y Confecciones",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "53",
+      "label": "Ingeniería  de la Construcción, Sanitaria y Arquitectura",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "531",
+      "label": "Ingeniería Civil",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "534",
+      "label": "Mantenimiento y Restauración de Obras Públicas",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "535",
+      "label": "Carpintería y Ebanistería",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "59",
+      "label": "Otras Ingenierías",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "591",
+      "label": "Ingeniería Pesquera",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Agropecuaria y Veterinaria",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "61",
+      "label": "Agropecuaria, Forestal y Acuicultura",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "611",
+      "label": "Agropecuaria",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "612",
+      "label": "Ciencias Forestales",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Ciencias de la Salud",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "71",
+      "label": "Ciencias de la Salud",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "714",
+      "label": "Enfermería",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "719",
+      "label": "Otras Carreras de Ciencias de la Salud",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Servicios",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "81",
+      "label": "Servicios",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "812",
+      "label": "Tratamiento de Belleza y Peluquería",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "82",
+      "label": "Servicios de Transporte",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    },
+    {
+      "name": "821",
+      "label": "Servicio de Transporte",
+      "type": "",
+      "table": "Nivel3",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: ENAHO-CLASIFICADOR DE CARRERAS DE EDUC SUPERIOR Y TECNICO PRODUCTIVAS.xlsx (9 sheet(s))",
+    "Skipped sheet 'Carátula' (no header row found)",
+    "Skipped sheet 'separador 1' (no header row found)",
+    "Sheet 'Nivel 6': UNKNOWN layout — best-effort extraction",
+    "  → 110 variables (best-effort — verify manually)",
+    "Skipped sheet 'separador 2' (no header row found)",
+    "Sheet 'NIvel 5': UNKNOWN layout — best-effort extraction",
+    "  → 95 variables (best-effort — verify manually)",
+    "Skipped sheet 'separador 3' (no header row found)",
+    "Sheet 'Nivel 4': UNKNOWN layout — best-effort extraction",
+    "  → 54 variables (best-effort — verify manually)",
+    "Skipped sheet 'separador 4' (no header row found)",
+    "Sheet 'Nivel3': UNKNOWN layout — best-effort extraction",
+    "  → 47 variables (best-effort — verify manually)"
+  ]
+}

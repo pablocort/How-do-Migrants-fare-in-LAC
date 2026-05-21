@@ -1,0 +1,912 @@
+{
+  "iso3": "URY",
+  "survey": "ECH",
+  "period": "a",
+  "year": 2020,
+  "source_files": [
+    "DICCIONARIO ECH 2020_tercerosBaseReducida.xlsx"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [
+    "HOGAR",
+    "PERSONA"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "Montevideo",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Interior, localidades de 5000 habitantes o más",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Interior, localidades de menos de 5000 habitantes y zona rural",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Montevideo",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Interior, localidades de 5000 habitantes o más",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Interior, localidades de menos de 5000 habitantes",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Zona rural",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "Nº",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "No pobre",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Pobre",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "No indigente",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Indigente",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "REGION_3",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "REGION_4",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "SEXO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "Años",
+      "label": "EDAD",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "RELACIÓN DE PARENTESCO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "MOTIVO POR EL CUAL NO TRABAJÓ",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "Nº",
+      "label": "TRABAJOS QUE TIENE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "CATEGORÍA DE LA OCUPACIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1 = Sí / 2 = No",
+      "label": "APORTE A CAJA DE JUBILACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "CATEGORÍA DE LA OCUPACIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1 = Sí / 2 = No",
+      "label": "APORTE A CAJA DE JUBILACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "Nº",
+      "label": "CANTIDAD DE HORAS TRABAJADAS EN OTRAS OCUPACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1 = Sí / 2 = No",
+      "label": "TELETRABAJO HABITUAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1 = Sí / 2 = No",
+      "label": "TELETRABAJO EN LA SEMANA ANTERIOR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "RAZONES POR LAS CUALES QUIERE OTRO EMPLEO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1 = Sí / 2 = No",
+      "label": "DESEA TRABAJAR MÁS HORAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1 = Sí / 2 = No",
+      "label": "ESTÁ DISPONIBLE PARA TRABAJAR MÁS HORAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "RAZONES POR LAS CUALES NO TRABAJA MÁS HORAS A LA SEMANA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "RAZONES POR LAS CUALES NO BUSCÓ TRABAJO NI ESTABLECIÓ SU NEGOCIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "CONDICIÓN DE ACTIVIDAD ECONÓMICA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "TRABAJADOR SUBEMPLEADO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "OCUPADO AUSENTE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "TOTAL DE INGRESOS PERSONALES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "INGRESOS DE LA OCUPACIÓN PRINCIPAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "TOTAL DE INGRESOS POR TRABAJO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "IINGRESOS TOTALES DE LOS ASALARIADOS SIN AGUINALDO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "INGRESOS TOTALES DE LOS PATRONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "INGRESOS TOTALES DE LOS CUENTAPROPISTAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "INGRESOS TOTALES DE LOS PASIVOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "POBREZA SEGÚN METODOLOGÍA 2006",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "INDIGENCIA SEGÚN METODOLOGÍA 2006",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: DICCIONARIO ECH 2020_tercerosBaseReducida.xlsx (2 sheet(s))",
+    "Sheet 'HOGAR': UNKNOWN layout — best-effort extraction",
+    "  → 16 variables (best-effort — verify manually)",
+    "Sheet 'PERSONA': UNKNOWN layout — best-effort extraction",
+    "  → 111 variables (best-effort — verify manually)"
+  ]
+}

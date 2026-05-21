@@ -1,0 +1,988 @@
+{
+  "iso3": "PER",
+  "survey": "ENAHO",
+  "period": "a",
+  "year": 2018,
+  "source_files": [
+    "Sumaria_2018.pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "FACTOR07 = Factor de Expansión de Población (Antes FACTORHO)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Total de miembros del hogar (1)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Total de personas en el hogar (1)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Total de perceptores de ingresos (1)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Ingreso bruto de la actividad principal monetario (dependiente) (2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Ingreso neto de la actividad principal monetario (dependiente) (2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Ingreso por pago en especie de la actividad principal, (2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Ingreso por actividad principal independiente (2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Ingreso por autoconsumo de la actividad principal independiente, (2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Ingreso bruto de la actividad secundaria dependiente(2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Ingreso neto de la actividad secundaria dependiente(2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Ingreso pago en especie de la actividad secundaria dependiente(2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Ingreso neto de la actividad secundaria independiente(2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Ingreso por autoconsumo de la actividad secundaria independiente(2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Ingresos extraordinarios por trabajo(2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "Ingreso por transferencias corrientes monetarias del país(2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "Ingreso por transferencias corrientes del extranjero (2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "Ingreso por Transferencia corrientes Privada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "Ingreso por Transferencia corrientes Juntos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "20",
+      "label": "Ingreso por Transferencia corrientes Pensión 65",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Ingreso por Transferencia corrientes Beca 18",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "22",
+      "label": "Ingreso por Transferencia corrientes Bono de Gas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "23",
+      "label": "Ingreso por Transferencia corrientes Públicas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "24",
+      "label": "Ingreso por Otras Transferencia corrientes Pública (sin Juntos, sin Pensión",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "25",
+      "label": "Ingreso por rentas de la propiedad monetario(2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "26",
+      "label": "Otros Ingresos Extraordinarios (2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "27",
+      "label": "Ingreso alquiler imputado de la vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "28",
+      "label": "Ingreso por transferencia de alquiler",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "29",
+      "label": "Gasto por alquiler",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "30",
+      "label": "Gasto por alquiler imputado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "31",
+      "label": "Ingresos obtenido por crédito a algún miembro del hogar - comprar casa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "32",
+      "label": "Ingresos obtenido por crédito a algún miembro del hogar - comprar terreno",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "33",
+      "label": "Ingresos obtenido por crédito a algún miembro del hogar - Mejoramiento y/o",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "34",
+      "label": "Ingresos obtenido por crédito a algún miembro del hogar - Construcción de",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "35",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Otros - Pagó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "36",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Otro Hogar - Pagó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "37",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Prepara sus alimentos -",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "38",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Prepara sus alimentos en",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "39",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Aula del Instituto - Pagó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "40",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Autosuministro - Pagó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "41",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Campamento - Pagó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "42",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Alimentos Crudos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "43",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Otros – NO Pagó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "44",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Otro Hogar – NO Pagó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "45",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Prepara sus Alimentos –",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "46",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Prepara sus alimentos en",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "47",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Aula del Instituto – NO",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "48",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Autosuministro – NO",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "49",
+      "label": "Gastos por alimentos consumidos fuera del hogar – Campamento – NO Pagó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "50",
+      "label": "Otros Gastos transporte - Pagó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "51",
+      "label": "Ingresos y Gastos, Otros - No Pagó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "52",
+      "label": "Grupo 1: Alimentos - Gasto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "53",
+      "label": "Grupo 1: Alimentos - Autosuministro, Autoconsumo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "54",
+      "label": "Grupo 1: Alimentos - Pago en especie",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "55",
+      "label": "Grupo 1: Alimentos – Donación Público",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "56",
+      "label": "Grupo 1: Alimentos – Donación Privada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "57",
+      "label": "Grupo 1: Alimentos – otros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "58",
+      "label": "Grupo 1: Alimentos - Donado, regalado, otro (Bienes Libres 2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "59",
+      "label": "Grupo 1: Alimentos preparados consumir en el hogar - Pagado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "60",
+      "label": "Grupo 1: Alimentos preparados consumir en el hogar - Autoconsumo , auto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "61",
+      "label": "Grupo 1: Alimentos preparados consumir en el hogar - Especie",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "62",
+      "label": "Grupo 1: Alimentos preparados consumir en el hogar - Donado publico",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "63",
+      "label": "Grupo 1: Alimentos preparados consumir en el hogar - Donado privado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "64",
+      "label": "Grupo 1: Alimentos preparados consumir en el hogar - otro",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "65",
+      "label": "Grupo 1: Alimentos consumidos Fuera del Hogar -Bienes libres",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "66",
+      "label": "Gastos por alimentos para consumir dentro del hogar obtenidos de",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "67",
+      "label": "Ingresos y Gastos por alimentos para consumir dentro del hogar (no pago)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "68",
+      "label": "Gastos por alimentos consumidos fuera del hogar de instituciones benéficas-",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "69",
+      "label": "Ingresos y Gastos por alimentos consumidos fuera del hogar de instituciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "70",
+      "label": "Grupo 2: Vestido y Calzado - Gasto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "71",
+      "label": "Grupo 2: Vestido y Calzado – Autoconsumo, Autosuministro",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "72",
+      "label": "Grupo 2: Vestido y Calzado - Pago en especie",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "73",
+      "label": "Grupo 2: Vestido y Calzado – Donación Pública",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "74",
+      "label": "Grupo 2: Vestido y Calzado – Donación Privada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "75",
+      "label": "Grupo 2: Vestido y Calzado - Otro",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "76",
+      "label": "Grupo 2: Vestido y Calzado - No gasto, no sabe",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "77",
+      "label": "Grupo 3: Alquiler de Vivienda, Combustible, Electricidad y Conservación de la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "78",
+      "label": "Grupo 3: Alquiler de Vivienda, Combustible, Electricidad y Conservación de la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "79",
+      "label": "Grupo 3: Alquiler de Vivienda, Combustible, Electricidad y Conservación de la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "80",
+      "label": "Grupo 3: Alquiler de Vivienda, Combustible, Electricidad y Conservación de la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "81",
+      "label": "Grupo 3: Alquiler de Vivienda, Combustible, Electricidad y Conservación de la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "82",
+      "label": "Grupo 3: Alquiler de Vivienda, Combustible, Electricidad y Conservación de la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "83",
+      "label": "Grupo 3: Alquiler de Vivienda, Combustible, Electricidad y Conservación de la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "84",
+      "label": "Grupo 4: Muebles y Enseres, y Mantenimiento de la Vivienda - Gasto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "85",
+      "label": "Grupo 4: Muebles y Enseres, y Mantenimiento de la Vivienda – Autoconsumo -",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "86",
+      "label": "Grupo 4: Muebles y Enseres, y Mantenimiento de la Vivienda - Pago en",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "87",
+      "label": "Grupo 4: Muebles y Enseres, y Mantenimiento de la Vivienda – Donación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "88",
+      "label": "Grupo 4: Muebles y Enseres, y Mantenimiento de la Vivienda – Donación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "89",
+      "label": "Grupo 4: Muebles y Enseres, y Mantenimiento de la Vivienda - Otros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "90",
+      "label": "Grupo 4: Muebles y Enseres, y Mantenimiento de la Vivienda - No gastó, no",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "91",
+      "label": "Grupo 5: Cuidado, Conservación de la Salud y Servicios Médicos - Gasto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "92",
+      "label": "Grupo 5: Cuidado, Conservación de la Salud y Servicios Médicos –",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "93",
+      "label": "Grupo 5: Cuidado, Conservación de la Salud y Servicios Médicos – Donación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "94",
+      "label": "Grupo 5: Cuidado, Conservación de la Salud y Servicios Médicos – Donación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "95",
+      "label": "Grupo 5: Cuidado, Conservación de la Salud y Servicios Médicos - Otros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "96",
+      "label": "Grupo 5: Cuidado, Conservación de la Salud y Servicios Médicos – Otros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "97",
+      "label": "Grupo 5: Cuidado, Conservación de la Salud y Servicios Médicos - No gastó,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "Grupo 6: Transportes y Comunicaciones – Gasto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "Grupo 6: Transportes y Comunicaciones - Autosuministro, Autoconsumo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "100",
+      "label": "Grupo 6: Transportes y Comunicaciones - Pago en especie",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "101",
+      "label": "Grupo 6: Transportes y Comunicaciones – Donación Pública",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "102",
+      "label": "Grupo 6: Transportes y Comunicaciones – Donación Privada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "103",
+      "label": "Grupo 6: Transportes y Comunicaciones – Otro",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "104",
+      "label": "Grupo 6: Transportes y Comunicaciones - No gastó, no sabe",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "105",
+      "label": "Grupo 7: Esparcimiento, Diversión, Servicios Culturales y de Enseñanza -",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "106",
+      "label": "Grupo 7: Esparcimiento, Diversión, Servicios Culturales y de Enseñanza -",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "107",
+      "label": "Grupo 7: Esparcimiento, Diversión, Servicios Culturales y de Enseñanza -",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "108",
+      "label": "Grupo 7: Esparcimiento, Diversión, Servicios Culturales y de Enseñanza –",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "109",
+      "label": "Grupo 7: Esparcimiento, Diversión, Servicios Culturales y de Enseñanza –",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "110",
+      "label": "Grupo 7: Esparcimiento, Diversión, Servicios Culturales y de Enseñanza -",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "111",
+      "label": "Grupo 7: Esparcimiento, Diversión, Servicios Culturales y de Enseñanza -",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "112",
+      "label": "Grupo 8: Otros Bienes y Servicios - Gasto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "113",
+      "label": "Grupo 8: Otros Bienes y Servicios - Autosuministro, Autoconsumo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "114",
+      "label": "Grupo 8: Otros Bienes y Servicios - Pago en especie",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "115",
+      "label": "Grupo 8: Otros Bienes y Servicios – Donación Pública",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "116",
+      "label": "Grupo 8: Otros Bienes y Servicios – Donación Privada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "117",
+      "label": "Grupo 8: Otros Bienes y Servicios - Otros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "118",
+      "label": "Grupo 8: Alimentos para mascotas - bien libre",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "119",
+      "label": "Grupo 8: Otros Bienes y Servicios - No gastó, no sabe",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "0": " (P611-A5(1:3,6:11) = 1  P611-C5(1:3,6:11)"
+      }
+    },
+    {
+      "name": "120",
+      "label": "Grupo 8: Otros Bienes y Servicios - Otros bienes y servicios fiestas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "121",
+      "label": "Grupo 8: Otros bienes y servicios fiestas familiares y sociales-",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "122",
+      "label": "Grupo 8: Otros bienes y servicios fiestas familiares y sociales- donado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "123",
+      "label": "Grupo 8: Otros bienes y servicios fiestas familiares y sociales- donado - otro",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "124",
+      "label": "Grupo 8: Otros bienes y servicios fiestas familiares y sociales- no gastó, no",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "125",
+      "label": "Gastos por Equipamiento del hogar COMPRADOS – TV, computadora,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "126",
+      "label": "Gastos por Equipamiento del hogar COMPRADOS – Electrodomésticos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "127",
+      "label": "Gastos por Equipamiento del hogar COMPRADOS – Transporte",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "128",
+      "label": "Gastos por Equipamiento del hogar COMPRADOS – Otros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "129",
+      "label": "Gastos por Equipamiento del hogar DONADOS – TV., computadora, sonido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "130",
+      "label": "Gastos por Equipamiento del hogar DONADOS – Electrodomésticos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "131",
+      "label": "Gastos por Equipamiento del hogar DONADOS – Transporte",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "132",
+      "label": "Gastos por Equipamiento del hogar DONADOS – Otros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "133",
+      "label": "INGMO1HD(BRUTO)= INGBRUHD + INGINDHD + INSEDTHD + INGSEIHD +",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "134",
+      "label": "INGMO2HD(NETO) = INGNETHD + INGINDHD + INSEDLHD + INGSEIHD",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "135",
+      "label": "INGHOG1D(BRUTO) = INGBRUHD + INGINDHD + INSEDTHD + INGSEIHD +",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "136",
+      "label": "INGHOG2D(NETO) = INGNETHD + INGINDHD + INSEDTHD + INGSEIHD +",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "137",
+      "label": "Gasto Monetario Anuales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "138",
+      "label": "Gasto Total Anuales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: QUESTIONNAIRE — regex extraction; best-effort",
+    "  23 pages",
+    "  → 138 variables extracted (question codes only)"
+  ]
+}

@@ -1,0 +1,1149 @@
+{
+  "iso3": "CRI",
+  "survey": "ENAHO",
+  "period": "2025",
+  "source_files": [
+    "GPES-DISE-DIIR-ENAHO-2025_CuestionarioHogar.pdf",
+    "GPES-DISE-DIIR-ENAHO-2025_CuestionarioIndividual.pdf"
+  ],
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "R1a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "A5",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "A8a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "01",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "02",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "03",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "04",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "05",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "06",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "07",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "08",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "09",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "B1",
+      "label": "(Nombre) trabajó la semana pasada, aunque fuera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "B4",
+      "label": "Aunque no trabajó la semana pasada, ¿tiene un trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "B2",
+      "label": "La semana pasada, ¿(nombre) realizó al menos por una",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "B5",
+      "label": "Por cuál motivo no trabajó la semana pasada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "B6",
+      "label": "Si la semana pasada (nombre) hubiera encontrado B8. ¿Por qué no buscó trabajo en las últimas 4 semanas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "B7",
+      "label": "En las últimas 4 semanas ¿(nombre) realizó alguna de",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C1",
+      "label": "Cuántos trabajos tuvo la semana pasada (nombre)? C5b. ¿Por qué desea cambiar este trabajo o actividad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C2a",
+      "label": "Empleo C2b. Empleo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C3",
+      "label": "La semana pasada (nombre) hubiera querido trabajar C6a. Si a (nombre) le ofrecieran otro trabajo, negocio o",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C4a",
+      "label": "Si (nombre) hubiera conseguido más horas, ¿las",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C4b",
+      "label": "Ha buscado trabajar más horas... No . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C5a",
+      "label": "(Nombre) desea cambiar de trabajo, negocio o",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C7a",
+      "label": "Cómo se llama el establecimiento, negocio, finca o C10. ¿Cuántas personas en total, incluido(a) (nombre) y el",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C7b",
+      "label": "Para cuántas casas trabaja",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C7c",
+      "label": "En qué provincia y cantón se ubica el establecimiento/ No sabe . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C11",
+      "label": "Dónde realiza (nombre) principalmente sus tareas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C8",
+      "label": "A qué se dedica principalmente ese establecimiento? donde presta servicio . . . . . . . . . . . . . . . . . . . . . . .",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C8a",
+      "label": "Es una actividad… Sitio de construcción u obra . . . . . . . . . . . . . . . . . . . . . . . . 11",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C9a",
+      "label": "Cómo se llama la ocupación de (nombre)? . . .como ayuda a un familiar o conocido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C9b",
+      "label": "Cuáles tareas realiza principalmente",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C13a",
+      "label": "Por ese trabajo le pagan algo en dinero o en especie",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C9c",
+      "label": "Cuáles herramientas, maquinaria o equipo utiliza? Sí . . . . . 1 No . . . . . 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C13b",
+      "label": "Toma decisiones y participa en la administración",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C16",
+      "label": "Durante cuánto tiempo ha estado ayudando en ese",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C13c",
+      "label": "Por ese trabajo normalmente retira dinero o recibe",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C13d",
+      "label": "La persona con la cual trabaja...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C13e",
+      "label": "Anote el número de línea de esa persona",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C13f",
+      "label": "Cuánto fue en total la ganancia que le correspondió",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C13g",
+      "label": "A qué porcentaje de la ganancia total del negocio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C14",
+      "label": "La ayuda en ese trabajo o actividad es...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "C15",
+      "label": "Cuánto tiempo durará (o duró) este trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D1",
+      "label": "En ese negocio o actividad (nombre) tiene contratadas D8b. ¿Algún proveedor o cliente le establece...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D2",
+      "label": "Su tra U bajo en esta actividad es... …supervisión directa de su actividad? . . . . . . . . . 7 8",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D10",
+      "label": "En ese negocio o actividad, tiene socios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D3",
+      "label": "Cuánto tiempo durará (duró) este trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D11",
+      "label": "El negocio está inscrito...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D4",
+      "label": "Durante cuánto tiempo (nombre) ha tenido este",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D7",
+      "label": "En esa actividad, trabaja habitualmente para...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D8a",
+      "label": "Cuántos proveedores le abastecen las mercaderías",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D13a",
+      "label": "(Nombre) tiene asignado salario por el trabajo en",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D13b",
+      "label": "Cuánto fue su salario el mes pasado sin ningún tipo Para actividad agropecuaria",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D15a",
+      "label": "Cuánto fue en total la ganancia de (nombre) por la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D13c",
+      "label": "Recibió aguinaldo en los últimos 12 meses",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D13d",
+      "label": "Cuál es el monto mensual de gastos personales o del periodo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D15c",
+      "label": "Cuánto gastó en esa producción que vendió en el",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D13e",
+      "label": "Cuánto recibió (nombre) en los últimos 12 meses",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D15d",
+      "label": "De lo que produce (nombre) ¿retiró algo para",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D15e",
+      "label": "En cuánto estima el valor de lo que se dejó en el",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D14a",
+      "label": "Cuánto fue en total la ganancia de (nombre) por la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D16",
+      "label": "Del gasto del hogar, ¿cuánto se cubre mensualmente",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D14b",
+      "label": "En cuánto vendió o cobró esos productos o servicios Pase a P1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RD17",
+      "label": "Cuánto se ganó o se ganará por ese trabajo/",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D14c",
+      "label": "Cuánto gastó por hacer esas ventas o prestar esos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D14d",
+      "label": "Es una actividad para fabricar, o vender alimentos Indague por todas las señas necesarias para obtener una",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D14e",
+      "label": "De lo que produce o vende, ¿(nombre) retiró algo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P1a",
+      "label": "Cuál es el número de teléfono (celular o fijo) de ese",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D14f",
+      "label": "En cuánto estima el valor de lo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "D19",
+      "label": "Además de este, ¿tiene otro trabajo o realizó otra",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E1",
+      "label": "El trabajo de (nombre) es... E6. ¿Para realizar este trabajo es indispensable que",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E2",
+      "label": "Cuánto tiempo durará (duró) este trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E7",
+      "label": "A (nombre) le paga...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E7a",
+      "label": "El negocio / finca donde trabaja (nombre) está",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E3",
+      "label": "Durante cuánto tiempo (nombre) ha trabajado para inscrito…",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E4a",
+      "label": "Cuál es el horario normal de trabajo de (nombre)? E8a. ¿La forma de pago...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E4b",
+      "label": "(Nombre) ¿Trabaja normalmente...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E8b",
+      "label": "Cuál es el periodo de pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E5",
+      "label": "Cuántos días seguidos trabaja y cuántos descansa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E9",
+      "label": "En este trabajo (nombre) disfruta de... E13. ¿Por este trabajo el mes pasado le pagaron o le dieron...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E10",
+      "label": "En este trabajo tiene rebajos en su salario de...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E11a",
+      "label": "Recibe propinas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E11b",
+      "label": "Cuánto recibió el mes pasado solo en propinas? . . .salario escolar? . . 3 4",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E12a",
+      "label": "En este trabajo cuánto fue su salario el mes pasado,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "TE15a",
+      "label": "Cuál es el salario bruto que le van a pagar por mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E12b",
+      "label": "Ese dato que me dio, efectivamente es el salario...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E17",
+      "label": "Además de este, ¿tiene otro trabajo o realizó otra",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "E12c",
+      "label": "Cuánto le rebajaron en total, el mes pasado,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F1",
+      "label": "Cómo se llama el establecimiento, negocio, finca o F4a. ¿El negocio/finca donde trabaja (nombre) está",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F2",
+      "label": "A qué Use dedica principalmente ese establecimiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F5",
+      "label": "Dónde realiza (nombre) principalmente sus tareas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F2a",
+      "label": "Es una actividad…",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F3a",
+      "label": "Cómo se llama la ocupación de (nombre)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F6",
+      "label": "El trabajo de (nombre) es...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F3b",
+      "label": "Cuáles tareas realiza principalmente? . . .solo por esta temporada o época? . . . . . . . . . . . . . . . . . . 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F3c",
+      "label": "Cuáles herramientas, maquinaria o equipo utiliza",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F7",
+      "label": "Ese trabajo que realiza es...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F4",
+      "label": "Cuántas personas en total, incluida (nombre) y el (la) ...un negocio o actividad propia,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F8",
+      "label": "En ese negocio o actividad, tiene socios? F11. ¿Es una actividad agropecuaria, fabricación o venta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P2",
+      "label": "Cuál es la dirección exacta de ese negocio o actividad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F9",
+      "label": "El negocio o empresa lleva libros de contabilidad Indague por todas las señas necesarias para obtener una",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F10",
+      "label": "(Nombre) tiene asignado salario por el trabajo en su",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F10a",
+      "label": "Cuánto fue su salario el mes pasado sin ningún tipo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "P2a",
+      "label": "Cuál es el número de teléfono (celular o fijo) de ese",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F10b",
+      "label": "Recibió aguinaldo en los últimos 12 meses? Teléfono:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F12",
+      "label": "En este trabajo le rebajan de su salario...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F10c",
+      "label": "Cuál es el monto mensual de gastos personales o del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F10d",
+      "label": "Cuánto recibió (nombre) en los últimos 12 meses",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F13a",
+      "label": "En este trabajo, ¿cuánto fue su salario el mes pasado,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F11a",
+      "label": "Cuánto fue en total la ganancia del negocio o",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F13b",
+      "label": "Ese dato que me dio efectivamente es su salario... F15a. ¿Cuál es el salario bruto que le van a pagar por mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F15b",
+      "label": "Cuánto le pagaron(án) por el periodo contratado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F13c",
+      "label": "Cuánto le rebajaron en total, el mes pasado, incluidos Monto en dinero días",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F14a",
+      "label": "Recibió el mes pasEado por este trabajo algún pago",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "F14b",
+      "label": "En cuánto estima el valor de lo recibido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G1",
+      "label": "Hace cuánto (nombre) hizo la última gestión para G3. ¿Cuál es la razón principal por la que cree que no",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G2",
+      "label": "Desde hace cuánto ha estado haciendo algo para Le faltan contactos . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G4a",
+      "label": "Qué tipo de tareas u ocupación es la que busca? G11. ¿Hace cuánto tiempo terminó su último trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G4b",
+      "label": "Cuántas horas por semana está dispuesto a trabajar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G4c",
+      "label": "El trabajo que busca es...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G5",
+      "label": "Cuál es el ingreso mensual más bajo que está",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G6",
+      "label": "(Nombre) ha trabajado alguna vez",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G7",
+      "label": "Cuál es el nombre del establecimiento, negocio,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G8",
+      "label": "A qué se dedicaba principalmente el establecimiento/",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G9",
+      "label": "Cómo se llama la ocupación que tenía (nombre)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "G10",
+      "label": "Ese trabajo que realizaba era...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H1a",
+      "label": "Realizó la semana pasada alguna tarea doméstica de H5a. ¿La semana pasada participó en trabajos comunales",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H5b",
+      "label": "Cuántas horas le dedicó la semana pasada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H1b",
+      "label": "Cuántas horas le dedicó la semana pasada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H1c",
+      "label": "Real U izó la semana pasada alguna tarea doméstica de H6. ¿(Nombre) es miembro(a) activo (a) de alguna de las",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H1d",
+      "label": "Cuántas horas le dedicó la semana pasada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H1e",
+      "label": "La semana pasada cuidó niños(as), adultos mayores",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H1f",
+      "label": "Cuántas horas le dedicó la semana pasada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H2a",
+      "label": "La semana pasada ¿(nombre) sembró o cosechó",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H2b",
+      "label": "Cuántas horas le dedicó la semana pasada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H2c",
+      "label": "Cuánto pagaría aproximadamente al mes por estos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H3a",
+      "label": "La semana pasada construyó o hizo reparaciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H3b",
+      "label": "Cuántas horas le dedicó la semana pasada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H4a",
+      "label": "Elaboró la semana pasada tejidos, costuras, solo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H4b",
+      "label": "Cuántas horas le dedicó la semana pasada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9",
+      "label": "(Nombre) recibe periódicamente ingresos en dinero por concepto de...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9a",
+      "label": "...alquileres de viviendas, tierras, vehículos, otros? . . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9b",
+      "label": "...intereses de depósitos a plazos, préstamos a terceros",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9c",
+      "label": ". . .dividendos de una sociedad en la que no trabaja? . . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9d",
+      "label": "...beneficios de asociaciones solidaristas o cooperativas? . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9e",
+      "label": ". . .pensiones del Régimen no Contributivo? . . . . . . . . . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9p",
+      "label": ". . .aguinaldo de pensión del Régimen no Contributivo? . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9f",
+      "label": ". . .otras ayudas estatales o subsidios? . . . . . . . . . . . . . . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9g",
+      "label": ". . .pensión alimenticia? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9q",
+      "label": ". . .aguinaldo por pensión alimenticia? . . . . . . . . . . . . . . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9r",
+      "label": ". . .salario escolar por pensión alimenticia? . . . . . . . . . . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9h",
+      "label": ". . .pensiones o jubilaciones nacionales (incluye",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9s",
+      "label": ". . .aguinaldo por pensión o jubilación nacional? . . . . . . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9i",
+      "label": "...pensiones o jubilaciones del extranjero? . . . . . . . . . . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9t",
+      "label": "...aguinaldo por pensión o jubilación del extranjero? . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9k",
+      "label": "...dinero del exterior (remesas)?. . . . . . . . . . . . . . . . . . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9l",
+      "label": ". . .dinero de familiares u otras personas en el país? . . . . . . . . Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H9m",
+      "label": ". . .otras transferencias? _____________________________ Sí 1 por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H10a",
+      "label": "Alguna institución o persona ajena al hogar, regularmente compra o da alimentos, paga directamente recibos,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "H10b",
+      "label": "De quién recibe la ayuda? H10c. ¿Si tuvieran que cubrir esos gastos cuánto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  12 pages total",
+    "  → 13 variables extracted",
+    "PDF type: QUESTIONNAIRE — regex extraction; best-effort",
+    "  16 pages",
+    "  → 148 variables extracted (question codes only)"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "iso3": "HND",
+  "survey": "EPHPM",
+  "period": "m6",
+  "year": 2015,
+  "source_files": [
+    "Formulario 2015.pdf"
+  ],
+  "doc_type": "QUESTIONNAIRE_PDF",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "PDF type: TABLE_DICT (DDI format) — table extraction used",
+    "  13 pages total",
+    "  → 0 variables extracted"
+  ]
+}

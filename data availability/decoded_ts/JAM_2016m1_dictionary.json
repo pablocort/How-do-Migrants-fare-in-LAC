@@ -1,0 +1,131 @@
+{
+  "iso3": "JAM",
+  "survey": "LFS",
+  "period": "m1",
+  "year": 2016,
+  "source_files": [
+    "LFS_QUESTIONNAIRE.pdf"
+  ],
+  "doc_type": "QUESTIONNAIRE_PDF",
+  "tables": [
+    "SECTION 3",
+    "SECTION 2",
+    "SECTION 5",
+    "SECTION 1"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "None 3. TwoYears 5. FourYears 7. Sixyearsandover",
+      "type": "",
+      "table": "SECTION 1",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "OneYear 4. ThreeYears 6. FiveYears 9. NotStated",
+      "type": "",
+      "table": "SECTION 1",
+      "value_codes": {
+        "1": "Head 4.SpouseofChild 7.OtherRelative",
+        "5": "15aGradeAttained",
+        "2": "Spouse/Partner 5.Grandchild 8. Helper/Domestic",
+        "3": "ChildofHead/Spouse 6.ParentofHead/Spouse 9.OtherNotRelative",
+        "0": "1 2 3 4 5 6 7 8 9"
+      }
+    },
+    {
+      "name": "01",
+      "label": "None 04. CXCGen,GCE'O'3-4 07. CAPE/GCE'A'3+ 99. NotStated",
+      "type": "",
+      "table": "SECTION 1",
+      "value_codes": {}
+    },
+    {
+      "name": "03",
+      "label": "CXCGen,GCE'O'1-2 06. GCE'A'1-2/,CAPE1-2 09. Other",
+      "type": "",
+      "table": "SECTION 1",
+      "value_codes": {
+        "1": "Nothing,wouldaccept(GotoQ4.1) 6.Do/DoesNotNeedJob (GotoQ5.2)",
+        "02": "Plantation,Farm,Garden 08. Shop,Store",
+        "06": "OntheStreet(fixedloc)",
+        "2": "Awaiting,promisedjob(GotoQ4.1) 7.Illness (GotoQ5.2)"
+      }
+    },
+    {
+      "name": "3",
+      "label": "Resigned-Jobconditions 6. Businessfailed 9. Other(Specify)",
+      "type": "",
+      "table": "SECTION 2",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Other(Specify)",
+      "type": "",
+      "table": "SECTION 3",
+      "value_codes": {
+        "0": "1 2 3 4 5 6 7 8 9",
+        "5": "10Whatisyour/...........presentmeansofsupport?",
+        "3": "3 Howmanyhoursdoyou/does..........usuallyworkperweek?"
+      }
+    },
+    {
+      "name": "02",
+      "label": "JobTerminated 05. Didnotwanttoworkmorehours 08. BadWeather",
+      "type": "",
+      "table": "SECTION 3",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "ProfessionalorTechnicalwithcertificate 9. NotStated",
+      "type": "",
+      "table": "SECTION 3",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Apprenticeship",
+      "type": "",
+      "table": "SECTION 3",
+      "value_codes": {
+        "5": "3Inwhatindustrywereyou/was.............working?",
+        "4": "20Forwhatoccupationwereyou/was.........trained?",
+        "01": "Atfamilydwelling 07. OntheStreet(nofixedloc)",
+        "02": "Plantation,Farm,Garden 08. Shop,Store",
+        "03": "Employer'sHouse 09. Market,Stall",
+        "04": "Industry/Factory/Office 10. Other",
+        "05": "ConstructionSite 99. Don'tKnow,NotStated",
+        "06": "OntheStreet(fixedloc)",
+        "2": "1Year 4. 3Years 6. 5Years 9. NotStated",
+        "3": "21a GradeAttained"
+      }
+    },
+    {
+      "name": "Q4",
+      "label": "21aGradeAttained 02. CXCBasic,JSC5SSC,3rdJL 05. CXCGen,GCE'O'5+, 08. Degree*",
+      "type": "",
+      "table": "SECTION 5",
+      "value_codes": {
+        "4": "14Whatisyour/...........presentmeansofsupport?",
+        "2": "1monthbutlessthan3months 5. 1-3years",
+        "3": "3monthsbutlessthan6months 6. 3yearsandover",
+        "01": "Atfamilydwelling 07. OntheStreet(nofixedloc)",
+        "0": "Pregnancy 5. Neededathome",
+        "02": "Plantation,Farm,Garden 08. Shop,Store",
+        "05": "6monthsbutlessthan9months 10. Other(Specify)",
+        "06": "OntheStreet(fixedloc)",
+        "1": "1Person 2. 2-4Persons 3. 5-9Persons 4. 10-49Persons 5. 50+",
+        "9": "NotStated",
+        "04": "3monthsbutlessthan6months(GotoQ4.5) 09. Have/Hasnottried"
+      }
+    }
+  ],
+  "decode_notes": [
+    "PDF type: QUESTIONNAIRE — regex extraction; best-effort",
+    "  6 pages",
+    "  → 10 variables extracted (question codes only)"
+  ]
+}

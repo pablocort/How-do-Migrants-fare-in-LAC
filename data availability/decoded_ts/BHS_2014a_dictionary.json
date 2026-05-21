@@ -1,0 +1,13 @@
+{
+  "iso3": "BHS",
+  "survey": "LFS",
+  "period": "a",
+  "year": 2014,
+  "source_files": [],
+  "doc_type": "NONE",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "NO_DOCUMENTATION — BHS/LFS year folders on IDB network share are empty (no docs files). Last year with any folder structure: 2014."
+  ]
+}

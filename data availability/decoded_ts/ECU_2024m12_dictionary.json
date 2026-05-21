@@ -1,0 +1,261 @@
+{
+  "iso3": "ECU",
+  "survey": "ENEMDU",
+  "period": "m12",
+  "year": 2024,
+  "source_files": [
+    "Diccionario de Datos_consumidor_2024_12.ODS"
+  ],
+  "doc_type": "ODS",
+  "tables": [
+    "Hoja1"
+  ],
+  "variables": [
+    {
+      "name": "Institución",
+      "label": "Instituto Nacional de Estadistica y Censos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Identificador",
+      "label": "INEC_PDA_2024",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Documento Referencia",
+      "label": "INEC_DIES_ENEMDU_2024_DIC",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Nombre",
+      "label": "enemdu_consumidor_2024_12",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Descripción",
+      "label": "La Tabla de datos de la Encuesta Nacional de Empleo, Desempleo y Subempleo - DICIEMBRE 2024, permite dar seguimiento a la evolución de las actitudes y expectativas de los consumidores.",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Nombre del campo",
+      "label": "Descripción del campo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "area",
+      "label": "Area",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ciudad",
+      "label": "Ciudad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "conglomerado",
+      "label": "Conglomerado",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "panelm",
+      "label": "Panelm",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vivienda",
+      "label": "Vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "hogar",
+      "label": "Hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c01",
+      "label": "Con relación al mes anterior, la situación económica de su hogar es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c02",
+      "label": "Cómo cree usted que será la situación económica de su hogar dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c03",
+      "label": "Con relación al mes anterior, el valor monetario (dinero) empleado en el consumo de alimentos de su hogar es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c04a",
+      "label": "En los próximos 3 meses, el valor monetario (dinero) empleado en el consumo de alimentos de su hogar será:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c07",
+      "label": "Con relación al mes anterior, el consumo de su hogar en alimentos de menor calidad/ más baratos es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c08a",
+      "label": "En los próximos 3 meses, el consumo de su hogar en alimentos de menor calidad/ más baratos será:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c09",
+      "label": "Con relación al mes anterior, el consumo de su hogar en entretenimiento como cine, discotecas, paseos, viajes, actividades de recreación es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c10",
+      "label": "Cómo cree usted que será el consumo de su hogar en entretenimiento dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c11",
+      "label": "Con relación al mes anterior, el consumo de su hogar en vestimenta (ropa en general) es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c12",
+      "label": "Cómo cree usted que será el consumo de su hogar en vestimenta dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c13",
+      "label": "Con relación al mes anterior, el consumo de su hogar en electrodomésticos (cocina,refrigeradora, televisor,etc.)es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c14",
+      "label": "Cómo cree usted que será el consumo de su hogar en electrodomésticos dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c18",
+      "label": "Con relación al mes anterior, la situación económica del país es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c19",
+      "label": "Usted considera que durante los próximos 3 meses la situación económica del país será:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c20a",
+      "label": "En los 3 meses anteriores, considera que la situación en Ecuador para encontrar/mejorar un puesto de trabajo es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c21a",
+      "label": "Considera usted que la situación en Ecuador para encontrar/mejorar un puesto de trabajo dentro de 3 meses será:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "estrato",
+      "label": "Estratos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "fexp",
+      "label": "Factor de expansión",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "upm",
+      "label": "Unidad Primaria de Muestreo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "id_vivienda",
+      "label": "Identificador de vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "id_hogar",
+      "label": "Identificador de hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "periodo",
+      "label": "Periodo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: Diccionario de Datos_consumidor_2024_12.ODS",
+    "  1 sheet(s): Hoja1",
+    "  Sheet 'Hoja1': table starts at row 0",
+    "    name_col fallback → '0'",
+    "    label_col fallback → '1'",
+    "    → 34 variables"
+  ]
+}

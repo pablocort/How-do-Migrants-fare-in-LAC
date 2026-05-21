@@ -1,0 +1,188 @@
+{
+  "iso3": "GTM",
+  "survey": "ENEIC",
+  "period": "t2",
+  "year": 2025,
+  "source_files": [
+    "Diccionario_Hogares_ENEIC_II-2025.xlsx"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [
+    "Dicc Hogares"
+  ],
+  "variables": [
+    {
+      "name": "ANIO",
+      "label": "AÑO",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "TRIMESTRE",
+      "label": "TRIMESTRE",
+      "type": "STRING",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "DOMINIO",
+      "label": "DOMINIO",
+      "type": "STRING",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "NUM_HOGAR",
+      "label": "Número de hogar",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "FACTOR",
+      "label": "Factor de expasión",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00A10",
+      "label": "Área",
+      "type": "STRING",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B01",
+      "label": "1. ¿Todas las personas que viven en esta vivienda comparten un mismo gasto de servicios básicos y alimentación?",
+      "type": "STRING",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B02",
+      "label": "2. ¿Cuántos hogares hay en esta vivienda?",
+      "type": "STRING",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B03",
+      "label": "3. Del total de hogares que hay en esta vivienda. ¿este es el hogar número?",
+      "type": "STRING",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B04",
+      "label": "4. ¿Cuántas personas residen habitualmente en este hogar?",
+      "type": "STRING",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00C05",
+      "label": "5. ¿Son las mismas personas de 15 años y más?",
+      "type": "STRING",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P01A01",
+      "label": "1. El tipo de vivienda que ocupa el hogar es:",
+      "type": "STRING",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P01A02",
+      "label": "2. Sí tuvieran que pagar alquiler por esta vivienda, ¿Cuánto tendrían que pagar al mes?",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P01A03",
+      "label": "3. ¿Cuánto pagan mensualmente de alquiler?",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "Valores de variable",
+      "label": "",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "Valor",
+      "label": "Etiqueta",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "TRIMESTRE",
+      "label": "TRIMESTRE 1",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "DOMINIO",
+      "label": "Urbano Metropolitano",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00A10",
+      "label": "Urbana",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B02",
+      "label": "1",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B03",
+      "label": "1",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B04",
+      "label": "1",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P01A01",
+      "label": "Propia y totalmente pagada?",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: Diccionario_Hogares_ENEIC_II-2025.xlsx (1 sheet(s))",
+    "Sheet 'Dicc Hogares': GTM_ENEIC layout, 122 rows",
+    "  → 24 variables extracted"
+  ]
+}

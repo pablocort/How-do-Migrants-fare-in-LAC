@@ -1,0 +1,198 @@
+{
+  "iso3": "ECU",
+  "survey": "ENEMDU",
+  "period": "m12",
+  "year": 2023,
+  "source_files": [
+    "Diccionario de Datos_confianza_delito_2023_12.ODS"
+  ],
+  "doc_type": "ODS",
+  "tables": [
+    "Hoja1"
+  ],
+  "variables": [
+    {
+      "name": "Institución",
+      "label": "Instituto Nacional de Estadistica y Censos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Identificador",
+      "label": "INEC_PDA_2023",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Documento Referencia",
+      "label": "INEC_DIES_ENEMDU_2023_DIC",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Nombre",
+      "label": "enemdu_confianza_delito_2023_12",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Descripción",
+      "label": "La Tabla de datos de la Encuesta Nacional de Empleo Desempleo y Subempleo - DICIEMBRE 2023, investiga información de loshogares sobre la Confianza Ciudadana y el Delito.",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Nombre del campo",
+      "label": "Descripción del campo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "area",
+      "label": "Area",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ciudad",
+      "label": "Ciudad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "conglomerado",
+      "label": "Conglomerado",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "panelm",
+      "label": "Panelm",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vivienda",
+      "label": "Vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "hogar",
+      "label": "Hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "cd01",
+      "label": "Usted o algún miembro de su hogar fue victima de algún tipo de delito?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "cd02a",
+      "label": "Calificación - Policia Nacional?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "cd02b",
+      "label": "Calificación - Fiscalía General del Estado?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "cd02c",
+      "label": "Calificación - Consejo de la Judicatura/Jueces?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "cd02d",
+      "label": "Calificación - Defensoria Pública(abogados públicos)?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "cd02e",
+      "label": "Calificación - Sistema de Rehabilitación Social SNAI?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "cd02f",
+      "label": "Calificación - Gobiernos Seccionales(Municipios)?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "estrato",
+      "label": "Estratos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "fexp",
+      "label": "Factor de expansión",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "upm",
+      "label": "Unidad Primaria de Muestreo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "id_vivienda",
+      "label": "Identificador de vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "id_hogar",
+      "label": "Identificador de hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "periodo",
+      "label": "Periodo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: Diccionario de Datos_confianza_delito_2023_12.ODS",
+    "  1 sheet(s): Hoja1",
+    "  Sheet 'Hoja1': table starts at row 0",
+    "    name_col fallback → '0'",
+    "    label_col fallback → '1'",
+    "    → 25 variables"
+  ]
+}

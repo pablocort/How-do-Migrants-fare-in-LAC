@@ -1,0 +1,17 @@
+{
+  "iso3": "PER",
+  "survey": "ENAHO",
+  "period": "a",
+  "year": 2021,
+  "source_files": [
+    "10_CUESTIONARIO-ENAHO01B.pdf"
+  ],
+  "doc_type": "QUESTIONNAIRE_PDF",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "PDF type: TABLE_DICT (DDI format) — table extraction used",
+    "  8 pages total",
+    "  → 0 variables extracted"
+  ]
+}

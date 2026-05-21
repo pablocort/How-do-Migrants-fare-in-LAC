@@ -1,0 +1,90 @@
+{
+  "iso3": "PER",
+  "survey": "ENAHO",
+  "period": "a",
+  "year": 2023,
+  "source_files": [
+    "DD_TB_UBIGEOS (1).xlsx"
+  ],
+  "doc_type": "XLSX",
+  "tables": [
+    "TB_UBIGEOS"
+  ],
+  "variables": [
+    {
+      "name": "4",
+      "label": "id",
+      "type": "",
+      "table": "TB_UBIGEOS",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "UBIGEO distrital de RENIEC",
+      "type": "",
+      "table": "TB_UBIGEOS",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "UBIGEO distrital de INEI",
+      "type": "",
+      "table": "TB_UBIGEOS",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "UBIGEO provincial de INEI",
+      "type": "",
+      "table": "TB_UBIGEOS",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Código ISO-3166-2 para la Región",
+      "type": "",
+      "table": "TB_UBIGEOS",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Código FIPS para la Región",
+      "type": "",
+      "table": "TB_UBIGEOS",
+      "value_codes": {}
+    },
+    {
+      "name": "11,2",
+      "label": "Superficie en Km2 del Distrito",
+      "type": "",
+      "table": "TB_UBIGEOS",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Altitud del Distrito en metros sobre el nivel del mar (msnm)",
+      "type": "",
+      "table": "TB_UBIGEOS",
+      "value_codes": {}
+    },
+    {
+      "name": "14,8",
+      "label": "Latitud del Distrito",
+      "type": "",
+      "table": "TB_UBIGEOS",
+      "value_codes": {}
+    },
+    {
+      "name": "14,8",
+      "label": "Longitud del Distrito",
+      "type": "",
+      "table": "TB_UBIGEOS",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: DD_TB_UBIGEOS (1).xlsx (1 sheet(s))",
+    "Sheet 'TB_UBIGEOS': UNKNOWN layout — best-effort extraction",
+    "  → 10 variables (best-effort — verify manually)"
+  ]
+}

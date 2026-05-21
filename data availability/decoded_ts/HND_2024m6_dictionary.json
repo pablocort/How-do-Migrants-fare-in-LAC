@@ -1,0 +1,7324 @@
+{
+  "iso3": "HND",
+  "survey": "EPHPM",
+  "period": "m6",
+  "year": 2024,
+  "source_files": [
+    "Diccionario de datos EPHPM Junio 2024_PD.xlsx"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [
+    "Info Variables",
+    "Etiquetas"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "HOGAR",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Orden",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Dominio",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Departamento",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Recorrido",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Numero de hogar dentro de la vivienda",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "V01. Tipo de vivienda",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "V02.¿Cuál es el  material predominante en la construcción de las paredes?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "V03. ¿Cuál es el  material predominante en el piso?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "V04. ¿Cuál es el  material predominante en el techo?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "V05. Viviendas con acceso a servicio de agua, por sistema que los porporciona segun dominio, nivel educativo del jefe, sexo del jefe y quintil de ingreso del hogar",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "V06. ¿Dónde obtiene el agua?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "V07. Viviendas con acceso a servicio de Electricidad, por sistema que los porporciona segun dominio, nivel educativo del jefe, sexo del jefe y quintil de ingreso del hogar",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "V08. ¿Cómo eliminan la basura en esta vivienda?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "V09. Sin incluir la cocina y los baños ¿Cuántas piezas tiene esta vivienda?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "V10. Su vivienda es:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "V11. Si pusiera su vivienda en alquiler, ¿cuanto cree que le pagarian por mes?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "V12. ¿Cuántos grupos de personas que compran y cocinan sus alimentos por separado viven en esta vivienda?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "H01.1. Refrigeradoras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "20",
+      "label": "H01.2. Estufas de 4 hornillas",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "H01.3. Televisores",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "22",
+      "label": "H01.4. Servicios de television por cable",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "23",
+      "label": "H01.5. Radios o Radio grabadoras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "24",
+      "label": "H01.6. Equipos de Sonido",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "25",
+      "label": "H01.7. Telefonos fijos",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "26",
+      "label": "H01.8. Carros",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "27",
+      "label": "H01.9. Motocicletas",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "28",
+      "label": "H01.10. Bicicletas de adulto",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "29",
+      "label": "H01.11. Computadoras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "30",
+      "label": "H01.12. Aire acondicionado",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "31",
+      "label": "H02. En qué pieza ó sitio de la vivienda cocina los alimentos este hogar:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "32",
+      "label": "H03. La pieza o sitio para cocinar es de uso:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "33",
+      "label": "H04. ¿Cuál es  el principal combustible que utilizan para cocinar en este hogar?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "34",
+      "label": "H05. ¿Que tipo de estufa emplea principalmente en su hogar para cocinar?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "35",
+      "label": "H06. ¿Tiene algún tipo de servicio sanitario letrina?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "36",
+      "label": "H07. Viviendas con acceso a saneamiento",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "37",
+      "label": "H08. ¿El uso del servicio sanitario es:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "38",
+      "label": "H09 ¿Cuantas piezas utiliza este hogar para dormir?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "39",
+      "label": "¿Cuántas personas en total durmieron y comieron durante los ultimos 6 meses en el hogar?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "40",
+      "label": "Relación de parentesco con el con el jefe del hogar",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "41",
+      "label": "Sexo",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "42",
+      "label": "Edad en años cumplidos",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "43",
+      "label": "Estado civil actual",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "44",
+      "label": "Tiene algun tipo de dificultad para:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "45",
+      "label": "Usted se autoidentifica como:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "46",
+      "label": "ED01. ¿Sabe leer y escribir?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "47",
+      "label": "ED02. ¿Está matriculado(a) para recibir clases este año (2024) en un centro educativo?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "48",
+      "label": "ED03. ¿Asiste actualmente a algún centro educativo/ O de forma virtual?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "49",
+      "label": "ED04. ¿Cuál es la razón principal por la que no está estudiando en este año (2024)?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "50",
+      "label": "ED05. ¿Cuál es el nivel educativo más alto alcanzado?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "51",
+      "label": "Código carrera que estudió",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "52",
+      "label": "ED07. ¿Finalizó sus estudios?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "53",
+      "label": "ED08. ¿Cuál es su último grado o año aprobado?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "54",
+      "label": "ED09. ¿A través de qué sistema estudió?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "55",
+      "label": "ED10. ¿Cuál es el nivel educativo en el que estudia actualmente? (Año 2024)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "56",
+      "label": "ED11. ¿Está repitiendo el año?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "57",
+      "label": "ED11a. ¿Recibe merienda escolar?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "58",
+      "label": "ED11b. ¿Cuantos dias recibió clases el mes pasado?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "59",
+      "label": "Código de la carrera que estudia",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "60",
+      "label": "ED13. ¿Cuál es el año o grado que cursa actualmente 2024?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "61",
+      "label": "ED14. ¿A través de qué sistema estudia?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "62",
+      "label": "ED15. ¿Se matriculó en algún centro educativo el año anterior? (Año 2023)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "63",
+      "label": "ED16. ¿Cuál es el nivel educativo en que se matriculó el año anterior? (Año 2023)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "64",
+      "label": "ED17. ¿Cuál es el año ó grado, en que se matriculó el año pasado? (Año 2023)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "65",
+      "label": "ED18. El centro de educación en el que estudiaba, ¿era público o privado?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "66",
+      "label": "ED19. ¿Aprobó el año académico (año pasado)? (Año 2023)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "67",
+      "label": "ED20. ¿Cuál fue la razón principal por la que se retiró?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "68",
+      "label": "TIC01. ¿Durante el mes pasado, (Nombre…..) utilizó una computadora?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "69",
+      "label": "TIC02. En los últimos 12 meses, (Nombre……..)  ¿hizo llamadas nacionales o internacionales vía internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "70",
+      "label": "TIC03. Durante los últimos 3 meses, (Nombre……..) ¿tuvo acceso a internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "71",
+      "label": "TIC04. Durante los últimos 3 meses, (Nombre……..)  ¿con qué frecuencia utilizó internet:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "72",
+      "label": "TIC05. (Nombre……..) ¿En qué sitios tuvo acceso a Internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "73",
+      "label": "TIC05. (Nombre……..) ¿En qué sitios tuvo acceso a Internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "74",
+      "label": "TIC05. (Nombre……..) ¿En qué sitios tuvo acceso a Internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "75",
+      "label": "TIC05. (Nombre……..) ¿En qué sitios tuvo acceso a Internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "76",
+      "label": "TIC05. (Nombre……..) ¿En qué sitios tuvo acceso a Internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "77",
+      "label": "TIC05. (Nombre……..) ¿En qué sitios tuvo acceso a Internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "78",
+      "label": "TIC05. (Nombre……..) ¿En qué sitios tuvo acceso a Internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "79",
+      "label": "TIC05. (Nombre……..) ¿En qué sitios tuvo acceso a Internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "80",
+      "label": "TIC06. Cuales son las razones por las que (Nombre……..)  usa internet:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "81",
+      "label": "TIC06. Cuales son las razones por las que (Nombre……..)  usa internet:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "82",
+      "label": "TIC06. Cuales son las razones por las que (Nombre……..)  usa internet:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "83",
+      "label": "TIC06. Cuales son las razones por las que (Nombre……..)  usa internet:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "84",
+      "label": "TIC06. Cuales son las razones por las que (Nombre……..)  usa internet:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "85",
+      "label": "TIC06. Cuales son las razones por las que (Nombre……..)  usa internet:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "86",
+      "label": "TIC06. Cuales son las razones por las que (Nombre……..)  usa internet:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "87",
+      "label": "TIC06. Cuales son las razones por las que (Nombre……..)  usa internet:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "88",
+      "label": "TIC07. (Nombre……..) ¿Qué equipo utiliza PRINCIPALMENTE para conectarse a Internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "89",
+      "label": "TIC08. (Nombre……..) ¿A través de que medio/servicio se conecta PRINCIPALMENTE a Internet?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "90",
+      "label": "TIC09. (Nombre……..) ¿Tiene teléfono celular?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "91",
+      "label": "CA.501 Durante la semana pasada, ¿trabajó o realizó alguna actividad económica durante AL MENOS UNA HORA?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "92",
+      "label": "CA.502 Por este trabajo que realizó la semana pasada, ¿recibió o recibirá algún pago o ganancia en dinero o en especies?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "93",
+      "label": "CA.503 La semana pasada,  ¿realizó DURANTE AL MENOS UNA HORA alguna de las siguientes actividades A CAMBIO DE UN PAGO O GANANCIAS, en dinero o en especies:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "94",
+      "label": "CA.504 ¿Tiene algún trabajo remunerado o negocio propio del que se ausentó temporalmente la semana pasada y al que próximamente volverá?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "95",
+      "label": "CA.505 ¿Por qué motivo no trabajó la semana pasada?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "96",
+      "label": "CA.506 Durante este periodo en que no trabajó, ¿estuvo recibiendo pago o ganancias en dinero o en especies?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "97",
+      "label": "CA.507 ¿De cuánto tiempo es la duración de la ausencia de este puesto de trabajo? (desde que se retiró hasta que vuelva)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "CA.508 Durante la semana pasada, le ayudó a ALGUN FAMILIAR a realizar alguna ACTIVIDAD ECONOMICA o trabajó en el negocio, empresa, finca de un FAMILIAR sin que le paguen?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "CA.508a El familiar con el que trabajó la semana pasada, ¿produce principalmente para vender o produce principalmente para el autoconsumo?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "100",
+      "label": "CA.509 Entonces el trabajo que realizó la semana pasada sin pago lo hizo como:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "101",
+      "label": "CA.509a De lo que usted produce para su consumo.En los ULTIMOS TRES MESES, ¿Cuál fue su INGRESO PROMEDIO MENSUAL POR GANANCIA de lo que vendió, si es que vendió una parte?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "102",
+      "label": "CA.509b De lo que usted produce para su consumo.En los ULTIMOS TRES meses,¿Cuál fue el valor total que dejó para uso propio o de su familia? (Alimentos,  leche, lácteos, etc.)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "103",
+      "label": "CA.510 Desea conseguir un trabajo remunerado o establecer su propia empresa o negocio?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "104",
+      "label": "CA.511 Si en la SEMANA PASADA  hubiese conseguido trabajo o clientes, para obtener un pago o ganancia en dinero o en especies, ¿estaba disponible para trabajar?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "105",
+      "label": "CA.512 ¿Buscó trabajo o trató de establecer su propio negocio o finca, durante las últimas cuatro semanas?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "106",
+      "label": "CA.513 ¿Por qué no buscó trabajo ni trató de establecer su propio negocio o finca en las últimas cuatro semanas?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "107",
+      "label": "CA.514 ¿Entonces actualmente…",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "108",
+      "label": "CA.515 ¿Qué hizo principalmente para buscar trabajo o establecer su propio negocio o finca?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "109",
+      "label": "CA.516 ¿Cuánto tiempo tiene [nombre..] de estar buscando trabajo continuamente, o tratando de establecer su propio negocio o finca? TIEMPO",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "110",
+      "label": "CA.516 Dias/semana/meses",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "111",
+      "label": "CA.517 ¿Ha trabajado antes?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "112",
+      "label": "CA.518 ¿Cuánto tiempo tiene sin trabajar? CANTIDAD",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "113",
+      "label": "CA.518 ¿Cuánto tiempo tiene sin trabajar? TIEMPO",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "114",
+      "label": "CA.519 ¿Cuántas ocupaciones desempeñó la semana pasada? / ¿De cuántas ocupaciones estuvo ausente la semana pasada?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "115",
+      "label": "CA.520 ¿Desea cambiar alguna de las ocupaciones que actualmente tiene?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "116",
+      "label": "CA.521 ¿Por qué motivo desea cambiar de ocupación?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "117",
+      "label": "CA.522 Durante la semana pasada, ¿hubiera querido trabajar más horas (en su mismo trabajo o en otro) a cambio de remuneración o ganancias en dinero o especies?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "118",
+      "label": "CA.523 Si durante la semana pasada hubiera tenido la oportunidad de trabajar más horas (en su mismo trabajo o en otro),  las hubiera podido trabajar?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "119",
+      "label": "CA.524 ¿Cuántas horas adicionales a la SEMANA estaría dispuesto a trabajar?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "120",
+      "label": "CA.525 Durante las últimas cuatro semanas, ¿estuvo buscando trabajo activamente?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "121",
+      "label": "OC.605 LUNES",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "122",
+      "label": "OC.605 MARTES",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "123",
+      "label": "OC.605 MIERCOLES",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "124",
+      "label": "OC.605 JUEVES",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "125",
+      "label": "OC.605 VIERNES",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "126",
+      "label": "OC.605 SABADO",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "127",
+      "label": "OC.605 DOMINGO",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "128",
+      "label": "OC.606 La semana pasada, ¿trabajo más o menos horas que las que trabaja normalmente en esta ocupación?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "129",
+      "label": "OC.607 ¿Cuántas horas más (menos) trabajó la semana pasada con respecto a las que trabaja normalmente?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "130",
+      "label": "OC.608 Incluyendose [nombre..] ¿Cuántas personas trabajan PERMANENTEMENTE en",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "131",
+      "label": "OC.608 ¿CUANTAS?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "132",
+      "label": "OC.610 ¿Quién paga el ISR correspondiente a los ingresos de",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "133",
+      "label": "OC.611 ¿Quién decide el horario de trabajo o la duración de su jornada laboral de",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "134",
+      "label": "OC.612 ¿Quién decide la forma, periodicidad y forma de pago de",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "135",
+      "label": "OC.613 ¿De quien depende la seguridad social y el plan de jubilaciones de",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "136",
+      "label": "OC.617 Tipo de moneda",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "137",
+      "label": "OC.616 En esta ocupación, le pagan por:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "138",
+      "label": "OC.609 En esta ocupacion, trabaja como:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "139",
+      "label": "OC.614 ¿Los ingresos de son periódicos en forma de salario, por producto o dependen de cuánto produzca o venda",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "140",
+      "label": "OC.615 En los ULTIMOS TRES meses, ¿cuál fue su INGRESO TOTAL recibido por la venta de los productos, tareas realizadas o servicios prestados?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "141",
+      "label": "OC.617 ¿Cuánto le pagan por",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "142",
+      "label": "OC.618 ¿Cuánto(as)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "143",
+      "label": "OC.619 El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por ALIMENTOS",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "144",
+      "label": "OC.619 El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  HABITACION",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "145",
+      "label": "OC.619 El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  ROPA, CALZADO",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "146",
+      "label": "OC.619 El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  TRANSPORTE",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "147",
+      "label": "OC.619 El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  COMISION",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "148",
+      "label": "OC.619 El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  BONIFICACION",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "149",
+      "label": "OC.619 El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  PROPINAS",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "150",
+      "label": "OC.619 El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  HORAS EXTRAS",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "151",
+      "label": "OC.620 En esta ocupación, tiene derecho a aguinaldo (decimo tercer salario)?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "152",
+      "label": "OC.621 En esta ocupación, tiene derecho a decimo cuarto salario?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "153",
+      "label": "OC.622 En esta ocupación, tiene derecho a bono de vacaciones?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "154",
+      "label": "OC.623 El bono de vacaciones, ¿de qué monto es?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "155",
+      "label": "OC.624 ¿Recibe o se asigna un sueldo o salario por su trabajo en este negocio, finca o empresa?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "156",
+      "label": "OC.625 ¿De cuánto es su salario MENSUAL (sin descuentos o deducciones)?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "157",
+      "label": "OC.626 En esta ocupación, tiene derecho a aguinaldo (decimo tercer salario)?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "158",
+      "label": "OC.627 En esta ocupación, tiene derecho a decimo cuarto salario?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "159",
+      "label": "OC.628 En los ULTIMOS TRES meses, ¿cuánto fue su INGRESO PROMEDIO MENSUAL POR GANANCIA como empleador o cuenta propia en   su establecimiento o negocio?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "160",
+      "label": "OC.629 La actividad que realiza en esta ocupación, ¿es de tipo agropecuaria o no agropecuaria?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "161",
+      "label": "OC.630 En los ULTIMOS TRES meses, ¿cuál fue el VALOR PROMEDIO MENSUAL que retiró de su establecimiento o negocio en productos para uso propio o de su familia? (Alimentos,  leche, lácteos, etc.)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "162",
+      "label": "OC.631 En su última cosecha, cría de animales y productos derivados u otros, por la PARTE que ya VENDIÓ, ¿cuánto dinero recibió?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "163",
+      "label": "OC.632 De esa última cosecha, cría de animales y productos derivados u otros,  ¿cuál  es  el  VALOR de lo que NO VENDIÓ? Ya sea que lo usó o lo tiene guardado. (Granos, huevos,  frutas, lácteos, etc.)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "164",
+      "label": "OC.633 ¿Cuántas veces al año cosecha o cría animales y otros?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "165",
+      "label": "OC.634 ¿Cuánto dinero invirtió en total en esa producción? (materiales, insumos, materias primas, pago de mano de obra, arriendo de tierra, alquiler de maquinaria, energía, transporte, etc.)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "166",
+      "label": "OC.635 ¿Cuántas veces al año hace esta inversión?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "167",
+      "label": "OC.636 En  los  ULTIMOS TRES meses,  ¿cuál  fue  el  VALOR PROMEDIO MENSUAL  que  retiró  de su  establecimiento   o   negocio  en productos para uso propio o de su familia? (Alimentos,  abarrotes, ropa, etc.)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "168",
+      "label": "OC.637 En los ULTIMOS TRES meses, ¿Cuál fue el VALOR PROMEDIO de los  gastos personales o del hogar cubiertos por el negocio? (comida, transporte, combustible, vivienda, etc.)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "169",
+      "label": "OC.638 En los ULTIMOS TRES meses, ¿cuál fue su INGRESO TOTAL recibido por la venta de los productos, bienes o servicios de su negocio?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "170",
+      "label": "OC.639 En los ULTIMOS TRES meses, ¿Cuánto dinero invirtió para el funcionamiento de su negocio? (Materiales, insumos, materias primas, mano de obra, alquileres, servicios, impuestos, etc.)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "171",
+      "label": "Pension en Lempiras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "172",
+      "label": "Pension en Dolares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "173",
+      "label": "Jubilacion en Lempiras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "174",
+      "label": "Jubilacion en Dolares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "175",
+      "label": "Alquileres en Lempiras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "176",
+      "label": "Alquileres en Dolares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "177",
+      "label": "Descuento del adulto mayor en Lempiras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "178",
+      "label": "Pension por alimento/divorcio en Lempiras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "179",
+      "label": "Pension por alimento/divorcio en Dolares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "180",
+      "label": "Ayudas familiares Lempiras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "181",
+      "label": "Ayudas familiares en Dolares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "182",
+      "label": "Ayudas familiares en Lempiras Especies",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "183",
+      "label": "Ayudas familiares en Dolares Especies",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "184",
+      "label": "Ayudas particulares en Lempiras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "185",
+      "label": "Ayudas particulares en Dolares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "186",
+      "label": "Ayudas particulares en Lempiras Especies",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "187",
+      "label": "Ayudas particulares en Dolares Especies",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "188",
+      "label": "Alimentacion (Merienda) escolar en Lempiras Especies",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "189",
+      "label": "Bolson, utilies escolares en Lempiras Especies",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "190",
+      "label": "Uniformes escolares en Lempiras Especies",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "191",
+      "label": "Becas en Lempiras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "192",
+      "label": "Remesas del exterior en Lempiras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "193",
+      "label": "Remesas del exterior en Dolares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "194",
+      "label": "Remesas del exterior Lempiras Especies",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "195",
+      "label": "Remesas del exterior en Dolares Especies",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "196",
+      "label": "Bono Esperanza para personas con discapacidad",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "197",
+      "label": "Bono de Oro para personas adultas mayores",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "198",
+      "label": "Bono tecnologico",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "199",
+      "label": "Bono Rosa (Cancer mama)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "200",
+      "label": "Subsidios de energia electrica",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "201",
+      "label": "Subsidios de combustible",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "202",
+      "label": "Otros programas de gobierno",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "203",
+      "label": "Otros programas de gobierno Lempiras en Especies",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "204",
+      "label": "Otros en Lempiras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "205",
+      "label": "Otros en Lempiras Especies",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "206",
+      "label": "OI002¿Qué destino le dio a los ingresos de las REMESAS que usted recibió en los últimos 3 meses:",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "207",
+      "label": "OI0002. Otros",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "208",
+      "label": "OI003. ¿En cuál de los aspectos mencionados destinó MAS dinero?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "209",
+      "label": "OI004. En los ultimos 12 meses con que frecuencia recibe remesas?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "210",
+      "label": "Área",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "211",
+      "label": "Dominio (4)",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "212",
+      "label": "Factor de Expansión",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "213",
+      "label": "Código ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "214",
+      "label": "Código rama de actividad ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "215",
+      "label": "Código ocupación secundaria",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "216",
+      "label": "Código rama de actividad ocupación secundaria",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "217",
+      "label": "Orden",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "218",
+      "label": "Condición de actividad",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "219",
+      "label": "Población fuera de la fuerza de trabajo",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "220",
+      "label": "Meses buscando trabajo",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "221",
+      "label": "Categoría ocupacional",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "222",
+      "label": "Asalariado?",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "223",
+      "label": "Rangos de edad",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "224",
+      "label": "Años de estudio",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "225",
+      "label": "Estudia y trabaja",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "226",
+      "label": "Rama de ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "227",
+      "label": "Rama de ocupación secundaria",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "228",
+      "label": "Ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "229",
+      "label": "Salario mínimo",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "230",
+      "label": "Número de salarios mínimos",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "231",
+      "label": "Número de salarios mínimos",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "232",
+      "label": "Tamaño de establecimiento ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "233",
+      "label": "Cambio dólares-lempiras",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "234",
+      "label": "Ingreso salario monetario ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "235",
+      "label": "Ingreso salario en especies ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "236",
+      "label": "Ingreso monetario por cuenta propia ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "237",
+      "label": "Ingreso en especies por cuenta propia ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "238",
+      "label": "Ingreso monetario ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "239",
+      "label": "Ingreso por trabajo ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "240",
+      "label": "Ingreso salario monetario ocupación secundaria",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "241",
+      "label": "Ingreso salario en especies ocupación secundaria",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "242",
+      "label": "Ingreso monetario por cuenta propia ocupación secundaria",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "243",
+      "label": "Ingreso en especies por cuenta propia ocupación secundaria",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "244",
+      "label": "Ingreso por trabajo ocupación secundaria",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "245",
+      "label": "Ingreso por trabajo",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "246",
+      "label": "Ingreso monetario ocupación secundaria",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "247",
+      "label": "Ingreso por salario",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "248",
+      "label": "Ingreso por cuenta propia",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "249",
+      "label": "Ingreso por pensión",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "250",
+      "label": "Ingreso por jubilación",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "251",
+      "label": "Ingreso por alquileres",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "252",
+      "label": "Ingreso por pensión alimenticia/divorcio",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "253",
+      "label": "Ingreso por ayudas familiares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "254",
+      "label": "Ingreso por ayudas particulares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "255",
+      "label": "Ingreso por educación",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "256",
+      "label": "Ingreso por remesas",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "257",
+      "label": "Ingreso por bonos",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "258",
+      "label": "Ingreso por gobierno",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "259",
+      "label": "Ingreso por otros",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "260",
+      "label": "Ingreso por otros",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "261",
+      "label": "Ingreso en el hogar por pensiones",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "262",
+      "label": "Ingreso en el hogar por jubilaciones",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "263",
+      "label": "Ingreso en el hogar por alquileres",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "264",
+      "label": "Ingreso en el hogar por otros",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "265",
+      "label": "Ingreso en el hogar por ayudas familiares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "266",
+      "label": "Ingreso en el hogar por ayudas particulares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "267",
+      "label": "Ingreso en el hogar por remesas",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "268",
+      "label": "Ingreso en el hogar por educación",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "269",
+      "label": "Ingreso en el hogar por bonos",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "270",
+      "label": "Ingreso por otras fuentes",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "271",
+      "label": "Ingreso en el hogar por trabajos",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "272",
+      "label": "Ingreso en el hogar por otras fuentes",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "273",
+      "label": "Ingreso monetario en el hogar",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "274",
+      "label": "Ingreso total en el hogar",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "275",
+      "label": "Ingreso Percapita de los Hogares",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "276",
+      "label": "Quintil de Ingreso",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "277",
+      "label": "Nivel de pobreza",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "278",
+      "label": "Total de horas laboradas",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "279",
+      "label": "Subempleo",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "280",
+      "label": "Total de horas laboradas en ocupación principal",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "281",
+      "label": "Ingreso en el hogar por salarios",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "282",
+      "label": "Ingreso en el hogar por cuenta propia",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "283",
+      "label": "Personas por habitación",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "284",
+      "label": "Hacinamiento",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "285",
+      "label": "Nivel educativo",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "286",
+      "label": "Quintil de Ingreso",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "287",
+      "label": "Total de Personas de la Vivienda",
+      "type": "",
+      "table": "Info Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Distrito Central",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "San Pedro Sula",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Ciudades Medianas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Ciudades Pequeñas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Rural",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Atlantida",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Colon",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Comayagua",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Copan",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Cortes",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Choluteca",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "El Paraiso",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Francisco Morazan",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Gracias a Dios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Intibuca",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Islas de la Bahia",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "La Paz",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Lempira",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Ocotepeque",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Olancho",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "Santa Barbara",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "Valle",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "Yoro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Casa individual",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Casa de material natural (rancho)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Casa improvisada",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Apartamento",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Cuarto en meson o cuarteria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Barracon",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Local no construido para habitacion pero usado como vivienda",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Ladrillo, piedra o bloque",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Adobe",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Material prefabricado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Madera aserrada",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Madera al natural",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Bahareque, vara o caña",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Desechos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Ceramica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Ladrillo de cemento",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Ladrillo de granito",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Ladrillo de barro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Plancha de cemento",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Madera",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Tierra",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Teja de barro/cemento",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Asbesto",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Lamina de zinc en buen estado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Lamina de zinc en mal estado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Concreto",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Madera",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Paja, palmar o similar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Material de desecho",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Lamina de aluzinc",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Shingle",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Otro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Servicio público por tubería",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Servicio privado por tubería",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Pozo con bomba",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Pozo malacate",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Llave publica o comunitaria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Rio, riachuelo, manantial, ojo de agua",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Carro cisterna/SANAA/Alcaldia",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Vendedor ambulante/Pick-up con drones o barriles",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Del vecino / otra vivienda",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "Otro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Dentro de la vivienda",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Fuera de la vivienda y dentro de la propiedad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Fuera de la propiedad a menos de 100 metros",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Fuera de la propiedad a más de 100 metros",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Servicio Público",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Servicio privado colectivo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Planta propia",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Energía solar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Vela",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Candil o lámpara de gas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Ocote",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Recolección domiciliaria pública",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "La deposita en contenedores",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Recolección domiciliaria privada",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "La entierra",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "La prepara para abono",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "La quema",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "La tira en cualquier lugar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Alquilada?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Propietario y la está pagando?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Propietario y completamente pagada?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Invasión (propia recuperada legalizada)?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Invasion (propia recuperada sin legalizar)?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Prestada (cedida sin pago)?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Recibida por servicios de trabajo?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "En una pieza dedicada solo para cocinar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "En una pieza utilizada también para dormir",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "En la sala, comedor",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "En el patio, corredor u otro sitio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "No cocina",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Exclusivo del hogar?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Compartido con otros hogares?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Leña",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Gas (Kerosene)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Gas propano (Chimbo)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Electricidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Biogás (Biodigestores)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Otro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Estufa electrica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Estufa de gas LPG",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Estufa de Kerosene",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Estufa Lorena",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Fogon tradicional con chiminea",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Fogon tradicional sin chiminea",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Fogón mejorado Eco-fogon",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Inodoro conectado a alcantarilla",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Inodoro conectado a pozo séptico",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Inodoro con desagüe a río, laguna, mar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Letrina con descarga a río, laguna, mar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Taza campesina/letrina con cierre hidráulico",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Letrina con pozo séptico",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Letrina con pozo negro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro tipo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "No tiene",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Exclusivo del hogar?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Compartido con otros hogares?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Jefe(a) del Hogar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Esposa (o) o compañera (o)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Hijos(as) de mayor a menor",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Hijastros(as) de mayor a menor",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Padres",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Hermanos(as)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Yernos y nueras",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otros parientes   (nieto, abuelo, tío, primo, etc.)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Otros no parientes  (suegro, cuñado, huésped, etc.)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Servicio doméstico",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Hombre",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Mujer",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Casado(a)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Viudo(a)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Divorciado(a)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Separado(a)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Soltero(a)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Unión libre",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Caminar, moverse, subir o bajar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Ver aun usando lentes",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Hablar comunicarse conversar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Oir aun usando aparato auditivo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Vestirse, bañarse o comer",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Poner atencion, aprender cosas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Tiene alguna limitacion mental",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Psicosocial",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Ninguna",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Garífuna",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Negro ingles",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Tolupán",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Pech (paya)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Misquito",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Nahua",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Lenca",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Tawahka (Sumo)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Maya Chortí",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Mestizo / ladino",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "No sabe / ninguno",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Otro (especifique)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Está de vacaciones",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Finalizó sus estudios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "No quiere seguir estudiando",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Realiza o ayuda en quehaceres del hogar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "No hay centro que imparta su nivel/queda lejos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Por problemas familiares",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Por problemas de salud",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Falta de recursos económicos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Está muy mayor para estudiar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Es muy pequeño todavía",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Se casó",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Quedó embarazada",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Por trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Otra",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "No sabe/No respone",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Ninguno",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Programa de alfabetización",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Pre-básica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Básica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Media/Diversificado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Técnico superior",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Superior no universitaria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Superior universitaria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Especialidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Maestria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Doctorado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "No sabe /  No responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Presencial en centro público",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Virtual/a distancia en centro publico",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Semi presencial en centro publico",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Presencial en centro privado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Virtual/a distancia centro privado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Semi presencial centro privado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Presencial en centro privado bilingüe",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Virtual/a distancia en centro privado bilingue",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Semi presencial en centro privado bilingue",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Programa de alfabetizacion Yo Si Puedo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Otro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "No sabe / No responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Programa de alfabetización",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Pre-básica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Básica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Media/Diversificado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Técnico superior",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Superior no universitaria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Superior universitaria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Especialidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Maestria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Doctorado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "No sabe /  No responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Presencial en centro público",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Virtual/a distancia en centro publico",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Semi presencial en centro publico",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Presencial en centro privado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Virtual/a distancia centro privado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Semi presencial centro privado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Presencial en centro privado bilingüe",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Virtual/a distancia en centro privado bilingue",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Semi presencial en centro privado bilingue",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Programa de alfabetizacionYo Si Puedo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Otro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "No sabe / No responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Programa de alfabetización",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Pre-básica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Básica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Media/Diversificado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Técnico superior",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Superior no universitaria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Superior universitaria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Especialidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Maestria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Doctorado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "No sabe /  No responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Publico",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Privado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Se retiró",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Está de vacaciones",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Finalizó sus estudios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "No quiere seguir estudiando",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Realiza o ayuda en quehaceres del hogar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "No hay centro que imparta su nivel/queda lejos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Por problemas familiares",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Por problemas de salud",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Falta de recursos económicos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Está muy mayor para estudiar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Es muy pequeño todavía",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Se casó",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Quedó embarazada",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Por trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Otra",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "No sabe/No respone",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "No sabe / no responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "No sabe / no responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Al menos una vez por día",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Al menos una vez por semana, pero no todos los días",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Al menos una vez por mes, pero no todas las semanas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Menos de una vez por mes",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "En su casa",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "En un cyber-café o negocio de Internet",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "En su trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "En la escuela, colegio o universidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Casa de un familiar / amigo/ casa de otra persona",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Hotel, restaurante o negocio con Red Inalámbrica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Red pública (Parques u otro lugar Comunitario)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro sitio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "En su casa",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "En un cyber-café o negocio de Internet",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "En su trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "En la escuela, colegio o universidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Casa de un familiar / amigo/ casa de otra persona",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Hotel, restaurante o negocio con Red Inalámbrica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Red pública (Parques u otro lugar Comunitario)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro sitio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "En su casa",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "En un cyber-café o negocio de Internet",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "En su trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "En la escuela, colegio o universidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Casa de un familiar / amigo/ casa de otra persona",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Hotel, restaurante o negocio con Red Inalámbrica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Red pública (Parques u otro lugar Comunitario)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro sitio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "En su casa",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "En un cyber-café o negocio de Internet",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "En su trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "En la escuela, colegio o universidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Casa de un familiar / amigo/ casa de otra persona",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Hotel, restaurante o negocio con Red Inalámbrica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Red pública (Parques u otro lugar Comunitario)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro sitio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "En su casa",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "En un cyber-café o negocio de Internet",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "En su trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "En la escuela, colegio o universidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Casa de un familiar / amigo/ casa de otra persona",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Hotel, restaurante o negocio con Red Inalámbrica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Red pública (Parques u otro lugar Comunitario)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro sitio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "En su casa",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "En un cyber-café o negocio de Internet",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "En su trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "En la escuela, colegio o universidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Casa de un familiar / amigo/ casa de otra persona",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Hotel, restaurante o negocio con Red Inalámbrica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Red pública (Parques u otro lugar Comunitario)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro sitio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "En su casa",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "En un cyber-café o negocio de Internet",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "En su trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "En la escuela, colegio o universidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Casa de un familiar / amigo/ casa de otra persona",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Hotel, restaurante o negocio con Red Inalámbrica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Red pública (Parques u otro lugar Comunitario)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro sitio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "En su casa",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "En un cyber-café o negocio de Internet",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "En su trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "En la escuela, colegio o universidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Casa de un familiar / amigo/ casa de otra persona",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Hotel, restaurante o negocio con Red Inalámbrica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Red pública (Parques u otro lugar Comunitario)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro sitio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Comunicación (Llamadas nacionales e internacionales, comunicación por correo electrónico o chat, redes sociales)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Busqueda de Información( noticias o navegación por la web en general)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Compras, contratación o pedido de bienes o de servicios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Operaciones de banca electrónica (Interbanca o servicios financieros, pago de servicios, transferencias )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Educación formal y actividades de capacitación (Clases virtuales, investigar o hacer tareas)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Entretenimiento personal (Uso / descarga de videojuegos, películas, música o programas informáticos etc )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Actividades Laborales (trabajo desde casa, venta de productos en línea)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otra razón",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Comunicación (Llamadas nacionales e internacionales, comunicación por correo electrónico o chat, redes sociales)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Busqueda de Información( noticias o navegación por la web en general)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Compras, contratación o pedido de bienes o de servicios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Operaciones de banca electrónica (Interbanca o servicios financieros, pago de servicios, transferencias )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Educación formal y actividades de capacitación (Clases virtuales, investigar o hacer tareas)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Entretenimiento personal (Uso / descarga de videojuegos, películas, música o programas informáticos etc )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Actividades Laborales (trabajo desde casa, venta de productos en línea)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otra razón",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Comunicación (Llamadas nacionales e internacionales, comunicación por correo electrónico o chat, redes sociales)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Busqueda de Información( noticias o navegación por la web en general)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Compras, contratación o pedido de bienes o de servicios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Operaciones de banca electrónica (Interbanca o servicios financieros, pago de servicios, transferencias )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Educación formal y actividades de capacitación (Clases virtuales, investigar o hacer tareas)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Entretenimiento personal (Uso / descarga de videojuegos, películas, música o programas informáticos etc )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Actividades Laborales (trabajo desde casa, venta de productos en línea)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otra razón",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Comunicación (Llamadas nacionales e internacionales, comunicación por correo electrónico o chat, redes sociales)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Busqueda de Información( noticias o navegación por la web en general)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Compras, contratación o pedido de bienes o de servicios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Operaciones de banca electrónica (Interbanca o servicios financieros, pago de servicios, transferencias )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Educación formal y actividades de capacitación (Clases virtuales, investigar o hacer tareas)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Entretenimiento personal (Uso / descarga de videojuegos, películas, música o programas informáticos etc )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Actividades Laborales (trabajo desde casa, venta de productos en línea)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otra razón",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Comunicación (Llamadas nacionales e internacionales, comunicación por correo electrónico o chat, redes sociales)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Busqueda de Información( noticias o navegación por la web en general)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Compras, contratación o pedido de bienes o de servicios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Operaciones de banca electrónica (Interbanca o servicios financieros, pago de servicios, transferencias )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Educación formal y actividades de capacitación (Clases virtuales, investigar o hacer tareas)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Entretenimiento personal (Uso / descarga de videojuegos, películas, música o programas informáticos etc )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Actividades Laborales (trabajo desde casa, venta de productos en línea)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otra razón",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Comunicación (Llamadas nacionales e internacionales, comunicación por correo electrónico o chat, redes sociales)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Busqueda de Información( noticias o navegación por la web en general)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Compras, contratación o pedido de bienes o de servicios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Operaciones de banca electrónica (Interbanca o servicios financieros, pago de servicios, transferencias )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Educación formal y actividades de capacitación (Clases virtuales, investigar o hacer tareas)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Entretenimiento personal (Uso / descarga de videojuegos, películas, música o programas informáticos etc )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Actividades Laborales (trabajo desde casa, venta de productos en línea)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otra razón",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Comunicación (Llamadas nacionales e internacionales, comunicación por correo electrónico o chat, redes sociales)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Busqueda de Información( noticias o navegación por la web en general)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Compras, contratación o pedido de bienes o de servicios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Operaciones de banca electrónica (Interbanca o servicios financieros, pago de servicios, transferencias )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Educación formal y actividades de capacitación (Clases virtuales, investigar o hacer tareas)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Entretenimiento personal (Uso / descarga de videojuegos, películas, música o programas informáticos etc )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Actividades Laborales (trabajo desde casa, venta de productos en línea)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otra razón",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Comunicación (Llamadas nacionales e internacionales, comunicación por correo electrónico o chat, redes sociales)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Busqueda de Información( noticias o navegación por la web en general)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Compras, contratación o pedido de bienes o de servicios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Operaciones de banca electrónica (Interbanca o servicios financieros, pago de servicios, transferencias )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Educación formal y actividades de capacitación (Clases virtuales, investigar o hacer tareas)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Entretenimiento personal (Uso / descarga de videojuegos, películas, música o programas informáticos etc )",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Actividades Laborales (trabajo desde casa, venta de productos en línea)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otra razón",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Computadora de escritorio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Laptop (Computadora Portatil)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Tablet",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Celular / Smartphone",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Smart TV",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Otro dispositivo móvil con acceso a internet (PlayStation, wii u,  etc)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "No sabe / no responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Cable de red ( modem por cable o banda ancha)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Conexión inalámbrica (Wi-Fi)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Datos Móviles (usado por medio de un celular)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Conexión por fibra óptica",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Conexión Satelital",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Conexión Telefónica de HONDUTEL",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Modem USB",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Otro tipo de Conexión",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "No sabe / no responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Trabajó en labores agropecuarias",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Hizo algo para vender (comida, manualidades, paletas, charamuscas, chocobananos, etc)?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Trabajó o realizó actividades en un negocio, finca, empresa, taller, oficina o institución?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Reparó equipo o electro-domésticos (planchas, estufas, refrigeradores, celulares, computadoras, etc.)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Limpió casas, planchó, lavó ropa ajena, cuidó niños, cuidó enfermos, cuidó ancianos de otro hogar?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Hizo servicios como trabajos secretariales, fotocopias, lavar carros, cuidar carros, podar, árboles, etc?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Poner / pintar uñas, cortar pelo, costurar, reparar o remendar ropa, carteras, zapatos?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Vendió algún producto (joyas, perfúmes, rifas, por catálogo)?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Trabajo esporádico, mandados, “chamba”, “remiendo”, etc?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "Ninguno de las anteriores",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Vacaciones, feriado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Capacitación por parte del empleador",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Licencia por maternidad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Incapacidad por accidente o enfermedad",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Permiso o licencia con pago",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "No llegaron clientes al negocio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Huelga o paro de labores",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Permiso o licencia sin pago",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Por mal tiempo, falta de materia prima o equipo y maquinaria averiado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Problemas familiares o de salud",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Se terminó la temporada / proyecto / contrato",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Nadie lo contrató ni lo buscó para trabajar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Suspensión temporal de actividades por la pandemia del covid-19",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Cierre del negocio por la pandemia del covid-19",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "97",
+      "label": "Otro motivo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Ya volvió o volverá esta semana",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Tres meses o menos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Mas de tres meses",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "No sabe cuándo volverá",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Definitivamente no volverá a ese trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Produce principalmente para vender",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Produce principalmente para el autoconsumo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Trabajador voluntario",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Practicante o pasante de carrera sin remuneración",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Aprendiz sin remuneración",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Que haceres domésticos del propio hogar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Producción para el consumo del hogar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Sí",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No, pero lo estará en 15 días o menos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "No, pero lo estará en más de 15 días pero menos de 12 meses",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "No sabe",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Ya encontró trabajo (iniciará antes de un mes)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Abrirá o reabrirá negocio antes de un mes",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Se irá a trabajar a otro país",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Espera respuesta a gestiones anteriores",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Está esperando la próxima temporada / proyecto",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Cree que no encontrará o no le darán trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "No tiene tierra, capital o materia prima",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "En esta zona no hay trabajo del que necesita",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Dejo de buscar momentaneamente",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "No quiere / no puede / no necesita trabajar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Está jubilado?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Está pensionado?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Es rentista?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Se dedica solo a estudiar?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Se dedica a los quehaceres del hogar?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Por su edad no puede trabajar (menor o mayor)?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Está enfermo de gravedad?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Está discapacitado?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "No hace nada?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "97",
+      "label": "Otra",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Hizo gestiones en empresas, oficinas, cooperativas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Consultó con amigos / familiares / redes sociales",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Envió curriculum por correo / personalmente / internet",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Presentó curriculum en feria / agencia / bolsa de empleo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Colocó o respondió anuncios de trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Buscó tierras para trabajar o local para establecer empresa",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Buscó clientes o hizo trámites, gestionó préstamos para iniciar su negocio propio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Acondicionó local para iniciar negocio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "97",
+      "label": "Otro",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Dias",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Semanas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Meses",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Dias",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Semanas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Meses",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "No sabe",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Para mejorar sus ingresos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Para mejorar condiciones de trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Porque desea un empleo más acorde a su formación",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Porque su trabajo actual es temporal / inestable",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Para tener más tiempo para realizar otras actividades",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Para trabajar más horas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Para trabajar menos horas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "97",
+      "label": "Otra",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "No sabe",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No, pero lo estará en 15 días o menos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "No, pero lo estará en más de 15 días pero menos de  12 meses",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "No sabe",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Si",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Más que las habituales",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Menos que las habituales",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Las mismas horas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "No trabajo la semana pasada",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "10 personas ó menos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Entre 11 y 50",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Entre 51 y 150",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "151 o más",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Usted mismo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "La empresa se lo retiene por planilla",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Sus ingresos no están gravados por ISR",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "No sabe / no responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Usted mismo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "La empresa que lo contrata",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Una aplicación o plataforma web",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Usted mismo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "La empresa que lo contrata",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Una aplicación o plataforma web",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "No sabe / no responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "De el mismo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "De la empresa que lo contrata",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "No sabe / no responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Lempiras",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Dolares",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Euros",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Mes",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Quincena",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Semana",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Día",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Empleado u obrero en el sector público",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Empleado u obrero en el sectorprivado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Empleado doméstico",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Pasante / aprendiz / practicante remunerado en el sector público",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Pasante / aprendiz / practicante remunerado en el sector privado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Empleador, patrón o socio activo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Trabajador independiente o por cuenta propia",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Trabajador familiar auxiliar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Contratista dependiente en el sector público",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Contratista dependiente en el sector privado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Contratista dependiente en el sector de los hogares",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Son en forma de sueldos o salarios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Dependen de lo que produzca o venda",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Son por producto, tarea o servicio prestado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Sí",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Sí",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Sí",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Sí",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Sí",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Sí",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Agropecuaria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "No agropecuaria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "01",
+      "label": "Vivienda (construcción, ampliación, reparación, cuota)?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "02",
+      "label": "Compra de terreno / casa?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "03",
+      "label": "Compra de insumos agropecuarios?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "04",
+      "label": "Pago de deudas?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "05",
+      "label": "Negocio (compra de mercadería, maquinaria, herramientas, vehículo para negocio?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "06",
+      "label": "Gastos de alimentación, Vestuario y aparatos del hogar?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "07",
+      "label": "Compra de tierras agrícolas?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "08",
+      "label": "Compra de animales?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "09",
+      "label": "Ahorro?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Gastos de educación?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Gastos médicos?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Otros?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Vivienda (construcción, ampliación, reparación, cuota)?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Compra de terreno / casa?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Compra de insumos agropecuarios?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Pago de deudas?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Negocio (compra de mercadería, maquinaria, herramientas, vehículo para negocio?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Gastos de alimentación, Vestuario y aparatos del hogar?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Compra de tierras agrícolas?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Compra de animales?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Ahorro?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Gastos de educación?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Gastos médicos?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Otros?",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Menor a un mes",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Mensual",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Trimestral",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Semanal",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Anual",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Área Urbana",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Área Rural",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Distrito Central",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "San Pedro Sula",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Resto Urbano",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Rural",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Ocupados",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Desocupados",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Poblacion fuera de la fuerza de trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Potencialmente Activos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Desalentados",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Inactivos",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Empleado u obrero público",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Empleado u obrero privado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Empleado doméstico",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Cuenta propia",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Aprendiz",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Trabajador familiar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Contratista dependiente",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "No declaró categoría",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "Menores de 10",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "De 10 a 14 años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "De 15 a 19 años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "De 20 a 24 años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "De 25 a 29 años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "De 30 a 34 años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "De 35 a 39 años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "De 40 a 44 años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "De 45 a 49 años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "De 50 a 54 años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "De 55 a 59 años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "De 60 a 64 años",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "De 65 años y más",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "Edad ignorada",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Estudia y trabaja",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Solo trabaja",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Solo estudia",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Ni trabaja ni estudia",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Agricultura, ganadería, silvicultura y pesca",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Explotacion de minas y canteras",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Manufacturera",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Suministro de electricidad, gas, vapor y aire acondicionado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Suministro de agua evacuación de aguas residuales, gestión de desechos y descontaminación",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Construcción",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Comercio al por mayor y al por menor reparación de vehículos automotores y motocicletas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Transporte y almacenamiento",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Actividades de alojamiento y de servicio de comidas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Información y comunicaciones",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Actividades financieras y de seguros",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Actividades inmobiliarias",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Actividades profesionales, científicas y técnicas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Actividades de servicios administrativos y de apoyo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Administración pública y defensa planes de seguridad social de afiliación obligatoria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "Enseñanza",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "Actividades de atención de la salud humana y de asistencia social",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "Actividades artísticas, de entretenimiento y recreativas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "Otras actividades de servicios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "20",
+      "label": "Actividades de los hogares como empleadores actividades no diferenciadas de los hogares como productores de bienes y ser",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Actividades de organizaciones y órganos extraterritoriales",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "22",
+      "label": "Rama sin especificar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "23",
+      "label": "Busca trabajo por primera vez",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "Ns/Nr",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Agricultura, ganadería, silvicultura y pesca",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Explotacion de minas y canteras",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Manufacturera",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Suministro de electricidad, gas, vapor y aire acondicionado",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Suministro de agua evacuación de aguas residuales, gestión de desechos y descontaminación",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Construcción",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Comercio al por mayor y al por menor reparación de vehículos automotores y motocicletas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Transporte y almacenamiento",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Actividades de alojamiento y de servicio de comidas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Información y comunicaciones",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Actividades financieras y de seguros",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Actividades inmobiliarias",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Actividades profesionales, científicas y técnicas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Actividades de servicios administrativos y de apoyo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Administración pública y defensa planes de seguridad social de afiliación obligatoria",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "Enseñanza",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "Actividades de atención de la salud humana y de asistencia social",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "Actividades artísticas, de entretenimiento y recreativas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "Otras actividades de servicios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "20",
+      "label": "Actividades de los hogares como empleadores actividades no diferenciadas de los hogares como productores de bienes y ser",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Actividades de organizaciones y órganos extraterritoriales",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "22",
+      "label": "Rama sin especificar",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "23",
+      "label": "Busca trabajo por primera vez",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "Ns/Nr",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Directores y gerentes",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Profesionales cientificos e intelectuales",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Tecnicos y profesionales de nivel medio",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Personal de apoyo administrativo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Trabajadores de los servicios y vendedores de comercios y mercados",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Agricultores y trabajadores calificados agropecuarios forestales y pesqueros",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Oficiales, operarios y artesanos de artes mecanicas y de otros oficios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Operadores de instalaciones y maquinas y ensambladores",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Ocupaciones elementales",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Ocupaciones militares",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "23",
+      "label": "Busca trabajo por primera vez",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "NS/NR",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "De menos de 1 Salario",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "De 1 - 2 Salarios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "De 2 - 3 Salarios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "De 3 - 4 Salarios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "De 4 y mas Salarios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Menos de 1 salario y trab <36 horas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Menos de 1 salario y trab >=36 horas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Menos de 1 salario y no decl. horas",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "De 1 a 2 salarios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "De 2 a 3 salarios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "De 3 a 4 salarios",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "De 4 salarios y mñs",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Extrema",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Relativa",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "No pobres",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Sin problemas de empleo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Subocupados por tiempo de trabajo",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Subocupados por ingreso",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Sin Nivel",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Básica (1-3)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Básica (4-6)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Básica (7-9)",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Media",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Superior",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "No Sabe/No Responde",
+      "type": "",
+      "table": "Etiquetas",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: Diccionario de datos EPHPM Junio 2024_PD.xlsx (2 sheet(s))",
+    "Sheet 'Info Variables': UNKNOWN layout — best-effort extraction",
+    "  → 287 variables (best-effort — verify manually)",
+    "Sheet 'Etiquetas': UNKNOWN layout — best-effort extraction",
+    "  → 756 variables (best-effort — verify manually)"
+  ]
+}

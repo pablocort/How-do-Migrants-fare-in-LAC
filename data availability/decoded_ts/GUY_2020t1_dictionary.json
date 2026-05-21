@@ -1,0 +1,17 @@
+{
+  "iso3": "GUY",
+  "survey": "LFS",
+  "period": "t1",
+  "year": 2020,
+  "source_files": [
+    "GLFS_Bulletin_2020_First_Quarter.pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "PDF type: TABLE_DICT (DDI format) — table extraction used",
+    "  36 pages total",
+    "  → 0 variables extracted"
+  ]
+}

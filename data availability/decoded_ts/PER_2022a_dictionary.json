@@ -1,0 +1,578 @@
+{
+  "iso3": "PER",
+  "survey": "ENAHO",
+  "period": "a",
+  "year": 2022,
+  "source_files": [
+    "DICCIONARIO_2022_anual.pdf"
+  ],
+  "doc_type": "DICT_PDF",
+  "tables": [
+    "main",
+    "MÓDULO 700",
+    "Módulo 700",
+    "MÓDULO 500"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "FICHA TÉCNICA....................................................................",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "NOMENCLATURA DE ARCHIVOS SPPS. ….................................................",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "ARCHIVOS DEL CUESTIONARIO ENAHO.01. .............................................",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "ARCHIVOS DEL CUESTIONARIO ENAHO.01A. ............................................",
+      "type": "",
+      "table": "MÓDULO 700",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "ARCHIVOS DEL CUESTIONARIO ENAHO.01B. 388",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "ARCHIVOS DEL CUESTIONARIO ENAHO………………………………………………………………………… 443",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "ARCHIVOS DEL CUESTIONARIO ENAHO.04. .............................................",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {
+        "24": "473"
+      }
+    },
+    {
+      "name": "8",
+      "label": "SUMARIA POR 8 GRUPO DE GASTOS....................................................",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "SUMARIA POR 12 GRUPOS DE GASTOS..................................................",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {
+        "1": "Otro",
+        "2": "Costa Centro",
+        "3": "Costa Sur",
+        "5": "De 2 000 a 19 999 habitantes",
+        "6": "Sierra Sur",
+        "7": "Selva",
+        "8": "Lima Metropolitana",
+        "11": "Vacaciones por estudio",
+        "12": "Trabajando",
+        "13": "ENAHO01-2022-610.SAV Muebles y Enseres",
+        "14": "ENAHO01-2022-611.SAV Otros bienes y servicios",
+        "15": "ENAHO01-2022-612.SAV Equipamiento del Hogar",
+        "4": "Sierra Norte",
+        "9": "Missing Value",
+        "0": "Pase",
+        "99": "Missing value",
+        "99999": "Missing value",
+        "999999": "Missing value",
+        "9999999": "Missing value",
+        "10": "Otro",
+        "999": "Missing value"
+      }
+    },
+    {
+      "name": "10",
+      "label": "Tres veces por semana",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Cuatro veces por semana",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {
+        "12": "Anual",
+        "999999": "99 Missing value",
+        "9": "Kilo",
+        "11": "Litro"
+      }
+    },
+    {
+      "name": "12",
+      "label": "Lata grande",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Lata chica",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Botella grande",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "Botella mediana",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "Botella chica",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Cojin chico",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "29",
+      "label": "Filtrante",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "30",
+      "label": "Lata grande",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {}
+    },
+    {
+      "name": "32",
+      "label": "Lata chica",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {
+        "0": "Pase",
+        "10": "Feria",
+        "11": "Litro",
+        "999999": "9 Missing value",
+        "12": "Anual",
+        "9": "Almuerzo - Club de Madres",
+        "1": "Vaso de Leche preparado",
+        "2": "Desayuno - Comedor popular",
+        "3": "Almuerzo - Comedor popular",
+        "4": "Cena - Comedor popular",
+        "5": "Desayuno - Otros",
+        "6": "Almuerzo - Otros",
+        "7": "Cena - Club de Madres, y Otros",
+        "8": "Cena - Club de Madres"
+      }
+    },
+    {
+      "name": "14",
+      "label": "Desayuno- Olla comun",
+      "type": "",
+      "table": "MÓDULO 500",
+      "value_codes": {
+        "99": "Missing value",
+        "0": "Pase",
+        "1": "Fue elegido en proceso de elección",
+        "3": "Fue designado o seleccionado",
+        "999999": "9 Missing value",
+        "2": "Por amistad",
+        "4": "Porque pagó",
+        "5": "Por afiliación",
+        "6": "Otro",
+        "7": "Selva",
+        "8": "Asociación de trabajadores o sindicato",
+        "9": "Missing value",
+        "10": "Asociación de padres de familia (APAFA)",
+        "11": "Vaso de leche",
+        "13": "Comité local administrativo de salud (CLAS)",
+        "14": "Proceso de presupuesto participativo",
+        "15": "Concejo de coordinación local distrital (CCLD)",
+        "12": "Comedor popular",
+        "16": "Comunidad campesina",
+        "17": "Asociación Agropecuaria",
+        "18": "Otro/a",
+        "19": "No pertenece, no participa",
+        "20": "Retiro CTS por aislamiento social",
+        "21": "Retiro AFP",
+        "22": "Beneficio del no descuento de AFP por ser aportante activo",
+        "23": "Otro",
+        "24": "Otro",
+        "25": "Otro",
+        "26": "Otro",
+        "27": "Otro",
+        "28": "Tablet",
+        "9999": "Missing value",
+        "29": "Bono Yanapay",
+        "30": "Bono 600"
+      }
+    },
+    {
+      "name": "0",
+      "label": "Respondió",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "999999": "Missing value",
+        "0": "Pase",
+        "999999999": "Missing value",
+        "99": "Missing value",
+        "9": "Missing value",
+        "3": "Bueno",
+        "4": "Otro",
+        "2": "Malo",
+        "8": "Cusco",
+        "11": "Ica",
+        "12": "Junín",
+        "15": "Lima"
+      }
+    },
+    {
+      "name": "18",
+      "label": "Moquegua",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "19": "Pasco",
+        "20": "Piura",
+        "21": "Puno"
+      }
+    },
+    {
+      "name": "22",
+      "label": "San Martín",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "23": "Tacna"
+      }
+    },
+    {
+      "name": "24",
+      "label": "Tumbes",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {}
+    },
+    {
+      "name": "25",
+      "label": "Ucayali",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99": "Missing value",
+        "6": "Enoxaparina o anticoagulante",
+        "7": "Corticoides (metilprednisolona o dexametasona)?",
+        "1": "Otro",
+        "999999": "Missing value",
+        "4": "Azitromicina",
+        "10": "Remedios caseros",
+        "0": "Pase",
+        "8": "Administración de oxígeno",
+        "2": "Hidroxicloroquina",
+        "9999": "Missing value",
+        "9": "Missing value",
+        "3": "Ivermectina",
+        "5": "Paracetamol",
+        "11": "Otro",
+        "12": "Otro",
+        "13": "Otro",
+        "14": "Otro",
+        "15": "Otro",
+        "16": "Otro",
+        "17": "Otro",
+        "18": "Otro",
+        "19": "Otro",
+        "20": "Otro",
+        "21": "Otro",
+        "22": "Otro",
+        "23": "Otro",
+        "24": "Otro",
+        "25": "Otro",
+        "26": "Otro",
+        "27": "Otro",
+        "28": "Otro",
+        "29": "Otro",
+        "30": "Otro"
+      }
+    },
+    {
+      "name": "P413F",
+      "label": "Pregunta desde abril 1 0 N ¿Recibió Ud. La vacuna contra el COVID19",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {}
+    },
+    {
+      "name": "P413F1",
+      "label": "Pregunta desde abril 2 0 N ¿Cuántas dosis le aplicaron",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {}
+    },
+    {
+      "name": "P413G1",
+      "label": "Pregunta desde abril 2 0 N ¿La vacuna contra el COVID19 que usted recibió fue:",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "0": "Pase"
+      }
+    },
+    {
+      "name": "P413G2",
+      "label": "Pregunta desde abril 2 0 N ¿La vacuna contra el COVID19 que usted recibió fue:",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "0": "Pase"
+      }
+    },
+    {
+      "name": "P413G3",
+      "label": "Pregunta desde abril 2 0 N ¿La vacuna contra el COVID19 que usted recibió fue:",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "0": "Pase"
+      }
+    },
+    {
+      "name": "P413G4",
+      "label": "Pregunta desde junio 2 0 N ¿La vacuna contra el COVID19 que usted recibió fue:",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "0": "Pase",
+        "2": "Medicinas/Insumos",
+        "3": "Análisis",
+        "4": "Rayos X, Tomografía, Etc",
+        "5": "Otros Exámenes (Hemodiálisis, etc)",
+        "7": "Servicio Oftalmológico",
+        "8": "Compra de Lentes",
+        "9": "Missing value",
+        "10": "Control de Salud de los Niños",
+        "11": "Anticonceptivos",
+        "12": "Otros Gastos (ortopedia, termómetro, etc.)",
+        "14": "Intervención quirúrgica",
+        "15": "Controles por embarazo",
+        "16": "Atención de parto",
+        "17": "Vacuna COVID"
+      }
+    },
+    {
+      "name": "P4151017",
+      "label": "Pregunta hasta marzo1 0 N No gastó",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "0": "Pase",
+        "99999": "9 Missing value"
+      }
+    },
+    {
+      "name": "P41617",
+      "label": "Pregunta hasta marzo 8 1 N ¿Cuánto fue el monto total por la compra o servicio?: Vacuna COVID",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99999": "9 Missing value",
+        "8": "CLAS",
+        "9": "ONG",
+        "14": "Otro",
+        "99": "Missing value"
+      }
+    },
+    {
+      "name": "P418217",
+      "label": "Pregunta hasta marzo 8 1 N ¿Cuánto cree que le costaría si tuviera que pagar por este servicio o producto..? -",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99999": "9 Missing value"
+      }
+    },
+    {
+      "name": "P418317",
+      "label": "Pregunta hasta marzo 8 1 N ¿Cuánto cree que le costaría si tuviera que pagar por este servicio o producto..? -",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99999": "9 Missing value"
+      }
+    },
+    {
+      "name": "P418417",
+      "label": "Pregunta hasta marzo 8 1 N ¿Cuánto cree que le costaría si tuviera que pagar por este servicio o producto..? -",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99999": "9 Missing value"
+      }
+    },
+    {
+      "name": "P418517",
+      "label": "Pregunta hasta marzo 8 1 N ¿Cuánto cree que le costaría si tuviera que pagar por este servicio o producto..? -",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99999": "9 Missing value"
+      }
+    },
+    {
+      "name": "P418617",
+      "label": "Pregunta hasta marzo 8 1 N ¿Cuanto cree que le costaria si tuviera que pagar por este servicio o producto..? -",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99999": "9 Missing value"
+      }
+    },
+    {
+      "name": "P418717",
+      "label": "Pregunta hasta marzo 8 1 N ¿Cuanto cree que le costaria si tuviera que pagar por este servicio o producto..? - Fue",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99999": "9 Missing value"
+      }
+    },
+    {
+      "name": "P418817",
+      "label": "Pregunta hasta marzo 8 1 N ¿Cuánto cree que le costaría si tuviera que pagar por este servicio o producto..? -",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99999": "9 Missing value"
+      }
+    },
+    {
+      "name": "P4181017",
+      "label": "Pregunta hasta 8 1 N ¿Cuánto cree que le costaría si tuviera que pagar por este servicio o producto..? -",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99999": "9 Missing value"
+      }
+    },
+    {
+      "name": "P4181117",
+      "label": "Pregunta hasta 8 1 N ¿Cuánto cree que le costaría si tuviera que pagar por este servicio o producto..? - Fue",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99999": "9 Missing value"
+      }
+    },
+    {
+      "name": "P41817",
+      "label": "Pregunta hasta marzo 8 1 N ¿Cuánto cree que le costaría si tuviera que pagar por este servicio o producto..? -",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "99999": "99 Missing value",
+        "1": "Otro",
+        "0": "Panel",
+        "2": "Mujer",
+        "9": "2 vec. x sem",
+        "7": "Otro",
+        "999": "Missing value",
+        "9999": "Missing value",
+        "8": "Anual",
+        "99": "Missing value",
+        "6": "Otros",
+        "999999": "9 Missing value",
+        "11": "4 vec. x sem.",
+        "12": "Anual",
+        "15": "Lima",
+        "19": "Pasco",
+        "20": "Piura",
+        "21": "Puno",
+        "23": "Tacna",
+        "4": "Otro",
+        "5": "Nieto",
+        "3": "Cena",
+        "10": "3 vec. x sem.",
+        "600": "encuesta y reg. admistrativo"
+      }
+    },
+    {
+      "name": "19",
+      "label": "Comedor del Centro Educativo",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {}
+    },
+    {
+      "name": "20",
+      "label": "Kioskos",
+      "type": "",
+      "table": "Módulo 700",
+      "value_codes": {
+        "6": "Rural",
+        "9": "1. SUMARIA-2022.SAV- Sumaria Por 12 Grupo De Gastos",
+        "7": "Selva",
+        "1": "Pobre Extremo",
+        "2": "Pobre No Extremo",
+        "0": "Ninguno",
+        "16": "Producción de Bienes: Gasto en Materia Prima e Insumos",
+        "3": "Vulnerable No pobre",
+        "4": "No Vulnerable",
+        "5": "De 2 000 a 19 999 habitantes",
+        "11": "Otro",
+        "10": "Dentro de las habitaciones de su vivienda",
+        "8": "Lima Metropolitana",
+        "99999": "Missing value",
+        "99": "Missing value",
+        "999": "999 Missing value",
+        "999999": "Missing value",
+        "14": "Producción de Bienes: Ventas",
+        "15": "Producción de Bienes: Autoconsumo",
+        "17": "Comercio: Ventas",
+        "18": "Comercio: Autosuministro",
+        "19": "Comercio: Compra de Mercaderías",
+        "20": "Servicios: Ingresos Totales",
+        "21": "Servicios: Autosuministro",
+        "22": "Servicios: Gastos"
+      }
+    }
+  ],
+  "decode_notes": [
+    "PDF type: QUESTIONNAIRE — regex extraction; best-effort",
+    "  489 pages",
+    "  → 46 variables extracted (question codes only)"
+  ]
+}

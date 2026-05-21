@@ -1,0 +1,15 @@
+{
+  "iso3": "CRI",
+  "survey": "ENAHO",
+  "period": "m7",
+  "year": 2020,
+  "source_files": [
+    "Cuadros_Resultado_Generales_Enaho_2020_Publicacion.xls"
+  ],
+  "doc_type": "XLSX",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "ERROR: 'DataFrame' object has no attribute 'str'"
+  ]
+}

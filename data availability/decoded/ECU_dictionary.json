@@ -1,0 +1,1541 @@
+{
+  "iso3": "ECU",
+  "survey": "ENEMDU",
+  "period": "2025",
+  "source_files": [
+    "Diccionario de Datos_consumidor_2025_12.ODS",
+    "Diccionario de Datos_persona_2025_12.ODS",
+    "Diccionario de Datos_vivienda_hogar_2025_12.ODS"
+  ],
+  "tables": [
+    "Hoja1"
+  ],
+  "variables": [
+    {
+      "name": "Institución",
+      "label": "Instituto Nacional de Estadistica y Censos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Identificador",
+      "label": "INEC_PDA_2025",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Documento Referencia",
+      "label": "INEC_DIES_ENEMDU_2025_DICIEMBRE",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Nombre",
+      "label": "enemdu_vivienda_hogar_2025_12",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Descripción",
+      "label": "La Tabla de datos de la Encuesta Nacional de Empleo Desempleo y Subempleo - DICIEMBRE 2025, investiga las principales caracteristicas físicas de la vivienda.",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Nombre del campo",
+      "label": "Descripción del campo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "area",
+      "label": "Area",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ciudad",
+      "label": "Ciudad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "conglomerado",
+      "label": "Conglomerado",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "panelm",
+      "label": "Panelm",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vivienda",
+      "label": "Vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "hogar",
+      "label": "Hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c01",
+      "label": "Con relación al mes anterior, la situación económica de su hogar es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c02",
+      "label": "Cómo cree usted que será la situación económica de su hogar dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c03",
+      "label": "Con relación al mes anterior, el valor monetario (dinero) empleado en el consumo de alimentos de su hogar es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c04a",
+      "label": "En los próximos 3 meses, el valor monetario (dinero) empleado en el consumo de alimentos de su hogar será:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c07",
+      "label": "Con relación al mes anterior, el consumo de su hogar en alimentos de menor calidad/ más baratos es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c08a",
+      "label": "En los próximos 3 meses, el consumo de su hogar en alimentos de menor calidad/ más baratos será:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c09",
+      "label": "Con relación al mes anterior, el consumo de su hogar en entretenimiento como cine, discotecas, paseos, viajes, actividades de recreación es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c10",
+      "label": "Cómo cree usted que será el consumo de su hogar en entretenimiento dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c11",
+      "label": "Con relación al mes anterior, el consumo de su hogar en vestimenta (ropa en general) es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c12",
+      "label": "Cómo cree usted que será el consumo de su hogar en vestimenta dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c13",
+      "label": "Con relación al mes anterior, el consumo de su hogar en electrodomésticos (cocina,refrigeradora, televisor,etc.)es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c14",
+      "label": "Cómo cree usted que será el consumo de su hogar en electrodomésticos dentro de los próximos 3 meses:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c18",
+      "label": "Con relación al mes anterior, la situación económica del país es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c19",
+      "label": "Usted considera que durante los próximos 3 meses la situación económica del país será:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c20a",
+      "label": "En los 3 meses anteriores, considera que la situación en Ecuador para encontrar/mejorar un puesto de trabajo es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "c21a",
+      "label": "Considera usted que la situación en Ecuador para encontrar/mejorar un puesto de trabajo dentro de 3 meses será:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "estrato",
+      "label": "Estratos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "fexp",
+      "label": "Factor de expansión",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "upm",
+      "label": "Unidad Primaria de Muestreo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "id_vivienda",
+      "label": "Identificador de vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "id_hogar",
+      "label": "Identificador de hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "periodo",
+      "label": "Periodo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p01",
+      "label": "Persona",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p02",
+      "label": "Sexo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p03",
+      "label": "Edad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p04",
+      "label": "Relación de Parentesco",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p05a",
+      "label": "Seguro Social - Alternativa 1",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p05b",
+      "label": "Seguro Social - Alternativa 2",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p06",
+      "label": "Estado civil",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p07",
+      "label": "Asiste a clases",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p08",
+      "label": "Jornada a la que asiste",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p081",
+      "label": "El establecimiento donde estudia",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p085",
+      "label": "Generalmente para la realización de las actividades educativas",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p09",
+      "label": "Razón por la que no asiste",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p10a",
+      "label": "Nivel de instrucción",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p10b",
+      "label": "Año aprobado",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p11",
+      "label": "Sabe leer y escribir",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p12a",
+      "label": "Por sus estudios obtuvo algún título",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p12b",
+      "label": "Qué título obtuvo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p15",
+      "label": "Como se considera",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p15aa",
+      "label": "Dónde nació",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p15ab",
+      "label": "Lugar de nacimiento",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "cod_inf",
+      "label": "Código del Informante",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p20",
+      "label": "Trabajó la semana pasada",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p21",
+      "label": "Actividad que realizó para ayudar en su hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p22",
+      "label": "Tiene trabajo del cual estuvo ausente",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p23",
+      "label": "Razón por la que no trabajó",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p232",
+      "label": "Continua(ó) recibiendo algún ingreso durante ausencia del trabajo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p233",
+      "label": "Desde que dejó de trabajar hasta que espera regresar ¿Cuánto tiempo estará (...) ausente:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p24",
+      "label": "Horas de trabajo en la semana anterior",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p25",
+      "label": "Razón por la que trabajó menos de 40 horas",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p26",
+      "label": "Razón por la que trabajó mas de 40 horas",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p27",
+      "label": "Desea trabajar más horas",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p28",
+      "label": "Está disponible para trabajar horas adicionales",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p29",
+      "label": "Cuántas horas a la semana estaría disponible para trabajar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p29a",
+      "label": "Cuál es la razón por la que no desea o no está disponible para trabajar más horas",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p30",
+      "label": "Gestión realizada para cambiar la situación actual de trabajo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p31",
+      "label": "Razón por la que busca cambiar la situación actual de trabajo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p32",
+      "label": "Buscó trabajo el mes anterior",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p33",
+      "label": "Semanas que busca trabajo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p34",
+      "label": "Razón por la que no buscó trabajo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p35",
+      "label": "Desea trabajar y está dispuesto a hacerlo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p36",
+      "label": "Condición de inactividad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p37",
+      "label": "Trabajó anteriormente",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p38",
+      "label": "Motivos por los que dejó de trabajar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p39",
+      "label": "Número de semanas que no trabaja",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p40",
+      "label": "Rama de actividad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p41",
+      "label": "Grupo de ocupación",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p42",
+      "label": "Categoría de ocupación",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p421",
+      "label": "El trabajo que realiza como (preg.41), es haciendo labores agrícolas, silvícolas, criando o cazando animales, o pescando",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p422",
+      "label": "Informalidad - Los productos obtenidos por el trabajo son",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p42a",
+      "label": "Es socio de cooperativa o asociación",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p43",
+      "label": "El trabajo que tiene es",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p44a",
+      "label": "Recibe alimentación",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p44b",
+      "label": "Recibe vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p44c",
+      "label": "Recibe transporte",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p44d",
+      "label": "Recibe vacaciones",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p44e",
+      "label": "Recibe ropa de trabajo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p44f",
+      "label": "Recibe seguro social",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p44g",
+      "label": "Recibe seguro médico",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p44h",
+      "label": "Recibe guardería",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p44i",
+      "label": "Recibe cursos de capacitación",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p44j",
+      "label": "Recibe 13vo sueldo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p44k",
+      "label": "Recibe 14vo sueldo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p45",
+      "label": "Cuántos años trabaja",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p46",
+      "label": "Sitio de trabajo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p47a",
+      "label": "Tamaño del establecimiento",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p47b",
+      "label": "Número personas trabajan en el establecimiento",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p48",
+      "label": "En el establecimiento se lleva",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p49",
+      "label": "El establecimiento tiene RUC",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p50",
+      "label": "Número de trabajos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p51a",
+      "label": "Horas de trabajo principal",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p51b",
+      "label": "Horas de trabajo secundario",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p51c",
+      "label": "Horas de otros trabajos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p52",
+      "label": "Rama de actividad - trabajo secundario",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p53",
+      "label": "Grupo de ocupación - trabajo secundario",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p54",
+      "label": "Categoría de ocupación - trabajo secundario",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p54a",
+      "label": "Es socio de cooperativa o asociación",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p55",
+      "label": "Sitio de trabajo secundario",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p56a",
+      "label": "Tamaño establecimiento - trabajo secundario",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p56b",
+      "label": "Personas que trabajan - trabajo secundario",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p57",
+      "label": "En el establecimiento de trabajo secundario se lleva",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p58",
+      "label": "El establecimiento de trabajo secundario tiene RUC",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p61b1",
+      "label": "A cuál de las siguientes formas de seguridad social aporta actualmente",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p63",
+      "label": "Ingresos - Patronos Cuenta Propia",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p64a",
+      "label": "Retiró bienes del negocio",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p64b",
+      "label": "Monto de retiro de bienes del negocio",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p65",
+      "label": "Monto gastado en funcionamiento negocio",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p66",
+      "label": "Ingreso de asalariados y/o empleados domésticos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p67",
+      "label": "Descuentos de asalariados",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p68a",
+      "label": "Recibió ingreso en especies",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p68b",
+      "label": "Ingreso en especies de asalariados",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p69",
+      "label": "Ingreso ocup. secundaria - asalariados e independientes",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p70a",
+      "label": "Recibió pago en especies - trabajo secundario",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p70b",
+      "label": "Pago en especies - trabajo secundario",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p71a",
+      "label": "Recibió ingresos derivados del capital",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p71b",
+      "label": "Ingreso recibido por transacciones de capital",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p72a",
+      "label": "Recibe jubilación o pensiones",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p72b",
+      "label": "Ingreso por jubilación o pensiones",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p73a",
+      "label": "Recibió regalos o donaciones",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p73b",
+      "label": "Ingreso por regalos o donaciones - Monto",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p74a",
+      "label": "Recibió dinero del exterior",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p74b",
+      "label": "Ingreso del exterior - Monto",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p75",
+      "label": "Recibió el BONO DE DESARROLLO HUMANO",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p76",
+      "label": "Monto que recibió por el BONO DE DESARROLLO HUMANO",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p77",
+      "label": "Recibe el BONO DE DISCAPACIDAD",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "p78",
+      "label": "Monto recibido por el BONO DE DISCAPACIDAD",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd01",
+      "label": "Realizó USTED algún trabajo por paga o para obtener ganancias",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd021",
+      "label": "La semana pasada que no tenía trabajo - Estudió o estuvo capacitándose",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd022",
+      "label": "La semana pasada que no tenía trabajo - Hizo actividades de esparcimiento (deporte)",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd023",
+      "label": "La semana pasada que no tenía trabajo - Realizó alguna gestión para buscar trabajo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd024",
+      "label": "La semana pasada que no tenía trabajo - Ayudó o se dedicó a otras labores del hogar o la familia",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd025",
+      "label": "La semana pasada que no tenía trabajo - Ayudó como voluntario/a",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd026",
+      "label": "La semana pasada que no tenía trabajo - Realizó trabajo agrícola, cría animales o pesca",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd027",
+      "label": "La semana pasada que no tenía trabajo - Realizó manualidades o tejidos para la venta",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd028",
+      "label": "La semana pasada que no tenía trabajo - Ayudó en algún negocio familiar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd029",
+      "label": "La semana pasada que no tenía trabajo - Dio clases particulares, tareas dirigidas pagadas",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd0210",
+      "label": "La semana pasada que no tenía trabajo - Realizó venta de productos por internet, catálogo o venta directa",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd0211",
+      "label": "La semana pasada que no tenía trabajo - Otro (especificar)",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sd03",
+      "label": "El principal motivo por el que usted está sin trabajo es:",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "sp01",
+      "label": "En general, ¿cómo considera usted que funcionan las instituciones que brindan servicios públicos en Ecuador?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ced01a",
+      "label": "Tiene cédula de identidad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "nnivins",
+      "label": "Nivel de instrucción",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ingrl",
+      "label": "Ingreso Laboral",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ingpc",
+      "label": "Ingreso per cápita",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "pobreza",
+      "label": "Pobreza",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "epobreza",
+      "label": "Extrema Pobreza",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "condact",
+      "label": "Condición de actividad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "empleo",
+      "label": "Población con empleo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "desempleo",
+      "label": "Población con desempleo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "secemp",
+      "label": "Sectores de los Empleados (clasificación para >= 15 años)",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "grupo1",
+      "label": "Grupo de Ocupación CIUO8 (población ocupada de 15 años y más)",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "rama1",
+      "label": "Rama de Actividad CIIU 4.1 (población ocupada de 15 años y más)",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "id_persona",
+      "label": "Identificador de persona",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi01",
+      "label": "Vía de acceso principal a la vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi02",
+      "label": "Tipo de vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi03a",
+      "label": "Material del techo o cubierta",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi03b",
+      "label": "Estado del techo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi04a",
+      "label": "Material del piso",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi04b",
+      "label": "Estado del piso",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi05a",
+      "label": "Material de las paredes",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi05b",
+      "label": "Estado de las paredes",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi06",
+      "label": "Número de cuartos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi07",
+      "label": "Número de dormitorios",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi07a",
+      "label": "Número de cuartos para negocio",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi07b",
+      "label": "Dispone este hogar de un cuarto o espacio exclusivo para cocinar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi08",
+      "label": "Material con que cocinan",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi09",
+      "label": "Tipo de servicio higiénico",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi09a",
+      "label": "Puesto que mencionó que NO TIENE Servicio Higiénico, los miembros del hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi09b",
+      "label": "Qué tipo de instalación sanitaria cercana y/o prestada utiliza principalmente el hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi10",
+      "label": "De dónde obtiene el agua",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi101",
+      "label": "Tiene medidor de agua",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi102",
+      "label": "El agua que obtiene  es de la junta de agua",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi10a",
+      "label": "El agua que recibe la vivienda es",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi11",
+      "label": "El servicio de ducha es",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi12",
+      "label": "Tipo de alumbrado",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi13",
+      "label": "Cómo eliminan la basura",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi14",
+      "label": "Forma de tenencia de la vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi141",
+      "label": "Cuál es el valor que paga/ pagaria mensualmente por el arriendo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi142",
+      "label": "En el valor que paga por el arriendo se incluye el pago por el servicio de agua",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi143",
+      "label": "En el valor que paga por el arriendo se incluye el pago por el servicio de luz",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi144",
+      "label": "Tiene relación de parentesco con el propietario de la vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1511",
+      "label": "¿Tiene este hogar-Vehículos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1521",
+      "label": "Cuántos tiene-Vehículos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1512",
+      "label": "¿Tiene este hogar-Motos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1522",
+      "label": "Cuántos tiene-Motos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1531",
+      "label": "Abastecimiento (combustible-electricidad) utiliza con mayor frecuencia- Súper",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1541",
+      "label": "Cuánto gastó por combustible o electricidad-Super",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1532",
+      "label": "Abastecimiento (combustible-electricidad) utiliza con mayor frecuencia- Extra",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1542",
+      "label": "Cuánto gastó por combustible o electricidad- Extra",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1533",
+      "label": "Abastecimiento (combustible-electricidad) utiliza con mayor frecuencia-Diésel",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1543",
+      "label": "Cuánto gastó por combustible o electricidad-Diesel",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1534",
+      "label": "Abastecimiento (combustible-electricidad) utiliza con mayor frecuencia-  Ecopaís",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1544",
+      "label": "Cuánto gastó por combustible o electricidad-Ecopaís",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1535",
+      "label": "Abastecimiento (combustible-electricidad) utiliza con mayor frecuencia- Electricidad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1545",
+      "label": "Cuánto gastó por combustible o electricidad-Electricidad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1536",
+      "label": "Abastecimiento (combustible-electricidad) utiliza con mayor frecuencia- Gas",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vi1546",
+      "label": "Cuánto gastó por combustible o electricidad-Gas",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: Diccionario de Datos_consumidor_2025_12.ODS",
+    "  1 sheet(s): Hoja1",
+    "  Sheet 'Hoja1': table starts at row 0",
+    "    name_col fallback → '0'",
+    "    label_col fallback → '1'",
+    "    → 34 variables",
+    "Source: Diccionario de Datos_persona_2025_12.ODS",
+    "  1 sheet(s): Hoja1",
+    "  Sheet 'Hoja1': table starts at row 0",
+    "    name_col fallback → '0'",
+    "    label_col fallback → '1'",
+    "    → 150 variables",
+    "  Duplicate variable 'Institución' — later file takes precedence",
+    "  Duplicate variable 'Identificador' — later file takes precedence",
+    "  Duplicate variable 'Documento Referencia' — later file takes precedence",
+    "  Duplicate variable 'Nombre' — later file takes precedence",
+    "  Duplicate variable 'Descripción' — later file takes precedence",
+    "  Duplicate variable 'Nombre del campo' — later file takes precedence",
+    "  Duplicate variable 'area' — later file takes precedence",
+    "  Duplicate variable 'ciudad' — later file takes precedence",
+    "  Duplicate variable 'conglomerado' — later file takes precedence",
+    "  Duplicate variable 'panelm' — later file takes precedence",
+    "  Duplicate variable 'vivienda' — later file takes precedence",
+    "  Duplicate variable 'hogar' — later file takes precedence",
+    "  Duplicate variable 'estrato' — later file takes precedence",
+    "  Duplicate variable 'fexp' — later file takes precedence",
+    "  Duplicate variable 'upm' — later file takes precedence",
+    "  Duplicate variable 'id_vivienda' — later file takes precedence",
+    "  Duplicate variable 'id_hogar' — later file takes precedence",
+    "  Duplicate variable 'periodo' — later file takes precedence",
+    "Source: Diccionario de Datos_vivienda_hogar_2025_12.ODS",
+    "  1 sheet(s): Hoja1",
+    "  Sheet 'Hoja1': table starts at row 0",
+    "    name_col fallback → '0'",
+    "    label_col fallback → '1'",
+    "    → 62 variables",
+    "  Duplicate variable 'Institución' — later file takes precedence",
+    "  Duplicate variable 'Identificador' — later file takes precedence",
+    "  Duplicate variable 'Documento Referencia' — later file takes precedence",
+    "  Duplicate variable 'Nombre' — later file takes precedence",
+    "  Duplicate variable 'Descripción' — later file takes precedence",
+    "  Duplicate variable 'Nombre del campo' — later file takes precedence",
+    "  Duplicate variable 'area' — later file takes precedence",
+    "  Duplicate variable 'ciudad' — later file takes precedence",
+    "  Duplicate variable 'conglomerado' — later file takes precedence",
+    "  Duplicate variable 'panelm' — later file takes precedence",
+    "  Duplicate variable 'vivienda' — later file takes precedence",
+    "  Duplicate variable 'hogar' — later file takes precedence",
+    "  Duplicate variable 'estrato' — later file takes precedence",
+    "  Duplicate variable 'fexp' — later file takes precedence",
+    "  Duplicate variable 'upm' — later file takes precedence",
+    "  Duplicate variable 'id_vivienda' — later file takes precedence",
+    "  Duplicate variable 'id_hogar' — later file takes precedence",
+    "  Duplicate variable 'periodo' — later file takes precedence"
+  ]
+}

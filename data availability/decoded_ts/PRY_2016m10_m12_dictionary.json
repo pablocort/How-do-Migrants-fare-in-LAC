@@ -1,0 +1,3163 @@
+{
+  "iso3": "PRY",
+  "survey": "EPH",
+  "period": "m10_m12",
+  "year": 2016,
+  "source_files": [
+    "dicc2016.xls"
+  ],
+  "doc_type": "XLSX",
+  "tables": [
+    "EPH 2016"
+  ],
+  "variables": [
+    {
+      "name": "R01_EPH16",
+      "label": "SECCIÓN 2. CARACTERÍSTICA DE LA VIVIENDA E INVENTARIO DE BIENES DURADEROS",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "R02_EPH16",
+      "label": "SECCIÓN 1. CARACTERÍSTICAS DE LA POBLACIÓN",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "R03_EPH16",
+      "label": "SECCIÓN 7. ACTIVIDAD INDEPENDIENTE DEL HOGAR",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "R04_EPH16",
+      "label": "SECCIÓN 8. PARTE A - INFORMACIÓN SOBRE LOTES",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "R05_EPH16",
+      "label": "SECCIÓN 8. PARTE B - MAQUINARIAS E IMPLEMENTOS AGRÍCOLAS",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "R06_EPH16",
+      "label": "SECCIÓN 8. PARTE C - TENENCIA DE ANIMALES",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "R07_EPH16",
+      "label": "SECCIÓN 8. PARTE C - PRODUCCIÓN PECUARIA",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "R08_EPH16",
+      "label": "SECCIÓN 8. PARTE D - CULTIVOS AGRÍCOLAS",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "R09_EPH16",
+      "label": "SECCIÓN 8. PARTE E - PROCESAMIENTO DE PRODUCTOS AGROPECUARIOS Y FORESTALES",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "R10_EPH16",
+      "label": "SECCIÓN 8. PARTE F - INSUMOS",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "R11_EPH16",
+      "label": "SECCIÓN 8. PARTE G - ALQUILER DE RECURSOS",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "R13_EPH16",
+      "label": "SECCIÓN 6. PARTE E - INGRESO POR REMESAS DEL EXTERIOR DEL PAíS",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "UPM",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "N° de Vivienda",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "N° de Hogar",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Departamentos representativos",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Área de residencia",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "VIVIENDA",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Hombres",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Mujeres",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Total de miembros",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Tipo de vivienda",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.a",
+      "label": "N° de piezas",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.b",
+      "label": "N° de dormitorios",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Tipo de pared",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Tipo de piso",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Tipo de techo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Agua utilizada en la vivienda",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Normalmente ¿le provee agua al hogar las 24 horas ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7A",
+      "label": "El agua que utiliza de su vivienda llega a través de ….",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Agua para beber en el hogar",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "El agua que beben llega a su vivienda a través de….",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Dispone de luz eléctrica ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.a",
+      "label": "Tiene línea telefónica fija ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.b",
+      "label": "Algún miembro del hogar tiene celular?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Tiene baño ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "El baño se desagua en…",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "14.a",
+      "label": "Tiene pieza para cocinar ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "14.b",
+      "label": "Para cocinar usa principalmente…",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Cómo elimina habitualmente la basura ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "Esta vivienda…",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "El lote o terreno donde está construída la vivienda…",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "El mes pasado. Cuánto pagó el hogar por el alquiler ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "Si tuviera que alquilar esta vivienda, cuánto estima que le pagarían por mes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "20",
+      "label": "Si usted vendiera esta vivienda, a qué precio podría venderla ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "En los últimos 12 meses. Algún miembro del hogar pagó por impuesto inmobiliario, tasas municipales, tasa de cementerio, etc. ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "23",
+      "label": "El hogar cuenta con…",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "23.a",
+      "label": "Computador/Notebook",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "23.a",
+      "label": "Tableta o dispositivo similar",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "23.b",
+      "label": "Tiene este hogar internet ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "23.c",
+      "label": "El tipo de conexión es…",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "23.c.cable o wifi",
+      "label": "Internet por cable o por wifi",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "23.c.modem USB",
+      "label": "Internet por modem USB",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24",
+      "label": "Este hogar tiene ...",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.01.radio",
+      "label": "Radio",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.02.televisor",
+      "label": "Televisor",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.03.heladera",
+      "label": "Heladera",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.04.cocina",
+      "label": "Cocina a gas",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.04A.cocina",
+      "label": "Cocina eléctrica",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.05.lavarropas",
+      "label": "Máquina lavarropas",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.06.video",
+      "label": "Video/DVD",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.07.termocalefón",
+      "label": "Termocalefón",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.08.acondicinoador",
+      "label": "Acondicionador de aire",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.09.antena",
+      "label": "Antena parabólica",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.10.TV cable",
+      "label": "TV cable",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.11.mircoondas",
+      "label": "Horno microondas",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.12.horno eléctrico",
+      "label": "Horno eléctrico",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.13.autos",
+      "label": "Automóvil, camión o camioneta",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24.14.motocicleta",
+      "label": "Motocicleta",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "POBLACIÓN",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "N° de línea de la persona",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Edad del miembro del hogar",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Relación de parentesco",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Es miembro del hogar ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.a",
+      "label": "Tiene cédula de identidad ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.b",
+      "label": "Se anotó su nacimiento en el Registro Civil",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.conyuge",
+      "label": "N° de línea del cónyuge",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.padre",
+      "label": "N° de línea del padre",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.madre",
+      "label": "N° de línea de la madre",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Sexo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8.día",
+      "label": "Día de nacimiento",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8.mes",
+      "label": "Mes de nacimiento",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8.año",
+      "label": "Año de nacimiento",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Estado Civil",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "La persona responde por Si misma ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.A",
+      "label": "N° de línea de la persona que responde",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Durante los últimos 7 días. Ha realizado algún trabajo ya sea como empleado, cuenta propia, empleador (patrón) o como familiar no remunerado ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Durante los últimos 7 días. Trabajó al menos 1 hora, por cuenta propia, como patrón o empleado en una empresa o negocio no agropecuaria o al menos 7 horas en la chacra o en el cuidado de sus animales?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Tiene algún trabajo o una ocupación como obrero, empleado, cuenta propia o empleador (patrón) aunque no lo haya realizado en los últimos 7 días, pudiendo reincorporarse al empleo ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4A",
+      "label": "Cuántos trabajos/empleos tenía en los últimos 7 días ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Si se le hubiera ofrecido trabajo en los últimos 7 días, habría podido empezar a trabajar ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Hizo algo para conseguir trabajo en los últimos 7 días ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Hizo algo para conseguir trabajo en los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Qué hizo para conseguir trabajo los últimos 7 días ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.años",
+      "label": "Años que está buscando trabajo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.meses",
+      "label": "Meses que está buscando trabajo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.semanas",
+      "label": "Semanas que está buscando trabajo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Ha trabajado anteriormente ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13.código y descripción",
+      "label": "Código y descripción de la ocupación que desempeñaba en su último trabajo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "14.código y descripción",
+      "label": "Código y descripción de la rama de actividad del establecimiento donde trabajaba",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "En este trabajo era…",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "Cuántas personas aproximadamente trabajan en el establecimiento donde trabajaba ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "17.años",
+      "label": "Años que está sin trabajo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "17.meses",
+      "label": "Meses que está sin trabajo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "17.semanas",
+      "label": "Semanas que está sin trabajo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "Cuál es la razón principal por la que dejó su última ocupación",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.código",
+      "label": "Código ocupación principal en los últimos 7 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.código",
+      "label": "Código rama de actividad ocupación principal",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.lunes",
+      "label": "Horas trabajó efectivamente el día lunes (horas, minutos)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.martes",
+      "label": "Horas trabajó efectivamente el día martes",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.miércoles",
+      "label": "Horas trabajó efectivamente el día miércoles",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.jueves",
+      "label": "Horas trabajó efectivamente el día jueves",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.viernes",
+      "label": "Horas trabajó efectivamente el día viernes",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.sábado",
+      "label": "Horas trabajó efectivamente el día sábado",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.domingo",
+      "label": "Horas trabajó efectivamente el día domingo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "La cantidad de horas que trabajó en los últimos 7 días, es habitual",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Razón principal por la que no trabajó el número habitual de horas los últimos 7 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Horas que trabaja habitualmente en la semana en esta ocupación",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7.años",
+      "label": "Años de su vida que ha trabajado en ésta ocupación",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7.meses",
+      "label": "Meses de su vida que ha trabajado en ésta ocupación",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7.semanas",
+      "label": "Semanas de su vida que ha trabajado en ésta ocupación",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Cuántas personas aproximadamente trabajan en el establecimiento donde trabaja ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9.años",
+      "label": "Años que trabaja en esta empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9.meses",
+      "label": "Meses que trabaja en esta empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9.semanas",
+      "label": "Semanas que trabaja en esta empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Aporta a una caja de jubilación por esta ocupación ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "A cuál caja aporta ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "En este trabajo es…",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "¿Dispone de vacaciones anuales pagadas ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "¿Dispone semanalmente de día/s de descanso?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Forma parte de algún sindicato o asociación de empleados en este trabajo ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "16. guaraníes",
+      "label": "Pago neto o líquido que recibió",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "16.unidad de tiempo",
+      "label": "Unidad de tiempo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "16.número de días",
+      "label": "N° de días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "16.total mensual",
+      "label": "Total mensual",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "Recibió sueldos o salarios adicionales en esta ocupación en el último pago ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "18.guaraníes",
+      "label": "Cuántos guaraníes monto adicional: horas extras,comisión,etc. recibió?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "18.unidad de tiempo",
+      "label": "Unidad de tiempo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "18.guaraníes",
+      "label": "Cuántos guaraníes monto adicional: Aguinaldo recibió?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "18.unidad de tiempo",
+      "label": "Unidad de tiempo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "Recibió comidas y/o bebidas gratis del patrón o empleador en el último mes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "20.guaraníes",
+      "label": "Cuánto estima el valor en Guaraníes?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "20.unidad de tiempo",
+      "label": "Unidad de tiempo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "20.número de días",
+      "label": "N° de días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "20.total mensual",
+      "label": "Total mensual",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Ocupa o alquila una casa, pieza o departamento de la empresa ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "22",
+      "label": "Cuánto paga por mes por el alquiler ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "23",
+      "label": "Cuánto tendría que pagar por si alquilara de otro ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "24",
+      "label": "Recibe en el año uniforme o ropa gratis del patrón o empleador ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "25",
+      "label": "En cuánto estima su valor por año ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "26",
+      "label": "Bajo qué tipo de contrato trabaja en esta ocupación ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "27",
+      "label": "Quién/es conduce/n o maneja/n el establecimiento o negocio",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "27.1",
+      "label": "Persona N°",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "27.2",
+      "label": "Persona N°",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "28",
+      "label": "Tiene RUC el establecimiento o negocio en donde trabaja ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "29",
+      "label": "Cuál es la condición jurídica del establecimiento o negocio dónde trabaja?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "30",
+      "label": "El establecimiento o negocio donde trabaja, emite factura legal a sus clientes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "31",
+      "label": "Además de este trabajo, tiene o tenía otro trabajo durante los últimos 7 días ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.código",
+      "label": "Código ocupación secundaria en los últimos 7 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.código",
+      "label": "Código rama de actividad ocupación secundaria",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Cuántas horas trabajó efectivamente en esta ocupación durante los últimos 7 días ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "La cantidad de horas que trabajó es habitual ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Cuántas horas trabaja habitualmente en una semana en esta ocupación",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Cuántas personas aproximadamente trabajan en el establecimiento donde trabaja",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Aporta a una caja de jubilación por este trabajo ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "A cuál caja aporta ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "En este trabajo es…",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Quién/es conduce/n o maneja/n el establecimiento o negocio",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10.1",
+      "label": "Persona N°",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10.2",
+      "label": "Persona N°",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.guaraníes",
+      "label": "Cuál fue el monto del último pago en esta otra ocupación en efectivo y en especie ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.unidad de tiempo",
+      "label": "Unidad de tiempo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11. número de días",
+      "label": "N° de días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.total mensual",
+      "label": "Total mensual",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Recibió sueldos o salarios adicionales en este trabajo en el último pago?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13.guaraníes",
+      "label": "Cuántos guaraníes monto adicional: horas extras,comisión,etc. recibió?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13.unidad de tiempo",
+      "label": "Unidad de tiempo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13.guaraníes",
+      "label": "Cuántos guaraníes Monto adicional: Aguinaldo recibió?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13.unidad de tiempo",
+      "label": "Unidad de tiempo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Bajo qué tipo de contrato trabaja en esta ocupación ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "14a",
+      "label": "Tiene RUC el establecimiento o negocio en donde trabaja ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "14b",
+      "label": "Cuál es la condición jurídica del establecimiento o negocio dónde trabaja?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "14c",
+      "label": "El establecimiento o negocio donde trabaja, emite factura legal a sus clientes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "N° de otras ocupaciones que tuvo en los últimos 7 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.código",
+      "label": "Código otra ocupación en los últimos 7 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.código",
+      "label": "Código otra rama de actividad ocupación",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "Horas que trabajó efectivamente en estas otras ocupaciones",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "18 A",
+      "label": "La cantidad de horas que trabajó es habitual ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "18 B",
+      "label": "Cuántas horas trabaja habitualmente en una semana en esta ocupación",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "En este trabajo es…",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "En los últimos 7 días estuvo disponible para trabajar más horas ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Cuántas horas más tuvo disponible para trabajar ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Desea mejorar su/sus ocupación/nes o cambiar o adicionar otra ocupación ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Buscó algún otro trabajo para cambiar o adicionar al que ya tiene ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Cuál es la razón principal por al que desea mejorar o cambiar o adicionar su empleo actual ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.A",
+      "label": "Ingreso mensual Ocupación Principal declarado",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.B",
+      "label": "Ingreso mensual Ocupación Secundaria declarado",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.C",
+      "label": "Ingreso mensual Otras Ocupaciones declarado",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.D",
+      "label": "Ingreso mensual Alquileres o Rentas neto declarado",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.E",
+      "label": "Ingreso mensual Intereses, Dividendos o Utilidades declarado",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.F",
+      "label": "Ingreso mensual Ayuda Familiar del país declarado",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.G",
+      "label": "Ingreso mensual Prestaciones por divorcios o cuidado de hijos",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.H",
+      "label": "Ingreso mensual por jubilacion",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.I",
+      "label": "Ingreso mensual Pretacion Estado monetario Tekoporá",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.J",
+      "label": "Ingreso mensual Pension(ex combatiente,viudas,etc)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.K",
+      "label": "Ingresos de Estado (Monetario: Adulto Mayor) declarado",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.L",
+      "label": "Ingresos de Estado (Víveres de alguna Institución pública)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.M",
+      "label": "Otros ingresos mensuales declarado",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.N",
+      "label": "¿Este hogar recibió\nbonos para almuerzo\nescolar?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.NC",
+      "label": "¿Cuántos bonos recibió?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.O",
+      "label": "¿Qué cantidad de bonos canjeo?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.A",
+      "label": "Ingreso mensual que habitualmente recibe de la actividad principal",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.B",
+      "label": "Ingreso mensual que habitualmente recibe de la actividad secundaria",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.C",
+      "label": "Ingreso mensual que habitualmente recibe de todas las otras actividades",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.D",
+      "label": "Ingreso mensual que habitualmente recibe por alquileres o rentas neto",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.E",
+      "label": "Ingreso mensual que habitualmente recibe por intereses, dividendos o utilidades",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.F",
+      "label": "Ingreso mensual que habitualmente recibe como ayuda familiar del país",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.G",
+      "label": "Ingreso mensual Prestaciones por divorcios o cuidado de hijos",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.H",
+      "label": "Ingreso mensual por jubilacion",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.I",
+      "label": "Ingreso mensual Pretacion Estado monetario Tekoporá",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.J",
+      "label": "Ingreso mensual Pension(ex combatiente,viudas,etc)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.K",
+      "label": "Ingresos de Estado (Monetario: Adulto Mayor) declarado",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.L",
+      "label": "Ingresos de Estado (Víveres de alguna Institución pública)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.M",
+      "label": "Ingreso mensual que habitualmente recibe por otros ingresos",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.N",
+      "label": "Ingresos de Estado (bonos para almuerzo escolar)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.A",
+      "label": "Ingreso mensual que habitualmente recibe de ayuda familiar del exterior",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.D",
+      "label": "Ingreso mensual que habitualmente recibe de ayuda familiar del exterior",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "EDUCACIÓN",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "N° de línea",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Idioma que habla en la casa la mayor parte del tiempo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Sabe leer y escribir ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Asiste o asistió alguna vez a una institución de enseñanza formal ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5 y 4",
+      "label": "Nivel y grado más alto que aprobó",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Qué titulo o diploma obtuvo por el nivel formal más alto que curso ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Asiste  actualmente a una institución de enseñanza formal ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "La institución o el programa donde asiste es del sector",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Por qué no asiste o dejó de asistir ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.matrícula",
+      "label": "Durante el presente año escolar recibió gratuitamente matrícula ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.uniformes",
+      "label": "Durante el presente año escolar recibió gratuitamente uniformes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.libros/textos",
+      "label": "Durante el presente año escolar recibió gratuitamente libros y/o textos ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.útiles",
+      "label": "Durante el presente año escolar recibió gratuitamente útiles ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.comidas",
+      "label": "Durante el presente año escolar recibió gratuitamente comidas ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11.otros",
+      "label": "Durante el presente año escolar recibió gratuitamente otros ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Realizó algún curso no formal del país para poder trabajar, ejercer un oficio o mejorar su nivel cultural ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Qué tipo de curso fue el más importante que hizo ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Terminó este curso ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Qué institución dictó este curso que realizó ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "SALUD",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "N° de línea",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.a",
+      "label": "Actualmente tiene algún seguro médico vigente en el país ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.b",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Está asegurado en IPS como ...",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Durante los últimos 90 días, estuvo enfermo o accidentado ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Consultó a algún médico, curandero, etc. y/o algún establecimiento de salud por esa enfermedad o accidente más reciente que tuvo ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Por qué no consultó a nadie para tratar su enfermedad o accidente ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "A quién consultó la última vez por la enfermedad o accidente más reciente que tuvo en los últimos 90 días ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "A qué establecimiento de salud acudió la última vez por la enfermedad o accidente más reciente ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Recibió medicamentos o remedios recetados del IPS ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Se internó por la enfermedad o accidente más reciente ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "ACTIVIDAD INDEPENDIENTE DEL HOGAR",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "N° de línea",
+      "label": "Línea de empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.código",
+      "label": "Actividad Económica por Cuenta Propia / Patrón",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Quién / es conduce / n o maneja / n el establecimiento o negocio",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.a",
+      "label": "Miembro del hogar que trabaja para la empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.b",
+      "label": "Miembro del hogar que trabaja para la empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.c",
+      "label": "Miembro del hogar que trabaja para la empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.d",
+      "label": "Miembro del hogar que trabaja para la empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.e",
+      "label": "Miembro del hogar que trabaja para la empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Lugar donde funciona la empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.años",
+      "label": "Años que funciona la empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.meses",
+      "label": "Meses que funciona la empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.días",
+      "label": "Días que funciona la empresa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Meses que funcionó la empresa o negocio durante los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Cantidad de trabajadores remunerados que ha tenido la empresa durante los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Cuánto dinero recibió en dinero o en especie durante el último mes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Produce o fabrica algunos productos la empresa ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Cuál fue el valor de las materias primas durante el último mes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Compra la empresa algunos productos para la venta ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Cuánto gastó la empresa en la compra de los productos o bienes para la venta durante el último mes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "La empresa ofrece servicios ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Cuánto gastó la empresa en sueldos o salarios para emplear la mano de obra durante el último mes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Cuál fue el valor de lo producido o comprado para la venta que fue destinado al consumo del hogar durante el último mes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Cuánto gastó la empresa en los costos financieros durante el último mes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Cuánto gastó la empresa en los costos de funcionamiento durante el último mes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Cuánto gastó la empresa en concepto de impuestos municipales y/o fiscales durante el último mes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Cuánto gastó la empresa en otros costos durante el último mes ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "INFORMACIÓN SOBRE LOTES",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.persona",
+      "label": "N° de persona entrevistada",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Trabaja o Trabajó algún miembro del hogar en actividades agropecuarias en forma independiente ya sea como patrón o empleador o cuenta propia o familiar no remunerado durante los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.a",
+      "label": "Miembro del hogar que trabaja en actividad agropecuaria",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.b",
+      "label": "Miembro del hogar que trabaja en actividad agropecuaria",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.c",
+      "label": "Miembro del hogar que trabaja en actividad agropecuaria",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.d",
+      "label": "Miembro del hogar que trabaja en actividad agropecuaria",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.e",
+      "label": "Miembro del hogar que trabaja en actividad agropecuaria",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.f",
+      "label": "Miembro del hogar que trabaja en actividad agropecuaria",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Tienen lotes propios",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Cuántas hectáreas tiene en total los lotes propios ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Durante los últimos 12 meses dieron alguna parcela o lote de propiedad del hogar en .... ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6.venta",
+      "label": "Hectáreas que dieron en venta",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6.alquiler",
+      "label": "Hectáreas que dieron en alquiler",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6.total",
+      "label": "Total hectáreas vendidas + alquiladas",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7.venta",
+      "label": "Monto que le dieron por la venta",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7.alquiler",
+      "label": "Monto que le dieron por el alquiler",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7.total",
+      "label": "Monto total que le dieron por la venta + alquiler",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Han comprado algún lote en los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Cuántas hectáreas han comprado en total ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Han alquilado lotes de terceros durante los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Cuántas hectáreas tiene en total los lotes alquilados ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Gasto total por el alquiler de lotes durante los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Han usado lotes cedidos durante los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "Cuántas hectáreas tiene en total los lotes cedidos ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Han usado lotes como ocupante durante los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "Cuántas hectáreas tiene en total el lote usado como ocupante ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "Han usado lotes municipales y/o comunales durante los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "Cuántas hectáreas tiene en total los lotes municipales y/o comunales usados ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Tiene el hogar maquinarias, equipos o implementos de su propiedad ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13.campo natural",
+      "label": "Superficie (hectáreas) de la tierra bajo control del hogar que ha sido usada como campo natural",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13.pastura cultivada",
+      "label": "Superficie (hectáreas) de la tierra bajo control del hogar que ha sido usada como pastura cultivada",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "13.forestal",
+      "label": "Superficie (hectáreas) de la tierra bajo control del hogar que ha sido usada como campo forestal",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Han tenido en este hogar algún cultivo agrícola que han cosechado en los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Superficie (hectáreas) de la tierra bajo control del hogar que han usado para cultivo durante los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Han procesado algún producto agropecuario o forestal producido en el hogar durante los últimos 30 días ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "MAQUINARIAS E IMPLEMENTOS AGRÍCOLAS",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Línea",
+      "label": "N° de línea",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.código",
+      "label": "Código de maquinaria",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.cantidad",
+      "label": "Cantidad de maquinaria",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Han alquilado a otros durante los últimos 30 días ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.modo alquiler",
+      "label": "Modo cómo ha alquilado la maquinaria durante los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.cantidad",
+      "label": "Cantidad de maquinaria alquilada durante los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Cuánto ha cobrado en concepto de alquiler ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Total guaraníes recibido en concepto de alquiler en los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "ANIMALES",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Línea",
+      "label": "N°  de línea y código de animal",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "En los últimos 90 días el hogar ha tenido … ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Cantidad de animales que tienen actualmente",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Cuántos animales de propiedad del hogar han vendido durante los últimos 90 días ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Cuánto en total le dieron por la venta de los animales ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Cuántos animales han faenado para el consumo propio del hogar en los últimos 90 días ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Cuántos animales han comprado durante los últimos 90 días ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Cuánto en total gastaron por la compra de los animales ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "PRODUCCIÓN PECUARIA",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Línea",
+      "label": "N° de línea y código del producto",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Han producido el producto pecuario ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9.cantidad",
+      "label": "Cantidad producida en los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9.unidad",
+      "label": "Unidad de producción",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Cantidad vendida en los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Total guaraníes le dieron por la venta del producto",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "12.consumo",
+      "label": "Cantidad consumida en el hogar en los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "12.procesamiento",
+      "label": "Cantidad procesada en el hogar en los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "CULTIVOS AGRÍCOLAS",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Línea",
+      "label": "N° de línea",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.código",
+      "label": "Código del cultivo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Cuántas veces han cultivado en los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.hectárea",
+      "label": "Superficie (hectárea) cultivada en los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.situación",
+      "label": "Situación del cultivo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6.cantidad",
+      "label": "Cantidad total cosechada del cultivo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6.unidad",
+      "label": "Unidad de medida",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6.estado",
+      "label": "Estado de la cosecha",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7.cantidad",
+      "label": "Cantidad vendida en los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7.unidad",
+      "label": "Unidad de medida",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Precio de venta del cultivo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Total percibido por la venta en los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10.alimentación humana",
+      "label": "Cantidad destinada a la alimentación humana en los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10.unidad",
+      "label": "Unidad de medida",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10.alimentación animal",
+      "label": "Cantidad destinada a la alimentación animal en los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10.unidad",
+      "label": "Unidad de medida",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10.procesamiento",
+      "label": "Cantidad destinada al procesamiento en los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10.unidad",
+      "label": "Unidad de medida",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10.otro destino",
+      "label": "Cantidad destinada a otro uso en los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "10.unidad",
+      "label": "Unidad de medida",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "PROCESAMIENTO DE PRODUCTOS AGROPECUARIOS Y FORESTALES",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Línea",
+      "label": "N° de líneas",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.código",
+      "label": "Código del producto",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.cantidad",
+      "label": "Cantidad total producida durante los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.unidad",
+      "label": "Unidad de medida",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Cantidad de la producción total que han vendido en los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Precio de venta del producto",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Total percibido por la venta del producto en los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Cantidad de la producción total destinado al consumo del hogar en los últimos 30 días",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "INSUMOS",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Línea",
+      "label": "N° de línea y código de insumos",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.cantidad",
+      "label": "Recibió como donación de parte del gobierno u ONG's en los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "De quien recibió la donación en los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.cantidad",
+      "label": "Cantidad del insumo comprado en los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3.unidad",
+      "label": "Unidad de medida",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Gasto total destinado a la compra del insumo en los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "ALQUILER DE RECURSOS DE TERCEROS Y OTROS GASTOS",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Línea",
+      "label": "N° de línea y código de recursos de terceros utilizados en los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.cantidad",
+      "label": "Cantidad de recursos utilizados en los últimos 12 meses",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1.unidad",
+      "label": "Unidad de medida",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.efectivo",
+      "label": "Cuánto gastaron en efectivo en total durante los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.alimentación",
+      "label": "Cuánto gastaron en alimentación en total durante los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.producto",
+      "label": "Cuánto gastaron en productos en total durante los últimos 12 meses ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2.total",
+      "label": "Cuánto gastaron en total durante los últimos 12 meses por el uso de recursos de terceros ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "TECNOLOGÍAS DE LA INFOMACIÓN Y LA COMUNICACIÓN",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Ha utilizado algún teléfono celular ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Ha utilizado alguna computadora, notebook, tableta o dispositivo similar ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Utilizó Internet ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Utilizó Internet en …",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.01",
+      "label": "El hogar",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.02",
+      "label": "El trabajo",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.03",
+      "label": "Institución Educativa",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.04",
+      "label": "La casa de otra persona",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.05",
+      "label": "Sitios comerciales (CYBER)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.06",
+      "label": "Local de acceso comunitario/público",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.07",
+      "label": "En cualquier lugar a través de un teléfono celular",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.08",
+      "label": "En cualquier lugar a través de otros dispositivos",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "4.09",
+      "label": "Otro",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Utilizó Internet para …",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.01",
+      "label": "Redes sociales",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.02",
+      "label": "Correos electrónicos",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.03",
+      "label": "Mensajería instantanea",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.04",
+      "label": "Comunicaciones telefónicas",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.05",
+      "label": "Productos y servicios",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.06",
+      "label": "Salud y servicios de salud",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.07",
+      "label": "Servicios de instituciones del gobierno",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.08",
+      "label": "Comprar y/o vender productos o servicios",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.09",
+      "label": "Transacciones bancarias",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.10",
+      "label": "Educación o capacitación",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.11",
+      "label": "Leer o descargar periódicos, revistas",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.12",
+      "label": "Usar/descargar juegos, videos, músicas, películas, programas informáticos",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "5.13",
+      "label": "Otra",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Con qué frecuencia utilizó Internet ?",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "REMESAS DEL EXTERIOR DEL PAÍS",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "Pregunta",
+      "label": "",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Meses del año",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "N° de línea de la persona que recibe (1)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Monto mensual en Gs. (1)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Medio por el que recibió la remesa (1)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "País de donde procede la remesa (1)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "N° de línea de la persona que recibe (2)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Monto mensual en Gs. (2)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Medio por el que recibió la remesa (2)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "País de donde procede la remesa (2)",
+      "type": "",
+      "table": "EPH 2016",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: dicc2016.xls (1 sheet(s))",
+    "Sheet 'EPH 2016': UNKNOWN layout — best-effort extraction",
+    "  → 449 variables (best-effort — verify manually)"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "iso3": "COL",
+  "survey": "GEIH",
+  "period": "t4",
+  "year": 2020,
+  "source_files": [
+    "922020 GEIH_IV_TRIM_Formulario.pdf"
+  ],
+  "doc_type": "QUESTIONNAIRE_PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "Nombre(s) y apellido(s) de la persona:",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "SEXO:",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "¿La madre de… reside en este hogar?",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "¿El padre de… reside en este hogar?",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "¿A cuál pueblo o etnia indígena pertenece...?",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "¿El contrato es verbal o escrito?",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Tipo de identificación:",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Número de identificación:",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "¿Usted se considera pobre?\nSólo para jefes(as) de hogar",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  112 pages total",
+    "  → 9 variables extracted"
+  ]
+}

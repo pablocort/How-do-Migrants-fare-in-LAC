@@ -1,0 +1,69 @@
+{
+  "iso3": "BLZ",
+  "survey": "LFS",
+  "period": "m4",
+  "year": 2018,
+  "source_files": [
+    "LFS 14 Years and Over Questionnaire 2018.pdf"
+  ],
+  "doc_type": "QUESTIONNAIRE_PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "2. Self-employed without paid help",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "3. Paid employee - Government",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "4. Paid employee - Quasi Gov’t",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "5. Paid employee - Private/NGO",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "6. Paid employee - International Organisation/Embassy",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "7. Unpaid family worker",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "9. DK/NS",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  6 pages total",
+    "  → 7 variables extracted"
+  ]
+}

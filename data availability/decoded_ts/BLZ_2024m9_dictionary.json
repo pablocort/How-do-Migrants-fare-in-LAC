@@ -1,0 +1,1299 @@
+{
+  "iso3": "BLZ",
+  "survey": "LFS",
+  "period": "m9",
+  "year": 2024,
+  "source_files": [
+    "BLZ_2024m9.dta (variable metadata — no microdata loaded)"
+  ],
+  "doc_type": "DTA_METADATA",
+  "tables": [],
+  "variables": [
+    {
+      "name": "interview__key",
+      "label": "Interview key (identifier in XX-XX-XX-XX format)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "_v1",
+      "label": "Unique 32-character long identifier of the interview",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "district",
+      "label": "District",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Corozal",
+        "2": "Orange Walk",
+        "3": "Belize",
+        "4": "Cayo",
+        "5": "Stann Creek",
+        "6": "Toledo"
+      }
+    },
+    {
+      "name": "urban_rural",
+      "label": "Area",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Urban",
+        "2": "Rural"
+      }
+    },
+    {
+      "name": "hh1",
+      "label": "HH1.1: Dwelling type of the household",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Private house",
+        "2": "Apartment/Condominium",
+        "3": "Double House/Duplex",
+        "4": "Barracks",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh1b",
+      "label": "HH1B: Is your household the ONLY occupant of this private house?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh1c",
+      "label": "HH1C: Is your dwelling space shared with another family?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh1d",
+      "label": "HH1D: Is there a business operating inside or attached to this dwelling space",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes, inside this dwelling space.",
+        "2": "Yes, attached to this dwelling space.",
+        "3": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh2",
+      "label": "HH1.2: Type of occupancy of the dwelling",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Own / hire-purchase",
+        "2": "Lease",
+        "3": "Rent - Private",
+        "4": "Rent - Government",
+        "5": "Rent-free",
+        "6": "Squat",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh3",
+      "label": "HH3: Number of bedrooms the dwelling has",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh4a",
+      "label": "HH4A: Type of toilet facility household use",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Water closet linked to BWS sewer system",
+        "2": "Water closet linked to septic tank",
+        "3": "Pit latrine, ventilated and elevated",
+        "4": "Pit latrine, ventilated and not elevated",
+        "5": "Pit latrine, elevated and not ventilated",
+        "6": "Pit latrine, not ventilated and not elevated",
+        "7": "None",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh4b",
+      "label": "HH1.16d: Shared toilet facility with another household.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh5",
+      "label": "HH5: Main source of lighting used by the household.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Electricity from BEL",
+        "2": "Electricity from another source",
+        "5": "Gas/Kerosene Lamp",
+        "6": "Candle",
+        "8": "None",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh6",
+      "label": "HH6: Main type of fuel used for cooking.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Gas (Butane/biogas)",
+        "2": "Wood/charcoal",
+        "3": "Kerosene",
+        "4": "Electricity",
+        "5": "Does not Cook",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh7",
+      "label": "HH7: Household main source of water supply",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Public piped into dwelling",
+        "2": "Public piped into yard only",
+        "3": "Private piped into dwelling or yard",
+        "4": "Public standpipe",
+        "6": "Protected dug well",
+        "7": "Unprotected dug well",
+        "8": "Private catchments, not piped (vat, drum, water tank, etc.)",
+        "9": "River/Creek/Spring/Stream/Pond",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh8",
+      "label": "HH8: Household main source of drinking water",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Bottled/Purified water",
+        "2": "Public piped into dwelling or yard",
+        "3": "Private piped into dwelling or yard",
+        "4": "Public standpipe",
+        "5": "Protected dug well",
+        "6": "Unprotected dug well",
+        "7": "Private catchment, not piped (vat, drum, water tank, etc.)",
+        "8": "River/Creek/Spring/Stream/Pond",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh9",
+      "label": "HH9: roofing materials of dwelling",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Sheet Metal",
+        "2": "Shingle (asphalt)",
+        "3": "Shingle (Wood)",
+        "4": "Shingle (Tile)",
+        "5": "Concrete",
+        "6": "Rubber Rye",
+        "7": "Asbestos",
+        "8": "Thatch",
+        "9": "Makeshift",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh10",
+      "label": "HH10: Outer wall materials of dwelling",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "No Walls",
+        "2": "Cane/Palm/trunks",
+        "3": "Palmetto/Wild cane/Sticks",
+        "4": "Bamboo/Palmetto with mud/white lime",
+        "5": "Stone with mud",
+        "6": "Plywood",
+        "7": "Carton/Cardboard",
+        "8": "Reused wood",
+        "9": "Cement/Concrete",
+        "10": "Stone with lime/concrete",
+        "11": "Bricks",
+        "12": "Cement blocks",
+        "13": "Wood planks/shingles",
+        "14": "Wood and concrete",
+        "15": "Stucco",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh11",
+      "label": "HH11: Floor material",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Earth/ Sand",
+        "2": "Wood planks",
+        "3": "Plywood",
+        "4": "Parquet or polished wood",
+        "5": "Vinyl or asphalt strips/marley",
+        "6": "Ceramic tiles/cement tiles",
+        "7": "Cement/Concrete",
+        "8": "Carpet",
+        "888888": "Other"
+      }
+    },
+    {
+      "name": "hh12",
+      "label": "HH12: Household has air conditioner.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12b",
+      "label": "HH1.21b: Household has Refrigerator.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12c",
+      "label": "HH1.21c: Household has microwave oven.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12d",
+      "label": "HH1.21d: Household has washing machine.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12e",
+      "label": "HH1.21e: Household has clothes dryer.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12f",
+      "label": "HH1.21f: Household has stereo/radio.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12g",
+      "label": "HH1.21g: Household has stove (gas/electric/solar).",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12h",
+      "label": "HH1.21h: Household has dish washer.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12i",
+      "label": "HH1.21i: Household has television.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12j",
+      "label": "HH1.21j: Household has tank water-heater.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12k",
+      "label": "HH1.21k: Household has Electric generator.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12l",
+      "label": "HH1.21l: Household has Mobile or cellular phone.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12m",
+      "label": "HH1.21m: Household has computer.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12n",
+      "label": "HH1.21n: Household has computer.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12o",
+      "label": "HH1.21o: Household has Home exercise equipment",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12p",
+      "label": "HH1.21p: Household has Home security equipment",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12q",
+      "label": "HH1.21q: Household has Private motor vehicle",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh12r",
+      "label": "HH1.21r: Household has Motorcycle/ATV/Golf Cart",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh13a",
+      "label": "HH13a: Does your household have Cable/Satellite TV service?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh13b",
+      "label": "HH13b: Does your household have fixed-line telephone?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hh13c",
+      "label": "HH13c: Does your household have Internet access at home?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "hl3_age",
+      "label": "Age of household member",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Less than 1 year old"
+      }
+    },
+    {
+      "name": "hl4new",
+      "label": "Relationship to head",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Head",
+        "2": "Spouse/Partner",
+        "3": "Child",
+        "4": "Grandchild",
+        "5": "Other",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "hl5",
+      "label": "Sex",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female",
+        "3": "DK/NS"
+      }
+    },
+    {
+      "name": "hl6new",
+      "label": "Ethnicity",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Creole",
+        "2": "Garifuna",
+        "3": "Maya",
+        "4": "Mestizo/Hispanic",
+        "5": "Other",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "hl7new",
+      "label": "Country of Birth",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Belize",
+        "2": "Guatemala",
+        "3": "Honduras",
+        "4": "Other",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "hl8new",
+      "label": "Marital Status",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Never Married",
+        "2": "Married",
+        "3": "Divorced",
+        "4": "Widowed",
+        "5": "Legally Separated",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "hl9",
+      "label": "Present Union Status",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Married and  living with spouse",
+        "2": "Married and not  living with spouse",
+        "3": "Common-law relationship for 5+ years",
+        "4": "Living together for less than 5 years",
+        "5": "Visiting partner relationship",
+        "7": "Not in a Union",
+        "888888": "Other (Specify)",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "ed3new",
+      "label": "ED3: Currently attending a school",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ed4",
+      "label": "ED4: Present level of education",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-999999999": "missing",
+        "1": "Infant 1",
+        "2": "Infant 2",
+        "3": "Standard 1",
+        "4": "Standard 2",
+        "5": "Standard 3",
+        "6": "Standard 4",
+        "7": "Standard 5",
+        "8": "Standard 6",
+        "9": "1st Form",
+        "10": "2nd Form",
+        "11": "3rd Form",
+        "12": "4th Form",
+        "13": "Pre vocational",
+        "14": "Level 1 vocational",
+        "15": "Level 2 vocational",
+        "16": "Level 3 vocational",
+        "17": "Associate/6th Form/Junior College",
+        "18": "Bachelors",
+        "19": "Master's or higher",
+        "20": "None",
+        "21": "Never attended",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "ed5",
+      "label": "ED5: Last Education",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-999999999": "missing",
+        "1": "Infant 1",
+        "2": "Infant 2",
+        "3": "Standard 1",
+        "4": "Standard 2",
+        "5": "Standard 3",
+        "6": "Standard 4",
+        "7": "Standard 5",
+        "8": "Standard 6",
+        "9": "1st Form",
+        "10": "2nd Form",
+        "11": "3rd Form",
+        "12": "4th Form",
+        "13": "Pre vocational",
+        "14": "Level 1 vocational",
+        "15": "Level 2 vocational",
+        "16": "Level 3 vocational",
+        "17": "Associate/6th Form Junior College",
+        "18": "Bachelors",
+        "19": "Master's or Higher",
+        "21": "None",
+        "22": "Never Attended",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "school",
+      "label": "Highest Level of Education Completed",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "None",
+        "2": "Primary",
+        "3": "Secondary",
+        "4": "Tertiary",
+        "8": "Other",
+        "99": "DK/NS"
+      }
+    },
+    {
+      "name": "ed6",
+      "label": "ED6: Not attending/never attended school",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-999999999": "missing",
+        "1": "Too young",
+        "2": "Financial Reasons",
+        "3": "Working For Pay",
+        "4": "Domestic Duties",
+        "5": "Transportation",
+        "6": "Illness/Disability",
+        "7": "Not Interested in School",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "ea1new",
+      "label": "EA1: Engaged in economic activities for pay",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea2new",
+      "label": "EA2: Work in your/his/her own family farming, fishing or hunting",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea3new",
+      "label": "EA3: Farming, fishing or hunting for sale or family consumption",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Only for sale",
+        "2": "Mainly for sale",
+        "3": "Mainly for family consumption",
+        "4": "Only for family consumption",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea4new",
+      "label": "EA4: Work for pay as a trainee, apprentice or intern for at least 1 hour",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea5new",
+      "label": "EA5: Do any other activity for pay or profit, even for 1 hour",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea6new",
+      "label": "EA6: Temporarily absent from a paid job or business activity",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea7new",
+      "label": "EA7: Reason for being temporarily absent from work",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Seasonal employment",
+        "2": "Temporary lay-off or business closure",
+        "3": "Vacation leave",
+        "4": "Sick leave",
+        "5": "Maternity/paternity leave",
+        "6": "Shift work less than 4 weeks of absence",
+        "7": "Mechanical breakdown, bad weather",
+        "8": "Other reason",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea8new",
+      "label": "EA8: Expect to return to the same job/business within 4 weeks",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea9new",
+      "label": "EA9: Receive income during absence from job or business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea10new",
+      "label": "EA10: Help in a family business without pay last week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea11new",
+      "label": "EA11:Looked for paid work or tried to start own business during the last 4 wks",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea12",
+      "label": "EA12: Main reason for not looking for work or trying to start a business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Personal, family responsibilities",
+        "2": "In school or training",
+        "3": "Disability/ own injury/ own illness",
+        "4": "Doing an unpaid apprenticeship, internship",
+        "5": "Working in own/family farming/ fishing/ hunting",
+        "6": "Doing unpaid voluntary, community work",
+        "7": "Retired/ Pensioner/ Too old to work",
+        "8": "Too young to work",
+        "9": "Already found work to start later or made arrangement for se",
+        "10": "Awaiting recall to former job",
+        "11": "Awaiting replies from employers",
+        "12": "Awaiting busy season",
+        "13": "Believe no suitable work available relevant to skill or capa",
+        "14": "Believe no financial resource, land permits, etc., available",
+        "15": "Lack employerâ€™s requirements (too old or too young, experien",
+        "16": "Tired of looking",
+        "17": "Donâ€™t know how or where to seek work",
+        "18": "Not yet started to seek work",
+        "888888": "Other reason (specify)",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "ea13new",
+      "label": "EA13: Want to work for pay or in own business activity",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea14new",
+      "label": "EA14: Could have started working if a job opportunity came in the next 2 weeks",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea17",
+      "label": "EA17: Reason for not starting a job or business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Home/ family responsibilities",
+        "2": "In school or training",
+        "3": "Retirement/ Old age",
+        "4": "Illness",
+        "5": "Disability",
+        "888888": "Other (specify)",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "ea18_years",
+      "label": "EA18: Years without work and trying to find a paid job or business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "None",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "ea18_months",
+      "label": "EA18: Months without work and trying to find a paid job or business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "999998": "Less than 1 month",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "ea18_yearsmerge",
+      "label": "Years without work",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "periodunempl",
+      "label": "Period Unemployed",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Less than 3 months",
+        "2": "3 months to less than 6 months",
+        "3": "6 months to less than 12 months",
+        "4": "12 months or more",
+        "99": "DK/NS"
+      }
+    },
+    {
+      "name": "ea19new",
+      "label": "EA19: Worked for pay or to generate an income",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea20new",
+      "label": "EA20: Reason stopped working",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Lost job/business failed or temporarily closed",
+        "2": "Retired/Too old",
+        "3": "Job completed",
+        "4": "Moved to live elsewhere",
+        "5": "Resigned",
+        "8": "Other",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea21",
+      "label": "EA21: Have more than one job or business activity",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea22a",
+      "label": "EA22A: Current place of work",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "At/from home",
+        "2": "Partially from home",
+        "3": "At the client/employerâ€™s home",
+        "4": "At a farm, agricultural land or fishing site",
+        "5": "At a business, office, factory, fixed premise or site",
+        "6": "On the street or another public space",
+        "7": "On a vehicle (without daily work base)",
+        "8": "Door to door",
+        "888888": "Other",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "ea25",
+      "label": "EA25: Type of worker in MAIN job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Self-employed (with hired help/employees)",
+        "2": "Self-employed (without hired help/employees)",
+        "3": "Employee (Government/Quasi Government)",
+        "4": "Employee (NGO)",
+        "5": "Employee (International Organization/ Embassy)",
+        "6": "Contributing family worker",
+        "7": "Domestic worker at a private household",
+        "8": "Employee (Private)",
+        "9": "Paid Apprentice/ Intern",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "catmain",
+      "label": "Category of Main Job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Own business",
+        "2": "Government/NGO/Intl Org/Embassy",
+        "3": "Contributing family worker",
+        "4": "Employee",
+        "5": "Paid apprentice/ Intern",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "statusinempl",
+      "label": "Status In Employment",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Self-employed with paid help",
+        "2": "Self-employed without paid help",
+        "3": "Employee",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "catprevious",
+      "label": "Category of Previous Job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Own business",
+        "2": "Government/NGO/Intl Org/Embassy",
+        "3": "Contributing family worker",
+        "4": "Employee",
+        "5": "Paid apprentice/ Intern",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "ea23main_occ",
+      "label": "Main Occupation",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Armed Forces Occupations",
+        "1": "Managers",
+        "2": "Professionals",
+        "3": "Technicians and Associate Professionals",
+        "4": "Clerical Support Workers",
+        "5": "Services and Sales Workers",
+        "6": "Skilled Agricultural, Forestry and Fishery Workers",
+        "7": "Craft and Related Trades Workers",
+        "8": "Plant and Machine Operators and Assemblers",
+        "9": "Elementary Occupations",
+        "99": "DK/NS"
+      }
+    },
+    {
+      "name": "ea23previous_occ",
+      "label": "Previous Occupation",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Armed Forces Occupations",
+        "1": "Managers",
+        "2": "Professionals",
+        "3": "Technicians and Associate Professionals",
+        "4": "Clerical Support Workers",
+        "5": "Services and Sales Workers",
+        "6": "Skilled Agricultural, Forestry and Fishery Workers",
+        "7": "Craft and Related Trades Workers",
+        "8": "Plant and Machine Operators and Assemblers",
+        "9": "Elementary Occupations",
+        "99": "DK/NS"
+      }
+    },
+    {
+      "name": "bcea_main_industry",
+      "label": "Main Industry",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture and Related Activities",
+        "2": "Aquaculture",
+        "3": "Forestry, Logging and Sawmilling",
+        "4": "Mining and Quarrying",
+        "5": "Manufacturing",
+        "6": "Electricity, Gas and Water Supply",
+        "7": "Construction",
+        "8": "Wholesale and Retail Trade; Repairs",
+        "9": "Tourism",
+        "10": "Transportation, Storage and Communication",
+        "11": "Financial Intermediation",
+        "12": "Real Estate, Renting and Business Activities",
+        "13": "Government Services; Compulsory Social Security",
+        "14": "Community, Social & Personal Services; Extra Territorial Organisations & Bodies",
+        "9999": "DK/NS"
+      }
+    },
+    {
+      "name": "mainindust",
+      "label": "Main Employment Industry",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Primary",
+        "2": "Secondary",
+        "3": "Services",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "bcea_prev_industry",
+      "label": "BCEA Previous Industry",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture and Related Activities",
+        "2": "Aquaculture",
+        "3": "Forestry, Logging and Sawmilling",
+        "4": "Mining and Quarrying",
+        "5": "Manufacturing",
+        "6": "Electricity, Gas and Water Supply",
+        "7": "Construction",
+        "8": "Wholesale and Retail Trade; Repairs",
+        "9": "Tourism",
+        "10": "Transportation, Storage and Communication",
+        "11": "Financial Intermediation",
+        "12": "Real Estate, Renting and Business Activities",
+        "13": "Government Services; Compulsory Social Security",
+        "14": "Community, Social & Personal Services; Extra Territorial Organisations & Bodies",
+        "9999": "DK/NS"
+      }
+    },
+    {
+      "name": "previousindust",
+      "label": "Previous Employment Industry",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Primary",
+        "2": "Secondary",
+        "3": "Services",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "total_hrs_last_week",
+      "label": "Total hours worked last week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "usual_hours_ranges",
+      "label": "Usual hours worked",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "less than 15",
+        "2": "15 - 29",
+        "3": "30 - 34",
+        "4": "35 - 39",
+        "5": "40 - 48",
+        "6": "49+",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "ea30",
+      "label": "EA30: Difference in hours worked.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Own illness",
+        "2": "Holiday / vacation",
+        "3": "Personal, family responsibilities",
+        "4": "In school, training",
+        "5": "Strike, Lock-out",
+        "6": "Job started or ended last week",
+        "7": "Low season",
+        "8": "Slow business",
+        "9": "Temporary disorganization, Suspension of work",
+        "10": "Overtime work / high season",
+        "888888": "Other reason",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "ea31",
+      "label": "EA31: Reason for working less than 35 hrs.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Own illness",
+        "2": "Personal, family responsibilities",
+        "3": "In school, training",
+        "4": "Full-time work is less than 35 hours",
+        "5": "Only job available",
+        "6": "Hours were cut back",
+        "888888": "Other reason",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "ea32",
+      "label": "EA32: Desire to work for additional hours",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "ea33",
+      "label": "EA33: Available to work for additional hours within the next two weeks",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "999999": "DK/NS"
+      }
+    },
+    {
+      "name": "income_month",
+      "label": "Average Income",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "finance",
+      "label": "Source of financial support",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Self",
+        "2": "Food produced from subsistence farming/fishing/hunting",
+        "3": "Cash transfer program (BOOST)/ Govt Assistance",
+        "4": "Parent/ spouse/ child",
+        "5": "Other",
+        "9": "DK/NS"
+      }
+    },
+    {
+      "name": "status",
+      "label": "Labor Force Status",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Under 14",
+        "2": "Employed",
+        "3": "Unemployed",
+        "4": "PNLF",
+        "5": "DK/NS"
+      }
+    },
+    {
+      "name": "informalemp",
+      "label": "Informal Employment",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "100": "Informally employed"
+      }
+    },
+    {
+      "name": "final_weight",
+      "label": "Weight",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "96 variables extracted from .dta metadata using pyreadstat",
+    "Source: Z:\\survey\\BLZ\\LFS\\2024\\m9\\data_merge\\BLZ_2024m9.dta"
+  ]
+}

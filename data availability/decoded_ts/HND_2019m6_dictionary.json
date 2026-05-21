@@ -1,0 +1,17 @@
+{
+  "iso3": "HND",
+  "survey": "EPHPM",
+  "period": "m6",
+  "year": 2019,
+  "source_files": [
+    "Metodologia2019.pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "PDF type: TABLE_DICT (DDI format) — table extraction used",
+    "  9 pages total",
+    "  → 0 variables extracted"
+  ]
+}

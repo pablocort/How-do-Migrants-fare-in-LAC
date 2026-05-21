@@ -61,13 +61,20 @@ __pycache__/
 *.docx
 
 # Draft/recovery scripts (keep locally, hide from public)
-do\ armo/col/not_clean/
+do\ armo/*/not_clean/
 
 # Keep lookup tables that are not microdata
 !bases\ armo/raw/col/ciuo_cod.xlsx
 !bases\ armo/raw/col/code_pais.csv
 !bases\ armo/raw/*/dr_EPA_2021.xlsx
 !bases\ armo/raw/codigos_formacion.xlsx
+
+# ── Internal workflow artifacts (not for public repo) ─────────────────────────
+scratch/
+session_journals/
+plans/
+backup\ files/
+bases\ armo/intermediate_data/
 
 # ── IDE / OS ───────────────────────────────────────────────────────────────────
 .DS_Store

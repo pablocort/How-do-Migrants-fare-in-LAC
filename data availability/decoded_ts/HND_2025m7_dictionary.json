@@ -1,0 +1,3341 @@
+{
+  "iso3": "HND",
+  "survey": "EPHPM",
+  "period": "m7",
+  "year": 2025,
+  "source_files": [
+    "DD EPHPM 2025.xlsx"
+  ],
+  "doc_type": "XLSX",
+  "tables": [
+    "Variables",
+    "Valores"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "Identificador",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Dominio",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Departamento",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Corpre",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Recorrido",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Numero de hogar dentro de la vivienda",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Tipo de vivienda",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "¿Cual es el  material predominante en la construcción de las paredes?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Otro material de las paredes",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "¿Cual es el  material predominante en el piso?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Otro material en el piso",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "¿Cual es el  material predominante en el techo?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Otro material en el techo",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "¿El agua que utiliza en su vivienda la obtiene PRINCIPALMENTE de:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Otra fuente de agua",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "¿Donde obtiene el agua?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "¿Qué tipo de alumbrado utiliza en la vivienda?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "Otro tipo de alumbrado",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "¿Como eliminan la basura en esta vivienda?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "20",
+      "label": "Otra forma de eliminar la basura",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "21",
+      "label": "Sin incluir la cocina y los baños ¿Cuantas piezas tiene esta vivienda?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "22",
+      "label": "Su vivienda es:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "23",
+      "label": "Si pusiera su vivienda en alquiler, ¿cuanto cree que le pagarían por mes?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "24",
+      "label": "¿Cuantos grupos de personas que compran y cocinan sus alimentos por separado viven en esta vivienda?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "25",
+      "label": "1. Refrigeradoras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "26",
+      "label": "2. Estufas de 4 hornillas",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "27",
+      "label": "3. Televisor",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "28",
+      "label": "4. Servicio de televisión por cable",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "29",
+      "label": "5. Radios o Radio grabadoras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "30",
+      "label": "6. Equipos de Sonido",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "31",
+      "label": "7. Teléfono fijo o residencial",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "32",
+      "label": "8. Carro",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "33",
+      "label": "9. Motocicleta",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "34",
+      "label": "10. Bicicletas de adulto",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "35",
+      "label": "11. Computadora",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "36",
+      "label": "12. Aire acondicionado",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "37",
+      "label": "En que pieza o sitio de la vivienda cocina los alimentos este hogar:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "38",
+      "label": "La pieza o sitio para cocinar es de uso:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "39",
+      "label": "¿Cual es  el principal combustible que utilizan para cocinar en este hogar?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "40",
+      "label": "Otro combustible para cocinar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "41",
+      "label": "¿Que tipo de estufa emplea principalmente en su hogar para cocinar?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "42",
+      "label": "¿Tiene algún tipo de servicio sanitario letrina?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "43",
+      "label": "¿Qué tipo de servicio sanitario o letrina tiene este hogar?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "44",
+      "label": "Otro tipo de servicio sanitario",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "45",
+      "label": "¿El uso del servicio sanitario es:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "46",
+      "label": "¿Cuantas piezas utiliza este hogar para dormir?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "47",
+      "label": "¿Este hogar ha sido beneficiado con el Bono o una Transferencia Monetaria condicionadas de la Red Solidaria",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "48",
+      "label": "¿En que fecha recibió el ultimo desembolso? Mes",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "49",
+      "label": "¿En qué fecha recibió el último desembolso ?Año",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "50",
+      "label": "¿De cuanto fue el último desembolso?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "51",
+      "label": "¿Cuantos desembolsos recibió en el año 2024?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "52",
+      "label": "¿Cuántas personas en total durmieron y comieron durante los últimos 6 meses en el hogar?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "53",
+      "label": "¿Ha recibido el subsidio de la energía eléctrica que da el Gobierno a los que consumen menos o igual de 150 KWh?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "54",
+      "label": "¿Cómo lo valora?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "55",
+      "label": "¿En que utiliza el dinero que se ahorra por el subsidio a la electricidad?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "56",
+      "label": "SEN03_Otros",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "57",
+      "label": "¿Cómo valora el subsidio a los combustibles (gasolinas, diésel o LPG)  que el gobierno de la republica otorga?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "58",
+      "label": "¿Alguna persona que vivía en este hogar, se encuentra viviendo en otro país?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "59",
+      "label": "¿En qué país?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "60",
+      "label": "¿Cuantos hombres viven en Estados Unidos?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "61",
+      "label": "¿Cuantas mujeres viven en Estados Unidos?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "62",
+      "label": "¿Cuantos hombres viven en España?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "63",
+      "label": "¿Cuantos mujeres viven en España?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "64",
+      "label": "¿Cuantos hombres viven en México?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "65",
+      "label": "¿Cuantos mujeres viven en México?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "66",
+      "label": "¿Cuantos hombres viven en Centroamérica?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "67",
+      "label": "¿Cuantos mujeres viven en Centroamérica?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "68",
+      "label": "¿Cuantos hombres viven en Otro país?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "69",
+      "label": "¿Cuantos mujeres viven en Otro país?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "70",
+      "label": "Algún miembro de este hogar recibió remesas el mes pasado",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "71",
+      "label": "Orden",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "72",
+      "label": "Relación con el jefe del hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "73",
+      "label": "Edad",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "74",
+      "label": "Sexo",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "75",
+      "label": "Estado civil",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "76",
+      "label": "¿Está matriculado(a) para recibir clases este año en un centro educativo?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "77",
+      "label": "¿Asiste actualmente a algún centro educativo/ O de forma virtual?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "78",
+      "label": "¿Cuál es la razón principal por la que no está estudiando en este año?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "79",
+      "label": "ED04. Especifique",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "80",
+      "label": "¿Cuál es el  nivel  educativo más alto alcanzado ?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "81",
+      "label": "ED05. Grado",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "82",
+      "label": "Codigo de la carrera que estudió",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "83",
+      "label": "¿Finalizó sus estudios?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "84",
+      "label": "¿Cuál es su último grado o año aprobado?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "85",
+      "label": "¿A través de qué sistema estudió?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "86",
+      "label": "¿Cuál es el nivel educativo en el que estudia actualmente?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "87",
+      "label": "¿Está repitiendo el año?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "88",
+      "label": "¿Recibe merienda escolar?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "89",
+      "label": "¿Cuantos dias recibió clases el mes pasado?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "90",
+      "label": "Codigo de la carrera que estudia",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "91",
+      "label": "¿Cuál es el año o grado que cursa actualmente 2025?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "92",
+      "label": "¿A través de qué sistema estudia?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "93",
+      "label": "¿Se matriculó en algún centro educativo el año anterior? (Año 2024)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "94",
+      "label": "¿Cuál es el nivel educativo en que se matriculó el año anterior? (Año 2024)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "95",
+      "label": "¿Cuál es el año ó grado, en que se matriculó el año pasado? (Año 2024)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "96",
+      "label": "El centro de educación en el que estudiaba, ¿era público o privado?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "97",
+      "label": "¿Aprobó el año académico (año pasado)? (Año 2024)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "¿Cuál fue la razón principal por la que se retiró?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "ED20. Especifique",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "100",
+      "label": "¿Durante el mes pasado, utilizó una computadora?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "101",
+      "label": "En los últimos 12 meses,  ¿hizo llamadas nacionales o internacionales vía internet?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "102",
+      "label": "Durante los últimos 3 meses, ¿tuvo acceso a internet?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "103",
+      "label": "Durante los últimos 3 meses, ¿con qué frecuencia utilizó internet:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "104",
+      "label": "En su casa",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "105",
+      "label": "En un cyber-café o negocio de Internet",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "106",
+      "label": "En su trabajo",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "107",
+      "label": "En la escuela, colegio o universidad",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "108",
+      "label": "Casa de un familiar / amigo/ casa de otra persona",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "109",
+      "label": "Hotel, restaurante o negocio con Red Inalámbrica",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "110",
+      "label": "Red pública (Parques u otro lugar Comunitario)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "111",
+      "label": "Otro",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "112",
+      "label": "Comunicación (Llamadas nacionales e internacionales, comunicación por correo electrónico o chat, redes sociales)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "113",
+      "label": "Busqueda de Información( noticias o navegación por la web en general)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "114",
+      "label": "Compras, contratación o pedido de bienes o de servicios",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "115",
+      "label": "Operaciones de banca electrónica (Interbanca o servicios financieros, pago de servicios, transferencias )",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "116",
+      "label": "Educación formal y actividades de capacitación (Clases virtuales, investigar o hacer tareas)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "117",
+      "label": "Entretenimiento personal (Uso / descarga de videojuegos, películas, música o programas informáticos etc )",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "118",
+      "label": "Actividades Laborales (trabajo desde casa, venta de productos en línea)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "119",
+      "label": "Otra razón:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "120",
+      "label": "¿Qué equipo utiliza PRINCIPALMENTE para conectarse a Internet?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "121",
+      "label": "¿A través de que medio/servicio se conecta PRINCIPALMENTE a Internet?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "122",
+      "label": "¿Tiene teléfono celular?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "123",
+      "label": "Durante la semana pasada, ¿trabajó o realizó alguna actividad económica durante AL MENOS UNA HORA?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "124",
+      "label": "Por este trabajo que realizó la semana pasada, ¿recibió o recibirá algún pago o ganancia en dinero o en especies?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "125",
+      "label": "La semana pasada,  ¿realizó DURANTE AL MENOS UNA HORA alguna de las siguientes actividades A CAMBIO DE UN PAGO O GANANCIAS, en dinero o en especies:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "126",
+      "label": "¿Tiene algún trabajo remunerado o negocio propio del que se ausentó temporalmente la semana pasada y al que próximamente volverá?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "127",
+      "label": "¿Por qué motivo no trabajó la semana pasada?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "128",
+      "label": "Especifique",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "129",
+      "label": "Durante este periodo en que no trabajó, ¿estuvo recibiendo pago o ganancias en dinero o en especies?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "130",
+      "label": "¿De cuánto tiempo es la duración de la ausencia de este puesto de trabajo? (desde que se retiró hasta que vuelva)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "131",
+      "label": "Durante la semana pasada, le ayudó a ALGUN FAMILIAR a realizar alguna ACTIVIDAD ECONOMICA o trabajó en el negocio, empresa, finca de un FAMILIAR sin que le paguen?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "132",
+      "label": "El familiar con el que trabajó la semana pasada, ¿produce principalmente para vender o produce principalmente para el autoconsumo?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "133",
+      "label": "Verifique la respuesta de la pregunta 501 y marque el resultado",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "134",
+      "label": "Entonces el trabajo que realizó la semana pasada sin pago lo hizo como:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "135",
+      "label": "En los ULTIMOS TRES meses, ¿cuánto fue su INGRESO PROMEDIO MENSUAL POR GANANCIA por la parte que vendio para su producción?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "136",
+      "label": "En los ULTIMOS TRES meses, ¿cuál fue el VALOR PROMEDIO MENSUAL que retiró de su producción para el consumo del hoga? (Alimentos,  leche, lácteos, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "137",
+      "label": "Desea conseguir un trabajo remunerado o establecer su propia empresa o negocio?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "138",
+      "label": "Si en la SEMANA PASADA  hubiese conseguido trabajo o clientes, para obtener un pago o ganancia en dinero o en especies, ¿estaba disponible para trabajar?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "139",
+      "label": "¿Buscó trabajo o trató de establecer su propio negocio o finca, durante las últimas cuatro semanas?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "140",
+      "label": "¿Por qué no buscó trabajo ni trató de establecer su propio negocio o finca en las últimas cuatro semanas?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "141",
+      "label": "¿Entonces actualmente…",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "142",
+      "label": "Otra",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "143",
+      "label": "¿Qué hizo principalmente para buscar trabajo o establecer su propio negocio o finca?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "144",
+      "label": "Otro",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "145",
+      "label": "¿Cuánto tiempo tiene de estar buscando trabajo continuamente, o tratando de establecer su propio negocio o finca? TIEMPO",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "146",
+      "label": "Dias/semana/meses",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "147",
+      "label": "¿Ha trabajado antes?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "148",
+      "label": "¿Cuánto tiempo tiene sin trabajar? CANTIDAD",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "149",
+      "label": "¿Cuánto tiempo tiene sin trabajar? TIEMPO",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "150",
+      "label": "¿Cuántas ocupaciones desempeñó la semana pasada? / ¿De cuántas ocupaciones estuvo ausente la semana pasada?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "151",
+      "label": "¿Desea cambiar alguna de las ocupaciones que actualmente tiene?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "152",
+      "label": "¿Por qué motivo desea cambiar de ocupación?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "153",
+      "label": "Durante la semana pasada, ¿hubiera querido trabajar más horas (en su mismo trabajo o en otro) a cambio de remuneración o ganancias en dinero o especies?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "154",
+      "label": "Si durante la semana pasada hubiera tenido la oportunidad de trabajar más horas (en su mismo trabajo o en otro),  las hubiera podido trabajar?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "155",
+      "label": "¿Cuántas horas adicionales a la SEMANA estaría dispuesto a trabajar?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "156",
+      "label": "Durante las últimas cuatro semanas, ¿estuvo buscando trabajo activamente?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "157",
+      "label": "Codigo de rama de actividad principal",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "158",
+      "label": "Codigo de ocupacion principal",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "159",
+      "label": "LUNES",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "160",
+      "label": "MARTES",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "161",
+      "label": "MIERCOLES",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "162",
+      "label": "JUEVES",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "163",
+      "label": "VIERNES",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "164",
+      "label": "SABADO",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "165",
+      "label": "DOMINGO",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "166",
+      "label": "La semana pasada, ¿trabajo más o menos horas que las que trabaja normalmente en esta ocupación?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "167",
+      "label": "¿Cuántas horas más (menos) trabajó la semana pasada con respecto a las que trabaja normalmente?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "168",
+      "label": "Incluyendose [nombre..] ¿Cuántas personas trabajan PERMANENTEMENTE en",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "169",
+      "label": "¿CUANTAS?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "170",
+      "label": "En esta ocupacion, trabaja como:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "171",
+      "label": "¿Quién paga el ISR correspondiente a los ingresos de",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "172",
+      "label": "¿Quién decide el horario de trabajo o la duración de su jornada laboral de",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "173",
+      "label": "¿Quién decide la forma, periodicidad y forma de pago de",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "174",
+      "label": "¿De quien depende la seguridad social y el plan de jubilaciones de",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "175",
+      "label": "¿Los ingresos de son periódicos en forma de salario, por producto o dependen de cuánto produzca o venda",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "176",
+      "label": "En los ULTIMOS TRES meses, ¿cuál fue su INGRESO TOTAL recibido por la venta de los productos, tareas realizadas o servicios prestados?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "177",
+      "label": "En esta ocupación, le pagan por:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "178",
+      "label": "¿Cuánto le pagan por",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "179",
+      "label": "Tipo de moneda",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "180",
+      "label": "¿Cuánto(as)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "181",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por ALIMENTOS",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "182",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  HABITACION",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "183",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  ROPA, CALZADO",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "184",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  TRANSPORTE",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "185",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  COMISION",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "186",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  BONIFICACION",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "187",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  PROPINAS",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "188",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  HORAS EXTRAS",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "189",
+      "label": "En esta ocupación, tiene derecho a aguinaldo (decimo tercer salario)?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "190",
+      "label": "En esta ocupación, tiene derecho a decimo cuarto salario?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "191",
+      "label": "En esta ocupación, tiene derecho a bono de vacaciones?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "192",
+      "label": "El bono de vacaciones, ¿de qué monto es?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "193",
+      "label": "¿Recibe o se asigna un sueldo o salario por su trabajo en este negocio, finca o empresa?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "194",
+      "label": "¿De cuánto es su salario MENSUAL (sin descuentos o deducciones)?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "195",
+      "label": "En esta ocupación, tiene derecho a aguinaldo (decimo tercer salario)?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "196",
+      "label": "En esta ocupación, tiene derecho a decimo cuarto salario?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "197",
+      "label": "En los ULTIMOS TRES meses, ¿cuánto fue su INGRESO PROMEDIO MENSUAL POR GANANCIA como empleador o cuenta propia en   su establecimiento o negocio?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "198",
+      "label": "La actividad que realiza en esta ocupación, ¿es de tipo agropecuaria o no agropecuaria?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "199",
+      "label": "En los ULTIMOS TRES meses, ¿cuál fue el VALOR PROMEDIO MENSUAL que retiró de su establecimiento o negocio en productos para uso propio o de su familia? (Alimentos,  leche, lácteos, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "200",
+      "label": "En su última cosecha, cría de animales y productos derivados u otros, por la PARTE que ya VENDIÓ, ¿cuánto dinero recibió?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "201",
+      "label": "De esa última cosecha, cría de animales y productos derivados u otros,  ¿cuál  es  el  VALOR de lo que NO VENDIÓ? Ya sea que lo usó o lo tiene guardado. (Granos, huevos,  frutas, lácteos, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "202",
+      "label": "¿Cuántas veces al año cosecha o cría animales y otros?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "203",
+      "label": "¿Cuánto dinero invirtió en total en esa producción? (materiales, insumos, materias primas, pago de mano de obra, arriendo de tierra, alquiler de maquinaria, energía, transporte, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "204",
+      "label": "¿Cuántas veces al año hace esta inversión?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "205",
+      "label": "En  los  ULTIMOS TRES meses,  ¿cuál  fue  el  VALOR PROMEDIO MENSUAL  que  retiró  de su  establecimiento   o   negocio  en productos para uso propio o de su familia? (Alimentos,  abarrotes, ropa, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "206",
+      "label": "En los ULTIMOS TRES meses, ¿Cuál fue el VALOR PROMEDIO de los  gastos personales o del hogar cubiertos por el negocio? (comida, transporte, combustible, vivienda, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "207",
+      "label": "En los ULTIMOS TRES meses, ¿cuál fue su INGRESO TOTAL recibido por la venta de los productos, bienes o servicios de su negocio?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "208",
+      "label": "En los ULTIMOS TRES meses, ¿Cuánto dinero invirtió para el funcionamiento de su negocio? (Materiales, insumos, materias primas, mano de obra, alquileres, servicios, impuestos, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "209",
+      "label": "Codigo de rama de actividad secundaria",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "210",
+      "label": "Codigo de ocupacion secundaria",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "211",
+      "label": "LUNES",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "212",
+      "label": "MARTES",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "213",
+      "label": "MIERCOLES",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "214",
+      "label": "JUEVES",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "215",
+      "label": "VIERNES",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "216",
+      "label": "SABADO",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "217",
+      "label": "DOMINGO",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "218",
+      "label": "La semana pasada, ¿trabajo más o menos horas que las que trabaja normalmente en esta ocupación?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "219",
+      "label": "¿Cuántas horas más (menos) trabajó la semana pasada con respecto a las que trabaja normalmente?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "220",
+      "label": "Incluyéndose , ¿Cuántas personas trabajan PERMANENTEMENTE en",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "221",
+      "label": "¿CUANTAS?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "222",
+      "label": "En esta ocupacion, trabaja como:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "223",
+      "label": "¿Quién paga el ISR correspondiente a los ingresos de",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "224",
+      "label": "¿Quién decide el horario de trabajo o la duración de su jornada laboral de",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "225",
+      "label": "¿Quién decide la forma, periodicidad y forma de pago de",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "226",
+      "label": "¿De quien depende la seguridad social y el plan de jubilaciones de",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "227",
+      "label": "¿Los ingresos de son periódicos en forma de salario, por producto o dependen de cuánto produzca o venda",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "228",
+      "label": "En los ULTIMOS TRES meses, ¿cuál fue su INGRESO TOTAL recibido por la venta de los productos, tareas realizadas o servicios prestados?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "229",
+      "label": "En esta ocupación, le pagan por:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "230",
+      "label": "¿Cuánto le pagan por",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "231",
+      "label": "Tipo de moneda",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "232",
+      "label": "¿Cuánto(as)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "233",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por ALIMENTOS",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "234",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  HABITACION",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "235",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  ROPA, CALZADO",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "236",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  TRANSPORTE",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "237",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  COMISION",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "238",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  BONIFICACION",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "239",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  PROPINAS",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "240",
+      "label": "El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  HORAS EXTRAS",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "241",
+      "label": "En esta ocupación, tiene derecho a aguinaldo (decimo tercer salario)?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "242",
+      "label": "En esta ocupación, tiene derecho a decimo cuarto salario?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "243",
+      "label": "En esta ocupación, tiene derecho a bono de vacaciones?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "244",
+      "label": "El bono de vacaciones, ¿de qué monto es?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "245",
+      "label": "¿Recibe o se asigna un sueldo o salario por su trabajo en este negocio, finca o empresa?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "246",
+      "label": "¿De cuánto es su salario MENSUAL (sin descuentos o deducciones)?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "247",
+      "label": "En esta ocupación, tiene derecho a aguinaldo (decimo tercer salario)?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "248",
+      "label": "En esta ocupación, tiene derecho a decimo cuarto salario?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "249",
+      "label": "En los ULTIMOS TRES meses, ¿cuánto fue su INGRESO PROMEDIO MENSUAL POR GANANCIA como empleador o cuenta propia en   su establecimiento o negocio?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "250",
+      "label": "La actividad que realiza en esta ocupación, ¿es de tipo agropecuaria o no agropecuaria?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "251",
+      "label": "En los ULTIMOS TRES meses, ¿cuál fue el VALOR PROMEDIO MENSUAL que retiró de su establecimiento o negocio en productos para uso propio o de su familia? (Alimentos,  leche, lácteos, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "252",
+      "label": "En su última cosecha, cría de animales y productos derivados u otros, por la PARTE que ya VENDIÓ, ¿cuánto dinero recibió?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "253",
+      "label": "De esa última cosecha, cría de animales y productos derivados u otros,  ¿cuál  es  el  VALOR de lo que NO VENDIÓ? Ya sea que lo usó o lo tiene guardado. (Granos, huevos,  frutas, lácteos, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "254",
+      "label": "¿Cuántas veces al año cosecha o cría animales y otros?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "255",
+      "label": "¿Cuánto dinero invirtió en total en esa producción? (materiales, insumos, materias primas, pago de mano de obra, arriendo de tierra, alquiler de maquinaria, energía, transporte, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "256",
+      "label": "¿Cuántas veces al año hace esta inversión?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "257",
+      "label": "En  los  ULTIMOS TRES meses,  ¿cuál  fue  el  VALOR PROMEDIO MENSUAL  que  retiró  de su  establecimiento   o   negocio  en productos para uso propio o de su familia? (Alimentos,  abarrotes, ropa, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "258",
+      "label": "En los ULTIMOS TRES meses, ¿Cuál fue el VALOR PROMEDIO de los  gastos personales o del hogar cubiertos por el negocio? (comida, transporte, combustible, vivienda, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "259",
+      "label": "En los ULTIMOS TRES meses, ¿cuál fue su INGRESO TOTAL recibido por la venta de los productos, bienes o servicios de su negocio?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "260",
+      "label": "En los ULTIMOS TRES meses, ¿Cuánto dinero invirtió para el funcionamiento de su negocio? (Materiales, insumos, materias primas, mano de obra, alquileres, servicios, impuestos, etc.)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "261",
+      "label": "Pension en Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "262",
+      "label": "Pension en Dolares",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "263",
+      "label": "Jubilacion en Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "264",
+      "label": "Jubilacion en Dolares",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "265",
+      "label": "Alquileres en Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "266",
+      "label": "Alquileres en Dolares",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "267",
+      "label": "Descuento del adulto mayor en Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "268",
+      "label": "Pension por alimento/divorcio en Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "269",
+      "label": "Pension por alimento/divorcio en Dolares",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "270",
+      "label": "Ayudas familiares Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "271",
+      "label": "Ayudas familiares en Dolares",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "272",
+      "label": "Ayudas familiares en Lempiras Especies",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "273",
+      "label": "Ayudas familiares en Dolares Especies",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "274",
+      "label": "Ayudas particulares en Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "275",
+      "label": "Ayudas particulares en Dolares",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "276",
+      "label": "Ayudas particulares en Lempiras Especies",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "277",
+      "label": "Ayudas particulares en Dolares Especies",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "278",
+      "label": "Alimentacion (Merienda) escolar en Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "279",
+      "label": "Bolson, utilies escolares en Lempiras Especies",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "280",
+      "label": "Uniformes escolares en Lempiras Especies",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "281",
+      "label": "Becas en Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "282",
+      "label": "Remesas del exterior en Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "283",
+      "label": "Remesas del exterior en Dolares",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "284",
+      "label": "Remesas del exterior Lempiras Especies",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "285",
+      "label": "Remesas del exterior en Dolares Especies",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "286",
+      "label": "Bono Esperanza para personas con discapacidad",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "287",
+      "label": "Bono de Oro para personas adultas mayores",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "288",
+      "label": "Bono tecnologico",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "289",
+      "label": "Bono Rosa (Cancer mama)",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "290",
+      "label": "Subsidios de energia electrica",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "291",
+      "label": "Subsidios de combustible",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "292",
+      "label": "Otros programas de gobierno",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "293",
+      "label": "Bono Red Solidaria en Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "294",
+      "label": "Bono Red Solidaria en especies",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "295",
+      "label": "Otros en Lempiras",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "296",
+      "label": "Otros en Lempiras Especies",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "297",
+      "label": "¿Qué destino le dio a los ingresos de las REMESAS que usted recibió en los últimos 3 meses:",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "298",
+      "label": "Otros",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "299",
+      "label": "¿En cuál de los aspectos mencionados destinó MAS dinero?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "300",
+      "label": "En los ultimos 12 meses con que frecuencia recibe remesas?",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "301",
+      "label": "Factor de expansion",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "302",
+      "label": "Dominio",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "303",
+      "label": "Area",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "304",
+      "label": "Tipo de cambio del dolar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "305",
+      "label": "Nivel educativo",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "306",
+      "label": "Años de estudio",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "307",
+      "label": "Total de personas de la vivienda",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "308",
+      "label": "Condicion de actividad",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "309",
+      "label": "Fuerza de trabajo potencial",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "310",
+      "label": "Estudia y trabaja",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "311",
+      "label": "Categoría ocupación principal",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "312",
+      "label": "Rama de actividad de la ocupacion principal",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "313",
+      "label": "Ocupación principal",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "314",
+      "label": "Rama de actividad de la ocupacion secundaria",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "315",
+      "label": "Ocupacion secundaria",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "316",
+      "label": "Salario minimo",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "317",
+      "label": "Numero de salarios minimos",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "318",
+      "label": "Numero de salarios minimos",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "319",
+      "label": "Sub ocupacion",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "320",
+      "label": "Total horas trabajadas en la ocupacion principal",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "321",
+      "label": "Categoria ocupacional de la ocupacion secundaria",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "322",
+      "label": "Ingreso por trabajo de la ocupacion principal",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "323",
+      "label": "Ingreso por trabajo de la ocupacion secundaria",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "324",
+      "label": "Ingreso por trabajo total",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "325",
+      "label": "Ingreso por otras fuentes total",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "326",
+      "label": "Ingreso total del hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "327",
+      "label": "Ingreso percapita de los hogares",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "328",
+      "label": "Quintil de ingreso de los hogares",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "329",
+      "label": "Ingreso por pension a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "330",
+      "label": "Ingreso por jubilacion a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "331",
+      "label": "Ingreso por alquiler a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "332",
+      "label": "Ingreso por otros a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "333",
+      "label": "Ingreso por ayuda familiar a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "334",
+      "label": "Ingreso por ayuda particular a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "335",
+      "label": "Ingreso por remesas a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "336",
+      "label": "Ingreso por educacion a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "337",
+      "label": "Ingreso por bono a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "338",
+      "label": "Ingreso por trabajo a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "339",
+      "label": "Ingreso por otras fuentes a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "340",
+      "label": "Ingreso por monetario ocupacion principal a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "341",
+      "label": "Pobreza a nivel de hogar",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "342",
+      "label": "Necesidades basicas insatisfechas",
+      "type": "",
+      "table": "Variables",
+      "value_codes": {}
+    },
+    {
+      "name": "DOMINIO",
+      "label": "Distrito Central",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "DEPTO",
+      "label": "Atlántida",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "V01",
+      "label": "Casa individual",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "V02",
+      "label": "Ladrillo, piedra o bloque",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "V03",
+      "label": "Ceramica",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "V04",
+      "label": "Teja de barro/cemento",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "V05",
+      "label": "Tuberia instalada",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "V06",
+      "label": "Dentro de la vivienda",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "V07",
+      "label": "Servicio Publico",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "V08",
+      "label": "Recoleccion domiciliaria publica",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "V10",
+      "label": "Alquilada?",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "H02",
+      "label": "En una pieza dedicada solo para cocinar",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "H03",
+      "label": "Exclusivo del hogar?",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "H04",
+      "label": "Leña",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "H05",
+      "label": "Estufa electrica",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "H06",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "H07",
+      "label": "Inodoro conectado a alcantarilla",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "H08",
+      "label": "Exclusivo del hogar?",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "H010",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "H011_MES",
+      "label": "Enero",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "H011_ANIO",
+      "label": "No sabe / No responde",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "H013",
+      "label": "No sabe / No responde",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "SEN01",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "SEN02",
+      "label": "Es de mucha ayuda",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "SEN03",
+      "label": "Educacion",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "SEN04",
+      "label": "Es de mucha ayuda",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ME01",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ME01PAIS",
+      "label": "Estados Unidos",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ME02",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "RELA_J",
+      "label": "Jefe(a) del Hogar",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "SEXO",
+      "label": "Hombre",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED02",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED03",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED04",
+      "label": "Está de vacaciones",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED05",
+      "label": "Ninguno",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED07",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED09",
+      "label": "Presencial en centro público",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED10",
+      "label": "Programa de alfabetización",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED11",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED11A",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED14",
+      "label": "Presencial en centro público",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED15",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED16",
+      "label": "Programa de alfabetización",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED18",
+      "label": "Publico",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED19",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ED20",
+      "label": "No quiso seguir estudiando",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "TIC01",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "TIC02",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "TIC03",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "TIC04",
+      "label": "Al menos una vez por día",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "TIC07",
+      "label": "Computadora de escritorio",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "TIC08",
+      "label": "Cable de red ( modem por cable o banda ancha)",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "TIC09",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA501",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA502",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA503",
+      "label": "Trabajó en labores agropecuarias",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA504",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA505",
+      "label": "Vacaciones, feriado",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA506",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA507",
+      "label": "Ya volvió o volverá esta semana",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA508",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA508A",
+      "label": "Produce principalmente para vender",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA501VER",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA509",
+      "label": "Trabajador voluntario",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA510",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA511",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA512",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA513",
+      "label": "Ya encontró trabajo (iniciará antes de un mes)",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA514",
+      "label": "Está jubilado?",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA515",
+      "label": "Hizo gestiones en empresas, oficinas, cooperativas",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA516DSM",
+      "label": "Dias",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA517",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA518TIEMPO",
+      "label": "Dias",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA520",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA521",
+      "label": "Para mejorar sus ingresos",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA522",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA523",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CA525",
+      "label": "Si",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC606",
+      "label": "Más que las habituales",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC608",
+      "label": "10 personas ó menos",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC609",
+      "label": "Empleado u obrero en el sector público",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC610",
+      "label": "El mismo",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC611",
+      "label": "El mismo",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC612",
+      "label": "El mismo",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC613",
+      "label": "El mismo",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC614",
+      "label": "Son en forma de sueldos o salarios",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC616",
+      "label": "Mes",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC617_TIPO_DE_MONEDA",
+      "label": "Lempiras",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC620",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC621",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC622",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC624",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC626",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC627",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC629",
+      "label": "Agropecuaria",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6061",
+      "label": "Más que las habituales",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6081",
+      "label": "10 personas ó menos",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6091",
+      "label": "Empleado u obrero en el sector público",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6101",
+      "label": "Usted mismo",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6111",
+      "label": "Usted mismo",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6121",
+      "label": "Usted mismo",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6131",
+      "label": "De el mismo",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6141",
+      "label": "Son en forma de sueldos o salarios",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6161",
+      "label": "Mes",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC617_TIPO_DE_MONEDA1",
+      "label": "Lempiras",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6201",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6211",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6221",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6241",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6261",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6271",
+      "label": "Sí",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OC6291",
+      "label": "Agropecuaria",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OI002",
+      "label": "Vivienda (construcción, ampliación, reparación, cuota)?",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OI003",
+      "label": "Vivienda (construcción, ampliación, reparación, cuota)?",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OI004",
+      "label": "Menor a un mes",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "domi",
+      "label": "Distrito Central",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "UR",
+      "label": "Urbana",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "nivel",
+      "label": "Sin nivel",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CONDACT",
+      "label": "Ocupados",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "TIPINAC",
+      "label": "Potencialmente Activos",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "estrab",
+      "label": "Estudia y Trabaja",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CATEGOP",
+      "label": "Empleado u obrero público",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "RAMAOP",
+      "label": "Agricultura, ganadería, silvicultura y pesca",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OCUPAOP",
+      "label": "Directores y gerentes",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "RAMAOS",
+      "label": "Agricultura, ganadería, silvicultura y pesca",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "OCUPAOS",
+      "label": "Directores y gerentes",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "NSALMIN",
+      "label": "De menos de 1 Salario",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "NUMSALMIN",
+      "label": "Menos de 1 salario y trab <36 horas",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "ACTIVIDA",
+      "label": "Sin problemas de empleo",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "CATEGOS",
+      "label": "Empleado u obrero público",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "Pobreza",
+      "label": "Extrema",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    },
+    {
+      "name": "nbi",
+      "label": "Viviendas sin NBI",
+      "type": "",
+      "table": "Valores",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: DD EPHPM 2025.xlsx (2 sheet(s))",
+    "Sheet 'Variables': UNKNOWN layout — best-effort extraction",
+    "  → 342 variables (best-effort — verify manually)",
+    "Sheet 'Valores': UNKNOWN layout — best-effort extraction",
+    "  → 132 variables (best-effort — verify manually)"
+  ]
+}

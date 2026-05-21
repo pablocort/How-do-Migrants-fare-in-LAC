@@ -1,0 +1,1539 @@
+{
+  "iso3": "CHL",
+  "survey": "CASEN",
+  "period": "2024",
+  "source_files": [
+    "Cuestionario_Casen_2024.pdf"
+  ],
+  "tables": [
+    "MÓDULO R",
+    "main",
+    "MÓDULO Y",
+    "MÓDULO S",
+    "MÓDULO O",
+    "MÓDULO V",
+    "MÓDULO E",
+    "MÓDULO H"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "Modo de lectura",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Uso de colores",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Uso de emojis",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Uso de operadores relacionales y lógicos en condiciones y filtros de categorías",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Información sobre el tipo de preguntas y flujo del cuestionario",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "1era visita",
+        "2": "2da visita 1. Sí",
+        "3": "3era visita 2. No → Pasa a p6",
+        "4": "4ta visita",
+        "6": "6ta visita & dirección_incompleta = 1)"
+      }
+    },
+    {
+      "name": "6",
+      "label": "Pieza en casa antigua, en conventillo, en galpón o espacio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Mediagua, mejora o vivienda de emergencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Vivienda tradicional indígena",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Rancho o choza",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Vivienda precaria de materiales reutilizados (latas, plásticos,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p9",
+      "label": "Incluyéndose a Ud., ¿cuántas personas viven habitualmente en encuesta que le realizaré se referirá solo al hogar al que",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p10",
+      "label": "Todas las personas que viven habitualmente en esta vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p11",
+      "label": "Incluyendo al suyo, ¿cuántos grupos tienen presupuesto de",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "2": "Mujer"
+      }
+    },
+    {
+      "name": "pco1_a",
+      "label": "Quién es la jefatura de hogar",
+      "type": "",
+      "table": "MÓDULO H",
+      "value_codes": {}
+    },
+    {
+      "name": "h1",
+      "label": "Entonces, ¿son %tot_per_h1% las personas que viven",
+      "type": "",
+      "table": "MÓDULO H",
+      "value_codes": {}
+    },
+    {
+      "name": "pco1_b",
+      "label": "Qué relación tiene %nombre% de %edad% años con",
+      "type": "",
+      "table": "MÓDULO H",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Hermano(a)",
+      "type": "",
+      "table": "MÓDULO H",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Cuñado(a)",
+      "type": "",
+      "table": "MÓDULO H",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "Otro familiar",
+      "type": "",
+      "table": "MÓDULO H",
+      "value_codes": {}
+    },
+    {
+      "name": "14",
+      "label": "No familiar",
+      "type": "",
+      "table": "MÓDULO H",
+      "value_codes": {}
+    },
+    {
+      "name": "15",
+      "label": "Servicio doméstico puertas adentro",
+      "type": "",
+      "table": "MÓDULO H",
+      "value_codes": {}
+    },
+    {
+      "name": "pco2_a",
+      "label": "Quién es la jefatura del núcleo compuesto por",
+      "type": "",
+      "table": "MÓDULO H",
+      "value_codes": {
+        "0": "(conformado por personas del servicio doméstico puertas"
+      }
+    },
+    {
+      "name": "pco2_b",
+      "label": "Qué relación tiene %nombre% de %edad% años con 📄 h7a. ¿%nombre% tiene dificultad para ver incluso si lleva",
+      "type": "",
+      "table": "MÓDULO H",
+      "value_codes": {}
+    },
+    {
+      "name": "h6",
+      "label": "De los integrantes de su hogar, ¿me podría indicar quién es la",
+      "type": "",
+      "table": "MÓDULO H",
+      "value_codes": {}
+    },
+    {
+      "name": "e1",
+      "label": "%nombre% sabe leer y escribir? e4a. ¿Cuál es la principal razón por la cual %nombre% no asiste",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "e3",
+      "label": "En el año escolar 2024, ¿%nombre% asiste a algún 8. No hay matrícula (vacantes)",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "e5a",
+      "label": "Cuál es la principal razón por la cual %nombre% no asiste e5b. Cuál fue el último año en qué %nombre% asistió a algún",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "17",
+      "label": "Se encuentra rindiendo exámenes libres - Personas que declaran haber terminado su",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "18",
+      "label": "No hay matrícula (vacantes)",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "16",
+      "label": "Otra razón. Especifique",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {
+        "1": "1 1. 1",
+        "2": "2 2. 2",
+        "3": "3 3. 3",
+        "4": "4 4. 4",
+        "5": "5 5. 5",
+        "6": "6 6. 6",
+        "7": "7 7. 7",
+        "8": "8 8. 8",
+        "9": "9 9. 9",
+        "10": "10 10. 10"
+      }
+    },
+    {
+      "name": "e7a",
+      "label": "Cuál es la modalidad de asistencia a la carrera o programa de",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {
+        "5": "5 Tipo de pregunta: selección única"
+      }
+    },
+    {
+      "name": "e8",
+      "label": "En qué tipo de institución realizó %nombre% su educación",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "Realizó el doctorado sin cursar un magíster",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {
+        "2024": "66. Otro establecimiento. Especifique"
+      }
+    },
+    {
+      "name": "e10",
+      "label": "En el año escolar 2024, ¿Cuál es la dependencia e12a. En el año escolar 2024, ¿%nombre% ha recibido desayuno",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {
+        "5": "JUNJI"
+      }
+    },
+    {
+      "name": "e12b",
+      "label": "En el año escolar 2024, ¿%nombre% ha recibido almuerzo",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "e12c",
+      "label": "En el año escolar 2024, ¿%nombre% ha recibido once",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "e11",
+      "label": "A qué jornada asiste regularmente %nombre%",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "e12d",
+      "label": "En el año escolar 2024, ¿%nombre% ha recibido colación",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "e12e",
+      "label": "En el año escolar 2024, ¿%nombre% ha recibido tarjeta 📄 e13b. ¿%nombre% ha recibido o recibió alguna(s) de estas",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "e16",
+      "label": "En el año escolar 2024, ¿%nombre% paga por la carrera",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "e18",
+      "label": "En el año escolar 2024, ¿%nombre% recibe alguno de",
+      "type": "",
+      "table": "MÓDULO E",
+      "value_codes": {}
+    },
+    {
+      "name": "o1",
+      "label": "La semana pasada, ¿%nombre% trabajó al menos una hora, o4. ¿%nombre% ha trabajado alguna vez",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o2",
+      "label": "Aunque no trabajó la semana pasada, ¿%nombre% realizó o5. Si le ofrecieran un trabajo a %nombre%, ¿estaría disponible",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o3",
+      "label": "Aunque no trabajó la semana pasada, ¿%nombre% tenía o1 = 2)",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o7",
+      "label": "Cuál es la razón principal por la que %nombre% no buscó o8. ¿Cuántas semanas buscó o ha estado buscando trabajo",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o9a",
+      "label": "Cuál es la ocupación u oficio de %nombre%",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "19",
+      "label": "Otra razón. Especifique • Gerente(a) de una empresa",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o9b",
+      "label": "Qué hace %nombre% en su trabajo o negocio principal",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o10",
+      "label": "Cuántas horas trabaja habitualmente por semana o15. En su trabajo o negocio principal, ¿%nombre% trabaja",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o11",
+      "label": "%nombre% está dispuesto(a) a trabajar más horas a la 5. Empleado(a) u obrero(a) del sector privado",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o12",
+      "label": "El trabajo o negocio principal de %nombre% es de tipo…? o16. La empresa, negocio o actividad en la que trabaja",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o17",
+      "label": "La empresa, negocio o actividad por cuenta propia en la que",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o14",
+      "label": "En su trabajo o negocio principal, ¿%nombre% da boleta? 1. Acude a los servicios de un contador para llevar la contabili",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o19",
+      "label": "En su trabajo principal, ¿%nombre% tiene contrato de o21. ¿Qué tipo de horario tiene %nombre% en su trabajo actual",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o18",
+      "label": "En su trabajo principal, ¿qué tipo de contrato o acuerdo de o22. ¿Con quién firmó %nombre% su contrato o estableció su",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o24",
+      "label": "A qué se dedica o qué hace el negocio, empresa o institución",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o20",
+      "label": "Según su contrato de trabajo o el acuerdo con su empleador, donde trabaja %nombre%",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o25",
+      "label": "Incluyendo a %nombre%, ¿cuántas personas trabajan en o33b. La semana pasada, ¿%nombre% realizó su trabajo o",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {
+        "6": "200 y más personas"
+      }
+    },
+    {
+      "name": "o33d",
+      "label": "Para realizar este trabajo en su vivienda, ¿%nombre%",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o26",
+      "label": "En su empleo principal, %nombre% pertenece a alguna de o28a. En un día habitual, ¿cuánto tiempo en total tarda",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o26a",
+      "label": "Sindicato (de empresa, inter-empresa, de trabajadores",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o26b",
+      "label": "Asociación de funcionarios",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {
+        "3": "A pie"
+      }
+    },
+    {
+      "name": "o26c",
+      "label": "Asociación gremial sectorial",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o29",
+      "label": "En el último mes, ¿%nombre% tuvo otros trabajos, empleos,",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o26d",
+      "label": "Colegio profesional",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "o30",
+      "label": "Considere el trabajo secundario que le reporta mayores o32_esp. Especifique otro sistema previsional",
+      "type": "",
+      "table": "MÓDULO O",
+      "value_codes": {}
+    },
+    {
+      "name": "y1",
+      "label": "En %mes pasado% %año%, ¿cuál fue el sueldo o salario",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y2",
+      "label": "En %mes pasado% %año%, ¿a cuántos días y horas",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y3a",
+      "label": "Me puede indicar cuánto recibió %nombre% por horas",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y3b",
+      "label": "Me puede indicar cuánto recibió %nombre% por comisiones y3cp. ¿Con qué frecuencia %nombre% recibe ingresos por",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y3c",
+      "label": "Me puede indicar cuánto recibió %nombre% por propinas Tipo de pregunta: selección única",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y3e",
+      "label": "Me puede indicar cuánto recibió %nombre% por viáticos no y3fp. ¿Con qué frecuencia %nombre% recibe ingresos por otros",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y3f",
+      "label": "Me puede indicar cuánto recibió %nombre% por otros especiales",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y4c",
+      "label": "Me puede indicar cuánto recibió %nombre% en total en los",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y4d",
+      "label": "Me puede indicar cuánto recibió %nombre% en total en los",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y4a",
+      "label": "Me puede indicar cuánto recibió %nombre% en total en",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y5b",
+      "label": "Me puede indicar el monto estimado en pesos recibido por",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y5c",
+      "label": "Me puede indicar el monto estimado en pesos recibido por",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y5d",
+      "label": "Me puede indicar el monto estimado en pesos recibido por",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y5f",
+      "label": "Me puede indicar el monto estimado en pesos recibido por y5j. ¿Me puede indicar el monto estimado en pesos recibido",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y5g",
+      "label": "Me puede indicar el monto estimado en pesos recibido por Tipo de pregunta: numérica entera",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y5h",
+      "label": "Me puede indicar el monto estimado en pesos recibido por",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y5l",
+      "label": "Me puede indicar el monto estimado en pesos recibido por",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y5i",
+      "label": "Me puede indicar el monto estimado en pesos recibido por",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y6",
+      "label": "En %mes pasado% %año%, ¿cuál fue el ingreso líquido total",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y7",
+      "label": "Cuánto dinero retiró %nombre% en %mes pasado% y10. En %mes pasado% %año%, ¿cuál fue el ingreso líquido total",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y8",
+      "label": "En %mes pasado% %año%, ¿cuánto retiró %nombre% en Condición habilitante: patrones o empleadores, independientes",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y9",
+      "label": "En los últimos 12 meses, ¿cuánto recibió %nombre% por Alternativas 2, -88, -99 → Pasan a y12a_preg",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y12a",
+      "label": "Me puede indicar el monto recibido por %nombre% en y13a. ¿Me puede indicar el monto recibido por %nombre% en",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y12b",
+      "label": "Me puede indicar el monto recibido por %nombre% en",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y13c",
+      "label": "Me puede indicar el monto recibido por %nombre% en",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y14c",
+      "label": "Me puede indicar el monto recibido por %nombre% en y15b. ¿Me puede indicar el monto recibido por %nombre%",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y15a",
+      "label": "Me puede indicar el monto recibido por %nombre% en los",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y16a",
+      "label": "Me puede indicar el monto recibido por %nombre% en los Tipo de pregunta: numérica entera",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y16b",
+      "label": "Me puede indicar el monto recibido por %nombre% en los",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y18a",
+      "label": "Me puede indicar el monto recibido por %nombre% en y18c. ¿Me puede indicar el monto recibido por %nombre% en los",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y18b",
+      "label": "Me puede indicar el monto recibido por %nombre% en",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y18d",
+      "label": "Me puede indicar el monto recibido por %nombre% en los",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y19",
+      "label": "En %mes pasado% %año%, ¿%nombre% recibió ingresos 📄 y20b. En %mes pasado% %año%, ¿%nombre% recibió",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y19n",
+      "label": "Cuál es el número de asignaciones que recibió? Tipo de pregunta: selección única",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {
+        "1": "$21.243 (Subsidio familiar al menor o recién nacido)",
+        "3": "$40.500 por 3 causantes",
+        "5": "$67.500 por 5 causantes",
+        "6": "$81.000 por 6 causantes",
+        "9": "$121.500 por 9 causantes",
+        "10": "$135.000 por 10 causantes"
+      }
+    },
+    {
+      "name": "y23c",
+      "label": "En %mes pasado% %año%, ¿%nombre% recibió ingresos",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {
+        "1": "$22.674 mensuales los 6 primeros meses",
+        "2": "$17.256 mensuales entre el mes 7 y el año",
+        "3": "$11.864 mensuales entre los meses 13 y 18",
+        "4": "$21.243 mensuales entre los meses 19 y 24"
+      }
+    },
+    {
+      "name": "y23a",
+      "label": "Puede indicarme cuál es el monto que recibió %nombre%? -88. No sabe",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {
+        "2": "$123.586 por 2 causantes",
+        "5": "$308.965 por 5 causantes",
+        "6": "$370.758 por 6 causantes",
+        "7": "$432.551 por 7 causantes"
+      }
+    },
+    {
+      "name": "y24a",
+      "label": "Puede indicarme cuál es el monto del Subsidio Eléctrico 8. $494.344 por 8 causantes",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {
+        "9": "$556.137 por 9 causantes",
+        "1": "$23.890 10. $617.930 por 10 causantes",
+        "2": "$31.056 11. $679.723 por 11 causantes",
+        "3": "$43.001 12. $741.516 por 12 o más causantes"
+      }
+    },
+    {
+      "name": "y25b",
+      "label": "Puede indicarme cuál es el monto que recibió %nombre%? y25ep. En los últimos 12 meses, ¿%nombre% recibió ingresos",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {
+        "1": "$47.187",
+        "2": "$78.642"
+      }
+    },
+    {
+      "name": "y25c",
+      "label": "En los últimos 12 meses, ¿%nombre% recibió ingresos por Condición habilitante: personas de 18 a 26 años (edad >= 18 y",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y25e",
+      "label": "Puede indicarme cuál es el monto que recibió %nombre%",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y25d",
+      "label": "En los últimos 12 meses, ¿%nombre% recibió ingresos por Tipo de pregunta: selección única",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y25f",
+      "label": "Puede indicarme cuál es el monto que recibió %nombre%",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "y27",
+      "label": "Puede indicarme cuál es el monto que recibió %nombre%? - Aporte Previsional Solidario (APS) de Vejez",
+      "type": "",
+      "table": "MÓDULO Y",
+      "value_codes": {}
+    },
+    {
+      "name": "s2",
+      "label": "Cuál es el estado nutricional de %nombre%? s9a. En los últimos 3 años, ¿%nombre% se ha hecho el",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s5",
+      "label": "Cuántos hijos o hijas nacidos(as) vivos(as) ha tenido",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s6",
+      "label": "Qué edad tenía %nombre% cuando nació su primer hijo o",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s11a",
+      "label": "En los últimos 3 años, ¿%nombre% se ha hecho una s13. ¿A qué sistema previsional de salud pertenece %nombre%",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s11b",
+      "label": "En qué año se la realizó %nombre%",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s12",
+      "label": "Por qué %nombre% no se lo ha hecho",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s15b",
+      "label": "Me podría indicar qué integrantes de su hogar se",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s16",
+      "label": "En los últimos 3 meses, %nombre% ¿tuvo algún problema s18. ¿Por qué %nombre% no tuvo consulta ni atención",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s17",
+      "label": "%nombre% tuvo alguna consulta o atención médica por esa 13. Consiguió hora, pero no la utilizó",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s17b",
+      "label": "Cuál fue la modalidad de atención de esta consulta o",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s19a",
+      "label": "Problemas para llegar a la consulta, hospital, consultorio, etc. s19e. Problemas para la entrega de medicamentos en el",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s19b",
+      "label": "Problemas para conseguir una cita/atención (hora) los últimos 3 meses ante un problema de salud, distinguiendo",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s19c",
+      "label": "Problemas para ser atendido en el establecimiento (demora medicina general en los últimos 3 meses",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s19d",
+      "label": "Problemas para pagar por la atención debido al costo",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {
+        "3": "Otro"
+      }
+    },
+    {
+      "name": "s26b",
+      "label": "Qué tipo de control se realizó %nombre% durante los s26u. ¿De qué tipo fue el último control que se realizó",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {
+        "3": "Otro"
+      }
+    },
+    {
+      "name": "s27a",
+      "label": "En los últimos 12 meses, ¿%nombre% ha estado 1. Hipertensión arterial",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {
+        "20": "Lupus"
+      }
+    },
+    {
+      "name": "21",
+      "label": "Otra condición de salud",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {
+        "5": "Otro"
+      }
+    },
+    {
+      "name": "s29",
+      "label": "Este tratamiento médico, ¿fue cubierto por el sistema AUGE-",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s30",
+      "label": "Por qué este tratamiento médico no fue cubierto por el 📄 s31. ¿Tiene %nombre% alguna de las siguientes condiciones",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {
+        "1": "Nunca"
+      }
+    },
+    {
+      "name": "s34c",
+      "label": "Y debido a su estado de salud, ¿recibe %nombre%",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "s34a",
+      "label": "Debido a su estado de salud, ¿recibe %nombre% asistencia",
+      "type": "",
+      "table": "MÓDULO S",
+      "value_codes": {}
+    },
+    {
+      "name": "r1a",
+      "label": "Cuál es el país de nacionalidad de %nombre%? 📄 r1cp. ¿En qué período llegó %nombre% a vivir al país",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r1b",
+      "label": "Cuando %nombre% nació, ¿en qué comuna o país vivía su",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r3",
+      "label": "En Chile, la ley reconoce once pueblos indígenas, ¿%nombre% r5a. De acuerdo con sus antepasados, tradiciones y cultura,",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {
+        "6": "Colla"
+      }
+    },
+    {
+      "name": "r5b",
+      "label": "%nombre% pertenece al Pueblo Tribal Afrodescendiente",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r4",
+      "label": "%nombre% habla o entiende algunas de las siguientes",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r5",
+      "label": "Cuál lengua habla o entiende %nombre%",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {
+        "6": "Yagán",
+        "3": "Ambas"
+      }
+    },
+    {
+      "name": "r7b",
+      "label": "Pueda ayudar en el cuidado de niños(as) o personas en",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r7c",
+      "label": "Pueda facilitar un vehículo si el hogar lo necesita",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {
+        "14": "Otra",
+        "3": "Ambas"
+      }
+    },
+    {
+      "name": "r7d",
+      "label": "Pueda prestar dinero al hogar en caso de emergencia r7g. Pueda ayudar con reparaciones del hogar (gasfitería,",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r7e",
+      "label": "Pueda ayudar al hogar a resolver consultas o realizar trámites",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r7f",
+      "label": "Pueda ayudar al hogar en el uso de tecnologías (computador,",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r8",
+      "label": "Ahora me gustaría hacerle algunas preguntas acerca de la",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {
+        "12": "meses por falta de dinero o recursos, en algún momento:"
+      }
+    },
+    {
+      "name": "r8a",
+      "label": "Usted u otra persona en su hogar se preocupó por no tener r8e. ¿Alguna vez usted u otra persona en su hogar comió menos",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r8b",
+      "label": "Alguna vez usted u otra persona en su hogar no pudo comer r8f. Pensando en los últimos 12 meses, ¿alguna vez su hogar s",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r8g",
+      "label": "Alguna vez usted u otra persona en su hogar sintió hambre",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r8c",
+      "label": "Pensando en los últimos 12 meses, ¿alguna vez usted u otra y no comió por falta de dinero u otros recursos para obtener",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r8h",
+      "label": "Alguna vez usted u otra persona en su hogar dejó de comer",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r8d",
+      "label": "Alguna vez usted u otra persona en su hogar tuvo que dejar todo un día por falta de dinero u otros recursos",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "r14",
+      "label": "Usted o algún integrante de su hogar es dueño de algún",
+      "type": "",
+      "table": "MÓDULO R",
+      "value_codes": {}
+    },
+    {
+      "name": "v2",
+      "label": "Cuál es el material que predomina en los muros exteriores de 👉 v5. ¿Cómo diría usted que es el estado de conservación d",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v6",
+      "label": "Cuál es el material que predomina en el techo de la vivienda",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v4",
+      "label": "Cuál es el material que predomina en el piso de la vivienda",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {
+        "1": "Bueno",
+        "3": "Malo"
+      }
+    },
+    {
+      "name": "v9",
+      "label": "Su hogar, ¿bajo qué situación ocupa el sitio o terreno? v12. ¿Cuántos metros cuadrados tiene la vivienda",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v10",
+      "label": "Cuál es la situación del título de propiedad o título de la vivienda (v12 = -88)",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v13",
+      "label": "Su hogar, ¿bajo qué situación ocupa la vivienda",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v11",
+      "label": "Quién es el propietario de la vivienda o inmueble",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v17",
+      "label": "Cuánto paga (o debería pagar) de dividendo",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v14",
+      "label": "En qué año compró o recibió la vivienda o el subsidio",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v18",
+      "label": "Su hogar, ¿cuánto paga de arriendo? v20_red. El medidor de la vivienda, ¿es propio, compartido o no",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v19",
+      "label": "Cuánto se paga de arriendo en este sector por viviendas",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v21",
+      "label": "Cómo obtiene el agua…",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v20",
+      "label": "De dónde proviene el agua de la vivienda? Condición habilitante: no tiene",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v22",
+      "label": "Cuál es el sistema de distribución del agua en la vivienda",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v23",
+      "label": "La vivienda donde Ud. Vive, ¿dispone de sistema de",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {
+        "4": "Cajón"
+      }
+    },
+    {
+      "name": "v25",
+      "label": "Durante los últimos dos años (2023-2024), ¿ha realizado",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v24",
+      "label": "La vivienda donde usted vive, ¿dispone de energía eléctrica? Nivel: hogar",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v27a",
+      "label": "Cuántos dormitorios (uso exclusivo para dormir) tiene la v29b. ¿Cuántos baños ocupa su hogar en esta vivienda",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v27b",
+      "label": "Cuántos baños tiene la vivienda? v30. ¿Cuál es la principal razón para compartir esta vivienda con",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v28",
+      "label": "Su hogar es el principal de la vivienda? 6. Por emergencia",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {
+        "9": "Otra"
+      }
+    },
+    {
+      "name": "v29a",
+      "label": "Cuántos dormitorios (uso exclusivo para dormir) ocupa su",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v32",
+      "label": "Cuál es la principal razón para que los núcleos familiares que",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {
+        "9": "Otra"
+      }
+    },
+    {
+      "name": "v35b",
+      "label": "A menos de 20 cuadras o 2,5 Km de un centro educacional",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "v35c",
+      "label": "A menos de 20 cuadras o 2,5 Km de un centro de salud 📄 v36b. Personas consumiendo drogas o alcohol en la vía pública",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {
+        "1": "Nunca"
+      }
+    },
+    {
+      "name": "v35d",
+      "label": "A menos de 20 cuadras o 2,5 Km de un supermercado,",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {
+        "1": "Nunca",
+        "11": "Otro"
+      }
+    },
+    {
+      "name": "os1",
+      "label": "Cuál de estas alternativas define su orientación sexual",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {
+        "2": "Bueno",
+        "4": "Malo"
+      }
+    },
+    {
+      "name": "453",
+      "label": "Dormitorio colectivo (militar, de trabajo, internado, etc.)",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "454",
+      "label": "Vivienda en demolición, incendiada, destruida o erradicada",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "461",
+      "label": "Vivienda particular desocupada",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "462",
+      "label": "Vivienda de veraneo o de uso temporal",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "317",
+      "label": "Área peligrosa o de difícil acceso",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "318",
+      "label": "No fue posible localizar la dirección",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "390",
+      "label": "Otra razón, elegibilidad desconocida",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "224",
+      "label": "Vivienda ocupada sin moradores presentes",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "225",
+      "label": "Informante no ubicable o no puede atender",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "200",
+      "label": "Agendó cita con informante 2. Mujer",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "211",
+      "label": "Se rechazó la entrevista",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "231",
+      "label": "Muerte del informante Nivel: hogar",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "232",
+      "label": "Informante impedido físico/mental para contestar",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "233",
+      "label": "Problemas de idioma Tipo de pregunta: selección única",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "236",
+      "label": "Otra razón, elegible",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {
+        "1": "30 o menos años",
+        "2": "31 a 40 años",
+        "4": "51 a 64 años",
+        "5": "65 años y más"
+      }
+    },
+    {
+      "name": "110",
+      "label": "Entrevista completada",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "120",
+      "label": "Entrevista parcial, agendó cita",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "212",
+      "label": "Se interrumpió la entrevista",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {
+        "3": "41 a 50 años",
+        "4": "51 a 64 años",
+        "5": "65 años y más",
+        "2": "No entrevistados, elegibles"
+      }
+    },
+    {
+      "name": "223",
+      "label": "Se impidió acceso a la vivienda",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {
+        "3": "No entrevistados, elegibilidad desconocida"
+      }
+    },
+    {
+      "name": "311",
+      "label": "No se envió a terreno",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {
+        "4": "No elegible"
+      }
+    },
+    {
+      "name": "410",
+      "label": "Fuera de muestra",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "451",
+      "label": "Empresa, oficina de gobierno u otra organización",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "452",
+      "label": "Instituciones (hospital, cárcel, asilo de ancianos, etc.)",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "463",
+      "label": "Otra razón, no elegible. Especifique",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "510",
+      "label": "En terreno",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    },
+    {
+      "name": "520",
+      "label": "No asignada",
+      "type": "",
+      "table": "MÓDULO V",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: QUESTIONNAIRE — regex extraction; best-effort",
+    "  96 pages",
+    "  → 201 variables extracted (question codes only)"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "iso3": "PER",
+  "survey": "ENAHO",
+  "period": "a",
+  "year": 2016,
+  "source_files": [
+    "546-Ficha.pdf"
+  ],
+  "doc_type": "FICHA_PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "Características de la vivienda y del hogar (27 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Características de los miembros del hogar (22 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Educación - Para personas de 3 años y más de edad (37 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "25": "años)"
+      }
+    },
+    {
+      "name": "4",
+      "label": "Salud - Para todas las personas (22 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Empleo e Ingreso - Para personas de 14 años y más de edad (118 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "6",
+      "label": "Sistema de Pensiones (2 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "7",
+      "label": "Etnicidad (3 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "8",
+      "label": "Inclusión Financiera (4 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Gastos del hogar (67 preguntas y 324 ítems)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "10",
+      "label": "Programas sociales de ayuda alimentaria (7 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "11",
+      "label": "Programas sociales no alimentarios (4 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "12",
+      "label": "Participación ciudadana (6 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "13",
+      "label": "MÓDULO DE OPINIÓN (37 preguntas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "12": "años.",
+        "3": "45 - 64 años",
+        "4": "65 a más",
+        "2007": "2016",
+        "1": "14 - 24 años",
+        "2": "25 - 44 años",
+        "5": "65 a más"
+      }
+    }
+  ],
+  "decode_notes": [
+    "PDF type: QUESTIONNAIRE — regex extraction; best-effort",
+    "  32 pages",
+    "  → 13 variables extracted (question codes only)"
+  ]
+}

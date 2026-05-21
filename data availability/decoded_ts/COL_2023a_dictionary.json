@@ -1,0 +1,17 @@
+{
+  "iso3": "COL",
+  "survey": "GEIH",
+  "period": "a",
+  "year": 2023,
+  "source_files": [
+    "13032023 GEIH_FORMULARIO_ II_ TRIN_ 2023.pdf"
+  ],
+  "doc_type": "QUESTIONNAIRE_PDF",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "PDF type: TABLE_DICT (DDI format) — table extraction used",
+    "  144 pages total",
+    "  → 0 variables extracted"
+  ]
+}

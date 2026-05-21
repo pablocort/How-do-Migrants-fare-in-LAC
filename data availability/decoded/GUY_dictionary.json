@@ -1,0 +1,15 @@
+{
+  "iso3": "GUY",
+  "survey": "GLFS",
+  "period": "2021",
+  "source_files": [
+    "GLFS_Bulletin_2021_Third-Quarter.pdf"
+  ],
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "PDF type: TABLE_DICT (DDI format) — table extraction used",
+    "  46 pages total",
+    "  → 0 variables extracted"
+  ]
+}

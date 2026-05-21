@@ -1,0 +1,2622 @@
+{
+  "iso3": "BOL",
+  "survey": "EH",
+  "period": "2024",
+  "source_files": [
+    "ddi-documentation-spanish-163.pdf"
+  ],
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "Instituto Nacional de Estadística",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Nombre",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Tesoro General de la Nación",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Personal de áreas participantes",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Unidad de Estadísticas e Indicadores\nSociales",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "folio",
+      "label": "Id hogar anonimizado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "area",
+      "label": "Urbana Rural",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "depto",
+      "label": "Departamento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nro",
+      "label": "Número de persona",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_02",
+      "label": "¿Es hombre o mujer?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_03",
+      "label": "¿Cuántos años cumplidos\ntiene?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_04a",
+      "label": "¿Cuál es la fecha de su\nnacimiento? Día",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_04b",
+      "label": "¿Cuál es la fecha de su\nnacimiento? Mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_04c",
+      "label": "¿Cuál es la fecha de su\nnacimiento? Año",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_05",
+      "label": "¿Qué relación o parentesco\ntiene (...) con el jefe o jefa\ndel hogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_05a",
+      "label": "Su esposa/o compañera/o",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_05b",
+      "label": "Su padre/ padrastro",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_05c",
+      "label": "Su madre/ madrastra",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_06",
+      "label": "En la presente gestión 2024\n¿Principalmente que\npersona dedicó más horas\nal cuidado de (…)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_07_1",
+      "label": "¿Qué idiomas habla,\nincluidos los de las naciones\ny pueblos indígena\noriginarios? 1°",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_07_2",
+      "label": "¿Qué idiomas habla,\nincluidos los de las naciones\ny pueblos indígena\noriginarios? 2°",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_07_3",
+      "label": "¿Qué idiomas habla,\nincluidos los de las naciones\ny pueblos indígena\noriginarios? 3°",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_08",
+      "label": "¿Cuál es el idioma o lengua\nen el que aprendió a hablar\nen su niñez?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_09",
+      "label": "¿Se autoidentifica con\nalguna nación pueblo\nindígena originario\ncampesino o afroboliviano?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_09npioc",
+      "label": "¿Con Cúal?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01a_10",
+      "label": "¿Cuál es su estado civil o\nconyugal actual?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01b_11a",
+      "label": "¿Dónde vivía hace 5 años\n(2019)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01b_11b",
+      "label": "Especifique el\nDepartamento dónde vivía\nhace 5 años (2019)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01b_11c",
+      "label": "Especifique la Provincia\ndónde vivía hace 5 años\n(2019)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01b_11d",
+      "label": "Especifique el Municipio\ndónde vivía hace 5 años\n(2019)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01b_11e",
+      "label": "Especifique el País dónde\nvivía hace 5 años (2019)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01b_12",
+      "label": "¿Cuál fue la razón por la\nque dejó ese lugar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01b_12e",
+      "label": "¿Cuál fue la razón por la\nque dejó ese lugar? Otra\nrazón (Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01b_13a",
+      "label": "¿Desde qué año y mes vive\naquí? Año",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s01b_13b",
+      "label": "¿Desde qué año y mes vive\naquí? Mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_01a",
+      "label": "¿Está (...) registrada/o o\nafiliada/o a alguno de los\nsiguientes seguros de\nsalud: 1°",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_01b",
+      "label": "¿Está (...) registrada/o o\nafiliada/o a alguno de los\nsiguientes seguros de\nsalud: 2°",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_01e",
+      "label": "¿Está (...) registrada/o o\nafiliada/o a alguno de los\nsiguientes seguros de\nsalud: Otro (Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_02a",
+      "label": "A. puesto/centro/hospital de\nsalud público?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_02b",
+      "label": "B. cajas de salud (Caja\nNacional de Salud/Caja de\nla Banca Privada/Caja\nPetrolera/ Banca\nEstatal/COSSMIL/Seguro\nUniversitario u otras Cajas)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_02c",
+      "label": "C.\nconsultorio/clínica/hospital\nde salud privados?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_02d",
+      "label": "D. atención médica en\ndomicilio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_02e",
+      "label": "E. servicios de medicina\ntradicional ancestral?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_02f",
+      "label": "F. soluciones caseras?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_02g",
+      "label": "G. farmacia sin receta\nmédica (automedicación)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_02h",
+      "label": "H. otro? (especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_02he",
+      "label": "En los últimos 12 meses,\npor problemas de salud,\n¿acudió o se atendió en…\nH. otro? (especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_03a",
+      "label": "En los últimos 12 meses,\n¿cuánto tuvo que pagar el\nhogar por los cuidados de\nsalud de (…) por concepto\nde: A. Servicios médicos por\nconsulta externa:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_03b",
+      "label": "En los últimos 12 meses,\n¿cuánto tuvo que pagar el\nhogar por los cuidados de\nsalud de (…) por concepto\nde: B. Aparatos:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_03c",
+      "label": "En los últimos 12 meses,\n¿cuánto tuvo que pagar el\nhogar por los cuidados de\nsalud de (…) por concepto\nde: C. Internación\nhospitalaria:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_03d",
+      "label": "En los últimos 12 meses,\n¿cuánto tuvo que pagar el\nhogar por los cuidados de\nsalud de (…) por concepto\nde: D. Exámenes o servicio\nde ambulancia:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_03e",
+      "label": "En los últimos 12 meses,\n¿cuánto tuvo que pagar el\nhogar por los cuidados de\nsalud de (…) por concepto\nde: E. Medicinas:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_04a",
+      "label": "¿Tiene (…) dificultad\npermanente para… A. ver,\nincluso cuando usa lentes?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_04b",
+      "label": "¿Tiene (…) dificultad\npermanente para… B. oír,\nincluso cuando usa\naudífonos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_04c",
+      "label": "¿Tiene (…) dificultad\npermanente para… C.\ncaminar, subir gradas, usar\nbrazos o manos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_04d",
+      "label": "¿Tiene (…) dificultad\npermanente para… D.\nComunicarse, aprender,\nconcentrarse o razonar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02a_05",
+      "label": "¿(…) fue registrada(o) en el\nSistema de información del\nPrograma de Registro Único\nNacional de Personas con\nDiscapacidad (SIPRUNPCD)\ndel Ministerio de Salud y\nDeportes o en el Sistema de\nControl de Afiliados (SICOA)\ndel Instituto Boliviano de la\nCeguera?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_06",
+      "label": "¿Está o estuvo alguna vez\nembarazada?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_06b",
+      "label": "¿Está o estuvo alguna vez\nembarazada? ¿Cuántas\nveces? (incluyendo el actual\nembarazo)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_07",
+      "label": "¿Cuántas hijas e hijos\nnacidos vivos ha tenido?\n(aunque después hayan\nmuerto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_08",
+      "label": "De ellos ¿Cuántos están\nvivos actualmente?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_09a",
+      "label": "¿En qué mes y año nació su\núltima hija o hijo nacido\nvivo? (aunque después\nhaya muerto) Mes.",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_09b",
+      "label": "¿En qué mes y año nació su\núltima hija o hijo nacido\nvivo? (aunque después\nhaya muerto) Año.",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_10",
+      "label": "¿Quién atendió su último\nparto?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_10e",
+      "label": "¿Quién atendió su último\nparto? (ESPECIFIQUE)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_11",
+      "label": "En su último embarazo, ¿se\nha inscrito al Bono Juana\nAzurduy (BJA)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_12a1",
+      "label": "En los últimos 12 meses,\n¿cobró usted el Bono Juana\nAzurduy por: A. Controles\nprenatales realizados?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_12a2",
+      "label": "En los últimos 12 meses,\n¿cobró usted el Bono Juana\nAzurduy por: A. Controles\nprenatales realizados? Nº\nde Controles",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_12b",
+      "label": "En los últimos 12 meses,\n¿cobró usted el Bono Juana\nAzurduy por: B. El parto y\nprimer control postparto?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_13",
+      "label": "En su último embarazo,\n¿recibió el Subsidio\nUniversal Prenatal por la\nVida (de Bs 300)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_14",
+      "label": "En los últimos 12 meses,\n¿recibió el Subsidio\nUniversal Prenatal por la\nVida (de Bs 300)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02b_14a",
+      "label": "En los últimos 12 meses,\n¿recibió el Subsidio\nUniversal Prenatal por la\nVida (de Bs 300)? ¿Cuántos\nmeses?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02c_15",
+      "label": "Durante este año, ¿(…)\nasiste o asistió a algún\ncentro infantil que no sea\npre kinder ni kinder?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02d_16",
+      "label": "¿Alguna vez inscribieron a\n(…) al Bono Juana Azurduy?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02d_17",
+      "label": "En los últimos 12 meses,\n¿cobró usted el Bono Juana\nAzurduy por los controles\nintegrales de salud de (…)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s02d_17a",
+      "label": "En los últimos 12 meses,\n¿cobró usted el Bono Juana\nAzurduy por los controles\nintegrales de salud de (…)?\n¿Cuántos controles cobró?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_01",
+      "label": "¿Sabe leer y escribir?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_01a",
+      "label": "¿Es (…) capaz de sumar o\nmultiplicar números, ya sea\nen papel o mentalmente?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_02a",
+      "label": "¿Cuál fue el NIVEL Y CURSO\nmás alto de instrucción que\naprobó? Nivel",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_02c",
+      "label": "¿Cuál fue el NIVEL Y CURSO\nmás alto de instrucción que\naprobó? Curso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_03a",
+      "label": "Para ingresar a ese nivel\n¿Cuál fue el NIVEL Y CURSO\nanterior de educación que\naprobó? Nivel",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_03c",
+      "label": "Para ingresar a ese nivel\n¿Cuál fue el NIVEL Y CURSO\nanterior de educación que\naprobó? Curso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_04",
+      "label": "Durante este año, ¿se\ninscribió o matriculó en\nalgún curso o grado de\neducación escolar,\nalternativa, superior o\npostgrado?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_05",
+      "label": "¿Por qué razón no se\ninscribió/matriculó?\n(Indague la razón más\nimportante)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_05e",
+      "label": "¿Por qué razón no se\ninscribió/matriculó?\n(Indague la razón más\nimportante) (Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_06a",
+      "label": "¿A qué NIVEL Y CURSO de\neducación escolar,\nalternativa, superior o\npostgrado se\ninscribió/matriculó este\naño? Nivel",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_06c",
+      "label": "¿A qué NIVEL Y CURSO de\neducación escolar,\nalternativa, superior o\npostgrado se\ninscribió/matriculó este\naño? Curso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_07a",
+      "label": "En esta gestión, ¿recibió\nDesayuno/ Almuerzo o\nmerienda escolar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_07b",
+      "label": "¿Cuantos meses\naproximadamente?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_08",
+      "label": "¿Recibió el Bono Juancito\nPinto el año pasado (2023)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03a_09",
+      "label": "El establecimiento en el que\nse matriculó esta gestión\n2024 es:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03b_10",
+      "label": "Actualmente, ¿(…) pasa\nclases en el nivel y curso al\nque se matriculó esta\ngestión 2024?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03b_11",
+      "label": "¿Cuál es la principal razón\npor la que no pasa clases\nactualmente (ya sea\npresencial, semipresencial,\na distancia o virtual)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03b_11e",
+      "label": "¿Cuál es la principal razón\npor la que no pasa clases\nactualmente (ya sea\npresencial, semipresencial,\na distancia o virtual)? Otro\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03b_12",
+      "label": "Actualmente, ¿se encuentra\nen periodo de vacación,\ndescanso pedagógico o\nreceso?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03c_13",
+      "label": "¿(....) dispone de teléfono\ncelular para uso personal?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03c_13a",
+      "label": "¿El teléfono celular puede\nconectarse a Internet?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03c_14",
+      "label": "¿En los últimos 3 meses,\n(....) ha utilizado teléfono\ncelular?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03c_15a",
+      "label": "¿En los últimos 3 meses,\n(…) ha utilizado\ncomputadora de escritorio,\nlaptop, tablet, en cualquier\nlugar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03c_15b",
+      "label": "¿En los últimos 3 meses,\n(…) ha utilizado\ncomputadora de escritorio,\nlaptop, tablet, en cualquier\nlugar? ¿Con qué frecuencia?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03c_16a",
+      "label": "¿En los últimos 3 meses,\n(…) ha utilizado Internet en\ncualquier lugar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03c_16b",
+      "label": "¿En los últimos 3 meses,\n(…) ha utilizado Internet en\ncualquier lugar? ¿Con qué\nfrecuencia?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03c_17aa",
+      "label": "¿Dónde ha utilizado usted\ninternet en los últimos 3\nmeses? 1°",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03c_17ab",
+      "label": "¿Dónde ha utilizado usted\ninternet en los últimos 3\nmeses? 2°",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s03c_17e",
+      "label": "¿Dónde ha utilizado usted\ninternet en los últimos 3\nmeses? Especifique",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04a_01",
+      "label": "Durante la semana pasada,\n¿trabajó al menos una\nhora?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04a_02",
+      "label": "Durante la semana pasada,\ndedicó al menos una hora a:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04a_02a",
+      "label": "Los cultivos agrícolas, cría\nde animales, caza, pesca o\nrecolección son destinados:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04a_03",
+      "label": "La semana pasada, ¿tuvo\nalgún empleo, negocio o\nempresa propia en la cual\nno trabajó por:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04a_04",
+      "label": "La semana pasada, ¿quería\nusted trabajar y estaba\ndisponible para hacerlo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04a_05",
+      "label": "Durante las últimas cuatro\nsemanas ¿buscó trabajo o\nhizo gestiones para\nestablecer algún negocio\npropio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04a_06",
+      "label": "Es usted:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04a_06e",
+      "label": "Es usted: (Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04a_07",
+      "label": "¿Por qué no buscó trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04a_07e",
+      "label": "¿Por qué no buscó trabajo?\nPor otras causas\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04a_08",
+      "label": "¿Ha trabajado alguna vez\nanteriormente?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_09a_cod",
+      "label": "Códigos Clasificación de\nOcupaciones de Bolivia\n2024",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_10a_cod",
+      "label": "Códigos Clasificación de\nActividades Económicas de\nBolivia 2024",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_11aa",
+      "label": "¿Hace cuánto tiempo\ntrabaja en esta empresa,\ninstitución, negocio o lugar?\nTiempo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_11ab",
+      "label": "¿Hace cuánto tiempo\ntrabaja en esta empresa,\ninstitución, negocio o lugar?\nPeriodo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_11ba",
+      "label": "¿Hace cuánto tiempo\ndesempeña esta ocupación\nen esa empresa, institución,\nnegocio o lugar? Tiempo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_11bb",
+      "label": "¿Hace cuánto tiempo\ndesempeña esta ocupación\nen esa empresa, institución,\nnegocio o lugar? Periodo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_12",
+      "label": "En esta ocupación usted\ntrabaja como",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_13",
+      "label": "La administración de la\nempresa, institución,\nnegocio o lugar donde\ntrabaja es…",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_14",
+      "label": "¿Cuántas personas trabajan\nen la empresa, institución o\nlugar donde trabaja,\nincluido usted?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_15",
+      "label": "¿Cuántos días a la semana\ntrabaja regularmente en su\nocupación?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_16aa",
+      "label": "¿Cuántas horas en\npromedio trabaja al día en\nsu ocupación? HORAS",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04b_16ab",
+      "label": "¿Cuántas horas en\npromedio trabaja al día en\nsu ocupación? MINUTOS",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_17a",
+      "label": "¿Cuánto es su salario\nlíquido, excluyendo los\ndescuentos de ley (AFP o\nGestora, IVA)? Monto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_17b",
+      "label": "¿Cuánto es su salario\nlíquido, excluyendo los\ndescuentos de ley (AFP o\nGestora, IVA)? Frecuencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_18a",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted pagos\npor: A. Bono o prima de\nproducción?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_18b",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted pagos\npor: B. Aguinaldo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_19aa",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted pagos\nen efectivo por: A.\nComisiones, destajo,\npropinas, bonos de\ntransporte o refrigerio?\nMonto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_19ab",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted pagos\nen efectivo por: A.\nComisiones, destajo,\npropinas, bonos de\ntransporte o refrigerio?\nFrecuencia de pago:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_19ba",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted pagos\nen efectivo por: B. Horas\nExtras? Monto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_19bb",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted pagos\nen efectivo por: B. Horas\nExtras? Frecuencia de pago:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_20a1",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted: A.\nSubsidio prenatal o de\nlactancia (Cajas de Salud)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_20a2",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted: A.\nSubsidio prenatal o de\nlactancia (Cajas de Salud)?\nNÚMERO DE MESES",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_20b",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted: B.\nBono de natalidad?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_20a_1",
+      "label": "¿En su actual ocupación Ud.\nrecibe o recibirá los\nsiguientes beneficios: A.\nVacaciones?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_20a_2",
+      "label": "¿En su actual ocupación Ud.\nrecibe o recibirá los\nsiguientes beneficios: B.\nSeguro de salud?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21a",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted… A.\nAlimentos y bebidas para\nser consumidos dentro o\nfuera del lugar de trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21a1",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted… A.\nAlimentos y bebidas para\nser consumidos dentro o\nfuera del lugar de trabajo?\n¿Con qué frecuencia?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21a2",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted… A.\nAlimentos y bebidas para\nser consumidos dentro o\nfuera del lugar de trabajo?\n(Valorar en Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21b",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted… B.\nTransporte hacia y desde el\nlugar de su trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21b1",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted… B.\nTransporte hacia y desde el\nlugar de su trabajo? ¿Con\nqué frecuencia?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21b2",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted… B.\nTransporte hacia y desde el\nlugar de su trabajo?\n(Valorar en Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21c",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted… C.\nVestidos y calzados\nutilizados frecuentemente\ntanto dentro como fuera de\nsu lugar de trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21c1",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted… C.\nVestidos y calzados\nutilizados frecuentemente\ntanto dentro como fuera de\nsu lugar de trabajo? ¿Con\nqué frecuencia?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21c2",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted… C.\nVestidos y calzados\nutilizados frecuentemente\ntanto dentro como fuera de\nsu lugar de trabajo?\n(Valorar en Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21d",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted… D.\nVivienda o alojamiento que\npueden ser utilizados por\nlos miembros del hogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21d1",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted...D.\nVivienda o alojamiento que\npueden ser utilizados por\nlos miembros del hogar?\n¿Con qué frecuencia?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21d2",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted...D.\nVivienda o alojamiento que\npueden ser utilizados por\nlos miembros del hogar?\n(Valorar en Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21e",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted… E.\nOtros, como servicio de\nguardería, instalaciones\ndeportivas y/o recreativas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21e1",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted...E.\nOtros, como servicio de\nguardería, instalaciones\ndeportivas y/o recreativas?\n¿Con qué frecuencia?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04c_21e2",
+      "label": "Además de los ingresos\nrecibidos en dinero por su\ntrabajo, en los últimos doce\nmeses ¿recibió, usted...E.\nOtros, como servicio de\nguardería, instalaciones\ndeportivas y/o recreativas?\n(Valorar en Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_22a",
+      "label": "¿Cuánto es su ingreso total\nen su ocupación principal?\nMonto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_22b",
+      "label": "¿Cuánto es su ingreso total\nen su ocupación principal?\nFrecuencia de ingreso:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23aa",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… A. Comprar materia\nprima, materiales o\nmercadería para su\nactividad o negocio? Monto\n(Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23ab",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… A. Comprar materia\nprima, materiales o\nmercadería para su\nactividad o negocio?\nFrecuencia de gasto:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23ba",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… B. Pagar por\nprestación de servicios a\nterceros para su actividad o\nnegocio? Monto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23bb",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… B. Pagar por\nprestación de servicios a\nterceros para su actividad o\nnegocio? Frecuencia de\ngasto:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23ca",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… C. Pagar sueldos,\nsalarios, bonos,\ngratificaciones, horas\nextras, Gestora(AFP) a sus\nempleados? Monto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23cb",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… C. Pagar sueldos,\nsalarios, bonos,\ngratificaciones, horas\nextras, Gestora(AFP) a sus\nempleados? Frecuencia de\ngasto:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23da",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… D. Pagar alquiler del\nlocal/vehiculo que dispone\npara su actividad o\nnegocio? Monto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23db",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… D. Pagar alquiler del\nlocal/vehiculo que dispone\npara su actividad o\nnegocio? Frecuencia de\ngasto:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23ea",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… E. Pagar servicios de\nagua, luz, gas, teléfono o\ninternet que usa para la\nactividad o negocio? Monto\n(Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23eb",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… E. Pagar servicios de\nagua, luz, gas, teléfono o\ninternet que usa para la\nactividad o negocio?\nFrecuencia de gasto:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23fa",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… F. Pagar cuotas\nregulares por concepto de\nmicrocrédito/crédito para su\nactividad o negocio? Monto\n(Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23fb",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… F. Pagar cuotas\nregulares por concepto de\nmicrocrédito/crédito para su\nactividad o negocio?\nFrecuencia de gasto:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23ga",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… G. Pagar impuestos,\nsentajes? Monto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23gb",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… G. Pagar impuestos,\nsentajes? Frecuencia de\ngasto:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23ha",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… H. Pagar cuotas a\nsindicatos, gremios,\nasociaciones? Monto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_23hb",
+      "label": "Del ingreso total declarado\nen la pregunta anterior,\n¿cuánto utiliza o guarda\npara… H. Pagar cuotas a\nsindicatos, gremios,\nasociaciones? Frecuencia\nde gasto:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_24a",
+      "label": "Una vez descontadas todas\nsus obligaciones (sueldos,\nsalarios, compra de\nmaterial, mercadería, etc.),\n¿cuánto le queda para uso\ndel hogar? Monto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_24b",
+      "label": "Una vez descontadas todas\nsus obligaciones (sueldos,\nsalarios, compra de\nmaterial, mercadería, etc.),\n¿cuánto le queda para uso\ndel hogar? Frecuencia de\ningreso:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_24ba",
+      "label": "En esta ocupación, de su\nproducción agricola, crianza\nde animales o sus\nproductos derivados,\n¿destinó una parte para\nalimentación/consumo de\nsu hogar?:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_24bb",
+      "label": "En esta ocupación, de su\nproducción agricola, crianza\nde animales o sus\nproductos derivados,\n¿destinó una parte para\nalimentación/consumo de\nsu hogar? Frecuencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04d_24bc",
+      "label": "En esta ocupación, de su\nproducción agricola, crianza\nde animales o sus\nproductos derivados,\n¿destinó una parte para\nalimentación/consumo de\nsu hogar? Monto(Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04e_25",
+      "label": "Además de la actividad\nmencionada anteriormente,\n¿realizó otro trabajo\ndurante la semana pasada?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04e_26_cod",
+      "label": "Códigos Clasificación de\nActividades Económicas de\nBolivia 2024",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04e_27",
+      "label": "En esta otra ocupación\nusted trabaja como:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04e_28",
+      "label": "La administración de la\nempresa, institución,\nnegocio o lugar donde\ntrabaja en esta otra\nocupación es…",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04e_29",
+      "label": "¿Cuántos días a la semana\ntrabaja regularmente en\nesta otra ocupación?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04e_30a",
+      "label": "¿Cuántas horas en\npromedio trabaja al día en\nesta otra ocupación?\nHORAS",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04e_30b",
+      "label": "¿Cuántas horas en\npromedio trabaja al día en\nesta otra ocupación?\nMINUTOS",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_31a",
+      "label": "¿Cuánto es su salario\nlíquido en ésta otra\nocupación, excluyendo los\ndescuentos de ley (AFP o\nGestora, IVA)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_31b",
+      "label": "¿Cuánto es su salario\nlíquido en ésta otra\nocupación, excluyendo los\ndescuentos de ley (AFP o\nGestora, IVA)? Frecuencia\nde ingreso:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_32a",
+      "label": "Durante los últimos doce\nmeses, ha recibido: A.\n¿Pago por horas extras,\nbonos laborales o prima de\nproducción, aguinaldo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_32a1",
+      "label": "Durante los últimos doce\nmeses, ha recibido: A.\n¿Pago por horas extras,\nbonos laborales o prima de\nproducción, aguinaldo?\nMonto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_32b",
+      "label": "Durante los últimos doce\nmeses, ha recibido: B.\n¿Alimentos, transporte,\nvestimenta? (INGRESOS EN\nESPECIE-VALORAR)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_32b1",
+      "label": "Durante los últimos doce\nmeses, ha recibido: B.\n¿Alimentos, transporte,\nvestimenta? (INGRESOS EN\nESPECIE-VALORAR) Monto\n(Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_32c",
+      "label": "Durante los últimos doce\nmeses, ha recibido: C.\n¿Vivienda, alojamiento,\notros?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_32c1",
+      "label": "Durante los últimos doce\nmeses, ha recibido: C.\n¿Vivienda, alojamiento,\notros? Monto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_33a",
+      "label": "¿Cuánto es su ingreso total\nen ésta otra ocupación?\nMonto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_33b",
+      "label": "¿Cuánto es su ingreso total\nen ésta otra ocupación?\nFrecuencia de ingreso:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_34a",
+      "label": "Una vez pagadas todas sus\nobligaciones (sueldos,\nsalarios, compra de\nmateriales, etc.), ¿cuánto le\nqueda para uso del hogar?\nMonto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_34b",
+      "label": "Una vez pagadas todas sus\nobligaciones (sueldos,\nsalarios, compra de\nmateriales, etc.), ¿cuánto le\nqueda para uso del hogar?\nFrecuencia de ingreso:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_34ba",
+      "label": "En esta otra ocupación, de\nsu producción agrícola,\ncrianza de animales o sus\nproductos derivados,\n¿destinó una parte para\nalimentación/consumo de\nsu hogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_34bb",
+      "label": "En esta otra ocupación, de\nsu producción agrícola,\ncrianza de animales o sus\nproductos derivados,\n¿destinó una parte para\nalimentación/consumo de\nsu hogar? Frecuencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_34bc",
+      "label": "En esta otra ocupación, de\nsu producción agrícola,\ncrianza de animales o sus\nproductos derivados,\n¿destinó una parte para\nalimentación/consumo de\nsu hogar? Monto(Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_35",
+      "label": "¿Está usted afiliada(o) a la\nGestora (AFP)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s04f_36",
+      "label": "Actualmente, ¿está usted\naportando a la Gestora?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_01a",
+      "label": "Recibe usted ingresos\n(rentas) mensuales por: A.\n¿Jubilación (vejez)? Excluya\nel monto de la Renta\nDignidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_01b",
+      "label": "Recibe usted ingresos\n(rentas) mensuales por: B.\n¿Benemérito? Excluye el\nmonto de la Renta Dignidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_01c",
+      "label": "Recibe usted ingresos\n(rentas) mensuales por: C.\n¿Invalidez?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_01d",
+      "label": "Recibe usted ingresos\n(rentas) mensuales por: D.\n¿Viudez, orfandad?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_01e",
+      "label": "Recibe usted ingresos\n(rentas) mensuales por: E.\n¿Renta Dignidad?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_01e0",
+      "label": "Recibe usted ingresos\n(rentas) mensuales por: E.\n¿Renta Dignidad? Monto\n(Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_01f",
+      "label": "Recibe usted ingresos\n(rentas) mensuales por: F.\n¿Aguinaldo de la Renta\nDignidad? (ULTIMOS DOCE\nMESES)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_02a",
+      "label": "Además de los ingresos\nmencionados, recibe usted\ningresos (rentas) mensuales\npor: A. ¿Intereses? (por\ndepósitos bancarios,\npréstamos, etc.) MONTO",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_02b",
+      "label": "Además de los ingresos\nmencionados, recibe usted\ningresos (rentas) mensuales\npor: B. ¿Alquiler de\npropiedades inmuebles\ncasas, etc.? MONTO",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_02c",
+      "label": "Además de los ingresos\nmencionados, recibe usted\ningresos (rentas) mensuales\npor: C. ¿Otras rentas?\nMONTO",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_02ce",
+      "label": "Además de los ingresos\nmencionados, recibe usted\ningresos (rentas) mensuales\npor: Otras rentas\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_03a",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted: (en\nmontos anuales) A.\nAlquileres de propiedades\nagrícolas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_03b",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted: (en\nmontos anuales) B.\nDividendos, utilidades\nempresariales o retiros de\nsociedades?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_03c",
+      "label": "Durante los últimos doce\nmeses, ¿recibió usted: (en\nmontos anuales) C. Alquiler\nde maquinaria y/o equipo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_04a",
+      "label": "Además de los ingresos\nmencionados\nanteriormente, durante los\núltimos doce meses,\n¿recibió, usted… A.\nIndemnización por dejar\nalgún trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_04b",
+      "label": "Además de los ingresos\nmencionados\nanteriormente, durante los\núltimos doce meses,\n¿recibió, usted… B.\nIndemnización de Seguros?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_04c",
+      "label": "Además de los ingresos\nmencionados\nanteriormente, durante los\núltimos doce meses,\n¿recibió, usted… C. Ingresos\npor anticrético de\npropiedades inmuebles,\ncasas, etc.?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05a_04d",
+      "label": "Además de los ingresos\nmencionados\nanteriormente, durante los\núltimos doce meses,\n¿recibió, usted… D. Otros\ningresos extraordinarios (ej.\nBecas de estudio, derechos\nde autor, marcas y\npatentes)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_05aa",
+      "label": "En los últimos doce meses,\n¿recibió usted… A.\nAsistencia familiar por\ndivorcio o separación?\nMonto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_05ab",
+      "label": "En los últimos doce meses,\n¿recibió usted… A.\nAsistencia familiar por\ndivorcio o separación?\nFrecuencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_05ba",
+      "label": "En los últimos doce meses,\n¿recibió usted… B. Dinero\nde otras personas que\nresiden en este u otro lugar\ndel país?(Excluye ONG's,\nISFLH, Juntas Vecinales,etc.)\nMonto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_05bb",
+      "label": "En los últimos doce meses,\n¿recibió usted… B. Dinero\nde otras personas que\nresiden en este u otro lugar\ndel país?(Excluye ONG's,\nISFLH, Juntas Vecinales,etc.)\nFrecuencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_05ca",
+      "label": "En los últimos doce meses,\n¿recibió usted… C.\nAlimentos o regalos de\notras personas que residen\nen este u otro lugar del\npaís? (VALORAR EN\nBS)(Excluye ONG's, ISFLH,\nJuntas Vecinales,etc.) Monto\n(Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_05cb",
+      "label": "En los últimos doce meses,\n¿recibió usted… C.\nAlimentos o regalos de\notras personas que residen\nen este u otro lugar del\npaís? (VALORAR EN\nBS)(Excluye ONG's, ISFLH,\nJuntas Vecinales,etc.)\nFrecuencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_06aa",
+      "label": "En los últimos doce meses,\n¿recibió usted… A. Bono de\nIndigencia por ceguera o\nBono mensual para\npersonas por discapacidad?\nMonto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_06ab",
+      "label": "En los últimos doce meses,\n¿recibió usted… A. Bono de\nIndigencia por ceguera o\nBono mensual para\npersonas por discapacidad?\nFrecuencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_06ae",
+      "label": "En los últimos doce meses,\n¿recibió usted… A. Bono de\nIndigencia por ceguera o\nBono mensual para\npersonas por discapacidad?\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_06ba",
+      "label": "En los últimos doce meses,\n¿recibió usted… B. Otros\nbonos sociales en efectivo?\nMonto (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_06bb",
+      "label": "En los últimos doce meses,\n¿recibió usted… B. Otros\nbonos sociales en efectivo?\nFrecuencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_06be",
+      "label": "En los últimos doce meses,\n¿recibió usted… B. Otros\nbonos sociales en efectivo?\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_06ca",
+      "label": "En los últimos doce meses,\n¿recibió usted… C. Otros\nbonos sociales en especie?\n(VALORAR EN BS.) Monto\n(Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_06cb",
+      "label": "En los últimos doce meses,\n¿recibió usted… C. Otros\nbonos sociales en especie?\n(VALORAR EN BS.)\nFrecuencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05b_06ce",
+      "label": "En los últimos doce meses,\n¿recibió usted… C. Otros\nbonos sociales en especie?\n(VALORAR EN BS.)\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05c_07",
+      "label": "En los últimos 12 meses,\n¿recibió (...) dinero o\nencomiendas de otras\npersonas que residen en el\nexterior del país?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05c_08",
+      "label": "¿Con que frecuencia recibió\nel dinero o encomiendas\nmencionadas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05c_09a",
+      "label": "Si recibió dinero, ¿cuál es el\nmonto y en qué moneda lo\nrecibió? Monto Bs.",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05c_09b",
+      "label": "Si recibió dinero, ¿cuál es el\nmonto y en qué moneda lo\nrecibió? Moneda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05c_09e",
+      "label": "Si recibió dinero, ¿cuál es el\nmonto y en qué moneda lo\nrecibió? Moneda\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s05c_10",
+      "label": "Si recibió en especie,\nvalorar en Bolivianos.",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "estrato",
+      "label": "Estrato",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "upm",
+      "label": "upm anonimizada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "factor",
+      "label": "Factor de expansión",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cob_op",
+      "label": "Grupo Ocupacional\nocupación principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "caeb_op",
+      "label": "Clasificación de Actividad\nEconómica de Bolivia\nOcupacion principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "caeb_os",
+      "label": "Clasificación de Actividad\nEconómica de Bolivia\nOcupacion secundaria",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pet",
+      "label": "Poblacion en edad de\ntrabajar 14 o más años",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pea",
+      "label": "Poblacion Activa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pei",
+      "label": "Poblacion Inactiva",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "condact",
+      "label": "Condicion de Actividad\nOcupacion Principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "phrs",
+      "label": "Horas trabajadas a la\nsemana Ocupación Principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "shrs",
+      "label": "Horas trabajadas a la\nsemana Ocupación\nSecundaria",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tothrs",
+      "label": "Horas trabajadas a la\nsemana",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "totper",
+      "label": "Total de personas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "yprilab",
+      "label": "Ingreso laboral Ocupación\nPrincipal (Bs/Mes)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "yseclab",
+      "label": "Ingreso laboral Ocupación\nSecundaria (Bs/Mes)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ylab",
+      "label": "Ingreso laboral (Bs/Mes)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ynolab",
+      "label": "Ingreso no laboral (Bs/Mes)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "yper",
+      "label": "Ingreso personal (Bs/Mes)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "yhog",
+      "label": "Ingreso del hogar (Bs/Mes)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "yhogpc",
+      "label": "Ingreso percápita del hogar\n(Bs/Mes)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "z",
+      "label": "Línea de pobreza\n(Bs/persona/mes)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "zext",
+      "label": "Línea de pobreza extrema o\nde indigencia\n(bs/persona/mes)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p0",
+      "label": "Pobreza por ingreso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p1",
+      "label": "Brecha de pobreza por\ningreso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "p2",
+      "label": "Magnitud de pobreza por\ningreso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pext0",
+      "label": "Pobreza extrema o\nindigencia por ingreso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pext1",
+      "label": "Brecha de pobreza extrema\npor ingreso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pext2",
+      "label": "Magnitud de pobreza\nextrema por ingreso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tipohogar",
+      "label": "Tipo de hogar recodificado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cobersalud",
+      "label": "Cobertura de Seguro de\nSalud",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hnv_ult_a",
+      "label": "Hijos nacidos vivos en el\núltimo año",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "quienatenparto",
+      "label": "Personal de atención del\nparto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "niv_ed",
+      "label": "Nivel educativo detallado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "niv_ed_g",
+      "label": "Nivel educativo general",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "cmasi",
+      "label": "Condición de Matriculación\ny Asistencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "educ_prev",
+      "label": "Años de estudio previos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "aestudio",
+      "label": "Años de estudio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s07a_01",
+      "label": "Durante los últimos 12 meses, alguna\nvez en su hogar por falta de dinero u\notros recursos: ¿Usted o alguna\npersona en su hogar se ha\npreocupado por no tener suficientes\nalimentos para comer?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s07a_02",
+      "label": "Durante los últimos 12 meses, alguna\nvez en su hogar por falta de dinero u\notros recursos: ¿Alguna vez en su\nhogar no pudieron comer alimentos\nsaludables y nutritivos por falta de\ndinero u otros recursos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s07a_03",
+      "label": "Durante los últimos 12 meses, alguna\nvez en su hogar por falta de dinero u\notros recursos: Pensando en los\núltimos 12 meses, ¿alguna vez en su\nhogar comieron poca variedad de\nalimentos por falta de dinero u otros\nrecursos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s07a_04",
+      "label": "Durante los últimos 12 meses, alguna\nvez en su hogar por falta de dinero u\notros recursos: ¿Alguna vez en su\nhogar dejaron de desayunar, almorzar\no cenar porque no había suficiente\ndinero u otros recursos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s07a_05",
+      "label": "Durante los últimos 12 meses, alguna\nvez en su hogar por falta de dinero u\notros recursos: ¿Alguna vez en su\nhogar comieron menos de lo que\ndeberían comer por falta de dinero u\notros recursos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s07a_06",
+      "label": "Durante los últimos 12 meses, alguna\nvez en su hogar por falta de dinero u\notros recursos: Pensando aún en los\núltimos 12 meses, ¿alguna vez en su\nhogar se quedaron sin alimentos por\nfalta de dinero u otros recursos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s07a_07",
+      "label": "Durante los últimos 12 meses, alguna\nvez en su hogar por falta de dinero u\notros recursos: ¿Alguna vez en su\nhogar tuvieron hambre, pero no\ncomieron por falta de dinero u otros\nrecursos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s07a_08",
+      "label": "Durante los últimos 12 meses, alguna\nvez en su hogar por falta de dinero u\notros recursos: ¿Alguna vez en su\nhogar se quedaron sin comer durante\ntodo el día por falta de dinero u otros\nrecursos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "producto",
+      "label": "Producto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08a_01",
+      "label": "En el último mes en su hogar\ncompraron, consiguieron o\nconsumieron (...)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08a_02",
+      "label": "¿Con que frecuencia compra (...)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08a_03a",
+      "label": "Generalmente, ¿qué cantidad de (...)\ncompra ? Cantidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08a_03b",
+      "label": "Generalmente, ¿qué cantidad de (...)\ncompra ? Unidad de medida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08a_04",
+      "label": "¿Cuánto gasta por comprar esa\ncantidad de (...)?Valor total (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08a_05",
+      "label": "¿Con qué frecuencia consume (...) de\nlo que ud. produce o vende?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08a_06a",
+      "label": "Generalmente, ¿qué cantidad de (...)\nconsume de lo que usted mismo\nproduce o vende? Cantidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08a_06b",
+      "label": "Generalmente, ¿qué cantidad de (...)\nconsume de lo que usted mismo\nproduce o vende? Unidad de medida",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08a_07",
+      "label": "Si tuviera que comprar esa cantidad\nde (...) en el mercado, ¿cuánto\npagaría?Valor total (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08a_08",
+      "label": "¿El hogar recibió (...) en el último\nmes como pago en especie, trueque,\ndonación o regalo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08a_09",
+      "label": "¿Cuánto pagaría si tuviera que\ncomprar esa cantidad de (...) en el\nmercado?Valor total (Bs)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "item",
+      "label": "Item",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08b_1",
+      "label": "¿El hogar tiene, posee o\ndispone...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08b_2",
+      "label": "¿Cuantos/as (...) posee o\ntiene el hogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08b_3",
+      "label": "¿Hace cuántos años\nposee, tiene o compró\nel/la (...)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s08b_4",
+      "label": "¿Cuánto pagó por el/la\n(...)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01a",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Color de piel",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01b",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Pertenencia a\nNación, Pueblo, Indigena,\nOriginario, Campesino (NPIOC)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01c",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Procedencia\nregional o nacionalidad extranjera",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01d",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Orientación\nsexual e identidad de género",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01e",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Edad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01f",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Sexo(Hombre,\nmujer)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01g",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Idioma",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01h",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Vestimenta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01i",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Discapacidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01j",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Religión",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01k",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Condición\neconómica o social (pobre, rico)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01l",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Otro motivo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_01le",
+      "label": "¿En los últimos 12 meses, ha sido\ndiscriminado por cualquiera de los\nsiguientes motivos: Otro\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_02",
+      "label": "¿Presentó una denuncia formal\ncontra el(la) agresor(a)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_03_1",
+      "label": "¿Dónde ha acudido para realizar la\ndenuncia formal?: A. la Policía\nBoliviana, Ministerio Público o\nFiscalía ?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_03_2",
+      "label": "¿Dónde ha acudido para realizar la\ndenuncia formal?: B. Defensorías?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_03_3",
+      "label": "¿Dónde ha acudido para realizar la\ndenuncia formal?: C. Entidades\nPúblicas?(Excluye Policía Boliviana,\nFiscalía y/o Defensorías)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_03_4",
+      "label": "¿Dónde ha acudido para realizar la\ndenuncia formal?: D.Entidades\nPrivadas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_03_5",
+      "label": "¿Dónde ha acudido para realizar la\ndenuncia formal?: E.Otros?\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_03_5e",
+      "label": "¿Dónde ha acudido para realizar la\ndenuncia formal a (Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_04",
+      "label": "¿Hubo sanción para el(la)\nagresor(a)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_04e",
+      "label": "¿Hubo sanción para el(la)\nagresor(a)? (Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_05_1",
+      "label": "¿Por qué no presentó una denuncia\nformal?: Por vergüenza",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_05_2",
+      "label": "¿Por qué no presentó una denuncia\nformal?: No queria que se sepa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_05_3",
+      "label": "¿Por qué no presentó una denuncia\nformal?: Por miedo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_05_4",
+      "label": "¿Por qué no presentó una denuncia\nformal?: Porque se trato de un\nhecho sin importancia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_05_5",
+      "label": "¿Por qué no presentó una denuncia\nformal?: No sabía que podía\ndenunciar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_05_6",
+      "label": "¿Por qué no presentó una denuncia\nformal?: No sabía donde denunciar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_05_7",
+      "label": "¿Por qué no presentó una denuncia\nformal?: No cree en la justicia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_05_8",
+      "label": "¿Por qué no presentó una denuncia\nformal?: Otro",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09a_05_8e",
+      "label": "¿Por qué no presentó una denuncia\nformal?: Otro (Especifique)......",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09b_01",
+      "label": "¿Qué tan segura(o) se\nsiente caminando sola(o) cerca de\nsu vivienda cuando es de noche ?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09b_02a",
+      "label": "¿En los últimos 12 meses, ha sido\nvictima de: 1°",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09b_02b",
+      "label": "¿En los últimos 12 meses, ha sido\nvictima de: 2°",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09b_02e",
+      "label": "¿En los ultimos 12 meses, ha sido\nvictima de:(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09b_03",
+      "label": "Si usted fue victima de algún\ndelito, ¿presentó/realizó una\ndenuncia formal a instancias\ncorrespondientes (Policia,\nMinisterio Público, Defensorías,\netc.)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s09b_04",
+      "label": "¿Cuanta confianza le inspira la\nPolicia Boliviana?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ponderador",
+      "label": "Ponderador Normalizado",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_01",
+      "label": "La vivienda es:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_02",
+      "label": "La vivienda que ocupa este\nhogar es:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_02e",
+      "label": "La vivienda que ocupa el\nhogar es... Otra?\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_03",
+      "label": "¿Cuál es el material de\nconstrucción más utilizado\nen las paredes de esta\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_03e",
+      "label": "¿Cuál es el material de\nconstrucción más utilizado\nen las paredes de esta\nvivienda? OTRO\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_04",
+      "label": "¿Las paredes interiores de\nesta vivienda tienen\nrevoque?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_05",
+      "label": "¿Cuál es el material más\nutilizado en los techos de\nesta vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_05e",
+      "label": "¿Cuál es el material más\nutilizado en los techos de\nesta vivienda? ...OTRO.\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_06",
+      "label": "¿Cuál es el material más\nutilizado en los pisos de\nesta vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_06e",
+      "label": "¿Cuál es el material más\nutilizado en los pisos de\nesta vivienda? ...OTRO.\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_07",
+      "label": "¿Principalmente ¿el agua\nque usan en la vivienda,\nproviene de...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_07e",
+      "label": "¿Principalmente ¿el agua\nque usan en la vivienda,\nproviene de...Otro?\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_08a",
+      "label": "Generalmente, ¿cuántos\ndias a la semana tiene\nagua?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_08b",
+      "label": "Generalmente, ¿cuántas\nhoras al día?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_09",
+      "label": "¿Qué tipo de baño, servicio\nsanitario o letrina utilizan\nnormalmente los miembros\nde su hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_10",
+      "label": "¿El baño, servicio sanitario o\nletrina tiene desagüe…",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_11",
+      "label": "¿El baño, servicio sanitario o\nletrina es…",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_12",
+      "label": "¿Usa energía eléctrica para\nalumbrar esta vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_13",
+      "label": "¿Habitualmente que hace\ncon la basura que genera el\nhogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_13e",
+      "label": "¿Habitualmente que hace\ncon la basura que genera el\nhogar? OTRO. (Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_14",
+      "label": "¿Tiene un cuarto sólo para\ncocinar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_15",
+      "label": "Principalmente ¿qué tipo de\ncombustible o energía\nutiliza para cocinar preparar\nsus alimentos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_15e",
+      "label": "Principalmente ¿qué tipo de\ncombustible o energía\nutiliza para cocinar preparar\nsus alimentos? 5.OTRO\n(Especifique)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_16",
+      "label": "¿Cuántos cuartos o\nhabitaciones de esta\nvivienda ocupa su hogar, sin\ncontar baño, cocina,\nlavandería, garage, depósito\no negocio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_17",
+      "label": "De estos cuartos o\nhabitaciones, ¿cuántos usan\nexclusivamente para\ndormir?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_18",
+      "label": "¿El hogar dispone de línea\ntelefónica fija?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_19",
+      "label": "¿Tiene el hogar acceso al\nservicio de internet en su\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_20",
+      "label": "¿La conexión a internet es\nfija, móvil o de ambas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s06a_21",
+      "label": "El medio de conexión fija es\npor:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  252 pages total",
+    "  → 372 variables extracted"
+  ]
+}

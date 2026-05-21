@@ -1,0 +1,15 @@
+{
+  "iso3": "CHL",
+  "survey": "CASEN",
+  "period": "a",
+  "year": 2020,
+  "source_files": [
+    "Ingreso_Casen_en_Pandemia_2020.xlsx"
+  ],
+  "doc_type": "XLSX",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "ERROR: 'DataFrame' object has no attribute 'str'"
+  ]
+}

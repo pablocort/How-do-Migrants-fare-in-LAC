@@ -1,0 +1,17 @@
+{
+  "iso3": "GUY",
+  "survey": "LFS",
+  "period": "t4",
+  "year": 2018,
+  "source_files": [
+    "GLFS_2018 Household_Questionnaire-PDF-60-KB.pdf"
+  ],
+  "doc_type": "QUESTIONNAIRE_PDF",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "PDF type: BULLETIN — no structured variable list extractable.",
+    "  This file is a statistical report or publication.",
+    "  Manual review required to determine variable availability."
+  ]
+}

@@ -1,0 +1,2210 @@
+{
+  "iso3": "GTM",
+  "survey": "ENEIC",
+  "period": "2025",
+  "source_files": [
+    "Diccionario_Hogares_ENEIC_II-2025.xlsx",
+    "Diccionario_Personas_ENEIC_II-2025.xlsx"
+  ],
+  "tables": [
+    "Dicc Hogares",
+    "Dicc Personas"
+  ],
+  "variables": [
+    {
+      "name": "ANIO",
+      "label": "Año",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "TRIMESTRE",
+      "label": "N° de Trimestre",
+      "type": "STRING",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "DOMINIO",
+      "label": "Urbano Metropolitano",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "NUM_HOGAR",
+      "label": "Número de hogar",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "FACTOR",
+      "label": "Factor de expasión",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P00A10",
+      "label": "Urbana",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B02",
+      "label": "1",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B03",
+      "label": "1",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00B04",
+      "label": "1",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P00C05",
+      "label": "5. ¿Son las mismas personas de 15 años y más?",
+      "type": "STRING",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P01A01",
+      "label": "Propia y totalmente pagada?",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P01A02",
+      "label": "2. Sí tuvieran que pagar alquiler por esta vivienda, ¿Cuánto tendrían que pagar al mes?",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "P01A03",
+      "label": "3. ¿Cuánto pagan mensualmente de alquiler?",
+      "type": "NUMBER",
+      "table": "Dicc Hogares",
+      "value_codes": {}
+    },
+    {
+      "name": "Valores de variable",
+      "label": "",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "Valor",
+      "label": "Etiqueta",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "NUM_PERSONA",
+      "label": "Número de persona",
+      "type": "STRING",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A01C",
+      "label": "Trabajo",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A01D",
+      "label": "Trabajo",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A01G",
+      "label": "Guatemala",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A01I",
+      "label": "Código de municipio",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A02",
+      "label": "Hombre",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A03",
+      "label": "3. Edad",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A05A",
+      "label": "En este departamento",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A05B",
+      "label": "Guatemala",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A05F",
+      "label": "ESTADOS UNIDOS",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A06A",
+      "label": "Menos de 6 meses",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A06B",
+      "label": "6.b Anote la cantidad de años que estuvo viviendo fuera de Guatemala",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A07",
+      "label": "1. Jefe (a) del hogar",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A08",
+      "label": "Xinka?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A09",
+      "label": "K’Iche’",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A10",
+      "label": "K’Iche’",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11A",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11B",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11C",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11D",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11E",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11F",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A12",
+      "label": "Unido(a)?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A13",
+      "label": "Completa",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A02",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A03A",
+      "label": "NINGUNO",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A03B",
+      "label": "3.b (...), ¿Cuál fue el grado de educación más alto que aprobó?",
+      "type": "STRING",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A04B",
+      "label": "NO APLICA",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A02",
+      "label": "Instituto Técnico de Capacitación y Productividad (INTECAP)",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A03",
+      "label": "Sí",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A04",
+      "label": "Computación",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A02",
+      "label": "Trabajar para obtener ingresos",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A03",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A04",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A05",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A06",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A07",
+      "label": "Maternidad, Enfermedad o accidente (cubierto por IGSS)",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A08",
+      "label": "Ya se incorporó a trabajar esta semana",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A09",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B02",
+      "label": "Pidió ayuda o referencias a familiares o parientes",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B03",
+      "label": "Falta de experiencia",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B04",
+      "label": "4. ¿Cuánto tiempo lleva buscando trabajo o tratando de instalar su propio negocio?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B05",
+      "label": "Ya inició gestiones para empezar un negocio",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B06",
+      "label": "En menos de un mes",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B07",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B08",
+      "label": "Sí, de inmediato",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B09",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B10",
+      "label": "Cierre o reestructuración de empresa",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B11",
+      "label": "Recibe dinero por jubilación?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C01A",
+      "label": "Sí",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C01",
+      "label": "Un solo trabajo",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C02A",
+      "label": "Sí",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C02_2D",
+      "label": "Ocupaciones militares",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C02_1D",
+      "label": "Ocupaciones militares",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C03",
+      "label": "3. (...), en total ¿Cuántos años lleva trabajando como (...)?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C04A",
+      "label": "Sí",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C04_2D",
+      "label": "Agricultura, ganadería, caza y actividades de servicios conexas",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C04_1D",
+      "label": "Agricultura, ganadería, silvicultura y pesca",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C07A",
+      "label": "7.a (...), ¿Cuántos años lleva trabajando en esta empresa, negocio o finca?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C07B",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C08A",
+      "label": "Afiliado?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C08B",
+      "label": "8.b ¿Cuánto paga al mes?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C09A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C09B",
+      "label": "La empresa",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C10",
+      "label": "Local fijo de la empresa, institución o negocio, finca para la que trabaja",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C11A",
+      "label": "Aquí",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C11B",
+      "label": "GUATEMALA",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C11F",
+      "label": "ESTADOS UNIDOS",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C12",
+      "label": "Usted",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C13",
+      "label": "1 persona",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C14",
+      "label": "Un sueldo, salario o jornal?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15A",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15B",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15C",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15D",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15E",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15F",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15G",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C16",
+      "label": "Empleado de gobierno?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C17",
+      "label": "Trabajo voluntario en la producción de bienes?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C18",
+      "label": "Durante todo el año?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C19",
+      "label": "¿Tiene otra ocupación u oficio del que obtenga un ingreso o paga?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C20",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C21A",
+      "label": "Por tiempo indefinido (permanente)",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C21B",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C21C",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C22",
+      "label": "Le pide cumplir con un horario?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C23",
+      "label": "Tendría que pedir perimiso o autorización?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24B",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24C",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24D",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24E",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24F",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C25",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D01",
+      "label": "1. (...), ¿Cuál fue el sueldo o salario mensual sin descuentos que recibió en este trabajo?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D02A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D02B",
+      "label": "2.b ¿Horas laboradas?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D02C",
+      "label": "2.c ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D03A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D03B",
+      "label": "3.b ¿Cuánto recibió el mes pasado?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D04A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D04B",
+      "label": "4.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D05A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D05B",
+      "label": "5.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D06A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D06B",
+      "label": "6.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D07A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D07B",
+      "label": "7.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D08A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D08B",
+      "label": "8.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D09A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D09B",
+      "label": "9.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D10A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D10B",
+      "label": "10.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D11A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D11B",
+      "label": "11.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D12A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D12B",
+      "label": "12.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D13A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D13B",
+      "label": "13.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D14A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D14B",
+      "label": "14.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D15",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D16",
+      "label": "De un solo dueño?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D17",
+      "label": "¿Existe un departamento de contabilidad?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E01",
+      "label": "Trabaja y opera por su cuenta?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E02",
+      "label": "Para la venta?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E03",
+      "label": "Ayuda a realizar las actividades necesarias?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E04",
+      "label": "Siempre?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E05",
+      "label": "Para un solo cliente?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E06",
+      "label": "Promover productos o servicios de una sola compañia o empresa?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E07",
+      "label": "Uno",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E08",
+      "label": "Montos mínimos de venta o de producción?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E09",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E10",
+      "label": "10. En los últimos 12 meses ¿Cuál fue su ganancia o ingreso neto promedio mensual por concepto de ventas de productos o servicios?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E11",
+      "label": "11. En los últimos 12 meses ¿Cuál fue su ganancia o ingreso neto promedio mensual por concepto de ventas de cosechas, animales y/o venta de subproductos agropecuarios?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E12A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E12B",
+      "label": "12.b. ¿En cuánto lo valora?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F01",
+      "label": "Jornada normal",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F02",
+      "label": "No se traslada",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F03",
+      "label": "A pie",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04B",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04C",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04D",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04E",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04F",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04G",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F05",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F06",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F07",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F08",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09B",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09C",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09D",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09E",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09F",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09G",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09H",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09I",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09J",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G01A",
+      "label": "Sí",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G02A",
+      "label": "Sí",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G02_2D",
+      "label": "Ocupaciones militares",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G02_1D",
+      "label": "Ocupaciones militares",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G04A",
+      "label": "Sí",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G04_2D",
+      "label": "Agricultura, ganadería, caza y actividades de servicios conexas",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G04_1D",
+      "label": "Agricultura, ganadería, silvicultura y pesca",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G06A",
+      "label": "Afiliado?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G06B",
+      "label": "6.b ¿Cuánto paga al mes?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G07",
+      "label": "1 persona",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G08",
+      "label": "Empleado del gobierno?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G09",
+      "label": "Aprender?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G10",
+      "label": "10. (...), ¿Cuál fue el sueldo o salario mensual sin descuentos que recibió en este segundo empleo?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G11A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G11B",
+      "label": "11.b ¿Cuánto le costaría lo que recibió el mes pasado?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G12A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G12B",
+      "label": "12.b ¿Cuánto recibió en total el mes pasado?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G13A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G13B",
+      "label": "13.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G14A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G14B",
+      "label": "14.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G15",
+      "label": "De un solo dueño?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G16",
+      "label": "¿Existe un departamento de contabilidad?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G17",
+      "label": "Trabaja y opera por su cuenta?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G18",
+      "label": "Para la venta?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G19",
+      "label": "Ayuda a realizar las actividades necesarias?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G20",
+      "label": "Siempre?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G21",
+      "label": "Para un solo cliente?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G22",
+      "label": "Promover productos o servicios de una sola compañia o empresa?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G23",
+      "label": "Uno",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G24",
+      "label": "Montos mínimos de venta o de producción?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G25",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G26",
+      "label": "26. Normalmente ¿Cuál es el ingreso neto o ganancia mensual de su empresa, negocio, actividad o profesión después de quitar los gastos?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G27A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G27B",
+      "label": "27. ¿En cuánto lo valora?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G28A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G28B",
+      "label": "28.b ¿Cuántos empleados?",
+      "type": "STRING",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29A",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29B",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29C",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29D",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29E",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29F",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29G",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H01A",
+      "label": "1.a (...), ¿Cuántas horas trabaja habitualmente a la semana? Ocupación principal",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H01B",
+      "label": "1.b (...), ¿Cuántas horas trabaja habitualmente a la semana? Ocupación secundaria",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H01C",
+      "label": "1.c (...), ¿Cuántas horas trabaja habitualmente a la semana? Total de horas",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H02",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H03",
+      "label": "Con lo que gana es suficiente",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H04A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H04B",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H04C",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H05",
+      "label": "5. (...), ¿Cuántas horas adicionales puede trabajar a la semana?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H06",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H07",
+      "label": "De forma inmediato?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H08",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H09",
+      "label": "Para utilizar mejor sus capacidades o formación",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H10",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H11",
+      "label": "Pidió ayuda o referencias a familiares o parientes",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H12",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A01A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A01B",
+      "label": "1.b ¿Cuánto recibiró en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A02A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A02B",
+      "label": "2.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A03A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A03B",
+      "label": "3.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A04A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A04B",
+      "label": "4.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A05A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A05B",
+      "label": "5.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A06A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A06B",
+      "label": "6.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A07A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A07B",
+      "label": "7.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B01A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B01B",
+      "label": "1.b ¿Cuánto recibió en los últimos 12 meses?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B02A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B02B",
+      "label": "2.b ¿Cuánto recibió en los últimos 12 meses?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B03A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B03B",
+      "label": "3.b ¿Cuánto recibió en los últimos 12 meses?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B04A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B04B",
+      "label": "4.b ¿Cuánto recibió en los últimos 12 meses?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C02A",
+      "label": "Enero",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C02B",
+      "label": "2.b ¿Cuánto recibió en el primer mes?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C03A",
+      "label": "Enero",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C03B",
+      "label": "3.b ¿Cuánto recibió en el segundo mes?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C04A",
+      "label": "Enero",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C04B",
+      "label": "4.b ¿Cuánto recibió en el tercer mes?",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "YLAB_PUBLI",
+      "label": "Ingreso laboral",
+      "type": "STRING",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "PET",
+      "label": "Población en edad de trabajar",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "PEA",
+      "label": "Poblacíon económicamente activa",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "OCUPADOS",
+      "label": "Población ocupada",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "DESOCUPADOS",
+      "label": "Población desocupada",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "SUBVISIBLES",
+      "label": "Población subempleada",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "INACTIVOS",
+      "label": "Población económicamente inactiva",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    },
+    {
+      "name": "FORMAL_INFORMAL",
+      "label": "Informal",
+      "type": "NUMBER",
+      "table": "Dicc Personas",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: Diccionario_Hogares_ENEIC_II-2025.xlsx (1 sheet(s))",
+    "Sheet 'Dicc Hogares': GTM_ENEIC layout, 122 rows",
+    "  → 24 variables extracted",
+    "  Duplicate variable 'TRIMESTRE' — later file takes precedence",
+    "  Duplicate variable 'DOMINIO' — later file takes precedence",
+    "  Duplicate variable 'P00A10' — later file takes precedence",
+    "  Duplicate variable 'P00B01' — later file takes precedence",
+    "  Duplicate variable 'P00B02' — later file takes precedence",
+    "  Duplicate variable 'P00B03' — later file takes precedence",
+    "  Duplicate variable 'P00B04' — later file takes precedence",
+    "  Duplicate variable 'P01A01' — later file takes precedence",
+    "Source: Diccionario_Personas_ENEIC_II-2025.xlsx (1 sheet(s))",
+    "Sheet 'Dicc Personas': GTM_ENEIC layout, 2460 rows",
+    "  → 483 variables extracted",
+    "  Duplicate variable 'ANIO' — later file takes precedence",
+    "  Duplicate variable 'TRIMESTRE' — later file takes precedence",
+    "  Duplicate variable 'DOMINIO' — later file takes precedence",
+    "  Duplicate variable 'NUM_HOGAR' — later file takes precedence",
+    "  Duplicate variable 'FACTOR' — later file takes precedence",
+    "  Duplicate variable 'P00A10' — later file takes precedence",
+    "  Duplicate variable 'Valores de variable' — later file takes precedence",
+    "  Duplicate variable 'Valor' — later file takes precedence",
+    "  Duplicate variable 'DOMINIO' — later file takes precedence",
+    "  Duplicate variable 'P00A10' — later file takes precedence",
+    "  Duplicate variable 'P02A01C' — later file takes precedence",
+    "  Duplicate variable 'P02A01D' — later file takes precedence",
+    "  Duplicate variable 'P02A01G' — later file takes precedence",
+    "  Duplicate variable 'P02A02' — later file takes precedence",
+    "  Duplicate variable 'P02A05A' — later file takes precedence",
+    "  Duplicate variable 'P02A05B' — later file takes precedence",
+    "  Duplicate variable 'P02A05F' — later file takes precedence",
+    "  Duplicate variable 'P02A06A' — later file takes precedence",
+    "  Duplicate variable 'P02A07' — later file takes precedence",
+    "  Duplicate variable 'P02A08' — later file takes precedence",
+    "  Duplicate variable 'P02A09' — later file takes precedence",
+    "  Duplicate variable 'P02A10' — later file takes precedence",
+    "  Duplicate variable 'P02A11A' — later file takes precedence",
+    "  Duplicate variable 'P02A11B' — later file takes precedence",
+    "  Duplicate variable 'P02A11C' — later file takes precedence",
+    "  Duplicate variable 'P02A11D' — later file takes precedence",
+    "  Duplicate variable 'P02A11E' — later file takes precedence",
+    "  Duplicate variable 'P02A11F' — later file takes precedence",
+    "  Duplicate variable 'P02A12' — later file takes precedence",
+    "  Duplicate variable 'P02A13' — later file takes precedence",
+    "  Duplicate variable 'P03A01' — later file takes precedence",
+    "  Duplicate variable 'P03A02' — later file takes precedence",
+    "  Duplicate variable 'P03A03A' — later file takes precedence",
+    "  Duplicate variable 'P03A04B' — later file takes precedence",
+    "  Duplicate variable 'P04A01' — later file takes precedence",
+    "  Duplicate variable 'P04A02' — later file takes precedence",
+    "  Duplicate variable 'P04A03' — later file takes precedence",
+    "  Duplicate variable 'P04A04' — later file takes precedence",
+    "  Duplicate variable 'P05A02' — later file takes precedence",
+    "  Duplicate variable 'P05A03' — later file takes precedence",
+    "  Duplicate variable 'P05A04' — later file takes precedence",
+    "  Duplicate variable 'P05A05' — later file takes precedence",
+    "  Duplicate variable 'P05A06' — later file takes precedence",
+    "  Duplicate variable 'P05A07' — later file takes precedence",
+    "  Duplicate variable 'P05A08' — later file takes precedence",
+    "  Duplicate variable 'P05A09' — later file takes precedence",
+    "  Duplicate variable 'P05B01' — later file takes precedence",
+    "  Duplicate variable 'P05B02' — later file takes precedence",
+    "  Duplicate variable 'P05B03' — later file takes precedence",
+    "  Duplicate variable 'P05B05' — later file takes precedence",
+    "  Duplicate variable 'P05B06' — later file takes precedence",
+    "  Duplicate variable 'P05B07' — later file takes precedence",
+    "  Duplicate variable 'P05B08' — later file takes precedence",
+    "  Duplicate variable 'P05B09' — later file takes precedence",
+    "  Duplicate variable 'P05B10' — later file takes precedence",
+    "  Duplicate variable 'P05B11' — later file takes precedence",
+    "  Duplicate variable 'P05C01A' — later file takes precedence",
+    "  Duplicate variable 'P05C01' — later file takes precedence",
+    "  Duplicate variable 'P05C02A' — later file takes precedence",
+    "  Duplicate variable 'P05C02_2D' — later file takes precedence",
+    "  Duplicate variable 'P05C02_1D' — later file takes precedence",
+    "  Duplicate variable 'P05C04A' — later file takes precedence",
+    "  Duplicate variable 'P05C04_2D' — later file takes precedence",
+    "  Duplicate variable 'P05C04_1D' — later file takes precedence",
+    "  Duplicate variable 'P05C07B' — later file takes precedence",
+    "  Duplicate variable 'P05C08A' — later file takes precedence",
+    "  Duplicate variable 'P05C09A' — later file takes precedence",
+    "  Duplicate variable 'P05C09B' — later file takes precedence",
+    "  Duplicate variable 'P05C10' — later file takes precedence",
+    "  Duplicate variable 'P05C11A' — later file takes precedence",
+    "  Duplicate variable 'P05C11B' — later file takes precedence",
+    "  Duplicate variable 'P05C11F' — later file takes precedence",
+    "  Duplicate variable 'P05C12' — later file takes precedence",
+    "  Duplicate variable 'P05C13' — later file takes precedence",
+    "  Duplicate variable 'P05C14' — later file takes precedence",
+    "  Duplicate variable 'P05C15A' — later file takes precedence",
+    "  Duplicate variable 'P05C15B' — later file takes precedence",
+    "  Duplicate variable 'P05C15C' — later file takes precedence",
+    "  Duplicate variable 'P05C15D' — later file takes precedence",
+    "  Duplicate variable 'P05C15E' — later file takes precedence",
+    "  Duplicate variable 'P05C15F' — later file takes precedence",
+    "  Duplicate variable 'P05C15G' — later file takes precedence",
+    "  Duplicate variable 'P05C16' — later file takes precedence",
+    "  Duplicate variable 'P05C17' — later file takes precedence",
+    "  Duplicate variable 'P05C18' — later file takes precedence",
+    "  Duplicate variable 'P05C19' — later file takes precedence",
+    "  Duplicate variable 'P05C20' — later file takes precedence",
+    "  Duplicate variable 'P05C21A' — later file takes precedence",
+    "  Duplicate variable 'P05C21B' — later file takes precedence",
+    "  Duplicate variable 'P05C21C' — later file takes precedence",
+    "  Duplicate variable 'P05C22' — later file takes precedence",
+    "  Duplicate variable 'P05C23' — later file takes precedence",
+    "  Duplicate variable 'P05C24A' — later file takes precedence",
+    "  Duplicate variable 'P05C24B' — later file takes precedence",
+    "  Duplicate variable 'P05C24C' — later file takes precedence",
+    "  Duplicate variable 'P05C24D' — later file takes precedence",
+    "  Duplicate variable 'P05C24E' — later file takes precedence",
+    "  Duplicate variable 'P05C24F' — later file takes precedence",
+    "  Duplicate variable 'P05C25' — later file takes precedence",
+    "  Duplicate variable 'P05D02A' — later file takes precedence",
+    "  Duplicate variable 'P05D03A' — later file takes precedence",
+    "  Duplicate variable 'P05D04A' — later file takes precedence",
+    "  Duplicate variable 'P05D05A' — later file takes precedence",
+    "  Duplicate variable 'P05D06A' — later file takes precedence",
+    "  Duplicate variable 'P05D07A' — later file takes precedence",
+    "  Duplicate variable 'P05D08A' — later file takes precedence",
+    "  Duplicate variable 'P05D09A' — later file takes precedence",
+    "  Duplicate variable 'P05D10A' — later file takes precedence",
+    "  Duplicate variable 'P05D11A' — later file takes precedence",
+    "  Duplicate variable 'P05D12A' — later file takes precedence",
+    "  Duplicate variable 'P05D13A' — later file takes precedence",
+    "  Duplicate variable 'P05D14A' — later file takes precedence",
+    "  Duplicate variable 'P05D15' — later file takes precedence",
+    "  Duplicate variable 'P05D16' — later file takes precedence",
+    "  Duplicate variable 'P05D17' — later file takes precedence",
+    "  Duplicate variable 'P05E01' — later file takes precedence",
+    "  Duplicate variable 'P05E02' — later file takes precedence",
+    "  Duplicate variable 'P05E03' — later file takes precedence",
+    "  Duplicate variable 'P05E04' — later file takes precedence",
+    "  Duplicate variable 'P05E05' — later file takes precedence",
+    "  Duplicate variable 'P05E06' — later file takes precedence",
+    "  Duplicate variable 'P05E07' — later file takes precedence",
+    "  Duplicate variable 'P05E08' — later file takes precedence",
+    "  Duplicate variable 'P05E09' — later file takes precedence",
+    "  Duplicate variable 'P05E12A' — later file takes precedence",
+    "  Duplicate variable 'P05F01' — later file takes precedence",
+    "  Duplicate variable 'P05F02' — later file takes precedence",
+    "  Duplicate variable 'P05F03' — later file takes precedence",
+    "  Duplicate variable 'P05F04A' — later file takes precedence",
+    "  Duplicate variable 'P05F04B' — later file takes precedence",
+    "  Duplicate variable 'P05F04C' — later file takes precedence",
+    "  Duplicate variable 'P05F04D' — later file takes precedence",
+    "  Duplicate variable 'P05F04E' — later file takes precedence",
+    "  Duplicate variable 'P05F04F' — later file takes precedence",
+    "  Duplicate variable 'P05F04G' — later file takes precedence",
+    "  Duplicate variable 'P05F05' — later file takes precedence",
+    "  Duplicate variable 'P05F06' — later file takes precedence",
+    "  Duplicate variable 'P05F07' — later file takes precedence",
+    "  Duplicate variable 'P05F08' — later file takes precedence",
+    "  Duplicate variable 'P05F09A' — later file takes precedence",
+    "  Duplicate variable 'P05F09B' — later file takes precedence",
+    "  Duplicate variable 'P05F09C' — later file takes precedence",
+    "  Duplicate variable 'P05F09D' — later file takes precedence",
+    "  Duplicate variable 'P05F09E' — later file takes precedence",
+    "  Duplicate variable 'P05F09F' — later file takes precedence",
+    "  Duplicate variable 'P05F09G' — later file takes precedence",
+    "  Duplicate variable 'P05F09H' — later file takes precedence",
+    "  Duplicate variable 'P05F09I' — later file takes precedence",
+    "  Duplicate variable 'P05F09J' — later file takes precedence",
+    "  Duplicate variable 'P05G01A' — later file takes precedence",
+    "  Duplicate variable 'P05G01' — later file takes precedence",
+    "  Duplicate variable 'P05G02A' — later file takes precedence",
+    "  Duplicate variable 'P05G02_2D' — later file takes precedence",
+    "  Duplicate variable 'P05G02_1D' — later file takes precedence",
+    "  Duplicate variable 'P05G04A' — later file takes precedence",
+    "  Duplicate variable 'P05G04_2D' — later file takes precedence",
+    "  Duplicate variable 'P05G04_1D' — later file takes precedence",
+    "  Duplicate variable 'P05G06A' — later file takes precedence",
+    "  Duplicate variable 'P05G07' — later file takes precedence",
+    "  Duplicate variable 'P05G08' — later file takes precedence",
+    "  Duplicate variable 'P05G09' — later file takes precedence",
+    "  Duplicate variable 'P05G11A' — later file takes precedence",
+    "  Duplicate variable 'P05G12A' — later file takes precedence",
+    "  Duplicate variable 'P05G13A' — later file takes precedence",
+    "  Duplicate variable 'P05G14A' — later file takes precedence",
+    "  Duplicate variable 'P05G15' — later file takes precedence",
+    "  Duplicate variable 'P05G16' — later file takes precedence",
+    "  Duplicate variable 'P05G17' — later file takes precedence",
+    "  Duplicate variable 'P05G18' — later file takes precedence",
+    "  Duplicate variable 'P05G19' — later file takes precedence",
+    "  Duplicate variable 'P05G20' — later file takes precedence",
+    "  Duplicate variable 'P05G21' — later file takes precedence",
+    "  Duplicate variable 'P05G22' — later file takes precedence",
+    "  Duplicate variable 'P05G23' — later file takes precedence",
+    "  Duplicate variable 'P05G24' — later file takes precedence",
+    "  Duplicate variable 'P05G25' — later file takes precedence",
+    "  Duplicate variable 'P05G27A' — later file takes precedence",
+    "  Duplicate variable 'P05G28A' — later file takes precedence",
+    "  Duplicate variable 'P05G29A' — later file takes precedence",
+    "  Duplicate variable 'P05G29B' — later file takes precedence",
+    "  Duplicate variable 'P05G29C' — later file takes precedence",
+    "  Duplicate variable 'P05G29D' — later file takes precedence",
+    "  Duplicate variable 'P05G29E' — later file takes precedence",
+    "  Duplicate variable 'P05G29F' — later file takes precedence",
+    "  Duplicate variable 'P05G29G' — later file takes precedence",
+    "  Duplicate variable 'P05H02' — later file takes precedence",
+    "  Duplicate variable 'P05H03' — later file takes precedence",
+    "  Duplicate variable 'P05H04A' — later file takes precedence",
+    "  Duplicate variable 'P05H04B' — later file takes precedence",
+    "  Duplicate variable 'P05H04C' — later file takes precedence",
+    "  Duplicate variable 'P05H06' — later file takes precedence",
+    "  Duplicate variable 'P05H07' — later file takes precedence",
+    "  Duplicate variable 'P05H08' — later file takes precedence",
+    "  Duplicate variable 'P05H09' — later file takes precedence",
+    "  Duplicate variable 'P05H10' — later file takes precedence",
+    "  Duplicate variable 'P05H11' — later file takes precedence",
+    "  Duplicate variable 'P05H12' — later file takes precedence",
+    "  Duplicate variable 'P06A01A' — later file takes precedence",
+    "  Duplicate variable 'P06A02A' — later file takes precedence",
+    "  Duplicate variable 'P06A03A' — later file takes precedence",
+    "  Duplicate variable 'P06A04A' — later file takes precedence",
+    "  Duplicate variable 'P06A05A' — later file takes precedence",
+    "  Duplicate variable 'P06A06A' — later file takes precedence",
+    "  Duplicate variable 'P06A07A' — later file takes precedence",
+    "  Duplicate variable 'P06B01A' — later file takes precedence",
+    "  Duplicate variable 'P06B02A' — later file takes precedence",
+    "  Duplicate variable 'P06B03A' — later file takes precedence",
+    "  Duplicate variable 'P06B04A' — later file takes precedence",
+    "  Duplicate variable 'P06C01' — later file takes precedence",
+    "  Duplicate variable 'P06C02A' — later file takes precedence",
+    "  Duplicate variable 'P06C03A' — later file takes precedence",
+    "  Duplicate variable 'P06C04A' — later file takes precedence",
+    "  Duplicate variable 'PET' — later file takes precedence",
+    "  Duplicate variable 'PEA' — later file takes precedence",
+    "  Duplicate variable 'OCUPADOS' — later file takes precedence",
+    "  Duplicate variable 'DESOCUPADOS' — later file takes precedence",
+    "  Duplicate variable 'SUBVISIBLES' — later file takes precedence",
+    "  Duplicate variable 'INACTIVOS' — later file takes precedence",
+    "  Duplicate variable 'FORMAL_INFORMAL' — later file takes precedence"
+  ]
+}

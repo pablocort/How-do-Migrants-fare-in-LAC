@@ -1,0 +1,3058 @@
+{
+  "iso3": "BRA",
+  "survey": "PNADC",
+  "period": "a",
+  "year": 2020,
+  "source_files": [
+    "dicionario_PNADC_microdados_2020_visita5.xls"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [
+    "dicionário pnad contínua "
+  ],
+  "variables": [
+    {
+      "name": "Ano",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "Trimestre",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "UF",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "Capital",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "RM_RIDE",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "UPA",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "Estrato",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1008",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1014",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1022",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1023",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1030",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1031",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1034",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "posest",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "posest_sxi",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V2001",
+      "label": "1",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V2003",
+      "label": "3",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V2005",
+      "label": "5",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V2007",
+      "label": "7",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V2008",
+      "label": "8",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V20081",
+      "label": "8",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V20082",
+      "label": "8",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V2009",
+      "label": "9",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V2010",
+      "label": "10",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3001",
+      "label": "1",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3002",
+      "label": "2",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3002A",
+      "label": "2A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3003A",
+      "label": "3A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3005A",
+      "label": "5A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3006",
+      "label": "6",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3006A",
+      "label": "6a",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3007",
+      "label": "7",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3008",
+      "label": "8",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3009A",
+      "label": "9A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3010",
+      "label": "10",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3011A",
+      "label": "11A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3012",
+      "label": "12",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3013",
+      "label": "13",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3013A",
+      "label": "13a",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3013B",
+      "label": "13b",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V3014",
+      "label": "14",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4001",
+      "label": "1",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4002",
+      "label": "2",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4003",
+      "label": "3",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4004",
+      "label": "4",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4005",
+      "label": "5",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4006A",
+      "label": "6A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4008",
+      "label": "8",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40081",
+      "label": "8",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40082",
+      "label": "8",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40083",
+      "label": "8",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4009",
+      "label": "9",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4010",
+      "label": "10",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4012",
+      "label": "12",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40121",
+      "label": "12",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4013",
+      "label": "13",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40132A",
+      "label": "13",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4014",
+      "label": "14",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4015",
+      "label": "15",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40151",
+      "label": "15",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V401511",
+      "label": "15",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V401512",
+      "label": "15",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4016",
+      "label": "16",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40161",
+      "label": "16",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40162",
+      "label": "16",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40163",
+      "label": "16",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4017",
+      "label": "17",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40171",
+      "label": "17",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V401711",
+      "label": "17",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4018",
+      "label": "18",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40181",
+      "label": "18",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40182",
+      "label": "18",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40183",
+      "label": "18",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4019",
+      "label": "19",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4020",
+      "label": "20",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4021",
+      "label": "21",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4022",
+      "label": "22",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4024",
+      "label": "24",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4025",
+      "label": "25",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4026",
+      "label": "26",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4027",
+      "label": "27",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4028",
+      "label": "28",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4029",
+      "label": "29",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4032",
+      "label": "32",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4033",
+      "label": "33",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40331",
+      "label": "33",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V403311",
+      "label": "33",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V403312",
+      "label": "33",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40332",
+      "label": "33",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V403321",
+      "label": "33",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V403322",
+      "label": "33",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40333",
+      "label": "33",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V403331",
+      "label": "33",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4034",
+      "label": "34",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40341",
+      "label": "34",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V403411",
+      "label": "34",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V403412",
+      "label": "34",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40342",
+      "label": "34",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V403421",
+      "label": "34",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V403422",
+      "label": "34",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4039",
+      "label": "39",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4039C",
+      "label": "39C",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4040",
+      "label": "40",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40401",
+      "label": "40",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40402",
+      "label": "40",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40403",
+      "label": "40",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4041",
+      "label": "41",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4043",
+      "label": "43",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40431",
+      "label": "43",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4044",
+      "label": "44",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4045",
+      "label": "45",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4046",
+      "label": "46",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4047",
+      "label": "47",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4048",
+      "label": "48",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4049",
+      "label": "49",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4050",
+      "label": "50",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40501",
+      "label": "50",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405011",
+      "label": "50",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405012",
+      "label": "50",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40502",
+      "label": "50",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405021",
+      "label": "50",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405022",
+      "label": "50",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40503",
+      "label": "50",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405031",
+      "label": "50",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4051",
+      "label": "51",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40511",
+      "label": "51",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405111",
+      "label": "51",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405112",
+      "label": "51",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40512",
+      "label": "51",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405121",
+      "label": "51",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405122",
+      "label": "51",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4056",
+      "label": "56",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4056C",
+      "label": "56C",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4057",
+      "label": "57",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4058",
+      "label": "58",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40581",
+      "label": "58",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405811",
+      "label": "58",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405812",
+      "label": "58",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40582",
+      "label": "58",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405821",
+      "label": "58",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405822",
+      "label": "58",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40583",
+      "label": "58",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405831",
+      "label": "58",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40584",
+      "label": "58",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4059",
+      "label": "59",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40591",
+      "label": "59",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405911",
+      "label": "59",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405912",
+      "label": "59",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40592",
+      "label": "59",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405921",
+      "label": "59",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V405922",
+      "label": "59",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4062",
+      "label": "62",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4062C",
+      "label": "62C",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4063A",
+      "label": "63A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4064A",
+      "label": "64A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4071",
+      "label": "71",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4072A",
+      "label": "72A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4073",
+      "label": "73",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4074A",
+      "label": "74A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4075A",
+      "label": "75A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4075A1",
+      "label": "75A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4076",
+      "label": "76",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40761",
+      "label": "76",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40762",
+      "label": "76",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V40763",
+      "label": "76",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4077",
+      "label": "77",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4078A",
+      "label": "78A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V4082",
+      "label": "82",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5001A",
+      "label": "1A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5001A2",
+      "label": "1A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5002A",
+      "label": "2A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5002A2",
+      "label": "2A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5003A",
+      "label": "3A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5003A2",
+      "label": "3A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5004A",
+      "label": "4A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5004A2",
+      "label": "4A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5005A",
+      "label": "5A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5005A2",
+      "label": "5A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5006A",
+      "label": "6A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5006A2",
+      "label": "6A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5007A",
+      "label": "7A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5007A2",
+      "label": "7A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5008A",
+      "label": "8A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V5008A2",
+      "label": "8A",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD2002",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD2003",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD2004",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD3004",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD3005",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD3006",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4001",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4002",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4003",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4004A",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4005",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4007",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4008",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4009",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4010",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4011",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4012",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4013",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4014",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4015",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4016",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4017",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4018",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4019",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4020",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4022",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4030",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4031",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4035",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4036",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4037",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4046",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4047",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4048",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4049",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD4052",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5001",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5002",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5003",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5004",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5005",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5006",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5007",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5008",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5009",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5010",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5011",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "VD5012",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032001",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032002",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032003",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032004",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032005",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032006",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032007",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032008",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032009",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032010",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032011",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032012",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032013",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032014",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032015",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032016",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032017",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032018",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032019",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032020",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032021",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032022",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032023",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032024",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032025",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032026",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032027",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032028",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032029",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032030",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032031",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032032",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032033",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032034",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032035",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032036",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032037",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032038",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032039",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032040",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032041",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032042",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032043",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032044",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032045",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032046",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032047",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032048",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032049",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032050",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032051",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032052",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032053",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032054",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032055",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032056",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032057",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032058",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032059",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032060",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032061",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032062",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032063",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032064",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032065",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032066",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032067",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032068",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032069",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032070",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032071",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032072",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032073",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032074",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032075",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032076",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032077",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032078",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032079",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032080",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032081",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032082",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032083",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032084",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032085",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032086",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032087",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032088",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032089",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032090",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032091",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032092",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032093",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032094",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032095",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032096",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032097",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032098",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032099",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032100",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032101",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032102",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032103",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032104",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032105",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032106",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032107",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032108",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032109",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032110",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032111",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032112",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032113",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032114",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032115",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032116",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032117",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032118",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032119",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032120",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032121",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032122",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032123",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032124",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032125",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032126",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032127",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032128",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032129",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032130",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032131",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032132",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032133",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032134",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032135",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032136",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032137",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032138",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032139",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032140",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032141",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032142",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032143",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032144",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032145",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032146",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032147",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032148",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032149",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032150",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032151",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032152",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032153",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032154",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032155",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032156",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032157",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032158",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032159",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032160",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032161",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032162",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032163",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032164",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032165",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032166",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032167",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032168",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032169",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032170",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032171",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032172",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032173",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032174",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032175",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032176",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032177",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032178",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032179",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032180",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032181",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032182",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032183",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032184",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032185",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032186",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032187",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032188",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032189",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032190",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032191",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032192",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032193",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032194",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032195",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032196",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032197",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032198",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032199",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    },
+    {
+      "name": "V1032200",
+      "label": "",
+      "type": "NUMBER",
+      "table": "dicionário pnad contínua ",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: dicionario_PNADC_microdados_2020_visita5.xls (1 sheet(s))",
+    "Sheet 'dicionário pnad contínua ': BRA_PNADC layout, 1154 rows",
+    "  → 434 variables extracted"
+  ]
+}

@@ -1,0 +1,4195 @@
+{
+  "iso3": "URY",
+  "survey": "ECH",
+  "period": "a",
+  "year": 2016,
+  "source_files": [
+    "Diccionario ECH  2016.xls"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [
+    "HOGAR",
+    "PERSONA"
+  ],
+  "variables": [
+    {
+      "name": "ANIO",
+      "label": "AÑO DE LA ENCUESTA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "NUMERO",
+      "label": "IDENTIFICACIÓN DEL CUESTIONARIO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "DPTO",
+      "label": "DEPARTAMENTO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "NOMDPTO",
+      "label": "NOMBRE DEL DEPARTAMENTO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "SECC",
+      "label": "SECCIÓN CENSAL",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "SEGM",
+      "label": "SEGMENTO CENSAL",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "LOCAGR",
+      "label": "LOCALIDAD AGRUPADA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "NOM_LOCAGR",
+      "label": "NOMBRE DE LA LOCALIDAD AGRUPADA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "CCZ",
+      "label": "CENTRO COMUNAL ZONAL",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "BARRIO",
+      "label": "BARRIO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "NOMBARRIO",
+      "label": "NOMBRE DEL BARRIO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "MES",
+      "label": "MES DE LA ENCUESTA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ESTRED13",
+      "label": "ESTRATO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "REGION_3",
+      "label": "REGIÓN 3",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "REGION_4",
+      "label": "REGIÓN 4",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "PESOANO",
+      "label": "EXPANSOR DEL AÑO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "PESOTRI",
+      "label": "EXPANSOR DEL TRIMESTRE",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "PESOSEM",
+      "label": "EXPANSOR DEL SEMESTRE",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "PESOMEN",
+      "label": "EXPANSOR DEL MES",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c1",
+      "label": "TIPO DE VIVIENDA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c2",
+      "label": "MATERIAL PREDOMINANTE EN PAREDES EXTERNAS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c3",
+      "label": "MATERIAL PREDOMINANTE EN TECHO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c4",
+      "label": "MATERIAL PREDOMINANTE EN PISOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_1",
+      "label": "PROBLEMAS DE LA VIVIENDA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_3",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_4",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_5",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_6",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_7",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_8",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_9",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_10",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_11",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c5_12",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "c6",
+      "label": "NÚMERO DE HOGARES EN LA VIVIENDA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d8_1",
+      "label": "TENENCIA DE LA VIVIENDA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d8_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d8_3",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d8_4",
+      "label": "VIVIENDA UBICADA EN ASENTAMIENTO IRREGULAR",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d9",
+      "label": "HABITACIONES RESIDENCIALES",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d10",
+      "label": "HABITACIONES PARA DORMIR",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d11",
+      "label": "ORIGEN DEL AGUA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d12",
+      "label": "LLEGADA DEL AGUA A LA VIVIENDA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d13",
+      "label": "SERVICIO SANITARIO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d14",
+      "label": "BAÑO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d15",
+      "label": "USO DEL BAÑO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d16",
+      "label": "EVACUACIÓN DEL SERVICIO SANITARIO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d18",
+      "label": "FUENTE DE ENERGÍA PARA ILUMINAR",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d260",
+      "label": "FUENTE DE ENERGÍA PARA CALEFACCIONAR",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d19",
+      "label": "LUGAR PARA COCINAR",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d20",
+      "label": "FUENTE DE ENERGÍA PARA COCINAR",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_1",
+      "label": "ELEMENTOS DE CONFORT",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_3",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_4",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_4_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_5",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_5_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_6",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_20",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_7",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_9",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_8",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_10",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_11",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_12",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_13",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_14",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_14_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_15",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_15_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_15_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_15_3",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_15_4",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_15_5",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_15_6",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_16",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_16_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_16_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_16_3",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_17",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_18",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_18_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_19",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d21_19_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d181",
+      "label": "PERSONAS PAGAS PARA REALIZAR TAREAS DOMÉSTICAS O DE CUIDADOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d229",
+      "label": "PERSONAS CONTRATADAS PARA REALIZAR TAREAS DOMÉSTICAS O DE CUIDADO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d230",
+      "label": "HORAS TRABAJADAS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d231",
+      "label": "PERSONAS QUE PERNOCTAN EN EL HOGAR",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d232",
+      "label": "CANTIDAD DE PERSONAS QUE PERNOCTAN",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d184",
+      "label": "AYUDA GRATUITA DE OTROS FAMILIARES QUE NO INTEGRAN EL HOGAR",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d184_1",
+      "label": "HORAS TRABAJADAS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d23",
+      "label": "PERSONAS DE 14 o MÁS AÑOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d24",
+      "label": "MENORES DE 14 AÑOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "d25",
+      "label": "TOTAL DE PERSONAS DEL HOGAR",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h155",
+      "label": "RECIBE DINERO DE ALGÚN FAMILIAR U OTRO HOGAR DEL PAÍS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h155_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h156",
+      "label": "RECIBE AYUDA EN ESPECIE DE ALGÚN FAMILIAR U OTRO HOGAR DEL PAÍS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h156_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h252",
+      "label": "HOGAR ALQUILA PARTE DE LA VIVIENDA QUE HABITA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h252_1",
+      "label": "ALQUILER",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h158_1",
+      "label": "PROPIETARIOS DE LA VIVIENDA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h158_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h159",
+      "label": "PROPIETARIO DE OTRA VIVIENDA O LOCAL",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h160",
+      "label": "FUERON ALQUILADAS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h160_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h160_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h161",
+      "label": "PROPIETARIO DE CHACRA O CAMPO EN EL QUE NO TRABAJA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h162",
+      "label": "FUERON ARRENDADOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h163_1",
+      "label": "ARRENDAMIENTOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h163_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h164",
+      "label": "INGRESO POR MEDIANERÍA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h165",
+      "label": "INGRESO POR PASTOREO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h227",
+      "label": "PROPIETARIO DE GANADO A CAPITALIZACIÓN",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h166",
+      "label": "INGRESO POR GANADO A CAPITALIZACIÓN",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h269",
+      "label": "RECIBIÓ INGRESOS POR ALQUILER DE VEHÍCULOS / MAQUINARIA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h269_1",
+      "label": "INGRESO POR ALQUILER DE VEHÍCULOS / MAQ.",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_1",
+      "label": "DEPÓSITOS BANCARIOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_1_1",
+      "label": "INTERESES POR DEPÓSITOS BANCARIOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_1_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_2",
+      "label": "LETRAS O BONOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_2_1",
+      "label": "INTERESES POR LETRAS O BONOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_2_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_3",
+      "label": "PRÉSTAMOS A TERCEROS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_3_1",
+      "label": "INTERESES POR PRÉSTAMOS A TERCEROS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_3_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_4",
+      "label": "OTROS TÍTULOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_4_1",
+      "label": "INTERESES POR OTROS TÍTULOS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h167_4_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h169",
+      "label": "PROPIETARIO DE NEGOCIO EN EL QUE NO TRABAJA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h170_1",
+      "label": "RECIBIÓ POR UTILIDADES Y DIVIDENDOS DE ALGÚN NEGOCIO EN EL QUE NO TRABAJA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h170_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h271",
+      "label": "RECIBIÓ INGRESOS POR MARCAS, PATENTES, DERECHOS DE AUTOR",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h271_1",
+      "label": "INGRESOS POR MARCAS, PATENTES, ETC.",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h171",
+      "label": "RECIBIÓ INDEMNIZACIÓN POR DESPIDO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h171_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h171_2",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h172",
+      "label": "RECIBIÓ ALGUNA COLABORACIÓN ECONÓMICA DE ALGÚN FAMILIAR DEL EXTERIOR",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h172_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h173",
+      "label": "RECIBIÓ ALGÚN INGRESO EXTRAORDINARIO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "h173_1",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "i228",
+      "label": "CONTRIBUCIONES POR DIVORCIO O SEPARACIÓN",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "i174",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "i259",
+      "label": "CONTRIBUCIONES EN DINERO O EN ESPECIE A OTROS HOGARES",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "i175",
+      "label": "",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht1",
+      "label": "CANTIDAD DE HOMBRES  (sin servicio doméstico)",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht2",
+      "label": "CANTIDAD DE MUJERES  (sin servicio doméstico)",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht3",
+      "label": "CANTIDAD DE MENORES DE 14 AÑOS  (sin servicio doméstico)",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht4",
+      "label": "CANTIDAD DE MAYORES DE 60 AÑOS  (sin servicio doméstico)",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht5",
+      "label": "CANTIDAD DE OCUPADOS (sin servicio doméstico)",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht6",
+      "label": "CANTIDAD DE DESOCUPADOS  (sin servicio doméstico)",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht7",
+      "label": "CANTIDAD DE DESOCUPADOS PROPIAMENTE  (sin servicio doméstico)",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht8",
+      "label": "CANTIDAD DE DESOC. BUSCAN TRAB. 1a. VEZ  (sin servicio doméstico)",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht9",
+      "label": "CANTIDAD DE INACTIVOS  (sin servicio doméstico)",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht10",
+      "label": "CANTIDAD DE SERVICIO DOMÉSTICO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht11",
+      "label": "INGRESO TOTAL DEL HOGAR CON VALOR LOCATIVO SIN SERVICIO DOMÉSTICO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht13",
+      "label": "VALOR LOCATIVO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht14",
+      "label": "VALOR DEL ALQUILER",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ht19",
+      "label": "CANTIDAD DE PERSONAS SIN SERVICIO DOMÉSTICO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "YHOG",
+      "label": "INGRESOS DEL HOGAR NO IMPUTABLES A PERSONAS",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "YSVL",
+      "label": "INGRESO TOTAL DEL HOGAR SIN VALOR LOCATIVO SIN SERVICIO DOMÉSTICO",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "lp_06",
+      "label": "LÍNEA DE POBREZA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "li_06",
+      "label": "LÍNEA DE INDIGENCIA",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "pobre06",
+      "label": "POBREZA SEGÚN METODOLOGÍA 2006",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "indigente06",
+      "label": "INDIGENCIA SEGÚN METODOLOGÍA 2006",
+      "type": "",
+      "table": "HOGAR",
+      "value_codes": {}
+    },
+    {
+      "name": "ANIO",
+      "label": "AÑO DE LA ENCUESTA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "NUMERO",
+      "label": "IDENTIFICACIÓN DEL CUESTIONARIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "DPTO",
+      "label": "DEPARTAMENTO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "NOMDPTO",
+      "label": "NOMBRE DEL DEPARTAMENTO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "SECC",
+      "label": "SECCIÓN CENSAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "SEGM",
+      "label": "SEGMENTO CENSAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "LOCAGR",
+      "label": "LOCALIDAD AGRUPADA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "NOM_LOCAGR",
+      "label": "NOMBRE DE LA LOCALIDAD AGRUPADA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "CCZ",
+      "label": "CENTRO COMUNAL ZONAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "BARRIO",
+      "label": "BARRIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "NOMBARRIO",
+      "label": "NOMBRE DEL BARRIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "MES",
+      "label": "MES DE LA ENCUESTA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "ESTRED13",
+      "label": "ESTRATO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "REGION_3",
+      "label": "REGIÓN 3",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "REGION_4",
+      "label": "REGIÓN 4",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "PESOANO",
+      "label": "EXPANSOR DEL AÑO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "PESOTRI",
+      "label": "EXPANSOR DEL TRIMESTRE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "PESOSEM",
+      "label": "EXPANSOR DEL SEMESTRE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "PESOMEN",
+      "label": "EXPANSOR DEL MES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "NPER",
+      "label": "NÚMERO DE PERSONA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e557",
+      "label": "IDENTIFICACIÓN DEL INFORMANTE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e558",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e26",
+      "label": "SEXO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e27",
+      "label": "EDAD",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e29_1",
+      "label": "ASCENDENCIA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e29_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e29_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e29_4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e29_5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e29_5_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e29_6",
+      "label": "CUÁL CONSIDERA LA PRINCIPAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e30",
+      "label": "RELACIÓN DE PARENTESCO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e31",
+      "label": "MADRE DEL NIETO/A U OTRO PARIENTE/NO PARIENTE  (< 18a)",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e32",
+      "label": "PADRE DEL NIETO/A U OTRO PARIENTE/NO PARIENTE   (< 18a)",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e33",
+      "label": "CÓNYUGE O PAREJA EN EL HOGAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e34",
+      "label": "NÚMERO DEL CÓNYUGE O PAREJA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e35",
+      "label": "TIPO DE UNIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e36",
+      "label": "ESTADO CIVIL ACTUAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "d185",
+      "label": "HIJOS NACIDOS VIVOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "d186_1",
+      "label": "CANTIDAD DE HIJOS NACIDOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "d186_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "d186_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "d186_4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e37",
+      "label": "LUGAR DE RESIDENCIA INMEDIATO LUEGO DEL NACIMIENTO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e37_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e234_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e38",
+      "label": "TIEMPO DE RESIDENCIA SIN INTERRUPCIONES EN ESTA CIUDAD O LOCALIDAD",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e38_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e39",
+      "label": "LUGAR DE RESIDENCIA ANTERIOR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e39_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e235_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e236",
+      "label": "LUGAR DE RESIDENCIA EN EL AÑO 2011",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e236_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e236_4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_1",
+      "label": "DERECHOS VIGENTES PARA ATENDER LA SALUD\nMSP / ASSE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_1_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_1_1_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_1_2",
+      "label": "SE ATIENDE REGULARMENTE EN ESTE SERVICIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_1_2_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_2",
+      "label": "DERECHOS VIGENTES PARA ATENDER LA SALUD\nIAMC",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_2_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_2_1_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_2_2",
+      "label": "SE ATIENDE REGULARMENTE EN ESTE SERVICIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "d45_2_2_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_3",
+      "label": "DERECHOS VIGENTES PARA ATENDER LA SALUD\nSEGURO MÉDICO PRIVADO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_3_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_3_1_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_3_2",
+      "label": "SE ATIENDE REGULARMENTE EN ESTE SERVICIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_3_2_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_4",
+      "label": "DERECHOS VIGENTES PARA ATENDER LA SALUD\nHOSPITAL POLICIAL / MILITAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_4_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_4_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_4_3",
+      "label": "SE ATIENDE REGULARMENTE EN ESTE SERVICIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_4_3_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_5",
+      "label": "DERECHOS VIGENTES PARA ATENDER LA SALUD \nBPS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_5_1",
+      "label": "SE ATIENDE REGULARMENTE EN ESTE SERVICIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_5_1_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_6",
+      "label": "DERECHOS VIGENTES PARA ATENDER LA SALUD\nPOLICLÍNICA MUNICIPAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_7_1",
+      "label": "DERECHOS VIGENTES PARA ATENDER LA SALUD\nOTRO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e45_7_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e237",
+      "label": "LUGAR DONDE SE ATIENDE FRENTE A UN PROBLEMA MÉDICO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e46",
+      "label": "AFILIACIÓN A EMERGENCIA MÓVIL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e47",
+      "label": "QUIÉN PAGA LA CUOTA DE LA EMERGENCIA MÓVIL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e47_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e48",
+      "label": "SABE LEER Y ESCRIBIR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e49",
+      "label": "ASISTENCIA ALGUNA VEZ A UN ESTABLECIMIENTO DE ENSEÑANZA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e238",
+      "label": "ASISTENCIA A EDUCACIÓN INICIAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e239",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e240_1",
+      "label": "CANTIDAD DE DÍAS QUE ASISTE A LA SEMANA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e240_2",
+      "label": "CANTIDAD DE HORAS AL DÍA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e241",
+      "label": "FALTÓ ALGÚN DÍA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e242",
+      "label": "RAZONES POR LAS QUE NO ASISTIÓ",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e242_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e193",
+      "label": "ASISTENCIA A EDUCACIÓN PREESCOLAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e194",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e243_1",
+      "label": "CUÁNTOS DÍAS A LA SEMANA ASISTE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e243_2",
+      "label": "CUÁNTAS HORAS AL DÍA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e244",
+      "label": "FALTÓ ALGÚN DÍA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e245",
+      "label": "RAZONES POR LAS QUE FALTÓ",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e245_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e196",
+      "label": "RECIBE ALIMENTACIÓN EN EL CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e196_1",
+      "label": "CANTIDAD DE COMIDAS SEMANALES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e196_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e196_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e197",
+      "label": "ASISTENCIA A EDUCACIÓN PRIMARIA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e197_1",
+      "label": "FINALIZÓ EL NIVEL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e51_2",
+      "label": "AÑOS APROBADOS EN PRIMARIA COMÚN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e51_3",
+      "label": "AÑOS APROBADOS EN PRIMARIA ESPECIAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e198",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e199",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e200",
+      "label": "RECIBE ALIMENTACIÓN EN EL CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e200_1",
+      "label": "CANTIDAD DE COMIDAS SEMANALES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e200_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e200_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e201",
+      "label": "ASISTENCIA A EDUCACIÓN MEDIA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e201_1",
+      "label": "FINALIZÓ EL NIVEL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e202_1",
+      "label": "RAZONES POR NO HABER FINALIZADO LA EDUCACIÓN MEDIA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e202_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e202_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e202_4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e202_8",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e202_5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e202_6",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e202_6_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e202_7",
+      "label": "PRINCIPAL RAZÓN POR LA CUAL NO FINALIZÓ LA EDUCACIÓN MEDIA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e51_4",
+      "label": "AÑOS APROBADOS EN CICLO BÁSICO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e210_1",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e51_5",
+      "label": "AÑOS APROBADOS EN BACHILLERATO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e210_2",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e51_6",
+      "label": "AÑOS APROBADOS EN BACHILLERATO TECNOLÓGICO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e209_1",
+      "label": "CURSO O CARRERA QUE ESTUDIA / ESTUDIÓ",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e210_3",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e211",
+      "label": "RECIBE ALIMENTACIÓN EN EL CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e211_1",
+      "label": "CANTIDAD DE COMIDAS SEMANALES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e211_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e211_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e562",
+      "label": "BECAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e212",
+      "label": "ASISTENCIA A EDUCACIÓN TÉCNICA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e212_1",
+      "label": "FINALIZÓ EL NIVEL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e213",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e51_7",
+      "label": "AÑOS APROBADOS EN EDUCACIÓN TÉCNICA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e51_7_1",
+      "label": "EXIGENCIA PARA REALIZAR CURSO DE EDUCACIÓN TÉCNICA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e214_1",
+      "label": "CURSO O CARRERA QUE ESTUDIA / ESTUDIÓ",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e215",
+      "label": "ASISTENCIA A MAGISTERIO O PROFESORADO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e215_1",
+      "label": "FINALIZÓ EL NIVEL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e216",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e51_8",
+      "label": "AÑOS APROBADOS EN MAGISTERIO O PROFESORADO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e217_1",
+      "label": "CURSO O CARRERA QUE ESTUDIA/ESTUDIÓ",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e218",
+      "label": "ASISTENCIA A UNIVERSIDAD O SIMILAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e218_1",
+      "label": "FINALIZÓ EL NIVEL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e219",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e51_9",
+      "label": "AÑOS APROBADOS EN UNIVERSIDAD O SIMILAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e220_1",
+      "label": "CURSO O CARRERA QUE ESTUDIA/ESTUDIÓ",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e221",
+      "label": "ASISTENCIA A TERCIARIO NO UNIVERSITARIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e221_1",
+      "label": "FINALIZÓ EL NIVEL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e222",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e51_10",
+      "label": "AÑOS APROBADOS EN TERCIARIO NO UNIVERSITARIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e223_1",
+      "label": "CURSO O CARRERA QUE ESTUDIA/ESTUDIÓ",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e224",
+      "label": "ASISTENCIA A POSTGRADO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e224_1",
+      "label": "FINALIZÓ EL NIVEL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e225",
+      "label": "TIPO DE CENTRO EDUCATIVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e51_11",
+      "label": "AÑOS APROBADOS EN POSTGRADO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e226_1",
+      "label": "CURSO O CARRERA QUE ESTUDIA/ESTUDIÓ",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e559",
+      "label": "CONCURRENCIA A COMEDOR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e559_1",
+      "label": "CANTIDAD DE COMIDAS RECIBIDAS SEMANALMENTE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e559_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e560",
+      "label": "TARJETAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e560_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e560_1_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e560_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e560_2_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e561",
+      "label": "LECHE EN POLVO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e561_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e59",
+      "label": "RECIBE ALGÚN TIPO DE CANASTA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e246",
+      "label": "TIPO DE CANASTA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e246_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e247",
+      "label": "CANTIDAD DE CANASTAS MENSUALES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e60",
+      "label": "TENENCIA DE TELÉFONO CELULAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e61",
+      "label": "UTILIZACIÓN DE MICROCOMPUTADOR EN EL ÚLTIMO MES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e248",
+      "label": "UTILIZACIÓN DE MICROCOMPUTADOR EN LOS ÚLTIMOS 3 MESES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e62",
+      "label": "UTILIZACIÓN DE INTERNET EN EL ÚLTIMO MES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e249",
+      "label": "UTILIZACIÓN DE INTERNET EN LOS ÚLTIMOS 3 MESES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e250",
+      "label": "UTILIZACIÓN DE LA TABLET PARA CONSULTAS EN INTERNET (solo para quienes declararon tener tablet del Plan Ibirapitá)",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e64_1",
+      "label": "UTILIDAD DE INTERNET",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e64_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e64_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e64_4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e64_5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e64_6",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e64_7",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e65",
+      "label": "FRECUENCIA DE UTILIZACIÓN DE INTERNET",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f66",
+      "label": "(14 años o más)                                                                                                                           TRABAJÓ POR LO MENOS 1 HORA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f67",
+      "label": "TRABAJÓ EN CASA O AYUDÓ EN NEGOCIO, CUIDADO DE ANIMALES, CULTIVOS O HUERTA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f261",
+      "label": "DE LO QUE PRODUCE PARTE SE DESTINA A LA VENTA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f68",
+      "label": "TRABAJO AL QUE VOLVERÁ",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f69",
+      "label": "MOTIVO POR EL CUAL NO TRABAJÓ",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f70",
+      "label": "CANTIDAD DE TRABAJOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f71_2",
+      "label": "TAREAS QUE PROPORCIONAN MAYORES INGRESOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f72_2",
+      "label": "ACTIVIDAD DEL ESTABLECIMIENTO DONDE REALIZA LAS TAREAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f73",
+      "label": "CATEGORÍA DE LA OCUPACIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f74",
+      "label": "SECTOR PÚBLICO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f75",
+      "label": "ESTABLECIMIENTO DONDE REALIZA LAS TAREAS PERTENECE A LA EMPRESA QUE LO CONTRATA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f76_2",
+      "label": "ACTIVIDAD DE LA EMPRESA QUE LO CONTRATA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f262",
+      "label": "NEGOCIO CON CONTABILIDAD COMPLETA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f263",
+      "label": "NEGOCIO REGISTRADO ANTE LAS OFICINAS DE IMPUESTOS O DE LA SEGURIDAD SOCIAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f264",
+      "label": "NATURALEZA JURÍDICA DEL NEGOCIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f264_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f265",
+      "label": "FORMA DE TRIBUTACIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f265_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f77",
+      "label": "TAMAÑO  DE LA EMPRESA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f78",
+      "label": "DÓNDE REALIZA SU TRABAJO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f79",
+      "label": "MEDIO DE TRANSPORTE UTILIZADO PARA IR A TRABAJAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "e79_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f80",
+      "label": "TRABAJO EN EL DEPARTAMENTO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f80_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f81",
+      "label": "COBRA AGUINALDO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f82",
+      "label": "APORTE A CAJA DE JUBILACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f83",
+      "label": "CAJA A LA CUAL APORTA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f84",
+      "label": "APORTE POR TOTALIDAD DEL SALARIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f266",
+      "label": "RECONOCIMIENTO DE HORAS EXTRAS MEDIANTE PAGO, COMPENSACIÓN, DÍAS ADICIONALES DE VACACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f267",
+      "label": "VACACIONES ANUALES PAGAS O PAGO POR LICENCIA NO GOZADA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f268",
+      "label": "LICENCIA POR ENFERMEDAD O LESIÓN PAGA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f85",
+      "label": "HORAS TRABAJADAS POR SEMANA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f86",
+      "label": "TIENE QUE LLEVAR TRABAJO PARA SU HOGAR (solo para asalariados)",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f87",
+      "label": "CANTIDAD DE HORAS SEMANALES DEDICADAS A ESE TRABAJO EN EL HOGAR (solo para asalariados)",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f88_1",
+      "label": "TIEMPO QUE TRABAJA EN FORMA CONTINUA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f88_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f89",
+      "label": "ESTUVO DESOCUPADO EN LOS ÚLTIMOS 12 MESES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f90_2",
+      "label": "TAREAS QUE REALIZA EN EL OTRO TRABAJO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f91_2",
+      "label": "ACTIVIDAD DEL ESTABLECIMIENTO DONDE REALIZA LAS TAREAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f92",
+      "label": "CATEGORÍA DE LA OCUPACIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f93",
+      "label": "TAMAÑO  DE LA EMPRESA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f94",
+      "label": "TRABAJO EN EL DEPARTAMENTO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f94_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f95",
+      "label": "COBRA AGUINALDO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f96",
+      "label": "APORTE A CAJA DE JUBILACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f97",
+      "label": "A CUÁL APORTA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f98",
+      "label": "CANTIDAD DE HORAS TRABAJADDAS EN OTRAS OCUPACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f99",
+      "label": "BUSCA OTRO TRABAJO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f100",
+      "label": "SUSTITUIR O COMPLEMENTAR EL ACTUAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f101",
+      "label": "RAZONES POR LAS CUALES QUIERE OTRO EMPLEO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f102",
+      "label": "DESEA TRABAJAR MÁS HORAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f103",
+      "label": "ESTÁ DISPONIBLE PARA TRABAJAR MÁS HORAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f104",
+      "label": "RAZONES POR LAS CUALES NO TRABAJA MÁS HORAS A LA SEMANA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f105",
+      "label": "QUÉ HIZO PARA TRABAJAR MÁS HORAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f106",
+      "label": "DISPONIBILIDAD PARA TRABAJAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f107",
+      "label": "LA SEMANA PASADA BUSCÓ TRABAJO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f108",
+      "label": "RAZONES POR LAS CUALES NO BUSCÓ TRABAJO NI ESTABLECIÓ SU NEGOCIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f109",
+      "label": "BUSCÓ TRABAJO EN LAS ÚLTIMAS CUATRO SEMANAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f110",
+      "label": "QUÉ HIZO PARA BUSCAR TRABAJO O ESTABLECER SU PROPIO NEGOCIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f111",
+      "label": "BUSCA TRABAJO CON CONDICIONES ESPECIALES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f112",
+      "label": "PRINCIPAL CONDICIÓN QUE REQUIERE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f113",
+      "label": "TIEMPO DE BUSCA DE TRABAJO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f114",
+      "label": "REALIZÓ GESTIONES CONCRETAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f115",
+      "label": "REALIZÓ ALGÚN TRABAJO OCASIONAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f116",
+      "label": "HA TRABAJADO ANTES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f117",
+      "label": "ESTÁ EN SEGURO DE PARO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f118_1",
+      "label": "TIEMPO QUE HACE QUE DEJÓ EL ÚLTIMO EMPLEO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f118_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f119_2",
+      "label": "TAREAS QUE REALIZABA EN ESA OCUPACIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f120_2",
+      "label": "ACTIVIDAD DEL ESTABLECIMIENTO EN QUE REALIZABA SUS TAREAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f121",
+      "label": "CATEGORÍA DE LA OCUPACIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f122",
+      "label": "RAZONES POR LAS CUALES DEJÓ EL TRABAJO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f123",
+      "label": "APORTABA A CAJA DE JUBILACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f124_1",
+      "label": "CONDICIÓN DE ACTIVIDAD",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f124_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f124_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f124_4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f124_5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "f125",
+      "label": "TIPO DE PENSIÓN QUE RECIBE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_id_1",
+      "label": "SUELDOS, JORNALES, AGUINALDO O SALARIO VACACIONAL POR ALGÚN TRABAJO ANTERIOR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_id_2",
+      "label": "COMISIONES, INCENTIVOS, PAGO DE HORAS EXTRAS, HABILITACIONES U OTRO INGRESO POR ALGÚN TRABAJO ANTERIOR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_id_3",
+      "label": "ALIMENTOS, BEBIDAS O ALGÚN OTRO TIPO DE RETRIBUCIÓN EN ESPECIE POR ALGÚN TRABAJO ANTERIOR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_id_1a",
+      "label": "SUELDOS, JORNALES, AGUINALDO O SALARIO VACACIONAL POR ALGÚN TRABAJO ANTERIOR EN RELACIÓN DE DEPENDENCIA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_id_2a",
+      "label": "COMISIONES, INCENTIVOS, PAGO DE HORAS EXTRAS, HABILITACIONES U OTRO INGRESO POR ALGÚN TRABAJO ANTERIOR EN RELACIÓN DE DEPENDENCIA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_id_3a",
+      "label": "ALIMENTOS, BEBIDAS O ALGÚN OTRO TIPO DE RETRIBUCIÓN EN ESPECIE POR ALGÚN TRABAJO ANTERIOR EN RELACIÓN DE DEPENDENCIA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g126_1",
+      "label": "SUELDO O JORNALES LÍQUIDOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g126_2",
+      "label": "COMISIONES, INCENTIVOS, HORAS EXTRAS, HABILITACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g126_3",
+      "label": "VIÁTICOS NO SUJETOS A RENDICIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g126_4",
+      "label": "PROPINAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g126_5",
+      "label": "AGUINALDO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g126_6",
+      "label": "SALARIO VACACIONAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g126_7",
+      "label": "PAGOS ATRASADOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g126_8",
+      "label": "BOLETOS DE TRANSPORTE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g250_1",
+      "label": "FORMA EN QUE PERCIBIÓ LOS INGRESOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g250_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g250_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g250_4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g127",
+      "label": "RECIBIÓ ALIMENTOS O BEBIDAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g127_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g127_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g127_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g128",
+      "label": "RECIBIÓ TIQUES DE ALIMENTACIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g128_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g129",
+      "label": "RECIBIÓ VIVIENDA O ALOJAMIENTO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g129_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g129_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g130",
+      "label": "RECIBIÓ OTRO TIPO DE RETRIBUCIÓN EN ESPECIE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g130_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g131",
+      "label": "RECIBIÓ ALGÚN OTRO TIPO DE COMPLEMENTO PAGADO POR EL EMPLEADOR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g131_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g132",
+      "label": "DERECHO A PASTOREO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g132_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g132_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g132_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g133",
+      "label": "DERECHO A CULTIVO PARA CONSUMO PROPIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g133_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g133_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_st_1",
+      "label": "INGRESOS DEL MES ANTERIOR POR ALGÚN OTRO EMPLEO ASALARIADO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g134_1",
+      "label": "SUELDO O JORNALES LÍQUIDOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g134_2",
+      "label": "COMISIONES, INCENTIVOS, HORAS EXTRAS, HABILITACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g134_3",
+      "label": "VIÁTICOS NO SUJETOS A RENDICIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g134_4",
+      "label": "PROPINAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g134_5",
+      "label": "AGUINALDO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g134_6",
+      "label": "SALARIO VACACIONAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g134_7",
+      "label": "PAGOS ATRASADOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g134_8",
+      "label": "BOLETOS DE TRANSPORTE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g251_1",
+      "label": "FORMA EN QUE PERCIBIÓ LOS INGRESOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g251_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g251_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g251_4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g135",
+      "label": "RECIBIÓ ALIMENTOS O BEBIDAS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g135_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g135_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g135_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g136",
+      "label": "RECIBIÓ TIQUES DE ALIMENTACIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g136_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g137",
+      "label": "RECIBIÓ VIVIENDA O ALOJAMIENTO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g137_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g137_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g138",
+      "label": "RECIBIÓ OTRO TIPO DE RETRIBUCIÓN EN ESPECIE",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g138_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g139",
+      "label": "RECIBIÓ ALGÚN OTRO COMPLEMENTO PAGADO POR EL EMPLEADOR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g139_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g140",
+      "label": "DERECHO A PASTOREO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g140_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g140_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g140_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g141",
+      "label": "DERECHO A CULTIVO PARA CONSUMO PROPIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g141_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g141_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_itnd_1",
+      "label": "RETIRO PARA GASTOS DEL HOGAR DE NEGOCIOS QUE TIENE O TENÍA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "142",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_itnd_2",
+      "label": "DISTRIBUCIÓN DE UTILIDADES POR NEGOCIO QUE TIENE O TENÍA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g143",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g144",
+      "label": "RETIRO DE PRODUCTOS PARA CONSUMO PROPIO (trabajador no agropecuario)",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g144_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g144_2_1",
+      "label": "RETIRO DE PRODUCTOS PARA CONSUMO PROPIO (trabajador agropecuario)",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g144_2_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g144_2_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g144_2_4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g144_2_5",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_itnd_3",
+      "label": "RECIBIÓ INGRESOS POR MEDIANERÍA O APARCERÍA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g145",
+      "label": "INGRESO POR MEDIANERÍA O APARCERÍA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g146",
+      "label": "INGRESO POR PASTOREO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g147",
+      "label": "INGRESO POR GANADO A CAPITALIZACIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_it_1",
+      "label": "RECIBIÓ INGRESOS POR JUBILACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_1",
+      "label": "BPS - CAJA INDUSTRIA Y COMERCIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_2",
+      "label": "BPS - CAJA CIVIL Y ESCOLAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_3",
+      "label": "BPS - RURAL Y SERVICIO DOMÉSTICO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_4",
+      "label": "UNIÓN POSTAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_5",
+      "label": "POLICIAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_6",
+      "label": "MILITAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_7",
+      "label": "PROFESIONAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_8",
+      "label": "NOTARIAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_9",
+      "label": "BANCARIA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_12",
+      "label": "AFAP (ingresos provenientes únicamente de alguna AFAP)",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_10",
+      "label": "OTRA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_1_11",
+      "label": "OTRO PAÍS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g_it_2",
+      "label": "RECIBIÓ INGRESOS POR PENSIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_1",
+      "label": "BPS - CAJA INDUSTRIA Y COMERCIO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_2",
+      "label": "BPS - CAJA CIVIL Y ESCOLAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_3",
+      "label": "BPS - RURAL Y SERVICIO DOMÉSTICO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_4",
+      "label": "UNIÓN POSTAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_5",
+      "label": "POLICIAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_6",
+      "label": "MILITAR",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_7",
+      "label": "PROFESIONAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_8",
+      "label": "NOTARIAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_9",
+      "label": "BANCARIA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_12",
+      "label": "AFAP (ingresos provenientes únicamente de alguna AFAP)",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_10",
+      "label": "OTRA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_2_11",
+      "label": "OTRO PAÍS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_3",
+      "label": "SEGURO DE DESEMPLEO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_4",
+      "label": "COMPENSACIONES POR ACCIDENTE, MATERNIDAD O ENFERMEDAD",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_5_1",
+      "label": "BECAS, SUBSIDIOS, DONACIONES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g148_5_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g149",
+      "label": "COBRA HOGAR CONSTITUIDO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g149_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g150",
+      "label": "COBRA ASIGNACIONES FAMILIARES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g255",
+      "label": "RECIBE LAS ASIGNACIONES POR EL PLAN DE EQUIDAD/MIDES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g256",
+      "label": "FORMA DE COBRO DE LAS ASIGNACIONES FAMILIARES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g152",
+      "label": "FRECUENCIA DE COBRO DE ASIGNACIONES FAMILIARES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g151_5",
+      "label": "CANTIDAD DE ASIGNACIONES FAMILIARES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g151_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g151_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g151_3",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g151_3_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g151_4",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g257",
+      "label": "MONTO PERCIBIDO POR ASIGNACIONES FAMILIARES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g153",
+      "label": "RECIBE PENSIÓN ALIMENTICIA O ALGUNA CONTRIBUCIÓN POR DIVORCIO O SEPARACIÓN",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g153_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g153_2",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g258",
+      "label": "DEVOLUCIÓN DE FONASA (últimos 12 meses)",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g258_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g154",
+      "label": "OTRO INGRESO CORRIENTE ADEMÁS DE LOS DECLARADOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "g154_1",
+      "label": "",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "pobpcoac",
+      "label": "CONDICIÓN DE ACTIVIDAD ECONÓMICA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "mto_cuota",
+      "label": "CUOTA MUTUAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "mto_emer",
+      "label": "CUOTA EMERGENCIA MÓVIL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "mto_hogcon",
+      "label": "HOGAR CONSTITUIDO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "mto_desay",
+      "label": "MONTO DESAYUNO O MERIENDA",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "mto_almue",
+      "label": "MONTO ALMUERZO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "mto_vacas",
+      "label": "VACA DE PASTOREO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "mto_oveja",
+      "label": "OVEJA DE PASTOREO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "mto_caball",
+      "label": "CABALLO DE PASTOREO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "subempleo",
+      "label": "TRABAJADOR SUBEMPLEADO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "indabajo",
+      "label": "INDA BAJO PESO (RIESGO NUTRICIONAL)",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "indaplomo",
+      "label": "INDA CONTAMINACIÓN POR PLOMO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "indadiabet",
+      "label": "DIABÉTICOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "indarenal",
+      "label": "RENALES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "indarendia",
+      "label": "RENALES-DIABÉTICOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "indaceliac",
+      "label": "CELÍACOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "indatuberc",
+      "label": "TUBERCULOSIS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "indaoncolo",
+      "label": "ONCOLÓGICOS",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "indasida",
+      "label": "PAEC HIV",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "PT1",
+      "label": "TOTAL DE INGRESOS PERSONALES",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "PT2",
+      "label": "INGRESOS DE LA OCUPACIÓN PRINCIPAL",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "PT4",
+      "label": "TOTAL DE INGRESOS POR TRABAJO",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "pobre06",
+      "label": "POBREZA SEGÚN METODOLOGÍA 2006",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    },
+    {
+      "name": "indigente06",
+      "label": "INDIGENCIA SEGÚN METODOLOGÍA 2006",
+      "type": "",
+      "table": "PERSONA",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: Diccionario ECH  2016.xls (2 sheet(s))",
+    "Sheet 'HOGAR': UNKNOWN layout — best-effort extraction",
+    "  → 166 variables (best-effort — verify manually)",
+    "Sheet 'PERSONA': UNKNOWN layout — best-effort extraction",
+    "  → 430 variables (best-effort — verify manually)"
+  ]
+}

@@ -1,0 +1,2189 @@
+{
+  "iso3": "ARG",
+  "survey": "EPHC",
+  "period": "t3",
+  "year": 2019,
+  "source_files": [
+    "EPH_registro_3t19.pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "CODUSU",
+      "label": "Código para distinguir VIVIENDAS, permite",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "NRO_HOGAR",
+      "label": "Código para distinguir HOGARES, permite aparearlos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "REALIZADA",
+      "label": "Entrevista Realizada",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ANO4",
+      "label": "Año de relevamiento (4 dígitos)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "REGION",
+      "label": "Código de Región",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "01": "Gran Buenos Aires",
+        "40": "NOA",
+        "41": "NEA",
+        "42": "Cuyo",
+        "43": "Pampeana",
+        "44": "Patagonia"
+      }
+    },
+    {
+      "name": "MAS_500",
+      "label": "Aglomerados según tamaño",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "500": "000hab."
+      }
+    },
+    {
+      "name": "AGLOMERADO",
+      "label": "Código de Aglomerado",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "02": "Gran La Plata",
+        "03": "Bahía Blanca - Cerri",
+        "04": "Gran Rosario",
+        "05": "Gran Santa Fé",
+        "06": "Gran Paraná",
+        "07": "Posadas",
+        "08": "Gran Resistencia",
+        "09": "Cdro. Rivadavia - R.Tilly",
+        "10": "Gran Mendoza",
+        "12": "Corrientes",
+        "13": "Gran Córdoba",
+        "14": "Concordia",
+        "15": "Formosa",
+        "17": "Neuquén – Plottier",
+        "18": "S.del Estero - La Banda",
+        "19": "Jujuy - Palpalá",
+        "20": "Río Gallegos",
+        "22": "Gran Catamarca",
+        "23": "Salta",
+        "25": "La Rioja",
+        "26": "San Luis - El Chorrillo",
+        "27": "Gran San Juan",
+        "29": "Gran Tucumán - T. Viejo",
+        "30": "Santa Rosa - Toay",
+        "31": "Ushuaia - Río Grande",
+        "32": "Ciudad de Bs As",
+        "33": "Partidos del GBA",
+        "34": "Mar del Plata - Batán",
+        "36": "Río Cuarto",
+        "38": "San Nicolás – Villa Constitución",
+        "91": "Rawson – Trelew",
+        "93": "Viedma – Carmen de Patagones"
+      }
+    },
+    {
+      "name": "PONDERA",
+      "label": "Ponderación.",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "IV1",
+      "label": "Tipo de vivienda ( por observación)",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Casa",
+        "2": "Departamento",
+        "3": "Pieza de inquilinato",
+        "4": "Pieza en hotel/pensión",
+        "5": "Local no construido para habitación"
+      }
+    },
+    {
+      "name": "IV2",
+      "label": "Cuántos ambientes/ habitaciones tiene la vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "IV3",
+      "label": "Los pisos interiores son principalmente de.....",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Mosaico/baldosa/madera/cerámica/alfombra",
+        "2": "Cemento/ladrillo fijo",
+        "3": "Ladrillo suelto/tierra"
+      }
+    },
+    {
+      "name": "IV4",
+      "label": "La cubierta exterior del techo es de....",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Membrana/cubierta asfáltica",
+        "2": "Baldosa/losa sin cubierta",
+        "3": "Pizarra/teja",
+        "4": "Chapa de metal sin cubierta",
+        "5": "Chapa de fibrocemento/plástico",
+        "6": "Chapa de cartón",
+        "7": "Caña/tabla/paja con barro/paja sola",
+        "9": "N/S. Depto en propiedad horizontal"
+      }
+    },
+    {
+      "name": "IV5",
+      "label": "El techo tiene cielorraso/revestimiento interior?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "IV6",
+      "label": "Tiene agua.....",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Por cañería dentro de la vivienda",
+        "2": "Fuera de la vivienda pero dentro del terreno",
+        "3": "Fuera del terreno"
+      }
+    },
+    {
+      "name": "IV7",
+      "label": "El agua es de.....",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Red pública (agua corriente)",
+        "2": "Perforación con bomba a motor",
+        "3": "Perforación con bomba manual"
+      }
+    },
+    {
+      "name": "IV8",
+      "label": "¿Tiene baño/letrina?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "IV9",
+      "label": "El baño o letrina está....",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Dentro de la vivienda",
+        "2": "Fuera de la vivienda pero dentro del terreno",
+        "3": "Fuera del terreno"
+      }
+    },
+    {
+      "name": "IV10",
+      "label": "El baño tiene....",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Inodoro con botón/ mochila/ cadena y arrastre",
+        "2": "Inodoro sin botón/cadena y con arrastre de agua",
+        "3": "Letrina (sin arrastre de agua)"
+      }
+    },
+    {
+      "name": "IV11",
+      "label": "El desague del baño es....",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "A red pública (cloaca)",
+        "2": "A cámara séptica y pozo ciego",
+        "3": "Sólo a pozo ciego",
+        "4": "A hoyo/excavación en al tierra"
+      }
+    },
+    {
+      "name": "IV12_1",
+      "label": "La vivienda está ubicada cerca de basural/es(3",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "IV12_2",
+      "label": "La vivienda está ubicada en zona inundable",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "IV12_3",
+      "label": "La vivienda está ubicada en villa de emergencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "II1",
+      "label": "Cuántos ambientes/ habitaciones tiene este hogar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "II2",
+      "label": "De esos, cuántos usan habitualmente para dormir?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "II3",
+      "label": "Utiliza alguno exclusivamente como lugar de",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "II3_1",
+      "label": "Si utiliza alguno exclusivamente como lugar de",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "II4_1",
+      "label": "Cuarto de cocina",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "II4_2",
+      "label": "Lavadero",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "II4_3",
+      "label": "Garage",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "II5",
+      "label": "De esos ...(los si de preg.4) usan alguno para",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "II5_1",
+      "label": "Si Utiliza alguno para dormir ¿Cuántos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "II6",
+      "label": "De esos ...(los si de preg.4) utiliza alguno de",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "II6_1",
+      "label": "Si utiliza alguno exclusivamente como lugar de",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "II7",
+      "label": "Régimen de tenencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "01": "Propietario de la vivienda y el terreno",
+        "02": "Propietario de la vivienda solamente",
+        "03": "Inquilino/arrendatario de la vivienda",
+        "04": "Ocupante por pago de impuestos/expensas",
+        "05": "Ocupante en relación de dependencia",
+        "06": "Ocupante gratuito (con permiso)",
+        "07": "Ocupante de hecho (sin permiso)",
+        "08": "Está en sucesión?"
+      }
+    },
+    {
+      "name": "II8",
+      "label": "Combustible utilizado para cocinar",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "01": "Gas de red",
+        "02": "Gas de tubo/garrafa",
+        "03": "Kerosene/ leña/ carbón"
+      }
+    },
+    {
+      "name": "II9",
+      "label": "Baño (tenencia y uso)",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "01": "Uso exclusivo del hogar",
+        "02": "Compartido con otro/s hogar/es de la misma",
+        "03": "Compartido con otra/s vivienda/s",
+        "04": "No tiene baño"
+      }
+    },
+    {
+      "name": "V1",
+      "label": "...de lo que ganan en el trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V2",
+      "label": "...de alguna jubilación o pensión?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V21",
+      "label": "...Aguinaldo de alguna jubilación o pensión",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V22",
+      "label": "...Retroactivo de alguna jubilación o pensión que",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V3",
+      "label": "...de indemnización por despido?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V4",
+      "label": "...de seguro de desempleo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V5",
+      "label": "...de subsidio o ayuda social(en dinero)del",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V6",
+      "label": "...con mercaderías, ropa, alimentos del",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "2": "No"
+      }
+    },
+    {
+      "name": "V7",
+      "label": "...con mercaderías, ropa, alimentos de familiares,",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V8",
+      "label": "...algún alquiler (por una vivienda, terreno,",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V9",
+      "label": "...ganancias de algún negocio en el que no",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V10",
+      "label": "...intereses o rentas por plazos fijos/",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V11",
+      "label": "...una beca de estudio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V12",
+      "label": "...cuotas de alimentos o ayuda en dinero de",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V13",
+      "label": "...gastar lo que tenían ahorrado?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V14",
+      "label": "...pedir préstamos a familiares/amigos",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V15",
+      "label": "...pedir préstamos a bancos, financieras, etc.?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V16",
+      "label": "Compran en cuotas o al fiado con tarjeta de",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V17",
+      "label": "Han tenido que vender alguna de sus pertenencias?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V18",
+      "label": "Tuvieron otros ingresos en efectivo (limosnas,",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V19_A",
+      "label": "menores de 10 años ayudan con algún dinero",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "V19_B",
+      "label": "menores de 10 años ayudan con algún dinero",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "ITF",
+      "label": "MONTO DE INGRESO TOTAL FAMILIAR(ver Anexo I)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DECIFR",
+      "label": "Nº de decil del ingreso total del hogar del TOTAL",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "IDECIFR",
+      "label": "Nº de decil del ingreso total del hogar del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RDECIFR",
+      "label": "Nº de decil de ingreso total del hogar de la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GDECIFR",
+      "label": "Nº de decil de ingreso total del hogar del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PDECIFR",
+      "label": "Nº de decil de ingreso total del hogar del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ADECIFR",
+      "label": "Nº de decil de ingreso total del hogar del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "IPCF",
+      "label": "Monto de ingreso per cápita familiar(ver AnexoI)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DECCFR",
+      "label": "Nº de decil del ingreso per cápita familiar del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "IDECCFR",
+      "label": "Nº de decil del ingreso per cápita familiar del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RDECCFR",
+      "label": "Nº de decil de ingreso per cápita familiar de la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GDECCFR",
+      "label": "Nº de decil de ingreso per cápita familiar del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PDECCFR",
+      "label": "Nº de decil de ingreso per cápita familiar del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ADECCFR",
+      "label": "Nº de decil de ingreso per cápita familiar del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PONDIH",
+      "label": "Ponderador del ingreso total familiar y del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "COMPONENTE",
+      "label": "Número de componente: Nº de orden que se asigna a",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "51": "Servicio doméstico en hogares.",
+        "71": "Pensionistas en hogares."
+      }
+    },
+    {
+      "name": "H15",
+      "label": "Entrevista individual realizada",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "TRIMESTRE",
+      "label": "Ventana de observación",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "1er. Trimestre",
+        "2": "2do. Trimestre",
+        "3": "3er. Trimestre",
+        "4": "4to. Trimestre",
+        "01": "Gran Buenos Aires",
+        "40": "Noroeste",
+        "41": "Nordeste",
+        "42": "Cuyo",
+        "43": "Pampeana",
+        "44": "Patagónica",
+        "02": "Gran La Plata",
+        "03": "Bahía Blanca - Cerri",
+        "04": "Gran Rosario",
+        "05": "Gran Santa Fé",
+        "06": "Gran Paraná",
+        "07": "Posadas",
+        "08": "Gran Resistencia",
+        "09": "Cdro. Rivadavia - R.Tilly",
+        "10": "Gran Mendoza",
+        "12": "Corrientes",
+        "13": "Gran Córdoba",
+        "14": "Concordia",
+        "15": "Formosa",
+        "17": "Neuquén – Plottier",
+        "18": "S.del Estero - La Banda",
+        "19": "Jujuy - Palpalá",
+        "20": "Río Gallegos",
+        "22": "Gran Catamarca",
+        "23": "Salta",
+        "25": "La Rioja",
+        "26": "San Luis - El Chorrillo",
+        "27": "Gran San Juan",
+        "29": "Gran Tucumán - T. Viejo",
+        "30": "Santa Rosa - Toay",
+        "31": "Ushuaia - Río Grande",
+        "32": "Ciudad de Bs As",
+        "33": "Partidos del GBA",
+        "34": "Mar del Plata - Batán",
+        "36": "Río Cuarto",
+        "38": "San Nicolás – Villa Constitución",
+        "91": "Rawson – Trelew",
+        "93": "Viedma – Carmen de Patagones"
+      }
+    },
+    {
+      "name": "CH03",
+      "label": "Relación de Parentesco",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "01": "Jefe/a",
+        "02": "Cónyuge/Pareja",
+        "03": "Hijo/Hijastro/a",
+        "04": "Yerno/Nuera",
+        "05": "Nieto/a",
+        "06": "Madre/Padre",
+        "07": "Suegro/a",
+        "08": "Hermano/a",
+        "09": "Otros Familiares",
+        "10": "No Familiares"
+      }
+    },
+    {
+      "name": "CH04",
+      "label": "Sexo",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "varón",
+        "2": "mujer"
+      }
+    },
+    {
+      "name": "CH06",
+      "label": "¿Cuántos años cumplidos tiene?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "CH07",
+      "label": "¿Actualmente está...",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "unido?",
+        "2": "casado?",
+        "3": "separado/a ó divorciado/a?",
+        "4": "viudo/a?",
+        "5": "soltero/a?"
+      }
+    },
+    {
+      "name": "CH08",
+      "label": "¿Tiene algún tipo de cobertura médica por la que",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Obra social (incluye PAMI)",
+        "2": "Mutual / Prepaga / Servicio de emergencia",
+        "3": "Planes y seguros públicos",
+        "4": "No paga ni le descuentan",
+        "9": "Ns./Nr.",
+        "12": "Obra social y mutual/prepaga/servicio de",
+        "13": "Obra social y Planes y Seguros Públicos",
+        "23": "Mutual/prepaga/servicio de emergencia/ Planes"
+      }
+    },
+    {
+      "name": "CH09",
+      "label": "¿Sabe leer y escribir?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No",
+        "3": "Menor de 2 años"
+      }
+    },
+    {
+      "name": "CH10",
+      "label": "¿Asiste o asistió a algún establecimiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si, asiste",
+        "2": "No asiste, pero asistió",
+        "3": "Nunca asistió"
+      }
+    },
+    {
+      "name": "CH11",
+      "label": "Ese establecimiento es...",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Público",
+        "2": "Privado",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "CH12",
+      "label": "¿Cuál es el nivel más alto que cursa o cursó?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Jardín/ Preescolar",
+        "2": "Primario",
+        "3": "EGB",
+        "4": "Secundario",
+        "5": "Polimodal",
+        "6": "Terciario",
+        "7": "Universitario",
+        "8": "Posgrado Univ.",
+        "9": "Educación especial (discapacitado)"
+      }
+    },
+    {
+      "name": "CH13",
+      "label": "¿Finalizó ese nivel?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "CH14",
+      "label": "¿Cuál fue el último año que aprobó?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "00": "Ninguno",
+        "01": "Primero",
+        "02": "Segundo",
+        "03": "Tercero",
+        "04": "Cuarto",
+        "05": "Quinto",
+        "06": "Sexto",
+        "07": "Séptimo",
+        "08": "Octavo",
+        "09": "Noveno",
+        "98": "Educación especial",
+        "99": "Ns./ Nr."
+      }
+    },
+    {
+      "name": "CH15",
+      "label": "¿Dónde nació?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "En esta localidad",
+        "2": "En otra localidad de esta provincia",
+        "3": "En otra provincia",
+        "4": "En un país limítrofe",
+        "5": "En otro país",
+        "9": "N/S.N/R."
+      }
+    },
+    {
+      "name": "CH16",
+      "label": "¿Dónde vivía hace 5 años?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "En esta localidad",
+        "2": "En otra localidad de esta provincia",
+        "3": "En otra provincia",
+        "4": "En un país limítrofe",
+        "5": "En otro país",
+        "6": "No había nacido",
+        "9": "N/S.N/R."
+      }
+    },
+    {
+      "name": "NIVEL_ED",
+      "label": "NIVEL EDUCATIVO",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Primaria Incompleta(incluye educación",
+        "2": "Primaria Completa",
+        "3": "Secundaria Incompleta",
+        "4": "Secundaria Completa",
+        "5": "Superior Universitaria Incompleta",
+        "6": "Superior Universitaria Completa",
+        "7": "Sin instrucción",
+        "9": "Ns./ Nr."
+      }
+    },
+    {
+      "name": "ESTADO",
+      "label": "CONDICIÓN DE ACTIVIDAD",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "0": "Entrevista individual no realizada ( no",
+        "1": "Ocupado",
+        "2": "Desocupado",
+        "3": "Inactivo",
+        "4": "Menor de 10 años"
+      }
+    },
+    {
+      "name": "CAT_OCUP",
+      "label": "CATEGORÍA OCUPACIONAL",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Patrón",
+        "2": "Cuenta propia",
+        "3": "Obrero o empleado,",
+        "4": "Trabajador familiar sin remuneración",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "CAT_INAC",
+      "label": "CATEGORÍA DE INACTIVIDAD",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Jubilado/ Pensionado",
+        "2": "Rentista",
+        "3": "Estudiante",
+        "4": "Ama de casa",
+        "5": "Menor de 6 años",
+        "6": "Discapacitado",
+        "7": "Otros"
+      }
+    },
+    {
+      "name": "IMPUTA",
+      "label": "Indica los casos que han sido imputados",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP02C1",
+      "label": "Hizo contactos, entrevistas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP02C2",
+      "label": "Mandó currículum, puso, contestó avisos(diarios,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP02C3",
+      "label": "Se presentó en establecimientos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP02C4",
+      "label": "Hizo algo para ponerse por su cuenta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP02C5",
+      "label": "Puso carteles en negocios, preguntó en el barrio",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP02C6",
+      "label": "Consultó a parientes, amigos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP02C7",
+      "label": "Se anotó en bolsas, listas, planes de empelo,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP02C8",
+      "label": "De otra forma activa",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP02E",
+      "label": "Durante esos 30 días, no buscó trabajo porque...",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "está suspendido",
+        "2": "ya tiene trabajo asegurado",
+        "3": "se cansó de buscar trabajo",
+        "4": "hay poco trabajo en esta época del año",
+        "5": "por otras razones"
+      }
+    },
+    {
+      "name": "PP02H",
+      "label": "En los últimos 12 meses ¿buscó trabajo en algún",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP02I",
+      "label": "En los últimos 12 meses ¿trabajó en algún momento?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP03C",
+      "label": "La semana pasada, ¿tenía...",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "...un sólo empleo/ocupación/ actividad?",
+        "2": "...más de un empleo/ocupación/ actividad?"
+      }
+    },
+    {
+      "name": "PP03D",
+      "label": "Cantidad de ocupaciones.",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP03G",
+      "label": "La semana pasada, ¿quería trabajar más horas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP03H",
+      "label": "¿Si hubiera conseguido más horas...",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "...podía trabajarlas esa semana?",
+        "2": "...podía empezar a trabajarlas en dos semanas a",
+        "3": "...no podía trabajar más horas?",
+        "9": "...Ns./Nr."
+      }
+    },
+    {
+      "name": "PP03I",
+      "label": "En los últimos treinta días, ¿buscó trabajar más",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP03J",
+      "label": "Aparte de este/os trabajo/s,¿estuvo buscando algún",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "INTENSI",
+      "label": "1 = Subocupado por insuficiencia horaria",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "2": "Ocupado pleno",
+        "3": "Sobreocupado",
+        "4": "Ocupado que no trabajó en la semana",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP04A",
+      "label": "El negocio/empresa/institución/actividad en la",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "... estatal?",
+        "2": "...privada?",
+        "3": "...de otro tipo? (especificar)"
+      }
+    },
+    {
+      "name": "PP04B1",
+      "label": "Si presta servicio doméstico en hogares",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "casa de familia"
+      }
+    },
+    {
+      "name": "PP04B2",
+      "label": "En cuántas casas trabaja? (cantidad)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP04B3_MES",
+      "label": "mes",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP04B3_ANO",
+      "label": "año",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP04B3_DIA",
+      "label": "día",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP04C",
+      "label": "¿Cuántas personas, incluido...trabajan allí en total?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "1 persona",
+        "2": "2 personas",
+        "3": "3 personas",
+        "4": "4 personas",
+        "5": "5 personas",
+        "6": "de 6 a 10 personas",
+        "7": "de 11 a 25 personas",
+        "8": "de 26 a 40 personas",
+        "9": "de 41 a 100 personas",
+        "10": "de 101 a 200 personas",
+        "11": "de 201 a 500 personas",
+        "12": "más de 500 personas",
+        "99": "Ns/Nr"
+      }
+    },
+    {
+      "name": "PP04C99",
+      "label": "1 = hasta 5;",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "2": "de 6 a 40;",
+        "3": "más de 40;",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP04G",
+      "label": "Dónde realiza principalmente sus tareas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "= En un local/oficina/establecimiento",
+        "2": "= En puesto ó kiosco fijo callejero.",
+        "3": "= En vehículos: bicicleta / moto / autos",
+        "4": "= En vehículo para transporte de personas",
+        "5": "= En obras en construcción, de",
+        "6": "= En esta vivienda. (sin lugar exclusivo)",
+        "7": "= En la vivienda del socio ó del patrón.",
+        "8": "= En el domicilio/local de los clientes.",
+        "9": "= En la calle/espacios públicos/ambulante/",
+        "10": "En otro lugar (especificar)."
+      }
+    },
+    {
+      "name": "PP05B2_MES",
+      "label": "meses",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP05B2_ANO",
+      "label": "años",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP05B2_DIA",
+      "label": "días",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP05C_1",
+      "label": "...maquinarias/equipos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "propio (del negocio)",
+        "2": "prestado/alquilado",
+        "3": "no tiene"
+      }
+    },
+    {
+      "name": "PP05C_2",
+      "label": "...local(incluye kiosco/puesto fijo)",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "propio (del negocio)",
+        "2": "prestado/alquilado",
+        "3": "no tiene"
+      }
+    },
+    {
+      "name": "PP05C_3",
+      "label": "...vehículo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "propio (del negocio)",
+        "2": "prestado/alquilado",
+        "3": "no tiene"
+      }
+    },
+    {
+      "name": "PP05E",
+      "label": "¿ Para la actividad del negocio, en los últimos 3",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP05F",
+      "label": "¿Ese negocio/empresas/actividad, trabaja habitualmente",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "6": "un sólo cliente? (persona, empresa)",
+        "7": "Distintos clientes? (incluye público en"
+      }
+    },
+    {
+      "name": "PP05H",
+      "label": "¿Durante cuánto tiempo ha estado trabajando en ese",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "menos de 1 mes",
+        "2": "de 1 a 3 meses",
+        "3": "más de 3 a 6 meses",
+        "4": "más de 6 meses a 1 año",
+        "5": "más de 1 a 5 años",
+        "6": "más de 5 años",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP06A",
+      "label": "En ese negocio/empresa/actividad ¿tiene socios ó",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP06C",
+      "label": "Monto de ingreso de patrones y cta.propia sin socios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP06D",
+      "label": "Monto de ingreso de patrones y cta.propia con socios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP06E",
+      "label": "Ese negocio/empresa/actividad...",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "...es una sociedad jurídicamente constituida?",
+        "2": "...es una sociedad de otra forma legal?",
+        "3": "...o es una sociedad convenida de palabra?"
+      }
+    },
+    {
+      "name": "PP06H",
+      "label": "¿Es una actividad familiar? (solo para 2 y 3 de PP06E)",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP07A",
+      "label": "¿Cuánto tiempo hace que está trabajando en ese empleo",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "menos de 1 mes",
+        "2": "1 a 3 meses",
+        "3": "más de 3 a 6 meses",
+        "4": "más de 6 a 12 meses",
+        "5": "más de 1 a 5 años",
+        "6": "más de 5 años",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP07C",
+      "label": "¿Ese empleo tiene tiempo de finalización?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Sí (incluye changa, trabajo transitorio, por",
+        "2": "No (incluye permanente, fijo, estable, de",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP07D",
+      "label": "¿Por cuánto tiempo es ese trabajo? (Para los que",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "sólo fue esa vez/sólo cuando lo llaman",
+        "2": "hasta 3 meses",
+        "3": "más de 3 a 6 meses",
+        "4": "más de 6 a 12 meses",
+        "5": "más de 1 año",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP07E",
+      "label": "¿Ese trabajo es...",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "...un plan de empleo?",
+        "2": "...un período de prueba?",
+        "3": "...una beca/pasantía/aprendizaje?",
+        "4": "ninguno de éstos"
+      }
+    },
+    {
+      "name": "PP07F1",
+      "label": "...de comer gratis en el lugar de trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP07F2",
+      "label": "...vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP07F3",
+      "label": "...algún producto o mercadería?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP07F4",
+      "label": "...algún otro beneficio? (automóvil,",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP07F5",
+      "label": "no recibe ninguno?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "si"
+      }
+    },
+    {
+      "name": "PP07G1",
+      "label": "...vacaciones pagas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP07G2",
+      "label": "...aguinaldo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP07G3",
+      "label": "...días pagos por enfermedad?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP07G4",
+      "label": "...obra social?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP07G_59",
+      "label": "no tiene ninguno",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "5": "si"
+      }
+    },
+    {
+      "name": "PP07H",
+      "label": "¿Por ese trabajo tiene descuento jubilatorio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP07I",
+      "label": "¿Aporta por sí mismo a algún sistema jubilatorio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP07J",
+      "label": "¿El turno habitual de trabajo es..",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "2": "...de noche?",
+        "3": "...de otro tipo? (rotativo, día y noche,"
+      }
+    },
+    {
+      "name": "PP07K",
+      "label": "¿Cuando cobra..",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "...le dan recibo con sello/membrete/firma del",
+        "2": "...le dan un papel/recibo sin nada?",
+        "3": "...entrega una factura?",
+        "4": "...no le dan ni entrega nada?",
+        "5": "no cobra, es trabajador sin pago/ad-honorem"
+      }
+    },
+    {
+      "name": "PP08D1",
+      "label": "¿Cuánto cobró por ese mes por esos conceptos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP08D4",
+      "label": "Por el mes de...(mes)....¿cobró...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP08F1",
+      "label": "¿Cuánto cobró por ese mes de ..(mes)...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP08F2",
+      "label": "¿Cuánto cobró por ese mes de ..(mes)...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP08J1",
+      "label": "¿Cuánto cobró por ese mes de ..(mes)...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP08J2",
+      "label": "¿Cuánto cobró por ese mes de ..(mes)...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP08J3",
+      "label": "¿Cuánto cobró por ese mes de ..(mes)...",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP09A",
+      "label": "SOLO OCUPADOS DE: CIUDAD DE BUENOS AIRES – Partidos",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Ciudad de Buenos Aires",
+        "2": "Partidos del GBA",
+        "3": "Ambos",
+        "4": "En otro lugar"
+      }
+    },
+    {
+      "name": "PP09A_ESP",
+      "label": "Especificar: contiene la descripción de otro lugar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP09B",
+      "label": "SOLO OCUPADOS DE: POSADAS, FORMOSA, CORRIENTES,",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP09C",
+      "label": "¿Dónde trabaja................................",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "en otro lugar de esta provincia",
+        "2": "en otra provincia",
+        "3": "en otro país"
+      }
+    },
+    {
+      "name": "PP09C_ESP",
+      "label": "Descripción de otro lugar (según pregunta PP09C).",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP10A",
+      "label": "¿Cuánto hace que está buscando trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "...menos de 1 mes?",
+        "2": "...de 1 a 3 meses?",
+        "3": "...más de 3 a 6 meses?",
+        "4": "...más de 6 a 12 meses?",
+        "5": "...más de 1 año?"
+      }
+    },
+    {
+      "name": "PP10C",
+      "label": "¿Durante ese tiempo hizo algún trabajo/ changa?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP10D",
+      "label": "¿Ha trabajado alguna vez?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP10E",
+      "label": "¿Cuánto tiempo hace que terminó su último",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "...menos de 1 mes?",
+        "2": "...de 1 a 3 meses?",
+        "3": "...más de 3 a 6 meses?",
+        "4": "...más de 6 a 12 meses?",
+        "5": "...más de 1 a 3 años?",
+        "6": "...más de 3 años?"
+      }
+    },
+    {
+      "name": "PP11A",
+      "label": "El negocio/empresa/institución/ actividad en la que",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "...estatal?",
+        "2": "...privada?",
+        "3": "...de otro tipo?"
+      }
+    },
+    {
+      "name": "PP11B_COD",
+      "label": "A qué se dedicaba ó que producía ese",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP11B1",
+      "label": "Si prestaba servicios doméstico en",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "casa de familia"
+      }
+    },
+    {
+      "name": "PP11B2_MES",
+      "label": "meses",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP11B2_ANO",
+      "label": "años",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP11B2_DIA",
+      "label": "días",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP11C",
+      "label": "¿Cuántas personas, incluido...trabajaban allí en total?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "1 persona",
+        "2": "2 personas",
+        "3": "3 personas",
+        "4": "4 personas",
+        "5": "5 personas",
+        "6": "6 a 10 personas",
+        "7": "11 a 25 personas",
+        "8": "26 a 40 personas",
+        "9": "41 a 100 personas",
+        "10": "101 a 200 personas",
+        "11": "201 a 500 personas",
+        "12": "más de 500 personas",
+        "99": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP11C99",
+      "label": "Para los que responden PP11c=99",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "hasta 5",
+        "2": "de 6 a 40",
+        "3": "más de 40",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP11G_ANO",
+      "label": "años",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP11G_MES",
+      "label": "meses",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP11G_DIA",
+      "label": "días",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PP11L",
+      "label": "¿Cuál fue la razón principal por la que dejó esa",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "falta de clientes/clientes que no pagan",
+        "2": "falta de capital/equipamiento",
+        "3": "trabajo estacional",
+        "4": "tenía gastos demasiado altos",
+        "5": "otras causas laborales (especificar)",
+        "6": "jubilación/retiro",
+        "7": "causas personales (matrimonio, embarazo"
+      }
+    },
+    {
+      "name": "PP11L1",
+      "label": "¿Ese trabajo era...",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "...una changa, trabajo transitorio, por tarea",
+        "2": "...un trabajo permanente, fijo, estable, de",
+        "3": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP11M",
+      "label": "Ese trabajo era...",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "...un plan de empleo?",
+        "2": "...un período de prueba?",
+        "3": "...otro tipo de trabajo?"
+      }
+    },
+    {
+      "name": "PP11N",
+      "label": "¿En ese trabajo le hacían descuento jubilatorio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP11O",
+      "label": "¿Cuál fue la razón principal por la que dejó ese trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "despido/cierre (quiebra/venta/traslado de la",
+        "2": "por retiro voluntario del sector público",
+        "3": "por jubilación",
+        "4": "fin de trabajo temporario/ estacional",
+        "5": "le pagaban poco/no le pagaban",
+        "6": "malas relaciones laborales/malas condiciones",
+        "7": "renuncia obligada/pactada",
+        "8": "otras causas laborales (especificar)",
+        "9": "por razones personales (matrimonio, embarazo,"
+      }
+    },
+    {
+      "name": "PP11P",
+      "label": "¿Cerró la empresa? (Para quienes responden en pp11o=1)",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP11Q",
+      "label": "¿Fue la única persona que quedó sin trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "PP11R",
+      "label": "¿Le enviaron telegrama?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP11S",
+      "label": "¿Le pagaron indemnización?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No"
+      }
+    },
+    {
+      "name": "PP11T",
+      "label": "¿Está cobrando seguro de desempleo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "Si",
+        "2": "No",
+        "9": "Ns./Nr."
+      }
+    },
+    {
+      "name": "P21",
+      "label": "MONTO DE INGRESO DE LA OCUPACIÓN PRINCIPAL.",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DECOCUR",
+      "label": "Nº de decil de ingreso de la ocupación principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "IDECOCUR",
+      "label": "Nº de decil de ingreso de la ocupación principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RDECOCUR",
+      "label": "Nº de decil de ingreso de la ocupación principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GDECOCUR",
+      "label": "Nº de decil de ingreso de la ocupación principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PDECOCUR",
+      "label": "Nº de decil de ingreso de la ocupación principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ADECOCUR",
+      "label": "Nº de decil de ingreso de la ocupación principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PONDIIO",
+      "label": "Ponderador del ingreso de la ocupación principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "DECINDR",
+      "label": "Nº de decil de ingreso total individual del TOTAL",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "IDECINDR",
+      "label": "Nº de decil de ingreso total individual del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "RDECINDR",
+      "label": "Nº de decil de ingreso total individual de la",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "GDECINDR",
+      "label": "Nº de decil de ingreso total individual del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PDECINDR",
+      "label": "Nº de decil de ingreso total individual del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ADECINDR",
+      "label": "Nº de decil de ingreso total individual del",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "PONDII",
+      "label": "Ponderador para ingreso total individual (ver",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V2_M",
+      "label": "Monto del ingreso por JUBILACION O PENSION",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V3_M",
+      "label": "Monto del ingreso por INDEMNIZACION POR DESPIDO",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V4_M",
+      "label": "Monto del ingreso por SEGURO DE DESEMPLEO",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V5_M",
+      "label": "Monto del ingreso por SUBSIDIO O AYUDA SOCIAL (EN",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V8_M",
+      "label": "Monto del ingreso por ALQUILER (VIVIENDA ,",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V9_M",
+      "label": "Monto del ingreso por GANANCIAS DE ALGUN NEGOCIO",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V10_M",
+      "label": "Monto del ingreso por INTERESES O RENTAS POR",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V11_M",
+      "label": "Monto del ingreso por BECA DE ESTUDIO.",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V12_M",
+      "label": "Monto del ingreso por CUOTAS DE ALIMENTOS O AYUDA",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V18_M",
+      "label": "Monto del ingreso por OTROS INGRESOS EN EFECTIVO",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V19_AM",
+      "label": "Monto del ingreso por TRABAJO DE MENORES DE 10",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "V21_M",
+      "label": "Monto del ingreso por aguinaldo.",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "00": "Sin ingresos",
+        "1": "decil 1",
+        "2": "Los campos PONDII, PONDIIO, PONDIH con corrección por no respuesta:",
+        "3": "decil 3",
+        "4": "decil 4",
+        "5": "decil 5",
+        "6": "decil 6",
+        "7": "decil 7",
+        "8": "decil 8",
+        "9": "decil 9",
+        "10": "decil 10",
+        "12": "No respuesta de ingresos",
+        "13": "Entrevista individual no realizada"
+      }
+    }
+  ],
+  "decode_notes": [
+    "PDF type: QUESTIONNAIRE/TABLE (ARG text-block extractor)",
+    "  217 variables extracted from CAMPO/TIPO/DESCRIPCIÓN lines"
+  ]
+}

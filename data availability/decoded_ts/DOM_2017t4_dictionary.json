@@ -1,0 +1,15 @@
+{
+  "iso3": "DOM",
+  "survey": "ENCFT",
+  "period": "t4",
+  "year": 2017,
+  "source_files": [
+    "1_2_Ocupados_Ocupacion.xlsx"
+  ],
+  "doc_type": "XLSX",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "ERROR: 'DataFrame' object has no attribute 'str'"
+  ]
+}

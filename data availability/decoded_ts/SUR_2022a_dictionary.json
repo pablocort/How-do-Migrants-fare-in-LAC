@@ -1,0 +1,7034 @@
+{
+  "iso3": "SUR",
+  "survey": "SLC",
+  "period": "a",
+  "year": 2022,
+  "source_files": [
+    "SUR_2022a.dta (variable metadata — no microdata loaded)"
+  ],
+  "doc_type": "DTA_METADATA",
+  "tables": [],
+  "variables": [
+    {
+      "name": "hhid",
+      "label": "Household unique identifier",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "domain2",
+      "label": "Domain and subdomain",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "2": "Rest of the coastal region",
+        "3": "Interior"
+      }
+    },
+    {
+      "name": "psu",
+      "label": "Primary Sampling Unit",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "hhsize",
+      "label": "# of persons in the HH",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "hhsize2",
+      "label": "HH size without 44 members with no information",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "year_s",
+      "label": "",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "month_s",
+      "label": "",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "day",
+      "label": "",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "hhid_text",
+      "label": "",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "stratum",
+      "label": "Sampling Stratum",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "domain",
+      "label": "Estimation domain",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Great Paramaribo",
+        "2": "Rest of the coastal region",
+        "3": "Interior"
+      }
+    },
+    {
+      "name": "gp_subdom",
+      "label": "Great Paramaribo subdomains",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Paramaribo",
+        "2": "Paramaribo outskirts"
+      }
+    },
+    {
+      "name": "district",
+      "label": "District",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "panel",
+      "label": "Panel Household",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Nonpanel",
+        "1": "Panel"
+      }
+    },
+    {
+      "name": "hhid16",
+      "label": "HH_ID in SSLC 2016",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "fortnight",
+      "label": "Fortnight",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "memberid",
+      "label": "Member ID Code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q01_02",
+      "label": "Relation to household head",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Head",
+        "2": "Spouse/ partner",
+        "3": "Child of head/ child of spouse",
+        "4": "Son/ daughter in law",
+        "5": "Grandchild",
+        "6": "Parent/ parent in law",
+        "7": "Brother/ sister",
+        "8": "Other relative",
+        "9": "Domestic servant/ maid",
+        "10": "Other non relative"
+      }
+    },
+    {
+      "name": "age",
+      "label": "Age in years",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "gender",
+      "label": "Gender",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "yes_consumption",
+      "label": "",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q01_03",
+      "label": "Sex",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q01_04",
+      "label": "Age in years (as per the birth date)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q01_04_",
+      "label": "Age in years (as reported on the questionnaire)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q01_05_d",
+      "label": "What is your date of birth? (DAY)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q01_05_m",
+      "label": "What is your date of birth? (MONTH)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q01_05_y",
+      "label": "What is your date of birth? (YEAR)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q01_07",
+      "label": "Race",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Creole/Afrosurinamese",
+        "2": "East Indian",
+        "3": "Maroon",
+        "4": "Amerindian/Indigenous",
+        "5": "Javanese",
+        "6": "Chinese",
+        "7": "White",
+        "8": "Mixed",
+        "9": "Other"
+      }
+    },
+    {
+      "name": "q01_08",
+      "label": "Religion",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Roman Catholic",
+        "2": "Lutheran",
+        "3": "Evangelical",
+        "4": "Moravian",
+        "5": "Reformed church",
+        "6": "Hindu",
+        "7": "Islam",
+        "8": "Jehovah Witness",
+        "9": "Javanism",
+        "10": "Jewish",
+        "11": "Winti",
+        "12": "Other",
+        "13": "None"
+      }
+    },
+    {
+      "name": "q01_09",
+      "label": "What is your marital status?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Never married/single",
+        "2": "Living together",
+        "3": "Married",
+        "4": "Legally divorced",
+        "5": "Separated",
+        "6": "Widowed"
+      }
+    },
+    {
+      "name": "q01_11_lang",
+      "label": "What lenguage/s do you speak at home?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q01_11_code_1",
+      "label": "Language code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Dutch",
+        "2": "Sranantongo",
+        "3": "Sarnami",
+        "4": "Javanese",
+        "5": "Other"
+      }
+    },
+    {
+      "name": "q01_11_speak_1",
+      "label": "How well do you speak [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not speak"
+      }
+    },
+    {
+      "name": "q01_11_read_1",
+      "label": "How well do you read [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not speak"
+      }
+    },
+    {
+      "name": "q01_11_write_1",
+      "label": "How well do you write [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not write"
+      }
+    },
+    {
+      "name": "q01_11_code_2",
+      "label": "Language code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Dutch",
+        "2": "Sranantongo",
+        "3": "Sarnami",
+        "4": "Javanese",
+        "5": "Other"
+      }
+    },
+    {
+      "name": "q01_12_speak_2",
+      "label": "How well do you speak [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not speak"
+      }
+    },
+    {
+      "name": "q01_12_read_2",
+      "label": "How well do you read [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not speak"
+      }
+    },
+    {
+      "name": "q01_12_write_2",
+      "label": "How well do you write [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not write"
+      }
+    },
+    {
+      "name": "q01_11_code_3",
+      "label": "Language code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Dutch",
+        "2": "Sranantongo",
+        "3": "Sarnami",
+        "4": "Javanese",
+        "5": "Other"
+      }
+    },
+    {
+      "name": "q01_13_speak_3",
+      "label": "How well do you speak [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not speak"
+      }
+    },
+    {
+      "name": "q01_13_read_3",
+      "label": "How well do you read [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not speak"
+      }
+    },
+    {
+      "name": "q01_13_write_3",
+      "label": "How well do you write [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not write"
+      }
+    },
+    {
+      "name": "q01_11_code_4",
+      "label": "Language code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Dutch",
+        "2": "Sranantongo",
+        "3": "Sarnami",
+        "4": "Javanese",
+        "5": "Other"
+      }
+    },
+    {
+      "name": "q01_14_speak_4",
+      "label": "How well do you speak [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not speak"
+      }
+    },
+    {
+      "name": "q01_14_read_4",
+      "label": "How well do you read [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not speak"
+      }
+    },
+    {
+      "name": "q01_14_write_4",
+      "label": "How well do you write [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not write"
+      }
+    },
+    {
+      "name": "q01_11_code_5",
+      "label": "Language code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Dutch",
+        "2": "Sranantongo",
+        "3": "Sarnami",
+        "4": "Javanese",
+        "5": "Other"
+      }
+    },
+    {
+      "name": "q01_15_speak_5",
+      "label": "How well do you speak [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not speak"
+      }
+    },
+    {
+      "name": "q01_15_read_5",
+      "label": "How well do you read [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not speak"
+      }
+    },
+    {
+      "name": "q01_15_write_5",
+      "label": "How well do you write [Q02_11_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very good",
+        "2": "Good",
+        "3": "Fair",
+        "4": "Bad",
+        "5": "Do not write"
+      }
+    },
+    {
+      "name": "q02_01",
+      "label": "In what country were you born?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Suriname",
+        "2": "The Netherlands",
+        "3": "Guyana",
+        "4": "Brazil",
+        "5": "French Guyana",
+        "6": "China",
+        "7": "Other"
+      }
+    },
+    {
+      "name": "q02_02",
+      "label": "Specify country",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q02_03",
+      "label": "Have you ever lived out of Suriname for a period of 6 months or longer?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q02_04_1a",
+      "label": "Country 1",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "United States",
+        "2": "The Netherlands",
+        "3": "Guyana",
+        "4": "Brasil",
+        "5": "French Guyana",
+        "6": "China",
+        "7": "Other (Specify)",
+        "9": "None"
+      }
+    },
+    {
+      "name": "q02_04_1b",
+      "label": "Specify Country 1 (if 'Other')",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q02_04_2a",
+      "label": "Country 2",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "United States",
+        "2": "The Netherlands",
+        "3": "Guyana",
+        "4": "Brasil",
+        "5": "French Guyana",
+        "6": "China",
+        "7": "Other (Specify)",
+        "9": "None"
+      }
+    },
+    {
+      "name": "q02_04_2b",
+      "label": "Specify Country 2 (if 'Other')",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q02_05_code_1",
+      "label": "Country of Residence Code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "United States",
+        "2": "The Netherlands",
+        "3": "Guyana",
+        "4": "Brasil",
+        "5": "French Guyana",
+        "6": "China",
+        "7": "Other (Specify)"
+      }
+    },
+    {
+      "name": "q02_05_reason_1",
+      "label": "What is the main reason why you lived in [Q02_12_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Born abroad",
+        "2": "Study/ Education",
+        "3": "Family reasons",
+        "4": "Better living conditons",
+        "5": "Work",
+        "6": "Retirement",
+        "7": "To start a business",
+        "8": "Health",
+        "9": "Other"
+      }
+    },
+    {
+      "name": "q02_05_code_2",
+      "label": "Country of Residence Code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "United States",
+        "2": "The Netherlands",
+        "3": "Guyana",
+        "4": "Brasil",
+        "5": "French Guyana",
+        "6": "China",
+        "7": "Other (Specify)",
+        "9": "no country"
+      }
+    },
+    {
+      "name": "q02_05_reason_2",
+      "label": "What is the main reason why you lived in [Q02_12_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Born abroad",
+        "2": "Study/ Education",
+        "3": "Family reasons",
+        "4": "Better living conditons",
+        "5": "Work",
+        "6": "Retirement",
+        "7": "To start a business",
+        "8": "Health",
+        "9": "Other"
+      }
+    },
+    {
+      "name": "q02_06",
+      "label": "What is the main reason why you returned/ came to Suriname?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Regard it as home",
+        "2": "Family is here",
+        "3": "Marriage",
+        "4": "Deported",
+        "5": "Retired",
+        "6": "To start a business",
+        "7": "The weather",
+        "8": "To obtain employment",
+        "9": "Health reasons",
+        "10": "Return from study",
+        "11": "Other"
+      }
+    },
+    {
+      "name": "q02_07",
+      "label": "For how many years have you been residing in Suriname on a continuous basis?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q02_08",
+      "label": "Where were you living a year ago from now?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "At this address",
+        "2": "Another address in this disctrict",
+        "3": "In another district",
+        "4": "Abroad",
+        "5": "Was not born yet"
+      }
+    },
+    {
+      "name": "q02_09",
+      "label": "In which district or country were you living a year ago?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Nickerie",
+        "2": "Coronie",
+        "3": "Saramacca",
+        "4": "Wanica",
+        "5": "Paramaribo",
+        "6": "Commewijne",
+        "7": "Marowijne",
+        "8": "Para",
+        "9": "Sipaliwini",
+        "10": "Brokopondo",
+        "11": "United States",
+        "12": "The Netherlands",
+        "13": "Guyana",
+        "14": "Brasil",
+        "15": "French Guyana",
+        "16": "China",
+        "97": "Other"
+      }
+    },
+    {
+      "name": "q03_01",
+      "label": "Have you EVER attended school?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q03_02",
+      "label": "Are you currently enrolled in a formal educational institution (either in person",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q03_03",
+      "label": "Is the institution where you are enrolled public/government or private?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Public",
+        "2": "Private",
+        "3": "FIBOS"
+      }
+    },
+    {
+      "name": "q03_04",
+      "label": "What level of educational institution are you attending?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Kindergarten",
+        "2": "GLO/ BO",
+        "3": "VOJ (LTS, MULO, LBO)",
+        "4": "VOS (IMEAO, NATIN, AMTO, HAVO, VWO, CPI, SPI, ACI)",
+        "5": "Tertiary (HBO/ University/ other College)",
+        "6": "Masters/ PhD",
+        "7": "Other"
+      }
+    },
+    {
+      "name": "q03_05",
+      "label": "What are you studying?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_06",
+      "label": "Are you enrolled full-time or part-time?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Full-time",
+        "2": "Part-time"
+      }
+    },
+    {
+      "name": "q03_07",
+      "label": "Is this educational program originally onsite or online education?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Onsite",
+        "2": "Online",
+        "3": "Both"
+      }
+    },
+    {
+      "name": "q03_08",
+      "label": "What grade/ year are you attending?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_08a",
+      "label": "In the last 3 months, did your school deliver classes in person at the school bu",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes, all the time",
+        "2": "Yes, part of the time",
+        "3": "No, never",
+        "4": "It was the holiday period"
+      }
+    },
+    {
+      "name": "q03_08b",
+      "label": "In the last 3 months, how many days did you miss in-person classes at school?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_11",
+      "label": "What was the most frequent reason for missing in-person classes at school?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Illness",
+        "2": "Financial problems",
+        "3": "Transportation problems",
+        "4": "Working",
+        "5": "Kept house",
+        "6": "Not worth going",
+        "7": "Did not feel like going",
+        "8": "Pregnant/ Young mother",
+        "9": "Baby sitting",
+        "10": "Apprenticeship",
+        "11": "Fear of being bullied",
+        "12": "Menstrual Problems",
+        "13": "Lack of uniform",
+        "14": "Expulsion/ Suspension",
+        "15": "Other",
+        "16": "Fear of COVID-19",
+        "17": "Government measures due to COVID-19"
+      }
+    },
+    {
+      "name": "q03_12",
+      "label": "How do you most usually get to in-person classes at school?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Walking",
+        "2": "Cycling",
+        "3": "Public Bus",
+        "4": "Taxi",
+        "5": "Private Sector Vehicle",
+        "6": "Private Car/ Motorcycle",
+        "7": "With a  boat",
+        "8": "Other"
+      }
+    },
+    {
+      "name": "q03_13",
+      "label": "How long does it take you to get to school from this household? In minutes...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_14",
+      "label": "Is there a school feeding program at your school?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q03_15",
+      "label": "Do you receive meals or snacks from this service?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q03_16",
+      "label": "Do you have all studybooks/stencils/copies required for use at school?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes, has ALL studybooks for exclusive use",
+        "2": "Yes, has ALL but shares with others",
+        "3": "Has only some studybooks",
+        "4": "No, has none"
+      }
+    },
+    {
+      "name": "q03_17a",
+      "label": "Were these studybooks acquired by you... Borrowed for use during year",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_17b",
+      "label": "Were these studybooks acquired by you... Received from relatives or friends",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_17c",
+      "label": "Were these studybooks acquired by you... Purchased new",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_17d",
+      "label": "Were these studybooks acquired by you... Purchased second hand",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_17e",
+      "label": "Were these studybooks acquired by you... Bought some/got some on loan or free",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_17f",
+      "label": "Were these studybooks acquired by you... Received from community org.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_17g",
+      "label": "Were these studybooks acquired by you... Government book loan",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_17h",
+      "label": "Were these studybooks acquired by you... From the shool or institution at no cos",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_17i",
+      "label": "Were these studybooks acquired by you... Other",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_18a",
+      "label": "...reasons for not having all/any of the required studybooks? Not available",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_18b",
+      "label": "...reasons for not having all/any of the required studybooks? Could not afford",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_18c",
+      "label": "...reasons for not having all/any of the required studybooks? Available in schoo",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_18d",
+      "label": "...reasons for not having all/any of the required studybooks? Were lost or destr",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_18e",
+      "label": "...reasons for not having all/any of the required studybooks? Still to be purcha",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_18f",
+      "label": "...reasons for not having all/any of the required studybooks? Other",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q03_19a",
+      "label": "Spenditures during the past 12 months on your schooling in... Registration fees",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_19b",
+      "label": "Spenditures during the past 12 months on your schooling in... Examination fees",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_19c",
+      "label": "Spenditures during the past 12 months on your schooling in... Tuition fees",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_19d",
+      "label": "Spenditures during the past 12 months on your schooling in... Study books/stenci",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_19e",
+      "label": "Spenditures during the past 12 months on your schooling in... Exercise books, st",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_19f",
+      "label": "Spenditures during the past 12 months on your schooling in...Uniform dress",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_19g",
+      "label": "Spenditures during the past 12 months on your schooling in... Private tutoring",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_19h",
+      "label": "Spenditures during the past 12 months on your schooling in... Accomodation",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_19i",
+      "label": "Spenditures during the past 12 months on your schooling in... Transport cost",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_19j",
+      "label": "Spenditures during the past 12 months on your schooling in... Food or snacks",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_19k",
+      "label": "Spenditures during the past 12 months on your schooling in... Other",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_19l",
+      "label": "How much did you spend during the past 12 months on your schooling in.. TOTAL",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_20",
+      "label": "What is the highest level of education you attended?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "None",
+        "2": "Primary",
+        "3": "VOJ (LTS, MULO, LBO, ULO)",
+        "4": "VOS (IMEAO, NATIN, AMTO, HAVO, VWO, CPI, SPI, ACI)",
+        "5": "Teritiary (HBO/ University/ College)",
+        "6": "Masters/ PhD",
+        "7": "Other"
+      }
+    },
+    {
+      "name": "q03_21",
+      "label": "In what field of study was this?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_22",
+      "label": "Have you competed this level?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q03_23",
+      "label": "What year/ grade did you complete?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q03_24",
+      "label": "What is the main reason why you did not continue studyig?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Did not like studying/ was not interested",
+        "2": "Could not afford the expenses",
+        "3": "Needed to work",
+        "4": "Was ill/ desabled",
+        "5": "Other"
+      }
+    },
+    {
+      "name": "q03_25",
+      "label": "Were you attending school in person in December 2019, i.e, before the COVID-19 o",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q03_26",
+      "label": "Were you enrolled in school in 2020, i.e, the year of the COVID-19 pandemic?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q03_27a",
+      "label": "During the COVID-19 pandemic, did you take remote lessons? Using online/dig lear",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q03_27b",
+      "label": "During the COVID-19 pandemic, did you take remote lessons? Getting from school..",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q03_27c",
+      "label": "During the COVID-19 pandemic, did you take remote lessons? Television broadcasts",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q03_27d",
+      "label": "During the COVID-19 pandemic, did you take remote lessons? Radio or podcast...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q03_28",
+      "label": "What is the main reason why you did not take remote lessons during the COVID-19",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "The school did not offer remote lessons",
+        "2": "...we had no computer/ tablet at home",
+        "3": "...we had no access to the internet at home",
+        "4": "...we had no radio / TV at home",
+        "5": "We could not pay for school supplies"
+      }
+    },
+    {
+      "name": "q03_29",
+      "label": "Did you have to take classes with a private teacher because of the COVID-19 pand",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q17_05",
+      "label": "Let us now talk about the use of the Internet in general, i.e, not only at home?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Every day/ almost every day",
+        "2": "At least once a week (not every day)",
+        "3": "Less than once a week",
+        "4": "Never"
+      }
+    },
+    {
+      "name": "q17_06a",
+      "label": "Devices where you use the internet in the last 3 months? Desktop computer",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_06b",
+      "label": "Devices where you use the internet in the last 3 months? Laptop",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_06c",
+      "label": "Devices where you use the internet in the last 3 months? Tablet",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_06d",
+      "label": "Devices where you use the internet in the last 3 months? Mobile/Smart phone",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_06e",
+      "label": "Devices where you use the internet in the last 3 months? Other devices(Smart TV,",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07a",
+      "label": "Activities where you used internet in the last 3m. Sending (...) e-mails",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07b",
+      "label": "Activities where you used internet in the last 3m. Making calls(...)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07c",
+      "label": "Activities where you used internet in the last 3m. Social networks (Facebook, et",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07d",
+      "label": "Activities where you used internet in the last 3m. Using instant messaging",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07e",
+      "label": "Activities where you used internet in the last 3m. Reading online news sites",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07f",
+      "label": "Activities where you used internet in the last 3m. Seeking health-related info",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07g",
+      "label": "Activities where you used internet in the last 3m. Finding info about goods",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07h",
+      "label": "Activities where you used internet in the last 3m. Expressing opinions",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07i",
+      "label": "Activities where you used internet in the last 3m. Taking part in online voting",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07j",
+      "label": "Activities where you used internet in the last 3m. Looking for a job (...)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07k",
+      "label": "Activities where you used internet in the last 3m. Selling of goods or services",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07l",
+      "label": "Activities where you used internet in the last 3m. Internet banking",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_07m",
+      "label": "Activities where you used internet in the last 3m. Entertainment",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_08a",
+      "label": "excluding schooling and university classes, have you done (...) an online course",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_08b",
+      "label": "excluding schooling and university classes, have you used (...) online learning",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_08c",
+      "label": "excluding schooling and university classes, have you used (...) NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_09a",
+      "label": "Contact with public agencies over the internet... obtaining info from webs or ap",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_09b",
+      "label": "Contact with public agencies over the internet... downloading offical forms",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_09c",
+      "label": "Contact with public agencies over the internet... submitting completed forms onl",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_09d",
+      "label": "Contact with public agencies over the internet... NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_10",
+      "label": "When did you last buy or order goods or services for private use over the intern",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Within the last 3 months",
+        "2": "Between 3 months and a year ago",
+        "3": "More than 1 year ago",
+        "4": "Never bought or ordered over the internet"
+      }
+    },
+    {
+      "name": "q17_11a",
+      "label": "3 month. Copying or moving files between folders, devices or on the cloud",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_11b",
+      "label": "3 months. Downloading or installing software or app",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_11c",
+      "label": "3 months. Changing settings of softwares, app or device",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_11d",
+      "label": "3 months. NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_12a",
+      "label": "Software related activities. 3 months. Using word processing software",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_12b",
+      "label": "Software related activities. 3 months. Creating files, incorporing elements",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_12c",
+      "label": "Software related activities. 3 months. Using spreadsheet software",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_12d",
+      "label": "Software related activities. 3 months. Editing photos, videos or audio files",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_12e",
+      "label": "Software related activities. 3 months. Writing code in a programming language",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_12f",
+      "label": "Software related activities. 3 months. NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q04_01_benef",
+      "label": "In the past 6 months have you been a beneficiary of any of the following governm",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q04_01_code_1",
+      "label": "Program Benef Code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Unemployemnt allowance",
+        "2": "Financial child support",
+        "3": "School Transportation",
+        "4": "Day Care Centre Foundation (SBEC)",
+        "5": "Housing Program",
+        "6": "Foundation for Mobilization and Development (SAO)",
+        "7": "School Clothing/Uniform",
+        "8": "Financial Assistance/Alivio (FB)",
+        "9": "Financial Assistance - Disability Payment",
+        "10": "Food For Kids (Child Feeding Program)",
+        "11": "Scholarships and Allowance (School Fees)",
+        "12": "Foundation for Productive Working Unities (Stichting Productive Werkeenheden - S",
+        "13": "Community Development Program (Gemeenschap sontwikkeling programma)",
+        "14": "Elderly care",
+        "15": "Youth Care",
+        "16": "Construction of and House Repair",
+        "17": "Others",
+        "97": "NONE"
+      }
+    },
+    {
+      "name": "q04_02_month_1",
+      "label": "When did you enroll in [Q04_01_CODE] (Month)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q04_02_year_1",
+      "label": "When did you enroll in [Q04_01_CODE] (Year)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q04_02_amount_1",
+      "label": "How much did you receive from [Q04_01_CODE] in 6 last months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q04_02_pay_means_1",
+      "label": "How did you receive that money from [Q04_01_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Deposit",
+        "2": "Voucher",
+        "3": "Cash"
+      }
+    },
+    {
+      "name": "q04_01_code_2",
+      "label": "Program Benef Code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Unemployemnt allowance",
+        "2": "Financial child support",
+        "3": "School Transportation",
+        "4": "Day Care Centre Foundation (SBEC)",
+        "5": "Housing Program",
+        "6": "Foundation for Mobilization and Development (SAO)",
+        "7": "School Clothing/Uniform",
+        "8": "Financial Assistance/Alivio (FB)",
+        "9": "Financial Assistance - Disability Payment",
+        "10": "Food For Kids (Child Feeding Program)",
+        "11": "Scholarships and Allowance (School Fees)",
+        "12": "Foundation for Productive Working Unities (Stichting Productive Werkeenheden - S",
+        "13": "Community Development Program (Gemeenschap sontwikkeling programma)",
+        "14": "Elderly care",
+        "15": "Youth Care",
+        "16": "Construction of and House Repair",
+        "17": "Others",
+        "97": "NONE"
+      }
+    },
+    {
+      "name": "q04_02_month_2",
+      "label": "When did you enroll in [Q04_01_CODE] (Month)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q04_02_year_2",
+      "label": "When did you enroll in [Q04_01_CODE] (Year)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q04_02_amount_2",
+      "label": "How much did you receive from [Q04_01_CODE] in 6 last months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q04_02_pay_means_2",
+      "label": "How did you receive that money from [Q04_01_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Deposit",
+        "2": "Voucher",
+        "3": "Cash"
+      }
+    },
+    {
+      "name": "q04_01_code_3",
+      "label": "Program Benef Code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Unemployemnt allowance",
+        "2": "Financial child support",
+        "3": "School Transportation",
+        "4": "Day Care Centre Foundation (SBEC)",
+        "5": "Housing Program",
+        "6": "Foundation for Mobilization and Development (SAO)",
+        "7": "School Clothing/Uniform",
+        "8": "Financial Assistance/Alivio (FB)",
+        "9": "Financial Assistance - Disability Payment",
+        "10": "Food For Kids (Child Feeding Program)",
+        "11": "Scholarships and Allowance (School Fees)",
+        "12": "Foundation for Productive Working Unities (Stichting Productive Werkeenheden - S",
+        "13": "Community Development Program (Gemeenschap sontwikkeling programma)",
+        "14": "Elderly care",
+        "15": "Youth Care",
+        "16": "Construction of and House Repair",
+        "17": "Others",
+        "97": "NONE"
+      }
+    },
+    {
+      "name": "q04_02_month_3",
+      "label": "When did you enroll in [Q04_01_CODE] (Month)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q04_02_year_3",
+      "label": "When did you enroll in [Q04_01_CODE] (Year)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q04_02_amount_3",
+      "label": "How much did you receive from [Q04_01_CODE] in 6 last months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q04_02_pay_means_3",
+      "label": "How did you receive that money from [Q04_01_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Deposit",
+        "2": "Voucher",
+        "3": "Cash"
+      }
+    },
+    {
+      "name": "q04_01_code_4",
+      "label": "Program Benef Code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Unemployemnt allowance",
+        "2": "Financial child support",
+        "3": "School Transportation",
+        "4": "Day Care Centre Foundation (SBEC)",
+        "5": "Housing Program",
+        "6": "Foundation for Mobilization and Development (SAO)",
+        "7": "School Clothing/Uniform",
+        "8": "Financial Assistance/Alivio (FB)",
+        "9": "Financial Assistance - Disability Payment",
+        "10": "Food For Kids (Child Feeding Program)",
+        "11": "Scholarships and Allowance (School Fees)",
+        "12": "Foundation for Productive Working Unities (Stichting Productive Werkeenheden - S",
+        "13": "Community Development Program (Gemeenschap sontwikkeling programma)",
+        "14": "Elderly care",
+        "15": "Youth Care",
+        "16": "Construction of and House Repair",
+        "17": "Others",
+        "97": "NONE"
+      }
+    },
+    {
+      "name": "q04_02_month_4",
+      "label": "When did you enroll in [Q04_01_CODE] (Month)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q04_02_year_4",
+      "label": "When did you enroll in [Q04_01_CODE] (Year)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q04_02_amount_4",
+      "label": "How much did you receive from [Q04_01_CODE] in 6 last months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q04_02_pay_means_4",
+      "label": "How did you receive that money from [Q04_01_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Deposit",
+        "2": "Voucher",
+        "3": "Cash"
+      }
+    },
+    {
+      "name": "q04_03",
+      "label": "During the COVID-19 pandemic, did you start receiving monetary assistance...?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q04_04a",
+      "label": "Type of assistance. General child benefit (AKB)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q04_04b",
+      "label": "Type of assistance. General old age provision (AOV)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q04_04c",
+      "label": "Type of assistance. Retirees benefit",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q04_04d",
+      "label": "Type of assistance. Financial assistance to people with disabilities",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q04_04e",
+      "label": "Type of assistance. Financial assistance to socially weak households (FBHH)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q04_04f",
+      "label": "Type of assistance. Unemployment allowance",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q04_04g",
+      "label": "Type of assistance. Social assistance benefit",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q04_04h",
+      "label": "Type of assistance. SRD support for small payments in foreign currency program",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q04_04i",
+      "label": "Type of assistance. Housing fund support program",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q04_04j",
+      "label": "Type of assistance. NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q18_01a",
+      "label": "In the last month, how often have you been upset because of something that happe",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Never",
+        "1": "Almost Never",
+        "2": "Sometimes",
+        "3": "Fairly Often",
+        "4": "Very Often"
+      }
+    },
+    {
+      "name": "q18_01b",
+      "label": "In the last month, how often have you felt that you were unable to control the i",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Never",
+        "1": "Almost Never",
+        "2": "Sometimes",
+        "3": "Fairly Often",
+        "4": "Very Often"
+      }
+    },
+    {
+      "name": "q18_01c",
+      "label": "In the last month, how often have you felt nervous and ?stressed??",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Never",
+        "1": "Almost Never",
+        "2": "Sometimes",
+        "3": "Fairly Often",
+        "4": "Very Often"
+      }
+    },
+    {
+      "name": "q18_01d",
+      "label": "In the last month, how often have you felt confident about your ability to handl",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Never",
+        "1": "Almost Never",
+        "2": "Sometimes",
+        "3": "Fairly Often",
+        "4": "Very Often"
+      }
+    },
+    {
+      "name": "q18_01e",
+      "label": "In the last month, how often have you felt that things were going your way?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Never",
+        "1": "Almost Never",
+        "2": "Sometimes",
+        "3": "Fairly Often",
+        "4": "Very Often"
+      }
+    },
+    {
+      "name": "q18_01f",
+      "label": "In the last month, how often have you found that you could not cope with all the",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Never",
+        "1": "Almost Never",
+        "2": "Sometimes",
+        "3": "Fairly Often",
+        "4": "Very Often"
+      }
+    },
+    {
+      "name": "q18_01g",
+      "label": "In the last month, how often have you been able to control irritations in your l",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Never",
+        "1": "Almost Never",
+        "2": "Sometimes",
+        "3": "Fairly Often",
+        "4": "Very Often"
+      }
+    },
+    {
+      "name": "q18_01h",
+      "label": "In the last month, how often have you felt that you were on top of things?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Never",
+        "1": "Almost Never",
+        "2": "Sometimes",
+        "3": "Fairly Often",
+        "4": "Very Often"
+      }
+    },
+    {
+      "name": "q18_01i",
+      "label": "In the last month, how often have you been angered because of things that were o",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Never",
+        "1": "Almost Never",
+        "2": "Sometimes",
+        "3": "Fairly Often",
+        "4": "Very Often"
+      }
+    },
+    {
+      "name": "q18_01j",
+      "label": "In the last month, how often have you felt difficulties were piling up so high t",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Never",
+        "1": "Almost Never",
+        "2": "Sometimes",
+        "3": "Fairly Often",
+        "4": "Very Often"
+      }
+    },
+    {
+      "name": "q05_01",
+      "label": "What is you weight? Kg",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_02",
+      "label": "What is your height? Centimeters",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_03a",
+      "label": "Do you usually... attend a gym at least once per week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_03b",
+      "label": "Do you usually... engage in a sport game at least once per week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_03c",
+      "label": "Do you usually... go jogging at least once per week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_03d",
+      "label": "Do you usually... Ride with a riding club/ group at least once per week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_03e",
+      "label": "Do you usually... take regular walks at least 3 days per week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_03f",
+      "label": "Do you usually... Oher physical activity",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_03g",
+      "label": "Do you usually practice any of the following sport physical activities? NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_03_1",
+      "label": "How many hours per week do you practice this/ these physical activity/es in tota",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_03_2",
+      "label": "In a typical week, on how many days do you eat fruit? DAYS",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_03_3",
+      "label": "How many servings of fruit do you eat on one of those days?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_03_4",
+      "label": "In a typical week, on how many days do you eat vegetables?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_03_5",
+      "label": "How many servings of vegetables do you eat on one of those days? Number of servi",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_04",
+      "label": "Do you get a general medical checkup at least once a year?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q05_05",
+      "label": "Do you get a dental checkup at least once a year?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q05_06a",
+      "label": "Do you suffer from any of the following conditions? Diabetes",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_06b",
+      "label": "Do you suffer from any of the following conditions? High blood pressure",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_06c",
+      "label": "Do you suffer from any of the following conditions? Heart condition",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_06d",
+      "label": "Do you suffer from any of the following conditions? Cervical cancer",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_06e",
+      "label": "Do you suffer from any of the following conditions? Asthma",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_06f",
+      "label": "Do you suffer from any of the following conditions? Arthritis",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_06g",
+      "label": "Do you suffer from any of the following conditions? Breast cancer",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_06h",
+      "label": "Do you suffer from any of the following conditions? Prostate cancer",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_06i",
+      "label": "Do you suffer from any of the following conditions? Other type of cancer",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_06j",
+      "label": "Do you suffer from any of the following conditions? NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_07a",
+      "label": "Do you have any of the following disabilities? Speech",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_07b",
+      "label": "Do you have any of the following disabilities? Sight (partial or total blindness",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_07c",
+      "label": "Do you have any of the following disabilities? Hearing",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_07d",
+      "label": "Do you have any of the following disabilities? Physical",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_07e",
+      "label": "Do you have any of the following disabilities? NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_08a",
+      "label": "Did you suffer any of the following diseases in the past 3 months? Diarrhea",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_08b",
+      "label": "Did you suffer any of the following diseases in the past 3 months? Angina",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_08c",
+      "label": "Did you suffer any of the following diseases in the past 3 months? Bronchitis",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_08d",
+      "label": "Did you suffer any of the following diseases in the past 3 months? Pneumonia",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_08e",
+      "label": "Did you suffer any of the following diseases in the past 3 months? Flu",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_08f",
+      "label": "Did you suffer any of the following diseases in the past 3 months? Dengue fever",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_08g",
+      "label": "Did you suffer any of the following diseases in the past 3 months? Zika",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_08h",
+      "label": "Did you suffer any of the following diseases in the past 3 months? Chikungunya",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_08i",
+      "label": "Did you suffer any of the following diseases in the past 3 months? NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_09a",
+      "label": "Have you ever contracted one of the following deseases? Dengue fever",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_09b",
+      "label": "Have you ever contracted one of the following deseases? Zika",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_09c",
+      "label": "Have you ever contracted one of the following deseases? Chikungunya",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_09d",
+      "label": "Have you ever contracted one of the following deseases? Malaria",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_09e",
+      "label": "Have you ever contracted one of the following deseases? Leptospirosis",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_09f",
+      "label": "Have you ever contracted one of the following deseases? COVID-19",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_09g",
+      "label": "Have you ever contracted one of the following deseases? NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_10",
+      "label": "During the past 3 months were you unable to carry on your usual activities at le",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes, only illness",
+        "2": "Yes, only injury",
+        "3": "Yes, illness and injury",
+        "4": "No"
+      }
+    },
+    {
+      "name": "q05_11",
+      "label": "For how many days during the past 3 months were you unable to carry on your usua",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_12",
+      "label": "How many of these were missed days of work without pay (within the past 3 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_13",
+      "label": "How many minutes does it take you to get from here to the health facility you vi",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_14",
+      "label": "When was the last time you visited a health practitioner?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "3 or less months ago",
+        "2": "Between 4 and 6 months ago",
+        "3": "Between 7 and 12 months ago",
+        "4": "Over 12 months ago"
+      }
+    },
+    {
+      "name": "q05_15",
+      "label": "Where was your LAST visit to a medical practitioner made?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "AZP, MMC, LH, Diakonessen Huis, RKZ",
+        "2": "RGD",
+        "3": "Private clinic",
+        "4": "MZ",
+        "5": "Private dentist",
+        "6": "Alternative medicine (Bonuman, pandiet, acupuncture, etc.)",
+        "7": "Hospital abroad",
+        "8": "Other",
+        "9": "Wanica hospital",
+        "10": "Marowijne hospital"
+      }
+    },
+    {
+      "name": "q05_16a",
+      "label": "How long did you have to wait at this place before being assisted? HOURS",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_16b",
+      "label": "How long did you have to wait at this place before being assisted? MINUTES",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_17",
+      "label": "How satisfied were you with the attention/ treatment received?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very satisfied",
+        "2": "Satisfied",
+        "3": "Neither satisfied nor dissatisfied",
+        "4": "Dissatisfied",
+        "5": "Very dissatisfied"
+      }
+    },
+    {
+      "name": "q05_18a",
+      "label": "Why were you not satisfied? Drugs not available",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_18b",
+      "label": "Why were you not satisfied? Attitude of staff",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_18c",
+      "label": "Why were you not satisfied? Long waiting time",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_18d",
+      "label": "Why were you not satisfied? Equipment not available or operational",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_18e",
+      "label": "Why were you not satisfied? No Doctor/Trained staff available",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_18f",
+      "label": "Why were you not satisfied? Too many revisits",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_18g",
+      "label": "Why were you not satisfied? Other",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q05_19",
+      "label": "How many nights, if any, during the past 12 months did you spend in a public/ pr",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_19a",
+      "label": "Have you been vaccinated against COVID-19?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes, one dose",
+        "2": "Yes, two doses",
+        "3": "No"
+      }
+    },
+    {
+      "name": "q05_19b",
+      "label": "Do you plan to get vaccinated to prevent COVID-19?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "3": "Not sure"
+      }
+    },
+    {
+      "name": "q05_19c",
+      "label": "What is the main reason you do not plan to or are not sure you will be vaccinate",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "I do not think they are effective, that they work",
+        "2": "I don't think it's safe, because of the side effects",
+        "3": "I am not at risk of getting covid-19",
+        "4": "I am concerned of being infected with COVID-19 at the health facility",
+        "5": "Health center too far or hard to reach",
+        "6": "I don't have time to go to get vaccinated",
+        "7": "I already had covid-19 / I no longer need it",
+        "8": "I am against vaccines in general",
+        "9": "Religious reasons",
+        "97": "Other (specify)"
+      }
+    },
+    {
+      "name": "q05_19c_ot",
+      "label": "What is the main reason you do not plan to or are not sure you will be vaccinate",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_20",
+      "label": "Did you buy private medical services for yourself during the past 30 days?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q05_21",
+      "label": "How much did you spend out of your pocket for these private medical services for",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_22",
+      "label": "Did you buy other medical care services for yourself during the past 30 days?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q05_23",
+      "label": "How much did you spend out of your pocket for these other medical care services",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_24",
+      "label": "Did you buy other medical products for yourself during the past 30 days?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q05_25",
+      "label": "How much did you spend out of your pocket for these other medical products for y",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_26",
+      "label": "Did you buy medicines for yourself during the past 30 days?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q05_27",
+      "label": "Did you obtain these medicines at a private or at a public pharmacy/place?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Private",
+        "2": "Public",
+        "3": "Both"
+      }
+    },
+    {
+      "name": "q05_28",
+      "label": "How much did you spend out of your pocket for medicines for yourself at a privat",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q05_29",
+      "label": "Do you have private insurance?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q05_30",
+      "label": "Do you have Basic Health Insurance (BZV)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q05_31",
+      "label": "Do you pay anything for the Basic Health Insurance (BZV)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q06_01",
+      "label": "Do you get gynaecological checkups at least once a year?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q06_02",
+      "label": "Have you ever given birth to a child who was born alive?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q06_03_num_child",
+      "label": "How many children born alive have you had?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_04",
+      "label": "How many of them are alive now?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_order_1",
+      "label": "Child Order",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_sex_1",
+      "label": "What is the sex of your [Q06_03_CODE] child, whether is now alive or not?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q06_05_day_1",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_month_1",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q06_05_year_1",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_order_2",
+      "label": "Child Order",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_sex_2",
+      "label": "What is the sex of your [Q06_03_CODE] child, whether is now alive or not?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q06_05_day_2",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_month_2",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q06_05_year_2",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_order_3",
+      "label": "Child Order",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_sex_3",
+      "label": "What is the sex of your [Q06_03_CODE] child, whether is now alive or not?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q06_05_day_3",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_month_3",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q06_05_year_3",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_order_4",
+      "label": "Child Order",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_sex_4",
+      "label": "What is the sex of your [Q06_03_CODE] child, whether is now alive or not?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q06_05_day_4",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_month_4",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q06_05_year_4",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_order_5",
+      "label": "Child Order",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_sex_5",
+      "label": "What is the sex of your [Q06_03_CODE] child, whether is now alive or not?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q06_05_day_5",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_month_5",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q06_05_year_5",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_order_6",
+      "label": "Child Order",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_sex_6",
+      "label": "What is the sex of your [Q06_03_CODE] child, whether is now alive or not?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q06_05_day_6",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_month_6",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q06_05_year_6",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_order_7",
+      "label": "Child Order",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_sex_7",
+      "label": "What is the sex of your [Q06_03_CODE] child, whether is now alive or not?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q06_05_day_7",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_month_7",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q06_05_year_7",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_order_8",
+      "label": "Child Order",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_sex_8",
+      "label": "What is the sex of your [Q06_03_CODE] child, whether is now alive or not?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q06_05_day_8",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_month_8",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q06_05_year_8",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_order_9",
+      "label": "Child Order",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_sex_9",
+      "label": "What is the sex of your [Q06_03_CODE] child, whether is now alive or not?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q06_05_day_9",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_month_9",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q06_05_year_9",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_order_10",
+      "label": "Child Order",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_sex_10",
+      "label": "What is the sex of your [Q06_03_CODE] child, whether is now alive or not?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    {
+      "name": "q06_05_day_10",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_05_month_10",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "-1": "Don't know (DO NOT READ)",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    {
+      "name": "q06_05_year_10",
+      "label": "What is the date of birth of your [Q06_03_CODE]  child, whether is now alive or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_06",
+      "label": "When pregnant with your last child, did you attend prenatal consultations at a h",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q06_07",
+      "label": "Where did you first attend prenatal consultations when you were pregnant with yo",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "AZP, SZN, LH, DH, RKZ",
+        "2": "RGD",
+        "3": "Private clinic",
+        "4": "MZ",
+        "5": "Place of alternative medicine (dresiman, acupuncturist, pandiet, etc.)",
+        "6": "Hospital abroad"
+      }
+    },
+    {
+      "name": "q06_08",
+      "label": "At what month of pregnancy did you go for your first visit when pregnant with yo",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q06_09",
+      "label": "Did you receive the thetanus vaccine when pregnant with your last child?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "9": "Don't know"
+      }
+    },
+    {
+      "name": "q06_10",
+      "label": "Where did you give birth to your last child?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "AZP, SZN, LH, RKZ, DH",
+        "2": "RGD",
+        "3": "Private clinic",
+        "4": "MZ",
+        "5": "Hospital/clinic abroad",
+        "6": "At home",
+        "7": "Other"
+      }
+    },
+    {
+      "name": "q06_11",
+      "label": "Who mainly assisted you during the delivery of your last child?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Doctor",
+        "2": "Nurse",
+        "3": "Midwife",
+        "4": "Neighbors",
+        "5": "Household member/ relative",
+        "6": "Other"
+      }
+    },
+    {
+      "name": "q07_03",
+      "label": "Does [NAME]'s mother live in the household?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q07_04",
+      "label": "Individual ID code of mother",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_05",
+      "label": "Does [NAME]'s father live in the household?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q07_06",
+      "label": "Individual ID code of father",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_07",
+      "label": "Do this child receive any monetary support from outside of the household?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q07_08",
+      "label": "What is the form of this support?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Government grant",
+        "2": "Maintenance or alimony"
+      }
+    },
+    {
+      "name": "q07_09a",
+      "label": "In the past 30 days, (...) read to or shown the child books",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_09b",
+      "label": "In the past 30 days, (...) told stories to the child",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_09c",
+      "label": "In the past 30 days, (...) sung songs with the child",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_09d",
+      "label": "In the past 30 days, (...) played games with the child",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_09e",
+      "label": "In the past 30 days, (...) spent time with the child counting, drawing or naming",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_09f",
+      "label": "In the past 30 days, (...) took the child on a special activity",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_09g",
+      "label": "In the past 30 days, (...) NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_10a",
+      "label": "Has (...) toys that teach colours,shapes and sizes",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_10b",
+      "label": "Has (...) toys or games which help teach numbers",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_10c",
+      "label": "Has (...) toys/games requiring fine movements (building blocks, legos)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_10d",
+      "label": "Has (...) books (other than school books)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_10e",
+      "label": "Has (...) toy or real musical instruments",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_10f",
+      "label": "Has (...) access to electronic games (playstation, computer, cell phones, tablet",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_10g",
+      "label": "Has (...) toys or books about science or making rhings (STEM)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_10h",
+      "label": "Has (...) NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11a",
+      "label": "In the past 30 days, disciplined method used, slapping/hitting with hands",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11b",
+      "label": "In the past 30 days, disciplined method used, beating with an implement (belt, s",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11c",
+      "label": "In the past 30 days, disciplined method used, quarrelling/shouting",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11d",
+      "label": "In the past 30 days, disciplined method used, removing privileges (e.g. TV, favo",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11e",
+      "label": "In the past 30 days, disciplined method used, denying food",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11f",
+      "label": "In the past 30 days, disciplined method used, time out (put in room/corner)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11g",
+      "label": "In the past 30 days, disciplined method used, talking about why an action was wr",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11h",
+      "label": "In the past 30 days, disciplined method used, swearing/cursing at the child",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11i",
+      "label": "In the past 30 days, disciplined method used, pinching the child",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11j",
+      "label": "In the past 30 days, disciplined method used, ignoring the child",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11k",
+      "label": "In the past 30 days, disciplined method used, reasoning",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_11l",
+      "label": "In the past 30 days, disciplined method used, NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_12",
+      "label": "How many children are there in [NAME]'s class?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_13a",
+      "label": "Is there a safe place to play within your community? Own yard",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_13b",
+      "label": "Is there a safe place to play within your community? Playground",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_13c",
+      "label": "Is there a safe place to play within your community? Community centre",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_13d",
+      "label": "Is there a safe place to play within your community? Other",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_13e",
+      "label": "Is there a safe place to play within your community? NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_14",
+      "label": "Has [NAME] witnessed any type of violence within the community in the last 12 mo",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q07_15",
+      "label": "Has [NAME] witnessed any type of violence at home in the last 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q07_16",
+      "label": "Where was [NAME] born?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "AZP, SZN, LH, Diakonessen Huis, RKZ",
+        "2": "RGD",
+        "3": "Private clinic",
+        "4": "MZ",
+        "5": "Place of alternative medicine (dresiman, acupuncturist, pandiet, etc.)",
+        "6": "Hospital abroad"
+      }
+    },
+    {
+      "name": "q07_17",
+      "label": "Who MAINLY assisted his/her delivery?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Doctor",
+        "2": "Nurse",
+        "3": "Midwife",
+        "4": "Neighbors",
+        "5": "Household/family member",
+        "6": "Other"
+      }
+    },
+    {
+      "name": "q07_18",
+      "label": "What was the weight of [NAME] at birth?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_19",
+      "label": "In the past two weeks, has this child had running belly (diarrhea) ie. three or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q07_20a",
+      "label": "How many time has [NAME] been vaccinated for? HEPATITIS B",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_20b",
+      "label": "How many time has [NAME] been vaccinated for? PENTAVALENT",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_20c",
+      "label": "How many time has [NAME] been vaccinated for? OPV",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_20d",
+      "label": "How many time has [NAME] been vaccinated for? BMR",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_20e",
+      "label": "How many time has [NAME] been vaccinated for? GK",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_20f",
+      "label": "How many time has [NAME] been vaccinated for? DT",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_20g",
+      "label": "How many time has [NAME] been vaccinated for? DKT",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_21",
+      "label": "Was the immunizaton card seen for ...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q07_22a",
+      "label": "(...) symptoms to be taken to the doctor. Child not able to drink or breastfeed",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_22b",
+      "label": "(...) symptoms to be taken to the doctor. Child develops a fever",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_22c",
+      "label": "(...) symptoms to be taken to the doctor. Child has fast/difficult breathing",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_22d",
+      "label": "(...) symptoms to be taken to the doctor. Child has blood in stool",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_22e",
+      "label": "(...) symptoms to be taken to the doctor. Vomiting",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_22f",
+      "label": "(...) symptoms to be taken to the doctor. Diarrhea",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q07_23",
+      "label": "During tha past 30 days, did [NAME] do any kind of work for somebody who is not",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q07_24",
+      "label": "Was s/he paid for this work (either in cash or in kind)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q07_25",
+      "label": "During the past 30 days, about how many days did [NAME] work for somebody who is",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_26",
+      "label": "During tha past 30 days, did [NAME] do any paid or unpaid work in a family agric",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q07_27",
+      "label": "During the past 30 days, about how many days did [NAME] work for his/her family",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q07_28",
+      "label": "During tha past 30 days, did [NAME] help with household chores such as shopping,",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q07_29",
+      "label": "During the past 30 days, about how many days did s/he do these chores?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q08_01",
+      "label": "In the past 12 months have you been a victim of crime?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q08_02",
+      "label": "Describe the nature of the most important crime",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Theft of vehicle",
+        "2": "Theft from vehicle",
+        "3": "Burglary",
+        "4": "Attempted burglary",
+        "5": "Robbery",
+        "6": "Assault",
+        "7": "Sexual offence",
+        "8": "Other"
+      }
+    },
+    {
+      "name": "q08_02_a1",
+      "label": "How many times were you a victim of the following crimes in the past 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q08_02_a2",
+      "label": "How many times were you a victim of the following crimes in the past 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q08_02_a3",
+      "label": "How many times were you a victim of the following crimes in the past 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q08_02_a4",
+      "label": "How many times were you a victim of the following crimes in the past 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q08_02_a5",
+      "label": "How many times were you a victim of the following crimes in the past 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q08_02_a6",
+      "label": "How many times were you a victim of the following crimes in the past 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q08_02_a7",
+      "label": "How many times were you a victim of the following crimes in the past 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q08_07",
+      "label": "Are you more fearful of being victim of crime than you were two years ago?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_01",
+      "label": "Did you do any work in the past 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_02_jobs",
+      "label": "Number of Jobs",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_02_code_1",
+      "label": "Job Code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_02_desc_1",
+      "label": "Job description",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_03_month_1",
+      "label": "How many months did you do [Q09_02_CODE], in the past 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_02_days_1",
+      "label": "In those months working in [Q09_02_CODE], how many days per month on average?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_05_status_1",
+      "label": "What was your employment status in [Q09_02_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Employer (with employees)",
+        "2": "Self-employed (with no employees)",
+        "3": "Contirbuting family worker",
+        "4": "Employee"
+      }
+    },
+    {
+      "name": "q09_02_code_2",
+      "label": "Job Code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_02_desc_2",
+      "label": "Job description",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_03_month_2",
+      "label": "How many months did you do [Q09_02_CODE], in the past 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_02_days_2",
+      "label": "In those months working in [Q09_02_CODE], how many days per month on average?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_05_status_2",
+      "label": "What was your employment status in [Q09_02_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Employer (with employees)",
+        "2": "Self-employed (with no employees)",
+        "3": "Contirbuting family worker",
+        "4": "Employee"
+      }
+    },
+    {
+      "name": "q09_02_code_3",
+      "label": "Job Code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_02_desc_3",
+      "label": "Job description",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_03_month_3",
+      "label": "How many months did you do [Q09_02_CODE], in the past 12 months?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_02_days_3",
+      "label": "In those months working in [Q09_02_CODE], how many days per month on average?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_05_status_3",
+      "label": "What was your employment status in [Q09_02_CODE]?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Employer (with employees)",
+        "2": "Self-employed (with no employees)",
+        "3": "Contirbuting family worker",
+        "4": "Employee"
+      }
+    },
+    {
+      "name": "q09_06",
+      "label": "Did you work for at least one hour in the last 7 days? Do not count household ch",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_07",
+      "label": "In the last 7 days did you prepare something to sell or helped to work for famil",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_08",
+      "label": "Even if you did not work in the last 7 days, did you have a job or an enterprise",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_09",
+      "label": "Do you currently have more than one job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_10",
+      "label": "Talking about your current main job/ business (the one that takes more time), wh",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Employer (with employees)",
+        "2": "Self-employed (with no employees)",
+        "3": "Contributing family worker",
+        "4": "Government employee",
+        "5": "Private employee",
+        "6": "Intern/Apprentice",
+        "7": "Other"
+      }
+    },
+    {
+      "name": "q09_11_2",
+      "label": "Is this business registered at any of the following? (Check all athat apply)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Chamber of Commerce (KKF)",
+        "2": "Tax authorites",
+        "97": "NONE"
+      }
+    },
+    {
+      "name": "q09_11a",
+      "label": "Is this business registered at KKF or with tax authorities. Chamber of Commerce",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_11b",
+      "label": "Is this business registered at KKF or with tax authorities. Tax authorities",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_11c",
+      "label": "Is this business registered at KKF or with tax authorities. NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_12a",
+      "label": "Does this business operate from... At home",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_12b",
+      "label": "Does this business operate from... Other fixed location",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_12c",
+      "label": "Does this business operate from... Mobile business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_13",
+      "label": "Do you keep any kind of accounting records for this business?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes, detailed formal accounts for tax purposes (balance statements, purchase and",
+        "2": "Yes, simplified accounting process NOT for tax purposes",
+        "3": "Yes, just personal records (informal records)",
+        "4": "No, no type of accounting"
+      }
+    },
+    {
+      "name": "q09_14",
+      "label": "How many persons including yourself work approximately at the place/ establishme",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Only 1 person",
+        "2": "2 to 4 persons",
+        "3": "5 to 9 persons",
+        "4": "10 to 49 persons",
+        "5": "50 or more persons"
+      }
+    },
+    {
+      "name": "q09_15",
+      "label": "What type of contract do you have in your main job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Written contract for no specified time",
+        "2": "Written contract for limited time",
+        "3": "No contract"
+      }
+    },
+    {
+      "name": "q09_16a",
+      "label": "Which benefits do you receive from your employer... Pension or retirement fund",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_16b",
+      "label": "Which benefits do you receive from your employer... Maternity leave (only for fe",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_16c",
+      "label": "Which benefits do you receive from your employer... Paid sick leave",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_16d",
+      "label": "Which benefits do you receive from your employer... Day care facilities",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_16e",
+      "label": "Which benefits do you receive from your employer... Protection equipment/clothes",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_16f",
+      "label": "Which benefits do you receive from your employer... Transport/subsidized food fa",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_16g",
+      "label": "Which benefits do you receive from your employer... Medical insurance",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_16h",
+      "label": "Which benefits do you receive from your employer... Parental leave (only for mal",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_16i",
+      "label": "Which benefits do you receive from your employer... NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_17",
+      "label": "What is your occupation in your main job/ business?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_18",
+      "label": "What are your main activities or duties in this job? Describe as clearly as poss",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_19",
+      "label": "Occupation code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Managers",
+        "2": "Professionals",
+        "3": "Technicians and Associate Professionals",
+        "4": "Clerical Support Workers",
+        "5": "Services and Sales Workers",
+        "6": "Skilled Agricultural, Forestry and Fishery Workers",
+        "7": "Craft and Related Trades Workers",
+        "8": "Plant and Machine Operators and Assemblers",
+        "9": "Elementary Occupations",
+        "10": "Armed Forces Occupations, other ranks",
+        "97": "Other"
+      }
+    },
+    {
+      "name": "q09_20",
+      "label": "What kind of goods are produced or services provided at the place/ establishment",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_21",
+      "label": "Industry code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Wholesale & retail (trade)",
+        "2": "Public administration, defense",
+        "3": "Construction",
+        "4": "Education",
+        "5": "Human health and social work activities",
+        "6": "Manufacturing",
+        "7": "Accommodation & food service activities",
+        "8": "Activities of households as employers",
+        "9": "Transportation & storage",
+        "10": "Mining and quarrying",
+        "11": "Administrative and support service activities",
+        "12": "Agriculture, forestry & fishing",
+        "13": "Water supply, sewerage, waste management, electricity, gas, air conditioning",
+        "96": "Other"
+      }
+    },
+    {
+      "name": "q09_22",
+      "label": "How long have you been working in this job/ business until now?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Less than 1 year",
+        "2": "1 to 4 years",
+        "3": "5 to 9 years",
+        "4": "10 years or over"
+      }
+    },
+    {
+      "name": "q09_23a",
+      "label": "How many hours did you actually work in the last... monday",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_23b",
+      "label": "How many hours did you actually work in the last... tuesday",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_23c",
+      "label": "How many hours did you actually work in the last... wednesday",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_23d",
+      "label": "How many hours did you actually work in the last... thursday",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_23e",
+      "label": "How many hours did you actually work in the last... friday",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_23f",
+      "label": "How many hours did you actually work in the last... saturday",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_23g",
+      "label": "How many hours did you actually work in the last... sunday",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_23h",
+      "label": "How many hours did you actually work in the last 7 days... total",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_24",
+      "label": "What is the main reason why you worked less than 40 hours in the last 7 days?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Own illness/injury",
+        "2": "Illness/Injury of another household member",
+        "3": "Holiday/Vacation",
+        "4": "It is only a part-time job",
+        "5": "Personal/ family responsibilities",
+        "6": "In school/training",
+        "7": "Strike/lock out",
+        "8": "Job ended in reference week",
+        "9": "Firm not getting enough work",
+        "10": "Times allocated by employer",
+        "11": "Could not find more work",
+        "12": "Maternity",
+        "13": "Climate conditions",
+        "14": "Other",
+        "15": "COVID-19 pandemic"
+      }
+    },
+    {
+      "name": "q09_25",
+      "label": "Did you want to work more hours in the last 7 days?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_26",
+      "label": "In the last 7 days were you available to work more hours in your current job or",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_27",
+      "label": "How many hours per week do you usually work, considering all your jobs?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "10 or less",
+        "2": "11 to 20",
+        "3": "21 to 40",
+        "4": "Over 40"
+      }
+    },
+    {
+      "name": "q09_28",
+      "label": "What was the main reason why you did not work in the last 7 days?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "No work available",
+        "2": "Seasonal inactivity",
+        "3": "Student and do not work",
+        "4": "Household/ family duties",
+        "5": "Retired",
+        "6": "Disabled",
+        "7": "Other",
+        "8": "Cannot find a job",
+        "9": "Did not want to work"
+      }
+    },
+    {
+      "name": "q09_29",
+      "label": "Have you been looking for work in any way in the past 30 days?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_30",
+      "label": "What is the main reason why you did not seek work or do anything to earn income",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Temporary illness",
+        "2": "Long term illness",
+        "3": "Did not want to work",
+        "4": "Awaiting results of applications",
+        "5": "Knew of no vacancy",
+        "6": "Discouraged/ no work available",
+        "7": "Caring for someone",
+        "8": "Maternity",
+        "9": "Already retired",
+        "10": "Other",
+        "11": "Household duties",
+        "12": "Student & do not work",
+        "13": "Fear of COVID-19"
+      }
+    },
+    {
+      "name": "q09_31",
+      "label": "If you had been offered a job choice or had an opportunity to work in the past 7",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_32",
+      "label": "In what kind of job are you looking for work?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Manager",
+        "2": "Professional",
+        "3": "Technician/ Associate Professional",
+        "4": "Clerical support worker",
+        "5": "Service and sales worker",
+        "6": "Skilled agricultural/ fishery worker",
+        "7": "Craft and related trades worker",
+        "8": "Plant and machine operator",
+        "9": "Elementary occupation",
+        "10": "Public",
+        "11": "Other"
+      }
+    },
+    {
+      "name": "q09_33",
+      "label": "What is the main source you use in looking for work?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Ministry of Labour",
+        "2": "Private recruitment agency",
+        "3": "Newspapers",
+        "4": "Internet",
+        "5": "Family or friends",
+        "6": "Word of mouth",
+        "7": "Other"
+      }
+    },
+    {
+      "name": "q09_34",
+      "label": "When did you last work?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Never worked",
+        "2": "1 to 3 months ago",
+        "3": "4 to 6 months ago",
+        "4": "7 to 12 months ago",
+        "5": "Over 12 months ago"
+      }
+    },
+    {
+      "name": "q09_35",
+      "label": "What was the main reason why you left/finished your last job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "New job",
+        "2": "Fired",
+        "3": "Illness/Injury",
+        "4": "Retired",
+        "5": "To return to school",
+        "6": "Retrenched/Laid off",
+        "7": "End of temporary contract",
+        "8": "Seasonal job",
+        "9": "No more work available",
+        "10": "Wages too low",
+        "11": "Keeping house",
+        "12": "Sexual Harassment",
+        "13": "Maternity",
+        "14": "Did not want to work",
+        "15": "Other"
+      }
+    },
+    {
+      "name": "q09_36a",
+      "label": "Have you contributed to the pension schemes in the las 6m. AOV",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_36b",
+      "label": "Have you contributed to the pension schemes in the las 6m. General Pension Fund",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_36c",
+      "label": "Have you contributed to the pension schemes in the las 6m. Civil service pension",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_36d",
+      "label": "Have you contributed to the pension schemes in the las 6m. Pension from private",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_36e",
+      "label": "Have you contributed to the pension schemes in the las 6m. Voluntary private pen",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_36f",
+      "label": "Have you contributed to the following pension schemes in the las 6m. NONE",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q09_37",
+      "label": "What is the main reason why you have not contributed to the the following? (Chec",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Did not know about it",
+        "2": "Did not know how to contribute",
+        "3": "Benefit too small",
+        "4": "Opted to save independently",
+        "5": "Already paying in another scheme",
+        "6": "Do not earn enough money to pay",
+        "7": "Already retired",
+        "8": "Other"
+      }
+    },
+    {
+      "name": "q09_37a",
+      "label": "Before the start of the COVID-19 pandemic, i.e. before March 2020, were you work",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_37b",
+      "label": "Before the start of the pandemic, i.e. before March 2020, were you running a bus",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_37c",
+      "label": "And at some point during the pandemic did you loose this job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_37d",
+      "label": "At some point during the pandemic did you have to take unpaid leave?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_37e",
+      "label": "At some point during the COVID-19 pandemic did you have to close this business p",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_37f",
+      "label": "And at some point during the pandemic did you have to suspend activities tempora",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_37g",
+      "label": "At some point during the COVID-19 pandemic did you look for a job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_37h",
+      "label": "And could you find a job?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_38",
+      "label": "Have you ever undertaken any vocational/ technical training?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q09_39",
+      "label": "What area was this training in?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Farming",
+        "2": "Skilled Trade (e.g. Car mechanics, carpentry, hairdressing, electrics)",
+        "3": "Upholstery/ Garments",
+        "4": "Hairdressing/ Cosmetology",
+        "5": "Teaching/Nursing/ Child Care",
+        "6": "Hospitality",
+        "7": "Cultural Skills (dance, drama, film, craft, etc.)",
+        "8": "Business Studies",
+        "9": "Leadership/ Teamwork",
+        "10": "Other (Specify)"
+      }
+    },
+    {
+      "name": "q09_40",
+      "label": "Specify training area",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q09_41",
+      "label": "Who financed this training?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Totally by my employer",
+        "2": "Partially by my employer",
+        "3": "It was offered freely by the government (for non-government employees)",
+        "4": "It was totally financed by myself/ my family",
+        "5": "Other"
+      }
+    },
+    {
+      "name": "q09_42",
+      "label": "How long ago did you undertake your last training?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "0-6 months ago",
+        "2": "7-12 months ago",
+        "3": "1-3 years ago",
+        "4": "Over 3 years ago"
+      }
+    },
+    {
+      "name": "q09_43",
+      "label": "What was the duration of this training (in days)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_01",
+      "label": "Do you usually obtain any income from your work, either in cash or in kind?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_02a",
+      "label": "What was your GROSS income during the last 1 month from your main job, that is b",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_02b",
+      "label": "What was your NET income during the last 1 month from your main job, that is aft",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_03",
+      "label": "Do you get this approximate income every month?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_04a",
+      "label": "What was your GROSS income during the last 1 month from any other jobs (GROSS pa",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_04b",
+      "label": "What was your NET income during the last 1 month from any other jobs (NET pay)?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_05",
+      "label": "Do you get this approximate income every month?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_06",
+      "label": "In the past month, how much did you receive from rental income for house, land a",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_07",
+      "label": "In the past month, how much did you receive from AOV?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_08",
+      "label": "In the past month, how much did you receive from New General Pension Act?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_09",
+      "label": "In the past month, how much did you receive from Civil service pension?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_10",
+      "label": "In the past month, how much did you receive from private employer?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_11",
+      "label": "In the past month, how much did you receive from Widow's pension?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_12",
+      "label": "In the past month, how much did you receive from Voluntary private pension?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_13",
+      "label": "In the past month, how much did you receive from Financial assistance (welfare g",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_14",
+      "label": "In the past month, how much did you receive from Alimony, child support?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_15",
+      "label": "In the past month, how much did you receive from Child support from your employe",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_16",
+      "label": "In the past month, how much did you receive from Money received from other relat",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_17a",
+      "label": "In the past month, how much did you receive from Money sent by relatives and fri",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_17b",
+      "label": "In the past month, how much did you receive from Money sent by relatives and fri",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_17c",
+      "label": "In the past month, how much did you receive from Money sent by relatives and fri",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_18",
+      "label": "Did you receive money from any of the following sources in the past 12 months? S",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_19",
+      "label": "Did you receive money from any of the following sources in the past 12 months? D",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_20",
+      "label": "Did you receive money from any of the following sources in the past 12 months? I",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_21",
+      "label": "Did you receive money from any of the following sources in the past 12 months? I",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_22",
+      "label": "Did you receive money from any of the following sources in the past 12 months? I",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_23",
+      "label": "Did you receive money from any of the following sources in the past 12 months? A",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_23c",
+      "label": "Now imagine that your household lost its main source of income. In this case, yo",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "1 to 3 days",
+        "2": "4 to 7 days",
+        "3": "2 weeks",
+        "4": "3 weeks to 1 month",
+        "5": "More than 1 month"
+      }
+    },
+    {
+      "name": "q10_27a",
+      "label": "Do you have a ?checking account?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_27b",
+      "label": "Do you have a ?saving account?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_28",
+      "label": "Do you currently participate in Meeting turns (i.e. Rotating savings and credit",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_29",
+      "label": "Have you ever participated in Meeting turns (i.e. Rotating savings and credit as",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_29a",
+      "label": "Have you applied for a personal loan in a formal financial institution in the pa",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_29b",
+      "label": "Have you been approved that/ those loan/s in the past 6 months? Include mortgage",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_29c",
+      "label": "What was the main reason for not applying for a personal loan in the past 6 mont",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Because I thought it would not be approved",
+        "2": "Did not need it",
+        "3": "Would not be able to pay back",
+        "4": "Other reason"
+      }
+    },
+    {
+      "name": "q10_30",
+      "label": "Have you ever applied for a personal loan in a formal financial institution? Inc",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_31",
+      "label": "Have you ever been approved for a personal loan in a formal financial institutio",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_32",
+      "label": "Are you currently repaying any personal loan? Include mortgages",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q10_33",
+      "label": "For how many SRD in total was/were the personal loan/s that you are currently re",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q10_34",
+      "label": "How many SRD do you need in total each month to repay on your personal loan/s?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_01",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Beer",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_02",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Breakfast",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_03",
+      "label": "How much did you spend in the past 7 days? Carbonated and non carbonated waters",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_04",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Coffe, tea",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_05",
+      "label": "How much did you spend in the past 7 days? Cola and other carbonated beverages",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_06",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Dinner",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_07",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Fruit juice",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_08",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Meat sausage, beere",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_09",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Ice cream",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_10",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Lunch",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_11",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Pizza",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_12",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Whisky, wine, rum, oth",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_13",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Other meals",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_13_ot",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Other specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_14",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Other meals 2",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_14_ot",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Other specify 2",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_15",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Cigarettes",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_16",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Cigars",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_17",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Smoking accesories",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_18",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Tobacco",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_19",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days?Diesel Oil",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_20",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Gasoline",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_21",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Lubricanting Oils",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_22",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Parking fees",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_23",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days?Other moving expenses",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_23_ot",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Other specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_24",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Bus fares",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_25",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? School bus",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_26",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Taxi fares",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_27",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Boat costs",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_28",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days?Books (not for studying",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_29",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Magazines",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_30",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Newspapers, journals a",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_31",
+      "label": "How much did you spend in the past 7 days? ticket to spectator sporting: footbal",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_32",
+      "label": "How much did you spend in the past 7 days? Other recreational and cultural activ",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_33",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Other",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_33_ot",
+      "label": "How much did you spend in [PROD_CODE] in the past 7 days? Other specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q11_02_34",
+      "label": "How much did you spend in the past 7 days? Cellphone prepaid card/ top up",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q22_01",
+      "label": "Cell Phone number",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q21_a1",
+      "label": "It is important that people of different ethnic groups live in my neighborhood R",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Strongly agree",
+        "2": "Agree",
+        "3": "Disagree",
+        "4": "Strongly disagree"
+      }
+    },
+    {
+      "name": "q21_a2",
+      "label": "It is important to send my kids to a school where children of different ethnic g",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Strongly agree",
+        "2": "Agree",
+        "3": "Disagree",
+        "4": "Strongly disagree"
+      }
+    },
+    {
+      "name": "q21_a3",
+      "label": "It is important for kids to have friends who are of different ethnic groups RO",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Strongly agree",
+        "2": "Agree",
+        "3": "Disagree",
+        "4": "Strongly disagree"
+      }
+    },
+    {
+      "name": "q21_a4",
+      "label": "Marriages between people of different ethnic groups is good for our society RO",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Strongly agree",
+        "2": "Agree",
+        "3": "Disagree",
+        "4": "Strongly disagree"
+      }
+    },
+    {
+      "name": "q21_a5",
+      "label": "Discrimination because people are from another ethnic group is a problem like an",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Strongly agree",
+        "2": "Agree",
+        "3": "Disagree",
+        "4": "Strongly disagree"
+      }
+    },
+    {
+      "name": "q21_a6",
+      "label": "All ethnic groups in Suriname are treated the same by the police RO",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Strongly agree",
+        "2": "Agree",
+        "3": "Disagree",
+        "4": "Strongly disagree"
+      }
+    },
+    {
+      "name": "q21_a7",
+      "label": "All ethnic groups in Suriname are treated the same by the government RO",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Strongly agree",
+        "2": "Agree",
+        "3": "Disagree",
+        "4": "Strongly disagree"
+      }
+    },
+    {
+      "name": "q21_a8",
+      "label": "It is important that people at home separate their waste into plastic waste, pap",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Strongly agree",
+        "2": "Agree",
+        "3": "Disagree",
+        "4": "Strongly disagree"
+      }
+    },
+    {
+      "name": "q21_a9",
+      "label": "It is easy to access the COVID-19 vaccine in Suriname.",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Strongly agree",
+        "2": "Agree",
+        "3": "Disagree",
+        "4": "Strongly disagree"
+      }
+    },
+    {
+      "name": "q21_a10",
+      "label": "It is important that all children physically attend school throughout the COVID-",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Strongly agree",
+        "2": "Agree",
+        "3": "Disagree",
+        "4": "Strongly disagree"
+      }
+    },
+    {
+      "name": "q21_b1",
+      "label": "How important or unimportant is it that people of different ethnic groups live i",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very important",
+        "2": "Important",
+        "3": "Unimportant",
+        "4": "Very unimportant"
+      }
+    },
+    {
+      "name": "q21_b2",
+      "label": "How important or unimportant is it for you to send your kids to a school where t",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very important",
+        "2": "Important",
+        "3": "Unimportant",
+        "4": "Very unimportant"
+      }
+    },
+    {
+      "name": "q21_b3",
+      "label": "How important or unimportant is it for kids to have friends who are of different",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very important",
+        "2": "Important",
+        "3": "Unimportant",
+        "4": "Very unimportant"
+      }
+    },
+    {
+      "name": "q21_b4",
+      "label": "Do you think, for your society, that marriages between people of different ethni",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very important",
+        "2": "Important",
+        "3": "Unimportant",
+        "4": "Very unimportant"
+      }
+    },
+    {
+      "name": "q21_b5",
+      "label": "How similar or different is discrimination based on ethnic groups the same or di",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very important",
+        "2": "Important",
+        "3": "Unimportant",
+        "4": "Very unimportant"
+      }
+    },
+    {
+      "name": "q21_b6",
+      "label": "How equally or unequally are people of different ethnic groups treated by the po",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very important",
+        "2": "Important",
+        "3": "Unimportant",
+        "4": "Very unimportant"
+      }
+    },
+    {
+      "name": "q21_b7",
+      "label": "How equally or unequally are people of different ethnic groups treated by the go",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very important",
+        "2": "Important",
+        "3": "Unimportant",
+        "4": "Very unimportant"
+      }
+    },
+    {
+      "name": "q21_b8",
+      "label": "How important or unimportant is it that people at home separate their waste into",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very important",
+        "2": "Important",
+        "3": "Unimportant",
+        "4": "Very unimportant"
+      }
+    },
+    {
+      "name": "q21_b9",
+      "label": "How easy or difficult is it to access the COVID-19 vaccine in Suriname?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very easy",
+        "2": "Easy",
+        "3": "Difficult",
+        "4": "Very difficult"
+      }
+    },
+    {
+      "name": "q21_b10",
+      "label": "How important or unimportant is it that all children physically attend school th",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Very important",
+        "2": "Important",
+        "3": "Unimportant",
+        "4": "Very unimportant"
+      }
+    },
+    {
+      "name": "weight2",
+      "label": "Sampling weight after droping households without consumption (final weight)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "weight3",
+      "label": "Weight2 *  HHsize",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "quintile",
+      "label": "Population quintile  (5 groups)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Q1",
+        "2": "Q2",
+        "3": "Q3",
+        "4": "Q4",
+        "5": "Q5"
+      }
+    },
+    {
+      "name": "decile",
+      "label": "Population decile (10 groups)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "D1",
+        "2": "D2",
+        "3": "D3",
+        "4": "D4",
+        "5": "D5",
+        "6": "D",
+        "7": "D7",
+        "8": "D8",
+        "9": "D9",
+        "10": "D10"
+      }
+    },
+    {
+      "name": "centile",
+      "label": "100 groups of equal # of persons order by consumption",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "cons_pc",
+      "label": "Consumption  agregate (PC/Month/June 2017 SRD)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "food_pc",
+      "label": "Food (All) (PC/Month/June 2017 SRD)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "nonfood_pc",
+      "label": "Non-food (All) (PC/Month/June 2017 SRD)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "line_extreme",
+      "label": "Extreme Poverty Line (2022)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "line_moderate",
+      "label": "Moderate Poverty Line (2022)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "poor_extreme",
+      "label": "Extreme Poor: consumption<extreme line",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Not extreme poor",
+        "1": "Extreme poor"
+      }
+    },
+    {
+      "name": "poor_all",
+      "label": "All poor:  consumption< moderate line",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Not poor",
+        "1": "Poor"
+      }
+    },
+    {
+      "name": "poor",
+      "label": "Extreme poor, non extreme poor and non poor",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Extreme poor",
+        "2": "Non-extreme poor",
+        "3": "Non poor"
+      }
+    },
+    {
+      "name": "year",
+      "label": "Survey year",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "cpi_june2017",
+      "label": "June 2017 CPI (April 2016 - June 2016=100)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "cpi_june2022",
+      "label": "June 2022 CPI (April 2016 - June 2016=100)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "cpi_2017_22",
+      "label": "June 2022 CPI/June 2017 CPI",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "lat_cen",
+      "label": "Latitude of the Cluster centroid",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "long_cen",
+      "label": "Longitude of the Cluster centroid",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "result",
+      "label": "Result",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Continue",
+        "1": "Interview finalized - Fully completed",
+        "2": "Interview finalized - Partially completed",
+        "3": "Not at home (Temporarily absent)",
+        "4": "Refusal",
+        "5": "Vacant dwelling",
+        "7": "Not a dwelling",
+        "8": "Not interviewed for other reasons",
+        "9": "Interview to be continued",
+        "10": "Appointment",
+        "11": "Household not found"
+      }
+    },
+    {
+      "name": "end_date_n",
+      "label": "",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "interv",
+      "label": "Interviewer code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "end_date",
+      "label": "Interview end date",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q17_02",
+      "label": "Do you or anyone in your household have access to the internet at home?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q17_03a",
+      "label": "What types of internet connections are used at home? Fixed broadband connections",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_03b",
+      "label": "What types of internet connections are used at home? Mobile connections",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "YES",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "q17_04",
+      "label": "What's the main reason why don't you have internet at home?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Device cost (cell phone, computer, tablet)",
+        "2": "Cost of internet service by cable or data plan",
+        "3": "Lack of knowledge or skills",
+        "4": "Have internet access in another place (work, public, kiosk)",
+        "5": "No coverage in my area",
+        "6": "I don't have interest / I don't need"
+      }
+    },
+    {
+      "name": "q12a",
+      "label": "Is there in this household anybody who grows crops or raises animals primarily",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q12_01a",
+      "label": "Total homestead land owned (Hectares)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q12_01b",
+      "label": "Total homestead land owned (M2)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q12_02a",
+      "label": "Total homestead land rented (Hectares)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q12_02b",
+      "label": "Total homestead land rented (M2)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q12_03a",
+      "label": "Total arable agricultural land owned (Hectares)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q12_03b",
+      "label": "Total arable agricultural land owned (M2)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q12_04a",
+      "label": "Total arable agricultural land rented/ share-cropped (Hectares)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q12_04b",
+      "label": "Total arable agricultural land rented/ share-cropped (M2)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q12_05",
+      "label": "Do you keep any kind of accounting records for your business?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes, detailed formal accounts for tax purposes (balance statements, purchase and",
+        "2": "Yes, simplified accounting process NOT for tax purposes",
+        "3": "Yes, just personal records (informal records)",
+        "4": "No, no type of accounting"
+      }
+    },
+    {
+      "name": "q13_01",
+      "label": "What type of dwelling is this?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "House",
+        "2": "Apartment",
+        "3": "Part of Commercial building",
+        "4": "Hut",
+        "5": "Other (specify)"
+      }
+    },
+    {
+      "name": "q13_01_ot",
+      "label": "What type of dwelling is this? OTHER",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_02",
+      "label": "Which of the following categories indicates your ownership of this dwelling?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Owned (with mortgage)",
+        "2": "Owned (without mortgage)",
+        "3": "Boedel (inheritance)",
+        "4": "Rented room in larger dweling",
+        "5": "Private rented/Leased",
+        "6": "Squatted",
+        "7": "Rent-free",
+        "8": "Other"
+      }
+    },
+    {
+      "name": "q13_03",
+      "label": "Which of the following categories indicates your ownership of the land...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Owned (with mortgage)",
+        "2": "Owned (without mortgage)",
+        "3": "Boedel (inheritance)",
+        "4": "Private rented/Leased",
+        "5": "Gov't rented/ Leased",
+        "6": "Squatted",
+        "7": "Rent-free",
+        "8": "Other"
+      }
+    },
+    {
+      "name": "q13_04",
+      "label": "In what year was the dwelling built approximately?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_05",
+      "label": "Have major renovations been undertaken to the dwelling since it was built?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "3": "Don't know (DO NOT READ)"
+      }
+    },
+    {
+      "name": "q13_06",
+      "label": "What kind of renovations?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_07",
+      "label": "In what year were the latest renovations done?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_08",
+      "label": "What is the main construction material of the outer  walls of the dweling?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Wood",
+        "2": "Wood and building stones/bricks",
+        "3": "Wood and concrete (boards)/cement boards",
+        "4": "Wood and galva/zinc plates",
+        "5": "Building stones",
+        "6": "Concrete/concrete boards",
+        "7": "PVC ail",
+        "8": "Zinc plates/galva",
+        "9": "Other"
+      }
+    },
+    {
+      "name": "q13_09",
+      "label": "How is the foundation of the dwelling constructed?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Fully enclosed masonry",
+        "2": "Pillars or columns",
+        "3": "Other"
+      }
+    },
+    {
+      "name": "q13_10",
+      "label": "What is the main material used for flooring the dwelling?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Masonry",
+        "2": "Wood",
+        "3": "Cement board",
+        "4": "Combination of any of the previous",
+        "5": "Tiles",
+        "6": "Other"
+      }
+    },
+    {
+      "name": "q13_11",
+      "label": "What is the main material used for roo  fing the dwelling?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Metal roofing sheets/roof tiles (zinc, galva, aluminum)",
+        "2": "Wooden roof tiles",
+        "3": "Concrete",
+        "4": "Tiles",
+        "5": "Asbestos",
+        "6": "Palm leaves (Pina, tasi, etc.)",
+        "7": "Other"
+      }
+    },
+    {
+      "name": "q13_12a",
+      "label": "Does this dweling have any of the following security devices? Security camera",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q13_12b",
+      "label": "Does this dweling have any of the following security devices? Security lighting",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q13_12c",
+      "label": "Does this dweling have any of the following security devices? Perimeter fencing",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q13_12d",
+      "label": "Does this dweling have any of the following security devices? Security bars on..",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q13_12e",
+      "label": "Does this dweling have any of the following security devices? Security bars on..",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q13_12f",
+      "label": "Does this dweling have any of the following security devices? House alarm",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q13_12g",
+      "label": "Does this dweling have any of the following security devices? Smoke detectors",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q13_13",
+      "label": "What type of fuel does this household use most for cooking?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Wood/charcoal",
+        "2": "Petroleum",
+        "3": "Electricity",
+        "4": "Gas (propane)",
+        "5": "Solar energy",
+        "6": "Biogas",
+        "7": "None (does not cook)",
+        "8": "Other"
+      }
+    },
+    {
+      "name": "q13_14",
+      "label": "What is the main type of toilet facilities used by this household?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "WC with flushing (linked to septic tank)",
+        "2": "WC not linked to septic tank",
+        "3": "Open well or hole in the ground",
+        "4": "River or creek",
+        "5": "Bush or field",
+        "6": "Other (specify)"
+      }
+    },
+    {
+      "name": "q13_14_ot",
+      "label": "What is the main type of toilet facilities used by this household? Other",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_15",
+      "label": "What is the main source of water supply used by this household?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Piped water in dwelling",
+        "2": "Piped water outside the dwelling =<200m",
+        "3": "Piped water outside the dwelling > 200m",
+        "4": "Rainwater in ton, bin/tank",
+        "5": "Well",
+        "6": "Creek/river",
+        "7": "Delivered by watertank/truck",
+        "8": "Other"
+      }
+    },
+    {
+      "name": "q13_16",
+      "label": "Who is the water delivered by?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "SWM",
+        "2": "NH",
+        "3": "Private company",
+        "4": "Other"
+      }
+    },
+    {
+      "name": "q13_17",
+      "label": "What is the main type of lighting used by this household?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Electricity directly from EBS",
+        "2": "Generator/ fuel from the government (NH)",
+        "3": "Electricity through the neighbor's dwelling",
+        "4": "Private light engine",
+        "5": "Petroleum light/candle/dia",
+        "6": "Solar energy",
+        "7": "No type of lighting",
+        "8": "Other"
+      }
+    },
+    {
+      "name": "q13_18",
+      "label": "How many rooms does the dwelling contain? Include bedrooms, living-room, dining-",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_19",
+      "label": "How many of the rooms in the dwelling are used solely by this household?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_20",
+      "label": "How many of the rooms in the dwelling are used solely as bedrooms for members...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_21",
+      "label": "How many of the rooms in the dwelling are rented or sublet to people who are not",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_22",
+      "label": "How many of the rooms in the dwelling are vacant?",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23a",
+      "label": "Indicate how many of the following items are owned by this household? Stove",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23b",
+      "label": "Indicate how many of the following items are owned by this household? Cook ring",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23c",
+      "label": "Indicate how many of the following items are owned by this household? Water tank",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23d",
+      "label": "Indicate how many of the following items are owned by this household? Solar wate",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23e",
+      "label": "Indicate how many of the following items are owned by this household? Cable TV",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23f",
+      "label": "Indicate how many of the following items are owned by this household? Fixed line",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23h",
+      "label": "Indicate how many of the following items are owned by this household?  Game cons",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23i",
+      "label": "Indicate how many of the following items are owned by this household? Automobile",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23j",
+      "label": "Indicate how many of the following items are owned by this household? Smartphone",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23k",
+      "label": "Indicate how many of the following items are owned by this household? Cell phone",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23l",
+      "label": "Indicate how many of the following items are owned by this household? Smart TV",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23m",
+      "label": "Indicate how many of the following items are owned by this household? TV set",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_23n",
+      "label": "Indicate how many of the following items are owned by this household? Generator",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "q13_24",
+      "label": "In the event of a severe flood or hurricane, where would this household go...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "This dweling",
+        "2": "Relatives",
+        "3": "Friends",
+        "4": "School",
+        "5": "Other"
+      }
+    },
+    {
+      "name": "q19_01a",
+      "label": "In the last 12 MONTHS, your household's worried about not having enough food...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "99": "Don?t Know / Refused (DO NOT READ)"
+      }
+    },
+    {
+      "name": "q19_01b",
+      "label": "In the last 12 MONTHS,your household's unable to eat healthy and nutricious food",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "99": "Don?t Know / Refused (DO NOT READ)"
+      }
+    },
+    {
+      "name": "q19_01c",
+      "label": "In the last 12 MONTHS, your household ate only a few kinds of foods...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "99": "Don?t Know / Refused (DO NOT READ)"
+      }
+    },
+    {
+      "name": "q19_01d",
+      "label": "In the last 12 MONTHS, your householdhad to skip a meal bc there was no money...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "99": "Don?t Know / Refused (DO NOT READ)"
+      }
+    },
+    {
+      "name": "q19_01e",
+      "label": "In the last 12 MONTHS, your household ate less than you thought you should...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "99": "Don?t Know / Refused (DO NOT READ)"
+      }
+    },
+    {
+      "name": "q19_01f",
+      "label": "In the last 12 MONTHS, your household ran out of food because of a lack of money",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "99": "Don?t Know / Refused (DO NOT READ)"
+      }
+    },
+    {
+      "name": "q19_01g",
+      "label": "In the last 12 MONTHS, your household were hungry but did not eat...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "99": "Don?t Know / Refused (DO NOT READ)"
+      }
+    },
+    {
+      "name": "q19_01h",
+      "label": "In the last 12 MONTHS, your household went without eating for a whole day...",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "99": "Don?t Know / Refused (DO NOT READ)"
+      }
+    },
+    {
+      "name": "q20_01_2001a",
+      "label": "Unusually harsh drought",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q20_01_2001b",
+      "label": "Floods",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q20_01_2001c",
+      "label": "Hurricane",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q20_01_2001d",
+      "label": "Economic/financial shock (loss or reduction of income/high input or food prices/",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q20_01_2001e",
+      "label": "Health shocks (death or illness of a household member)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q20_01_2001f",
+      "label": "Conflict/violence shocks",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q20_01_2001g",
+      "label": "Theft of Money/ Valuables /Non-Agricultural Assets",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q20_01_2001h",
+      "label": "Fire",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "name": "q20_01_2001i",
+      "label": "Other (Specify)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "702 variables extracted from .dta metadata using pyreadstat",
+    "Source: Z:\\survey\\SUR\\SLC\\2022\\a\\data_merge\\SUR_2022a.dta"
+  ]
+}

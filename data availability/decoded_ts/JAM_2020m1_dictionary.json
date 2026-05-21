@@ -1,0 +1,1976 @@
+{
+  "iso3": "JAM",
+  "survey": "LFS",
+  "period": "m1",
+  "year": 2020,
+  "source_files": [
+    "JAM_2020m1.dta (variable metadata — no microdata loaded)"
+  ],
+  "doc_type": "DTA_METADATA",
+  "tables": [],
+  "variables": [
+    {
+      "name": "ID",
+      "label": "Identifiction number",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "URCODE",
+      "label": "Urban / Rural code",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "KMA",
+        "2": "URBAN",
+        "3": "RURAL"
+      }
+    },
+    {
+      "name": "RELAT",
+      "label": "Relationship to head of household",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "head",
+        "2": "spouse",
+        "3": "child",
+        "4": "child's spouse",
+        "5": "grandchild",
+        "6": "parent hd/sp",
+        "7": "other relative",
+        "8": "helper",
+        "9": "other"
+      }
+    },
+    {
+      "name": "SEX",
+      "label": "Gender",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "male",
+        "2": "female"
+      }
+    },
+    {
+      "name": "AGE",
+      "label": "Age of respondent (last birthday)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q21",
+      "label": "Any work during the week ending",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q21A",
+      "label": "What were you doing most of the time during the week ending",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "working",
+        "2": "with job not working",
+        "3": "looking for work",
+        "4": "at home",
+        "5": "at school f/time",
+        "6": "incapable of working",
+        "7": "other"
+      }
+    },
+    {
+      "name": "Q21B",
+      "label": "Do anything like farming, buying and selling, odd jobs or husting",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q22",
+      "label": "Do any forms of work for others",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q23",
+      "label": "Have a job or business from which you were temporarily absent",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q24",
+      "label": "Wished to work at any time during the last 6 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q25",
+      "label": "What would prevent you from taking a job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "nothing would accept",
+        "2": "awaiting promise job",
+        "3": "pregnancy",
+        "4": "stay with children",
+        "5": "home duties",
+        "6": "does not need job",
+        "7": "illness",
+        "8": "at school",
+        "9": "other"
+      }
+    },
+    {
+      "name": "Q25OTH",
+      "label": "Other, specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q31",
+      "label": "Why you were temporarily absent",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "illness",
+        "2": "vacation",
+        "3": "bad weather",
+        "4": "labour dispute",
+        "5": "temp lay off",
+        "6": "maternity/paternity leave",
+        "7": "other"
+      }
+    },
+    {
+      "name": "Q31OTH",
+      "label": "Other, specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q32",
+      "label": "Work regularly at least 5 days every 2 weeks",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q33",
+      "label": "Usual hours of work per week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q34",
+      "label": "Why do you usually work 34hrs or less a week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "only part time available",
+        "2": "illness",
+        "3": "do/does not want to work more hrs.",
+        "4": "have to care for children",
+        "5": "temp lay off",
+        "6": "attending school",
+        "9": "other"
+      }
+    },
+    {
+      "name": "Q34OTH",
+      "label": "Other, specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q35",
+      "label": "Actual hours of work per week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q36",
+      "label": "Why did you work 34hrs or less last week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "started new job",
+        "2": "job termination",
+        "3": "only p/time work available",
+        "4": "illness",
+        "5": "did not want to work more hrs.",
+        "6": "labour dispute",
+        "7": "holidays/vacation",
+        "8": "bad weather",
+        "9": "attending school",
+        "98": "other"
+      }
+    },
+    {
+      "name": "Q36OTH",
+      "label": "Other, specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q36A",
+      "label": "Seek an additional or new job during week ending",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "no",
+        "2": "more hrs. at present job",
+        "3": "other job in addition to present one",
+        "4": "other job to replace present one",
+        "5": "other"
+      }
+    },
+    {
+      "name": "Q36AOTH",
+      "label": "Other, specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q36B",
+      "label": "When was the last time that you looked for additional job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "less than 1 week",
+        "2": "1 week but less than 1 month",
+        "3": "1 month but less than 3 months",
+        "4": "3 months but less than 6 months",
+        "5": "6 months but less than 9 months",
+        "6": "9 months but less than 12 months",
+        "7": "12 months and over",
+        "8": "never looked for additional work",
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q37",
+      "label": "Number of economic activities carried out during week ending",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q38M_occupation",
+      "label": "Main type of work",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Professionals, Senior Officials and Technicians",
+        "2": "Clerks",
+        "3": "Service Workers and Shop and Market Sales Workers",
+        "4": "Skilled Agricultural and Fishery Workers",
+        "5": "Craft and Related Trades Workers",
+        "6": "Plant and Machine Operators and Assemblers",
+        "7": "Elementary Occupations",
+        "8": "Occupation not specified"
+      }
+    },
+    {
+      "name": "Q38S_occupation",
+      "label": "Second type of work (2nd job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Professionals, Senior Officials and Technicians",
+        "2": "Clerks",
+        "3": "Service Workers and Shop and Market Sales Workers",
+        "4": "Skilled Agricultural and Fishery Workers",
+        "5": "Craft and Related Trades Workers",
+        "6": "Plant and Machine Operators and Assemblers",
+        "7": "Elementary Occupations",
+        "8": "Occupation not specified"
+      }
+    },
+    {
+      "name": "Q39M_industry",
+      "label": "JSIC (Main job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Hunting, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Hotels & Restaurants Services",
+        "8": "Transport, Storage and Communication",
+        "9": "Financial Intermediation",
+        "10": "Real Estate, Renting & Business Activities",
+        "11": "Public Administration & Defence; Compulsory Social Security",
+        "12": "Education",
+        "13": "Health & Social Work",
+        "14": "Other Community, Social and Personal Service Activities",
+        "15": "Private Households with Employed Persons",
+        "16": "Industry Not Specified (Incl. Extra Terr. Org. & Bodies)"
+      }
+    },
+    {
+      "name": "Q39S_industry",
+      "label": "JSIC (Second job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Hunting, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Hotels & Restaurants Services",
+        "8": "Transport, Storage and Communication",
+        "9": "Financial Intermediation",
+        "10": "Real Estate, Renting & Business Activities",
+        "11": "Public Administration & Defence; Compulsory Social Security",
+        "12": "Education",
+        "13": "Health & Social Work",
+        "14": "Other Community, Social and Personal Service Activities",
+        "15": "Private Households with Employed Persons",
+        "16": "Industry Not Specified (Incl. Extra Terr. Org. & Bodies)"
+      }
+    },
+    {
+      "name": "Q310",
+      "label": "How many months did you work over the last 12 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "< 1 month",
+        "2": "1 month but < 3 months",
+        "3": "3 months but < 6 months",
+        "4": "6 months but < 9 months",
+        "5": "9 months but < 12 months",
+        "6": "12 months",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q311",
+      "label": "For how long have you beeen working in your current job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "< 3 months",
+        "2": "3 months but < 6 months",
+        "3": "6 months but < 9 months",
+        "4": "9 months but < 12 months",
+        "5": "1 year but < 2 years",
+        "6": "2 years but < 5 years",
+        "7": "5 or more yrs",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q312",
+      "label": "Over the last 5 years, ever workers in any other job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q313_occupation",
+      "label": "What kind of work (other job over the last 5 years)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Professionals, Senior Officials and Technicians",
+        "2": "Clerks",
+        "3": "Service Workers and Shop and Market Sales Workers",
+        "4": "Skilled Agricultural and Fishery Workers",
+        "5": "Craft and Related Trades Workers",
+        "6": "Plant and Machine Operators and Assemblers",
+        "7": "Elementary Occupations",
+        "8": "Occupation not specified"
+      }
+    },
+    {
+      "name": "Q314_industry",
+      "label": "What kind of industry (other job over the last 5 years)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Hunting, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Hotels & Restaurants Services",
+        "8": "Transport, Storage and Communication",
+        "9": "Financial Intermediation",
+        "10": "Real Estate, Renting & Business Activities",
+        "11": "Public Administration & Defence; Compulsory Social Security",
+        "12": "Education",
+        "13": "Health & Social Work",
+        "14": "Other Community, Social and Personal Service Activities",
+        "15": "Private Households with Employed Persons",
+        "16": "Industry Not Specified (Incl. Extra Terr. Org. & Bodies)"
+      }
+    },
+    {
+      "name": "Q315M",
+      "label": "When did you change job (Month - Main Job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q315Y",
+      "label": "When did you change job (Year - Main Job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q316",
+      "label": "Why did you change job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "made redundant",
+        "1": "job completed",
+        "2": "resigned - personal reason",
+        "3": "resigned - job conditions",
+        "4": "lost job - dismissed",
+        "5": "laid-off",
+        "6": "business failed",
+        "7": "retired",
+        "8": "move to a new area",
+        "9": "other"
+      }
+    },
+    {
+      "name": "Q316OTH",
+      "label": "Other, specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q317",
+      "label": "Did you receive special training for your current job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q317A",
+      "label": "Any training from HEART/ NTA",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q318",
+      "label": "Type of training receive",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "vocational without certificate",
+        "2": "vocational with certificate",
+        "3": "prof/tech without certificate",
+        "4": "prof/tech with certificate",
+        "5": "apprenticeship",
+        "6": "on the job",
+        "7": "learnt from more experienced person",
+        "8": "none",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q319_occupation",
+      "label": "For what what occupation",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Professionals, Senior Officials and Technicians",
+        "2": "Clerks",
+        "3": "Service Workers and Shop and Market Sales Workers",
+        "4": "Skilled Agricultural and Fishery Workers",
+        "5": "Craft and Related Trades Workers",
+        "6": "Plant and Machine Operators and Assemblers",
+        "7": "Elementary Occupations",
+        "8": "Occupation not specified"
+      }
+    },
+    {
+      "name": "Q319A",
+      "label": "What year were you training",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q320",
+      "label": "How many year of primary / elementary education",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "none",
+        "2": "1 year",
+        "3": "2 years",
+        "4": "3 years",
+        "5": "4 years",
+        "6": "5 years",
+        "7": "6 years & over",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q320A",
+      "label": "Grade attained",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q321",
+      "label": "How many years of secondary education",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "none",
+        "2": "1 year",
+        "3": "2 years",
+        "4": "3 years",
+        "5": "4 years",
+        "6": "5 years",
+        "7": "6 years",
+        "8": "7 years & over",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q321A",
+      "label": "Grade attained (secondary education)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q322",
+      "label": "Highest examination passed",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "none",
+        "2": "CXC basic, JSC 5 SSC, 3rd JL",
+        "3": "CXC Gen, GCE 'O' 1-2",
+        "4": "CXC Gen, GCE 'O' 3-4",
+        "5": "CXC Gen, GCE 'O' 5+",
+        "6": "GCE 'A' 1-2/, CAPE 1-2",
+        "7": "CAPE/GCE 'A' 3+",
+        "8": "Degree",
+        "9": "other",
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q323",
+      "label": "Employment status (main job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "central/local govt. employee",
+        "2": "other govt agencies employee",
+        "3": "private sector employee",
+        "4": "unpaid family worker",
+        "5": "employer",
+        "6": "own account worker",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q323A",
+      "label": "Where do you mainly carry out this work",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "At family dwelling",
+        "2": "Plantation, farm, garden",
+        "3": "Employer's House",
+        "4": "Industry/Factory/Office",
+        "5": "Construction site",
+        "6": "On the street (fixed loc)",
+        "7": "On the street ( no fixed loc)",
+        "8": "Shop, Store",
+        "9": "Market, Stall",
+        "10": "Other",
+        "99": "D/Know, Not stated"
+      }
+    },
+    {
+      "name": "Q323AOTH",
+      "label": "Other location, specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q324",
+      "label": "Number of persons including yourself",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "1 Person",
+        "2": "2-4 Persons",
+        "3": "5-9 Persons",
+        "4": "10-49 Persons",
+        "5": "50+",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "Q41",
+      "label": "How long have you been available for work",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "< 1week",
+        "2": "1 week but < 1 month",
+        "3": "1 month but < 3 months",
+        "4": "3 months but < 6 months",
+        "5": "6 months but < 9 months",
+        "6": "9 months but < 12 months",
+        "7": "12 months but < 2 years",
+        "8": "2 years and over",
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q42",
+      "label": "Most important effort made to get a job/ start a business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "applied in writing",
+        "2": "applied in person",
+        "3": "registered at employment bureau",
+        "4": "ad. on radio/newspaper",
+        "5": "asked friends",
+        "6": "trried to start business",
+        "7": "other",
+        "8": "none",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q42OTH",
+      "label": "Other effort made, specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q43",
+      "label": "When was the last time you tried to get a job/ start a business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "< 1week",
+        "2": "1 week but < 1 month",
+        "3": "1 month but < 3 months",
+        "4": "3 months but < 6 months",
+        "5": "6 months but < 9 months",
+        "6": "9 months but < 12 months",
+        "7": "12 months but < 2 years",
+        "8": "2 years and over",
+        "9": "have/has not tried",
+        "10": "other",
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q43OTH",
+      "label": "Other specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q44",
+      "label": "Why did you not look for work for 6 months or more",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "pregnancy",
+        "1": "no work available",
+        "2": "cannot find suitable job",
+        "3": "awaiting recall to job",
+        "4": "tired of looking",
+        "5": "needed at home",
+        "6": "awiting replies to applications",
+        "7": "illness",
+        "8": "awaiting agricultural season",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q45",
+      "label": "Have you ever worked",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q46M",
+      "label": "When did you stop working (Month)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q46Y",
+      "label": "When did you stop working (Year)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q47",
+      "label": "How long did that job last",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "< 1 month",
+        "2": "1 month but < 3 months",
+        "3": "3 months but < 6 months",
+        "4": "6 months but < 12 months",
+        "5": "1yr to 3 yrs",
+        "6": "3yrs and over",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q48",
+      "label": "Was the job a regular one",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "regular",
+        "2": "not regular",
+        "9": "NOT STATED"
+      }
+    },
+    {
+      "name": "Q49",
+      "label": "Why did you stop working",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "made redundant",
+        "1": "job completed",
+        "2": "resigned - personal reasons",
+        "3": "resigned - job conditions",
+        "4": "lost job - dismissed",
+        "5": "laid off",
+        "6": "business failed",
+        "7": "retired",
+        "8": "moved new area",
+        "9": "other"
+      }
+    },
+    {
+      "name": "Q49OTH",
+      "label": "Other, specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q410",
+      "label": "How many hours did you work per week (in the last job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "< 35 hrs",
+        "2": "35 hrs & over"
+      }
+    },
+    {
+      "name": "Q410A",
+      "label": "Number of hours worked (in the last job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q411",
+      "label": "How many hours would you like to work in the next job (Next job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "reg with more hours",
+        "2": "reg with same hours",
+        "3": "reg with less hours"
+      }
+    },
+    {
+      "name": "Q411A",
+      "label": "Wished number of hours (next job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q412_occupation",
+      "label": "Occupation you would like (next job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Professionals, Senior Officials and Technicians",
+        "2": "Clerks",
+        "3": "Service Workers and Shop and Market Sales Workers",
+        "4": "Skilled Agricultural and Fishery Workers",
+        "5": "Craft and Related Trades Workers",
+        "6": "Plant and Machine Operators and Assemblers",
+        "7": "Elementary Occupations",
+        "8": "Occupation not specified"
+      }
+    },
+    {
+      "name": "Q413_industry",
+      "label": "What industry you would like (next job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Hunting, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Hotels & Restaurants Services",
+        "8": "Transport, Storage and Communication",
+        "9": "Financial Intermediation",
+        "10": "Real Estate, Renting & Business Activities",
+        "11": "Public Administration & Defence; Compulsory Social Security",
+        "12": "Education",
+        "13": "Health & Social Work",
+        "14": "Other Community, Social and Personal Service Activities",
+        "15": "Private Households with Employed Persons",
+        "16": "Industry Not Specified (Incl. Extra Terr. Org. & Bodies)"
+      }
+    },
+    {
+      "name": "Q414",
+      "label": "Present means of support",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "overseas remittance"
+      }
+    },
+    {
+      "name": "Q414B",
+      "label": "Present means of support",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "2": "parent/guardian",
+        "3": "spouse/partner",
+        "4": "other relative",
+        "5": "friend",
+        "6": "savings",
+        "8": "other",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q414BOTH",
+      "label": "Other means of support, specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q415",
+      "label": "How long did you work during the last 12 months",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "never worked",
+        "2": "none",
+        "3": "< 1 mth",
+        "4": "1 month but < 3 months",
+        "5": "3 months but < 6 months",
+        "6": "6 months but < 9 months",
+        "7": "9 months but < 12 months",
+        "8": "12 mths",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q416_occupation",
+      "label": "What kind of work (in last job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Professionals, Senior Officials and Technicians",
+        "2": "Clerks",
+        "3": "Service Workers and Shop and Market Sales Workers",
+        "4": "Skilled Agricultural and Fishery Workers",
+        "5": "Craft and Related Trades Workers",
+        "6": "Plant and Machine Operators and Assemblers",
+        "7": "Elementary Occupations",
+        "8": "Occupation not specified"
+      }
+    },
+    {
+      "name": "Q417_industry",
+      "label": "What kind of industry (last job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Hunting, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Hotels & Restaurants Services",
+        "8": "Transport, Storage and Communication",
+        "9": "Financial Intermediation",
+        "10": "Real Estate, Renting & Business Activities",
+        "11": "Public Administration & Defence; Compulsory Social Security",
+        "12": "Education",
+        "13": "Health & Social Work",
+        "14": "Other Community, Social and Personal Service Activities",
+        "15": "Private Households with Employed Persons",
+        "16": "Industry Not Specified (Incl. Extra Terr. Org. & Bodies)"
+      }
+    },
+    {
+      "name": "Q418",
+      "label": "Did you receive special training for that last job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q418A",
+      "label": "Did you receive HEART/ NTA (in the last job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q419",
+      "label": "What type of training (in the last job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "vocational without certificate",
+        "2": "vocational with certificate",
+        "3": "prof/tech without certificate",
+        "4": "prof/tech with certificate",
+        "5": "apprenticeship",
+        "6": "on the job",
+        "7": "learnt from more experienced person",
+        "8": "none",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q420_occupation",
+      "label": "For what occupation were you trained (in the last job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Professionals, Senior Officials and Technicians",
+        "2": "Clerks",
+        "3": "Service Workers and Shop and Market Sales Workers",
+        "4": "Skilled Agricultural and Fishery Workers",
+        "5": "Craft and Related Trades Workers",
+        "6": "Plant and Machine Operators and Assemblers",
+        "7": "Elementary Occupations",
+        "8": "Occupation not specified"
+      }
+    },
+    {
+      "name": "Q420A",
+      "label": "In what year were you trained (in the last job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q421",
+      "label": "How many year of primary/ elementary school  (unemployed)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "none",
+        "2": "1 year",
+        "3": "2 years",
+        "4": "3 years",
+        "5": "4 years",
+        "6": "5 years",
+        "7": "6 yrs & over",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q421A",
+      "label": "What grade (primary/ elementary)  (unemployed)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q422",
+      "label": "How many years of secondary education  (unemployed)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "none",
+        "2": "1 year",
+        "3": "2 years",
+        "4": "3 years",
+        "5": "4 years",
+        "6": "5 years",
+        "7": "6 years",
+        "8": "7 years & over",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q422A",
+      "label": "Grade of secondary education (unemployed)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q423",
+      "label": "Highest examination passed (unemployed)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "none",
+        "2": "CXC basic, JSC 5 SSC, 3rd JL",
+        "3": "CXC Gen, GCE 'O' 1-2",
+        "4": "CXC Gen, GCE 'O' 3-4",
+        "5": "CXC Gen, GCE 'O' 5+",
+        "6": "GCE 'A' 1-2/, CAPE 1-2",
+        "7": "CAPE/GCE 'A' 3+",
+        "8": "Degree",
+        "9": "other",
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q424",
+      "label": "Employment status in last job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "central/local govt. employee",
+        "2": "other govt agencies employee",
+        "3": "private sector employee",
+        "4": "unpaid family worker",
+        "5": "employer",
+        "6": "own account worker",
+        "7": "never worked",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q424A",
+      "label": "Where do you mainly carry out your job (last job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "At family dwelling",
+        "2": "Plantation, farm, garden",
+        "3": "Employer's House",
+        "4": "Industry/Factory/Office",
+        "5": "Construction site",
+        "6": "On the street (fixed loc)",
+        "7": "On the street ( no fixed loc)",
+        "8": "Shop, Store",
+        "9": "Market, Stall",
+        "10": "Other",
+        "99": "D/Know, Not stated"
+      }
+    },
+    {
+      "name": "Q424AOTH",
+      "label": "Other location (last job), specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q51",
+      "label": "Were you involved in any income earning activities last week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q51A",
+      "label": "How many hours",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q51B_occupation",
+      "label": "What was the main type of work (section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Professionals, Senior Officials and Technicians",
+        "2": "Clerks",
+        "3": "Service Workers and Shop and Market Sales Workers",
+        "4": "Skilled Agricultural and Fishery Workers",
+        "5": "Craft and Related Trades Workers",
+        "6": "Plant and Machine Operators and Assemblers",
+        "7": "Elementary Occupations",
+        "8": "Occupation not specified"
+      }
+    },
+    {
+      "name": "Q51C_industry",
+      "label": "What was the main type of industry (section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Hunting, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Hotels & Restaurants Services",
+        "8": "Transport, Storage and Communication",
+        "9": "Financial Intermediation",
+        "10": "Real Estate, Renting & Business Activities",
+        "11": "Public Administration & Defence; Compulsory Social Security",
+        "12": "Education",
+        "13": "Health & Social Work",
+        "14": "Other Community, Social and Personal Service Activities",
+        "15": "Private Households with Employed Persons",
+        "16": "Industry Not Specified (Incl. Extra Terr. Org. & Bodies)"
+      }
+    },
+    {
+      "name": "Q52",
+      "label": "Have you ever worked (section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q52A_occupation",
+      "label": "What was the main type of work (ever worked, section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Professionals, Senior Officials and Technicians",
+        "2": "Clerks",
+        "3": "Service Workers and Shop and Market Sales Workers",
+        "4": "Skilled Agricultural and Fishery Workers",
+        "5": "Craft and Related Trades Workers",
+        "6": "Plant and Machine Operators and Assemblers",
+        "7": "Elementary Occupations",
+        "8": "Occupation not specified"
+      }
+    },
+    {
+      "name": "Q53_industry",
+      "label": "What was the main type of industry (ever worked, section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Hunting, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Hotels & Restaurants Services",
+        "8": "Transport, Storage and Communication",
+        "9": "Financial Intermediation",
+        "10": "Real Estate, Renting & Business Activities",
+        "11": "Public Administration & Defence; Compulsory Social Security",
+        "12": "Education",
+        "13": "Health & Social Work",
+        "14": "Other Community, Social and Personal Service Activities",
+        "15": "Private Households with Employed Persons",
+        "16": "Industry Not Specified (Incl. Extra Terr. Org. & Bodies)"
+      }
+    },
+    {
+      "name": "Q54M",
+      "label": "When did you stop working (Month, section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q54Y",
+      "label": "When did you stop working (Year, section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q55",
+      "label": "Why did you stop working (section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "made redundant",
+        "1": "job completed",
+        "2": "resigned - personal reasons",
+        "3": "resigned - job conditions",
+        "4": "lost job - dismissed",
+        "5": "laid off",
+        "6": "business failed",
+        "7": "retired",
+        "8": "moved new area",
+        "9": "other"
+      }
+    },
+    {
+      "name": "Q55OTH",
+      "label": "Other, specify",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q56",
+      "label": "Will you be seeking in the next 12 months (section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no",
+        "3": "don't know"
+      }
+    },
+    {
+      "name": "Q57",
+      "label": "For how many hours per week would you want to work",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q58_occupation",
+      "label": "For what occupation would you like to work (section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Professionals, Senior Officials and Technicians",
+        "2": "Clerks",
+        "3": "Service Workers and Shop and Market Sales Workers",
+        "4": "Skilled Agricultural and Fishery Workers",
+        "5": "Craft and Related Trades Workers",
+        "6": "Plant and Machine Operators and Assemblers",
+        "7": "Elementary Occupations",
+        "8": "Occupation not specified"
+      }
+    },
+    {
+      "name": "Q59_industry",
+      "label": "For what industry would you like to work (section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Hunting, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Hotels & Restaurants Services",
+        "8": "Transport, Storage and Communication",
+        "9": "Financial Intermediation",
+        "10": "Real Estate, Renting & Business Activities",
+        "11": "Public Administration & Defence; Compulsory Social Security",
+        "12": "Education",
+        "13": "Health & Social Work",
+        "14": "Other Community, Social and Personal Service Activities",
+        "15": "Private Households with Employed Persons",
+        "16": "Industry Not Specified (Incl. Extra Terr. Org. & Bodies)"
+      }
+    },
+    {
+      "name": "Q510",
+      "label": "What is your present means of support (section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "overseas remittance"
+      }
+    },
+    {
+      "name": "Q510B",
+      "label": "What is your present means of support (section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "2": "parent/guardian",
+        "3": "spouse/partner",
+        "4": "other relative",
+        "5": "friend",
+        "6": "savings",
+        "8": "other",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q510BOTH",
+      "label": "What is your present means of support (section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q511",
+      "label": "Did you receive special training for your last job (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q511A",
+      "label": "Did you receive any training from HEART/ NTA for your last job (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "yes",
+        "2": "no"
+      }
+    },
+    {
+      "name": "Q512",
+      "label": "Type of training received for your last job (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "vocational without certificate",
+        "2": "vocational with certificate",
+        "3": "prof/tech without certificate",
+        "4": "prof/tech with certificate",
+        "5": "apprenticeship",
+        "6": "on the job",
+        "7": "learnt from more experienced person",
+        "8": "none",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q513_occupation",
+      "label": "For what occupation were you trained for your last job (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Professionals, Senior Officials and Technicians",
+        "2": "Clerks",
+        "3": "Service Workers and Shop and Market Sales Workers",
+        "4": "Skilled Agricultural and Fishery Workers",
+        "5": "Craft and Related Trades Workers",
+        "6": "Plant and Machine Operators and Assemblers",
+        "7": "Elementary Occupations",
+        "8": "Occupation not specified"
+      }
+    },
+    {
+      "name": "Q513A",
+      "label": "In what year were you trained for your last job (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q514",
+      "label": "How many years of primary/ elementary education (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "none",
+        "2": "1 year",
+        "3": "2 years",
+        "4": "3 years",
+        "5": "4 years",
+        "6": "5 years",
+        "7": "6 yrs & over",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q514A",
+      "label": "What grade for primary/ elementary education (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q515",
+      "label": "How many years of secondary education (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "none",
+        "2": "1 year",
+        "3": "2 years",
+        "4": "3 years",
+        "5": "4 years",
+        "6": "5 years",
+        "7": "6 years",
+        "8": "7 years & over",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q515A",
+      "label": "What grade for secondary education (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q516",
+      "label": "Higest examination passed (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "none",
+        "2": "CXC basic, JSC 5 SSC, 3rd JL",
+        "3": "CXC Gen, GCE 'O' 1-2",
+        "4": "CXC Gen, GCE 'O' 3-4",
+        "5": "CXC Gen, GCE 'O' 5+",
+        "6": "GCE 'A' 1-2/, CAPE 1-2",
+        "7": "CAPE/GCE 'A' 3+",
+        "8": "Degree",
+        "9": "other",
+        "99": "not stated"
+      }
+    },
+    {
+      "name": "Q517",
+      "label": "Employment status in the last job (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "central/local govt. employee",
+        "2": "other govt agencies employee",
+        "3": "private sector employee",
+        "4": "unpaid family worker",
+        "5": "employer",
+        "6": "own account worker",
+        "7": "never worked",
+        "9": "not stated"
+      }
+    },
+    {
+      "name": "Q517A",
+      "label": "Place of work in the last job (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "At family dwelling",
+        "2": "Plantation, farm, garden",
+        "3": "Employer's House",
+        "4": "Industry/Factory/Office",
+        "5": "Construction site",
+        "6": "On the street (fixed loc)",
+        "7": "On the street ( no fixed loc)",
+        "8": "Shop, Store",
+        "9": "Market, Stall",
+        "10": "Other",
+        "99": "D/Know, Not stated"
+      }
+    },
+    {
+      "name": "Q517AOTH",
+      "label": "Other place of work in the last job (Section 5)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Q61",
+      "label": "Employed on the basis of a contract or agreement",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes, written contract",
+        "2": "Yes, verbal agreement",
+        "9": "Refusal of informal sector quest."
+      }
+    },
+    {
+      "name": "Q62",
+      "label": "Is your contract or agreement of limited duration",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No (Permanent without time limit)"
+      }
+    },
+    {
+      "name": "Q63",
+      "label": "Duration of your contract/ agreement",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Daily",
+        "2": "Less than 1 month",
+        "3": "1 to less than 3 months",
+        "4": "3 to less than 6 months",
+        "5": "6 to less than 12 months",
+        "6": "12 months or more",
+        "9": "Don't know, Not Stated"
+      }
+    },
+    {
+      "name": "Q64",
+      "label": "How long has your current employment been based on a fixed term contract",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Less than 6 months",
+        "2": "6 months to less than 1 yr",
+        "3": "1 yr to less than 2 yrs",
+        "4": "2 yrs to less than 3 yrs",
+        "5": "3 yrs or longer"
+      }
+    },
+    {
+      "name": "Q65",
+      "label": "Does your employer deduct contributions for the NIS",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "Not sure",
+        "3": "No",
+        "4": "I don't know (Proxy only)"
+      }
+    },
+    {
+      "name": "Q66",
+      "label": "Do you receive or are you entitled to employment related insurance benefits from",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "Not sure",
+        "3": "No",
+        "4": "I don't know (Proxy only)"
+      }
+    },
+    {
+      "name": "Q67A",
+      "label": "Do you benefit from paid annual leave",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "3": "I don't know"
+      }
+    },
+    {
+      "name": "Q67B",
+      "label": "Do you benefit from compensation for unused leave",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "3": "I don't know"
+      }
+    },
+    {
+      "name": "Q68",
+      "label": "Would you benefit from paid sick leave in case of sickness",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "3": "I don't know"
+      }
+    },
+    {
+      "name": "Q69",
+      "label": "Would you benefit from maternity leave with pay (Women aged 15yrs-49yrs)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "Not sure",
+        "3": "No",
+        "4": "I don't know (Proxy only)"
+      }
+    },
+    {
+      "name": "Q610",
+      "label": "Type of ownership at the place where you work",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Government (central or local)",
+        "2": "Statutory or Public Body",
+        "3": "A Corporate Business Company",
+        "4": "A Cooperative",
+        "5": "Business owned by individual,family or group",
+        "6": "Other non-governmental or private organization"
+      }
+    },
+    {
+      "name": "Q611A",
+      "label": "Is the place where you work registered at the Inland Revenue",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "3": "In the process",
+        "4": "I don't know"
+      }
+    },
+    {
+      "name": "Q611B",
+      "label": "Is the place where you work registered at the Companies Office of Jamaica",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "3": "In the process",
+        "4": "I don't know"
+      }
+    },
+    {
+      "name": "Q611C",
+      "label": "Is the place where you work registered at NIS",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "3": "In the process",
+        "4": "I don't know"
+      }
+    },
+    {
+      "name": "Q611D",
+      "label": "Is the place where you work registered at other forms of business registration",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "3": "In the process",
+        "4": "I don't know"
+      }
+    },
+    {
+      "name": "RFACT",
+      "label": "RAISING FACTOR",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "YEAR",
+      "label": "YEAR",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "QUARTER",
+      "label": "Quarter",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "JANUARY TO MARCH",
+        "2": "APRIL TO JUNE",
+        "3": "JULY TO SEPTEMBER",
+        "4": "OCTOBER TO DECEMBER"
+      }
+    },
+    {
+      "name": "EMPSTATUS",
+      "label": "Labour Force Status",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "UNDER 14 YRS",
+        "3": "EMPLOYED",
+        "4": "UNEMPLOYED",
+        "5": "OUTSIDE"
+      }
+    },
+    {
+      "name": "Q39Mnew_industry",
+      "label": "Industry Group (2016 JIC)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Transport and Storage",
+        "8": "Accomodation and Food Service Activities",
+        "9": "Information and Communication",
+        "10": "Financial and Insurance Activities",
+        "11": "Real Estate, Professional, Scientific, Technical, Administrative & Support Services",
+        "12": "Public Administration & Defence; Compulsory Social Security",
+        "13": "Education, Human Health & Social Work",
+        "14": "Arts, Entertainment, Recreation & Other Services",
+        "15": "Activities Extra-Terretorial Organizations and Bodies"
+      }
+    },
+    {
+      "name": "Q39Snew_industry",
+      "label": "Industry Group (2016 JIC)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Transport and Storage",
+        "8": "Accomodation and Food Service Activities",
+        "9": "Information and Communication",
+        "10": "Financial and Insurance Activities",
+        "11": "Real Estate, Professional, Scientific, Technical, Administrative & Support Services",
+        "12": "Public Administration & Defence; Compulsory Social Security",
+        "13": "Education, Human Health & Social Work",
+        "14": "Arts, Entertainment, Recreation & Other Services",
+        "15": "Activities Extra-Terretorial Organizations and Bodies"
+      }
+    },
+    {
+      "name": "Q413new_industry",
+      "label": "Industry Group (2016 JIC)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Transport and Storage",
+        "8": "Accomodation and Food Service Activities",
+        "9": "Information and Communication",
+        "10": "Financial and Insurance Activities",
+        "11": "Real Estate, Professional, Scientific, Technical, Administrative & Support Services",
+        "12": "Public Administration & Defence; Compulsory Social Security",
+        "13": "Education, Human Health & Social Work",
+        "14": "Arts, Entertainment, Recreation & Other Services",
+        "15": "Activities Extra-Terretorial Organizations and Bodies"
+      }
+    },
+    {
+      "name": "Q417new_industry",
+      "label": "Industry Group (2016 JIC)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Transport and Storage",
+        "8": "Accomodation and Food Service Activities",
+        "9": "Information and Communication",
+        "10": "Financial and Insurance Activities",
+        "11": "Real Estate, Professional, Scientific, Technical, Administrative & Support Services",
+        "12": "Public Administration & Defence; Compulsory Social Security",
+        "13": "Education, Human Health & Social Work",
+        "14": "Arts, Entertainment, Recreation & Other Services",
+        "15": "Activities Extra-Terretorial Organizations and Bodies"
+      }
+    },
+    {
+      "name": "Q53new_industry",
+      "label": "Industry Group (2016 JIC)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Transport and Storage",
+        "8": "Accomodation and Food Service Activities",
+        "9": "Information and Communication",
+        "10": "Financial and Insurance Activities",
+        "11": "Real Estate, Professional, Scientific, Technical, Administrative & Support Services",
+        "12": "Public Administration & Defence; Compulsory Social Security",
+        "13": "Education, Human Health & Social Work",
+        "14": "Arts, Entertainment, Recreation & Other Services",
+        "15": "Activities Extra-Terretorial Organizations and Bodies"
+      }
+    },
+    {
+      "name": "Q59new_industry",
+      "label": "Industry Group (2016 JIC)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Transport and Storage",
+        "8": "Accomodation and Food Service Activities",
+        "9": "Information and Communication",
+        "10": "Financial and Insurance Activities",
+        "11": "Real Estate, Professional, Scientific, Technical, Administrative & Support Services",
+        "12": "Public Administration & Defence; Compulsory Social Security",
+        "13": "Education, Human Health & Social Work",
+        "14": "Arts, Entertainment, Recreation & Other Services",
+        "15": "Activities Extra-Terretorial Organizations and Bodies"
+      }
+    },
+    {
+      "name": "Q314new_industry",
+      "label": "Industry Group (2016 JIC)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Agriculture, Forestry & Fishing",
+        "2": "Mining & Quarrying",
+        "3": "Manufacturing",
+        "4": "Electricity, Gas and Water Supply",
+        "5": "Construction",
+        "6": "Wholesale & Retail, Repair of Motor Vehicle & Equipment",
+        "7": "Transport and Storage",
+        "8": "Accomodation and Food Service Activities",
+        "9": "Information and Communication",
+        "10": "Financial and Insurance Activities",
+        "11": "Real Estate, Professional, Scientific, Technical, Administrative & Support Services",
+        "12": "Public Administration & Defence; Compulsory Social Security",
+        "13": "Education, Human Health & Social Work",
+        "14": "Arts, Entertainment, Recreation & Other Services",
+        "15": "Activities Extra-Terretorial Organizations and Bodies"
+      }
+    }
+  ],
+  "decode_notes": [
+    "148 variables extracted from .dta metadata using pyreadstat",
+    "Source: Z:\\survey\\JAM\\LFS\\2020\\m1\\data_orig\\JAM_2020m1.dta"
+  ]
+}

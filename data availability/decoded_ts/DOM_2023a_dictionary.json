@@ -1,0 +1,17 @@
+{
+  "iso3": "DOM",
+  "survey": "ENCFT",
+  "period": "a",
+  "year": 2023,
+  "source_files": [
+    "Boletin_Trimestral_Mercado_Laboral_oct-dic_2023.pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [],
+  "variables": [],
+  "decode_notes": [
+    "PDF type: BULLETIN — no structured variable list extractable.",
+    "  This file is a statistical report or publication.",
+    "  Manual review required to determine variable availability."
+  ]
+}

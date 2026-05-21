@@ -1,0 +1,3072 @@
+{
+  "iso3": "DOM",
+  "survey": "ENCFT",
+  "period": "a",
+  "year": 2022,
+  "source_files": [
+    "Diccionario.xlsx"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [
+    "TNFT_COMPROMISOS_ECON",
+    "TNFT_COMPROMISOS_ECON_DET",
+    "TNFT_HOGARES",
+    "TNFT_MIEMBROS",
+    "TNFT_OCUPACION",
+    "TNFT_VIVIENDAS"
+  ],
+  "variables": [
+    {
+      "name": "ACTUALMENTE_HOGAR_TIENE_DEUDA",
+      "label": "ACTUALMENTE, ¿TIENE EL HOGAR ALGÚN TIPO DE DEUDA (EJ.: TARJETA DE CRÉDITO, PRÉSTAMO, ETC)?",
+      "type": "",
+      "table": "TNFT_COMPROMISOS_ECON",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "3": "SE NIEGA",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "CALIFICA_NIVEL_ENDEUDAMIENTO",
+      "label": "¿CÓMO CALIFICA EL NIVEL DE ENDEUDAMIENTO DEL HOGAR?",
+      "type": "",
+      "table": "TNFT_COMPROMISOS_ECON",
+      "value_codes": {
+        "1": "EXCESIVO",
+        "2": "ALTO",
+        "3": "ADECUADO",
+        "4": "BAJO",
+        "5": "MUY BAJO",
+        "6": "SE NIEGA",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "ENTIDAD_TIENE_DEUDA",
+      "label": "PERSONA O ENTIDAD CON QUIEN TIENE LA DEUDA",
+      "type": "",
+      "table": "TNFT_COMPROMISOS_ECON_DET",
+      "value_codes": {
+        "1": "BANCO COMERCIAL",
+        "10": "FAMILIAR O AMIGO",
+        "2": "ASOCIACIÓN",
+        "3": "BANCO DE AHORROS Y CRÉDITOS",
+        "4": "CORPORACIONES",
+        "5": "COOPERATIVAS",
+        "6": "BANCA SOLIDARIA",
+        "7": "PRESTAMISTA",
+        "8": "FUNDAPEC",
+        "9": "EMPLEADOR",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "PERIODICIDAD_PAGOS",
+      "label": "PERIODICIDAD DE LOS PAGOS",
+      "type": "",
+      "table": "TNFT_COMPROMISOS_ECON_DET",
+      "value_codes": {
+        "1": "DIARIO",
+        "2": "SEMANAL",
+        "3": "QUINCENAL",
+        "4": "MENSUAL",
+        "5": "TRIMESTRAL",
+        "6": "ANUAL",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "PLAZO_DEUDA",
+      "label": "PLAZO DE LA DEUDA",
+      "type": "",
+      "table": "TNFT_COMPROMISOS_ECON_DET",
+      "value_codes": {
+        "1": "MENOR A 1 AÑO",
+        "2": "DE 1 A MENOS DE 5 AÑOS",
+        "3": "DE 5 A MENOS DE 10 AÑOS",
+        "4": "DE 10 A MENOS DE 20 AÑOS",
+        "5": "20 AÑOS O MÁS",
+        "6": "INDETERMINADO"
+      }
+    },
+    {
+      "name": "RANGO_DEUDA_ACTUAL",
+      "label": "¿EN QUÉ RANGO SE ENCUENTRA LA DEUDA ACTUAL DEL HOGAR POR ESTE CONCEPTO?",
+      "type": "",
+      "table": "TNFT_COMPROMISOS_ECON_DET",
+      "value_codes": {
+        "1": "MENOR A 5,000",
+        "2": "5,000 - 10,000",
+        "3": "10,001 - 20,000",
+        "4": "20,001 - 100,000",
+        "5": "100,001 - 500,000",
+        "6": "500,001 - 1,000,000",
+        "7": "1,000,001 - 5,000,000",
+        "8": "MAYOR A 5,000,000"
+      }
+    },
+    {
+      "name": "TIPO_DEUDA_HOGAR",
+      "label": "¿QUÉ TIPO DE DEUDA TIENE EL HOGAR?",
+      "type": "",
+      "table": "TNFT_COMPROMISOS_ECON_DET",
+      "value_codes": {
+        "1": "TARJETAS DE CRÉDITO",
+        "10": "FIADO",
+        "2": "PRÉSTAMO PERSONAL",
+        "3": "PRÉSTAMO DE CONSUMO (MOTOR/ELECTRODOMÉSTICO, ETC.)",
+        "4": "PRÉSTAMO DE VEHÍCULO",
+        "5": "PRÉSTAMO HIPOTECARIO",
+        "6": "PRÉSTAMO DEL EMPLEADOR",
+        "7": "PRÉSTAMO EDUCATIVO",
+        "8": "PRÉSTAMO DE PERSONA NO MIEMBRO DEL HOGAR",
+        "9": "PRÉSTAMO PARA NEGOCIO FAMILIAR (PYMES)",
+        "99": "OTRO (ESPEFICIQUE)"
+      }
+    },
+    {
+      "name": "ABANICO_ELECTRICO",
+      "label": "¿Tiene abanico eléctrico?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "AIRE_ACONDICIONADO",
+      "label": "¿Tiene aire acondicionado?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ASPIRADOR_ELECTRICO",
+      "label": "¿Tiene aspirador eléctrico?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "AUTOMOVIL",
+      "label": "¿Tiene automovil?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "BONO_ESCOLAR_ESTUDIANTE_PROG",
+      "label": "ACTUALMENTE SU HOGAR O ALGUNOS DE LOS MIEMBROS ES BENEFICIARIO DE... BONO ESCOLAR ESTUDIANTE PROGRESO?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "BONO_GAS_CHOFERES",
+      "label": "Actualmente su hogar o algunos de los miembros es beneficiario de... Bono-Gas para choferes?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "CALENTADOR",
+      "label": "¿Tiene calentador?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "CAMARA_VIDEO",
+      "label": "¿Tiene cámara de video?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "CELULAR",
+      "label": "¿Tiene celular?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "COMBUSTIBLE_PARA_COCINAR",
+      "label": "¿Qué combustible utiliza principalmente para cocinar?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "GAS EN CILINDRO",
+        "2": "GAS (KEROSENE)",
+        "3": "ELECTRICIDAD",
+        "4": "LEÑA",
+        "5": "CARBON",
+        "6": "NO COCINA",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "COMPUTADOR",
+      "label": "¿Tiene computador?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "DONDE_PROVIENE_AGUA",
+      "label": "¿De dónde proviene el agua que usan en el hogar para lavar, fregar, bañarse, etc?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "DEL ACUEDUCTO DENTRO DE LA VIVIENDA",
+        "2": "DEL ACUEDUCTO EN EL PATIO DE LA VIVIENDA",
+        "3": "DE UNA LLAVE DE OTRA VIVIENDA",
+        "4": "DE UNA LLAVE PUBLICA",
+        "5": "DE UN TUBO DE LA CALLE",
+        "6": "MANANTIAL, RIO, ARROYO",
+        "7": "LLUVIA",
+        "8": "POZO",
+        "9": "CAMION TANQUE",
+        "99": "OTRO- (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "DVD",
+      "label": "¿Tiene dvd?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ENCUESTADO_ANTERIORMENTE",
+      "label": "¿En este hogar fue realizado anteriormente la Encuesta Nacional Continua de Fuerza de Trabajo?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ESTUFA",
+      "label": "¿Tiene estufa?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "FINANCIAMIENTO_CREDITO_EDUC",
+      "label": "¿ACTUALMENTE USTED O ALGÚN MIEMBRO DEL HOGAR POSEE FINANCIAMIENTO O CRÉDITO EDUCATIVO?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "FONDO_ASISTENCIA_SOLIDARIA_EMP",
+      "label": "M. Fondo de Asistencia Solidaria a Empleados (FASE)",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "HAY_RECIEN_NACIDOS",
+      "label": "¿Hay algún recién nacido que no haya sido incluido en el total anterior?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "HORNO_ELECTRICO",
+      "label": "¿Tiene horno eléctrico?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "HORNO_MICROONDAS",
+      "label": "¿Tiene horno microondas?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "INCENTIVO_EDUCACION_SUPERIOR",
+      "label": "Actualmente su hogar o algunos de los miembros es beneficiario de... Incentivo a la Educación Superior, con la Tarjeta Solidaridad?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "INTERNET",
+      "label": "¿Tiene usted algún miembro de su hogar...internet?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "INVERSOR",
+      "label": "¿Tiene inversor?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "LAVADORA",
+      "label": "¿Tiene lavadora?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "LICUADORA",
+      "label": "¿Tiene licuadora?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "MAQUINA_DE_COSER",
+      "label": "¿Tiene maquina de coser?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "MOTOCICLETA",
+      "label": "¿Tiene motocicleta?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "NO_ES_BENEFICIARIO",
+      "label": "Actualmente su hogar o algunos de los miembros es beneficiario de... no es beneficiario de ninguno?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "NO_TIENE_NINGUNO",
+      "label": "No tiene ningún artículo",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "OTRO",
+      "label": "¿Tiene otros?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PAGA_FINANCIAMIENTO_ARTICULOS",
+      "label": "¿PAGA USTED U OTRO MIEMBRO DEL HOGAR ALGÚN FINANCIAMIENTO POR ALGUNO DE ESTOS ARTÍCULOS QUE POSEE EL HOGAR?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PARABOLA",
+      "label": "¿Tiene parábola?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PLANCHA_ELECTRICA",
+      "label": "¿Tiene plancha eléctrica?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PLANTA_ELECTRICA",
+      "label": "¿Tiene planta eléctrica?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROGRAMA_APOYO_TRABAJADORES_IN",
+      "label": "N. Programa de apoyo a trabajadores informates (PA TI)",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROGRAMA_QUEDATE_CASA",
+      "label": "L. Programa Quédate en Casa",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROGRAMA_SOLIDARIDAD_SUPERATE",
+      "label": "ACTUALMENTE SU HOGAR O ALGUNOS DE LOS MIEMBROS ES BENEFICIARIO DE... PROGRAMA SOLIDARIDAD SUPERATE?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROG_INCENTIVO_ALIST_MARINA",
+      "label": "ACTUALMENTE SU HOGAR O ALGUNOS DE LOS MIEMBROS ES BENEFICIARIO DE... PROGRAMA INCENTIVO A ALISTADOS DE MARINA DE GUERRA?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROG_INCENTIVO_POLICIA_PREV",
+      "label": "ACTUALMENTE SU HOGAR O ALGUNOS DE LOS MIEMBROS ES BENEFICIARIO DE... PROGRAMA INCENTIVO A LA POLICIA PREVENTIVA?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PS_APOYO_ADULTOS_MAYORES",
+      "label": "Actualmente su hogar o algunos de los miembros es beneficiario de... Programa Solidaridad: Apoyo a adultos Mayores?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PS_BONO_GAS",
+      "label": "Actualmente su hogar o algunos de los miembros es beneficiario de... Programa Solidaridad: Bono-Gas?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PS_BONO_LUZ",
+      "label": "Actualmente su hogar o algunos de los miembros es beneficiario de... Programa Solidaridad: Bono-Luz?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PS_CHISPITA_SOLIDARIDAD",
+      "label": "Actualmente su hogar o algunos de los miembros es beneficiario de... Programa Solidaridad: Chispita Solidaridad?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PS_COMER_ES_PRIMERO",
+      "label": "Actualmente su hogar o algunos de los miembros es beneficiario de... Programa Solidaridad: Comer es Primero?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PS_INCENTIVO_ASIST_ESCOLAR",
+      "label": "Actualmente su hogar o algunos de los miembros es beneficiario de... Programa Solidaridad: Incentivo a la Asistencia Escolar?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "RADIO",
+      "label": "¿Tiene radio?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "REFRIGERADOR",
+      "label": "¿Tiene refrigerador?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ROTACION_HOGAR",
+      "label": "Rotación del hogar",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "0": "EL HOGAR NO ROTO",
+        "1": "EL HOGAR ROTO"
+      }
+    },
+    {
+      "name": "TABLETA_ELECTRONICA",
+      "label": "Tableta electrónica",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "TELEFONO",
+      "label": "¿Tiene teléfono?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "TELEVISOR",
+      "label": "¿Tiene televisor?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "TOSTADORA",
+      "label": "¿Tiene tostadora?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "UBICACION_COCINA",
+      "label": "¿La cocina que utiliza el hogar se encuentra?",
+      "type": "",
+      "table": "TNFT_HOGARES",
+      "value_codes": {
+        "1": "DENTRO",
+        "2": "FUERA",
+        "3": "NO TIENE"
+      }
+    },
+    {
+      "name": "AFILIADO_SEGURO_SALUD",
+      "label": "¿Está afiliado a algún seguro de salud?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ASISTE_CENTRO_EDUCATIVO",
+      "label": "¿Está asistiendo a la escuela, colegio o universidad?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ESTADO_CIVIL",
+      "label": "Estado civil del miembro del hogar",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "UNION LIBRE",
+        "2": "CASADO(A)",
+        "3": "DIVORCIADO(A)",
+        "4": "SEPARADO(A)",
+        "5": "VIUDO(A)",
+        "6": "SOLTERO(A)"
+      }
+    },
+    {
+      "name": "MAYOR_NIVEL_OBTENIDO",
+      "label": "¿Cuál es el título o diploma de mayor nivel que ... ha recibido?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "BACHILLER",
+        "2": "TECNICO O TECNOLOGICO",
+        "3": "UNIVERSITARIO",
+        "4": "POST-GRADO",
+        "5": "MAESTRIA",
+        "6": "DOCTORADO",
+        "7": "NINGUNO",
+        "8": "PRIMARIO"
+      }
+    },
+    {
+      "name": "NIVEL_SE_MATRICULO",
+      "label": "¿En qué nivel se matriculó este año?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "PRE-ESCOLAR",
+        "10": "QUISQUEYA APRENDE CONTIGO",
+        "2": "PRIMARIO",
+        "3": "SECUNDARIO",
+        "4": "SECUNDARIO-TECNICO",
+        "5": "UNIVERSITARIO",
+        "6": "POST-GRADO",
+        "7": "MAESTRIA",
+        "8": "DOCTORADO",
+        "9": "NINGUNO",
+        "99": "OTRO"
+      }
+    },
+    {
+      "name": "NIVEL_ULTIMO_ANO_APROBADO",
+      "label": "¿A qué nivel corresponde ese último año o curso que aprobó?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "PRE-ESCOLAR",
+        "10": "QUISQUEYA APRENDE CONTIGO",
+        "2": "PRIMARIO",
+        "3": "SECUNDARIO",
+        "4": "SECUNDARIO-TECNICO",
+        "5": "UNIVERSITARIO",
+        "6": "POST UNIVERSITARIO",
+        "7": "MAESTRIA",
+        "8": "DOCTORADO",
+        "9": "NINGUNO",
+        "99": "OTRO"
+      }
+    },
+    {
+      "name": "PARENTESCO",
+      "label": "Relación con de paréntesco con el jefe del hogar",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "JEFE DEL HOGAR",
+        "10": "ABUELO(A)",
+        "11": "OTRO PARIENTE",
+        "12": "NO PARIENTE",
+        "2": "ESPOSA(O) O COMPAÑERA(O)",
+        "3": "HIJO(A)",
+        "4": "HIJASTRO(A)",
+        "5": "NIETO(A)",
+        "6": "YERNO O NUERA",
+        "7": "PADRE O MADRE",
+        "8": "SUEGRO(A)",
+        "9": "HERMANO(A)"
+      }
+    },
+    {
+      "name": "PORQUE_NO_ESTUDIA",
+      "label": "¿Por qué no asiste ahora a centro de estudios?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "EN ESPERA DEL INICIO DE UN NUEVO PERIODO",
+        "10": "POR EDAD",
+        "11": "RAZONES FAMILIARES",
+        "12": "NO QUIERE / NO LE GUSTA",
+        "2": "FINALIZO SUS ESTUDIOS",
+        "3": "MUY LEJOS",
+        "4": "LE FUE MAL",
+        "5": "NUNCA LO INSCRIBIERON",
+        "6": "NO TIENE DOCUMENTOS",
+        "7": "EL TRABAJO NO SE LO PERMITE",
+        "8": "MUY CARO",
+        "9": "POR INCAPACIDAD FISICA O MENTAL",
+        "99": "OTRA"
+      }
+    },
+    {
+      "name": "RAZON_TRASLADO",
+      "label": "¿Cuál fue la razón por la cual se trasladó a este lugar?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "BUSCAR TRABAJO",
+        "2": "TRASLADO DE TRABAJO",
+        "3": "PARA ESTUDIAR",
+        "4": "SALUD",
+        "5": "RAZON FAMILIAR",
+        "98": "NO SABE",
+        "99": "OTRA RAZON"
+      }
+    },
+    {
+      "name": "REALIZA_CURSO_TECNICO",
+      "label": "¿Actualmente está realizado algún curso técnico vocacional?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "RECIBE_DESAYUNO_ESCOLAR",
+      "label": "¿Está recibiendo desayuno escolar?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "DESAYUNO, ALMUERZO Y MERIENDA",
+        "2": "DESAYUNO, ALMUERZO Y MERIENDA",
+        "3": "MERIENDA",
+        "4": "ALMUERZO",
+        "5": "NINGUNO"
+      }
+    },
+    {
+      "name": "RECIBIO_CLASES_VIRTUALES",
+      "label": "13A. Por motivos del COVID-19 ¿... recibió clases virtuales o seguimiento de sus profesores por medios tecnológicos?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "REGIMEN_SALUD_AFILIADO",
+      "label": "¿A cuál de los siguientes regímenes de salud está afiliado?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "CONTRIBUTIVO (APORTA EL EMPLEADO Y LA EMPRESA)",
+        "2": "SUBSIDIADO (CUBIERTO POR EL GOBIERNO)",
+        "3": "CONTRIBUTIVO/SUBSIDIADO (APORTA EL AFILIADO Y EL GOBIERNO)",
+        "4": "VOLUNTARIO PRIVADO (CONTRATADO POR LA PERSONA O EL HOGAR)",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "SABE_LEER_ESCRIBIR",
+      "label": "¿Sabe leer y escribir?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "SEGURO_AFILIADO",
+      "label": "¿A qué seguro está afiliado?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "ARS SENASA",
+        "2": "ARS HUMANA",
+        "3": "ARS PALIC SALUD",
+        "4": "ARS SENMA",
+        "5": "ARS UNIVERSAL",
+        "6": "ARS SALUD SEGURA (IDSS)",
+        "7": "ARS MONUMENTAL",
+        "8": "ARS RESERVAS",
+        "98": "NO SABE",
+        "99": "OTRO-ESPECIFIQUE"
+      }
+    },
+    {
+      "name": "SEXO",
+      "label": "Sexo del miembro",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "HOMBRE",
+        "2": "MUJER"
+      }
+    },
+    {
+      "name": "TANDA_ASISTE",
+      "label": "¿A cuál tanda está asistiendo actualmente?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "MAÑANA",
+        "2": "TARDE",
+        "3": "NOCHE",
+        "4": "INTERNO",
+        "5": "SEMI-INTERNO",
+        "6": "SABATINO",
+        "7": "NO ASISTE",
+        "8": "DOMINGOS",
+        "9": "TANDA EXTENDIDA",
+        "99": "OTRO"
+      }
+    },
+    {
+      "name": "TIEMPO_RESIDENCIA",
+      "label": "¿Hace cuánto tiempo reside en esta localidad?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "NACIO AQUI",
+        "2": "MENOS DE 6 MESES",
+        "3": "DE 7 MESES A MENOS DE 1 AÑO",
+        "4": "DE 1 A 5 AÑOS",
+        "5": "DE 6 O MAS AÑOS"
+      }
+    },
+    {
+      "name": "TIPO_AFILIADO",
+      "label": "¿Tipo de afiliado?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "BENEFICIARIO TITULAR",
+        "2": "BENEFICIARIO DEPENDIENTE"
+      }
+    },
+    {
+      "name": "TIPO_CENTRO_ESTUDIOS",
+      "label": "¿El centro donde estudia actualmente es?",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "PRIVADO",
+        "2": "SEMI-PRIVADO",
+        "3": "PUBLICO"
+      }
+    },
+    {
+      "name": "ZONA_NACIMIENTO",
+      "label": "Zona de nacimiento del miembro",
+      "type": "",
+      "table": "TNFT_MIEMBROS",
+      "value_codes": {
+        "1": "URBANA",
+        "2": "RURAL"
+      }
+    },
+    {
+      "name": "ACEPTARIA_TRAB_SEM_PASADA",
+      "label": "Tomando en consideración sus responsabilidades ... ¿se encuentra disponible para iniciar a trabajar inmediatamente o en las próximas dos semanas?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "AFILIADO_AFP_PRINC",
+      "label": "¿POR ESE TRABAJO ... TIENE ACCESO O SE ENCUENTRA AFILIADO A? - PLAN DE PENSION",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "AFILIADO_OTROS_PRINC",
+      "label": "¿Por ese trabajo ... Tiene acceso o se encuentra afiliado a Otros?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "AFILIADO_SEGURO_SALUD_PRINC",
+      "label": "¿Por ese trabajo ... Tiene acceso o se encuentra afiliado a Seguro de Salud?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "AFILIADO_SEGURO_VIDA_PRINC",
+      "label": "¿Por ese trabajo ... Tiene acceso o se encuentra afiliado a Seguro de Vida?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "ALIMENTACION_ESPECIE_AP",
+      "label": "¿en cuánto se estima el monto de este pago o beneficio en especie recibido por el mes pasado en su empleo principal? alimentación",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ALIMENTOS_ESCUELA_NAC",
+      "label": "¿En cuánto estima el ingreso recibido el mes pasado por concepto de alimentos en escuela pública?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ALIMENTOS_NO_REMUN",
+      "label": "Durante las últimas cuatro semanas, ... trabajó sin ninguna remuneración, principalmente para el consumo de la familia, por lo menos una hora, en: Preparación de alimentos para el almacenamiento, como queso, mantequilla, mermeladas, pasta de tomate y otros alimentos y bebidas.",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ALQUILER_EXT",
+      "label": "indique el monto promedio mensual recibido el mes pasado del exterior por concepto de alquiler o renta de propiedades?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ALQUILER_NAC",
+      "label": "¿en cuánto estima el ingreso recibido el mes pasado por concepto de alquiler?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ALQUILER_NAC_ANO",
+      "label": "¿en cuánto estima el ingreso recibido de forma regular en los últimos 12 meses por concepto de alquiler o renta de propiedades?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "APRENDIZ_NO_REMUN",
+      "label": "Aprendiz o pasante sin remuneración ni en dinero o especie",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "AYUDA_EMPRESAS_NAC",
+      "label": "¿en cuánto estima el ingreso recibido el mes pasado por concepto de ayuda de empresas o instituciones (especifique)?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "AYUDA_EMPRESAS_NAC_ANO",
+      "label": "¿en cuánto estima el ingreso recibido de forma regular en los últimos 12 meses por concepto de ayuda de empresas o instituciones?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "AYUDA_ESPECIE_NAC",
+      "label": "En el mes pasado ... recibió ingresos por concepto de ayuda en especies de familiares, no familiares o instituciones?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "AYUDA_NAC_ANO",
+      "label": "ADEMÁS RECIBIÓ EN LOS ÚLTIMOS 12 MESES ... INGRESOS POR CONCEPTO DE - AYUDA EN ESPECIE DE FAMILIARES, NO FAMILIARES O INSTITUCIONES?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "AYUDO_FAMILIAR_CONOCIDO",
+      "label": "¿La semana pasada ... Ayudó en el negocio, empresa o finca de un familiar, amigo o conocido por lo menos una hora, sin recibir pago ni en dinero ni especie?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "BENEFICIOS_HORAS_EXTRAS_PRINC",
+      "label": "¿En este trabajo ... Tiene acceso a los siguiente beneficios socio laborales? Pago de horas extras",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "BENEFICIOS_LICENCIA_PRINC",
+      "label": "¿En este trabajo ... Tiene acceso a los siguiente beneficios socio laborales? Licencia paga por enfermedad",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "BENEFICIOS_MARGINALES_AP",
+      "label": "DURANTE LOS ÚLTIMOS 12 MESES, EN EL EMPLEO PRINCIPAL... RECIBIÓ?. - BENEFICIOS MARGINALES",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "BENEFICIOS_OTROS_PRINC",
+      "label": "¿En este trabajo ... Tiene acceso a los siguiente beneficios socio laborales? Otros",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "BENEFICIOS_PREAVISO_PRINC",
+      "label": "¿En este trabajo ... Tiene acceso a los siguiente beneficios socio laborales? Preaviso y Cesantía?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "BENEFICIOS_REGALIA_PRINC",
+      "label": "¿En este trabajo ... Tiene acceso a los siguiente beneficios socio laborales? Regalía Pascual",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "BENEFICIOS_VACACIONES_PRINC",
+      "label": "¿En este trabajo ... Tiene acceso a los siguiente beneficios socio laborales? Vacaciones",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "BONIFICACION_AP",
+      "label": "durante los últimos 12 meses, en el empleo principal recibió. bonificación",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "BUSCO_TRABAJO_ESTABL_NEGOCIO",
+      "label": "¿En las ultimas 4 semanas ¿ buscó trabajo o estuvo tratando de establecer su propio negocio o empresa?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "CANTIDAD_CLIENTES",
+      "label": "DURANTE LAS ÚLTIMAS CUATRO SEMANAS, ¿¿ HA TRABAJADO...",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "PARA UN SOLO CLIENTE (EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA?",
+        "2": "PARA MÁS DE UN CLIENTE?",
+        "3": "NO TUVO CLIENTES."
+      }
+    },
+    {
+      "name": "CANTIDAD_PERSONAS_TRABAJAN_EMP",
+      "label": "Especificar cantidad ¿Cuántas personas en total, incluyendo al dueño (a) del establecimiento trabajan regularmente donde ... labora?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "UNA PERSONA",
+        "10": "DIEZ PERSONAS",
+        "2": "DOS PERSONAS",
+        "3": "TRES PERSONAS",
+        "4": "CUATRO PERSONAS",
+        "5": "CINCO PERSONAS",
+        "6": "SEIS PERSONAS",
+        "7": "SIETE PERSONAS",
+        "8": "OCHO PERSONAS",
+        "9": "NUEVE PERSONAS",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "CATEGORIA_CESANTIA",
+      "label": "En la empresa o negocio donde trabaja ¿era",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "EMPLEADO U OBRERO DEL GOBIERNO GENERAL",
+        "2": "EMPLEADO U OBRERO DE EMPRESA PUBLICA",
+        "3": "EMPLEADO U OBRERO DE EMPRESAS PRIVADAS",
+        "4": "EMPLEADO U OBRERO DE ZONA FRANCA",
+        "5": "EMPLEADO EN HOGAR PRIVADO",
+        "6": "EMPLEADOR O PATRON",
+        "7": "TRABAJADOR POR CUENTA PROPIA",
+        "8": "TRABAJADOR FAMILIAR NO REMUNERADO (AUXILIAR)"
+      }
+    },
+    {
+      "name": "CATEGORIA_PRINCIPAL",
+      "label": "¿En ese trabajo u ocupación, ... es?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "EMPLEADO U OBRERO DEL GOBIERNO GENERAL",
+        "2": "EMPLEADO U OBRERO DE EMPRESA PUBLICA",
+        "3": "EMPLEADO U OBRERO DE EMPRESAS PRIVADAS",
+        "4": "EMPLEADO U OBRERO DE ZONA FRANCA",
+        "5": "EMPLEADO EN HOGAR PRIVADO",
+        "6": "EMPLEADOR O PATRON",
+        "7": "TRABAJADOR POR CUENTA PROPIA",
+        "8": "TRABAJADOR FAMILIAR NO REMUNERADO (AUXILIAR)"
+      }
+    },
+    {
+      "name": "CATEGORIA_SECUNDARIA",
+      "label": "¿En ese trabajo u ocupación, ... es?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "EMPLEADO U OBRERO DEL GOBIERNO GENERAL",
+        "2": "EMPLEADO U OBRERO DE EMPRESA PUBLICA",
+        "3": "EMPLEADO U OBRERO DE EMPRESAS PRIVADAS",
+        "4": "EMPLEADO U OBRERO DE ZONA FRANCA",
+        "5": "EMPLEADO EN HOGAR PRIVADO",
+        "6": "EMPLEADOR O PATRON",
+        "7": "TRABAJADOR POR CUENTA PROPIA",
+        "8": "TRABAJADOR FAMILIAR NO REMUNERADO (AUXILIAR)"
+      }
+    },
+    {
+      "name": "CELULAR_ESPECIE_AP",
+      "label": "¿en cuánto se estima el monto de este pago o beneficio en especie recibido por el mes pasado en su empleo principal? celular",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "COMISIONES_AP",
+      "label": "durante el mes pasado, además del salario, sueldo o jornal, recibió en su empleo principal - comisiones",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "CONSTRUCCION_NO_REMUN",
+      "label": "Construcción o reparación importante de su vivienda",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "CONSUMIO_BIENES_IN",
+      "label": "de lo que produce o vende su empresa o negocio por cuenta propia, ¿utiliza alguna cantidad para consumo personal o de su hogar?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "CONSUMIO_BIENES_IS",
+      "label": "De lo que produce o vende su empresa o negocio, ¿utiliza alguna cantidad para consumo personal o de su hogar?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "CONTRATO_VERBAL_ESCRITO",
+      "label": "¿El contrato es verbal o escrito?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "ESCRITO",
+        "2": "VERBAL",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "CRIANZA_NO_REMUN",
+      "label": "Durante las últimas cuatro semanas, ... trabajó sin ninguna remuneración, principalmente para el consumo de la familia, por lo menos una hora, en: Crianza de animales o aves para obtener carne, huevos, leche, miel u otros productos.",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "CUANTOS_TRABAJOS_TIENE",
+      "label": "¿Cuántas ocupaciones/trabajos tiene?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "UN SOLO",
+        "2": "MAS DE UNO"
+      }
+    },
+    {
+      "name": "CULTIVO_NO_REMUN",
+      "label": "Cultivo o cosecha",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "DESEA_TRABAJAR_MAS_HORAS",
+      "label": "Además de las horas que actualmente trabaja en todas sus ocupaciones ¿Desea ... trabajar más horas?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "DESEA_TRABAJAR_MENOS_HORAS",
+      "label": "¿... Desea trabajar menos horas, aunque esto conlleve una reducción de su salario o ingreso?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "DISP_HORAS_ADICIONALES",
+      "label": "¿Está ... disponible para trabajar horas adicionales inmediatamente o en las próximas dos semanas?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI, INMEDIATAMENTE",
+        "2": "SI, PROXIMA DOS SEMANAS",
+        "3": "NO ESTA DISPONIBLE"
+      }
+    },
+    {
+      "name": "DISP_SEMANA_PASADA",
+      "label": "Tomando en consideración sus responsabilidades ... ¿se encontraba disponible para iniciar a trabajar en la semana pasada?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "DIVIDENDOS_AP",
+      "label": "DURANTE LOS ÚLTIMOS 12 MESES, EN EL EMPLEO PRINCIPAL... RECIBIÓ?. - DIVIDENDOS",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "DONACION_NAC_ANO",
+      "label": "ADEMÁS RECIBIÓ EN LOS ÚLTIMOS 12 MESES ... INGRESOS POR CONCEPTO DE - DONACIÓN O REMESAS (AYUDA) DE FAMILIARES Y NO FAMILIARES QUE VIVIEN EN EL PAÍS?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "EMPLEA_PERSONAS_POR_PAGA",
+      "label": "EN ESE TRABAJO, ¿¿. EMPLEA DE FORMA REGULAR A UNA O MÁS PERSONAS POR PAGA EN SU NEGOCIO O ACTIVIDAD?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "EMPRESA_INSCRITA_RNC",
+      "label": "¿La empresa o negocio donde ... Trabaja se encuentra inscrita en el Registro Nacional de Contribuyente (RNC)?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "EMPRESA_REGISTRADA_COMO",
+      "label": "¿LA EMPRESA O NEGOCIO DONDE¿ TRABAJA SE ENCUENTRA REGISTRADA COMO¿",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "PERSONA FÍSICA (EL RNC DE LA EMPRESA ES IGUAL AL NÚMERO DE CÉDULA DE IDENTIDAD Y ELECTORAL DEL DUEÑO).",
+        "2": "SOCIENDAD COMERCIAL ( RESPONSABILIDAD LIMITADA-SRL-, INDIVIDUAL DE RESPONSABILIDAD LIMITADA -EIRL-, ANÓNIMAS -SA O CXA-, ANÓNIMAS SIMPLIFCADAS -SAS-, ENTRE OTRAS)",
+        "3": "OTRO TIPO DE REGISTROS (ESPECIFIQUE)",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "EMPRESA_TIENE_LICENCIA",
+      "label": "¿La empresa o negocio donde ... Trabaja tiene licencia o permiso para operar?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "ESTABLECE_CANTIDAD_MINIMA",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿ESTABLECE¿ LA CANTIDAD MÍNIMA DE VENTAS U OPERACIONES QUE DEBE REALIZAR",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ESTABLECE_LUGARES_TRABAJO",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿ESTABLECE¿ LOS LUGARES, RUTAS O ZONAS DONDE PUEDE TRABAJAR O REALIZAR SU ACTIVIDAD",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ESTABLECE_OPERACIONES",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿ESTABLECE¿ LAS OPERACIONES A REALIZAR O COMO ORGANIZARLAS?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ESTABLECE_PRECIOS",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿ESTABLECE¿ EL PRECIO DE LOS PRODUCTOS O SERVICIOS QUE OFRECE?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "ESTABLECE_PROVEEDORES",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿ESTABLECE¿ LOS PROVEEDORES CON LOS QUE DEBE TRABAJAR?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "EXISTE_SINDICATO_EMPRESA",
+      "label": "¿En la empresa donde trabaja ... Existe sindicato u organización colectiva?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI (ESPECIFIQUE)",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "FECHA_TERMINO_TRABAJO",
+      "label": "¿En qué fecha terminó este trabajo?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "MENOS DE 6 MESES",
+        "2": "DE 6 MESES A MENOS DE 1 AÑO",
+        "3": "DE 1 AÑO A MENOS DE 3 AÑOS",
+        "4": "DE 3 AÑOS A MENOS DE 5 AÑOS",
+        "5": "DE 5 AÑOS Y MAS"
+      }
+    },
+    {
+      "name": "FORMA_OBTIENE_CLIENTES",
+      "label": "¿¿. OBTIENE SUS CLIENTES A TRAVÉS DE ALGUNA EMPRESA, INTERMEDIARIO O PERSONA?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ, TODOS",
+        "2": "SÍ, LA MAYORÍA",
+        "3": "SÍ, ALGUNOS",
+        "4": "NO"
+      }
+    },
+    {
+      "name": "FORMA_PAGAN_SALARIO_AP",
+      "label": "¿de qué forma le pagan el sueldo o salario a?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SUELDO O SALARIO",
+        "2": "POR COMISION O PROPINAS",
+        "3": "SOLO EN ESPECIE"
+      }
+    },
+    {
+      "name": "FORMA_TRABAJAR_HORAS_EXTRAS",
+      "label": "¿Estas horas adicionales ... Las desea trabajar de la siguiente forma",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "MEDIANTE UN TRABAJO ADICIONAL A LOS QUE ACTUALMENTE TIENE",
+        "2": "TRABAJAR HORAS ADICIONALES EN ALGUNOS DE SUS TRABAJOS ACTUALES",
+        "3": "REEMPLAZAR CUALQUIERA DE SUS TRABAJOS ACTUALES POR OTRO",
+        "4": "CUALQUIERA OTRA POSIBILIDAD QUE AUMENTE SUS ACTUALES HORAS DE TRABAJO"
+      }
+    },
+    {
+      "name": "FORMA_TRABAJO_REALIZO_IN",
+      "label": "¿Cuál de las siguientes formas de trabajo realizó?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "PRODUCTOR AGROPECUARIO",
+        "2": "CONSULTOR O CONTRATISTA",
+        "99": "OTROS"
+      }
+    },
+    {
+      "name": "FORMA_TRABAJO_REALIZO_IS",
+      "label": "¿Cuál de las siguientes formas de trabajo realizó?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "PRODUCTOR AGROPECUARIO",
+        "2": "CONSULTOR O CONTRATISTA",
+        "99": "OTROS"
+      }
+    },
+    {
+      "name": "GANANCIA_IN_PRODUCTOR",
+      "label": "¿en el último período de pago, cuánto fue el salario, sueldo o jornal sin ningún tipo de descuento que recibió ... en su empleo principal (sólo considere el salario bruto fijo, sin horas extras, propinas, comisiones etc.)",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "INFORMO",
+        "2": "SE NEGO"
+      }
+    },
+    {
+      "name": "GANANCIA_IS_PRODUCTOR",
+      "label": "En los últimos 6 meses ¿cuál fue su ganancia después de descontar los gastos?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "INFORMO",
+        "2": "SE NEGO"
+      }
+    },
+    {
+      "name": "GASOLINA_ESPECIE_AP",
+      "label": "¿en cuánto se estima el monto de este pago o beneficio en especie recibido por el mes pasado en su empleo principal? gasolina",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "GESTION_HORAS_ADICIONALES",
+      "label": "¿Durante las últimas cuatro semanas, Realizó alguna gestión activa para conseguir trabajar horas adicionales?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "GOBIERNO_NAC",
+      "label": "¿en cuánto estima el ingreso recibido el mes pasado por concepto de transferencias de programas del gobierno (especifique)?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "HORAS_EXTRA_AP",
+      "label": "durante el mes pasado, además del salario, sueldo o jornal, recibió en su empleo principal - horas extras",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "INCENTIVO_ANTIGUEDAD_AP",
+      "label": "Durante los últimos 12 meses, en el empleo principal recibió. incentivo por antigüedad",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "INGRESOS_OTROS_TRABAJOS",
+      "label": "¿Cuánto recibió en promedio el mes pasado ... en dinero por sus otras ocupaciones y trabajos?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "INFORMO",
+        "2": "NO TIENE OTRAS OCUPACIONES/TRABAJOS"
+      }
+    },
+    {
+      "name": "INGRESO_ACTIVIDAD_IN",
+      "label": "¿A cuánto ascendieron los ingresos o ganancias neta de su actividad, negocio, profesión u oficio durante el mes pasado?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "INFORMO",
+        "2": "SE NEGO"
+      }
+    },
+    {
+      "name": "INGRESO_ACTIVIDAD_IN_PERIODO",
+      "label": "¿A cuánto ascendieron los ingresos o ganancias netas de su actividad, negocio, profesión u oficio durante el mes pasado? - Período",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "DIARIO",
+        "2": "SEMANAL",
+        "3": "QUINCENAL",
+        "4": "MENSUAL"
+      }
+    },
+    {
+      "name": "INGRESO_ACTIVIDAD_IS",
+      "label": "¿A cuánto ascendieron los ingresos o ganancias neta de su actividad, negocio, profesión u oficio durante el mes pasado?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "INFORMO",
+        "2": "SE NEGO"
+      }
+    },
+    {
+      "name": "INGRESO_ACTIVIDAD_IS_PERIODO",
+      "label": "¿A cuánto ascendieron los ingresos o ganancias netas de su actividad, negocio, profesión u oficio durante el mes pasado? - Período",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "DIARIO",
+        "2": "SEMANAL",
+        "3": "QUINCENAL",
+        "4": "MENSUAL"
+      }
+    },
+    {
+      "name": "INTERESES_NAC",
+      "label": "¿en cuánto estima el ingreso recibido el mes pasado por concepto de interés?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "INTERES_EXT",
+      "label": "indique el monto promedio mensual recibido el mes pasado del exterior por concepto de intereses o dividendos?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "MES1_1_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 1,1) forma de envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES1_2_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 1,2) forma de envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES1_3_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 1, 3) forma de envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES2_1_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 2,1) forma de envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES2_2_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 2, 2) forma de envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES2_3_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 2, 3) forma de envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES3_1_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 3,1) forma de envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES3_2_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 3, 2) forma de envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES3_3_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 3, 3) forma de envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES4_1_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 4, 1) forma envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES4_2_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 4, 2) forma envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES4_3_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 4, 3) forma envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES5_1_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 5, 1) forma envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES5_2_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 5, 2) forma envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES5_3_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 5, 3) forma envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES6_1_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 6, 1) forma envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES6_2_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 6, 2) forma envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "MES6_3_EXT_FORMA_ENVIO",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (mes 6, 3) forma envío",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CORREO PRIVADO",
+        "2": "CORREO PUBLICO",
+        "3": "BANCO COMERCIAL",
+        "4": "PERSONAL",
+        "5": "REMESADORA"
+      }
+    },
+    {
+      "name": "METODO_TRABAJO",
+      "label": "¿EN ESE TRABAJO, ¿. ¿",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "VENDE PRODUCTOS O SERVICIOS DE UNA SOLA EMPRESA O COMPAÑÍA?",
+        "2": "FABRICA PRODUCTOS O PRESTA SERVICIOS PARA UNA SOLA EMPRESA O COMPAÑÍA?",
+        "3": "NINGUNA DE LAS ANTERIORES?"
+      }
+    },
+    {
+      "name": "MOTIVO_DEJO_ULTIMO_TRABAJO",
+      "label": "¿Por qué motivo dejó su último trabajo?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CERRO LA EMPRESA",
+        "2": "LO DESPIDIERON",
+        "3": "VENCIO EL CONTRATO Y NO LO RENOVARON",
+        "4": "RESPONSABILIDADES FAMILIARES",
+        "5": "MOTIVOS DE SALUD",
+        "6": "RENUNCIO",
+        "7": "ESTUDIOS",
+        "8": "JUBILACION O PENSION",
+        "9": "FALTA DE MATERIA PRIMA O PROBLEMA CON LA MAQUINARIA",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "MOTIVO_NO_BUSCA_TRABAJO",
+      "label": "¿Por qué motivo ... No ha buscado trabajo durante las últimas 4 semanas?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "YA CONSIGUIO TRABAJO Y ENTRA PRONTO",
+        "10": "PENSIONADO O JUBILADO",
+        "11": "EMBARAZADA",
+        "12": "NO QUISO BUSCAR O NO DESEA TRABAJAR",
+        "2": "ESTABA TRABAJANDO EN SU CONUCO O CRIANDO ANIMALES PARA CONSUMO DEL HOGAR",
+        "3": "ESPERANDO LA PROXIMA TEMPORADA AGRICOLA",
+        "4": "SE CANSO DE BUSCAR",
+        "5": "NO TIENE SUFICIENTE EDUCACION O EXPERIENCIA",
+        "6": "LOS EMPLEADORES NO LE DAN TRABAJO POR SU EDAD (MUY JOVEN O MUY VIEJO)",
+        "7": "ESTA ESTUDIANDO",
+        "8": "POR RESPONSABILIDADES FAMILIARES O QUEHACERES DEL HOGAR",
+        "9": "POR MOTIVOS DE SALUD PERMANENTE O TEMPORAL",
+        "90": "CUARENTENA PROPIA O FAMILIAR",
+        "91": "CIERRE GUBERNAMENTAL",
+        "99": "OTRAS RAZONES (ESPECIFICAR)"
+      }
+    },
+    {
+      "name": "MOTIVO_NO_DISPONIBLE",
+      "label": "¿Por qué ¿ no se encuentra disponible para trabajar?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "POR ESTUDIOS",
+        "2": "POR RESPONSABILIDADES FAMILIARES O QUEHACERES DEL HOGAR",
+        "3": "PORQUE ES PENSIONADO O JUBILADO",
+        "4": "POR MOTIVOS DE SALUD PERMANENTE O TEMPORAL",
+        "90": "CUARENTENA PROPIA O FAMILIAR",
+        "91": "CIERRE GUBERNAMENTAL",
+        "99": "POR OTRAS RAZONES (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "MOTIVO_NO_TRAB_SEM_PASADA",
+      "label": "¿Por qué motivo ... No trabajo la semana pasada?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "VACACIONES O PERMISOS",
+        "2": "LICENCIA MEDICA POR ENFERMEDAD",
+        "3": "OTRAS LICENCIAS (MATRIMONIO, GRAVIDEZ O EMBARAZO, ETC)",
+        "4": "DISPUTA LABORAL (HUELGA)",
+        "5": "ASISTENCIA A CURSO O CAPACITACION",
+        "6": "PERIODO DE POCA ACTIVIDAD",
+        "7": "POR MOTIVO DE SALUD",
+        "8": "FALTA DE MATERIA PRIMA O PROBLEMAS CON LA MAQUINARIA",
+        "9": "RAZONES CLIMATICAS O CATASTROFES NATURALES",
+        "90": "CUARENTENA PROPIA O FAMILIAR",
+        "91": "CIERRE GUBERNAMENTAL",
+        "99": "OTRA (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "NOMBRE_EMPRESA_TRABAJA",
+      "label": "¿Cuál es el nombre de la empresa, establecimiento, negocio, industria, finca, oficina en la que ... trabaja?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "NOMBRE COMERCIAL, NOMBRE DEL EDIFICIO",
+        "2": "PRESTA SERVICIO EN UN HOGAR",
+        "3": "NO TIENE NOMBRE",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "OTROS_BENEFICIOS_AP",
+      "label": "durante los últimos 12 meses, en el empleo principal recibió. otros beneficios",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "OTROS_BENEFICIOS_AS",
+      "label": "durante los últimos 12 meses, ¿en su empleo secundario recibió algún otro ingreso como vacaciones, bonificaciones, regalía pascual, utilidades empresariales,etc.)?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "OTROS_ESPECIE_AP",
+      "label": "¿en cuánto se estima el monto de este pago o beneficio en especie recibido por el mes pasado en su empleo principal? otros",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "OTROS_INGRESOS_EXT",
+      "label": "indique el monto promedio mensual recibido el mes pasado del exterior por concepto de otros?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "OTROS_INGRESOS_NAC",
+      "label": "¿en cuánto estima el ingreso recibido el mes pasado por concepto de otros ingresos?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "OTROS_INGRESOS_NAC_ANO",
+      "label": "¿en cuánto estima el ingreso recibido de forma regular en los últimos 12 meses por concepto de otros ingresos?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "OTROS_PAGOS_AP",
+      "label": "durante el mes pasado, además del salario, sueldo o jornal, recibió en su empleo principal - otros pagos",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "OTROS_PAGO_AS",
+      "label": "durante el mes pasado, además del salario, sueldo o jornal, ¿¿ recibió en su empleo secundario algún otro pago como comisiones, propinas, horas extras, otros pagos?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PAGO_EN_ESPECIE_AS",
+      "label": "durante el mes pasado en su empleo secundario ¿recibió algún pago en especie como alimento, vivienda, transporte, gasolina, celular, etc.?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PAGO_ESPECIES_IN",
+      "label": "Durante el mes pasado ?Recibis por este trabajo algzn pago en especie (alimentos, mercancma, etc)?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PAGO_ESPECIES_IS",
+      "label": "Durante el mes pasado ?Recibis por este trabajo algzn pago en especie (alimentos, mercancma, etc)?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PENSION_EXT",
+      "label": "indique el monto promedio mensual recibido el mes pasado del exterior por concepto de pensión o jubilación?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "3": "SE NEGO"
+      }
+    },
+    {
+      "name": "PENSION_NAC",
+      "label": "¿En cuánto estima el ingreso recibido el mes pasado por concepto de pensión?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "3": "SE NEGO"
+      }
+    },
+    {
+      "name": "PERTENECE_SINDICATO_EMP",
+      "label": "¿Pertenece o es miembro del sindicato u organización colectiva de la empresa?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "PESCA_NO_REMUN",
+      "label": "Durante las últimas cuatro semanas, ... trabajó sin ninguna remuneración, principalmente para el consumo de la familia, por lo menos una hora, en: Pesca.",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PRIMER_EMPLEO",
+      "label": "¿Este ha sido su único trabajo?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROPINAS_AP",
+      "label": "durante el mes pasado, además del salario, sueldo o jornal, recibió en su empleo principal - propinas",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROPORCIONA_APLICACION",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿LE PROPORCIONA PARA TRABAJAR UNA APLICACIÓN EN LÍNEA O APP?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROPORCIONA_CLIENTES_RUTA",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿LE PROPORCIONA PARA TRABAJAR CARTERA DE CLIENTES O RUTA DE OPERACIÓN?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROPORCIONA_EQUIPOS",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿LE PROPORCIONA PARA TRABAJAR MAQUINARIA, EQUIPO O HERRAMIENTAS?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROPORCIONA_LOCAL",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿LE PROPORCIONA PARA TRABAJAR OFICINA, LOCAL, ESTABLECIMIENTO O INSTALACIONES?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROPORCIONA_MATERIALES",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿LE PROPORCIONA PARA TRABAJAR MATERIALES (INSUMOS, MATERIA PRIMA, SEMILLAS)?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROPORCIONA_OTROS_INSUMOS",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿LE PROPORCIONA PARA TRABAJAR OTROS INSUMOS?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROPORCIONA_VEHICULO",
+      "label": "ESTA EMPRESA, COMPAÑÍA, INTERMEDIARIO O PERSONA, ¿LE PROPORCIONA PARA TRABAJAR VEHÍCULO?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "PROVINCIA_TRABAJA_RESP",
+      "label": "¿En qué provincia realiza principalmente su actividad económica?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "EN ESTA PROVINCIA",
+        "2": "EN OTRA PROVINCIA (ESPECIFIQUE)",
+        "3": "EN OTRO PAIS (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "QUE_HIZO_BUSCAR_TRABAJO",
+      "label": "¿Qué hizo ... para buscar trabajo o establecer su propio negocio, actividad económica o empresa durante las últimas cuatro semanas?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "ENVIO CURRICULUM, LLENO SOLICITUDES, ASISTIO A ENTREVISTAS, VISITO FABRICAS, OFICINAS PUBLICAS",
+        "2": "PIDIO AYUDA A TERCERAS PERSONAS O CONSULTO CON FAMILIARES Y AMIGOS",
+        "3": "CONTESTO ANUNCIOS EN PERIODICOS, RADIO, TV",
+        "4": "SOLICITO PERMISOS O LICENCIAS PARA ESTABLECER UN NEGOCIO, ACONDICIONO LOCAL PARA INICIAR UN NEGOCIO, SOLICITO FINANCIAMIENTO PARA UN NEGOCIO PROPIO, BUSCO EQUIPO O MATERRIALES PARA EMPEZAR UN NEGOCIO",
+        "5": "CONTESTO ANUNCIOS POR INTERNET O EN BOLSA ELECTRONICA DE EMPLEO",
+        "6": "NADA",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "QUE_TIEMPO_BUSCA_TRABAJO",
+      "label": "¿Qué tiempo hace que ... está buscando trabajo?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "MENOS DE UN MES",
+        "2": "DE 1 MES A MENOS DE 6 MESES",
+        "3": "DE 6 MESES A MENOS DE 1 AÑO",
+        "4": "1 AÑO Y MAS"
+      }
+    },
+    {
+      "name": "RAZON_JORNADA_DIFERENTE",
+      "label": "¿Cuál fue la razón principal por la que la semana pasada trabajó diferentes horas a las habituales?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "TEMPORADA DE ALTA ACTIVIDAD, HABIA UN PEDIDO ESPECIAL O EXCESO DE TRABAJO",
+        "2": "VACACIONES",
+        "3": "BAJA ACTIVIDAD",
+        "4": "HORARIO O JORNADA FLEXIBLE",
+        "5": "CAUSAS CLIMATOLOGICAS",
+        "6": "MOTIVOS PERSONALES (ENFERMEDAD, LICENCIA MEDIA Y CUIDADO FAMILIAR)",
+        "90": "CIERRE DEL GOBIERNO, CUARENTENA O TOQUE DE QUEDA POR COVID-19",
+        "98": "NO SABE",
+        "99": "OTROS (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "REALIZO_ACTIVIDAD",
+      "label": "La semana pasada ... ¿realizó alguna de las siguientes actividades,por lo menos durante una hora a cambio de un salario o ingreso en dinero o especie?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "CULTIVO O COSECHO, CRIO O  CUIDO GANADO O PEZCO PRINCIPALMENTE PARA LA VENTA",
+        "2": "ELABORO COMIDA, PICADERA, FRITURA, MANUALIDADES, ARTESANIA O TABACO PRINCIPALMENTE PARA LA VENTA",
+        "3": "LIMPIO FINCA, PATIO O SOLAR POR PAGA",
+        "4": "LIMPIA CASAS, PANCHO O LAVO ROPA AJENA Y REPARO O COSIO ROPA, ZAPATO O CARTERA",
+        "5": "VENDIO PRODUCTOS DE BELLEZA, ROPAS, JOYAS, VENTAS POR CATALOGO",
+        "6": "REPARO EQUIPOS ELECTRODOMESTICOS (PLANCHA, NEVERA, LAVADORA, ABANICO, CELULAR, FABRICO PUERTAS O VENTANAS, MANTENIMIENTO DE AIRES Y VEHICULOS)",
+        "7": "TRABAJO COMO APRENDIZ O PASANTE CON PAGO EN DINERO O EN ESPECIE",
+        "8": "NINGUNA DE LAS ANTERIORES"
+      }
+    },
+    {
+      "name": "REALIZO_TRABAJO_SECUNDARIO",
+      "label": "Además del trabajo principal, durante la semana pasada ¿...Realizó o tiene otro trabajo secundario",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "RECIBIO_AUMENTO_SALARIAL_AP",
+      "label": "EN LOS ÚLTIMOS 3 MESES ... ¿RECIBIÓ AUMENTO SALARIAL?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "RECIBIO_CESANTIA",
+      "label": "Cuando ... fue despedido de su último trabajo ¿recibió ayuda por cesantía?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "3": "EN DISPUTA"
+      }
+    },
+    {
+      "name": "RECIBIO_REMESA_EXT1",
+      "label": "¿en los últimos 3 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (1)",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "3": "RECIBIO Y SE NEGO"
+      }
+    },
+    {
+      "name": "RECIBIO_REMESA_EXT2",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (2)",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "3": "RECIBIO Y SE NEGO"
+      }
+    },
+    {
+      "name": "RECIBIO_REMESA_EXT3",
+      "label": "¿en los últimos 6 meses ha recibido dinero y/o transferencias (remesas) para gasto del hogar del exterior? (3)",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "3": "RECIBIO Y SE NEGO"
+      }
+    },
+    {
+      "name": "REGALIA_AP",
+      "label": "durante los últimos 12 meses, en el empleo principal recibió. regalía pascual",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "REGALIA_PENSION_NAC_ANO",
+      "label": "En los últimos 12 meses ... recibió ingresos por concepto de regalía pascual de pensión?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "REGALOS_EXT",
+      "label": "indique el monto promedio mensual recibido el mes pasado del exterior por concepto de regalos u obsequios (no en efectivo)?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "REGISTRO_TRANSACCIONES_EMPRESA",
+      "label": "En la empresa o negocio donde ... Trabaja cómo se registran las transacciones y/o cuentas",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SE REGISTRAN LAS TRANSACCIONES O SE LLEVA LIBROS DE CONTABILIDAD AUDITABLES O SE ACUDE A LOS SERVICIOS DE UN CONTABLE",
+        "2": "SOLO SE UTILIZA UN CUADERNO DE APUNTES PERSONAL PARA LLEVAR LAS CUENTAS",
+        "3": "NO SE LLEVA NINGUN REGISTRO CONTABLE DE LAS TRANSACCIONES",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "REMESAS_NAC",
+      "label": "¿en cuánto estima el ingreso recibido el mes pasado por concepto de donación o remesa (ayuda) de familiares y no familiares que viven en el país?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "SEMANA_PAS_TIEMPO_COND_TRABAJO",
+      "label": "¿LA SEMANA PASADA HABRIA TENIDO EL TIEMPO Y LAS CONDICIONES NECESARIAS PARA SALIR A TRABAJAR?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "SIGUIO_RECIBIENDO_SUELDO",
+      "label": "¿Durante este período que no trabajó ... siguió recibiendo sueldo o ganancias?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "SUELDO_BRUTO_AP",
+      "label": "¿en el último período de pago, cuánto fue el salario, sueldo o jornal sin ningún tipo de descuento que recibió ... en su empleo principal (sólo considere el salario bruto fijo, sin horas extras, propinas, comisiones etc.)",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "INFORMO",
+        "2": "SE NEGO"
+      }
+    },
+    {
+      "name": "SUELDO_BRUTO_AS",
+      "label": "¿en el último período de pago, cuánto fue el salario, sueldo o jornal sin ningún tipo de descuento que recibió ... en su empleo principal (sólo considere el salario bruto fijo, sin horas extras, propinas, comisiones etc.)",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "INFORMO",
+        "2": "SE NEGO"
+      }
+    },
+    {
+      "name": "TENIA_EMPLEO_NEGOCIO",
+      "label": "¿Aunque ... no trabajó la semana pasada tenía algún empleo o negocio del cual se ausentó temporalmente y al cual próximamente volverá?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "TIEMPO_CONTRATO",
+      "label": "Tiempo del contrato",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "MENOS DE TRES MESES",
+        "2": "DE TRES MESES A SEIS",
+        "3": "MAS DE SEIS MESES",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "TIEMPO_GESTION_TRABAJO",
+      "label": "¿Hace cuánto tiempo fue la  última vez que ... hizo alguna gestión para conseguir trabajo?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "UN MES O MENOS",
+        "2": "MAS DE UN MES"
+      }
+    },
+    {
+      "name": "TIEMPO_INICIA_NUEVO_TRABAJO",
+      "label": "?En qui tiempo inicia este trabajo?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "UN MES O MENOS",
+        "2": "MAS DE UN MES"
+      }
+    },
+    {
+      "name": "TIEMPO_RECIBE_PAGO_AP",
+      "label": "¿Cuánto fue el salario, sueldo o jornal sin ningún tipo de descuento que recibió ... En su empleo principal? - Período",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "DIARIO",
+        "2": "SEMANAL",
+        "3": "QUINCENAL",
+        "4": "MENSUAL"
+      }
+    },
+    {
+      "name": "TIEMPO_ULT_VEZ_GESTION_TRABAJO",
+      "label": "¿Hace cuanto tiempo fue la última vez que ... Hizo alguna gestión para conseguir trabajo?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "MENOS DE 6 MESES",
+        "2": "DE 6 MESES A MENOS DE 1 AÑO",
+        "3": "1 AÑO Y MAS",
+        "4": "NUNCA HA REALIZADO ALGUNA GESTION",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "TIEMPO_VUELVE_TRABAJO",
+      "label": "En cuánto tiempo ... regresará a ese mismo trabajo?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "YA REINICIO SUS LABORES O REGRESARA A TRABAJAR EN ESTA SEMANA",
+        "2": "EN TRES MESES O MENOS",
+        "3": "EN MAS DE TRES MESES",
+        "4": "CUANDO LE CONTACTEN O LE SOLICITEN",
+        "5": "NO REGRESARA",
+        "90": "AL LEVANTARSE LAS RESTRICCIONES DEL COVID",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "TIENE_CONTRATO",
+      "label": "¿En ese trabajo tiene algún tipo de contrato?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "TIPO_CONTRATO",
+      "label": "¿QUÉ TIPO DE CONTRATO HA FIRMADO O ACORDADO ...?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "INDEFINIDO",
+        "2": "POR UN TIEMPO DEFINIDO",
+        "3": "POR UN TRABAJO EN ESPECIFICO",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "TOTAL_PERSONAS_TRABAJAN_EMP",
+      "label": "¿Cuántas personas en total, incluyendo al dueño (a) del establecimiento y usted mismo trabajan regularmente donde ... labora?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "DE 01 A 10 PERSONAS",
+        "2": "DE 11 A 19 PERSONAS",
+        "3": "DE 20 A 30 PERSONAS",
+        "4": "DE 31 A 50 PERSONAS",
+        "5": "DE 51 A 99 PERSONAS",
+        "6": "100 PERSONAS Y MAS",
+        "98": "NO SABE"
+      }
+    },
+    {
+      "name": "TRABAJO_ANTES",
+      "label": "¿Ha trabajado antes?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "TRABAJO_DISTANCIA_TELE_TRABAJO",
+      "label": "¿Actualmente ... realiza su trabajo a distancia (teletrabajo)",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "TRABAJO_SEMANA_PASADA",
+      "label": "Durante la semana pasada ... Trabajó por lo menos una hora a cambio de un salario en dinero o especie",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "TRANSPORTE_ESPECIE_AP",
+      "label": "¿En cuánto se estima el monto de este pago o beneficio en especie recibido por el mes pasado en su empleo principal? transporte",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "TURNO_HABITUAL_TRABAJO",
+      "label": "El turno o jornada habitual de trabajo de ... es:",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "MAÑANA",
+        "2": "MAÑANA - TARDE",
+        "3": "MAÑANA - TARDE - NOCHE",
+        "4": "TARDE",
+        "5": "TARDE - NOCHE",
+        "6": "NOCHE",
+        "7": "ROTATIVO"
+      }
+    },
+    {
+      "name": "UBICACION_EMPRESA",
+      "label": "¿Dónde  ... realiza principalmente su trabajo?",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "EN UNA OFICINA, FABRICA O INDUSTRIA",
+        "2": "EN UNA OBRA EN CONSTRUCCION",
+        "3": "EN ESTA VIVIENDA O LOCAL ANEXO O EN LA VIVIENDA DEL SOCIO O PATRON (INCLUYE PATIO Y JARDIN)",
+        "4": "A DOMICILIO O EN LOCAL DE LOS CLIENTES",
+        "5": "EN UN PUESTO FIJO EN LA CALLE",
+        "6": "MOVIL, CALLEJERO, AMBULANTE",
+        "7": "EN EL CAMPO, FINCA O CONUCO",
+        "8": "EN VEHICULO TERRESTRE O MARITIMO PARA TRANSPORTE DE PERSONAS O MERCADERIAS",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "UTILIDAD_EMPRESARIAL_AP",
+      "label": "DURANTE LOS ÚLTIMOS 12 MESES, EN EL EMPLEO PRINCIPAL... RECIBIÓ?. - UTILIDADES EMPRESARIALES",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "VACACIONES_AP",
+      "label": "durante los últimos 12 meses, en el empleo principal recibió. vacaciones",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "VIVIENDA_ESPECIE_AP",
+      "label": "¿En cuánto se estima el monto de este pago o beneficio en especie recibido por el mes pasado en su empleo principal? vivienda",
+      "type": "",
+      "table": "TNFT_OCUPACION",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "APARIENCIA_VIVIENDA",
+      "label": "¿Apariencia de la vivienda?",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "LUJOSA",
+        "2": "MUY BUENA",
+        "3": "BUENA",
+        "4": "MODESTA",
+        "5": "PRECARIA"
+      }
+    },
+    {
+      "name": "CALLES_ASFALTADAS",
+      "label": "¿Las calles están asfaltadas",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "COMO_ELIMINA_BASURA",
+      "label": "¿Cómo se elimina principalmente la basura en esta vivienda?",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "LA RECOGE EL AYUNTAMIENTO",
+        "2": "LA RECOGE UNA EMPRESA PRIVADA",
+        "3": "LA RECOGE EL TRICICLO O CARRETILLERO",
+        "4": "LA QUEMAN",
+        "5": "LA TIRAN AL PATIO O SOLAR",
+        "6": "LA TIRAN A UN VERTEDERO",
+        "7": "LA TIRAN A UNA CAÑADA",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "ESTADO_VIVIENDA",
+      "label": "¿Estado de la vivienda?",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "NO NECESITA REPARACIONES",
+        "2": "NECESITA REPARACIONES PEQUEÑAS",
+        "3": "NECESITA REPARACIONES IMPORTANTES"
+      }
+    },
+    {
+      "name": "MATERIAL_PARED_EXTERIOR",
+      "label": "Material predominante de la pared exterior",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "ASBESTO",
+        "10": "TEJAMANIL",
+        "11": "YAGUA",
+        "12": "ZINC",
+        "13": "MATERIALES DE DESECHO",
+        "14": "VACIADO DE ARENA Y CEMENTO",
+        "2": "BLOCK",
+        "3": "CARTON",
+        "4": "CONCRETO ARMADO",
+        "5": "LADRILLO",
+        "6": "MADERA",
+        "7": "MIXTO (BLOCK Y MADERA)",
+        "8": "PLYWOOD",
+        "9": "TABLA DE PALMA",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "MATERIAL_PARED_INTERIOR",
+      "label": "Material predominante de la pared interior",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "ASBESTO",
+        "10": "TEJAMANIL",
+        "11": "YAGUA",
+        "12": "ZINC",
+        "13": "NO TIENE",
+        "14": "VACIADO DE ARENA Y CEMENTO",
+        "2": "BLOCK",
+        "3": "CARTON",
+        "4": "CONCRETO ARMADO",
+        "5": "LADRILLO",
+        "6": "MADERA",
+        "7": "MIXTO (BLOCK Y MADERA)",
+        "8": "PLYWOOD",
+        "9": "TABLA DE PALMA",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "MATERIAL_PISO",
+      "label": "Material predominante del piso",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "CEMENTO",
+        "2": "CERAMICA",
+        "3": "GRANITO",
+        "4": "LADRILLO",
+        "5": "MADERA",
+        "6": "MARMOL",
+        "7": "MOSAICO",
+        "8": "PARQUET",
+        "9": "TIERRA",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "MATERIAL_TECHO",
+      "label": "Material predominante del techo",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "ASBESTO",
+        "2": "CONCRETO ARMADO",
+        "3": "YAGUA",
+        "4": "ZINC",
+        "5": "MATERIALES DE DESECHO",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "PAGA_FINANCIAMIENTO_VIVIENDA",
+      "label": "¿ACTUALMENTE, PAGA USTED U OTRO MIEMBRO DEL HOGAR ALGÚN TIPO DE FINANCIAMIENTO POR ESTA VIVIENDA?",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "SÍ",
+        "2": "NO, PAGADA POR OTRO HOGAR",
+        "3": "NO, TOTALMENTE PAGADA"
+      }
+    },
+    {
+      "name": "PERIODO_PAGO_ALQUILER_VIV",
+      "label": "¿Cuánto están pagando? - Período",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "SEMANA",
+        "2": "MES",
+        "3": "QUINCENA",
+        "4": "AÑO"
+      }
+    },
+    {
+      "name": "ROTACION_VIVIENDA",
+      "label": "Rotación vivienda",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "0": "LA VIVIENDA NO ROTO",
+        "1": "LA VIVIENDA ROTO"
+      }
+    },
+    {
+      "name": "SE_ENCUENTRA_CONECTADA_A",
+      "label": "¿Se encuentra conectada a?",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "POZO SEPTICO",
+        "2": "ALCANTARILLADO"
+      }
+    },
+    {
+      "name": "TENENCIA_VIVIENDA",
+      "label": "Esta vivienda es? (tenencia de la vivienda)",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "COMPRADA AL CONTADO",
+        "2": "COMPRADA A PLAZO AL GOBIERNO",
+        "3": "COMPRADA A PLAZO A PARTICULAR O INSTITUCION",
+        "4": "DONADA POR EL GOBIERNO",
+        "5": "CONSTRUIDA POR SU DUEÑO",
+        "6": "DONADA POR FAMILIARES O PARTICULARES",
+        "7": "CEDIDA O PRESTADA",
+        "8": "REGALADA O HEREDADA",
+        "9": "ALQUILADA",
+        "99": "OTRA (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "TIENE_AGUA_RED_PUBLICA",
+      "label": "¿Tiene esta vivienda instalación para agua corriente por tubería conectada a la red pública?",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "TIENE_ALUMBRADO_PUBLICO",
+      "label": "¿Tiene alumbrado público?",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "SI",
+        "2": "NO"
+      }
+    },
+    {
+      "name": "TIPO_ALUMBRADO",
+      "label": "¿Qué tipo de alumbrado se utiliza especificamente en esta vivienda?",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "ELECTRICIDAD DE LAS EMPRESAS PUBLICAS (EDES)",
+        "2": "ELECTRICIDAD DE LAS EMPRESAS PRIVADAS",
+        "3": "PLANTA ELECTRICA",
+        "4": "LAMPARA DE GAS KEROSEN",
+        "5": "LAMPARA DE GAS PROPANO",
+        "6": "PANEL SOLAR",
+        "7": "VELA",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    },
+    {
+      "name": "TIPO_SANITARIO",
+      "label": "¿La vivienda posee (pregunta tipo de inodoro)?",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "INODORO DE USO PRIVADO",
+        "2": "INODORO DE USO COMPARTIDO",
+        "3": "LETRINA USO PRIVADO",
+        "4": "LETRINA USO COMPARTIDO",
+        "5": "NO TIENE"
+      }
+    },
+    {
+      "name": "TIPO_VIVIENDA",
+      "label": "Tipo de Vivienda",
+      "type": "",
+      "table": "TNFT_VIVIENDAS",
+      "value_codes": {
+        "1": "CASA INDIVIDUAL QUE NO COMPARTE PAREDES",
+        "2": "CASA INDIVIDUAL QUE COMPARTE PAREDES",
+        "3": "CASA INDIVIDUAL QUE COMPARTE PAREDES Y AREAS COMUNES",
+        "4": "APARTAMENTO EN EDIFICIO CON ASCENSOR",
+        "5": "APARTAMENTO EN EDIFICIO SIN ASCENSOR",
+        "6": "LOCAL NO CONSTRUIDO PARA VIVIENDAS",
+        "7": "ANEXO O APARTAMENTO EN CASA INDIVIDUAL",
+        "8": "CASA DE VECINDAD, CUARTERIA, BARRANCONES",
+        "99": "OTRO (ESPECIFIQUE)"
+      }
+    }
+  ],
+  "decode_notes": [
+    "Source: Diccionario.xlsx (1 sheet(s))",
+    "Sheet 'Sheet1': DOM_ENFT layout, 11793 rows",
+    "  → 262 variables extracted"
+  ]
+}

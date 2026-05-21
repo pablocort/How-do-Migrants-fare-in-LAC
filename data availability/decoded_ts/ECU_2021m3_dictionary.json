@@ -1,0 +1,1094 @@
+{
+  "iso3": "ECU",
+  "survey": "ENEMDU",
+  "period": "m3",
+  "year": 2021,
+  "source_files": [
+    "enero-marzo 2021_diccionario_enemdu_personas.xlsx"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [
+    "Diccionario de variables",
+    "Definición de campos"
+  ],
+  "variables": [
+    {
+      "name": "area",
+      "label": "Area",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "upm",
+      "label": "Identificador de Unidad Primaria de Muestreo",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p01",
+      "label": "Persona",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p02",
+      "label": "Sexo",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p03",
+      "label": "¿Cuánto años cumplidos tiene (…)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p04",
+      "label": "¿ Qué relación de parentesco tiene (…) con el jefe del hogar?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p05a",
+      "label": "¿(…) está afiliado o cubierto por?\nAltern. 1",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p05b",
+      "label": "¿(…) está afiliado o cubierto por?\nAltern. 2",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p06",
+      "label": "¿Cuál es el estado civil o conyugal actual?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p07",
+      "label": "¿Asiste (…)actualemente a clases?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p08",
+      "label": "¿(…) asiste a la jornada de:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p08a",
+      "label": "¿A qué modalidad de estudio asiste (…)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p09",
+      "label": "¿Cuál es la razón principal para que (…) no asista actualmente a la escuela, colegio o universidad:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p10a",
+      "label": "¿Cuál es el nivel de instrucción y año más alto que aprobó (...)? NIVEL",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p10b",
+      "label": "¿Cuál es el nivel de instrucción y año más alto que aprobó (...)? AÑO APROBADO",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p11",
+      "label": "¿Sabe (…) leer y escribir?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p12a",
+      "label": "¿Por los estudios realizados (…) obtuvo algún título superior?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p12b",
+      "label": "¿Por los estudios realizados (…) obtuvo algún título superior? ¿Qué título obtuvo?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p15",
+      "label": "¿Cómo se identifica (…) según su cultura y costumbres:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p15aa",
+      "label": "¿Donde nació (…):",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p15ab",
+      "label": "¿Donde nació (…): Provincia/País, Cantón, Parroquia",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "cod_inf",
+      "label": "Registre el código de la persona que informa",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p20",
+      "label": "¿Qué hizo (...) la semana pasada:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p21",
+      "label": "¿Realizó (…) la semana pasada alguna actividad dentro o fuera de su casa para ayuda al mentenimiento del hogar, tal como:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p22",
+      "label": "¿Aunque (…) no haya trabajado la semana pasada, tiene algún trabajo o negocio al que seguro va a volver?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p23",
+      "label": "¿Por qué razón (…) no trabajó la semana pasada?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p231",
+      "label": "¿Esta razón está relacionada a la emergencia sanitaria COVID 19?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p232",
+      "label": "Durante el tiempo de ausencia del trabajo, ¿continua(o) (...) recibiendo algún ingreso?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p233",
+      "label": "Desde que dejó de trabajar hasta que espera regresar ¿Cuánto tiempo estará (...) ausente:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p24",
+      "label": "¿Cuántas horas trabajó (…) la semana pasada o la última semana que trabajó?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p25",
+      "label": "¿Por qué razón (…) trabajó menos de 40 horas:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p251",
+      "label": "¿Esta razón esta relacionada a la emergencia sanitaria COVID 19?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p26",
+      "label": "¿Por qué razón (…) trabajó la semana pasada 40 horas o más?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p27",
+      "label": "Tomando en cuenta el número de horas trabajadas la semana pasada o la última semana que trabajó ¿desearía (…):",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p28",
+      "label": "¿Esta disponible (…) para trabajar horas adicionales a la semana?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p29",
+      "label": "¿Cuántas horas adicionales a la semana estaría (…) disponible para trabajar?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p30",
+      "label": "¿En las últimas cuatro semanas ha realizado (…) alguna gestión para aumentar la horas de trabajo o cambiar de trabajo, tal como:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p31",
+      "label": "¿Cuál es la razón por la que (…) busca cambiar la situación actual de su trabajo?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p32",
+      "label": "¿Durante las últimas cuatro semanas (…) hizo alguna gestión para buscar trabajo tal como:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p33",
+      "label": "¿Hace cuánto tiempo busca trabajo (…)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p34",
+      "label": "¿ Por qué razón no busco trabajo (…):",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p341",
+      "label": "¿Esta razón está realizada a la emergencia sanitaria COVID 19?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p35",
+      "label": "¿(…) esta disponible para trabajar?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p351",
+      "label": "¿Esta razón está realizada a la emergencia sanitaria COVID 19?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p36",
+      "label": "¿(…) es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p37",
+      "label": "¿Trabajó (…) anteriormente?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p38",
+      "label": "¿Por qué motivos dejó de trabajar (…)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p381",
+      "label": "¿Esta razón está realizada a la emergencia sanitaria COVID 19?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p39",
+      "label": "¿Hace cuánto tiempo (…) no trabaja?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p40",
+      "label": "¿A qué se dedica principalmente la empresa o negocio donde trabaja(ba) (…)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p41",
+      "label": "¿En relación a su ocupación, qué trabajo realiza(ba) (…)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p42",
+      "label": "¿En esta ocupación (…) es o era:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p42a",
+      "label": "¿Usted es socio de cooperativa o asociación?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p43",
+      "label": "El trabajo que tiene (…) es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p44a",
+      "label": "¿(…) recibe por parte de su patrono o empleador: alimentación?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p44b",
+      "label": "¿(…) recibe por parte de su patrono o empleador: vivienda?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p44c",
+      "label": "¿(…) recibe por parte de su patrono o empleador: transporte?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p44d",
+      "label": "¿(…) recibe por parte de su patrono o empleador: vacaciones?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p44e",
+      "label": "¿(…) recibe por parte de su patrono o empleador: ropa de trabajo?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p44f",
+      "label": "¿(…) recibe por parte de su patrono o empleador: seguro social?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p44g",
+      "label": "¿(…) recibe por parte de su patrono o empleador: seguro médico?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p44h",
+      "label": "¿(…) recibe por parte de su patrono o empleador: guardería?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p44i",
+      "label": "¿(…) recibe por parte de su patrono o empleador: cursos de capacitación?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p44j",
+      "label": "¿(…) recibe por parte de su patrono o empleador: 13vo sueldo?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p44k",
+      "label": "¿(…) recibe por parte de su patrono o empleador: 14vo sueldo?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p45",
+      "label": "¿Cuántos años trabaja (…) como (preg. 41)?\nNro de años",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p46",
+      "label": "¿En cuál de los siguientes sitios o lugares trabaja (…):",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p47a",
+      "label": "¿Cuántas personas trabajan usualmente en la empresa o negocio? Cod",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p47b",
+      "label": "¿Cuántas personas trabajan usualmente en la empresa o negocio? Cuántas",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p48",
+      "label": "¿El establecimiento o lugar donde trabaja (…) lleva:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p49",
+      "label": "¿El establecimiento o lugar donde trabaja (…) tiene Registro Único de Contribuyentes RUC?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p50",
+      "label": "¿Cuántos trabajos tuvo (…) en la semana pasada?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p51a",
+      "label": "¿Cuántas horas trabaja (…) habitualmente a la semana en su: Ocupación Principal?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p51b",
+      "label": "¿Cuántas horas trabaja (…) habitualmente a la semana en su: Ocupación Secundaria?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p51c",
+      "label": "¿Cuántas horas trabaja (…) habitualmente a la semana en su: Otras ocupaciones?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p52",
+      "label": "¿A qué se dedica principalmente la empresa, negocio, establecimiento, institución o finca donde trabaja (…)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p53",
+      "label": "¿En relación a su ocupación, qué trabajo realiza (…)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p54",
+      "label": "¿En esta ocupación (…) es:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p54a",
+      "label": "¿Usted es socio de cooperativa o asociación?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p55",
+      "label": "¿En cuál de los siguientes sitios o lugares trabaja (…):",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p56a",
+      "label": "¿Cuántas personas trabajan usualmente en la empresa o \nnegocio? Cod.",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p56b",
+      "label": "¿Cuántas personas trabajan usualmente en la empresa o \nnegocio? Cuántas?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p57",
+      "label": "¿El establecimiento o lugar donde trabaja (…) lleva:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p58",
+      "label": "¿El establecimiento o lugar donde trabaja (…) tiene Registro Único de Contribuyentes RUC?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p59",
+      "label": "¿Cómo se siente (……….) en su trabajo:",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p60a",
+      "label": "¿El motivo del descontento es: Por tener ingresos bajos?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p60b",
+      "label": "¿El motivo del descontento es: Por muchas horas de trabajo?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p60c",
+      "label": "¿El motivo del descontento es: Por horarios de trabajo inconveniente?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p60d",
+      "label": "¿El motivo del descontento es: Por excesiva carga de trabajo en horarios normales?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p60e",
+      "label": "¿El motivo del descontento es: Por no tener estabilidad laboral?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p60f",
+      "label": "¿El motivo del descontento es: Por trabajar en un ambiente perjudicial o con materiales dañinos para su salud?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p60g",
+      "label": "¿El motivo del descontento es: Por trabajar en la calle?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p60h",
+      "label": "¿El motivo del descontento es: Por trabajar con herramientas o maquinaria que le puedan provocar accidentes (andamio, grúas, guillotina, etc.)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p60i",
+      "label": "¿El motivo del descontento es: Por las actividades o tareas que realiza?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p60j",
+      "label": "¿El motivo del descontento es: Por las pocas posibilidades de progresar?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p60k",
+      "label": "¿El motivo del descontento es: Por el ambiente de trabajo (malas relaciones entre compañeros o jefes)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p61b1",
+      "label": "¿A cuál de las siguientes formas de seguridad social aporta actualmente (…):",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p63",
+      "label": "En el mes de ENERO ¿cuál fue el monto en dinero que recibió (…) por la venta de los productos, bienes o servicios de su negocio o establecimiento? \nMonto",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p64a",
+      "label": "En el mes de ENERO ¿retiró de su negocio o tomó de lo que produce o vende, bienes, servicios o productos para el consumo del hogar? \nCod.",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p64b",
+      "label": "En el mes de ENERO ¿retiró de su negocio o tomó de lo que produce o vende, bienes, servicios o productos para el consumo del hogar?  \nMonto",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p65",
+      "label": "En el mes de ENERO ¿cuánto gastó para el funcionamiento de su negocio en: compra de mercadería, pago de mano de obra, insumos o materia prima de los productos que vende, produce o los servicios que ofrece?\nMonto",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p66",
+      "label": "En el mes de ENERO en su ocupación como (…) ¿cuánto dinero líquido recibió por concepto de sueldo o salario y otros ingresos?\nMonto",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p67",
+      "label": "En el mes de ENERO ¿cuánto le descontaron en total por las aportaciones al IESS, impuesto a la renta, comisariatos, almacenes, cooperativas, asociaciones, etc.? \nMonto",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p68a",
+      "label": "En el mes de ENERO además de su ingreso monetario ¿recibió por su trabajo especies o servicios tales como: alimentos, vivienda, vestido, etc.?\nCod.",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p68b",
+      "label": "En el mes de ENERO además de su ingreso monetario ¿recibió por su trabajo especies o servicios tales como: alimentos, vivienda, vestido, etc.?\nMonto",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p69",
+      "label": "En su (s) otra (s) ocupación (es), ¿cuál fue su ingreso monetario total, ya sea como asalariado o por concepto de ganancia en el mes de ENERO?\nMonto",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p70a",
+      "label": "En su (s) otra (s) ocupación (es) ¿recibió por su trabajo pago en especies o retiró del negocio o producción bienes o productos para el consumo del hogar, en el mes de ENERO?\nCod.",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p70b",
+      "label": "En su (s) otra (s) ocupación (es) ¿recibió por su trabajo pago en especies o retiró del negocio o producción bienes o productos para el consumo del hogar, en el mes de ENERO?\nMonto",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p71a",
+      "label": "¿Recibió en el mes de ENERO ingresos por concepto de intereses por: cuenta de ahorros, corrientes, préstamos a terceros, hipotecas; bonos por acciones; arriendo de casas, edificios, terrenos, maquinaria, etc.?\nCod.",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p71b",
+      "label": "¿Recibió en el mes de ENERO ingresos por concepto de intereses por: cuenta de ahorros, corrientes, préstamos a terceros, hipotecas; bonos por acciones; arriendo de casas, edificios, terrenos, maquinaria, etc.?\nMonto.",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p72a",
+      "label": "¿Recibió en el mes de ENERO ingresos por concepto de pensión por: jubilación, orfandad, viudez, invalidez, enfermedad, divorcio, cesantía, etc.?\nCod",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p72b",
+      "label": "¿Recibió en el mes de ENERO ingresos por concepto de pensión por: jubilación, orfandad, viudez, invalidez, enfermedad, divorcio, cesantía, etc.?\nMonto",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p73a",
+      "label": "¿Recibió en el mes de ENERO dinero o especies por regalos o donaciones de personas o instituciones que vivan dentro del país ?\nCod.",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p73b",
+      "label": "¿Recibió en el mes de ENERO dinero o especies por regalos o donaciones de personas o instituciones que vivan dentro del país ?\nMonto",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p74a",
+      "label": "¿Recibió en el mes de ENERO dinero o especies enviado por parte de familiares o amigos que vivan en el exterior?\nCód.",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p74b",
+      "label": "¿Recibió en el mes de ENERO dinero o especies enviado por parte de familiares o amigos que vivan en el exterior?\nMonto",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p75",
+      "label": "¿Recibe el BONO DE DESARROLLO HUMANO?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p76",
+      "label": "¿Cuánto recibió en el mes de ENERO por el BONO o PENSIÓN?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p77",
+      "label": "¿Recibe el BONO POR EL CUIDADO BRINDADO A UNA PERSONA DISCAPACITADA DEL HOGAR?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "p78",
+      "label": "¿Cuánto recibió en el mes de ENERO por el BONO DE DISCAPACIDAD JOAQUÍN GALLEGOS LARA?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd01",
+      "label": "Durante la semana pasada, ¿realizó usted algún trabajo por paga o para obtener ganancias?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd021",
+      "label": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: Estudió o estuvo capacitándose?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd022",
+      "label": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: Hizo actividades de esparcimiento (deporte)?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd023",
+      "label": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: Realizó alguna gestión para buscar trabajo?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd024",
+      "label": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: Ayudó o se dedicó a otras labores del hogar o la familia?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd025",
+      "label": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: Ayudó como voluntario/a?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd026",
+      "label": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: Realizó trabajo agrícola, cría animales o pesca?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd027",
+      "label": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: Realizó manualidades o tejidos para la venta?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd028",
+      "label": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: Ayudó en algún negocio familiar?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd029",
+      "label": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: Dio clases particulares, tareas dirigidas pagadas?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd0210",
+      "label": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: Realizó venta de algún producto por internet, catalogo o venta directa?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd0211",
+      "label": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: Otro?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "sd03",
+      "label": "¿El principal motivo por el que usted está sin trabajo es?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "ced01a",
+      "label": "¿Tiene (...) Cédula de Identidad o Ciudadania Ecuatoriana?",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "estrato",
+      "label": "Estrato",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "fexp",
+      "label": "Factor de expansión",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "ingrl",
+      "label": "Ingreso Laboral",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "condact",
+      "label": "Condición de actividad Nueva",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "secemp",
+      "label": "Sectores de los Empleados (clasificación para >= 15 años)",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "empleo",
+      "label": "Población con empleo",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "desempleo",
+      "label": "Población con desempleo",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "grupo1",
+      "label": "Grupo de Ocupación CIUO8 (población ocupada de 15 años y más)",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "rama1",
+      "label": "Rama de Actividad CIIU4 (población ocupada de 15 años y más)",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "nnivins",
+      "label": "Nivel de instrucción",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "dominio",
+      "label": "Dominios",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "periodo",
+      "label": "Periodo",
+      "type": "",
+      "table": "Diccionario de variables",
+      "value_codes": {}
+    },
+    {
+      "name": "CODIGO DE LA VARIABLE",
+      "label": "Representa al conjunto independiente de letras, números o símbolos que constituyen un concepto, cuyo significado se describe en un lenguaje natural o común dentro de la base de datos o archivo de datos, y es un identificador único que define a una variable.",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "NOMBRE DE LA VARIABLE",
+      "label": "Es el nombre con el cual se identifica a la variable de acuerdo al marco conceptual y metodológico de la operación estadística o registro administrativo. Considerar que en algunos paquetes estadísticos como el SPSS el nombre de la variable es igual a la Etiqueta de la variable.",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "PREGUNTA",
+      "label": "Es el enunciado interrogativo asociado a una variable (pregunta en el formulario de un censo, encuesta o en el registro administrativo) que se realiza con la intención de conocer algo u obtener alguna información relevante referente a la unidad de observación.",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "TIPO DE VARIABLE",
+      "label": "Determina la clasificación que tienen las variables de acuerdo a la función que cumplen en los instrumentos de recolección/captación de la información (cuestionario o registro administrativo).  \n \n*Variable identificadora: Es aquella que contiene datos que permita la identificación directa de la unidad de observación dentro de la operación estadística o que permitir realizar asociaciones entre distintas bases o fuentes de datos provenientes de registros administrativos. Se incluyen tanto claves primarias  como claves externas . Por ejemplo: número cédula, Registro Único de Contribuyente – RUC, clave catastral, número de establecimiento; en esta categoría también caben variables de identificación auxiliares tales como: nombres y apellidos, razón social, nombre comercial, entre otras.\n*Variable de comunicación: Es aquella que permite el contacto directo con la unidad de observación dentro de la operación estadística o registro administrativo. Tales como: correo electrónico, número telefónico, entre otros.\n*Variable cronológica: Es aquella que indica el momento de ocurrencia de un evento o fenómeno. Por ejemplo: fecha de nacimiento, año de creación de la empresa, fecha de cambio de domicilio, entre otros. \n*Variable estadística cualitativa (categórica): Es aquella cuyos valores expresan distintas cualidades, características o modalidades, donde cada modalidad que se presenta se denomina atributo  o categoría de la unidad de observación. Ejemplo: sexo, estado civil, nivel de instrucción, entre otros.\n*Variable estadística cuantitativa (discreta o continua): Es aquella cuyos valores expresa en cantidades numéricas, es decir permiten medir, pesar o contar información de las unidades de observación dentro de una operación estadística o registro administrativo. Por ejemplo Ingreso/ventas mensuales, edad, número de hijos, número de trabajadores, entre otros.\n*Variable técnica: Hace referencia a aquella variable que ha sido creada o sirve  para el procesamiento o análisis de los datos. A menudo contiene comentarios para tener el historial o trazabilidad de los cambios aplicados a otras variables. Por ejemplo código de error, validación de identificadores, identificador de crítico – codificador, entre otras.",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "FORMATO DEL DATO",
+      "label": "Se refiere a la característica o cualidad del dato o valor que va a manejar o almacenar la variable, de acuerdo a la metodología y/o naturaleza de la operación estadística y en función del tipo de dato.\n*Texto o Alfanumérico: Este tipo de formato aplicará cuando la variable contenga datos expresados en letras o la combinación de letras y números; este formato puede contener un máximo de 255 caracteres de longitud. Por ejemplo: Nombre: Javier, Nombre:   JAVIER, Nombre: JAVIER AYALA, Nombre: Javier Ayala.\n*Numérico: pueden contener cualquier número y estarán expresados y/o almacenados en números enteros o de punto flotante (decimales). \n*Fecha: este tipo de formato expresa el tiempo, determinado por el año, mes y día en que se hace u ocurre un evento, dependiendo de cada operación estadística pueden existir formatos tales como: (yyyy-mm-dd; dd-mm-yyyy; mm-dd-yyyy; mm-dd-yy; yyyy/mm/dd; dd/mm/yyyy). Sin embargo por convencionalismo y de acuerdo a la ISO 8601 se debería escribir la fecha (YYYY-MM-DD).\n*Categórico: son datos que expresan categorías ya sea que obedezcan o no a una clasificación ordenada y específica. Por ejemplos: región, código postal o religión, etnia, los niveles de satisfacción con un servicio, que van desde muy insatisfecho hasta muy satisfecho, nivel de instrucción.",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "Fuente:",
+      "label": "Instructivo de llenado del Inventario de Variables Institucional 2018",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    },
+    {
+      "name": "Elaborado por:",
+      "label": "DINCE",
+      "type": "",
+      "table": "Definición de campos",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: enero-marzo 2021_diccionario_enemdu_personas.xlsx (2 sheet(s))",
+    "Sheet 'Diccionario de variables': UNKNOWN layout — best-effort extraction",
+    "  → 146 variables (best-effort — verify manually)",
+    "Sheet 'Definición de campos': UNKNOWN layout — best-effort extraction",
+    "  → 7 variables (best-effort — verify manually)"
+  ]
+}

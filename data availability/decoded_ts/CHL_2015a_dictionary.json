@@ -1,0 +1,4059 @@
+{
+  "iso3": "CHL",
+  "survey": "CASEN",
+  "period": "a",
+  "year": 2015,
+  "source_files": [
+    "Libro_de_Codigos_Casen_2015.pdf"
+  ],
+  "doc_type": "DICT_PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "regional no superaba 35% (salvo en la Región de Magallanes).",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "el año 2013.",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "máximo de 37,8% en la región de Aysén).",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "Vivienda.",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "folio",
+      "label": "Identificación Hogar\n((comuna area seg viv\nhogar))",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o",
+      "label": "Orden personas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "id_vivienda",
+      "label": "Identificación de Vivienda\n(Región com area seg viv)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "region",
+      "label": "Región",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "provincia",
+      "label": "Provincia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "comuna",
+      "label": "Comuna",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "zona",
+      "label": "Zona",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hogar",
+      "label": "Identificación de Hogar en la\nVivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "car",
+      "label": "Comunas\nauto_representadas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "varstrat",
+      "label": "Estrato de varianza",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "varunit",
+      "label": "Conglomerado de varianza",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fecha_d_a",
+      "label": "fecha entrevista (día)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fecha_mes",
+      "label": "fecha entrevista (mes)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "fecha_a_o",
+      "label": "fecha entrevista (año)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "expr",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "expc",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "expr_div",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tot_hog",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tot_par",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tot_nuc",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "tot_per",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pres",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "marca",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pco1",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "sexo",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "edad",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ecivil",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "h5l",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "h5h",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pareja",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "nucleo",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pco2",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "numper",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e1",
+      "label": "¿Sabe leer y\nescribir?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e2a",
+      "label": "Actualmente, ¿se\nencuentra\nparticipando en\nalgún programa de\nnivelación de\nestudios dirigido a\npersonas que no\ncompletaron la\nenseñanza básica o\nmedia?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e2b",
+      "label": "¿Asiste a Nivelación\nde Estudios Básicos\no Medios?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e2c",
+      "label": "¿Asiste bajo\nmodalidad regular o\nflexible?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e3",
+      "label": "Actualmente ¿asiste\na algún\nestablecimiento\neducacional, jardín\ninfantil, sala cuna u\notro programa\npreescolar no\nconvencional?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e4",
+      "label": "¿Cuál es la principal\nrazón por la cual no\nasiste actualmente\na un jardín infantil,\nsala cuna,\nprograma\npreescolar no\nconvencional o",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e4_esp",
+      "label": "¿Cuál es la principal\nrazón por la cual no\nasiste actualmente\na un jardín infantil,\nsala cuna,\nprograma\npreescolar no\nconvencional o\nalgún\nestablecimiento\neducacional?\nEspecifique",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e5a",
+      "label": "¿Cuál es la principal\nrazón por la cual no\nasiste actualmente\na algún\nestablecimiento\neducacional?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e5a_es\np",
+      "label": "¿Cuál es la principal\nrazón por la cual no\nasiste actualmente\na algún\nestablecimiento\neducacional?\nEspecifique",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e5b",
+      "label": "¿Cuándo fue la\núltima vez que\nasistió a algún\nestablecimiento\neducacional?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e6a",
+      "label": "¿Cuál es el nivel\nmás alto alcanzado\no el nivel\neducacional actual?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e6b",
+      "label": "En ese nivel\neducacional, ¿cuál\nfue el último curso\nque aprobó (para\nlos que no están\nestudiando) o que\ncursa actualmente\n(para los que están\nestudiando)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e6c_cod",
+      "label": "¿Cuál es el nombre\nde la carrera o\nprograma de\nestudios? (cod)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e6c",
+      "label": "¿Cuál es el nombre\nde la carrera o\nprograma de\nestudios?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e6d",
+      "label": "¿En qué tipo de\ninstitución realizó su\neducación superior?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e7nom",
+      "label": "Indique el\nestablecimiento\neducacional, sala\ncuna o jardín\ninfantil al cual asiste\nactualmente (Año\n2015): Nombre",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e7dir",
+      "label": "Indique el\nestablecimiento\neducacional, sala\ncuna o jardín\ninfantil al cual asiste\nactualmente (Año\n2015): Dirección",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e7rbd",
+      "label": "Rol base de datos\nMineduc",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e7dv",
+      "label": "Dígito Verificador\n(Rol base de datos\nMineduc)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e7depe\nn",
+      "label": "Dependencia del\nestablecimiento\n(Mineduc)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e7te",
+      "label": "Tipo de enseñanza",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e7rbd_s\nup",
+      "label": "Rol base de datos\nmineduc superior",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e7sup_\ngratuid\nad",
+      "label": "Gratuidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e7com_\ncod",
+      "label": "Códigos de Comuna\ndel establecimiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e7com",
+      "label": "Comuna del\nestablecimiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e8",
+      "label": "¿Cuál es la\ndependencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e9",
+      "label": "¿A qué jornada\nasiste\nregularmente?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e10a",
+      "label": "En el año escolar\n2015, ¿recibe\nalimentación\ngratuita...?:\nDesayuno",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e10b",
+      "label": "En el año escolar\n2015, ¿recibe\nalimentación\ngratuita...?:\nAlmuerzo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e10c",
+      "label": "En el año escolar\n2015, ¿recibe\nalimentación\ngratuita..?: Once",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e10d",
+      "label": "En el año escolar\n2015, ¿recibe\nalimentación\ngratuita...?:\nColación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e10e",
+      "label": "En el año escolar\n2015, ¿ha recibido\ntarjeta JUNAEB para",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e11a",
+      "label": "En el año escolar\n2015, ¿ha recibido o\nrecibió alguna beca?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e11bt1",
+      "label": "¿Ha recibido o\nrecibió algunas de\nestas becas? Beca 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e11bt1\n_esp",
+      "label": "Otra beca.\nEspecifique. Beca 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e11bt2",
+      "label": "¿Ha recibido o\nrecibió algunas de\nestas becas? Beca 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e11bt2\n_esp",
+      "label": "Otra beca.\nEspecifique. Beca 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12pbu",
+      "label": "e12pbt. Textos\nescolares (Ed.\nparvularia)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12pbt",
+      "label": "e12pbt. Textos\nescolares (Ed.\nparvularia)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12pbd",
+      "label": "e12pbd. Atención\ndental escolar (Ed.\nparvularia)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12pbm",
+      "label": "e12pbm. Atención\nmédica escolar (Ed.\nparvularia)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12bu",
+      "label": "e12bu. Útiles\nescolares (Ed.\nbásica)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12bt",
+      "label": "e12bt. Textos\nescolares (Ed.\nbásica)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12bd",
+      "label": "e12bd. Atención\ndental escolar (Ed.\nbásica)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12bm",
+      "label": "e12bm. Atención\nmédica escolar (Ed.\nbásica)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12bpc",
+      "label": "e12bpc. PC 7°\nBásico",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12mu",
+      "label": "e12mu. Útiles\nescolares (Ed.\nmedia)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12mt",
+      "label": "e12mt. Textos\nescolares (Ed.\nmedia)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12md",
+      "label": "e12md. Atención\ndental escolar (Ed.\nmedia)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e12mm",
+      "label": "e12mm. Atención\nmédica escolar (Ed.\nmedia)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e13a",
+      "label": "En el año escolar\n2015, ¿paga\ncolegiatura o\nfinanciamiento\ncompartido?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e13b",
+      "label": "¿Cuánto paga\nmensualmente?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e14",
+      "label": "En el año escolar\n2015, ¿cuánto\ncuesta\nmensualmente la\ncarrera que\nestudia?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e15a",
+      "label": "En el año escolar\n2015, ¿cuánto paga\nmensualmente por\nla carrera que\nestudia?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e15b",
+      "label": "¿Quién responde la\npregunta e15.a?\n(Registre número",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e16t1",
+      "label": "En el año escolar\n2015, ¿recibe\nalguno de los\nsiguientes créditos\nuniversitarios...?\nTipo 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e16t2",
+      "label": "En el año escolar\n2015, ¿recibe\nalguno de los\nsiguientes créditos\nuniversitarios...?\nTipo 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "e0",
+      "label": "¿Quién (o quienes)\nresponde(n) el\nmódulo Educación?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "asiste",
+      "label": "Asiste",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ESC",
+      "label": "Escolaridad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "educ",
+      "label": "Nivel Educacional",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "depen",
+      "label": "Dependencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o1",
+      "label": "La semana pasada,\n¿trabajó al menos\nuna hora, sin\nconsiderar los\nquehaceres del\nhogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o2",
+      "label": "Aunque no trabajó\nla semana pasada,\n¿realizó alguna\nactividad por lo\nmenos durante una\nhora…?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o3",
+      "label": "Aunque no trabajó\nla semana pasada,\n¿tenía algún\nempleo, negocio u\notra actividad...?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o4",
+      "label": "¿Ha trabajado\nalguna vez?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o5",
+      "label": "Si le ofrecieran un\ntrabajo, ¿estaría\ndisponible para\ncomenzar a\ntrabajar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o6",
+      "label": "¿Buscó trabajo\nremunerado o\nrealizó alguna\ngestión para iniciar\nuna actividad por\ncuenta propia\n(negocio o\nempresa) en las\núltimas cuatro\nsemanas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o7r1",
+      "label": "¿Cuál es la razón o\nrazones...? Razón 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o7r2",
+      "label": "¿Cuál es la razón o\nrazones...? Razón 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o8",
+      "label": "¿Cuántas semanas\nbuscó o ha estado\nbuscando trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o9a",
+      "label": "¿Cuál es su\nocupación u oficio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o9b",
+      "label": "¿Qué hace usted en\nsu trabajo o negocio\nprincipal?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "oficio4",
+      "label": "Oficio u ocupación",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "oficio1",
+      "label": "Oficio u ocupación\n(Código 1 dígito)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o10",
+      "label": "¿Cuántas horas\ntrabaja\nhabitualmente por\nsemana en su",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o11",
+      "label": "¿Ud. está dispuesto\na trabajar más\nhoras a la semana?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o12",
+      "label": "¿Su trabajo o\nnegocio principal es\nde tipo…?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o13",
+      "label": "¿Desde qué año\ntiene su trabajo o\nnegocio principal?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o14",
+      "label": "En su trabajo o\nnegocio principal,\n¿usted da boleta?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o15",
+      "label": "En su trabajo o\nnegocio principal,\n¿usted trabaja\ncomo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o16",
+      "label": "En su trabajo\nprincipal, ¿qué tipo\nde contrato o\nacuerdo de trabajo\ntiene…?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o17",
+      "label": "En su trabajo\nprincipal, ¿tiene\ncontrato de trabajo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o18",
+      "label": "Según su contrato\nde trabajo o el\nacuerdo con su\nempleador, ¿su\njornada de trabajo\nnormal es…?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o19",
+      "label": "¿Qué tipo de horario\ntiene en su trabajo\nactual?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o20",
+      "label": "¿Con quién firmó su\ncontrato o\nestableció su\nacuerdo de trabajo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o21",
+      "label": "¿A qué se dedica o\nqué hace el\nnegocio, empresa o\ninstitución que le\npaga?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o22",
+      "label": "¿A qué se dedica o\nqué hace el\nnegocio, empresa o\ninstitución donde\nusted trabaja?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "rama4_\nsub",
+      "label": "¿A qué se dedica o\nqué hace el\nnegocio, empresa o\ninstitución que le\npaga? (Código 4\ndígitos)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "rama1_\nsub",
+      "label": "¿A qué se dedica o\nqué hace el\nnegocio, empresa o\ninstitución que le\npaga? (Código 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "rama4",
+      "label": "¿A qué se dedica o\nqué hace el\nnegocio, empresa o\ninstitución donde\nusted trabaja?\n(Código 4 dígitos)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "rama1",
+      "label": "¿A qué se dedica o\nqué hace el\nnegocio, empresa o\ninstitución donde\nusted trabaja?\n(Código 2 dígitos)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o23",
+      "label": "¿Cuántas personas\ntrabajan en total en\nese negocio,\nempresa o\ninstitución en Chile?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o24a",
+      "label": "¿En su empleo\nprincipal,\npertenece...? a)\nSindicato",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o24b",
+      "label": "¿En su empleo\nprincipal,\npertenece...? b)\nAsociación de\nfuncionarios",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o24c",
+      "label": "¿En su empleo\nprincipal,\npertenece...? c)\nAsociación gremial\nsectorial",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o24d",
+      "label": "¿En su empleo\nprincipal,\npertenece...? d)\nColegio profesional",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o25a_h\nr",
+      "label": "En un día habitual,\n¿cuánto tiempo en\ntotal tarda...? Horas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o25a_m\nin",
+      "label": "En un día habitual,\n¿cuánto tiempo en\ntotal tarda...?\nMinutos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o25b",
+      "label": "¿Cuántas veces a la\nsemana realiza este",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o25c",
+      "label": "¿Qué medio de\ntransporte utiliza\nhabitualmente para\nrealizar este viaje?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o26",
+      "label": "En el último mes,\n¿tuvo otros\ntrabajos, empleos,\nactividades o\nnegocios además de\nsu trabajo o negocio\nprincipal?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o27",
+      "label": "Considere el trabajo\nsecundario que le\nreporta mayores\ningresos mensuales.\nEn ese trabajo\nsecundario, ¿usted\ntrabaja como…",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o28",
+      "label": "¿Se encuentra\nafiliado a algún\nsistema previsional\n(sistema de\npensiones)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o29",
+      "label": "¿Cotizó durante el\nmes pasado en\nalgún sistema\nprevisional (sistema\nde pensiones)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o29_es\np",
+      "label": "¿En qué otro\nsistema previsional\n(sistema de\npensiones) cotizó?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o30",
+      "label": "En los últimos 12\nmeses, ¿ha\nparticipado o\nparticipa\nactualmente en\nalguna capacitación\nlaboral de a lo\nmenos 8 horas de\nduración?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "o0",
+      "label": "¿Quién (o quienes)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "activ",
+      "label": "Condición de\nactividad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ch1",
+      "label": "Chequeo de situación\nocupacional",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y1",
+      "label": "En el mes pasado, ¿cuál fue\nsu sueldo o salario líquido\nen su trabajo principal?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y2d",
+      "label": "En el mes pasado, ¿a\ncuántos días pactados con\nsu empleador correspondió\nese sueldo o salario? Días",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y2h",
+      "label": "En el mes pasado, ¿a\ncuántas horas pactadas con\nsu empleador correspondió\nese sueldo o salario? Horas",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3a",
+      "label": "¿Recibió el mes pasado\ningresos por horas\nextras...? (Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3ap",
+      "label": "¿Y con qué periodicidad\nrecibió estos ingresos por\nhoras extras? (P)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3b",
+      "label": "¿Recibió el mes pasado\ningresos por comisiones...?\n(Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3bp",
+      "label": "¿Y con qué periodicidad\nrecibió estos ingresos por\ncomisiones? (P)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3c",
+      "label": "¿Recibió el mes pasado\ningresos por propinas...?\n(Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3cp",
+      "label": "¿Y con qué periodicidad\nrecibió estos ingresos por\npropinas? (P)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3d",
+      "label": "y3d. ¿Recibió el mes\npasado ingresos por\nasignaciones por vivienda,\ntransporte, educación de\nlos hijos y semejantes...?\n(Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3dp",
+      "label": "¿Y con qué periodicidad\nrecibió estos ingresos por\nasignaciones por vivienda,\ntransporte, educación de\nlos hijos y semejantes? (P)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3e",
+      "label": "¿Recibió el mes pasado\ningresos por viáticos no\nsujetos a rendición?\n(Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3ep",
+      "label": "¿Y con qué periodicidad\nrecibió estos ingresos por\nviáticos no sujetos a\nrendición? (P)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3f",
+      "label": "¿Recibió el mes pasado\notros ingresos...? (Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3fp",
+      "label": "¿Y con qué periodicidad\nrecibió estos otros\ningresos? (P)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y3f_esp",
+      "label": "Especifique estos otros\ningresos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y4a",
+      "label": "En los últimos 12 meses,\n¿recibió bonificaciones o\naguinaldos y otras\nasignaciones especiales?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y4b",
+      "label": "En los últimos 12 meses,\n¿recibió gratificaciones?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y4c",
+      "label": "En los últimos 12 meses,\n¿recibió sueldo adicional\npor sobre la remuneración\nmensual (Décimo tercer",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y4d",
+      "label": "En los últimos 12 meses,\n¿recibió otros ingresos\nsimilares?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y4d_esp",
+      "label": "Especifique estos otros\ningresos similares",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5a",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal\nalimentos y bebidas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5b",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal vales\nde alimentación?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5c",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal\nvivienda o alojamiento?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5d",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal\nvehículo para uso privado?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5e",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal servicio\nde transporte?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5f",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal\nestacionamiento gratuito?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5g",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal\nteléfono?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5h",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5i",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal\nservicios de guardería o\nsala cuna?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5j",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal leña u\notro tipo de combustible de\nuso doméstico?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5k",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal bienes\no servicios producidos por\nel empleador?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y5l",
+      "label": "El mes pasado, ¿recibió en\nsu trabajo principal otros\nbeneficios similares?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ch2",
+      "label": "Chequeo de ocupación\nsecundaria",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y6",
+      "label": "El mes pasado, ¿cuál fue el\ningreso líquido total, que\nUd. recibió por otro u otros\ntrabajos u ocupaciones\nademás de su ocupación\nprincipal? Considere\ningresos en dinero y en\nespecies",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y7",
+      "label": "¿Cuánto dinero retiró el\nmes pasado de su negocio\no actividad para sus gastos\npropios o de su hogar?\nIncluya su propio sueldo si\nlo tiene",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y8",
+      "label": "El mes pasado, ¿cuánto\nretiró en productos de su\nnegocio o actividad para",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y9",
+      "label": "Durante los últimos 12\nmeses, ¿cuánto recibió Ud.\npor ganancias derivadas de\nla venta de productos\nsilvoagropecua-rios,\nmineros o pesqueros en su\nnegocio o actividad?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ch3",
+      "label": "Chequeo de ocupación\nsecundaria",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y10",
+      "label": "El mes pasado, ¿Cuál fue el\ningreso líquido total, que\nUd. recibió por otro u otros\ntrabajos u ocupaciones\nademás de su ocupación\nprincipal? Considere\ningresos en dinero y en\nespecies",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y11",
+      "label": "El mes pasado, ¿recibió\nalgún sueldo o pago por\ntrabajos, actividades o\nnegocio que Ud. haya\nrealizado ese mes?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y12a",
+      "label": "El mes pasado, ¿recibió\ningresos por arriendo de\npropiedades urbanas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y12b",
+      "label": "El mes pasado, ¿recibió\ningresos por arriendo de\nmaquinarias, animales o\nimplementos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y13a",
+      "label": "El mes pasado, ¿recibió\ningresos por pensión de\nalimentos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y13b",
+      "label": "El mes pasado, ¿recibió\ningresos por dinero\naportado por familiares",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y13c",
+      "label": "El mes pasado, ¿recibió\ningresos por dinero\naportado por familiares\najenos al hogar residentes\nfuera del país?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y14a",
+      "label": "El mes pasado, ¿recibió\ningresos por remuneración\npor trabajos ocasionales\n(No incluir los ingresos\ndeclarados en y6, y10 e\ny11)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y14b",
+      "label": "El mes pasado, ¿recibió\ningresos por trabajos\nrealizados antes del mes\nanterior?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y14c",
+      "label": "El mes pasado, ¿recibió\ningresos por seguro de\ndesempleo o de cesantía?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y15a",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por\nintereses por depósitos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y15b",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por\ndividendos por acciones o\nbonos financieros?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y15c",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por retiro\nde utilidades de empresas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y16a",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por\narriendo de propiedades\nagrícolas (tierras e\ninstalaciones)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y16b",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por\narriendo de propiedades\npor temporadas (urbanas o\nrurales)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y17",
+      "label": "En los últimos 12 meses,\n¿consumió productos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y18a",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por\nindemnización por despido\no renuncia (Finiquitos)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y18b",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por\ndonaciones de instituciones\no personas ajenas al hogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y18c",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por\ndevolución de impuestos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y18d",
+      "label": "En los últimos 12 meses,\n¿recibió otros ingresos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y18d_es\np",
+      "label": "Especifique estos otros\ningresos que recibió en los\núltimos 12 meses",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y19t",
+      "label": "El mes pasado recibió\nAsignación Familiar? Tramo",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y19n",
+      "label": "Número de asignaciones\nfamiliares que recibió",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y20a",
+      "label": "El mes pasado, ¿recibió\ningresos por Subsidio\nFamiliar al Menor o Recién\nNacido ($ 9.899)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y20b",
+      "label": "El mes pasado, ¿recibió\ningresos por Subsidio de\nAsistencia Maternal\n($98.990 por una sola vez,\nequivalente a 10 meses)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y20c",
+      "label": "El mes pasado, ¿recibió\ningresos por Subsidio\nFamiliar a la Madre ($\n9.899)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y20d",
+      "label": "El mes pasado, ¿recibió\ningresos por Subsidio\nFamiliar por Invalidez\n($19.798)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y20e",
+      "label": "El mes pasado, ¿recibió\ningresos por Subsidio a la\nDiscapacidad Mental\n($61.807)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y20am",
+      "label": "Monto Subsidio Familiar al\nMenor o Recién Nacido",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y20bm",
+      "label": "Monto Subsidio de\nAsistencia Maternal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y20cm",
+      "label": "Monto Subsidio Familiar a\nla Madre",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y20dm",
+      "label": "Monto Subsidio Familiar por\nInvalidez",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y20em",
+      "label": "Monto Subsidio a la\nDiscapacidad Mental",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y21a",
+      "label": "¿Participa su núcleo familiar\nen Chile Solidario?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y21b",
+      "label": "¿Participa su núcleo familiar\nen el Programa de Ingreso\nÉtico Familiar (Seguridades\ny Oportunidades)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y22a",
+      "label": "El mes pasado, ¿recibió\ningresos por Bono de\nProtección Familiar,\n$15.516 los 6 primeros\nmeses?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y22b",
+      "label": "El mes pasado, ¿recibió\ningresos por Bono de\nProtección Familiar,\n$11.823 entre el mes 7 y el\naño?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y22c",
+      "label": "El mes pasado, ¿recibió\ningresos por Bono de\nProtección Familiar, $ 8.127\nentre los meses 13 y 18?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y22d",
+      "label": "El mes pasado, ¿recibió\ningresos por Bono de\nProtección Familiar, $ 9.899\nentre los meses 19 y 24?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y22e",
+      "label": "El mes pasado, ¿recibió\ningresos por Bono de\nEgreso, $ 9.899 entre los\nmeses 25 y 60?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y22am",
+      "label": "Monto Bono de Protección\nFamiliar (6 primeros\nmeses)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y22bm",
+      "label": "Monto Bono de Protección\nFamiliar (mes 7 y el año)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y22cm",
+      "label": "Monto Bono de Protección\nFamiliar (meses 13 y 18)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y22dm",
+      "label": "Monto Bono de Protección\nFamiliar (meses 19 y 24)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y22em",
+      "label": "Monto Bono de Egreso",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y23a",
+      "label": "El mes pasado, ¿recibió\ningresos por Bono Base\nFamiliar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y23b",
+      "label": "El mes pasado, ¿recibió\ningresos por Bono Control\ndel Niño Sano al Día? ($\n6.000 por niño/a menor de\nseis años)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y23c",
+      "label": "El mes pasado, ¿recibió\ningresos por Bono Deberes\npor Asistencia Escolar? ($\n6.000 por niño/a y\nadolescente entre 6 y 18\naños)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y23bm",
+      "label": "Monto Bono Control del\nNiño Sano al Día",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y23cm",
+      "label": "Monto Bono Deberes por\nAsistencia Escolar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y24",
+      "label": "El mes pasado, ¿recibió\nSubsidio de Agua Potable\n(SAP)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25a",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por Aporte\nFamiliar Permanente (ex\nBono Marzo $41.236 por\ncausante)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25b",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por Bono\npor Logro Escolar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25c",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por Bono",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25d",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por Bono\nde Invierno ($55.094)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25am",
+      "label": "Monto Aporte Familiar\nPermanente",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25bm",
+      "label": "Monto Bono por Logro\nEscolar",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25cm",
+      "label": "Monto Bono Bodas de Oro",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25dm",
+      "label": "Monto Bono de Invierno",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25e",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por\nSubsidio Empleo Joven\nentre 18 y 25 años? Monto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25ep",
+      "label": "¿Y con qué periodicidad\nrecibió el Subsidio Empleo\nJoven? Periodicidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25f",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por Bono\nal Trabajo de la Mujer entre\n25 y 59 años? Monto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25fp",
+      "label": "¿Y con qué periodicidad\nrecibió el subsidio Bono al\nTrabajo de la Mujer?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25g",
+      "label": "En los últimos 12 meses,\n¿recibió ingresos por Otro\nsubsidio del Estado? Monto",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25gp",
+      "label": "¿Y con qué periodicidad\nrecibió este Otro Subsidio\ndel Estado? Periodicidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y25g_es\np",
+      "label": "Especifique por cuál otro\nsubsidio del Estado recibió\ningresos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1a",
+      "label": "El mes pasado, ¿recibió\ningresos por Pensión Básica\nSolidaria de Vejez\n($89.764)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1b",
+      "label": "El mes pasado, ¿recibió\ningresos por jubilación o\npensión de vejez con\nAporte Previsional\nSolidario?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1c",
+      "label": "El mes pasado, ¿recibió\ningresos por jubilación o\npensión de vejez?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1d",
+      "label": "El mes pasado, ¿recibió\ningresos por Pensión Básica\nSolidaria de Invalidez\n($89.764)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1e",
+      "label": "El mes pasado, ¿recibió\ningresos por jubilación o\npensión de invalidez con\nAporte Previsional\nSolidario?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1f",
+      "label": "El mes pasado, ¿recibió\ningresos por jubilación o\npensión de invalidez?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1g",
+      "label": "El mes pasado, ¿recibió\ningresos por montepío o\npensión de viudez?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1h",
+      "label": "El mes pasado, ¿recibió\ningresos por pensión de",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1i",
+      "label": "El mes pasado, ¿recibió\ningresos por pensión por\nleyes especiales\n(Exonerados políticos, Ley\nValech, Ley Rettig, Pensión\nde Gracia)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1j",
+      "label": "El mes pasado, ¿recibió\ningresos por otro tipo de\njubilación o pensión?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1je\nsp",
+      "label": "Especifique que otra\njubilación o pensión recibió",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1a\nm",
+      "label": "Monto Pensión Básica\nSolidaria de Vejez",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_2b\nm1",
+      "label": "¿Me podría indicar el monto\nde la jubilación o pensión\nde vejez (Monto 1) con\nAporte Previsional\nSolidario? Monto 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_2b\nm2",
+      "label": "¿Me podría indicar el monto\nde la jubilación o pensión\nde vejez con Aporte\nPrevisional Solidario (Monto\n2)? Monto 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_3b_\nin",
+      "label": "¿Me puede indicar qué\ninstitución pagó estos\nbeneficios? (Inst)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_4b_\nmo",
+      "label": "¿Cuál es la modalidad de la\npensión que recibe? (Mod)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_2c",
+      "label": "¿Me podría indicar el monto\nde la jubilación o pensión\nde vejez? (Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_3c_\nin",
+      "label": "¿Me puede indicar qué\ninstitución pagó estos\nbeneficios? (Inst)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_4c_\nmo",
+      "label": "¿Cuál es la modalidad de la\npensión que recibe? (Mod)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_1d\nm",
+      "label": "Monto Pensión Básica\nSolidaria de Invalidez",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_2e\nm1",
+      "label": "¿Me podría indicar el monto\nde la jubilación o pensión\nde invalidez (Monto 1) con\nAporte Previsional\nSolidario? Monto 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_2e\nm2",
+      "label": "¿Me podría indicar el monto\nde la jubilación o pensión\nde invalidez con Aporte\nPrevisional Solidario (Monto\n2)? Monto 2",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_3e_\nin",
+      "label": "¿Me puede indicar qué\ninstitución pagó estos",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_4e_\nmo",
+      "label": "¿Cuál es la modalidad de la\npensión que recibe? (Mod)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_2f",
+      "label": "¿Me podría indicar el monto\nde la jubilación o pensión\nde invalidez? (Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_3f_i\nn",
+      "label": "¿Me puede indicar qué\ninstitución pagó estos\nbeneficios? (Inst)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_4f_\nmo",
+      "label": "¿Cuál es la modalidad de la\npensión que recibe? (Mod)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_2g",
+      "label": "¿Me podría indicar el monto\nde la montepío o pensión\nde viudez? (Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_3g_\nin",
+      "label": "¿Me puede indicar qué\ninstitución pagó estos\nbeneficios? (Inst)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_4g_\nmo",
+      "label": "¿Cuál es la modalidad de la\npensión que recibe? (Mod)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_2h",
+      "label": "¿Me podría indicar el monto\nde la pensión de orfandad?\n(Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_3h_\nin",
+      "label": "¿Me puede indicar qué\ninstitución pagó estos\nbeneficios? (Inst)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_4h_\nmo",
+      "label": "¿Cuál es la modalidad de la\npensión que recibe? (Mod)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_2i",
+      "label": "¿Me podría indicar el monto\nde la pensión por leyes\nespeciales? (Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_2j",
+      "label": "¿Me podría indicar el monto\nde la otra pensión o\njubilación? (Monto)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_3j_i\nn",
+      "label": "¿Me puede indicar qué\ninstitución pagó estos\nbeneficios? (Inst)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y26_4j_\nmo",
+      "label": "¿Cuál es la modalidad de la\npensión que recibe? (Mod)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y27a",
+      "label": "¿Tiene en uso tarjeta de\ndébito (Redbanc)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y27b",
+      "label": "¿Tiene en uso tarjeta de\ncrédito bancario (Visa,\nMastercard, etc.)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y27c",
+      "label": "¿Tiene en uso tarjeta de\ncrédito de casa comercial\n(Falabella, Ripley, Paris,\nPresto, etc.)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y27d",
+      "label": "¿Tiene en uso chequera?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y27e",
+      "label": "¿Tiene en uso línea de\ncrédito?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "y0",
+      "label": "¿Quién (o quiénes)\nresponde(n) el módulo\nIngresos?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s1",
+      "label": "¿Cuál es el estado\nnutricional de\n[NIÑO/A]",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s1c",
+      "label": "Respuesta es dada\na partir del Carnet\nde Control del\nniño(a)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s2a1",
+      "label": "En los últimos tres\nmeses, ¿recibió o\nretiró,\ngratuitamente,\nalimento del\nconsultorio? (Tipo\n1)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s2a2",
+      "label": "En los últimos tres\nmeses, ¿recibió o\nretiró,\ngratuitamente,\nalimento del\nconsultorio? (Tipo\n2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s3",
+      "label": "En los últimos tres\nmeses, ¿recibió o\nretiró,\ngratuitamente,\nalimentos del\nconsultorio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s4",
+      "label": "¿Cuántos hijos\nnacidos vivos ha",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s5",
+      "label": "¿Qué edad tenía Ud.\ncuando nació su\nprimer hijo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s6",
+      "label": "¿Se encuentra Ud.\nen este momento\nembarazada o\namamantando?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s7",
+      "label": "En los últimos tres\nmeses, ¿recibió o\nretiró,\ngratuitamente,\nalimentos del\nconsultorio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s8",
+      "label": "En los últimos tres\naños, ¿se ha hecho\nel Papanicolau?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s9",
+      "label": "¿Por qué no se lo ha\nhecho?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s10",
+      "label": "En los últimos tres\naños, ¿se ha hecho\nuna mamografía?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s11",
+      "label": "¿Por qué no se la ha\nhecho?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s12",
+      "label": "¿A qué sistema\nprevisional de salud\npertenece Ud.?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s13",
+      "label": "Ahora, en una\nescala de 1 a 7,\ndonde 1\ncorresponde a muy\nmal y 7 a muy bien,\n¿qué nota le\npondría a su estado\nde salud actual?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s14",
+      "label": "¿Algún miembro de\nsu núcleo familiar\nse encuentra\ncubierto por un\nSeguro de Salud\ncomplementario\nante riesgo de\nenfermedad o\naccidente?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s15",
+      "label": "En los últimos 3\nmeses, ¿tuvo algún\nproblema de salud,\nenfermedad o\naccidente?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s16",
+      "label": "¿Tuvo alguna\nconsulta o atención\nmédica por esa\nenfermedad o\naccidente?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s17",
+      "label": "¿Por qué no tuvo\nconsulta ni\natención?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s18a",
+      "label": "Cuando consultó,\n¿se le presentó\nproblemas para\nllegar a la consulta,\nhospital,\nconsultorio, etc.?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s18b",
+      "label": "Cuando consultó,\n¿se le presentó\nproblemas para\nconseguir\ncita/atención\n(hora)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s18c",
+      "label": "Cuando consultó,\n¿se le presentó\nproblemas para ser\natendido en el\nestablecimiento\n(demora, cambios\nde hora, etc.)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s18d",
+      "label": "Cuando consultó,\n¿se le presentó\nproblemas para\npagar por la\natención debido al\ncosto?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s18e",
+      "label": "Cuando consultó,\n¿se le presentó\nproblemas para la\nentrega de\nmedicamentos en el\nestablecimiento de\nsalud o acceso a\nellos por su costo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s19a",
+      "label": "Consulta Médica\nGeneral (Número de\nconsultas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s19b",
+      "label": "Consulta Médica\nGeneral\n(Establecimiento)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s19c",
+      "label": "Consulta Médica\nGeneral (Pago)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s20a",
+      "label": "Consultas de\nUrgencia (Número\nde consultas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s20b",
+      "label": "Consultas de",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s20c",
+      "label": "Consultas de\nUrgencia (Pago)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s21a",
+      "label": "Consultas de Salud\nMental (Número de\nconsultas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s21b",
+      "label": "Consultas de Salud\nMental\n(Establecimiento)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s21c",
+      "label": "Consultas de Salud\nMental (Pago)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s22a",
+      "label": "Consulta de\nEspecialidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s22b",
+      "label": "Consulta de\nEspecialidad\n(Establecimiento)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s22c",
+      "label": "Consulta de\nEspecialidad (Pago)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s23a",
+      "label": "Consultas Dentales\n(Número de\nconsultas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s23b",
+      "label": "Consultas Dentales\n(Establecimiento)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s23c",
+      "label": "Consultas Dentales\n(Pago)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s24a",
+      "label": "Exámenes de\nLaboratorio\n(Número de\nconsultas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s24b",
+      "label": "Exámenes de\nLaboratorio\n(Establecimiento)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s24c",
+      "label": "Exámenes de\nLaboratorio (Pago)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s25a",
+      "label": "Rayos X o\nEcografías (Número\nde consultas)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s25b",
+      "label": "Rayos X o\nEcografías\n(Establecimiento)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s25c",
+      "label": "Rayos X o\nEcografías (Pago)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s26a",
+      "label": "Controles de Salud",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s26b",
+      "label": "Controles de Salud\n(Tipo de Control) 1",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s26c",
+      "label": "Controles de Salud\n(Establecimiento)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s26d",
+      "label": "Controles de Salud\n(Pago)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s27a",
+      "label": "Hospitalizaciones e\nIntervenciones\nQuirúrgicas (Tipo de\nIntervención)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s27b",
+      "label": "Hospitalizaciones e\nIntervenciones\nQuirúrgicas (Días)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s27c",
+      "label": "Hospitalizaciones e\nIntervenciones\nQuirúrgicas\n(Establecimiento)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s27d",
+      "label": "Hospitalizaciones e\nIntervenciones\nQuirúrgicas (Pago)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s28",
+      "label": "Durante los últimos\n12 meses, ¿ha\nestado en\ntratamiento médico\npor...?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s29",
+      "label": "Este tratamiento\nmédico, ¿fue\ncubierto por el\nsistema AUGE-GES?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s30",
+      "label": "¿Por qué este\ntratamiento médico\nno fue cubierto por\nel sistema AUGE-\nGES?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s31c1",
+      "label": "¿Tiene Ud. alguna\nde las siguientes\ncondiciones\npermanentes y/ o\nde larga duración?\n(1)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s31c2",
+      "label": "¿Tiene Ud. alguna\nde las siguientes\ncondiciones\npermanentes y/ o\nde larga duración?\n(2)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s31c3",
+      "label": "¿Tiene Ud. alguna\nde las siguientes\ncondiciones\npermanentes y/ o\nde larga duración?\n(3)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s32a",
+      "label": "Dificultad para:\nConcentrarse y\nrecordar cosas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s32b",
+      "label": "Dificultad para:\nParticipar de alguna\nactividad recreativa\ny/o de participación\nsocial de acuerdo a\nsu edad?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s32c",
+      "label": "Dificultad para:\nAprender nuevas\ntareas, como por\nejemplo llegar a un\nlugar nuevo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s32d",
+      "label": "Dificultad para:\nDesempeñarse en\nsus estudios,\ntrabajo o actividad\nproductiva?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s32e",
+      "label": "Dificultad para:\nDesplazarse o\nmoverse debido a\nobstáculos físicos\ndel entorno?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s32f",
+      "label": "Dificultad para:\nRelacionarse con\npersonas que no\nconoce?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s32g",
+      "label": "Dificultad para:\nEstablecer y\nmantener relaciones",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s33a",
+      "label": "Dificultad para:\nComer (incluyendo\ncortar comida y\nllenar los vasos)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s33b",
+      "label": "Dificultad tiene\npara: Bañarse\n(incluyendo entrar y\nsalir de la tina)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s33c",
+      "label": "Dificultad tiene\npara: Moverse/\ndesplazarse dentro\nde la casa?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s33d",
+      "label": "Dificultad tiene\npara: Utilizar el\nW.C. o retrete?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s33e",
+      "label": "Dificultad tiene\npara: Acostarse y\nlevantarse de la\ncama?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s33f",
+      "label": "Dificultad tiene",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_1a",
+      "label": "Dificultad para:\nComer (incluyendo\ncortar comida y\nllenar los vasos)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_2a",
+      "label": "Ayuda para: Comer\n(incluyendo cortar\ncomida y llenar los\nvasos)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_1b",
+      "label": "Dificultad para:\nBañarse (incluyendo\nentrar y salir de la\ntina)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_2b",
+      "label": "Ayuda de otra\npersona para:\nBañarse (incluyendo\nentrar y salir de la\ntina)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_1c",
+      "label": "Dificultad para:\nMoverse/\ndesplazarse dentro\nde la casa?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_2c",
+      "label": "Ayuda de otra\npersona para:",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_1d",
+      "label": "Dificultad para:\nUtilizar el W.C. o\nretrete?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_2d",
+      "label": "Ayuda de otra\npersona para:\nUtilizar el W.C. o\nretrete?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_1e",
+      "label": "Dificultad para:\nAcostarse y\nlevantarse de la\ncama?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_2e",
+      "label": "Ayuda de otra\npersona para:\nAcostarse y\nlevantarse de la\ncama?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_1f",
+      "label": "Dificultad para:\nVestirse?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_2f",
+      "label": "Ayuda de otra\npersona para:\nVestirse?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_1g",
+      "label": "Dificultad para:\nSalir a la calle?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_2g",
+      "label": "Ayuda de otra\npersona para: Salir\na la calle?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_1h",
+      "label": "Dificultad para:\nHacer compras o ir\nal médico?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_2h",
+      "label": "Ayuda de otra\npersona para: Hacer\ncompras o ir al\nmédico?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_1i",
+      "label": "Dificultad para:\nRealizar sus tareas\ndel hogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_2i",
+      "label": "Ayuda de otra\npersona para:\nRealizar sus tareas\ndel hogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_1j",
+      "label": "Dificultad para:\nHacer o recibir\nllamadas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s34_2j",
+      "label": "Ayuda de otra\npersona para: Hacer\no recibir llamadas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ch4",
+      "label": "Chequeo de\nsituación de\ndependencia",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s35a",
+      "label": "Debido a su estado\nde salud, ¿alguna\npersona del hogar le\npresta ayuda para\nrealizar esta(s)\nactividad(es)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s35b",
+      "label": "¿Quién? Registre\n\"orden\" del cuidador\nprincipal",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s35c",
+      "label": "¿Y alguna persona\nexterna al hogar le\npresta ayuda con",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "s0",
+      "label": "¿Quién (o quiénes)\nresponde(n) el\nmódulo Salud?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r1a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r1a_esp",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r1aesp_cod",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r1b",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r1b_esp",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r1bespc_cod",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r1bespp_cod",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r1c_a_o",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r1cp",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r2",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r2_esp",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r2espc_cod",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r2espp_cod",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r3",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r4",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r5",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r6",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r6_esp",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r7a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r7b",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r7c",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r7d",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r7e",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r7f",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r7g",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r7h",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r7i",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r7j",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r7k",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8b",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8c",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8d",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8e",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8f",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8g",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8h",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8i",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8j",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8k",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8l",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8m",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8n",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8o",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8p",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8q",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8r",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8resp_cod",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8r_esp",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r8s",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r9",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r10a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r10b",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r11a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r11b",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r12",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r13a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r13b",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r14a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r14b",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r14c",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r14d",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r14e",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r15a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r15b",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r15c",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r15d",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r15e",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r15f",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r16",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r17",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r18",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r19a",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r19b",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r19c",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r19d",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r19e",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r19f",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r19g",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r19h",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r20",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r21",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r21_esp",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r22",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r22_esp",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "r0",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v1",
+      "label": "¿Cuál es el tipo de\nvivienda que ocupa\nel entrevistado?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v2",
+      "label": "¿Cuál es el\nmaterial que\npredomina en los\nmuros exteriores\nde la vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v3",
+      "label": "¿Cómo diría usted\nque es el estado\nde conservación de\nlos muros?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v4",
+      "label": "¿Cuál es el\nmaterial que\npredomina en el\npiso de la\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v5",
+      "label": "¿Cómo diría usted\nque es el estado\nde conservación\ndel piso de la\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v6",
+      "label": "¿Cuál es el\nmaterial que\npredomina en el\ntecho de la\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v7",
+      "label": "¿Cómo diría usted\nque es el estado\nde conservación\ndel techo de la\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v8",
+      "label": "¿Cuántas viviendas\nhay en el sitio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v9",
+      "label": "Su hogar, ¿bajo\nqué situación\nocupa el sitio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v10",
+      "label": "¿Cuál es la\nsituación del título\nde propiedad o\ntítulo de dominio\nde este sitio o",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v11",
+      "label": "¿Cuántos metros\ncuadrados tiene la\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v11mt",
+      "label": "¿Cuántos metros\ncuadrados tiene la\nvivienda?\n(Estimación)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v11c",
+      "label": "¿Cuántos metros\ncuadrados tiene la\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v12",
+      "label": "Su hogar, ¿bajo\nqué situación\nocupa la vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v13",
+      "label": "¿Algún miembro\nde este hogar es\ndueño de esta\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v14",
+      "label": "¿Qué miembro del\nhogar es el\npropietario de esta",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v15",
+      "label": "¿En qué año\ncompró o recibió la\nvivienda o el\nsubsidio?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v16",
+      "label": "¿Compró la\nvivienda con ayuda\nde algún programa\nhabitacional o\nsubsidio del\nEstado?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v17",
+      "label": "¿Compró la\nvivienda con\ncrédito\nhipotecario?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v18",
+      "label": "¿Está pagando su\ncrédito hipotecario\nactualmente?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v19",
+      "label": "¿Cuánto paga (o\ndebería pagar) de\ndividendo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v20",
+      "label": "¿Cuántos años le\nfaltan para\nterminar de pagar\nsu crédito\nhipotecario?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v21",
+      "label": "Su hogar, ¿cuánto\npaga de arriendo?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v22",
+      "label": "¿Cuánto se paga\nde arriendo en\neste sector por\nviviendas similares\na la suya?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v23",
+      "label": "¿De dónde\nproviene el agua\nde la vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v23_esp",
+      "label": "¿Cuál es esa otra\nfuente del agua?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v24",
+      "label": "¿Cuál es el sistema\nde distribución del\nagua en la\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v25",
+      "label": "La vivienda donde\nusted vive,\n¿dispone de\nsistema de\neliminación de\nexcretas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v26",
+      "label": "La vivienda donde\nusted vive,\n¿dispone de\nenergía eléctrica?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v26_esp",
+      "label": "¿Cuál es esa otra\nfuente de energía\neléctrica?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v27",
+      "label": "Durante los\núltimos dos años\n(2013-2015), ¿ha\nrealizado mejoras\no transformaciones\nen la vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v28",
+      "label": "¿Cómo financió\nprincipalmente esa\nmejora o\ntransformación?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v29a",
+      "label": "¿Cuántas piezas de\ncada tipo tiene la\nvivienda?:\nDormitorios (uso\nexclusivo para\ndormir)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v29b",
+      "label": "¿Cuántas piezas de\ncada tipo tiene la\nvivienda?: Baño",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v30",
+      "label": "¿Cuántos hogares\nhay en la vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v31",
+      "label": "¿Su hogar es el\nprincipal de la\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v32a",
+      "label": "¿Cuántas piezas de\ncada tipo ocupa su\nhogar en esta\nvivienda?:\nDormitorios (uso\nexclusivo para\ndormir)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v32b",
+      "label": "¿Cuántas piezas de\ncada tipo ocupa su\nhogar en esta\nvivienda?: Baño",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v33",
+      "label": "¿Cuál es la\nprincipal razón\npara compartir\nesta vivienda con\notro hogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v33_esp",
+      "label": "¿Cuál es esa otra\nrazón para\ncompartir esta\nvivienda con otro\nhogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v34",
+      "label": "¿Está haciendo\nalgo para vivir en\nuna vivienda\nexclusiva para su\nhogar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v35",
+      "label": "¿Algún miembro\nde este hogar es\npropietario de otra\nvivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v36a",
+      "label": "¿Qué combustible\no fuente de\nenergía usa\nhabitualmente\npara: Cocinar?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v36b",
+      "label": "¿Qué combustible\no fuente de\nenergía usa\nhabitualmente\npara: Calefacción?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v36c",
+      "label": "¿Qué combustible\no fuente de\nenergía usa\nhabitualmente\npara: Sistema de\nagua caliente?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v37a",
+      "label": "Su vivienda se\nencuentra a:\n¿Menos de 8\ncuadras o 1 Km de\nun servicio de\ntransporte público",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v37b",
+      "label": "Su vivienda se\nencuentra a: ¿A\nmenos de 20\ncuadras o 2,5 Km\nde un centro\neducacional\n(colegio o jardín\ninfantil)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v37c",
+      "label": "Su vivienda se\nencuentra a: ¿A\nmenos de 20\ncuadras o 2,5 Km\nde un centro de\nsalud (atención\nprimaria o nivel\nsuperior)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v37d",
+      "label": "Su vivienda se\nencuentra a: ¿A\nmenos de 20\ncuadras o 2,5 Km\nde un\nsupermercado,\nalmacén o feria?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v37e",
+      "label": "Su vivienda se\nencuentra a: ¿A\nmenos de 20\ncuadras o 2,5 Km\nde un cajero\nautomático o caja\nvecina?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v37f",
+      "label": "Su vivienda se\nencuentra a: ¿A\nmenos de 20\ncuadras o 2,5 Km\nde un\nequipamiento\ndeportivo (centros\ndeportivos,\ncanchas,\nskatepark)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v37g",
+      "label": "Su vivienda se\nencuentra a: ¿A\nmenos de 20\ncuadras o 2,5 Km\nde áreas verdes\n(plazas o\nparques)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v37h",
+      "label": "Su vivienda se\nencuentra a: ¿A\nmenos de 20\ncuadras o 2,5 Km\nde equipamiento\ncomunitario\n(centros vecinales,\nsedes sociales,\nbiblioteca vecinal o\ncentro cultural\ncomunitario)",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v37i",
+      "label": "Su vivienda se\nencuentra a: ¿A\nmenos de 20\ncuadras o 2,5 Km\nde una farmacia?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v38a",
+      "label": "En el último mes,\n¿Ud. o alguien de\nsu hogar, ha vivido\no presenciado:\nRayados u otros\ndaños a casas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v38b",
+      "label": "En el último mes,\n¿Ud. o alguien de\nsu hogar, ha vivido\no presenciado:\nPersonas\nconsumiendo\ndrogas?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v38c",
+      "label": "En el último mes,\n¿Ud. o alguien de\nsu hogar, ha vivido\no presenciado:\nPersonas\ntraficando drogas\nen la vía pública",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v38d",
+      "label": "En el último mes,\n¿Ud. o alguien de\nsu hogar, ha vivido\no presenciado:\nPersonas peleando\no amenazándose\nen la vía pública",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v38e",
+      "label": "En el último mes,\n¿Ud. o alguien de\nsu hogar, ha vivido\no presenciado:\nBalaceras o",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v39a",
+      "label": "En los últimos 12\nmeses, ¿Ud. o\nalguien de su\nhogar, ha vivido o\npresenciado:\nContaminación\nacústica o ruidos\nmolestos (tráfico\nde autos, aviones,\nmaquinaria)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v39b",
+      "label": "En los últimos 12\nmeses, ¿Ud. o\nalguien de su\nhogar, ha vivido o\npresenciado:\nContaminación del\naire y/o malos\nolores?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v39c",
+      "label": "En los últimos 12\nmeses, ¿Ud. o\nalguien de su\nhogar, ha vivido o\npresenciado:\nContaminación en\nríos, canales,\nesteros, lagos,\ntranques y\nembalses?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v39d",
+      "label": "En los últimos 12\nmeses, ¿Ud. o\nalguien de su\nhogar, ha vivido o\npresenciado:\nContaminación del\nagua proveniente\nde la red pública?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v39e",
+      "label": "En los últimos 12\nmeses, ¿Ud. o\nalguien de su\nhogar, ha vivido o\npresenciado:\nContaminación\nvisual\n(construcciones,\nrayados,\npublicidad)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v39f",
+      "label": "En los últimos 12\nmeses, ¿Ud. o",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v39g",
+      "label": "En los últimos 12\nmeses, ¿Ud. o\nalguien de su\nhogar, ha vivido o\npresenciado:\nPlagas de insectos,\nanimales\npeligrosos o\nabandonados\n(termitas,\ncucarachas,\nroedores,\nmurciélagos,\nperros, etc.)?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v0a_1",
+      "label": "¿Quién (o quiénes)\nresponde(n) el\nmódulo vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v0a_2",
+      "label": "¿Quién (o quiénes)\nresponde(n) el\nmódulo vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v0a_3",
+      "label": "¿Quién (o quiénes)\nresponde(n) el\nmódulo vivienda?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "v0b",
+      "label": "¿Dónde se produce\nla entrevista?",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "indmat",
+      "label": "Indicador de\nMaterialidad",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "indsan",
+      "label": "Indicador\nSaneamiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "calglobviv",
+      "label": "Calidad Global de\nLl Vivienda",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hacinamiento",
+      "label": "Hacinamiento",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "iae",
+      "label": "Allegamiento\nExterno",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "iai",
+      "label": "Allegamiento\nInterno",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "ypc",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pobreza",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_asis",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_rez",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_esc",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_mal",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_prevs",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_acc",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_act",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_cot",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_jub",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_habitab",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_hacina",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_estado",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_servbas",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_entorno",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_accesi",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_medio",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_appart",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_tsocial",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "hh_d_seg",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pobreza_multi_4d",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "pobreza_multi_5d",
+      "label": "",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: TABLE_DICT — table extraction used",
+    "  209 pages total",
+    "  → 577 variables extracted"
+  ]
+}

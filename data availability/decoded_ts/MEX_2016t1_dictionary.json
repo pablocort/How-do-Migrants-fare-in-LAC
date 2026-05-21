@@ -1,0 +1,163 @@
+{
+  "iso3": "MEX",
+  "survey": "ENOE",
+  "period": "t1",
+  "year": 2016,
+  "source_files": [
+    "con_basedatos_proy2010.pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "Ahora le voy a preguntar por la situación laboral de ...",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "realizar una actividad que le proporcionó",
+        "2": "ayudar en las tierras o en el negocio de un P1A2",
+        "3": "No trabajó la semana pasada P1A3"
+      }
+    },
+    {
+      "name": "2",
+      "label": "Tabla de hogares HOGT 31 31",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Tabla de Sociodemográfico SDEMT 105 105",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Tabla de cuestionario de ocupación y empleo I COE1T 186 169",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "5",
+      "label": "Tabla de cuestionario de ocupación y empleo II COE2T 125 70",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "00": "3 12 a 98 Sí existe COE",
+        "01": "a 15 No existe COE",
+        "1": "PEA (Población económicamente activa) 1 Población ocupada",
+        "2": "B B",
+        "3": "6 Ámbito y tamaño de la unidad económica CLASE2 1 51,433,590",
+        "10": "o p2g2=12)) ) o",
+        "28": "CAMPECHE 28 CAMPECHE",
+        "32": "ZACATECAS 32 ZACATECAS",
+        "13": "ACAPULCO 03 MONTERREY 05 LEÓN 13 ACAPULCO 05 LEÓN",
+        "40": "LA PAZ 25 HERMOSILLO 08 MÉRIDA 40 LA PAZ 08 MÉRIDA",
+        "09": "CHIHUAHUA 02 GUADALAJARA 09 CHIHUAHUA",
+        "12": "VERACRUZ 03 MONTERREY 12 VERACRUZ",
+        "14": "AGUASCALIENTES 10 TAMPICO 14 AGUASCALIENTES",
+        "15": "MORELIA 25 HERMOSILLO 15 MORELIA",
+        "16": "TOLUCA 16 TOLUCA",
+        "17": "SALTILLO 17 SALTILLO",
+        "18": "VILLAHERMOSA 18 VILLAHERMOSA",
+        "19": "TUXTLA GTZ. 19 TUXTLA GTZ.",
+        "24": "CULIACÁN 24 CULIACÁN",
+        "26": "DURANGO 26 DURANGO",
+        "27": "TEPIC 27 TEPIC",
+        "29": "CUERNAVACA 29 CUERNAVACA",
+        "31": "OAXACA 31 OAXACA",
+        "33": "COLIMA 33 COLIMA",
+        "36": "QUERÉTARO 36 QUERÉTARO",
+        "39": "TLAXCALA 39 TLAXCALA",
+        "41": "CANCÚN 41 CANCÚN",
+        "43": "PACHUCA 43 PACHUCA",
+        "4": "6 Disponibilidad de contrato escrito POS_OCU 1 35,212,899"
+      }
+    },
+    {
+      "name": "6",
+      "label": "Población subocupada por: CONDICIÓN “SUB_O=1” PARA TODO EL PUNTO 6",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "6": "4 Sector de actividad económica SUB_O 1 4,066,906"
+      }
+    },
+    {
+      "name": "7",
+      "label": "Población desocupada PUNTO 7 2,105,975",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "7": "4 Duración del desempleo CLASE2 2 2,105,975"
+      }
+    },
+    {
+      "name": "8",
+      "label": "Población no económicamente activa PUNTO 8 36,235,486",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "9",
+      "label": "Promedios y medianas GENERAL LA CONDICIÓN:",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "10": "RAMA Ingresos ING7C",
+        "01": "Aguascalientes 01 de México",
+        "02": "Baja California 02 Guadalajara",
+        "03": "Baja California Sur 03 Monterrey",
+        "04": "Campeche 04 Puebla",
+        "05": "Coahuila de Zaragoza 05 León",
+        "06": "Colima 07 San Luís Potosí",
+        "07": "Chiapas 08 Mérida",
+        "08": "Chihuahua 09 Chihuahua",
+        "09": "Ciudad de México 10 Tampico",
+        "11": "RAMA Duración DUR9C",
+        "12": "RAMA unidad EMPLE7C",
+        "13": "Hidalgo 15 Morelia",
+        "14": "RAMA Prestaciones MEDICA5C",
+        "15": "RAMA NIV_INS",
+        "16": "Ocupación C_OCU11C Posición POS_OCU",
+        "17": "Ocupación C_OCU11C Ingresos ING7C",
+        "18": "Ocupación C_OCU11C Duración DUR9C EDA=15 a 98",
+        "19": "Ocupación C_OCU11C Prestaciones MEDICA5C",
+        "20": "Ocupación C_OCU11C NIV_INS",
+        "21": "Posición POS_OCU Ingresos ING7C",
+        "22": "Posición POS_OCU Duración DUR9C",
+        "23": "Posición POS_OCU unidad EMPLE7C",
+        "24": "San Luís Potosí 29 Cuernavaca",
+        "25": "Posición POS_OCU BUSCAR5C",
+        "26": "Ingreso ING7C Duración DUR9C",
+        "27": "Tabasco 33 Colima",
+        "28": "Ingreso ING7C Prestaciones MEDICA5C",
+        "29": "Ingreso ING7C BUSCAR5C",
+        "30": "económica RAMA POS_OCU",
+        "31": "Yucatán 41 Cancún",
+        "32": "Zacatecas 43 Pachuca",
+        "1": "Edad EDA19C Sexo SEX EDA=15 a 98",
+        "2": "Edad EDA12C Pea y pnea CLASE2 EDA=15 a 98",
+        "3": "NIV_INS Pea y pnea CLASE2 EDA=15 a 98",
+        "4": "E_CON Pea y pnea CLASE2 EDA=15 a 98",
+        "5": "Edad EDA7C DOMESTICO EDA=15 a 98",
+        "6": "Edad EDA7C Núm. Hijos HIJ5C",
+        "7": "Edad EDA7C C_INAC5C",
+        "8": "Ocupación C_OCU11C RAMA",
+        "9": "RAMA Posición POS_OCU"
+      }
+    }
+  ],
+  "decode_notes": [
+    "PDF type: QUESTIONNAIRE — regex extraction; best-effort",
+    "  35 pages",
+    "  → 9 variables extracted (question codes only)"
+  ]
+}

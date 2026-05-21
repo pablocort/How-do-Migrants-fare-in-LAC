@@ -1,0 +1,104 @@
+{
+  "iso3": "GUY",
+  "survey": "LFS",
+  "period": "t4",
+  "year": 2017,
+  "source_files": [
+    "GLFS Q4 2017 Methodological Report.pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "Integration of computer quality controls to fieldwork ...........................",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "Central monitoring of data quality indicators ...................................",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "Direct fieldwork supervision through check-up visits ............................",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "Auditing of randomized recording and double data entry ..........................",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "2 1 2 1 2",
+        "2017": "4 5 6 3 4",
+        "2018": "4 5 6 3 4",
+        "2019": "2 (same as in Quarter 2 of 2018, etc.)",
+        "12": "Off season",
+        "2": "3 to 5 months",
+        "3": "6 to 12 months",
+        "4": "1 to 2 years",
+        "5": "3 to 4 years",
+        "6": "5 years or more",
+        "7": "Don’t know",
+        "8": "Does not know where to look",
+        "9": "Lacks employers’",
+        "10": "No jobs available in the area",
+        "11": "Nothing (this confirms no job",
+        "99": "Other reasons",
+        "13": "Waiting for new job",
+        "14": "Other reason"
+      }
+    },
+    {
+      "name": "q2",
+      "label": "15!=11 3 No",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "2": "Financial independence",
+        "3": "Hobby",
+        "4": "Did not get a full time job",
+        "5": "Other",
+        "6": "Working conditions not",
+        "7": "Engaged in subsistence",
+        "8": "Other"
+      }
+    },
+    {
+      "name": "q3",
+      "label": "01=2 and q3.03<40 finances, equipment etc",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "3": "D) $13,001 – $20,000",
+        "4": "E) $20,001 – $50,000",
+        "5": "F) $50,001 – $100,000",
+        "6": "G) $100,001 – $150,000",
+        "7": "H) $150,001 – $200,000",
+        "8": "I) $200,001 – $300,000",
+        "9": "J) $300,001 – $400,000",
+        "10": "K) $400,001 – $500,000",
+        "11": "L) $500,001 – $1,000,000",
+        "2": "C) $8,001 – $13,000",
+        "12": "M) $1,000,001 or more",
+        "99": "N) Does not know",
+        "98": "O) Does not want to answer",
+        "1": "B) $1 – $8,000"
+      }
+    }
+  ],
+  "decode_notes": [
+    "PDF type: QUESTIONNAIRE — regex extraction; best-effort",
+    "  50 pages",
+    "  → 6 variables extracted (question codes only)"
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "iso3": "MEX",
+  "survey": "ENOE",
+  "period": "t3",
+  "year": 2015,
+  "source_files": [
+    "c_bas_v4.pdf"
+  ],
+  "doc_type": "PDF",
+  "tables": [
+    "main"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "Ahora le voy a preguntar por la situación laboral de ... (Lee las opciones y circ",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "realizar una actividad que le proporcionó 9 NS",
+        "2": "ayudar en las tierras o en el negocio de",
+        "5": "No regresará",
+        "3": "II. NO OCUPADOS"
+      }
+    },
+    {
+      "name": "2",
+      "label": "... ha tratado de",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "3": "No tiene puesto o establecimiento (o vehículo)",
+        "1": "El año en curso vehículos) forman este negocio o empresa?",
+        "2": "¿Más de uno?, ¿cuántos?",
+        "4": "¿no le renovaron su contrato?",
+        "0": "Exclusivo capturista",
+        "02": "No hay trabajo en su especialidad, ofi cio o profesión",
+        "03": "Suspensión temporal de sus funciones Pasa a 3",
+        "04": "Hizo trámites en algún programa de empleo",
+        "05": "En su localidad no hay trabajo o sólo se realiza en",
+        "06": "La inseguridad pública o el exceso de trámites lo",
+        "07": "Falta de vehículo o descompostura de maquinaria",
+        "08": "Falta de materias primas, fi nanciamiento o clientes",
+        "09": "No tiene quién le cuide a sus hijos pequeños,",
+        "11": "Otras razones de mercado",
+        "12": "Otras razones personales",
+        "99": "NS Especifi ca 2 Más de 1 hasta 2 meses",
+        "01": "Está esperando la respuesta a una solicitud o está",
+        "10": "Solo consultó el anuncio clasifi cado ancianos o enfermos",
+        "00": "Exclusivo capturista",
+        "9": "NS 1 ¿Uno solo?",
+        "6": "¿le despidieron? 2 No",
+        "5": "¿no le volvieron a llamar?",
+        "7": "Ninguna de las anteriores 9 NS"
+      }
+    },
+    {
+      "name": "3",
+      "label": "Si ... tiene más de un trabajo, hablemos del principal.",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "trabajadores que reciben",
+        "2": "socios?",
+        "3": "trabajadores sin pago? Pasa",
+        "4": "No sabe qué tipo de 4"
+      }
+    },
+    {
+      "name": "4",
+      "label": "Cuál es el nombre de la empresa, negocio o",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "y Lunes",
+        "3": "solo en una ciudad?",
+        "2": "únicamente en México, pero en varias ciudades 9 NS",
+        "9": "NS 9 NS",
+        "4": "Se trata de un negocio que opera bajo la modalidad",
+        "5": "99 NS",
+        "03": "6 a 10 personas",
+        "04": "11 a 15 personas 1 de tipo independiente, personal",
+        "05": "16 a 20 personas o familiar? Pasa a 4e",
+        "06": "21 a 30 personas",
+        "07": "31 a 50 personas",
+        "08": "En el domicilio o propiedad del patrón o en el lugar",
+        "09": "Puesto semifi jo",
+        "10": "Puesto fi jo",
+        "11": "Otro lugar",
+        "6": "Gobierno del municipio (incluye delegaciones",
+        "7": "Partido político 4 No lleva ningún registro contable",
+        "8": "Ninguna de las anteriores 9 NS"
+      }
+    },
+    {
+      "name": "5",
+      "label": "La semana pasada, ¿ ... tuvo poco trabajo qué hacer",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "2": "No trabajó la semana pasada Pasa a 5d",
+        "3": "Cada semana $",
+        "5": "Otro período de pago Pasa",
+        "6": "No, por otras razones",
+        "00": "en horas y 00 en minutos. No trabajó ese día",
+        "99": "NS Periodo",
+        "05": "Reducción o suspensión del trabajo (falta de ventas",
+        "09": "Enfermedad o accidente",
+        "10": "Octubre 11 Noviembre 12 Diciembre 2 Cada 15 días $",
+        "11": "Otros motivos personales o familiares",
+        "12": "Ninguno de los anteriores",
+        "01": "Enero 02 Febrero 03 Marzo",
+        "04": "Abril 05 Mayo 06 Junio",
+        "07": "Julio 08 Agosto 09 Septiembre 1 Cada mes $",
+        "13": "Varían los meses en que trabaja",
+        "4": "Diario $",
+        "14": "Trabaja todos los meses del año",
+        "15": "Tiene menos de un año en este trabajo a"
+      }
+    },
+    {
+      "name": "6",
+      "label": "... recibe o le pagan",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "01": "por comisión?",
+        "7": "No supo estimar",
+        "02": "a destajo (por pieza), servicio u obra realizada?",
+        "8": "No quiso dar información",
+        "03": "por honorarios?",
+        "06": "con vales o productos comercializables?",
+        "07": "Solo recibe sueldo, salario o jornal 1 menor?",
+        "08": "Solo lo que le deja su negocio 2 igual a esta cantidad?",
+        "4": "Ninguna de las anteriores",
+        "99": "NS 6 más de 5 salarios mínimos hasta 10?",
+        "00": "Exclusivo capturista 7 más de 10 salarios mínimos?",
+        "1": "a sueldo, salario o jornal?",
+        "5": "otra institución médica?",
+        "0": "Exclusivo capturista 6 No recibe atención médica"
+      }
+    },
+    {
+      "name": "7",
+      "label": "Además del trabajo principal del que ya hablamos,",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "1": "vender o hacer productos para la venta (alimentos,",
+        "2": "prestar servicios (dar clases, cortar el cabello, lavar",
+        "3": "trabajar su tierra o parcela y/o criar animales?",
+        "4": "trabajar por propinas, comisión o destajo?",
+        "5": "trabajar como asalariado (sueldo, salario o jornal)?",
+        "6": "ayudar en algún negocio o en las tierras de un"
+      }
+    },
+    {
+      "name": "8",
+      "label": "Durante los últimos tres meses, ¿ ... ha tratado de",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "7": "No tiene otro trabajo",
+        "1": "buscar otro trabajo en otro país o hacer preparativos",
+        "2": "El negocio no tiene nombre 9 NS",
+        "3": "Es trabajador subordinado de una unidad",
+        "4": "Es un(a) trabajador(a) en el extranjero",
+        "0": "Exclusivo capturista"
+      }
+    },
+    {
+      "name": "9",
+      "label": "Durante la semana pasada, ¿cuánto tiempo dedicó ... a",
+      "type": "",
+      "table": "main",
+      "value_codes": {
+        "99": "en horas y 00 en minutos. No sabe si realizó la actividad",
+        "5": "construir o ampliar su vivienda? y",
+        "0": "Exclusivo capturista"
+      }
+    },
+    {
+      "name": "0",
+      "label": "Salir Solo Críticos* 0. Salir Solo Críticos*",
+      "type": "",
+      "table": "main",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "PDF type: QUESTIONNAIRE — regex extraction; best-effort",
+    "  11 pages",
+    "  → 10 variables extracted (question codes only)"
+  ]
+}

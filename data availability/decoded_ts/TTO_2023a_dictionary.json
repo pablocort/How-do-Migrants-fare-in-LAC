@@ -1,0 +1,539 @@
+{
+  "iso3": "TTO",
+  "survey": "CSSP",
+  "period": "a",
+  "year": 2023,
+  "source_files": [
+    "Individuals_2023.dta (variable metadata — no microdata loaded)"
+  ],
+  "doc_type": "DTA_METADATA",
+  "tables": [],
+  "variables": [
+    {
+      "name": "cward",
+      "label": "County/Ward",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "quarter",
+      "label": "Quarter",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "year",
+      "label": "Year",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "p07",
+      "label": "Place of Birth",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Trinidad and Tobago",
+        "2": "Foreign/abroad",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p08",
+      "label": "Address",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "10": "Port of Spain",
+        "20": "San Fernando",
+        "30": "Arima Borough",
+        "31": "St. George",
+        "41": "Caroni",
+        "51": "Nariva/Mayaro",
+        "61": "St. Andrew/St. David",
+        "71": "Victoria",
+        "81": "St. Patrick",
+        "91": "Tobago",
+        "99": "Not stated"
+      }
+    },
+    {
+      "name": "p09",
+      "label": "Country of Birth",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "11": "Barbados",
+        "12": "Grenada",
+        "13": "Guyana",
+        "14": "St. Lucia",
+        "15": " St. Vincent",
+        "16": "Other Commonwealth Caribbean",
+        "21": "India",
+        "22": "Venezuela/Margarita",
+        "23": "United Kingdom",
+        "24": "United States",
+        "25": "Canada",
+        "26": "Other Americas",
+        "27": "Europe",
+        "28": "Africa",
+        "88": "Not applicable",
+        "98": "Rest of the World",
+        "99": "Not stated"
+      }
+    },
+    {
+      "name": "p10",
+      "label": "Last Address",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "10": "Port of Spain",
+        "11": "Barbados",
+        "12": "Grenada",
+        "13": "Guyana",
+        "14": "St. Lucia",
+        "15": " St. Vincent",
+        "16": "Other Commonwealth Caribbean",
+        "20": "San Fernando",
+        "21": "India",
+        "22": "Venezuela/Margarita",
+        "23": "United Kingdom",
+        "24": "United States",
+        "25": "Canada",
+        "26": "Other Americas",
+        "27": "Europe",
+        "28": "Africa",
+        "30": "Arima Borough",
+        "31": "St. George",
+        "41": "Caroni",
+        "51": "Nariva/Mayaro",
+        "61": "St. Andrew/St. David",
+        "71": "Victoria",
+        "81": "St. Patrick",
+        "88": "Not applicable",
+        "91": "Tobago",
+        "98": "Rest of the World",
+        "99": "Not stated"
+      }
+    },
+    {
+      "name": "p11",
+      "label": "Number of years in present residence",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "p12",
+      "label": "Marital Status",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Never married",
+        "2": "Married but living alone",
+        "3": "Had a patner but now living alone",
+        "4": "Married",
+        "5": "Common Law",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p13",
+      "label": "Training Attainment",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "3": "Don't know",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p14",
+      "label": "Field of Highest level of training",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "p15",
+      "label": "Main educational method",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "On the job",
+        "2": "Private study",
+        "3": "Secondary school",
+        "4": "YTEPP",
+        "5": "Vocational/Trade/Commercial school",
+        "6": "Technical Institute",
+        "7": "Other Institute",
+        "8": "University",
+        "10": "Other",
+        "99": "Not stated"
+      }
+    },
+    {
+      "name": "p16",
+      "label": "Main activity",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p17",
+      "label": "Months worked",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Less than 1 month",
+        "1": "One month",
+        "2": "Two months",
+        "3": "Three months",
+        "4": "Four months",
+        "5": "Five months",
+        "6": "Six months",
+        "7": "Seven months",
+        "8": "Eight months",
+        "9": "Nine months",
+        "10": "Ten months",
+        "11": "Eleven months",
+        "12": "Twelve months",
+        "13": "None",
+        "99": "Not stated"
+      }
+    },
+    {
+      "name": "p18",
+      "label": "Economic Activity last week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p19",
+      "label": "Number of Jobs",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "One job",
+        "2": "Two jobs",
+        "3": "Three jobs",
+        "4": "Four jobs",
+        "5": "Five jobs",
+        "6": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p20",
+      "label": "Last worked",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "p21",
+      "label": "Reason for leaving last job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "New job",
+        "2": "Illness",
+        "3": "Fired",
+        "4": "Retired",
+        "5": "Returned to school",
+        "6": "Retrenched/Laid off",
+        "7": "Did not want to work",
+        "8": "No more work available",
+        "98": "Other",
+        "99": "Not stated"
+      }
+    },
+    {
+      "name": "p22",
+      "label": "New entrants for new job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p23",
+      "label": "Looked for work",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p24",
+      "label": "Method of seeking work last week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Written application",
+        "2": "Applied in person",
+        "3": "Government Labour exchange",
+        "4": "Arranged to set up own business",
+        "5": "Private employment exchange",
+        "6": "Friends and relatives",
+        "7": "Other",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p25",
+      "label": "Reason for not seeking work last week",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "At school",
+        "2": "Housekeeping",
+        "3": "Retired",
+        "4": "Disabled",
+        "5": "Temporary illness",
+        "6": "Did not want work",
+        "7": "Awaiting results",
+        "8": "Knew of no vacancy",
+        "9": "Presently employed",
+        "10": "Discouraged",
+        "98": "Other",
+        "99": "Not stated"
+      }
+    },
+    {
+      "name": "p26",
+      "label": "Last looked for work",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "p27",
+      "label": "New entrants seeking first job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Yes",
+        "2": "No",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p28",
+      "label": "Type of worker",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "Statutory Board",
+        "1": "Gov't State Enterprise",
+        "2": "Central and Local Gov't",
+        "3": "Private Enterprise",
+        "4": "Unpaid Worker",
+        "5": "Learner/Apprentice",
+        "6": "Own Account worker",
+        "7": "Employer",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p31",
+      "label": "Size of business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "None",
+        "1": "One person",
+        "2": " Two persons",
+        "3": "Three persons",
+        "4": "Four Persons",
+        "5": "Five Persons",
+        "6": "Six - Nine persons",
+        "7": "Ten plus persons",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p32",
+      "label": "Location of Business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "At residence",
+        "2": "Fixed business",
+        "3": "Mobile business",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p33",
+      "label": "Address of Business",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "p34",
+      "label": "Hours worked",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "None",
+        "1": "Under 1 hour",
+        "2": "1 - 8 hours",
+        "3": "9 - 16 hours",
+        "4": "17 - 24 hours",
+        "5": "25 - 32 hours",
+        "6": "33 - 40 hours",
+        "7": "41 - 50 hours",
+        "8": "51 - 60 hours",
+        "9": "61 - 70 hours",
+        "10": "71 + hours",
+        "88": "Not applicable",
+        "99": "Not stated"
+      }
+    },
+    {
+      "name": "p35",
+      "label": "Reason for working less than 33 hours",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "No more work",
+        "2": "New job",
+        "3": "Illness",
+        "4": "Temporary layoff",
+        "5": "Own Choice",
+        "6": "Vacation",
+        "7": "Other",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p36a",
+      "label": "how does (N) work on Weekdays",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Morning",
+        "2": "Afternoon",
+        "3": "Day",
+        "4": "Night",
+        "5": "Long shift",
+        "6": "Alternate shift",
+        "7": "Don't work",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p36b",
+      "label": "how does (N) work on Weekends",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "1": "Morning",
+        "2": "Afternoon",
+        "3": "Day",
+        "4": "Night",
+        "5": "Long shift",
+        "6": "Alternate shift",
+        "7": "Don't work",
+        "8": "Not applicable",
+        "9": "Not stated"
+      }
+    },
+    {
+      "name": "p37",
+      "label": "Secondary job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "p38",
+      "label": "Hours worked (secondary job)",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {
+        "0": "None",
+        "1": "Under 1 hour",
+        "2": "1 - 8 hours",
+        "3": "9 - 16 hours",
+        "4": "17 - 24 hours",
+        "5": "25 - 32 hours",
+        "6": "33 - 40 hours",
+        "7": "41 - 50 hours",
+        "8": "51 - 60 hours",
+        "9": "61 - 70 hours",
+        "10": "71 + hours",
+        "88": "Not applicable",
+        "99": "Not stated"
+      }
+    },
+    {
+      "name": "p39a",
+      "label": "Gross Income - Main Job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "p39b",
+      "label": "Gross Income - Secondary Job",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "p39c",
+      "label": "Gross Income - Other Jobs",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    },
+    {
+      "name": "Industry",
+      "label": "Sub-Industry Group",
+      "type": "DTA",
+      "table": "",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "38 variables extracted from .dta metadata using pyreadstat",
+    "Source: Z:\\survey\\TTO\\CSSP\\2023\\a\\data_orig\\Individuals_2023.dta"
+  ]
+}

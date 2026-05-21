@@ -1,0 +1,3660 @@
+{
+  "iso3": "GTM",
+  "survey": "ENEIC",
+  "period": "t4",
+  "year": 2024,
+  "source_files": [
+    "Diccionario-Personas-ENEIC-IV-2024-2 (1).xlsx"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [
+    "Hoja1"
+  ],
+  "variables": [
+    {
+      "name": "ANIO",
+      "label": "AÑO",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "TRIMESTRE",
+      "label": "TRIMESTRE",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "DOMINIO",
+      "label": "Dominio de estudio",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "NUM_HOGAR",
+      "label": "Número de hogar",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "FACTOR",
+      "label": "Factor de expansión",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P00A10",
+      "label": "Área",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "NUM_PERSONA",
+      "label": "Número de persona",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A02",
+      "label": "2. Sexo",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A03",
+      "label": "3. Edad",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A05A",
+      "label": "5.a Cuando nació, ¿Dónde vivía su mamá?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A05B",
+      "label": "5.b Código Departamento",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A05F",
+      "label": "5.f País",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A06A",
+      "label": "6.a ¿Cuánto tiempo tiene de vivir en Guatemala?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A06B",
+      "label": "6.b Anote la cantidad de años que estuvo viviendo fuera de Guatemala",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A07",
+      "label": "7. Relación de parentesco",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A08",
+      "label": "8. Según su origen o historia, ¿Cómo se considera o auto identifica:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A09",
+      "label": "9. ¿A qué comunidad lingüística pertenece?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A10",
+      "label": "10. ¿Cuál es el idioma materno en el que aprendió a hablar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11A",
+      "label": "11.a ¿Tiene alguna dificultad: a) Ver, incluso Sí usa lentes o anteojos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11B",
+      "label": "11.b ¿Tiene alguna dificultad: b) Oír, incluso Sí usa un aparato auditivo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11C",
+      "label": "11.c ¿Tiene alguna dificultad: c) Caminar o subir escaleras?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11D",
+      "label": "11.d ¿Tiene alguna dificultad: d) Recordar o concentrarse?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11E",
+      "label": "11.e ¿Tiene alguna dificultad: e) Cuidado personal o para vestirse?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11F",
+      "label": "11.f ¿Tiene alguna dificultad: f) Debido a una situación física...",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A12",
+      "label": "12. ¿Cuál es el estado conyugal actual de:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A13",
+      "label": "13. ¿Registre el resultado de la entrevista para cada una de las personas del hogar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A01",
+      "label": "1. (...), ¿Sabe leer y escribir?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A02",
+      "label": "2. (...), ¿Se inscribió en algún plantel educativo para el presente ciclo escolar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A03A",
+      "label": "3.a (...), ¿Cuál fue el nivel de educación más alto que aprobó?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A03B",
+      "label": "3.b (...), ¿Cuál fue el grado de educación más alto que aprobó?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A04B",
+      "label": "4.b ¿Cuál es el título o diploma obtenido por el nivel educativo más alto que aprobó?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A01",
+      "label": "1. Durante los últimos 12 meses, ¿asiste o asistió a cursos de capacitación para el trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A02",
+      "label": "2. ¿Qué institución o empresa impartió el último curso de capacitación al que asistió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A03",
+      "label": "4. (...), actualmente, ¿está interesado en recibir algún curso de capacitación para el trabajo",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A04",
+      "label": "4. (...), en que le gustaría capacitarse principalmente?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A02",
+      "label": "2. (...), ¿Cuál fue la actividad principal de la semana pasada?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A03",
+      "label": "3. (...), Además de la actividad principal de la semana pasada, ¿trabajó al menos una hora, por un sueldo o salario o una paga?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A04",
+      "label": "4. Independientemente de lo que acaba de decir, ¿La semana pasada realizó algún negocio u otra actividad por cuenta propia durante al menos una hora?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A05",
+      "label": "5. (...), La semana pasada:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A06",
+      "label": "6. (...), Aunque ya me indicó que no trabajó la semana pasada ¿Tenía algún empleo, negocio, actividad agrícola, ...",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A07",
+      "label": "7. (...), ¿Cuál fue la razón principal por la que no trabajó la semana pasada?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A08",
+      "label": "8. (...), ¿En cuanto tiempo regresará a este mismo trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A09",
+      "label": "9. (...), Durante este período de ausencia recibe salario, sueldo o ganacia, o bien, pago por parte del IGSS?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B01",
+      "label": "1. (...), En las últimas 4 semanas, ¿Hizo algún trámite para buscar trabajo o instalar su propio negocio?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B02",
+      "label": "2. (...), En las útimas 4 semanas ¿Cuál fue el trámite principal que hizo para buscar un trabajo o instalar su propio negocio?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B03",
+      "label": "3. (...), ¿Cuál considera que es el aspecto principal que le ha dificultado encontrar trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B04",
+      "label": "4. ¿Cuánto tiempo lleva buscando trabajo o tratando de instalar su propio negocio?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B05",
+      "label": "5. (...), ¿Cuál es la razón principal por la que no hizo trámites para conseguir un trabajo o instalar su propio negocio en las últimas 4 semanas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B06",
+      "label": "6. ¿Cuándo espera comenzar con ese empleo o negocio?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B07",
+      "label": "7. (...), Aunque ya me dijo que no buscó trabajo. ¿Desearía trabajar si se le presentara la oportunidad de un empleo o empezar un negocio?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B08",
+      "label": "8. (...), Si durante la semana anterior hubiera encontrado trabajo o conseguido clientes para su propio negocio,...",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B09",
+      "label": "9. (...), Para obtener ingresos, ¿Ha trabajado alguna vez en su vida?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B10",
+      "label": "10. (...), ¿Cuál fue el motivo por el qué dejó su último trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B11",
+      "label": "11. ¿Cúal es el medio principal con el que se sostiene económicamente?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C01",
+      "label": "1. (...) ¿Cuántos trabajos tuvo la semana pasada?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C02_2D",
+      "label": "Ocupación a 2 dígitos",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C02_1D",
+      "label": "Ocupación a 1 dígito",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C03",
+      "label": "3. (...), en total ¿Cuántos años lleva trabajando como (...)?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C04_2D",
+      "label": "Actividad a 2 dígitos",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C04_1D",
+      "label": "Actividad a 1 dígito",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C07A",
+      "label": "7.a (...), ¿Cuántos años lleva trabajando en esta empresa, negocio o finca?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C07B",
+      "label": "7.b (...), ¿Cuántos meses lleva trabajando en esta empresa, negocio o finca?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C08A",
+      "label": "8.a ¿(...) está vinculado al Instituto Guatemalteco de Seguridad Social -IGSS- como:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C08B",
+      "label": "8.b ¿Cuánto paga al mes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C09A",
+      "label": "9.a (...), ¿Está cubierto por un seguro privado de salud, enfermedad o de accidentes de trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C09B",
+      "label": "9.b ¿Quién lo paga?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C10",
+      "label": "10. (...), ¿En dónde realiza principalmente sus actividades laborales?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C11A",
+      "label": "11.a ¿En que municipio, departamento o país trabajó la semana pasada?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C11B",
+      "label": "11.b Código Departamento",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C11F",
+      "label": "11.f País",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C12",
+      "label": "12. ¿Quién decide su horario de trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C13",
+      "label": "13. (...), Incluyendo al dueño, ¿Cuántas personas trabajaron la semana pasada, en la empresa o negocio donde trabaja o trabajó?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C14",
+      "label": "14. ¿Cuál es la fuente principal de ingresos en este trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15A",
+      "label": "15.a (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación principal, el día Lunes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15B",
+      "label": "15.b (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación principal, el día Martes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15C",
+      "label": "15.c (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación principal, el día Miércoles?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15D",
+      "label": "15.d (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación principal, el día Jueves?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15E",
+      "label": "15.e (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación principal, el día Viernes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15F",
+      "label": "15.f (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación principal, el día Sábado?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15G",
+      "label": "15.g (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación principal, el día Domingo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C16",
+      "label": "16. (...), ¿En el trabajo que dedicó más horas la semana pasada o la última semana que trabajó es o era:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C17",
+      "label": "17. (...), El trabajo no remunerado que realizó la semana pasada, ¿Lo hizo en calidad de:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C18",
+      "label": "18. Este trabajo no remunerado, ¿Lo realiza:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C19",
+      "label": "19. Además del trabajo no remunerado:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C20",
+      "label": "20. Tiene contrato de trabajo o nombramiento",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C21A",
+      "label": "21.a ¿La duración de ese contrato, nombramiento o acuerdo de trabajo es...",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C21B",
+      "label": "21.b ¿Por cuántos meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C21C",
+      "label": "21.c ¿Por cuántos días?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C22",
+      "label": "22. (...), En este trabajo, ¿Tiene un empleador o supervisor que:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C23",
+      "label": "23. (...), ¿Si usted decidiera dejar de trabajar dos semanas:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24A",
+      "label": "24.a (...), ¿En su ocupación puede o tiene facilidades para: Tomar vacaciones pagadas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24B",
+      "label": "24.b (...), ¿En su ocupación puede o tiene facilidades para: Tomar licencia pagada por enfermedad o accidente laboral?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24C",
+      "label": "24.c (...), ¿En su ocupación puede o tiene facilidades para: Tomar un día de permiso, por motivos familiares?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24D",
+      "label": "24.d (...), ¿En su ocupación puede o tiene facilidades para: Ausentarse del trabajo para ir al médico?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24E",
+      "label": "24.e (...), ¿En su ocupación puede o tiene facilidades para: Permiso de maternidad o paternidad?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24F",
+      "label": "24.f (...), ¿En su ocupación puede o tiene facilidades para: Permiso por fallecimiento de un familiar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C25",
+      "label": "25. (...), ¿La empresa o institución que le paga su sueldo o salario, es la misma donde realiza su trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D01",
+      "label": "1. (...), ¿Cuál fue el sueldo o salario mensual sin descuentos que recibió en este trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D02A",
+      "label": "2.a (...), En la ocupación de el mes pasado, ¿Recibió dinero por trabajar horas extras?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D02B",
+      "label": "2.b ¿Horas laboradas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D02C",
+      "label": "2.c ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D03A",
+      "label": "3.a En la ocupación de (...), el mes pasado, ¿Recibió dinero por conceptos de comisiones, dietas, propinas o viáticos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D03B",
+      "label": "3.b ¿Cuánto recibió el mes pasado?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D04A",
+      "label": "4.a En la ocupación de (...), el mes pasado, ¿Recibió alimentación, víveres o subsidio para alimentación?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D04B",
+      "label": "4.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D05A",
+      "label": "5.a En la ocupación de (...), el mes pasado, ¿Recibió vivienda sin tener que pagarla?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D05B",
+      "label": "5.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D06A",
+      "label": "6.a En la ocupación de (...), el mes pasado, ¿Recibió transporte gratuito o dinero adicional para transportarse a su trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D06B",
+      "label": "6.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D07A",
+      "label": "7.a (...), Durante los últimos 12 meses ¿Recibió dinero por concepto de bono de productividad, desempeño o por estímulos laborales?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D07B",
+      "label": "7.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D08A",
+      "label": "8.a (...), Durante los últimos 12 mese ¿trabajó en su período vacacional en la misma institución, empresa o finca?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D08B",
+      "label": "8.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D09A",
+      "label": "9.a (...), Durante los últimos 12 mese ¿Recibió dinero por concepto de bono 14?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D09B",
+      "label": "9.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D10A",
+      "label": "10.a (...), Durante los últimos 12 mese ¿Recibió dinero por concepto de aguinaldo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D10B",
+      "label": "10.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D11A",
+      "label": "11.a (...), Durante los últimos 12 mese ¿Recibió dinero por concepto de bono vacacional?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D11B",
+      "label": "11.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D12A",
+      "label": "12.a En la ocupación de (...), en los últimos 12 meses, ¿Recibió dinero por conceptos de un quinceavo sueldo diferido?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D12B",
+      "label": "12.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D13A",
+      "label": "13.a (...), Durante los últimos 12 meses ¿Recibió dinero por indemnización por accidente?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D13B",
+      "label": "13.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D14A",
+      "label": "14.a (...), Durante los últimos 12 meses ¿Recibió dinero por indemnización por este trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D14B",
+      "label": "14.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D15",
+      "label": "15. (...), Durante los últimos 12 meses ¿Se le ofreció por parte de su empresa hacerle exámenes médicos de prevención?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D16",
+      "label": "16. ¿En la empresa, negocio o institución pública donde trabaja es:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D17",
+      "label": "17. (...), ¿En la empresa o negocio donde trabaja es:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E01",
+      "label": "1. En este trabajo ¿(...)",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E02",
+      "label": "2. (...), La mayoría de lo que cultiva o produce en esta actividad, ¿es...",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E03",
+      "label": "3. (...), En esta ocupación,",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E04",
+      "label": "4. (...), ¿Para operar el negocio se requiere tener al menos un empleado ...",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E05",
+      "label": "5. (...), Habitualmente trabaja:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E06",
+      "label": "6. (...), ¿Alguna de las siguientes características describe a su negocio ...",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E07",
+      "label": "7. ¿Cuántos proveedores o intermediarios le abastecen la materia prima o servicios que debe de vender?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E08",
+      "label": "8. (...), Algún proveedor, cliente u entidad le establece:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E09",
+      "label": "9. (...), ¿En este negocio o actividad, algún proveedor le define el margen de ganancia?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E10",
+      "label": "10. En los últimos 12 meses ¿Cuál fue su ganancia o ingreso neto promedio mensual por concepto de ventas de productos o servicios?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E11",
+      "label": "11. En los últimos 12 meses ¿Cuál fue su ganancia o ingreso neto promedio mensual por concepto de ventas de cosechas, animales y/o venta de subproductos agropecuarios?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E12A",
+      "label": "12.a En el último mes, de lo que produce o hace ¿(...), retira o toma algo para el consumo o uso del hogar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E12B",
+      "label": "12.b. ¿En cuánto lo valora?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F01",
+      "label": "1. ¿Qué tipo de jornada u horario habitual tiene usted en su trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F02",
+      "label": "2. (...), Aproximadamente ¿Cuánto tiempo se tarda en trasladarse de su casa a su trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F03",
+      "label": "3. ¿Cuál es el medio de transporte que usted utiliza principalmente para trasladarse de su casa al trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04A",
+      "label": "4.a (...), Temperaturas extremas",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04B",
+      "label": "4.b (...), Humedad",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04C",
+      "label": "4.c (...), Ruido",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04D",
+      "label": "4.d (...), Vibraciones",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04E",
+      "label": "4.e (...), Iluminación deficiente",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04F",
+      "label": "4.f (...), Manipulación de substancias tóxicas",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04G",
+      "label": "4.g (...), Humo y polvo",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F05",
+      "label": "5. ¿Para realizar su trabajo, necesita de equipo de protección personal como cascos, guantes, botas, etc.?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F06",
+      "label": "6. ¿Dispone de estos equipos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F07",
+      "label": "7. ¿En la empresa o institución donde usted trabaja existe sindicato o comité de trabajadores?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F08",
+      "label": "8. ¿Está afiliado?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09A",
+      "label": "9.a No haber recibido prestaciones laborales?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09B",
+      "label": "9.b No estar afiliado al IGSS?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09C",
+      "label": "9.c Recibir maltrato en el trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09D",
+      "label": "9.d Trabajar más horas de la joranada acordada?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09E",
+      "label": "9.e Sentirse discriminado (a) por su sexo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09F",
+      "label": "9.f Sentirse discriminado (a) por su preferencia sexual?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09G",
+      "label": "9.g Sentirse discriminado (a) por el pueblo a que pertenece...",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09H",
+      "label": "9.h No permitirle afiliarse a un sindicato o por estarlo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09I",
+      "label": "9.i Sentirse discriminado por su religión?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09J",
+      "label": "9.j Otro?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G01",
+      "label": "1. Además del trabajo principal de la semana pasada, ¿Tenía un segundo trabajo, actividad agropecuaria, negocio o empresa?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G02_2D",
+      "label": "Ocupación a 2 dígitos",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G02_1D",
+      "label": "Ocupación a 1 dígito",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G04_2D",
+      "label": "Actividad a 2 dígitos",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G04_1D",
+      "label": "Actividad a 1 dígito",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G06A",
+      "label": "6.a ¿(...) está vinculado al Instituto Guatemalteco de Seguridad Social -IGSS- como:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G06B",
+      "label": "6.b ¿Cuánto paga al mes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G07",
+      "label": "7. (...), Incluyendo al dueño, ¿Cuántas personas trabajaron la semana pasada, en la empresa o negocio donde trabaja o trabajó?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G08",
+      "label": "8. (...), En este segundo trabajo, la semana pasada o la última semana que trabajó es o era:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G09",
+      "label": "9. (...), ¿Cuál es la motivación para realizar trabajo no remunerado:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G10",
+      "label": "10. (...), ¿Cuál fue el sueldo o salario mensual sin descuentos que recibió en este segundo empleo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G11A",
+      "label": "11.a (...), En este segundo trabajo el mes pasado ¿Recibió:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G11B",
+      "label": "11.b ¿Cuánto le costaría lo que recibió el mes pasado?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G12A",
+      "label": "12.a (...), En la ocupación de el mes pasado, ¿Recibió dinero por trabajar horas extras, comisiones, dietas, propinas o bonos de productividad?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G12B",
+      "label": "12.b ¿Cuánto recibió en total el mes pasado?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G13A",
+      "label": "13.a (...), Durante los últimos 12 meses ¿Recibió dinero por concepto de bono 14 en este segundo trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G13B",
+      "label": "13.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G14A",
+      "label": "14.a (...), Durante los últimos 12 meses ¿Recibió dinero por concepto de aguinaldo en este segundo trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G14B",
+      "label": "14.b ¿Cuánto recibió?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G15",
+      "label": "15. (...), ¿En la empresa o negocio donde trabaja es:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G16",
+      "label": "16. En su lugar de trabajo:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G17",
+      "label": "17. En este trabajo ¿(...)",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G18",
+      "label": "18. (...), La mayoría de lo que cultiva o produce en esta actividad, ¿es...",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G19",
+      "label": "19. (...), En esta ocupación,",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G20",
+      "label": "20. (...), ¿Para operar el negocio se requiere tener al menos un empleado ...",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G21",
+      "label": "21. (...), Habitualmente trabaja:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G22",
+      "label": "22. (...), ¿Alguna de las siguientes características describe a su negocio ...",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G23",
+      "label": "23. ¿Cuántos proveedores o intermediarios le abastecen la materia prima o servicios que debe de vender?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G24",
+      "label": "24. (...), Algún proveedor, cliente u entidad le establece:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G25",
+      "label": "25. (...), ¿En este negocio o actividad, algún proveedor le define el margen de ganancia?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G26",
+      "label": "26. Normalmente ¿Cuál es el ingreso neto o ganancia mensual de su empresa, negocio, actividad o profesión después de quitar los gastos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G27A",
+      "label": "27. En el último mes, de lo que produce, hace o vende ¿(...) retira o toma algo para el consumo o uso del hogar y en cuánto lo valora?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G27B",
+      "label": "27. ¿En cuánto lo valora?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G28A",
+      "label": "28.a (...) , La semana pasada ¿Tenía contratado a uno o más empelados trabajando con usted?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G28B",
+      "label": "28.b ¿Cuántos empleados?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29A",
+      "label": "29.a (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación secundaria, el día Lunes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29B",
+      "label": "29.b (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación secundaria, el día Martes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29C",
+      "label": "29.c (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación secundaria, el día Miércoles?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29D",
+      "label": "29.d (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación secundaria, el día Jueves?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29E",
+      "label": "29.e (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación secundaria, el día Viernes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29F",
+      "label": "29.f (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación secundaria, el día Sábado?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29G",
+      "label": "29.g (...), La semana pasada ¿Cuántas horas le invirtió en su ocupación secundaria, el día Domingo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H01A",
+      "label": "1.a (...), ¿Cuántas horas trabaja habitualmente a la semana? Ocupación principal",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H01B",
+      "label": "1.b (...), ¿Cuántas horas trabaja habitualmente a la semana? Ocupación secundaria",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H01C",
+      "label": "1.c (...), ¿Cuántas horas trabaja habitualmente a la semana? Total de horas",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H02",
+      "label": "2. (...), Además de las horas que trabaja actualmente en todos sus trabajos, ¿Desea trabajar más horas a la semana?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H03",
+      "label": "3. (...), ¿Cuál es la razón principal por la que no trabajaría más tiempo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H04A",
+      "label": "4.a (...), ¿En dónde desearía trabajar más horas: En su trabajo actual?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H04B",
+      "label": "4.b (...), ¿En dónde desearía trabajar más horas: En su trabajo adicional?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H04C",
+      "label": "4.c (...), ¿En dónde desearía trabajar más horas: Cambiando de trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H05",
+      "label": "5. (...), ¿Cuántas horas adicionales puede trabajar a la semana?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H06",
+      "label": "6. (...), ¿Durante las últimas 4 semanas, buscó trabajar más horas de las que trabaja habitualmente a la semana?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H07",
+      "label": "7. (...), SÍ le ofrecieran un trabajo adicional al que tiene o la posibilidad de trabajar más horas en su trabajo actual está disponible:",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H08",
+      "label": "8. (...), ¿Desea cambiar el trabajo que tiene actualmente?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H09",
+      "label": "9. (...), ¿Cuál es el motivo principal por el que desea cambiar el trabajo que tiene actualmente?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H10",
+      "label": "10. (...), ¿En las últimas cuatro semanas, hizo trámites para cambiar de trabajo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H11",
+      "label": "11. (...), En las últimas 4 semanas ¿Cuál fue el trámite principal que hizo para buscar un trabajo o instalar su propio negocio?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H12",
+      "label": "12. (...), Si le ofrecen un nuevo trabajo o empleo, ¿Podría empezar a trabajar antes de un mes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A01A",
+      "label": "1.a ¿Alquiler de habitaciones, viviendas, maquinaria, terrenos, fincas, etc.?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A01B",
+      "label": "1.b ¿Cuánto recibiró en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A02A",
+      "label": "2.a ¿Intereses o dividendos por acciones?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A02B",
+      "label": "2.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A03A",
+      "label": "3.a ¿Ayudas en dinero o donaciones de personas o de instituciones que residen dentro de Guatemala?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A03B",
+      "label": "3.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A04A",
+      "label": "4.a ¿Pensión alimenticia por divorcio o separación?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A04B",
+      "label": "4.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A05A",
+      "label": "5.a ¿Jubilaciones o pensiones?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A05B",
+      "label": "5.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A06A",
+      "label": "6.a ¿Becas de estudio y/o bonos por transporte escolar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A06B",
+      "label": "6.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A07A",
+      "label": "7.a ¿Seguro por desempleo?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A07B",
+      "label": "7.b ¿Cuánto recibió en los últimos 3 meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B01A",
+      "label": "1.a ¿Venta de cosechas o de animales como: cerdos, pavos, gallinas, vacas u otros?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B01B",
+      "label": "1.b ¿Cuánto recibió en los últimos 12 meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B02A",
+      "label": "2.a ¿Trabajos diferentes a los ya reportados?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B02B",
+      "label": "2.b ¿Cuánto recibió en los últimos 12 meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B03A",
+      "label": "3.a ¿Negocios no agropecuarios diferentes a los ya reportados?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B03B",
+      "label": "3.b ¿Cuánto recibió en los últimos 12 meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B04A",
+      "label": "4.a ¿Rentas por propiedad de marca, patentes y derechos de autor?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B04B",
+      "label": "4.b ¿Cuánto recibió en los últimos 12 meses?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C01",
+      "label": "1. ¿Recibió dinero durante los últimos 3 meses por concepto de remesas de personas que viven en el exterior?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C02A",
+      "label": "2.a Primer mes",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C02B",
+      "label": "2.b ¿Cuánto recibió en el primer mes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C03A",
+      "label": "3.a Segundo mes",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C03B",
+      "label": "3.b ¿Cuánto recibió en el segundo mes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C04A",
+      "label": "4.a Tercer mes",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C04B",
+      "label": "4.b ¿Cuánto recibió en el tercer mes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A01A",
+      "label": "1.a El día de ayer, ¿Cultivó la tierra o crió animales para el consumo de los miembros del hogar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A01B",
+      "label": "1.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A01C",
+      "label": "1.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A02A",
+      "label": "2.a ¿Tejió, bordó, confeccionó o elaboró prendas de vestir para los miembros del hogar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A02B",
+      "label": "2.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A02C",
+      "label": "2.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A03A",
+      "label": "3.a El día de ayer, ¿Acarreó agua para uso del hogar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A03B",
+      "label": "3.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A03C",
+      "label": "3.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A04A",
+      "label": "4.a El día de ayer, ¿Recolectó leña para uso del hogar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A04B",
+      "label": "4.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A04C",
+      "label": "4.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08A01A",
+      "label": "1.a El día de ayer, ¿Cocinó o preparó alimentos o bebidas para desayuno, almuerzo o cena?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08A01B",
+      "label": "1.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08A01C",
+      "label": "1.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08A02A",
+      "label": "2.a El día de ayer, ¿Lavó, secó o acomodó trastos del hogar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08A02B",
+      "label": "2.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08A02C",
+      "label": "2.c ¿Cuánto tiempo le dedicó en minutos de lunes a viernes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08B01A",
+      "label": "1.a El día de ayer, ¿Limpió o arregló la casa? (barrió, trapeó, tendió camas, sacudió, tiró basusa, limpió sanitarios, la cocina u otros)",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08B01B",
+      "label": "1.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08B01C",
+      "label": "1.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08B02A",
+      "label": "2.a El día de ayer, ¿Lavó, tendió y/o planchó ropa de los miembros del hogar?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08B02B",
+      "label": "2.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08B02C",
+      "label": "2.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08C01A",
+      "label": "1.a El día de ayer, ¿Efectuó reparaciones menores a su vivienda de cualquier tipo: eléctrica, fontanería, albañileria etc.",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08C01B",
+      "label": "1.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08C01C",
+      "label": "1.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08D01A",
+      "label": "1.a El día de ayer, ¿Realizó compras para el hogar en tiendas, mercados o supermercados o realizó pagos y trámites del hogar y de servicios de la vivienda?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08D01B",
+      "label": "1.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08D01C",
+      "label": "1.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E01A",
+      "label": "1.a El día de ayer, ¿Atendió y/o cuidó niños y/o niñas? (dió de comer, baño, vistió, arregló, jugó, cargó, acostó)",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E01B",
+      "label": "1.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E01C",
+      "label": "1.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E02A",
+      "label": "2.a El día de ayer, ¿Cuidó a una o varias personas mayores de sesenta años)",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E02B",
+      "label": "2.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E02C",
+      "label": "2.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E03A",
+      "label": "3.a El día de ayer, ¿Cuidó a una o varias personas enfermas? (dió de comer, baño, ayudó a ir al baño, administró medicina)",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E03B",
+      "label": "3.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E03C",
+      "label": "3.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08F01A",
+      "label": "1.a El día de ayer, ¿Realizó algún trabajo SIN PAGO para otros hogares o para la comunidad?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08F01B",
+      "label": "1.b ¿Cuánto tiempo le dedicó en horas?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08F01C",
+      "label": "1.c ¿Cuánto tiempo le dedicó en minutos?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "YLAB_PUBLI",
+      "label": "Ingreso laboral",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "PET",
+      "label": "Población en edad de trabajar",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "PEA",
+      "label": "Población económicamente activa",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "OCUPADOS",
+      "label": "Población ocupada",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "DESOCUPADOS",
+      "label": "Población desocupada",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "SUBVISIBLES",
+      "label": "Población subempleada visible",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "INACTIVOS",
+      "label": "Población económicamente inactiva",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "FORMAL_INFORMAL",
+      "label": "Condición de formalidad",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Variables en el archivo de trabajo",
+      "label": "",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Valores de variable",
+      "label": "",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Valor",
+      "label": "Etiqueta",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "DOMINIO",
+      "label": "Urbano Metropolitano",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P00A10",
+      "label": "Urbana",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A02",
+      "label": "Hombre",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A05A",
+      "label": "En este departamento",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A05B",
+      "label": "Guatemala",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A05F",
+      "label": "ESTADOS UNIDOS",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A06A",
+      "label": "Menos de 6 meses",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A07",
+      "label": "1. Jefe (a) del hogar",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A08",
+      "label": "Xinka?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A09",
+      "label": "K’Iche’",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A10",
+      "label": "K’Iche’",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11A",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11B",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11C",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11D",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11E",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A11F",
+      "label": "No tiene ninguna dificultad",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A12",
+      "label": "Unido(a)?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P02A13",
+      "label": "Completa",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A02",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P03A03A",
+      "label": "NINGUNO",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A02",
+      "label": "Instituto Técnico de Capacitación y Productividad (INTECAP)",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A03",
+      "label": "Sí",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P04A04",
+      "label": "Computación",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A02",
+      "label": "Trabajar para obtener ingresos",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A03",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A04",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A05",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A06",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A07",
+      "label": "Maternidad, Enfermedad o accidente (cubierto por IGSS)",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A08",
+      "label": "Ya se incorporó a trabajar esta semana",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05A09",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B02",
+      "label": "Pidió ayuda o referencias a familiares o parientes",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B03",
+      "label": "Falta de experiencia",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B05",
+      "label": "Ya inició gestiones para empezar un negocio",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B06",
+      "label": "En menos de un mes",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B07",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B08",
+      "label": "Sí, de inmediato",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B09",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B10",
+      "label": "Cierre o reestructuración de empresa",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05B11",
+      "label": "Recibe dinero por jubilación?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C01",
+      "label": "Un solo trabajo",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C02_2D",
+      "label": "Ocupaciones militares",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C02_1D",
+      "label": "Ocupaciones militares",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C04_2D",
+      "label": "Agricultura, ganadería, caza y actividades de servicios conexas",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C04_1D",
+      "label": "Agricultura, ganadería, silvicultura y pesca",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C07B",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C08A",
+      "label": "Afiliado?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C09A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C09B",
+      "label": "La empresa",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C10",
+      "label": "Local fijo de la empresa, institución o negocio, finca para la que trabaja",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C11A",
+      "label": "Aquí",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C11B",
+      "label": "GUATEMALA",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C11F",
+      "label": "ESTADOS UNIDOS",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C12",
+      "label": "Usted",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C13",
+      "label": "1 persona",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C14",
+      "label": "Un sueldo, salario o jornal?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15A",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15B",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15C",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15D",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15E",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15F",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C15G",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C16",
+      "label": "Empleado de gobierno?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C17",
+      "label": "Trabajo voluntario en la producción de bienes?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C18",
+      "label": "Durante todo el año?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C19",
+      "label": "¿Tiene otra ocupación u oficio del que obtenga un ingreso o paga?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C20",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C21A",
+      "label": "Por tiempo indefinido (permanente)",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C21B",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C21C",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C22",
+      "label": "Le pide cumplir con un horario?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C23",
+      "label": "Tendría que pedir perimiso o autorización?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24B",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24C",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24D",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24E",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C24F",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05C25",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D02A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D03A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D04A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D05A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D06A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D07A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D08A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D09A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D10A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D11A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D12A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D13A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D14A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D15",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D16",
+      "label": "De un solo dueño?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05D17",
+      "label": "¿Existe un departamento de contabilidad?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E01",
+      "label": "Trabaja y opera por su cuenta?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E02",
+      "label": "Para la venta?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E03",
+      "label": "Ayuda a realizar las actividades necesarias?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E04",
+      "label": "Siempre?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E05",
+      "label": "Para un solo cliente?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E06",
+      "label": "Promover productos o servicios de una sola compañia o empresa?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E07",
+      "label": "Uno",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E08",
+      "label": "Montos mínimos de venta o de producción?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E09",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05E12A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F01",
+      "label": "Jornada normal",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F02",
+      "label": "No se traslada",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F03",
+      "label": "A pie",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04B",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04C",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04D",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04E",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04F",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F04G",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F05",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F06",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F07",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F08",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09B",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09C",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09D",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09E",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09F",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09G",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09H",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09I",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05F09J",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G02_2D",
+      "label": "Ocupaciones militares",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G02_1D",
+      "label": "Ocupaciones militares",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G04_2D",
+      "label": "Agricultura, ganadería, caza y actividades de servicios conexas",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G04_1D",
+      "label": "Agricultura, ganadería, silvicultura y pesca",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G06A",
+      "label": "Afiliado?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G07",
+      "label": "1 persona",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G08",
+      "label": "Empleado del gobierno?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G09",
+      "label": "Aprender?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G11A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G12A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G13A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G14A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G15",
+      "label": "De un solo dueño?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G16",
+      "label": "¿Existe un departamento de contabilidad?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G17",
+      "label": "Trabaja y opera por su cuenta?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G18",
+      "label": "Para la venta?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G19",
+      "label": "Ayuda a realizar las actividades necesarias?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G20",
+      "label": "Siempre?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G21",
+      "label": "Para un solo cliente?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G22",
+      "label": "Promover productos o servicios de una sola compañia o empresa?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G23",
+      "label": "Uno",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G24",
+      "label": "Montos mínimos de venta o de producción?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G25",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G27A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G28A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29A",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29B",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29C",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29D",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29E",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29F",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05G29G",
+      "label": "0",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H02",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H03",
+      "label": "Con lo que gana es suficiente",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H04A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H04B",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H04C",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H06",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H07",
+      "label": "De forma inmediato?",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H08",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H09",
+      "label": "Para utilizar mejor sus capacidades o formación",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H10",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H11",
+      "label": "Pidió ayuda o referencias a familiares o parientes",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P05H12",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A01A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A02A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A03A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A04A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A05A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A06A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06A07A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B01A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B02A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B03A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06B04A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C01",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C02A",
+      "label": "Enero",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C03A",
+      "label": "Enero",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P06C04A",
+      "label": "Enero",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A01A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A02A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A03A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P07A04A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08A01A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08A02A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08B01A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08B02A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08C01A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08D01A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E01A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E02A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08E03A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "P08F01A",
+      "label": "Si",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "PET",
+      "label": "Población en edad de trabajar",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "PEA",
+      "label": "Poblacíon económicamente activa",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "OCUPADOS",
+      "label": "Población ocupada",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "DESOCUPADOS",
+      "label": "Población desocupada",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "SUBVISIBLES",
+      "label": "Población subempleada",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "INACTIVOS",
+      "label": "Población económicamente inactiva",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "FORMAL_INFORMAL",
+      "label": "Informal",
+      "type": "NUMBER",
+      "table": "Hoja1",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: Diccionario-Personas-ENEIC-IV-2024-2 (1).xlsx (1 sheet(s))",
+    "Sheet 'Hoja1': GTM_ENEIC layout, 1945 rows",
+    "  → 520 variables extracted"
+  ]
+}

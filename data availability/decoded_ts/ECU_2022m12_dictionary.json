@@ -1,0 +1,289 @@
+{
+  "iso3": "ECU",
+  "survey": "ENEMDU",
+  "period": "m12",
+  "year": 2022,
+  "source_files": [
+    "Diccionario de Datos_armonia_2022_12.ODS"
+  ],
+  "doc_type": "ODS",
+  "tables": [
+    "Hoja1"
+  ],
+  "variables": [
+    {
+      "name": "Institución",
+      "label": "Instituto Nacional de Estadistica y Censos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Identificador",
+      "label": "INEC_PDA_2022",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Documento Referencia",
+      "label": "INEC_DIES_ENEMDU_2022_DIC",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Nombre",
+      "label": "enemdu_armonia_2022_12",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Descripción",
+      "label": "La Tabla de datos de la Encuesta Nacional de Empleo, Desempleo y Subempleo - DICIEMBRE 2022, permite conocer la percepción del bienestar subjetivo que las personas pueden alcanzar en su entorno social.",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Nombre del campo",
+      "label": "Descripción del campo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "area",
+      "label": "Area",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ciudad",
+      "label": "Ciudad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "conglomerado",
+      "label": "Conglomerado",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "panelm",
+      "label": "Panelm",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "vivienda",
+      "label": "Vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "hogar",
+      "label": "Hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar01",
+      "label": "Código del Informante",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar01a",
+      "label": "Cómo se siente con - Su trabajo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar01b",
+      "label": "Cómo se siente con - Su nivel educativo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar01c",
+      "label": "Cómo se siente con - Su estado salud",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar01d",
+      "label": "Cómo se siente con - Las condiciones de su vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar01e",
+      "label": "Cómo se siente con - Su relación con el medio ambiente",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar01f",
+      "label": "Cómo se siente con - Su participación dentro de la comunidad, vecindario y/o barrio",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar01g",
+      "label": "Cómo se siente con - La satisfacción general con su vida, tomando en cuenta todos los aspectos de su vida",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar02",
+      "label": "Considera que su hogar es pobre",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar03a",
+      "label": "Ingreso mensual mínimo que necesita el hogar para que llegue a fin de mes",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar04a",
+      "label": "Ingreso mensual mínimo que necesita el hogar para que viva bien",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar05a",
+      "label": "Considera Usted que, la mayoría de personas en este barrio o comunidad se llevan bien entre ellos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar06a",
+      "label": "En general, Usted considera que puede confiar en la mayoría de las personas de este barrio o comunidad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar07a",
+      "label": "Siente Usted que es parte de este barrio o comunidad",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar08a",
+      "label": "Siente que la mayoría de las personas en este barrio o comunidad tratarían de aprovecharse de Ud",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar09a",
+      "label": "En los últimos 7 días, ha compartido una comida con todos los miembros de su hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar10a",
+      "label": "Si estuviera en problemas, cuenta con familiares o amigos para que le ayuden siempre que los necesita",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar11a",
+      "label": "Durante el mes pasado, Ha donado dinero, víveres, ropa u otros bienes a la caridad o a personas necesitadas",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar12a",
+      "label": "El mes pasado, ha dedicado al menos una hora de voluntariado a - Personas o familias necesitadas",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "ar12b",
+      "label": "El mes pasado, ha dedicado al menos una hora de voluntariado a - Organizaciones sociales, barriales o comunitaria",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "estrato",
+      "label": "Estratos",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "fexp",
+      "label": "Factor de expansión",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "upm",
+      "label": "Unidad Primaria de Muestreo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "id_vivienda",
+      "label": "Identificador de vivienda",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "id_hogar",
+      "label": "Identificador de hogar",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "periodo",
+      "label": "Periodo",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: Diccionario de Datos_armonia_2022_12.ODS",
+    "  1 sheet(s): Hoja1",
+    "  Sheet 'Hoja1': table starts at row 0",
+    "    name_col fallback → '0'",
+    "    label_col fallback → '1'",
+    "    → 38 variables"
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "iso3": "URY",
+  "survey": "ECH",
+  "period": "a",
+  "year": 2025,
+  "source_files": [
+    "Diccionario de variables 2025.xlsx"
+  ],
+  "doc_type": "DICT_XLSX",
+  "tables": [
+    "Hoja1"
+  ],
+  "variables": [
+    {
+      "name": "1",
+      "label": "Durante los últimos 12 meses, ¿usted u otro miembro del hogar se preocupó por no tener suficientes alimentos para comer por falta de dinero u otros recursos?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Durante los últimos 12 meses, ¿alguna vez usted u otro miembro del hogar no pudo comer alimentos saludables y nutritivos por falta de dinero u otros recursos?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Durante los últimos 12 meses, ¿alguna vez usted u otro miembro del hogar consumió poca variedad de alimentos por falta de dinero u otros recursos?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Durante los últimos 12 meses, ¿alguna vez, usted u otro miembro del hogar tuvo que dejar de desayunar, almorzar o cenar porque no había suficiente dinero u otros recursos para obtener alimentos?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Durante los últimos 12 meses, ¿alguna vez usted u otro miembro del hogar comió menos de lo que pensaba que debía comer por falta de dinero u otros recursos?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Durante los últimos 12 meses, ¿alguna vez su hogar se quedó sin alimentos por falta de dinero u otros recursos?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Durante los últimos 12 meses ¿alguna vez usted u otro miembro del hogar sintió hambre pero no comió porque no había suficiente dinero u otros recursos para obtener alimentos?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Durante los últimos 12 meses, ¿alguna vez usted u otro miembro de su hogar dejó de comer todo un día por falta de dinero u otros recursos?",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "98",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "99",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "Ingreso total del hogar sin valor locativo sin servicio doméstico",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "Nº",
+      "label": "Cantidad de personas sin servicio doméstico",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "$",
+      "label": "Ingreso per cápita del hogar (sin valor locativo)",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Región",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1 a 5",
+      "label": "Quintiles de ingreso para todo el país",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "Region de 4 categorías",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "2",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "3",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "4",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "Hogares con niños de 0 a 5 años",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "0",
+      "label": "Hogares con menores de 18 años",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    },
+    {
+      "name": "1",
+      "label": "",
+      "type": "",
+      "table": "Hoja1",
+      "value_codes": {}
+    }
+  ],
+  "decode_notes": [
+    "Source: Diccionario de variables 2025.xlsx (1 sheet(s))",
+    "Sheet 'Hoja1': UNKNOWN layout — best-effort extraction",
+    "  → 46 variables (best-effort — verify manually)"
+  ]
+}
