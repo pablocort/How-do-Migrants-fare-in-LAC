@@ -7,6 +7,8 @@
 *.dat
 # EPA Spain raw fixed-width microdata files
 bases\ armo/raw/esp/**/*.txt
+bases\ armo/raw/esp/ficheros/
+bases\ armo/raw/esp/2*/
 
 # Compressed raw data
 *.zip
@@ -14,14 +16,19 @@ bases\ armo/raw/esp/**/*.txt
 *.tar
 *.7z
 
-# ── Output data (derived from restricted microdata) ────────────────────────────
-# Regenerate with hdmf_2.py after obtaining licensed data
-out/indicator_descriptive/*.xlsx
-out/hdmf_indicators*.xlsx
-out/cinef_tab*.xlsx
+# Survey dictionary files (ODS format)
+*.ODS
+*.ods
+
+# ── Output folder (all generated — regenerate with analysis scripts) ───────────
+out/
 
 # ── Intermediate output files ──────────────────────────────────────────────────
 bases\ armo/armo/out_indicators/
+
+# ── Raw data documentation (PDFs, merged CSVs — tied to licensed data) ────────
+bases\ armo/raw/**/*.pdf
+bases\ armo/raw/**/*.csv
 
 # ── Stata artefacts ────────────────────────────────────────────────────────────
 *.stswp
@@ -43,6 +50,14 @@ bases\ armo/armo/*.err
 
 # Python cache (regenerate with hdmf_build.py)
 *.pkl
+
+# LaTeX build artifacts
+*.aux
+*.toc
+*.snm
+*.nav
+*.fls
+*.fdb_latexmk
 
 # Keep example synthetic data
 !data/synthetic/*.dta
@@ -83,16 +98,5 @@ Thumbs.db
 *.swp
 *~
 
-# ── PDF reports (internal) ─────────────────────────────────────────────────────
-# Dictionary PDFs — large and tied to licensed data
-bases\ armo/raw/col/*.pdf
-bases\ armo/raw/ecu/*.pdf
-
 # Personal documents (not project files)
 analisis_claudecode_cv.pdf
-
-# ── Image outputs (regenerate with analysis scripts) ──────────────────────────
-out/*.png
-out/*.jpg
-out/indicator_descriptive/*.png
-out/indicator_descriptive/*.jpg
