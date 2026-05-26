@@ -47,6 +47,13 @@ Pipeline goal: harmonize raw household/labor surveys into `*_BID.dta` files stor
 | 13 | Barbados | BRB | LFS | 2023 | Annual | `raw/brb/BRB_2023a.dta` | DTA | — | `brb/BRB_2023a_variablesBID.do` | `BRB/BRB_2023a_BID.dta` | ✅ Done (2026-05-13) — single wave; `migrante_ci` from nationality (`CNTRY_CD`), not birthplace; `formal_ci` not available (LFS) |
 | 14 | Dominican Republic | DOM | ENFT | 2018–2024 | Q4 | `armo/DOM/DOM_*_BID.dta` | DTA | — | `dom/DOM_*_variablesBID.do` | `DOM/DOM_*_BID.dta` | ✅ Done — 7 waves (2018t4–2024t4) |
 | 15 | Suriname | SUR | ABS | 2022 | Annual | `raw/sur/SUR_2022a.dta` *(user to place)* | DTA | — | `sur/SUR_2022a_variablesBID.do` | `SUR/SUR_2022a_BID.dta` | ⏳ Script written (2026-05-13) — waiting for raw DTA file |
+| 16a | Honduras | HND | EPHPM | 2018 | Jun (m6) | `raw/hnd/HND_2018m6.dta` | DTA | — | `hnd/HND_2018m6_variablesBID.do` | `HND/HND_2018m6_BID.dta` | ⏳ Script written (2026-05-21) — **only wave with migrante_ci** (cd02_4); old cp-variable structure; salmm=8910.71 |
+| 16b | Honduras | HND | EPHPM | 2019 | Jun (m6) | `raw/hnd/HND_2019m6.dta` | DTA | — | `hnd/HND_2019m6_variablesBID.do` | `HND/HND_2019m6_BID.dta` | ⏳ Script written (2026-05-21) — old cp-variable structure; ce425cod occupation; migrante_ci=.; salmm=9443.24 |
+| 16c | Honduras | HND | EPHPM | 2021 | Jun (m6) | `raw/hnd/HND_2021m6.dta` | DTA | — | `hnd/HND_2021m6_variablesBID.do` | `HND/HND_2021m6_BID.dta` | ⏳ Script written (2026-05-21) — transitional wave; ch03/ch04/ch02 demographics; aedu_ci=.; edu_hdmf=.; income not /3; zona_c: 1-3=urban |
+| 16d | Honduras | HND | EPHPM | 2022 | Jun (m6) | `raw/hnd/HND_2022m6.dta` | DTA | — | `hnd/HND_2022m6_variablesBID.do` | `HND/HND_2022m6_BID.dta` | ⏳ Script written (2026-05-21) — new condact structure; complex concat IDs; day-by-day hours; ynlm_ci=.; remesas_ci=.; salmm=12377.73 |
+| 16e | Honduras | HND | EPHPM | 2023 | Jun (m6) | `raw/hnd/HND_2023m6.dta` | DTA | — | `hnd/HND_2023m6_variablesBID.do` | `HND/HND_2023m6_BID.dta` | ⏳ Script written (2026-05-21) — new structure; id+orden IDs; full non-labor income (tc_c1=24.7285, /3); salmm=12377.73 |
+| 16f | Honduras | HND | EPHPM | 2024 | Jun (m6) | `raw/hnd/HND_2024m6.dta` | DTA | — | `hnd/HND_2024m6_variablesBID.do` | `HND/HND_2024m6_BID.dta` | ⏳ Script written (2026-05-21) — CONDACT uppercase; depmuestra for region; tothrsop/thoras for hours; ynlm_ci=.; tc_c1=25.12562814; salmm=13601.28 (TODO: verify) |
+| 16g | Honduras | HND | EPHPM | 2025 | Jul (m7) | `raw/hnd/HND_2025m7.dta` | DTA | — | `hnd/HND_2025m7_variablesBID.do` | `HND/HND_2025m7_BID.dta` | ⏳ Script written (2026-05-21) — clone of 2024; tc_c1=26.00; salmm=14000 (TODO: verify both values) |
 
 > ¹ `COL_2024t3_BID.dta` should be in `armo/COL/` per the new structure. Re-run the script to regenerate it in the correct location.
 
@@ -58,6 +65,7 @@ Pipeline goal: harmonize raw household/labor surveys into `*_BID.dta` files stor
 |--------|-------|-------------------|
 | ✅ Done (output in `armo/[ISO3]/`) | 17+ | CHL 2024a, COL 2025t3, ECU 2025m12, PER 2024a, USA 2024, ESP 2018a–2025a, BLZ 2024m9, BRB 2023a, DOM 2018t4–2024t4 |
 | ⚠️ Script exists, needs re-run | 1 | COL 2024t3 — re-run to save to `armo/COL/` |
+| ⏳ Script written, pending run | 7 | HND 2018m6–2025m7 — scripts in `do armo/hnd/`; raw DTA files in `bases armo/raw/hnd/` |
 | ⚠️ In progress / incomplete | 3 | ECU 2024m12 (data zipped), MEX 2025t4 (variables script missing), SUR 2022a (script ready, waiting for raw DTA) |
 | ❌ Not started | 2 | BRA 2025 (no script), COL 2023t3 (no script) |
 
