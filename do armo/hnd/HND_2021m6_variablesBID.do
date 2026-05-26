@@ -271,26 +271,28 @@ capture replace ylnm_ci = ylnmpri_ci + ylnmsec_ci if emp_ci == 1
 label var ylm_ci  "Total labor monetary"
 label var ylnm_ci "Total labor non-monetary"
 
-* Non-labor income — 2021: no /3, no USD components
+* Non-labor income — 2021: already monthly (no /3); add USD variants via tc_c1
+local tc = `tc_c1'
 gen ynlm_ci = 0
-capture replace ynlm_ci = ynlm_ci + oih01_lps
-capture replace ynlm_ci = ynlm_ci + oih02_lps
-capture replace ynlm_ci = ynlm_ci + oih03_lps
+capture replace ynlm_ci = ynlm_ci + oih01_lps + oih01_us*`tc'
+capture replace ynlm_ci = ynlm_ci + oih02_lps + oih02_us*`tc'
+capture replace ynlm_ci = ynlm_ci + oih03_lps + oih03_us*`tc'
 capture replace ynlm_ci = ynlm_ci + oih04
-capture replace ynlm_ci = ynlm_ci + oih05_lps
-capture replace ynlm_ci = ynlm_ci + oih06_lps
-capture replace ynlm_ci = ynlm_ci + oih07_lps
+capture replace ynlm_ci = ynlm_ci + oih05_lps + oih05_us*`tc'
+capture replace ynlm_ci = ynlm_ci + oih06_lps + oih06_us*`tc'
+capture replace ynlm_ci = ynlm_ci + oih07_lps + oih07_us*`tc'
 capture replace ynlm_ci = ynlm_ci + oih11
-capture replace ynlm_ci = ynlm_ci + oih12_lps
+capture replace ynlm_ci = ynlm_ci + oih12_lps + oih12_us*`tc'
 capture replace ynlm_ci = ynlm_ci + oih13
 capture replace ynlm_ci = ynlm_ci + oih14
 capture replace ynlm_ci = ynlm_ci + oih15
+capture replace ynlm_ci = ynlm_ci + oih16_lps + oih16_us*`tc'
 replace ynlm_ci = . if ynlm_ci == 0 & missing(edad_ci)
 label var ynlm_ci "Non-labor income (monthly HNL)"
 
-* Remittances — 2021: no /3
+* Remittances — 2021: already monthly (no /3); add USD variants
 gen remesas_ci = .
-capture gen remesas_ci = oih12_lps + oih12_lps_esp
+capture gen remesas_ci = oih12_lps + oih12_lps_esp + oih12_us*`tc_c1' + oih12_us_esp*`tc_c1'
 replace remesas_ci = 0 if missing(remesas_ci) & !missing(edad_ci)
 replace remesas_ci = . if missing(edad_ci)
 

@@ -35,11 +35,10 @@ local salmm = 9443.24
 *------------------------------------------------------------------------------
 * Region / zone
 *------------------------------------------------------------------------------
-* ine01 = department code (destring needed if string)
-capture destring ine01, replace
+* depto = department code 1-18 (ine01 is not in 2019 raw data)
 gen region_c = .
-capture clonevar region_c = ine01
-label var region_c "Department (ine01 code)"
+capture clonevar region_c = depto
+label var region_c "Department (depto)"
 
 * domi: 1=Tegucigalpa, 2=San Pedro Sula, 3=Other urban, 4=Rural
 gen zona_c = .

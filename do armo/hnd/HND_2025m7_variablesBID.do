@@ -310,15 +310,46 @@ capture replace ylnm_ci = ylnmpri_ci + ylnmsec_ci if emp_ci == 1
 label var ylmpri_ci "Labor monetary primary (monthly HNL)"
 label var ylm_ci    "Total labor monetary"
 
-gen ynlm_ci    = .
+* Non-labor income — OIH01–OIH21 available in 2025 (OIH21 is new); quarterly → /3
+local tc = `tc_c1'
+gen ynlm_ci = 0
+capture replace ynlm_ci = ynlm_ci + oih01_lps/3 + oih01_us*`tc'/3
+capture replace ynlm_ci = ynlm_ci + oih02_lps/3 + oih02_us*`tc'/3
+capture replace ynlm_ci = ynlm_ci + oih03_lps/3 + oih03_us*`tc'/3
+capture replace ynlm_ci = ynlm_ci + oih04/3
+capture replace ynlm_ci = ynlm_ci + oih05_lps/3 + oih05_us*`tc'/3
+capture replace ynlm_ci = ynlm_ci + oih06_lps/3 + oih06_us*`tc'/3
+capture replace ynlm_ci = ynlm_ci + oih06_lps_esp/3 + oih06_us_esp*`tc'/3
+capture replace ynlm_ci = ynlm_ci + oih07_lps/3 + oih07_us*`tc'/3
+capture replace ynlm_ci = ynlm_ci + oih07_lps_esp/3 + oih07_us_esp*`tc'/3
+capture replace ynlm_ci = ynlm_ci + oih08/3
+capture replace ynlm_ci = ynlm_ci + oih09/3
+capture replace ynlm_ci = ynlm_ci + oih10/3
+capture replace ynlm_ci = ynlm_ci + oih11/3
+capture replace ynlm_ci = ynlm_ci + oih12_lps/3 + oih12_us*`tc'/3
+capture replace ynlm_ci = ynlm_ci + oih13/3
+capture replace ynlm_ci = ynlm_ci + oih14/3
+capture replace ynlm_ci = ynlm_ci + oih15/3
+capture replace ynlm_ci = ynlm_ci + oih16/3
+capture replace ynlm_ci = ynlm_ci + oih17/3
+capture replace ynlm_ci = ynlm_ci + oih18/3
+capture replace ynlm_ci = ynlm_ci + oih19_lps/3
+capture replace ynlm_ci = ynlm_ci + oih20_lps/3
+capture replace ynlm_ci = ynlm_ci + oih21_lps/3
+replace ynlm_ci = . if ynlm_ci == 0 & missing(edad_ci)
+label var ynlm_ci "Non-labor income (monthly HNL)"
+
 gen remesas_ci = .
-gen remesas_ch = .
-label var ynlm_ci    "Non-labor income (not calculated 2025)"
-label var remesas_ci "Remittances (not calculated 2025)"
+capture gen remesas_ci = (oih12_lps + oih12_lps_esp + oih12_us*`tc' + oih12_us_esp*`tc') / 3
+replace remesas_ci = 0 if missing(remesas_ci) & !missing(edad_ci)
+replace remesas_ci = . if missing(edad_ci)
+bysort idh_ch: egen remesas_ch = total(remesas_ci)
+label var remesas_ci "Remittances (monthly HNL)"
+label var remesas_ch "Household remittances"
 
 gen ytot_ci = .
-replace ytot_ci = 0 if emp_ci == 1
-capture replace ytot_ci = ylm_ci + ylnm_ci if emp_ci == 1
+replace ytot_ci = 0 if !missing(edad_ci) & edad_ci >= 10
+capture replace ytot_ci = ylm_ci + ylnm_ci + ynlm_ci + remesas_ci if edad_ci >= 10
 label var ytot_ci "Total income (monthly HNL)"
 
 *------------------------------------------------------------------------------

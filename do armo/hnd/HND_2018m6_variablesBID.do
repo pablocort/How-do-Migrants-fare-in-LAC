@@ -38,6 +38,11 @@ local salmm   = 8910.71
 clonevar region_c = depto
 label var region_c "Department (1-18)"
 
+* municipio — available only in 2018
+gen municipio_c = .
+capture clonevar municipio_c = municipio
+label var municipio_c "Municipality (2018 only)"
+
 * domi: 1=Tegucigalpa, 2=San Pedro Sula, 3=Other urban, 4=Rural
 gen zona_c = .
 replace zona_c = 1 if inlist(domi, 1, 2, 3)
@@ -461,7 +466,7 @@ label var tc_c1 "Exchange rate HNL/USD"
 * Drop and reorder
 *------------------------------------------------------------------------------
 order pais_c anio_c mes_c idh_ch idp_ci factor_ci factor_ch ///
-      zona_c region_c upm_ci ///
+      zona_c region_c municipio_c upm_ci ///
       edad_ci sexo_ci relacion_ci miembros_ci ///
       migrante_ci mig_pais_ci migrantiguo5_ci ///
       condocup_ci emp_ci desemp_ci pea_ci ///
