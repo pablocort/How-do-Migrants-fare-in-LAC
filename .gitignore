@@ -21,6 +21,10 @@ bases\ armo/raw/esp/2*/
 *.ods
 
 # ── Output folder (all generated — regenerate with analysis scripts) ───────────
+# Covers both the main HDMF pipeline outputs (out/indicator_descriptive/, out/trends/, etc.)
+# AND the Remittances Spillover sub-project outputs (out/remittances/data/, out/remittances/figures/).
+# Large derived CSVs (HND_all_waves.csv ~430 MB, HND_panel_geo_year.csv) are never committed.
+# Regenerate with: py "bases armo/armo/hnd_databases.py"
 out/
 
 # ── Intermediate output files ──────────────────────────────────────────────────

@@ -34,7 +34,7 @@ local salmm = 13601.28
 *------------------------------------------------------------------------------
 * depmuestra: department of sample — available again in 2024
 gen region_c = .
-capture clonevar region_c = depmuestra
+capture replace region_c = depmuestra
 label var region_c "Department (depmuestra)"
 
 gen zona_c = .
@@ -43,7 +43,7 @@ replace zona_c = 0 if dominio == 5
 label var zona_c "Urban=1 Rural=0"
 
 gen upm_ci = .
-capture clonevar upm_ci = dominio
+capture replace upm_ci = dominio
 label var upm_ci "UPM / dominio"
 
 *------------------------------------------------------------------------------
@@ -63,8 +63,8 @@ drop orden_str
 *------------------------------------------------------------------------------
 gen factor_ch = .
 gen factor_ci = .
-capture clonevar factor_ch = factor
-capture clonevar factor_ci = factor
+capture replace factor_ch = factor
+capture replace factor_ci = factor
 label var factor_ch "Household expansion factor"
 label var factor_ci "Individual expansion factor"
 
@@ -72,12 +72,12 @@ label var factor_ci "Individual expansion factor"
 * Demographics
 *------------------------------------------------------------------------------
 gen sexo_ci = .
-capture clonevar sexo_ci = sexo
+capture replace sexo_ci = sexo
 replace sexo_ci = . if sexo_ci < 1 | sexo_ci > 2
 label var sexo_ci "Sex: 1=male 2=female"
 
 gen edad_ci = .
-capture clonevar edad_ci = edad
+capture replace edad_ci = edad
 replace edad_ci = . if edad_ci < 0 | edad_ci > 120
 label var edad_ci "Age in years"
 
@@ -127,7 +127,7 @@ gen migrantiguo5_ci = .
 * Employment — CONDACT uppercase in 2024
 *------------------------------------------------------------------------------
 gen condocup_ci = .
-capture clonevar condocup_ci = CONDACT
+capture replace condocup_ci = CONDACT
 replace condocup_ci = . if condocup_ci < 1 | condocup_ci > 4
 replace condocup_ci = . if edad_ci < 10
 label var condocup_ci "Employment: 1=emp 2=ces 3=new_unem 4=inactive"
@@ -141,7 +141,7 @@ gen cesante_ci = (condocup_ci == 2) if !missing(condocup_ci)
 gen desalent_ci = .
 capture replace desalent_ci = 1 if ca513 == 6
 gen durades_ci = .
-capture clonevar durades_ci = mesest
+capture replace durades_ci = mesest
 label var emp_ci    "Employed=1"
 label var desemp_ci "Unemployed=1"
 label var pea_ci    "Economically active=1"
@@ -150,7 +150,7 @@ label var pea_ci    "Economically active=1"
 * Inactivity — CA514 (uppercase in 2024)
 *------------------------------------------------------------------------------
 gen categoinac_ci = .
-capture clonevar categoinac_ci = CA514
+capture replace categoinac_ci = CA514
 label var categoinac_ci "Reason inactive (CA514)"
 
 *------------------------------------------------------------------------------
@@ -170,7 +170,7 @@ gen tipocontrato_ci = .
 * Hours — simplified: tothrsop / thoras in 2024
 *------------------------------------------------------------------------------
 gen horaspri_ci = .
-capture clonevar horaspri_ci = tothrsop
+capture replace horaspri_ci = tothrsop
 replace horaspri_ci = . if horaspri_ci > 168
 replace horaspri_ci = . if emp_ci != 1
 label var horaspri_ci "Hours primary job (tothrsop)"
@@ -179,7 +179,7 @@ gen horassec_ci = .
 label var horassec_ci "Hours secondary (not available 2024)"
 
 gen horastot_ci = .
-capture clonevar horastot_ci = thoras
+capture replace horastot_ci = thoras
 replace horastot_ci = . if horastot_ci > 336
 replace horastot_ci = . if emp_ci != 1
 label var horastot_ci "Total hours (thoras)"
@@ -188,16 +188,16 @@ label var horastot_ci "Total hours (thoras)"
 * Occupation — ocupaop (ISCO-08 1-digit)
 *------------------------------------------------------------------------------
 gen ocupa_ci = .
-capture clonevar ocupa_ci = ocupaop
+capture replace ocupa_ci = ocupaop
 replace ocupa_ci = . if ocupa_ci < 1 | ocupa_ci > 9
 replace ocupa_ci = . if emp_ci != 1
 label var ocupa_ci "Occupation 1-digit ISCO-08"
 
 gen ramaop_ci  = .
-capture clonevar ramaop_ci = ramao
+capture replace ramaop_ci = ramao
 gen ramasec_ci = .
 gen tamemp_ci  = .
-capture clonevar tamemp_ci = oc_608_cuantas
+capture replace tamemp_ci = oc_608_cuantas
 label var ramaop_ci "Industry primary"
 
 *------------------------------------------------------------------------------
@@ -246,11 +246,11 @@ gen edupre_ci = .
 capture replace edupre_ci = 1 if ed05 == 1 | ed10 == 1
 capture replace edupre_ci = 0 if missing(edupre_ci) & !missing(edad_ci)
 gen asiste_ci = .
-capture clonevar asiste_ci = ed01
+capture replace asiste_ci = ed01
 gen repiteult_ci = .
-capture clonevar repiteult_ci = ed11
+capture replace repiteult_ci = ed11
 gen razonesnoasis_ci = .
-capture clonevar razonesnoasis_ci = razonesnoasis
+capture replace razonesnoasis_ci = razonesnoasis
 label var eduui_ci "Tertiary incomplete"
 label var eduuc_ci "Tertiary complete"
 
@@ -343,7 +343,7 @@ replace ynlm_ci = . if ynlm_ci == 0 & missing(edad_ci)
 label var ynlm_ci "Non-labor income (monthly HNL)"
 
 gen remesas_ci = .
-capture gen remesas_ci = (oih12_lps + oih12_lps_esp + oih12_us*`tc' + oih12_us_esp*`tc') / 3
+capture replace remesas_ci =(oih12_lps + oih12_lps_esp + oih12_us*`tc' + oih12_us_esp*`tc') / 3
 replace remesas_ci = 0 if missing(remesas_ci) & !missing(edad_ci)
 replace remesas_ci = . if missing(edad_ci)
 bysort idh_ch: egen remesas_ch = total(remesas_ci)
@@ -370,11 +370,11 @@ replace ln_ci = 2604.48 if zona_c == 0     // rural
 label var ln_ci "Poverty line (HNL per capita/month)"
 
 gen pobre_ine_ci = .
-capture clonevar pobre_ine_ci = pobreza
+capture replace pobre_ine_ci = pobreza
 label var pobre_ine_ci "Poor by INE criterion"
 
 gen bienestar_agregado = .
-capture clonevar bienestar_agregado = yperhg
+capture replace bienestar_agregado = yperhg
 label var bienestar_agregado "Per capita household income (yperhg)"
 
 *------------------------------------------------------------------------------
@@ -409,7 +409,7 @@ order pais_c anio_c mes_c idh_ch idp_ci factor_ci factor_ch ///
       overqualified_ci lpe_ci ln_ci pobre_ine_ci bienestar_agregado ///
       afro_ci ind_ci dis_ci tc_c1
 
-saveold "bases armo/armo/HND/HND_2024m6_BID.dta", replace
+save "bases armo/armo/HND/HND_2024m6_BID.dta", replace
 di "HND_2024m6_BID.dta saved. N = " _N
 
 log close

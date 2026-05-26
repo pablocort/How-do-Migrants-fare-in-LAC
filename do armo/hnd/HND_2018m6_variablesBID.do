@@ -409,7 +409,7 @@ label var ynlm_ci "Non-labor income (monthly HNL)"
 * Remittances
 *------------------------------------------------------------------------------
 gen remesas_ci = .
-capture gen remesas_ci = (oih12_lps + oih12_lps_esp + oih12_us*`tc' + oih12_us_esp*`tc') / 3
+capture replace remesas_ci =(oih12_lps + oih12_lps_esp + oih12_us*`tc' + oih12_us_esp*`tc') / 3
 replace remesas_ci = 0 if missing(remesas_ci)
 replace remesas_ci = . if missing(edad_ci)
 label var remesas_ci "Remittances received (monthly HNL)"

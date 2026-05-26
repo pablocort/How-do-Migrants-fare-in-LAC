@@ -37,7 +37,7 @@ local salmm = 9443.24
 *------------------------------------------------------------------------------
 * depto = department code 1-18 (ine01 is not in 2019 raw data)
 gen region_c = .
-capture clonevar region_c = depto
+capture replace region_c = depto
 label var region_c "Department (depto)"
 
 * domi: 1=Tegucigalpa, 2=San Pedro Sula, 3=Other urban, 4=Rural
@@ -48,7 +48,7 @@ label var zona_c "Urban=1 Rural=0"
 
 * upm_ci = dominio (available in 2019)
 gen upm_ci = .
-capture clonevar upm_ci = dominio
+capture replace upm_ci = dominio
 label var upm_ci "UPM / dominio"
 
 *------------------------------------------------------------------------------
@@ -333,7 +333,7 @@ replace ynlm_ci = . if ynlm_ci == 0 & missing(edad_ci)
 label var ynlm_ci "Non-labor income (monthly HNL)"
 
 gen remesas_ci = .
-capture gen remesas_ci = (oih12_lps + oih12_lps_esp + oih12_us*`tc' + oih12_us_esp*`tc') / 3
+capture replace remesas_ci =(oih12_lps + oih12_lps_esp + oih12_us*`tc' + oih12_us_esp*`tc') / 3
 replace remesas_ci = 0 if missing(remesas_ci)
 replace remesas_ci = . if missing(edad_ci)
 
@@ -386,7 +386,7 @@ order pais_c anio_c mes_c idh_ch idp_ci factor_ci factor_ch ///
       overqualified_ci lpe_ci ln_ci pobre_ine_ci bienestar_agregado ///
       afro_ci ind_ci dis_ci tc_c1
 
-saveold "bases armo/armo/HND/HND_2019m6_BID.dta", replace
+save "bases armo/armo/HND/HND_2019m6_BID.dta", replace
 di "HND_2019m6_BID.dta saved. N = " _N
 
 log close

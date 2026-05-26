@@ -42,7 +42,7 @@ local tc_c1 = 24.50
 *   4=Ciudades pequeñas, 5=Rural
 * Urban = dominio 1, 2, 3 (differs from 2022+ which treats 1-4 as urban)
 gen region_c = .
-capture clonevar region_c = dominio
+capture replace region_c = dominio
 label var region_c "Domain region (1-5)"
 
 gen zona_c = .
@@ -51,7 +51,7 @@ replace zona_c = 0 if inlist(dominio, 4, 5)
 label var zona_c "Urban=1 Rural=0 (1-3=urban in 2021)"
 
 gen upm_ci = .
-capture clonevar upm_ci = dominio
+capture replace upm_ci = dominio
 label var upm_ci "UPM / dominio"
 
 *------------------------------------------------------------------------------
@@ -73,8 +73,8 @@ drop hogar_str nper_str
 *------------------------------------------------------------------------------
 gen factor_ch = .
 gen factor_ci = .
-capture clonevar factor_ch = factor
-capture clonevar factor_ci = factor
+capture replace factor_ch = factor
+capture replace factor_ci = factor
 label var factor_ch "Household expansion factor"
 label var factor_ci "Individual expansion factor"
 
@@ -82,12 +82,12 @@ label var factor_ci "Individual expansion factor"
 * Demographics — 2021 uses ch03/ch04/ch02
 *------------------------------------------------------------------------------
 gen sexo_ci = .
-capture clonevar sexo_ci = ch03
+capture replace sexo_ci = ch03
 replace sexo_ci = . if sexo_ci < 1 | sexo_ci > 2
 label var sexo_ci "Sex: 1=male 2=female"
 
 gen edad_ci = .
-capture clonevar edad_ci = ch04
+capture replace edad_ci = ch04
 replace edad_ci = . if edad_ci < 0 | edad_ci > 120
 label var edad_ci "Age in years"
 
@@ -216,7 +216,7 @@ capture replace edupre_ci = 1 if ed051 == 1
 capture replace edupre_ci = 0 if ed051 == 0 & !missing(edad_ci)
 
 gen asiste_ci = .
-capture clonevar asiste_ci = ed03
+capture replace asiste_ci = ed03
 gen repiteult_ci     = .
 gen razonesnoasis_ci = .
 label var eduui_ci "Tertiary incomplete"
@@ -292,7 +292,7 @@ label var ynlm_ci "Non-labor income (monthly HNL)"
 
 * Remittances — 2021: already monthly (no /3); add USD variants
 gen remesas_ci = .
-capture gen remesas_ci = oih12_lps + oih12_lps_esp + oih12_us*`tc_c1' + oih12_us_esp*`tc_c1'
+capture replace remesas_ci =oih12_lps + oih12_lps_esp + oih12_us*`tc_c1' + oih12_us_esp*`tc_c1'
 replace remesas_ci = 0 if missing(remesas_ci) & !missing(edad_ci)
 replace remesas_ci = . if missing(edad_ci)
 
@@ -342,7 +342,7 @@ order pais_c anio_c mes_c idh_ch idp_ci factor_ci factor_ch ///
       overqualified_ci lpe_ci ln_ci pobre_ine_ci bienestar_agregado ///
       afro_ci ind_ci dis_ci tc_c1
 
-saveold "bases armo/armo/HND/HND_2021m6_BID.dta", replace
+save "bases armo/armo/HND/HND_2021m6_BID.dta", replace
 di "HND_2021m6_BID.dta saved. N = " _N
 
 log close
